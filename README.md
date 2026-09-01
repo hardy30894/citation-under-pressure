@@ -19,20 +19,20 @@ deployment conditions: an unpressured baseline, a citation quota, a
 restriction to pre-1970 authority, a Rule 11 sanctions warning, and all
 three combined. Every citation in the resulting 960 drafts was
 adjudicated deterministically, with no LLM judge anywhere in the
-primary measurements: existence against an 18-million-row reporter
-database, quotation fidelity against a verbatim checker validated on
-seeded faults, and pinpoint pages against true star pagination
-recovered from freely available volume archives. Pressure dismantles
-citation integrity from the bottom of the ladder up. The 30B model
-loses fifteen points of citation existence under combined pressure
-(odds ratio 0.30, p < 0.0001), quotation fidelity degrades
-significantly at every tier except the highest, and in 960 pressured
-drafts no model abstained even once. At the top of the ladder the sign
-reverses: under the full stack of constraints including the sanctions
-warning, the strongest model's quotation fidelity significantly
-improves. A second experiment placed the verifier inside the drafting
-loop. Repair is capability-gated, ranging from no measurable
-improvement at 30B to near-perfect quotation fidelity at the top, and a
+primary measurements.
+
+Pressure dismantles citation integrity from the bottom of the ladder
+up. The 30B model loses fifteen points of citation existence under
+combined pressure (odds ratio 0.30, p < 0.0001), quotation fidelity
+degrades significantly at every tier except the highest, and in 960
+pressured drafts no model abstained even once. At the top of the ladder
+the sign reverses: under the full stack of constraints including the
+sanctions warning, the strongest model's quotation fidelity
+significantly improves.
+
+A second experiment placed the verifier inside the drafting loop.
+Repair is capability-gated, ranging from no measurable improvement at
+30B to near-perfect quotation fidelity at the top, and a
 scrambled-feedback control shows that false-positive verifier flags
 actively corrupt drafts at every tier, most severely for the models
 best at following feedback. What survives at frontier scale is not
@@ -102,6 +102,24 @@ accuracy under this standard. Architecture detail and diagrams are in
 [`docs/DESIGN.md`](docs/DESIGN.md).
 
 ## Results
+
+The two experiments in one picture:
+
+```mermaid
+flowchart LR
+    P["deployment pressure<br/>quotas, date limits,<br/>sanctions warnings"]
+    V["deterministic verifier<br/>inside the drafting loop"]
+    subgraph L["capability ladder"]
+        direction TB
+        F["frontier: unshaken by pressure;<br/>the sanctions warning improves care"]
+        M["mid-tier: citations stay real,<br/>quotation accuracy falls"]
+        S["small: citations fabricated,<br/>quotations collapse, never a refusal"]
+    end
+    P --> L
+    V -->|"repairs almost everything"| F
+    V -->|"repairs partially"| M
+    V -.->|"cannot help"| S
+```
 
 **Experiment 1: pressure breaks integrity from the bottom up, silently.**
 Strict quotation accuracy (verbatim standard; human baseline 0.381) and
