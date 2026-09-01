@@ -1,4 +1,6 @@
-# Citation Under Pressure: What Deployment Constraints Do to Legal Citation Integrity, and What Deterministic Verification Can Repair
+<h1 align="center">Citation Under Pressure</h1>
+
+<h3 align="center"><em>What Deployment Constraints Do to Legal Citation Integrity,<br>and What Deterministic Verification Can Repair</em></h3>
 
 Companion repository for the paper (draft v0.1 in
 [`docs/PAPER_DRAFT.md`](docs/PAPER_DRAFT.md)). Everything here is the
