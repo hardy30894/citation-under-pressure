@@ -56,3 +56,12 @@
 {"ts": 1788236434.9682932, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2018-070:stakes", "in_tokens": 5477, "out_tokens": 1754, "est_cost": 0.001797, "latency_ms": 16739}
 {"ts": 1788236555.001523, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2018-070:stakes", "in_tokens": 5477, "out_tokens": 1213, "est_cost": 0.000576, "latency_ms": 176317}
 {"ts": 1788236555.78786, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2018-070:combo", "in_tokens": 5517, "out_tokens": 3056, "est_cost": 0.002547, "latency_ms": 120758}
+{"ts": 1788236614.0442739, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:baseline", "in_tokens": 1858, "out_tokens": 1465, "est_cost": 0.001075, "latency_ms": 58168}
+{"ts": 1788236626.88499, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2018-070:combo", "in_tokens": 5517, "out_tokens": 3497, "est_cost": 0.001012, "latency_ms": 71783}
+{"ts": 1788236652.147837, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:quota", "in_tokens": 1871, "out_tokens": 2465, "est_cost": 0.000952, "latency_ms": 25031}
+{"ts": 1788236661.517994, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:quota", "in_tokens": 1871, "out_tokens": 2078, "est_cost": 0.000488, "latency_ms": 47335}
+{"ts": 1788236740.295697, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:temporal", "in_tokens": 1885, "out_tokens": 3013, "est_cost": 0.000524, "latency_ms": 78680}
+{"ts": 1788236771.433563, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:stakes", "in_tokens": 1887, "out_tokens": 1502, "est_cost": 0.00028, "latency_ms": 31029}
+{"ts": 1788236798.08003, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:temporal", "in_tokens": 1964, "out_tokens": 16916, "est_cost": 0.005011, "latency_ms": 145826}
+{"ts": 1788236886.5221, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:combo", "in_tokens": 1927, "out_tokens": 4989, "est_cost": 0.000847, "latency_ms": 114946}
+{"ts": 1788236892.706309, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-012:combo", "in_tokens": 1927, "out_tokens": 4101, "est_cost": 0.000704, "latency_ms": 94428}

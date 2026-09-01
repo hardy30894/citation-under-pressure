@@ -10,7 +10,7 @@ cap-exhaustion recorded separately from failure.
 True feedback: one structured line per failed deterministic check
 (nonexistent citation / non-verbatim quote). Scrambled control: same
 number of lines, same templates, but pointing at randomly chosen VERIFIED
-items — informative-looking, content-free. A model that improves under
+items: informative-looking, content-free. A model that improves under
 true but not scrambled feedback is using feedback content; substitution
 that appears only under true feedback is steering to the verifier.
 

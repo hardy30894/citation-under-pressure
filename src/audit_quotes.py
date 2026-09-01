@@ -51,7 +51,7 @@ def main():
     store = OpinionTextStore(DB, cl_token=None, fetch_budget=0)
     qchk = QuoteChecker(index, store, use_mega_corpus=False)
 
-    lines = ["# Quote audit — Sonnet probe (inaccurate verdicts)\n"]
+    lines = ["# Quote audit: Sonnet probe (inaccurate verdicts)\n"]
     n_bad = 0
     for draft_path in sorted(DRAFTS.glob("*.txt")):
         text = draft_path.read_text()

@@ -2,7 +2,7 @@
 """Provisional statistics for H1: cluster bootstrap over matters on the
 re-scored per-draft rows (rescore_full.json). Contrasts every pressure
 condition against baseline, per model, on draft-level existence and
-strict-quote rates. LEDGER NOTE: draft-level and provisional — the
+strict-quote rates. LEDGER NOTE: draft-level and provisional; the
 citation-level mixed-effects model over full records is the paper's
 primary analysis and runs after a records dump; recorded in LEDGER.md."""
 

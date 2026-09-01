@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Paraphrase-robustness comparison: same 12 matters, same conditions,
-alternative phrasings — do the H1 effects hold across surface form?
+alternative phrasings. Do the H1 effects hold across surface form?
 Scores para_* drafts on the local-first chain and prints them beside the
 original-phrasing scores restricted to the same matters."""
 

@@ -2,7 +2,7 @@
 
 Answers the "why are we paying CourtListener's rate cap" question: SCDB has
 no opinion text, but CAP's static volume archives are free, unauthenticated,
-and unrated — static.case.law/{slug}/{vol}.zip — and cover nearly every
+and unrated (static.case.law/{slug}/{vol}.zip) and cover nearly every
 reporter through mid-2018, which is almost every authority these drafts
 cite. CourtListener drops to last resort.
 
@@ -164,6 +164,10 @@ class ChainTextStore:
         self.local = opinion_store
         self.cap = cap_store or CapStore()
 
+    @property
+    def fetch_budget(self):
+        return getattr(self.local, "fetch_budget", 0)
+
     def get(self, cluster_id, volume=None, reporter=None, page=None,
             prefer_full=False):
         text = self.local.get(
@@ -182,7 +186,7 @@ PAGE_LABEL_RE = re.compile(r'page-label[^>]*>\s*\*?(\d+)')
 
 
 def html_pages(html, first_page=None):
-    """Split CAP HTML into {page_number: text} using page-label markers —
+    """Split CAP HTML into {page_number: text} using page-label markers;
     the star-pagination substrate for pincite verification. Text before
     the first label belongs to the case's first page (labels mark page
     BREAKS), so pass first_page to keep it."""

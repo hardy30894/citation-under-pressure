@@ -9,7 +9,7 @@ with its correct citation (must score accurate); one planted with a WRONG
 case's citation named in the signal phrase (attribution must follow the
 named case and score inaccurate there); one word-swap corruption (must not
 score accurate); one wholly fabricated sentence (must not score accurate).
-Also plants a split-quote artifact and a markdown header in quotes — the
+Also plants a split-quote artifact and a markdown header in quotes; the
 extractor must reject both.
 """
 

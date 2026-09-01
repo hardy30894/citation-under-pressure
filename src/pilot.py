@@ -79,7 +79,7 @@ MODELS = {
 }
 # Reasoning models spend completion budget on hidden reasoning before any
 # visible text; a tight cap yields empty completions (same failure the old
-# campaign hit on DeepSeek V4 Pro and gpt-5.4-nano). Give them headroom —
+# campaign hit on DeepSeek V4 Pro and gpt-5.4-nano). Give them headroom;
 # the 900-word instruction bounds the real output, cost tracks actual usage.
 MAX_TOKENS_BY_MODEL = {
     "qwen30b": 1400,

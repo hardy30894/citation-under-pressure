@@ -3,7 +3,7 @@
 
 The token screen (leakage.py) flags quotes whose corpus true-source is
 the argued case itself. But the argued case's opinion CONTAINS the
-record: statute text, the parties' own policies, lower-court language —
+record: statute text, the parties' own policies, lower-court language,
 all of which also sit in the PACKET the model was shown. Quoting those
 and mis-citing them to a precedent is record-misattribution, not
 memorization. A genuine leak must be ABSENT from the packet materials

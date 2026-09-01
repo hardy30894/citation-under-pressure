@@ -40,7 +40,7 @@ def load_clean_excerpts():
 
     Brief-derived entries carry a *.pdf source filename; the 300 Dahl et al.
     entries use bare numeric ids and are dropped. Clean means the
-    list_hallucinations dict is empty — no injected error of any type.
+    list_hallucinations dict is empty, meaning no injected error of any type.
     """
     rows = []
     for split in ("eval", "aux_train"):
@@ -93,7 +93,9 @@ def main():
 
     index = SqliteIndex(DB)
     checker = CitationChecker(index)
-    store = OpinionTextStore(DB, cl_token=load_env_key("COURTLISTENER_TOKEN"), fetch_budget=120)
+    from local_text import ChainTextStore
+    store = ChainTextStore(OpinionTextStore(DB, cl_token=None,
+                                            fetch_budget=0))
 
     per_excerpt = []
     errors = []
@@ -130,7 +132,7 @@ def main():
     ok = [e for e in per_excerpt if not e.get("error")]
     overall = aggregate(per_excerpt, "all_clean", lambda e: True)
     # Oracle-resolved-only: every citation in the excerpt resolved to an
-    # existing case in our index/CourtListener — coverage gaps removed.
+    # existing case in our index/CourtListener, with coverage gaps removed.
     resolved = aggregate(
         per_excerpt,
         "all_citations_exist",

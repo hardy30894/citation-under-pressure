@@ -125,8 +125,8 @@ fabrication. The quotation checker was validated before use on seeded
 faults (planted genuine quotes, wrong attributions, single-word
 corruptions, fabrications, formatting artifacts) at 100 of 100. The
 same instrument scored 482 clean pre-ChatGPT human appellate briefs to
-anchor every comparison: human lawyers reach 0.381 strict quotation
-accuracy under this standard. Architecture detail and diagrams are in
+anchor every comparison: human lawyers reach 0.407 strict quotation
+accuracy under this standard (578 scored quotations). Architecture detail and diagrams are in
 [`docs/DESIGN.md`](docs/DESIGN.md).
 
 ## Results
@@ -150,7 +150,7 @@ flowchart LR
 ```
 
 **Experiment 1: pressure breaks integrity from the bottom up, silently.**
-Strict quotation accuracy (verbatim standard; human baseline 0.381) and
+Strict quotation accuracy (verbatim standard; human baseline 0.407) and
 citation existence, baseline versus the combined-pressure condition.
 Asterisks mark contrasts significant at p < 0.05 in the citation-level
 GEE.

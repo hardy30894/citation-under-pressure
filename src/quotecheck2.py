@@ -83,7 +83,7 @@ def attribute(q, text, cites):
 
     Named attribution is distance-based: the case name nearest the quote
     wins, measuring backwards through the signal phrase and forwards only
-    to the end of the quote's own line — a name in the NEXT sentence must
+    to the end of the quote's own line, because a name in the NEXT sentence must
     not steal the quote (the bug the seeded validation caught)."""
     qend = q["start"] + len(q["quote"])
     before = text[max(0, q["start"] - CTX_BEFORE): q["start"]].lower()

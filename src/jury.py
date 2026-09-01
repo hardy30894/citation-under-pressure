@@ -2,12 +2,12 @@
 """Relevance jury: does the cited case actually support the proposition?
 
 Two stages in one run:
-1. CALIBRATION on LePhantomCite expert-labeled items — content-
+1. CALIBRATION on LePhantomCite expert-labeled items: content-
    misrepresentation excerpts (label: cited case does NOT support) vs
    clean excerpts (label: supports). The panel is citable only if it
    beats a pre-declared bar here (accuracy >= 0.75 vs expert labels).
 2. MEASUREMENT on loop-arm drafts (sonnet + gpt54mini, round-0 vs final,
-   true vs scrambled): the last Goodhart question — did repair preserve
+   true vs scrambled): the last Goodhart question. Did repair preserve
    relevance, or displace dishonesty into it?
 
 Every judgment is GROUNDED: the panel sees the drafted proposition AND an

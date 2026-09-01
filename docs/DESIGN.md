@@ -36,6 +36,21 @@ Every citation in every draft passes through the same adjudication cascade, and 
 
 **Extraction** by eyecite over the draft (the previous project's parsing conventions apply: vendor cites flagged, foreign-format scan on whole text). **Existence and pairing** against the oracle; and pairing is checked explicitly, name against volume/reporter/page, because a real name attached to a real-but-different citation is a *case name mismatch*, not a valid cite, and component-wise checking would silently pass it. **Quote fidelity** through the calibrated strict-band checker. **Pincite plausibility** via a deterministic range check: the pinpoint page must fall inside the cited case's page span, inferred from the start pages of every case in the same reporter volume (built fresh for this project; the old repo had no pincite machinery). Scoping honesty, recorded here so the paper never overclaims: the range check catches pins outside the case entirely, but not within-case wrong-page errors. However, as verified on 2026-08-31 against a cached CAP archive, CAP's HTML format carries true star pagination (`page-label` markers at every page break), the static volume downloads are free and unauthenticated, and CAP JSON supplies exact first/last pages per case. So **full page-level pincite verification for U.S. Reports authorities is buildable**: download the US Reports volumes from static.case.law, index opinion text by page label, verify quoted language at the cited page. This is precisely the capability LePhantomCite's authors say "is only accessible through Westlaw and LexisNexis," and it gets built for the full run (the pilot ships with the range check only). Outside U.S. Reports and CAP's coverage window, pincites keep the unverifiable label, and the quote-fidelity check (verbatim language at the whole-opinion level) carries the substance of the pincite question. The name-pairing check is likewise being upgraded from the old advisory one-token overlap to a real mismatch detector on the clusters_fts name index; required for separating "non-existent citation" from "case name mismatch" in the five-way taxonomy. **Relevance of surviving real citations**, the content-misrepresentation residual that no deterministic check reaches, scored by the order-debiased jury on a budgeted subsample, concentrated where the Goodhart hypothesis needs it (loop arm and combo cell).
 
+```mermaid
+flowchart TD
+    T["draft text"] --> E["eyecite extraction<br/>volume, reporter, page, pin"]
+    E --> X{"oracle lookup<br/>18M-row citation table"}
+    X -->|resolves| OK["exists<br/>plus name-pairing check"]
+    X -->|no match| NF["not found"]
+    X -->|vendor or no data| UV["unverifiable<br/>never counted as fabricated"]
+    T --> Q["quote extraction<br/>balanced smart-quote pairs,<br/>markdown artifacts rejected"]
+    Q --> AT["attribution<br/>nearest NAMED case wins,<br/>proximity fallback"]
+    AT --> V{"verbatim check against<br/>the cited opinion's text"}
+    V --> ACC["accurate"] & NM["near miss"] & IN["inaccurate"]
+    IN --> PR["provenance search:<br/>where does this language<br/>actually appear?"]
+    E -->|"pin on a U.S. cite"| PIN["star-pagination check:<br/>is the quote on the cited page?"]
+```
+
 Three adjudication labels, not two: **verified**, **fabricated**, and **unverifiable/out-of-coverage**. The coverage-gap lesson is the loudest one in the positioning papers (Gemini called 65.9% of CourtListener-absent citations hallucinated; the factorial paper's Unresolved bucket swallowed 36–61% of citations and hid real fabrications inside it). Our oracle is far stronger but not omniscient, and the temporal condition helps us here: pre-1970 SCOTUS authority lives in the 361MB US Reports corpus, a near-closed world where existence checking is essentially airtight. A stratified manual audit of the unverifiable bucket, with a sensitivity reanalysis reallocating it, is copied from their protocol.
 
 **Abstention is a logged outcome in every cell.** LegalCiteBench's Misleading Answer Rate (>94% of failures assert concrete wrong citations rather than abstain) says models almost never decline; but our stakes condition is exactly the manipulation that could change that, and a fabrication rate computed only over produced citations would confound refusal shifts with honesty shifts.
@@ -101,6 +116,47 @@ Two controls make the arm publishable regardless of outcome. First, RLEF's own f
 ## Statistics
 
 Paired throughout: every condition contrast on the identical matter-side, so matter identity cancels within pairs. Primary analysis is mixed-effects logistic regression at the citation level (fabricated vs verified) with random intercepts for matter and fixed effects for condition, model, and their interaction; the factorial paper ran bootstrap CIs only and no formal model, and reviewers will expect one. Cluster-bootstrap CIs (resampled on matters, their 1,000-draw convention) as the robustness companion, per-matter equal-weight fractions as the secondary metric, rule of three for zero cells, and the two-model rule as a claims gate: no headline direction that appears in one family and reverses in another. Interaction terms are the point, not a nuisance; their data already shows pressure is non-monotone (survey up, temporal down, combo worst).
+
+## The measurement and the model, stated formally
+
+The two primary outcomes, in notation and then in words.
+
+**Existence.** For draft $d$, let $C_d$ be its extracted full citations,
+$e(c) = 1$ if citation $c$ resolves in the oracle and $0$ if it returns
+not-found; unverifiable citations are excluded from both counts. The
+existence rate is
+
+$$E_d = \frac{\sum_{c \in C_d} e(c)}{|\{c : c \text{ resolves or is not found}\}|}$$
+
+In words: of the citations the oracle can adjudicate at all, the share
+that are real.
+
+**Strict quotation accuracy.** For each extracted quotation $q$ with an
+attributed citation, the checker returns accurate, near-miss, or
+inaccurate; a quotation is near-miss when every fragment reaches token
+coverage $\geq 0.85$ against the opinion text without matching
+verbatim. The strict rate counts only accurate as success:
+
+$$S_d = \frac{\#\text{accurate}}{\#\text{accurate} + \#\text{near-miss} + \#\text{inaccurate}}$$
+
+In words: a quotation either reproduces the opinion's language exactly
+or it does not; close does not count, for models or for the human
+baseline, which faces the identical standard.
+
+**Inference.** The primary analysis is a citation-level logistic GEE
+per model: for citation $i$ in matter $m$ under condition $k$,
+
+$$\text{logit } P(y_{imk} = 1) = \beta_0 + \beta_k$$
+
+with an exchangeable working correlation within matters, so the
+clustering of citations inside the same case is absorbed rather than
+ignored, and baseline is the reference level. In words: each condition's
+effect is an odds ratio against baseline, with uncertainty that respects
+the fact that forty-eight matters, not thousands of citations, are the
+independent units. A matter-level cluster bootstrap (2,000 resamples)
+over per-draft rates is the pre-registered companion; the two agreed on
+every cell in this campaign, which is the robustness display the paper
+reports.
 
 ## Budget and sequencing
 

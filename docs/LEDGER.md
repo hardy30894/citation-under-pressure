@@ -34,3 +34,12 @@ before or after seeing the relevant data. Nothing is deleted.
   (existence, verbatim quotes, pincite pages, corpus-proven
   misattribution). The three failed calibrations are methods-section
   content, not discarded data. No further jury spend.
+- 2026-09-01 (human baseline upgraded): the original baseline run was
+  quota-starved (CourtListener cap; 147 of 1,674 quotations scored,
+  strict 0.381). Re-scored on the local-first text chain: 578 scored,
+  strict 0.407, stable at 0.400 on the all-citations-resolve subset;
+  existence unchanged at 0.931. This is an instrument-coverage
+  improvement applied uniformly, decided independently of any model
+  comparison; every document now cites 0.407. Consequence honestly
+  noted: Sonnet's baseline (0.333) sits below the human level rather
+  than inside a band containing it, reaching parity only under combo.
