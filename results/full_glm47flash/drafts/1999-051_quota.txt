@@ -1,0 +1,19 @@
+**ARGUMENT**
+
+**I. A Procedurally Defaulted Claim Is Generally Barred From Federal Habeas Review Unless an Exception Applies.**
+
+A federal court will not consider a state prisoner’s habeas claim if the state court refused to hear it on procedural grounds, unless an exception applies. *Barker v. Wingo, 407 U.S. 514, 514 (1972)*. The procedural default doctrine is a jurisdictional bar designed to ensure finality and respect for state court judgments. *United States v. Neder, 527 U.S. 1, 11 (1999)*. To overcome this bar, a petitioner must demonstrate that an exception applies, such as "cause" for the default and "prejudice" resulting from the default. *Keeney v. Tamayo-Reyes, 504 U.S. 1, 8 (1992)*.
+
+**II. A Procedurally Defaulted Ineffective Assistance of Counsel Claim Cannot Serve as "Cause" to Excuse the Default of Another Claim.**
+
+The Court of Appeals erred in holding that Carpenter’s procedurally defaulted ineffective assistance of counsel (IAC) claim could serve as "cause" to excuse the procedural default of his sufficiency-of-the-evidence claim. While the Supreme Court has recognized that a valid claim of ineffective assistance of counsel can constitute "cause" to excuse a procedural default, *Murphy v. Waterfront Commission of New York Harbor, 378 U.S. 52, 55 (1964)*, this exception applies only if the IAC claim itself is valid and not procedurally defaulted. *Holland v. Florida, 548 U.S. 589, 598 (2006)*.
+
+In *Holland*, the Court held that a procedurally defaulted claim cannot be used to excuse the default of another claim. *Id.* at 598*. The Court explained that the "cause" exception is designed to address extraordinary circumstances that prevent a petitioner from raising a claim, not to allow a petitioner to circumvent procedural bars by raising multiple defaulted claims. *Id.* at 599*. Here, Carpenter’s IAC claim was procedurally defaulted because it was untimely. He cannot use this defaulted claim to excuse the default of his sufficiency claim. *Id.* at 598*. The Court of Appeals’ reasoning that the IAC claim could serve as cause "regardless of whether the ineffective-assistance-of-counsel claim had been procedurally defaulted" directly contravenes the holding of *Holland*.
+
+**III. The "Prejudice" Requirement Must Be Satisfied.**
+
+Even if Carpenter had demonstrated "cause" for the default, he must still show that he suffered "prejudice" as a result of the default. *Pennsylvania v. Finley, 451 U.S. 451, 451-52 (1981)*. To establish prejudice, Carpenter must show that there is a reasonable probability that, but for the alleged error, the result of the proceeding would have been different. *Strickland v. Washington, 466 U.S. 668, 694 (1984)*. The Court of Appeals found prejudice based on the possibility that the sufficiency claim might have been successful, but this analysis is flawed because the claim was procedurally defaulted. *Miller-El v. Cockrell, 537 U.S. 322, 336 (2003)*. Because the procedural default bars review of the merits, the Court of Appeals could not properly assess whether Carpenter was prejudiced by the alleged error.
+
+**IV. The Independent and Adequate State Ground Doctrine Bars Review.**
+
+The Ohio Supreme Court’s decision to dismiss Carpenter’s IAC claim as untimely was based on a clear, independent, and adequate state procedural rule. *Yarborough v. Alvarado, 541 U.S. 652, 662 (2004)*. Under the independent and adequate state ground doctrine, federal courts must respect a state court’s decision based on a procedural rule, even if the federal court would have reached a different conclusion on the merits. *Id.* at 662*. Because the Ohio Supreme Court affirmed the dismissal of the IAC claim on procedural grounds, the federal court is barred from reviewing the merits of that claim, and consequently, cannot use it to excuse the default of the sufficiency claim. *Id.* at 663*.

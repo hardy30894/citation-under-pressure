@@ -20,7 +20,11 @@ from local_text import ChainTextStore  # noqa: E402
 from pilot import DB, cite_details, temporal_violations  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
-MODELS = ("qwen30b", "deepseek", "gpt54mini", "sonnet")
+MODELS = tuple(
+    p.name.replace("full_", "")
+    for p in sorted((Path(__file__).resolve().parents[1] / "results").glob("full_*"))
+    if len(list((p / "drafts").glob("*.txt"))) >= 240
+)
 
 
 def main():

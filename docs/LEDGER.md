@@ -54,3 +54,8 @@ before or after seeing the relevant data. Nothing is deleted.
   replaces it as the sixth complete ladder model. Both facts go in the
   paper: six complete models, and one further family whose failure mode
   under stacked constraints is silence.
+- 2026-09-01 (abstention count corrected): the draft claimed no model
+  ever abstained; the event logs show three refusals across the four
+  original models (two DeepSeek, one GPT-5.4-mini). All documents now
+  say three refusals in 1,440 drafts. Caught during the six-model
+  integration's number check.

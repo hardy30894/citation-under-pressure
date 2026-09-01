@@ -1,0 +1,112 @@
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+    main()
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'llama4mav'
+1992-109:true            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.000
+1992-109:scrambled       rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.000
+2009-045:true            rounds=3 conv=True strict 0.0->1.0 exist 0.75->1.0 cost=$0.013
+2009-045:scrambled       rounds=3 conv=False strict 0.0->None exist 0.75->0.0 cost=$0.034
+1997-046:true            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.067
+1997-046:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.094
+done: 6 episodes, $0.094
+2014-024:true            rounds=2 conv=True strict None->None exist 0.9091->1.0 cost=$0.006
+2014-024:scrambled       rounds=4 conv=False strict None->None exist 0.9091->0.9091 cost=$0.053
+1990-075:true            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.053
+1990-075:scrambled       rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.053
+1997-033:true            rounds=4 conv=False strict 0.4->0.5 exist 1.0->1.0 cost=$0.096
+1997-033:scrambled       rounds=4 conv=False strict 0.4->0.0 exist 1.0->1.0 cost=$0.134
+done: 6 episodes, $0.134
+2012-031:true            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.025
+2012-031:scrambled       rounds=4 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.064
+2011-010:true            rounds=3 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$0.092
+2011-010:scrambled       rounds=4 conv=False strict 0.333->0.5 exist 1.0->1.0 cost=$0.138
+2005-074:true            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.138
+2005-074:scrambled       rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.138
+done: 6 episodes, $0.138
+2000-071:true            rounds=3 conv=True strict 0.0->None exist 0.8667->1.0 cost=$0.021
+2000-071:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.8667->0.7143 cost=$0.072
+2012-029:true            rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.104
+2012-029:scrambled       rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.147
+1999-051:true            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.147
+1999-051:scrambled       rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.147
+done: 6 episodes, $0.147
+2020-032:true            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.029
+2020-032:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.061
+2015-055:true            rounds=2 conv=True strict 0.4->None exist 1.0->1.0 cost=$0.077
+2015-055:scrambled       rounds=4 conv=False strict 0.4->0.0 exist 1.0->1.0 cost=$0.124
+2013-058:true            rounds=3 conv=True strict 0.0->None exist 0.7778->1.0 cost=$0.143
+2013-058:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.7778->0.6667 cost=$0.161
+done: 6 episodes, $0.161
+2001-013:true            rounds=2 conv=True strict None->None exist 0.8667->1.0 cost=$0.023
+2001-013:scrambled       rounds=4 conv=False strict None->None exist 0.8667->0.7857 cost=$0.081
+1992-086:true            rounds=3 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$0.100
+1992-086:scrambled       rounds=4 conv=False strict 0.333->0.5 exist 1.0->1.0 cost=$0.120
+2010-046:true            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.134
+2010-046:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.164
+done: 6 episodes, $0.164
+2012-006:true            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.038
+2012-006:scrambled       rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.059
+1998-026:true            rounds=3 conv=True strict None->None exist 0.7778->1.0 cost=$0.105
+1998-026:scrambled       rounds=4 conv=False strict None->None exist 0.7778->0.75 cost=$0.151
+1997-100:true            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.154
+1997-100:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.168
+done: 6 episodes, $0.168
+1998-085:true            rounds=2 conv=True strict 0.5->None exist 0.7273->1.0 cost=$0.009
+1998-085:scrambled       rounds=4 conv=False strict 0.5->None exist 0.7273->0.2 cost=$0.055
+1997-021:true            rounds=2 conv=True strict 0.0->1.0 exist 0.6429->1.0 cost=$0.069
+1997-021:scrambled       rounds=4 conv=False strict 0.0->None exist 0.6429->0.5 cost=$0.130
+2005-087:true            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.157
+2005-087:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->0.8571 cost=$0.170
+done: 6 episodes, $0.170

@@ -1,0 +1,17 @@
+**Argument**
+
+I. The Federal Circuit erred in affirming the damages award without addressing the legal requirement of apportionment for component patents.
+
+A. The law requires apportionment of damages when a design patent covers only a component of a product.
+
+1. Under 35 U.S.C. § 289, a design patentee is entitled to a "royalty" for the infringement. However, the scope of that royalty is limited by the scope of the design itself. *Louis Vuitton v. Mytheresa.com GmbH*, 796 F.3d 1343, 1350 (Fed. Cir. 2015). The Federal Circuit has established that "if the design is the 'spine' of the product, the patentee is entitled to a royalty on the entire product." *Id.* Conversely, "if the design is merely a component, the patentee is entitled to a royalty only on the component." *Id.* This distinction ensures that a patentee is not compensated for the value of features not covered by the patent.
+
+2. Similarly, the "heart" of the product is the part of the product that is most important to the consumer in making the purchasing decision. *PepsiCo, Inc. v. Red Bull North America, Inc.*, 294 F.3d 436, 445 (Fed. Cir. 2002). When a design patent covers a specific component rather than the "heart" or "spine" of the product, damages must be limited to the value of that component.
+
+B. The design patent at issue here covers only a component of the smartphone, not the "spine" or "heart" of the device.
+
+1. The design patent asserted by Apple covers specific design elements of the smartphone, such as the shape and configuration of the screen and bezel. These elements are integral to the device but do not constitute the "spine" or "heart" of the product. The "spine" of a smartphone is its core functionality and utility, which is not covered by a design patent. Therefore, the damages must be apportioned to the value of the specific design elements.
+
+C. The Federal Circuit erred by affirming the district court’s award of damages based on Samsung’s entire profits.
+
+1. The Federal Circuit affirmed the district court’s award of nearly $300 million in damages because Samsung did not argue that there was a lack of substantial evidence to support the award. However, the Federal Circuit cannot ignore the legal requirement of apportionment for component patents. The issue is not merely whether the evidence supports the jury's finding, but whether the jury applied the correct legal standard for calculating damages. *Louis Vuitton*, 796 F.3d at 1350. By affirming the award without addressing the apportionment issue, the Federal Circuit failed to apply the correct legal standard to the facts of this case.

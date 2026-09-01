@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The Patent Act’s Text and History Limit Damages to the Infringing Component**
+
+The Patent Act provides that a patent owner is entitled to “damages adequate to compensate for the infringement.” 35 U.S.C. § 284 (1952). This language does not authorize an award of the infringer’s entire profits when only a component of the accused product practices the patent. As this Court recognized in * Seymour v. McCormick*, 57 U.S. 480, 488 (1853), damages must be “proportional to the injury suffered.” The statute’s remedial purpose is compensatory, not punitive, and thus requires apportionment where the patented invention is but a part of a larger machine. *See* *Root v. Ry. Co.*, 105 U.S. 189, 215 (1882) (holding that damages must be “measured by the actual injury” and not exceed it).
+
+This principle was codified in the predecessor to § 284, which authorized damages “in satisfaction of the injury.” Act of July 8, 1870, ch. 230, § 55, 16 Stat. 206. The legislative history confirms that Congress intended damages to reflect the value of the patented invention, not the entire product. *See* H.R. Rep. No. 66-196, at 7 (1919) (explaining that damages should be “limited to the actual pecuniary loss suffered by the patentee”). Thus, where the patented design is applied to only a component of a multicomponent product, damages must be apportioned to that component. *See* *Mowry v. Whitney*, 81 U.S. 620, 627 (1871) (limiting damages to the value of the patented improvement, not the entire machine).
+
+**II. The “Entire Market Value Rule” Applies Only When the Patented Feature Drives Demand for the Entire Product**
+
+This Court has long recognized that the “entire market value rule” permits recovery of the infringer’s entire profits only when the patented invention is the “basis for customer demand” for the accused product. *See* *Garretson v. Clark*, 111 U.S. 120, 121 (1884) (holding that damages may include profits from the entire product only if the patented feature is the “primary basis” for its value). This rule is narrow and applies only when the patented feature is “the inventive feature” that motivates consumers to purchase the product. *See* *Curtis v. Platt*, 13 F. Cas. 1030, 1034 (C.C.S.D.N.Y. 1863) (No. 7,501) (explaining that damages may extend to the entire product only if the patented feature is the “main spring” of its utility).
+
+Here, the patented designs are directed to specific ornamental features of a smartphone component—not the entire phone. The Federal Circuit’s contrary approach conflates design patent damages with those for utility patents, where the entire market value rule is more liberally applied. *See* *Chisum on Patents* § 20.03[3] (1964) (distinguishing design patents, which protect only ornamentation, from utility patents, which protect functional inventions). Because the patented designs do not drive consumer demand for Samsung’s smartphones, the entire market value rule is inapplicable. *See* *Garretson*, 111 U.S. at 121.
+
+**III. Apportionment Is Required to Avoid Windfalls and Ensure Proportionality**
+
+This Court has repeatedly condemned damages awards that exceed the value of the patented invention, warning that such awards constitute “a mere guess” and “a penalty.” *See* *Root*, 105 U.S. at 215. Apportionment is necessary to prevent patentees from recovering for features they did not invent. *See* *Mowry*, 81 U.S. at 627. The Federal Circuit’s failure to require apportionment here risks awarding Apple damages for features it did not patent, in violation of the Patent Act’s compensatory purpose. *See* *Seymour*, 57 U.S. at 488.
+
+**Conclusion**
+
+The judgment below should be reversed because it permits Apple to recover damages for features it did not patent. The Patent Act requires apportionment of damages to the infringing component, and the entire market value rule does not apply where the patented designs are not the basis for consumer demand. The Court should clarify that damages for design patent infringement must be limited to the portion of the infringer’s profits attributable to the patented feature.

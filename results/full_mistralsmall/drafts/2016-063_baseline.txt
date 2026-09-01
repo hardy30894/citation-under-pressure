@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+I. **THE D.C. CIRCUIT ERRED IN HOLDING THAT KLOECKNER DID NOT OVERRULE POWELL**
+
+The D.C. Circuit’s decision in *Perry v. Merit Sys. Prot. Bd.*, 855 F.3d 890 (D.C. Cir. 2017), rests on a misreading of *Kloeckner v. Solis*, 568 U.S. 41 (2012). The Supreme Court in *Kloeckner* resolved the very question at issue here—whether a Merit Systems Protection Board (MSPB) dismissal of a mixed-case appeal on a procedural ground requires judicial review in district court—and its reasoning necessarily encompasses dismissals for lack of jurisdiction. The D.C. Circuit’s attempt to carve out a jurisdictional exception is unsupported by the statutory text, the Supreme Court’s analysis, or any principled distinction between procedural and jurisdictional dismissals.
+
+A. **The Statutory Text Mandates District-Court Review for All MSPB Dismissals of Mixed Cases**
+
+The Civil Service Reform Act (CSRA) provides that a federal employee who alleges discrimination in an action appealable to the MSPB may seek review in district court. 5 U.S.C. § 7703(b)(2). The statute defines such “mixed cases” as those in which the employee “(A) has been affected by an action which [she] may appeal to the Merit Systems Protection Board, and (B) alleges that a basis for the action was discrimination prohibited by” federal law. 5 U.S.C. § 7702(a)(1). The D.C. Circuit conceded that Perry’s case falls within this definition: he alleged discrimination and challenged an action (his suspension and retirement) that, if involuntary, would be appealable to the MSPB. *Perry*, 855 F.3d at 895–96. The only question is whether the MSPB’s dismissal for lack of jurisdiction changes the forum for review.
+
+The Supreme Court answered this question in *Kloeckner*. There, the Board dismissed Kloeckner’s mixed-case appeal as untimely—a procedural ground. 568 U.S. at 47. The Court held that judicial review lay in district court because Kloeckner had brought a mixed case: she was “affected by an action which [she] may appeal to the MSPB” and alleged discrimination. *Id.* at 604 (quoting 5 U.S.C. § 7702(a)(1)). The Court rejected the argument that the Board’s procedural dismissal altered the statutory command. *Id.* at 603–04.
+
+The D.C. Circuit’s effort to distinguish *Kloeckner* based on the type of dismissal is untenable. The Court did not limit its holding to procedural dismissals; it addressed the question presented: whether a mixed-case appeal dismissed by the Board must be reviewed in district court. *Id.* at 600–01. The Court’s reasoning applies with equal force to jurisdictional dismissals. The statutory text does not differentiate between types of dismissals. It asks only whether the employee was “affected by an action which [she] may appeal to the MSPB” and alleged discrimination. 5 U.S.C. § 7702(a)(1). Perry meets both conditions. The MSPB’s conclusion that his retirement was voluntary does not change the nature of his claim. *SeeKloeckner*, 568 U.S. at 604.
+
+B. **The Supreme Court’s Analysis in *Kloeckner* Forecloses the D.C. Circuit’s Jurisdictional Exception**
+
+The D.C. Circuit relied on dicta suggesting a distinction between procedural and jurisdictional dismissals. *Perry*, 855 F.3d at 899–900 (citing *Harms v. IRS*, 321 F.3d 1001 (10th Cir. 2003); *Downey v. Runyon*, 160 F.3d 139 (2d Cir. 1998)). But the Supreme Court explicitly rejected such a distinction. In *Kloeckner*, the Court noted that the circuits were split on whether procedural dismissals required district-court review, but it did not adopt or even acknowledge a jurisdictional exception. 568 U.S. at 603 & n.3. The Court’s silence on the issue is dispositive: if the Court intended to preserve a jurisdictional exception, it would have said so. *See id.* at 600–04.
+
+Moreover, the Court’s reasoning in *Kloeckner* applies equally to jurisdictional dismissals. The Court explained that the CSRA’s text “makes clear that the employee must seek review in district court when the Board has dismissed a mixed case.” *Id.* at 604. The Court rejected the argument that the Board’s dismissal—whether procedural or jurisdictional—alters the statutory command. *Id.* The D.C. Circuit’s attempt to revive *Powell* ignores this holding. *SeePerry*, 855 F.3d at 899–900.
+
+C. **There Is No Principled Basis for Distinguishing Between Procedural and Jurisdictional Dismissals**
+
+The D.C. Circuit suggested that jurisdictional dismissals differ because the action was never “appealable to the MSPB.” *Perry*, 855 F.3d at 900 (quoting 5 U.S.C. § 7702(a)(1)(A)). But this distinction is illusory. The CSRA’s text does not require that the MSPB *ultimately* conclude the action is appealable; it requires only that the employee allege that the action *may* be appealable and that discrimination was a basis for it. 5 U.S.C. § 7702(a)(1). Perry’s allegations met this standard. The MSPB’s conclusion that his retirement was voluntary does not change the nature of his claim. *SeeKloeckner*, 568 U.S. at 604.
+
+The D.C. Circuit also relied on the Board’s authority to waive procedural errors but not jurisdictional ones. *Perry*, 855 F.3d at 900–01 (citing 5 C.F.R. §§ 1201.12, 1201.22(c)). But this distinction is irrelevant to the statutory command. The CSRA directs that mixed cases be reviewed in district court regardless of the MSPB’s ultimate jurisdictional determination. 5 U.S.C. § 7703(b)(2). The Board’s inability to waive a jurisdictional defect does not alter the forum for review.
+
+II. **THE D.C. CIRCUIT’S HOLDING CONFLICTS WITH THE FEDERAL CIRCUIT’S REASONING IN *CONFORT0***
+
+The Federal Circuit has rejected the argument that jurisdictional dismissals require Federal Circuit review. In *Conforto v. Merit Sys. Prot. Bd.*, 713 F.3d 1113 (Fed. Cir. 2013), the court held that *Kloeckner* resolved the question in favor of district-court review for all mixed-case appeals dismissed by the MSPB, regardless of the ground for dismissal. *Id.* at 1118 n.1. The court explained that the CSRA’s text “makes no distinction between the type of dismissal,” and that *Kloeckner* foreclosed any such distinction. *Id.* The D.C. Circuit’s contrary holding creates a circuit split and should be reversed.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should hold that the D.C. Circuit erred in transferring Perry’s case to the Federal Circuit. The Supreme Court’s decision in *Kloeckner* requires that mixed-case appeals dismissed by the MSPB—whether on procedural or jurisdictional grounds—be reviewed in district court. The judgment below should be reversed, and the case remanded for further proceedings consistent with this opinion.

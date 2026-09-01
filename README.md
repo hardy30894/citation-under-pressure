@@ -40,20 +40,20 @@ and it produces every primary number in the paper.
 Language models fabricate legal citations, and the failures that reach
 courtrooms have so far been studied mainly after the fact, through
 detection benchmarks and sanctions dockets. We study the production
-side. Four models spanning a capability ladder, from a 30B open-weight
-model to two frontier systems, each drafted merits-brief argument
+side. Six models spanning a capability ladder across six vendors, from 30B
+open-weight to frontier, each drafted merits-brief argument
 sections for 48 leakage-screened U.S. Supreme Court matters under five
 deployment conditions: an unpressured baseline, a citation quota, a
 restriction to pre-1970 authority, a Rule 11 sanctions warning, and all
-three combined. Every citation in the resulting 960 drafts was
+three combined. Every citation in the resulting 1,440 drafts was
 adjudicated deterministically, with no LLM judge anywhere in the
 primary measurements.
 
 Pressure dismantles citation integrity from the bottom of the ladder
 up. The 30B model loses fifteen points of citation existence under
 combined pressure (odds ratio 0.30, p < 0.0001), quotation fidelity
-degrades significantly at every tier except the highest, and in 960
-pressured drafts no model abstained even once. At the top of the ladder
+degrades significantly at every tier except the highest, and models
+refused the task three times in 1,440 pressured drafts. At the top of the ladder
 the sign reverses: under the full stack of constraints including the
 sanctions warning, the strongest model's quotation fidelity
 significantly improves.
@@ -95,8 +95,9 @@ The full pre-registration is [`docs/HYPOTHESES.md`](docs/HYPOTHESES.md)
 48 Supreme Court matters (1990 to 2020), each a leakage-screened packet
 holding the question presented, the facts, and a lower-court opinion
 excerpt, with the Supreme Court's own decision excluded. Each matter is
-argued from an assigned side by four models (Qwen3-30B-A3B, DeepSeek V4
-Flash, GPT-5.4-mini, Claude Sonnet 5) at temperature 0, under five
+argued from an assigned side by six models, one per vendor (Qwen3-30B,
+Mistral Small, Llama-4 Maverick, DeepSeek V4 Flash, GPT-5.4-mini,
+Claude Sonnet 5) at temperature 0, under five
 conditions:
 
 | condition | added instruction |
@@ -110,8 +111,8 @@ conditions:
 ```mermaid
 flowchart LR
     P["48 matters<br/>(leakage-screened packets)"] --> C["5 conditions"]
-    C --> M["4 models"]
-    M --> D["960 drafts"]
+    C --> M["6 models"]
+    M --> D["1,440 drafts"]
     D --> A["deterministic adjudication<br/>existence, verbatim quotes,<br/>page-level pincites"]
     A --> H1["Experiment 1: pressure effects<br/>(citation-level GEE, clustered by matter)"]
     D -->|combo drafts| L["verifier loop, 3 rounds max<br/>true vs scrambled feedback"]
@@ -159,6 +160,8 @@ p-value is below 0.05.
 | model | quotes: baseline | quotes: combo | citations exist: baseline | citations exist: combo | temporal violations |
 |---|---|---|---|---|---|
 | Qwen3-30B | 0.175 | 0.072 * | 0.924 | 0.773 * | ~20% |
+| Mistral Small | 0.207 | 0.136 | 0.901 | 0.868 | 35 to 37% |
+| Llama-4 Maverick | 0.402 | 0.180 * | 0.958 | 0.939 | ~10% |
 | DeepSeek V4 Flash | 0.281 | 0.120 * | 0.972 | 0.959 | 7 to 11% |
 | GPT-5.4-mini | 0.460 | 0.294 * | 0.981 | 0.962 | 13% |
 | Sonnet 5 | 0.333 | **0.427 \*** | 0.991 | **0.998 \*** | 1 of 802 |
@@ -169,10 +172,10 @@ Fabricated citations appear only in the top row. Quotation accuracy
 falls significantly in every row except the last, where it
 significantly *rises*: the sanctions warning that damages or fails to
 move every other model makes the strongest one more careful. Compliance
-with the pre-1970 rule follows the same ladder, from one violation in
-five down to one in eight hundred. And across all 960 pressured drafts
-there was exactly one refusal; every other degradation happened
-without a word of warning.
+with the pre-1970 rule broadly follows the same ladder, from one
+violation in three (Mistral, the exception) down to one in eight
+hundred. And across all 1,440 pressured drafts there were three
+refusals; every other degradation happened without a word of warning.
 
 ### Finding 2. The verifier repairs only the models that least need it, and false warnings poison every model
 
@@ -184,6 +187,8 @@ items that are actually correct.
 | model | true feedback | scrambled feedback | converged |
 |---|---|---|---|
 | Qwen3-30B | 0.103 → 0.112 | 0.103 → 0.097 | 0 of 24 |
+| Mistral Small | 0.208 → 0.264 | 0.208 → 0.122 | 9 of 24 |
+| Llama-4 Maverick | 0.176 → 0.349 | 0.176 → 0.188 | 21 of 24 |
 | DeepSeek V4 Flash | 0.181 → 0.645 | 0.181 → 0.153 | 21 of 24 |
 | GPT-5.4-mini | 0.360 → 0.719 | 0.360 → 0.241 | 22 of 24 |
 | Sonnet 5 | 0.471 → **0.974** | 0.471 → 0.266 | 23 of 24 |

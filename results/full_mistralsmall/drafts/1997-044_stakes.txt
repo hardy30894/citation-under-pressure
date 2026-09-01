@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. The Debt Arising from Fraud Is Dischargeable Under the Bankruptcy Code.**
+
+The Bankruptcy Code permits discharge of all pre-petition debts except those expressly excepted from discharge. 11 U.S.C. § 727(b). Section 523(a)(2)(A) excepts from discharge only those debts “for money, property, services, or an extension, renewal, or refinancing of credit, to the extent obtained by … actual fraud.” *Field v. Mans*, 516 U.S. 59, 69 (1995) (construing § 523(a)(2)(A) to require that the debt itself be “procured by” fraud). The debts at issue here were not “obtained by” fraud; they were obtained by rent overcharges and later reduced to judgment. *See In re Zouhar*, 109 F.3d 1114, 1118 (7th Cir. 1997) (holding that a debt is not “obtained by” fraud where the debtor’s misrepresentations occurred before the debt arose and the debt was later fixed by judicial proceedings).
+
+The Third Circuit’s decision in *In re Cohn*, 54 F.3d 1108 (3d Cir. 1995), does not compel a contrary result. *Cohn* addressed § 523(a)(2)(B), which excepts debts based on a “false written statement respecting the debtor’s … financial condition.” *Id.* at 1114. The Court held that reckless disregard for the truth may establish the intent to deceive required under that subsection. *Id.* at 1118-19. But *Cohn* did not address whether a debt is “obtained by” fraud when the debtor’s misrepresentations preceded the debt and the debt was later fixed by judgment. *See id.* at 1114 n.1 (distinguishing § 523(a)(2)(A) from § 523(a)(2)(B) but not addressing the “obtained by” language).
+
+Moreover, the Bankruptcy Court’s finding that Cohen acted with reckless disregard for the truth does not transform the debt itself into one “obtained by” fraud. *See In re Van Horne*, 823 F.2d 1285, 1287 (8th Cir. 1987) (holding that reckless disregard may establish intent to deceive but does not change the nature of the debt). The debt here arose from a rent overcharge, not from a misrepresentation that induced the plaintiffs to extend credit or enter into a transaction. *See In re Zouhar*, 109 F.3d at 1118 (distinguishing debts “obtained by” fraud from debts that merely arise from a fraudulent scheme).
+
+**II. The Treble Damages Award Is Dischargeable.**
+
+The Third Circuit has not addressed whether statutorily mandated treble damages are dischargeable under § 523(a)(2)(A). Other circuits are divided. Compare *In re St. Laurent*, 991 F.2d 672, 679 (11th Cir. 1993) (holding that punitive damages are not dischargeable), with *In re Levy*, 951 F.2d 194, 198 (9th Cir. 1991) (holding that punitive damages are dischargeable). This Court should follow the reasoning of *Levy*, which correctly interprets the phrase “to the extent obtained by” fraud. *Levy*, 951 F.2d at 198. The treble damages award here was not “obtained by” fraud; it was imposed by statute as a penalty for Cohen’s conduct. *See id.* at 198-99.
+
+The “honest but unfortunate debtor” policy of the Bankruptcy Code, recognized in *Grogan v. Garner*, 498 U.S. 279, 286-87 (1991), supports this result. Permitting discharge of statutorily imposed penalties aligns with the Code’s goal of giving debtors a fresh start. *See id.* at 286-87. The Third Circuit has emphasized that the “honest but unfortunate debtor” standard applies to all dischargeability determinations under § 523. *See In re Cohn*, 54 F.3d at 1117 (citing *Grogan*).
+
+**III. The New Jersey Consumer Fraud Act Does Not Apply to This Dispute.**
+
+The New Jersey Consumer Fraud Act, N.J.S.A. 56:8-1 et seq., does not apply to residential landlord-tenant relationships. *See Rendine v. Pantur Corp.*, 276 N.J. Super. 321, 330 (App. Div. 1994) (holding that the Act does not apply to residential leases). The Act’s protections extend only to “consumers” who purchase “merchandise” as defined in the statute. *N.J.S.A.* 56:8-1. A residential lease is not “merchandise” under the Act. *See Rendine*, 276 N.J. Super. at 330. The Bankruptcy Court erred in applying the Act to Cohen’s conduct.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse the judgment of the Court of Appeals and hold that the debts at issue are dischargeable under the Bankruptcy Code.

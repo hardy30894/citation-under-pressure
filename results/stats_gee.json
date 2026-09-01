@@ -1,130 +1,194 @@
 {
- "citation:qwen30b:quota": {
-  "logOR": -0.5878,
-  "p": 0.00013
- },
- "citation:qwen30b:temporal": {
-  "logOR": -0.798,
-  "p": 0.00166
- },
- "citation:qwen30b:stakes": {
-  "logOR": -0.4359,
-  "p": 0.02546
- },
- "citation:qwen30b:combo": {
-  "logOR": -1.192,
-  "p": 1e-05
- },
  "citation:deepseek:quota": {
-  "logOR": -0.4545,
+  "OR": 0.635,
   "p": 0.13588
  },
  "citation:deepseek:temporal": {
-  "logOR": -0.4785,
+  "OR": 0.62,
   "p": 0.26848
  },
  "citation:deepseek:stakes": {
-  "logOR": -0.095,
+  "OR": 0.909,
   "p": 0.83076
  },
  "citation:deepseek:combo": {
-  "logOR": -0.2393,
+  "OR": 0.787,
   "p": 0.57604
  },
  "citation:gpt54mini:quota": {
-  "logOR": 0.0651,
+  "OR": 1.067,
   "p": 0.87807
  },
  "citation:gpt54mini:temporal": {
-  "logOR": -0.7101,
+  "OR": 0.492,
   "p": 0.11326
  },
  "citation:gpt54mini:stakes": {
-  "logOR": -0.0267,
+  "OR": 0.974,
   "p": 0.94135
  },
  "citation:gpt54mini:combo": {
-  "logOR": -0.6054,
+  "OR": 0.546,
   "p": 0.08354
  },
+ "citation:llama4mav:quota": {
+  "OR": 1.539,
+  "p": 0.2071
+ },
+ "citation:llama4mav:temporal": {
+  "OR": 0.726,
+  "p": 0.49539
+ },
+ "citation:llama4mav:stakes": {
+  "OR": 0.898,
+  "p": 0.82622
+ },
+ "citation:llama4mav:combo": {
+  "OR": 0.696,
+  "p": 0.33135
+ },
+ "citation:mistralsmall:quota": {
+  "OR": 1.41,
+  "p": 0.08255
+ },
+ "citation:mistralsmall:temporal": {
+  "OR": 0.678,
+  "p": 0.05751
+ },
+ "citation:mistralsmall:stakes": {
+  "OR": 1.272,
+  "p": 0.37478
+ },
+ "citation:mistralsmall:combo": {
+  "OR": 0.746,
+  "p": 0.16489
+ },
+ "citation:qwen30b:quota": {
+  "OR": 0.556,
+  "p": 0.00013
+ },
+ "citation:qwen30b:temporal": {
+  "OR": 0.45,
+  "p": 0.00166
+ },
+ "citation:qwen30b:stakes": {
+  "OR": 0.647,
+  "p": 0.02546
+ },
+ "citation:qwen30b:combo": {
+  "OR": 0.304,
+  "p": 1e-05
+ },
  "citation:sonnet:quota": {
-  "logOR": -0.4482,
+  "OR": 0.639,
   "p": 0.3345
  },
  "citation:sonnet:temporal": {
-  "logOR": 0.6532,
+  "OR": 1.922,
   "p": 0.09416
  },
  "citation:sonnet:stakes": {
-  "logOR": 0.1819,
+  "OR": 1.199,
   "p": 0.6722
  },
  "citation:sonnet:combo": {
-  "logOR": 1.5165,
+  "OR": 4.556,
   "p": 0.03358
  },
- "quote:qwen30b:quota": {
-  "logOR": -0.1302,
-  "p": 0.35704
- },
- "quote:qwen30b:temporal": {
-  "logOR": -0.8087,
-  "p": 0.0022
- },
- "quote:qwen30b:stakes": {
-  "logOR": -0.2488,
-  "p": 0.29604
- },
- "quote:qwen30b:combo": {
-  "logOR": -1.0498,
-  "p": 0.0
- },
  "quote:deepseek:quota": {
-  "logOR": -0.0405,
+  "OR": 0.96,
   "p": 0.81746
  },
  "quote:deepseek:temporal": {
-  "logOR": -0.4886,
+  "OR": 0.613,
   "p": 0.02513
  },
  "quote:deepseek:stakes": {
-  "logOR": -0.0393,
+  "OR": 0.961,
   "p": 0.84626
  },
  "quote:deepseek:combo": {
-  "logOR": -0.9483,
+  "OR": 0.387,
   "p": 0.0
  },
  "quote:gpt54mini:quota": {
-  "logOR": -0.0437,
+  "OR": 0.957,
   "p": 0.85642
  },
  "quote:gpt54mini:temporal": {
-  "logOR": -0.6012,
+  "OR": 0.548,
   "p": 0.04877
  },
  "quote:gpt54mini:stakes": {
-  "logOR": -0.1682,
+  "OR": 0.845,
   "p": 0.43742
  },
  "quote:gpt54mini:combo": {
-  "logOR": -0.7869,
+  "OR": 0.455,
   "p": 0.02335
  },
+ "quote:llama4mav:quota": {
+  "OR": 0.69,
+  "p": 0.09142
+ },
+ "quote:llama4mav:temporal": {
+  "OR": 0.2,
+  "p": 1e-05
+ },
+ "quote:llama4mav:stakes": {
+  "OR": 0.874,
+  "p": 0.60517
+ },
+ "quote:llama4mav:combo": {
+  "OR": 0.262,
+  "p": 5e-05
+ },
+ "quote:mistralsmall:quota": {
+  "OR": 1.42,
+  "p": 0.11275
+ },
+ "quote:mistralsmall:temporal": {
+  "OR": 0.502,
+  "p": 0.00749
+ },
+ "quote:mistralsmall:stakes": {
+  "OR": 0.826,
+  "p": 0.42767
+ },
+ "quote:mistralsmall:combo": {
+  "OR": 0.665,
+  "p": 0.12544
+ },
+ "quote:qwen30b:quota": {
+  "OR": 0.878,
+  "p": 0.35704
+ },
+ "quote:qwen30b:temporal": {
+  "OR": 0.445,
+  "p": 0.0022
+ },
+ "quote:qwen30b:stakes": {
+  "OR": 0.78,
+  "p": 0.29604
+ },
+ "quote:qwen30b:combo": {
+  "OR": 0.35,
+  "p": 0.0
+ },
  "quote:sonnet:quota": {
-  "logOR": -0.007,
+  "OR": 0.993,
   "p": 0.95895
  },
  "quote:sonnet:temporal": {
-  "logOR": 0.1449,
+  "OR": 1.156,
   "p": 0.38007
  },
  "quote:sonnet:stakes": {
-  "logOR": 0.247,
+  "OR": 1.28,
   "p": 0.16478
  },
  "quote:sonnet:combo": {
-  "logOR": 0.3886,
+  "OR": 1.475,
   "p": 0.02918
  }
 }

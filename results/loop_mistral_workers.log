@@ -1,0 +1,112 @@
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 219, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 130, in main
+    budget_ceiling=LOOP_BUDGET[args.model], **MODELS[args.model],
+                   ~~~~~~~~~~~^^^^^^^^^^^^
+KeyError: 'mistralsmall'
+1992-109:true            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.000
+1992-109:scrambled       rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.000
+2009-045:true            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.000
+2009-045:scrambled       rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.000
+1997-046:true            rounds=4 conv=False strict 0.167->0.2 exist 1.0->1.0 cost=$0.038
+1997-046:scrambled       rounds=4 conv=False strict 0.167->0.0 exist 1.0->1.0 cost=$0.069
+done: 6 episodes, $0.069
+2012-006:true            rounds=2 conv=True strict None->None exist 0.9091->1.0 cost=$0.002
+2012-006:scrambled       rounds=4 conv=False strict None->None exist 0.9091->0.9091 cost=$0.034
+1998-026:true            rounds=4 conv=False strict 0.111->0.091 exist 0.8667->0.9333 cost=$0.059
+1998-026:scrambled       rounds=4 conv=False strict 0.111->0.0 exist 0.8667->0.8333 cost=$0.089
+1997-100:true            rounds=4 conv=True strict 1.0->1.0 exist 0.875->1.0 cost=$0.111
+1997-100:scrambled       rounds=4 conv=False strict 1.0->0.5 exist 0.875->0.875 cost=$0.147
+done: 6 episodes, $0.147
+2000-071:true            rounds=4 conv=False strict 0.048->0.091 exist 1.0->1.0 cost=$0.035
+2000-071:scrambled       rounds=4 conv=False strict 0.048->0.238 exist 1.0->0.9091 cost=$0.077
+2012-029:true            rounds=4 conv=False strict 0.5->0.5 exist 1.0->1.0 cost=$0.103
+2012-029:scrambled       rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$0.137
+1999-051:true            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.145
+1999-051:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.161
+done: 6 episodes, $0.161
+2020-032:true            rounds=3 conv=True strict None->None exist 0.9231->1.0 cost=$0.022
+2020-032:scrambled       rounds=4 conv=False strict None->None exist 0.9231->0.9231 cost=$0.053
+2015-055:true            rounds=4 conv=False strict 0.2->0.143 exist 0.8889->1.0 cost=$0.080
+2015-055:scrambled       rounds=4 conv=False strict 0.2->0.0 exist 0.8889->1.0 cost=$0.104
+2013-058:true            rounds=4 conv=False strict 0.0->0.0 exist 0.7647->1.0 cost=$0.140
+2013-058:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.7647->0.7333 cost=$0.166
+done: 6 episodes, $0.166
+2014-024:true            rounds=4 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.032
+2014-024:scrambled       rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.048
+1990-075:true            rounds=4 conv=False strict 0.5->0.6 exist 0.9->1.0 cost=$0.078
+1990-075:scrambled       rounds=4 conv=False strict 0.5->0.286 exist 0.9->0.8 cost=$0.100
+1997-033:true            rounds=4 conv=False strict 0.0->0.0 exist 0.9444->1.0 cost=$0.139
+1997-033:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.9444->0.8824 cost=$0.167
+done: 6 episodes, $0.167
+2012-031:true            rounds=3 conv=True strict None->None exist 0.8333->1.0 cost=$0.018
+2012-031:scrambled       rounds=4 conv=False strict None->0.0 exist 0.8333->0.8 cost=$0.045
+2011-010:true            rounds=4 conv=False strict 0.25->0.125 exist 0.9333->1.0 cost=$0.081
+2011-010:scrambled       rounds=4 conv=False strict 0.25->0.1 exist 0.9333->0.875 cost=$0.120
+2005-074:true            rounds=4 conv=False strict 0.333->0.333 exist 0.4444->0.4444 cost=$0.149
+2005-074:scrambled       rounds=4 conv=False strict 0.333->None exist 0.4444->0.1818 cost=$0.168
+done: 6 episodes, $0.168
+1998-085:true            rounds=4 conv=False strict 0.0->0.0 exist 0.6364->0.8182 cost=$0.040
+1998-085:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.6364->0.5455 cost=$0.074
+1997-021:true            rounds=4 conv=False strict 0.0->0.167 exist 0.8333->1.0 cost=$0.101
+1997-021:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.8333->0.8667 cost=$0.134
+2005-087:true            rounds=4 conv=True strict 0.25->1.0 exist 0.8333->1.0 cost=$0.154
+2005-087:scrambled       rounds=4 conv=False strict 0.25->0.2 exist 0.8333->0.6154 cost=$0.169
+done: 6 episodes, $0.169
+2001-013:true            rounds=4 conv=False strict 0.0->0.0 exist 0.625->0.8571 cost=$0.042
+2001-013:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.625->0.375 cost=$0.077
+1992-086:true            rounds=4 conv=False strict 0.125->0.286 exist 0.9167->1.0 cost=$0.100
+1992-086:scrambled       rounds=4 conv=False strict 0.125->0.125 exist 0.9167->1.0 cost=$0.129
+2010-046:true            rounds=4 conv=False strict 0.0->0.111 exist 0.9091->1.0 cost=$0.157
+2010-046:scrambled       rounds=4 conv=False strict 0.0->0.0 exist 0.9091->0.9 cost=$0.172
+done: 6 episodes, $0.172

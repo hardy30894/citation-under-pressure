@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+**I. The Ninth Circuit Correctly Held That “Actual Knowledge” Under ERISA § 1113(2) Requires Knowledge That The Alleged Breach Occurred And That It Was A Violation Of ERISA.**
+
+The plain text of ERISA § 1113(2) provides that an action “may not be commenced ... more than three years after the earliest date on which the plaintiff had actual knowledge of the breach or violation.” 29 U.S.C. § 1113(2) (emphasis added). The Ninth Circuit correctly interpreted this provision to require knowledge of two distinct facts: (1) that the fiduciary engaged in the challenged conduct, and (2) that the conduct constituted a breach of ERISA’s fiduciary duties. *Sulyma v. Intel Corp. Investment Policy Comm.*, 927 F.3d 1051, 1057 (9th Cir. 2019) (“Sulyma I”).
+
+This interpretation is consistent with the Supreme Court’s guidance in *Tibble v. Edison Int’l*, 575 U.S. 523 (2015), which emphasized that ERISA’s limitations provisions are triggered by knowledge of the alleged breach, not merely knowledge of the underlying transaction. *Id.* at 530. The Ninth Circuit’s holding also aligns with this Court’s decision in *Heimeshoff v. Hartford Life & Acc. Ins. Co.*, 571 U.S. 99, 108 (2013), which recognized that ERISA’s limitations scheme is designed to protect both fiduciaries and beneficiaries by providing certainty through clear accrual rules. *See also Conkright v. Frommert*, 559 U.S. 506, 517 (2010) (noting that ERISA’s limitations provisions are “part of the ‘careful balancing’ Congress intended”).
+
+The Ninth Circuit’s construction is further supported by the legislative history of § 1113. As the Ninth Circuit explained, Congress repealed the constructive knowledge provision in 1987, leaving only the actual knowledge requirement. *Sulyma I*, 927 F.3d at 1061 (citing Omnibus Budget Reconciliation Act of 1987, Pub. L. No. 100-203, § 9342(b), 101 Stat. 1330). This change underscores that Congress intended to require actual, subjective awareness of the breach—not merely access to information that could have revealed it. *Id.* at 1061-62.
+
+**II. The Ninth Circuit Properly Rejected Intel’s Argument That “Actual Knowledge” Can Be Inferred From Disclosures Alone.**
+
+Intel contends that Sulyma’s receipt of fund fact sheets, disclosures, and other documents containing information about the challenged investments was sufficient to establish “actual knowledge” under § 1113(2). This argument misreads the statute and ignores the Ninth Circuit’s well-reasoned analysis.
+
+The Ninth Circuit correctly held that “actual knowledge” requires more than constructive notice or access to information. *Sulyma I*, 927 F.3d at 1062-63. The court distinguished between knowledge of the underlying transaction and knowledge that the transaction constituted a breach of ERISA’s fiduciary duties. *Id.* at 1057. As the Ninth Circuit explained, “[a] plaintiff’s failure to read or recall the disclosures does not equate to actual knowledge of the breach.” *Id.* at 1063.
+
+This interpretation is consistent with this Court’s decision in *Merritt v. Chevron Corp.*, 582 F.3d 1072 (9th Cir. 2009), which held that actual knowledge requires “a subjective awareness of both the existence of the alleged breach and the fact that it was wrongful.” *Id.* at 1077. The Ninth Circuit’s holding in *Sulyma I* is also supported by *Boggs v. James*, 520 F.3d 578 (6th Cir. 2008), which held that actual knowledge under § 1113(2) requires “awareness of the alleged breach, not merely awareness of the underlying facts.” *Id.* at 587.
+
+**III. The Ninth Circuit Correctly Held That There Was A Genuine Dispute Of Material Fact Precluding Summary Judgment.**
+
+The district court erred by granting summary judgment in favor of Intel because Sulyma presented evidence that he did not recall seeing or reading the disclosures, and thus lacked actual knowledge of the alleged breach. *Sulyma I*, 927 F.3d at 1063. The Ninth Circuit properly held that this evidence created a genuine dispute of material fact that precluded summary judgment. *Id.*
+
+This Court has repeatedly recognized that summary judgment is inappropriate where the record contains evidence from which a reasonable jury could find in favor of the nonmoving party. *Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 248 (1986). Here, Sulyma testified that he was unaware of the challenged investments and did not recall seeing the disclosures. *Sulyma I*, 927 F.3d at 1055. This evidence, if credited by a jury, would preclude a finding of actual knowledge under § 1113(2). *Id.* at 1063.
+
+**IV. The Ninth Circuit’s Holding Does Not Undermine ERISA’s Policy Of Protecting Retirement Savings.**
+
+Intel warns that the Ninth Circuit’s holding will encourage beneficiaries to ignore disclosures and thereby undermine ERISA’s policy of protecting retirement savings. This concern is unfounded. The Ninth Circuit’s decision does not absolve beneficiaries of their duty to review plan disclosures; it merely requires that the limitations period not begin to run until the beneficiary actually knows of the breach. *Sulyma I*, 927 F.3d at 1063.
+
+This interpretation is consistent with ERISA’s goal of protecting beneficiaries by ensuring that they have a meaningful opportunity to seek redress for fiduciary breaches. *See Massachusetts Mut. Life Ins. Co. v. Russell*, 473 U.S. 134, 147 (1985) (noting that ERISA’s limitations provisions are designed to balance the interests of fiduciaries and beneficiaries). The Ninth Circuit’s holding preserves this balance by requiring actual knowledge before the limitations period begins to run. *Sulyma I*, 927 F.3d at 1063.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should affirm the Ninth Circuit’s decision. The judgment below correctly interpreted ERISA § 1113(2) to require actual knowledge of both the alleged breach and its wrongfulness, and it properly held that there was a genuine dispute of material fact precluding summary judgment.

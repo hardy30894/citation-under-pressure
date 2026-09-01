@@ -1,0 +1,13 @@
+**ARGUMENT**
+
+I.  The FDCPA distinguishes debt collectors from creditors based on whether the entity collects for its own account or for another, not on the default status of the debt.
+
+The FDCPA defines a "debt collector" as a person who "regularly collects or attempts to collect, directly or indirectly, debts owed or due or asserted to be owed or due another." 15 U.S.C. § 1692a(6). This definition focuses on the relationship between the collector and the creditor at the time of collection. See *Heintz v. Jenkins*, 514 U.S. 291, 293 (1995) (quoting § 1692a(6)). Conversely, a "creditor" is a person to whom the debt is owed. 15 U.S.C. § 1692a(4). When a creditor collects its own debt for its own account, it is not acting as a debt collector. See *Heintz*, 514 U.S. at 293. Here, Santander purchased the defaulted loans from CitiFinancial and subsequently collected the debts for its own account. Therefore, Santander was a creditor, not a debt collector, at the time of the alleged violations.
+
+II.  The statutory structure of § 1692a(6) requires determining if a person fits a definition *before* applying exclusions.
+
+The Appellants attempt to use the exclusions in § 1692a(6) to create a "mutually exclusive" rule, but this misreads the statute. The statute first defines who is a debt collector, and only then excludes certain classes of persons. See *Davidson v. Capital One Bank (USA), N.A.*, 797 F.3d 1309, 1314 (11th Cir. 2015) ("[W]here a person does not fall within subsection (F) or any one of the six statutory exclusions, he is not deemed a ‘debt collector’ as a matter of course"). The exclusion in § 1692a(6)(F)(iii) applies only to those who are already debt collectors. See *S. Rep. No. 95-382*, at 3-4 (1977) (explaining the exclusion was intended to protect loan servicers). Because Santander collected for its own account, it did not fit the definition of a debt collector, rendering the exclusion inapplicable.
+
+III.  The phrase "debts owed or due another" refers to the time of collection, not the time of origination.
+
+The phrase "debts owed or due another" must be read to apply to the time of the collection activity. See *Paroline v. United States*, 572 U.S. 434, 440 (2014) (quoting *Porto Rico Ry., Light & Power Co. v. Mor*, 253 U.S. 345, 348 (1920)). At the time Santander collected, the debt was owed to Santander, not CitiFinancial. See *Davidson*, 797 F.3d at 1318. Therefore, Santander was a creditor collecting its own debt, not a debt collector.

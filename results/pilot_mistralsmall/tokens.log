@@ -1,0 +1,1 @@
+{"ts": 1788242757.7686899, "client": "drafter-mistralsmall", "model": "mistralai/mistral-small-2603", "tag": "draft:1992-109:baseline", "in_tokens": 5854, "out_tokens": 1370, "est_cost": 0.0017, "latency_ms": 10451}

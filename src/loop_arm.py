@@ -42,7 +42,7 @@ import quotecheck2 as q2  # noqa: E402
 N_MATTERS = 24
 MAX_ROUNDS = 3
 LOOP_BUDGET = {"qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 8.0,
-               "sonnet": 15.0}
+               "sonnet": 15.0, "llama4mav": 3.0, "glm47flash": 3.0, "mistralsmall": 3.0}
 
 FB_CITE = (
     "The citation {c} does not correspond to any real case: it does not "

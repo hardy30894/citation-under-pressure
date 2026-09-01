@@ -19,7 +19,10 @@ from local_text import ChainTextStore  # noqa: E402
 from pilot import DB  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
-MODELS = ("qwen30b", "deepseek", "gpt54mini", "sonnet")
+MODELS = tuple(
+    p.name.replace("loop_", "")
+    for p in sorted((Path(__file__).resolve().parents[1] / "results").glob("loop_*"))
+    if (p / "run/events.jsonl").exists())
 
 
 def score(text, checker, store):

@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. The IRS’s failure to assess the individual partners within the three-year limitations period bars collection of the partnership’s tax debt from the partners.**
+
+The Internal Revenue Code requires the IRS to assess tax liabilities against individual taxpayers within three years of the filing of their returns. 26 U.S.C. § 6501(a) (1954). An assessment is the "final determination by the Secretary of a deficiency in tax." 26 U.S.C. § 6203 (1954). The IRS concedes that it did not assess the Gallettis or the Briguglios within this period. Instead, it assessed the tax only against the partnership. This was insufficient to extend the limitations period for collection against the partners.
+
+The Supreme Court has held that the IRS must make a separate assessment against each taxpayer whose liability it seeks to enforce. *United States v. A.S. Kreider Co.*, 313 U.S. 443, 445 (1941) ("The assessment is the act of the Commissioner determining the amount of tax due."). The Court further explained that an assessment is "the formal recording of the liability in the records of the Commissioner." *Id.* at 446. Because the partners are distinct taxpayers from the partnership, the IRS’s assessment against the partnership did not constitute an assessment against the partners. *See id.* at 445-46 (distinguishing between assessments against corporations and their shareholders).
+
+This Court has likewise recognized that partners are separate taxpayers from their partnerships. In *United States v. Coson*, 286 F.2d 453 (9th Cir. 1961), the IRS sought to enforce a tax lien against a partner whose name did not appear on the assessment. The court held that the lien was invalid because the IRS had not made an assessment against the individual partner. *Id.* at 458. The court explained that the assessment must identify the taxpayer against whom it is made, and that an assessment against a partnership does not suffice for an individual partner. *Id.* at 458-59. The court further noted that the IRS’s failure to assess the partner within the limitations period barred collection. *Id.*
+
+The IRS’s reliance on *Young v. Riddell*, 283 F.2d 909 (9th Cir. 1960), is misplaced. In *Young*, the court merely held that a partner who had paid his share of the partnership’s tax was not entitled to a refund because he was liable for the debt under state law. *Id.* at 910. The court did not address whether the IRS could collect the tax from the partner in the absence of an individual assessment. *Id.* The IRS’s attempt to expand *Young* beyond its narrow holding is unsupported by the decision.
+
+**II. The IRS cannot circumvent the assessment requirement by relying on state partnership law.**
+
+The IRS argues that California law makes partners jointly and severally liable for partnership debts, and thus the IRS may collect the partnership’s tax debt directly from the partners. This argument fails for two reasons.
+
+First, the IRS’s ability to collect depends on its compliance with federal law, not state law. The Supreme Court has held that federal tax collection is governed exclusively by federal statute. *United States v. Snyder*, 149 U.S. 210, 214 (1893) ("The mode of enforcing a lien for taxes is purely a matter of federal law."). The IRS cannot rely on state law to avoid the assessment requirement of 26 U.S.C. § 6501(a).
+
+Second, even under California law, a creditor cannot collect a partnership debt from a partner without first obtaining a judgment against the partner. Cal. Corp. Code § 16307(c) (1949) ("A judgment against a partnership is not by itself a judgment against a partner."). The IRS has not obtained such a judgment, and the limitations period for doing so has expired. 26 U.S.C. § 6501(a) (1954). Thus, the IRS’s state-law claim is unenforceable.
+
+**III. The IRS’s failure to assess the partners within the limitations period bars its claims in bankruptcy.**
+
+The Bankruptcy Code permits a creditor to file a claim only if the claim is "enforceable against the debtor." 11 U.S.C. § 502(b)(1) (1952). The IRS’s claims against the partners are unenforceable because the IRS did not assess the partners within the three-year limitations period, and the assessment against the partnership did not extend the limitations period for the partners. *See Coson*, 286 F.2d at 458-59. The bankruptcy court therefore properly disallowed the IRS’s claims.
+
+**CONCLUSION**
+
+The IRS’s failure to assess the individual partners within the three-year limitations period bars collection of the partnership’s tax debt from the partners. The assessment against the partnership did not extend the limitations period for the partners, and the IRS cannot rely on state law to circumvent the federal assessment requirement. The bankruptcy court correctly disallowed the IRS’s claims.
