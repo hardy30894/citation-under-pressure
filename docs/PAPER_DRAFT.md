@@ -42,7 +42,20 @@ Three findings organize the results, and together they yield a deployment prescr
 
 ## 4. Experiment 1: pressure
 
-Table 1 reports the definitive re-scored rates [rescore_full]; inference is a citation-level logistic GEE with exchangeable correlation clustered by matter, fit separately per model [stats_gee], with a matter-level cluster bootstrap as the pre-registered provisional giving the same picture throughout [stats_h1_bootstrap].
+Table 1 and Figure 1 report the definitive re-scored rates [rescore_full]; inference is a citation-level logistic GEE with exchangeable correlation clustered by matter, fit separately per model [stats_gee], with a matter-level cluster bootstrap as the pre-registered provisional giving the same picture throughout [stats_h1_bootstrap].
+
+![Figure 1](figures/fig1_pressure.png)
+
+**Figure 1.** Strict quotation accuracy (left) and citation existence (right) by condition. The dotted line is the human-lawyer baseline under the identical instrument. Every quotation line except the top model's slopes downward under pressure; only the smallest model's existence moves at all.
+
+**Table 1.** Baseline versus combined pressure. An asterisk marks a GEE contrast with p < 0.05 [stats_gee].
+
+| model | quotes: baseline | quotes: combo | existence: baseline | existence: combo | temporal violations |
+|---|---|---|---|---|---|
+| Qwen3-30B | 0.175 | 0.072 * | 0.924 | 0.773 * | ~20% |
+| DeepSeek V4 Flash | 0.281 | 0.120 * | 0.972 | 0.959 | 7 to 11% |
+| GPT-5.4-mini | 0.460 | 0.294 * | 0.981 | 0.962 | 13% |
+| Sonnet 5 | 0.333 | 0.427 * | 0.991 | 0.998 * | 1 of 802 |
 
 **Existence collapses only at the bottom.** The 30B model's citation existence falls from 0.924 at baseline to 0.773 under combo, and every one of its four pressure contrasts is significant (combo OR 0.304, p < 0.0001). Every larger model holds existence between 0.950 and 0.998 in every cell, with no significant negative contrast anywhere.
 
@@ -59,6 +72,19 @@ Table 1 reports the definitive re-scored rates [rescore_full]; inference is a ci
 ## 5. Experiment 2: the verifier in the loop
 
 Combined-pressure drafts entered a revision loop: each round, the deterministic checker returned one structured line per failure (a citation that does not resolve; a quotation that does not appear verbatim in the cited opinion), the model revised, and the loop ended on a clean draft or after three revisions. The control arm received the same number of identically formatted lines pointed at items that were in fact correct.
+
+![Figure 2](figures/fig2_repair.png)
+
+**Figure 2.** Strict quotation accuracy from round 0 to the final draft under true feedback (solid) and scrambled feedback (dashed). Solid lines rise with capability; every dashed line falls.
+
+**Table 2.** The repair experiment [rescore_loops].
+
+| model | true feedback | scrambled feedback | converged |
+|---|---|---|---|
+| Qwen3-30B | 0.103 to 0.112 | 0.103 to 0.097 | 0 of 24 |
+| DeepSeek V4 Flash | 0.181 to 0.645 | 0.181 to 0.153 | 21 of 24 |
+| GPT-5.4-mini | 0.360 to 0.719 | 0.360 to 0.241 | 22 of 24 |
+| Sonnet 5 | 0.471 to 0.974 | 0.471 to 0.266 | 23 of 24 |
 
 **Repair is capability-gated** [rescore_loops]. Final strict quotation accuracy under true feedback climbs the ladder monotonically: 0.112 at 30B (from 0.103, no episode converging), 0.645 at DeepSeek, 0.719 at GPT-5.4-mini, and 0.974 at Sonnet 5, which converged in 23 of 24 episodes in a mean of 2.6 rounds. Citation existence repairs more easily than quotation at every tier; the 30B model can replace a fabricated citation when told which one it is, but cannot fix its quoting at all.
 
