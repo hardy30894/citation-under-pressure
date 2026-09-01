@@ -210,8 +210,10 @@ Three residual failure modes, each measured deterministically:
 The models know the words of the law better than they know who said
 them or where. These are exactly the errors invisible to an existence
 check and to any reader who recognizes the language, and the page-level
-measurement is exhaustive on public data for an error class the best
-published detector catches at 18.2% recall.
+measurement is exhaustive on public data for the error class detection
+agents handle worst: the best published detector misses nearly half of
+wrong pincites (52.8% recall), and every open-weight detector misses
+roughly three quarters.
 
 ### Finding 4. The one judgment call defeated every jury
 

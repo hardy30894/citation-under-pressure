@@ -13,7 +13,17 @@ Their five error categories, which we adopt as our outcome coding:
 4. **Verbatim misquote**, quoted language does not appear in the cited case (injected as 1–2 word synonym swaps).
 5. **Content misrepresentation**, real case, does not support the proposition. (The one category no deterministic check reaches, where Goodharting will hide.)
 
-Headline results: best agentic detector (GPT-5, 30-step BOED-style agent, median 15.3 steps) reaches F1 60.5; Claude Code harness 68.8. Per-category recall for GPT-5: **18.2% on incorrect pincites**, 82.6% on misquotes, 84.0% on content misrepresentation (confirmed verbatim from the paper). CAUTION: the per-category cells for the *other* models came back only as approximations (~8–15% pincite recall), re-check against the PDF before quoting any non-GPT-5 per-category number.
+**VERSION CORRECTION (2026-09-01, read directly from the v2/COLM camera-ready PDF with pdftotext).** The v1 HTML numbers previously recorded here (GPT-5 pincite recall 18.2, misquote 82.6, misrepresentation 84.0) do NOT match v2, which is the citable version. The paper's numbers changed between arXiv versions. Correct per-category agentic recall, Appendix **Table A6** (there is no "Table 8"; the model is "Qwen3.6-27B" not 3.5):
+
+| Type | Gemini 2.5 Flash | GPT-5 | GPT-OSS 120B | Qwen3-8B | Qwen3.6-27B | Claude Code (Opus 4.8) |
+|---|---|---|---|---|---|---|
+| Non-existent citation | 100.0 | 100.0 | 83.9 | 58.1 | 100.0 | 93.5 |
+| Case name mismatch | 100.0 | 100.0 | 84.2 | 49.1 | 96.5 | 83.8 |
+| Incorrect pincite | 18.9 | **52.8** | 26.4 | 18.9 | 50.9 | 3.6 |
+| Verbatim misquote | 78.6 | **95.2** | 42.9 | 31.0 | 64.3 | 71.7 |
+| Content misrepresentation | 60.3 | **83.2** | 51.1 | 45.8 | 48.9 | 66.4 |
+
+The load-bearing quotes survive v2 verbatim and were re-verified against the PDF text: "no models can reliably detect wrong pincites. Page number information for many cases is..."; "broader public access to legal databases, or verification systems built on top of commercial platforms"; the 65.9% CourtListener false-positive figure; "naturally occurring examples." Aggregate agentic recall (Table 2, v2): Gemini 66.9, GPT-5 84.4, GPT-OSS 55.1, Qwen3-8B 41.1, Qwen3.6-27B 65.0, Claude Code 62.8. Lesson recorded: always verify against the latest PDF version; v1 HTML and v2 PDF of the same arXiv id disagreed on headline numbers.
 
 The quotes that hand us our niche:
 - "No models can reliably detect wrong pincites. Page number information for many cases is only accessible through Westlaw and LexisNexis."
@@ -54,7 +64,7 @@ The 2603.07287 replication repo (github.com/Zerichen/Citation-Hallucination, Apa
 
 ## The five slots the literature names as missing that we fill
 
-1. Pincite ground truth at scale (LePhantomCite's stated cause of the 18.2% failure: no public pagination access, we have US Reports star pagination locally).
+1. Pincite ground truth at scale (LePhantomCite's stated cause of the pincite failure (52.8% best-model recall in v2): no public pagination access, we have US Reports star pagination locally).
 2. Deterministic verbatim-quote verification (evaluated as ground truth by no one, in any of the four).
 3. Naturally occurring elicited hallucinations (LePhantomCite explicitly requests them).
 4. Grounded generation loop over a verified legal database (LegalCiteBench's future-work item 1).
