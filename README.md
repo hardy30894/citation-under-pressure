@@ -2,13 +2,6 @@
 
 <h3 align="center"><em>What Deployment Constraints Do to Legal Citation Integrity,<br>and What Deterministic Verification Can Repair</em></h3>
 
-Companion repository for the paper (draft v0.1 in
-[`docs/PAPER_DRAFT.md`](docs/PAPER_DRAFT.md)). Everything here is the
-real campaign: the pre-registered design, the instruments, all 960
-drafts and 192 repair episodes, the statistics, and a ledger of every
-analysis decision including the two findings the project retracted
-itself.
-
 ```mermaid
 flowchart LR
     A["a model is asked to<br/>draft a legal brief"] --> B["under real-world pressure:<br/>a citation quota, an<br/>old-authority rule, a<br/>sanctions warning"]
@@ -20,6 +13,27 @@ flowchart LR
 The short answer: pressure breaks citation integrity in exactly the
 models that are cheapest to deploy, it breaks them silently, and the
 checker can only repair the models that barely needed it.
+
+## Introduction
+
+Courts keep sanctioning lawyers for filing briefs with citations that a
+language model invented. Nearly all research on the problem works after
+the fact: given a brief that already contains errors, how many can a
+detector find? That is the right question for a court clerk reviewing a
+filing, and the wrong one for anyone deciding whether and how to deploy
+a drafting model, because it treats fabrication as a fixed property of
+text rather than a behavior with causes.
+
+This paper asks the production-side questions instead. What conditions
+make a model fail at legal citation in the first place? Real users do
+not prompt in the abstract; they demand a minimum number of citations,
+restrict which authority is allowed, and warn about consequences. And
+when a citation checker that needs no AI judgment sits inside the
+drafting loop, does the model repair its work honestly, fail to, or
+learn to satisfy the checker while degrading something it cannot see?
+Answering these questions took an instrument the field has said lives
+only behind commercial legal databases; we built it from public data,
+and it produces every primary number in the paper.
 
 ## Abstract
 
@@ -190,6 +204,13 @@ failing as a near-constant classifier. In legal citation integrity,
 the layer you can trust is the layer you can verify deterministically.
 
 ## Repository guide
+
+This is the companion repository for the paper (draft v0.1 in
+[`docs/PAPER_DRAFT.md`](docs/PAPER_DRAFT.md)). Everything here is the
+real campaign: the pre-registered design, the instruments, all 960
+drafts and 192 repair episodes, the statistics, and a ledger of every
+analysis decision, including the two findings the project retracted
+itself.
 
     docs/PAPER_DRAFT.md      the paper; every number names its source file
     docs/DESIGN.md           frozen design with architecture diagrams
