@@ -240,4 +240,3 @@ driver is resumable, budget-capped in code, and parallelizes with
 `--slice`. The citation database lives in the sibling
 `us-courts-gated-evolution` repository. Large text caches are not
 committed; they rebuild from free public sources (static.case.law).
-The complete campaign cost about $43 in API spend.
