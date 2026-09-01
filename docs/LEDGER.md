@@ -43,3 +43,14 @@ before or after seeing the relevant data. Nothing is deleted.
   comparison; every document now cites 0.407. Consequence honestly
   noted: Sonnet's baseline (0.333) sits below the human level rather
   than inside a band containing it, reaching parity only under combo.
+- 2026-09-01 (sixth model): GLM-4.7-flash cannot complete the factorial.
+  It returns empty completions on most combo drafts at 12K and again at
+  30K reasoning budget (101 skip events; 23 of 30 blocked drafts are
+  combo): under maximum pressure it reasons until the budget dies and
+  never emits a word. Decision, made before any GLM row was interpreted:
+  GLM is reported as a documented pressure-paralysis case, excluded from
+  the main tables (its partial data would be missing-not-at-random in
+  exactly the combo cells the analysis compares), and Mistral Small
+  replaces it as the sixth complete ladder model. Both facts go in the
+  paper: six complete models, and one further family whose failure mode
+  under stacked constraints is silence.

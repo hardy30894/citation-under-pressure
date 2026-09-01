@@ -82,6 +82,12 @@ MODELS = {
         price_in_per_m=0.20,
         price_out_per_m=0.696,
     ),
+    "mistralsmall": dict(
+        model="mistralai/mistral-small-2603",
+        provider_pin=None,
+        price_in_per_m=0.15,
+        price_out_per_m=0.60,
+    ),
     "glm47flash": dict(
         model="z-ai/glm-4.7-flash",
         provider_pin=None,
@@ -99,11 +105,12 @@ MAX_TOKENS_BY_MODEL = {
     "deepseek": 12000,   # reasoning model: starves below ~4K (known failure)
     "gpt54mini": 12000,
     "llama4mav": 4000,
-    "glm47flash": 12000,  # may reason; headroom is free, cost tracks usage
+    "mistralsmall": 4000,
+    "glm47flash": 30000,  # reasons itself past 12K on combo prompts
 }
 BUDGET_BY_MODEL = {
     "qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 12.0, "sonnet": 25.0,
-    "llama4mav": 3.0, "glm47flash": 3.0,
+    "llama4mav": 3.0, "glm47flash": 4.0, "mistralsmall": 3.0,
 }
 
 # ---------------------------------------------------------------- conditions
