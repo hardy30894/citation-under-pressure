@@ -1,52 +1,131 @@
 # Citation Under Pressure
 
-**Status: Phase 0 (design). No API spend yet. Nothing here is frozen.**
+**What deployment constraints do to legal citation integrity in language
+models, and what deterministic verification can and cannot repair.**
 
-This project asks two questions about legal citation fabrication that nobody has answered with a real measurement instrument, and answers them with the deterministic citation oracle we already built and calibrated.
+This repository contains a complete, pre-registered measurement campaign
+behind the paper draft in `docs/PAPER_DRAFT.md`. Four language models
+spanning a capability ladder (Qwen3-30B, DeepSeek V4 Flash, GPT-5.4-mini,
+Claude Sonnet 5) each drafted merits-brief argument sections for 48
+leakage-screened U.S. Supreme Court matters under five deployment
+conditions. Every citation in the resulting 960 drafts was adjudicated
+**deterministically** — existence against an 18-million-row reporter
+database, quotations against a verbatim checker validated on seeded
+faults (100/100), pinpoint pages against true star pagination from free
+Caselaw Access Project volumes. No LLM judge produced any primary number.
 
-**Question 1 — the cause.** Everyone knows LLMs fabricate legal citations; the sanctions cases pile up monthly. But the existing literature only *detects* fabrication after the fact. Nobody has run a controlled study of what *conditions* make a legal drafting model fabricate. Does arguing the losing side of a case do it? Does demanding "cite at least eight authorities"? Does restricting the model to pre-1970 precedent, where its knowledge is thinner? A March 2026 study (arXiv:2603.07287) ran exactly this factorial for *scholarly* citations and found that temporal and combined constraints crater citation existence below 50% while the output stays perfectly format-compliant — the model keeps producing confident, well-formatted citations that do not exist. No one has run the legal version, even though law is where fabricated citations get people sanctioned.
+## What the paper shows
 
-**Question 2 — the cure's side effect, which is the headline.** The obvious fix is to put a citation verifier inside the drafting loop: the model drafts, a checker flags every citation that doesn't exist or misquotes its source, the model revises. Code-generation research proved this "execution-grounded feedback" paradigm works for programs, where the test suite is the verifier. Nobody has done it in law, because nobody else has a deterministic legal verifier fast enough to sit inside a loop. But the deep question is not whether verification reduces fabrication — of course it does, it's a hard constraint. The question is what the model does *instead*. When a model under pressure to cite eight authorities can no longer invent them, does it produce honest arguments with fewer citations, or does it Goodhart — swap in citations that are real but irrelevant, or real but subtly misused, which survive the existence check while being just as dangerous to a filing? If substitution happens, that is a general finding about verifier-in-the-loop generation, not just a legal one: hard verifiers on the checkable property can displace fabrication into the unverifiable gap next door.
+1. **Pressure breaks citation integrity from the bottom of the
+   capability ladder up, silently.** Under a citation quota, a
+   pre-1970-authority restriction, and a sanctions warning stacked
+   together, the 30B model loses 15 points of citation existence
+   (OR 0.30, p < 0.0001) and its quote fidelity collapses to a twentieth
+   of the human-lawyer baseline. Quote fidelity degrades significantly
+   at every tier except the highest. In 960 pressured drafts, no model
+   abstained even once.
+2. **At the top of the ladder the sign reverses.** The same sanctions
+   warning that damages or fails to move every other model significantly
+   *improves* the strongest model's quoting (OR 1.48, p = 0.029).
+   Stakes framing is a capability amplifier, not a safety lever.
+3. **A verifier in the loop repairs only the models that least need
+   it.** With true deterministic feedback, final quote accuracy climbs
+   0.11 → 0.65 → 0.72 → 0.97 up the ladder. A scrambled-feedback
+   control shows false-positive verifier flags actively corrupt drafts
+   at every tier — worst for the models best at following feedback.
+   Verifier *precision* is a deployment requirement.
+4. **What survives at frontier scale is misattribution, not
+   invention:** 55% of the strongest model's inaccurate quotes are
+   paraphrases of the *correct* case wearing quotation marks; 366
+   quotes across models are verbatim passages of real opinions bound to
+   the wrong authority; 16–35% of quote-bearing pincites point at the
+   wrong page inside the right case.
+5. **The one channel that needs judgment resists measurement.** Three
+   LLM juries (budget and frontier) failed a pre-declared calibration
+   bar against expert-labeled misrepresentations. In legal citation
+   integrity, the layer you can trust is the layer you can verify
+   deterministically.
 
-## Why we are the ones positioned to do this
+## How the experiment works
 
-Three assets exist in `../us_courts_gated_evolution` (referenced by path; nothing large is copied here):
+```mermaid
+flowchart LR
+    P["48 SCOTUS matters<br/>(leakage-screened packets)"] --> C["5 conditions<br/>baseline · quota · temporal<br/>stakes · combo"]
+    C --> M["4 models<br/>30B → frontier"]
+    M --> D["960 drafts<br/>(temperature 0)"]
+    D --> A["deterministic adjudication<br/>existence · verbatim quotes · pincites"]
+    A --> H1["Experiment 1<br/>pressure effects (GEE)"]
+    D -->|combo drafts| L["verifier-in-the-loop<br/>true vs scrambled feedback<br/>192 episodes"]
+    L --> H2["Experiment 2<br/>repair & corruption"]
+    A --> R["provenance search<br/>misattribution · paraphrase<br/>decomposition"]
+```
 
-The **citation oracle** (`data/courtlistener/checker.db`, 4.6GB, ~18M citation rows): deterministic existence checking calibrated at 96.3% on human citations, in one local lookup. For comparison, the best published detection agent (GPT-5 in LePhantomCite, arXiv:2606.21155) needs 15.3 web-search steps per excerpt and still catches only 18.2% of bad pincites — a failure its authors attribute to lacking exactly the authoritative corpus we have locally.
+The same instrument scored 482 clean, pre-ChatGPT human appellate briefs
+(strict quote rate 0.381), so every model number has a human yardstick
+under the identical standard.
 
-The **quote checker** (same repo, `src/checker`): verbatim quote-fidelity verification validated by seeded faults — genuine quotes 50/50 accurate, fabricated 25/25 caught, subtle corruptions 40/40 caught as near-miss. This is what lets the verifier loop check *misquotation*, not just existence.
+## The instrument
 
-The **500 leakage-clean case packets** (`data/packets`): argument tasks built from question presented plus lower-court opinion, with outcome text scrubbed and every packet leakage-scanned. These give the drafting prompts a realistic advocacy setting without contamination worries, because we are measuring citation behavior, not outcome accuracy.
+```mermaid
+flowchart TD
+    T["draft text"] --> E["eyecite extraction<br/>volume · reporter · page · pin"]
+    E --> X{"oracle lookup<br/>18M-row citation table"}
+    X -->|resolves| OK["exists<br/>+ name-pairing check"]
+    X -->|no match| NF["not found"]
+    X -->|vendor / no data| UV["unverifiable<br/>(never counted as fabricated)"]
+    T --> Q["quote extraction<br/>balanced smart-quote pairs,<br/>markdown artifacts rejected"]
+    Q --> AT["attribution<br/>nearest NAMED case wins,<br/>proximity fallback"]
+    AT --> V{"verbatim check vs opinion text<br/>local-first: checker.db → legacy cache<br/>→ CAP volumes → CourtListener"}
+    V --> ACC["accurate"] & NM["near-miss"] & IN["inaccurate"]
+    IN --> PR["provenance search<br/>361MB US Reports corpus:<br/>true source of the language"]
+    E -->|"pin + U.S. cite"| PIN["star-pagination check<br/>is the quote on the cited page?"]
+```
 
-One more instrument matters for Question 2: the **order-debiased jury** protocol (each pair judged in both display orders, only order-consistent verdicts count), developed and validated in the parked gated-evolution project. Existence and quote accuracy are read off the oracle deterministically, but *relevance* of a real citation is a judgment call, and that jury protocol is how we make LLM judgment usable.
+The quote instrument passed a seeded-fault validation (planted genuine
+quotes, wrong attributions, word swaps, fabrications, artifacts) at
+100/100 before any measurement, and the validation caught and fixed a
+real attribution bug on the way — the run is in
+`src/validate_q2.py`.
 
-## What we already know that shapes the design
+## Honesty infrastructure
 
-From the gated-evolution campaign's own measurements: a 30B open model (Qwen3-30B) fabricates roughly 12–22% of its citations out of the box under ordinary advocacy prompts, while frontier models (Sonnet, DeepSeek Pro) sit at 98–99% citation existence in the same setting. So fabrication-at-rest is a small-model disease. That sharpens Question 1 into its most interesting form: **can deployment pressure reintroduce fabrication at frontier scale?** The scholarly-citation study says yes for academia (even strong models collapsed under temporal constraints). If the same holds in law, the safety story changes from "use a bigger model" to "no model is safe under the wrong prompt" — and if it doesn't hold, that is an equally publishable boundary on the phenomenon. Either way the cell has a finding in it. This no-null-outcome property is a deliberate design choice.
-
-## The experiment in one worked example
-
-Take packet for a 1996 criminal-procedure case. The model is told: argue the petitioner's side; you must cite at least eight authorities; use only authority decided before 1970. It produces a brief section citing, say, *Mapp v. Ohio, 367 U.S. 643* (real, on point), *Terry v. Ohio, 392 U.S. 1* (real, arguably relevant), and *Harlow v. Colgate, 358 U.S. 212* (does not exist — invented under quota pressure). The oracle flags the third in milliseconds. In the verifier-loop arm, that flag goes back to the model as structured feedback and it revises; we then ask whether the replacement is honest (a real, relevant case), a Goodhart substitution (real case, wrong proposition), or an honest retreat (fewer citations, hedged argument). Every draft in every condition is scored the same three ways: existence (oracle), quote fidelity (checker), and relevance-of-real-citations (jury).
-
-## Phases and cost
-
-**Phase 0 (now, free):** close reading of the four positioning papers (LePhantomCite 2606.21155; deployment-constraints factorial 2603.07287; LegalCiteBench 2605.10186; RLEF 2410.02089), then the frozen design doc and pre-registration. See `docs/HYPOTHESES.md` for the draft hypotheses and decision rules.
-
-**Phase 1 (pilot, ~$10–15, needs explicit go):** one model, a slice of the factorial, ~30–50 drafts. Purpose: validate prompt wording, confirm the oracle's coverage on *generated* citations (it was calibrated on curated ones), and measure per-draft cost.
-
-**Phase 2 (full run, ~$60–120, needs explicit go):** full factorial across 3–4 models spanning the capability ladder (one ~30B open model where fabrication lives, one mid-tier, one or two frontier), plus the verifier-in-the-loop arm with the substitution measurement.
-
-Hard budget cap for the whole project: $200. Target venue: EMNLP/ACL main if the Goodhart result is strong, NLLP/Findings as the solid floor.
+The design was frozen before the full run (`docs/HYPOTHESES.md`), and
+every post-freeze analysis decision is dated in
+`docs/LEDGER.md` — including two findings this campaign killed
+itself: the hoped-for frontier fabrication headline (refuted at pilot
+scale, pre-registered as such) and a "models quote the future" leakage
+claim that its own earlier-source screen reduced to doctrine
+misattribution. The three failed jury calibrations are reported, not
+discarded. Total spend for the entire campaign: about $43.
 
 ## Repository layout
 
-    README.md            — this file
-    docs/HYPOTHESES.md   — draft pre-registration: hypotheses, endpoints, decision rules
-    docs/DESIGN.md       — full experimental design (written after the Phase 0 reading pass)
-    papers/              — notes on the four positioning papers
-    src/                 — experiment code (none yet; reuses the runtime harness and checker from us_courts_gated_evolution)
-    results/             — run outputs (none yet)
+    docs/PAPER_DRAFT.md     the paper (v0.1); every number tagged with its source file
+    docs/DESIGN.md          frozen experimental design, with architecture diagrams
+    docs/HYPOTHESES.md      pre-registration (frozen 2026-08-31)
+    docs/LEDGER.md          forking-paths ledger: every post-freeze decision, dated
+    papers/                 close-reading notes on the positioning literature
+    src/                    instruments and drivers (see DESIGN.md for the map)
+    results/                every draft, verdict, and table the paper cites
+    results/rescore_full.json      definitive H1 tables
+    results/stats_gee.json         primary citation-level inference
+    results/rescore_loops.json     definitive H2 repair tables
+    results/provenance_report.md   per-quote true-source classification
+    results/pincites.json          page-level pincite verification
+    results/human_baseline.json    the human yardstick
 
-## Provenance and rules of the road
+Data not committed: the CAP volume caches (re-download freely on
+demand from static.case.law), the 6.4GB text cache they build, and the
+LePhantomCite dataset
+(huggingface.co/datasets/ai-law-society-lab/Legal_Phantom_Citation).
+The citation oracle (`checker.db`) lives in the sibling
+`us-courts-gated-evolution` repository and is referenced by path.
 
-This project inherits the working rules that earned their place in the previous two projects: no run launches without Hardy's explicit go after a cost-and-time pitch; a forking-paths ledger is kept from the first analysis onward; numbers are copied, never retyped; and any claim intended for the paper must survive on a second model before it becomes a headline sentence.
+## Reproducing
+
+Scoring is deterministic and free: `src/rescore_full.py` rebuilds the
+H1 tables from the committed drafts, `src/rescore_loops.py` the H2
+tables, `src/stats.py` and the GEE snippet in the ledger the inference.
+Drafting anew requires an OpenRouter key in `.env`
+(`OPENROUTER_TOKEN=...`); every driver is resumable, budget-capped in
+code, and parallelizes with `--slice`.

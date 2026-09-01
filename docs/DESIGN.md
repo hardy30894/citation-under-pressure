@@ -42,7 +42,57 @@ Three adjudication labels, not two: **verified**, **fabricated**, and **unverifi
 
 Fabrications additionally get a qualitative coding pass using the transplanted typology: reporter laundering, party-name bricolage, case-name drift, invented volume/page — plus interpolation classing (the previous post-mortem found 78.8% of fabrications are real-name/wrong-cite, concentrated in circuit reporters).
 
+## Architecture: how a draft becomes numbers
+
+```mermaid
+flowchart TD
+    PK["packet<br/>question presented · facts ·<br/>lower-court excerpt (allow-listed fields only)"] --> PR["prompt<br/>fixed template + condition clause<br/>temperature 0"]
+    PR --> DR["draft<br/>saved to disk permanently<br/>(drafts are the money; scoring is free to redo)"]
+    DR --> CIT["citation adjudication<br/>eyecite → oracle → exists / not_found / unverifiable"]
+    DR --> QT["quote pipeline<br/>extraction → named attribution → verbatim bands"]
+    DR --> PIN["pincite check<br/>CAP star pagination, U.S. Reports"]
+    CIT & QT & PIN --> RES["results/*.json<br/>re-scorable from drafts at zero cost"]
+```
+
+The one architectural commitment that pays for everything else: the
+expensive artifact (the draft) is separated from the fallible artifact
+(the score). Drafts are bought once and kept; every instrument
+improvement in this project's history was applied retroactively by
+re-scoring saved drafts for free, including the two full instrument
+revisions the seeded validation forced.
+
+## Architecture: where opinion text comes from
+
+```mermaid
+flowchart LR
+    Q["quote needs the cited case's text"] --> T1["checker.db caches<br/>opinion_texts + 47K citation_texts"]
+    T1 -->|miss| T2["legacy cache<br/>75K texts (legal_classification)"]
+    T2 -->|miss| T3["CAP static volumes<br/>free · unauthenticated · unrated<br/>+ star pagination in HTML"]
+    T3 -->|miss| T4["LII scrape cache<br/>6,350 SCOTUS opinions"]
+    T4 -->|miss| T5["CourtListener API<br/>last resort, rate-capped"]
+```
+
+This chain exists because the first scoring night ran quota-starved on
+CourtListener; the local-first rebuild removed the rate cap from the hot
+path entirely and, as a side effect, delivered the star-paginated text
+the pincite verifier needed.
+
 ## The verifier loop (Experiment 2)
+
+```mermaid
+flowchart TD
+    D0["round-0 draft<br/>(combo condition, reused from Experiment 1)"] --> CHK["deterministic check<br/>existence + verbatim quotes"]
+    CHK -->|all pass| DONE["converged<br/>(recorded separately from cap-exhaustion)"]
+    CHK -->|failures| FB{"feedback arm"}
+    FB -->|true| TF["one structured line per REAL failure:<br/>'citation X does not resolve';<br/>'quoted passage not verbatim in Y'"]
+    FB -->|scrambled| SF["same templates, same count,<br/>aimed at VERIFIED items<br/>(informative-looking, content-free)"]
+    TF & SF --> REV["model revises full draft"]
+    REV -->|"≤ 3 rounds"| CHK
+```
+
+Improvement under true but not scrambled feedback proves the model uses
+feedback content; degradation under scrambled feedback (which every
+model showed) is the false-positive-corruption finding.
 
 Run on the combo cell (and baseline for contrast) across all four models. Protocol copied from RLEF's shape: the draft is checked; each failed check returns one structured feedback line naming the specific mismatch ("the citation 410 U.S. 113 exists, but the quoted language does not appear in that opinion"; "no case matches 358 U.S. 212 — this citation does not resolve"); the model revises; the loop terminates on all-checks-pass or at a **3-turn cap** (5-turn ablation on a subsample); the last draft is final. Cap-exhaustion is reported separately from failure — a third of LePhantomCite's agent false negatives were budget artifacts, and we will not repeat that conflation.
 
