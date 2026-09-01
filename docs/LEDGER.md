@@ -15,7 +15,7 @@ before or after seeing the relevant data. Nothing is deleted.
   refuted at pilot scale before freeze; recorded in HYPOTHESES.md header.
   The full run does not get to resurrect it.
 - 2026-09-01 (jury v1 -> v2): the relevance panel FAILED its pre-declared
-  calibration bar (0.500, constant "not supported" — misrep recall 30/30,
+  calibration bar (0.500, constant "not supported", misrep recall 30/30,
   clean specificity 0/30). Diagnosis: binary framing forced a false
   verdict whenever the partial opinion window missed the supporting
   passage. Instrument changed AFTER seeing calibration data (that is what
@@ -25,9 +25,9 @@ before or after seeing the relevant data. Nothing is deleted.
   window widened 3K->6K. v2 must clear the same 0.75 bar on decisive
   verdicts, with decisiveness rate reported alongside.
 - 2026-09-01 (jury CLOSED): v2 failed inverted (0.700; misrep recall
-  2/11, specificity 19/19 — accepts everything). Pre-declared escalation
+  2/11, specificity 19/19, accepts everything). Pre-declared escalation
   run on Hardy's go: FRONTIER panel (GPT-5.4 + Sonnet 5 + Gemini 2.5
-  Pro, 15K windows) scored 0.594 — misrep recall 4/17, specificity
+  Pro, 15K windows) scored 0.594, misrep recall 4/17, specificity
   15/15. DECISION (pre-registered contingency): the relevance/Goodhart
   channel is reported as bounded-but-unmeasurable by LLM jury; the
   paper's Goodhart claims scope to the deterministic channels
