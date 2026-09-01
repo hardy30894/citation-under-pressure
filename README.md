@@ -35,6 +35,21 @@ Answering these questions took an instrument the field has said lives
 only behind commercial legal databases; we built it from public data,
 and it produces every primary number in the paper.
 
+## Background: reading a legal citation
+
+An American case citation such as *Brown v. Board of Education*, 347
+U.S. 483, 495 (1954) names the parties, then the volume (347), the
+reporter series (U.S., the official Supreme Court reports), and the
+first page (483) where the opinion is printed. The optional second page
+number (495) is the *pincite*: it points at the exact page that
+supports the writer's claim. Quotations from opinions are expected to
+be verbatim, and *star pagination* embeds the printed page boundaries
+in electronic text, which is what lets a quotation be located to its
+page. Rule 11 lets courts sanction attorneys for unwarranted filings;
+it is the rule behind the real sanctions cases over invented AI
+citations, and the one our stakes condition invokes. Those five terms
+are all the law this repository requires.
+
 ## Abstract
 
 Language models fabricate legal citations, and the failures that reach
@@ -89,6 +104,16 @@ scrambled feedback proves the model uses feedback content.
 The full pre-registration is [`docs/HYPOTHESES.md`](docs/HYPOTHESES.md)
 (frozen 2026-08-31); post-freeze decisions are dated in
 [`docs/LEDGER.md`](docs/LEDGER.md).
+
+## Where this sits in prior work
+
+| prior work | what it does | what it could not do, which we measure |
+|---|---|---|
+| LePhantomCite (COLM 2026) | detects injected citation errors in briefs | naturally occurring errors, elicited under realistic pressure; page-level pincite truth |
+| Deployment-constraints study (arXiv:2603.07287) | pressure factorial for scholarly citations | the legal version, with deterministic rather than fuzzy verification, and formal statistics |
+| LegalCiteBench (arXiv:2605.10186) | closed-book citation recall | quote fidelity anywhere; generation grounded in a verified database (our loop) |
+| RLEF (arXiv:2410.02089) | execution feedback for code | the same protocol where the verifier is a legal citation oracle, plus the false-positive control |
+| LLM-judge critiques (arXiv:2606.19544 among others) | show agreement overstates judge validity | a pre-declared calibration bar, and three documented failures against expert labels |
 
 ## Design
 
