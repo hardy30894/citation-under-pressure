@@ -1,0 +1,2 @@
+{"ts": 1788239273.474625, "client": "drafter-glm47flash", "model": "z-ai/glm-4.7-flash", "tag": "draft:1992-109:baseline", "in_tokens": 5282, "out_tokens": 2537, "est_cost": 0.001068, "latency_ms": 17228}
+{"ts": 1788239305.472898, "client": "drafter-glm47flash", "model": "z-ai/glm-4.7-flash", "tag": "draft:2019-024:baseline", "in_tokens": 4947, "out_tokens": 3236, "est_cost": 0.001594, "latency_ms": 49226}

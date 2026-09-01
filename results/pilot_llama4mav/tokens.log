@@ -1,0 +1,1 @@
+{"ts": 1788239118.640766, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1992-109:baseline", "in_tokens": 5214, "out_tokens": 554, "est_cost": 0.001428, "latency_ms": 30692}

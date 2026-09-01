@@ -34,7 +34,15 @@ Four, spanning the capability ladder established in the previous project's measu
 
 Every citation in every draft passes through the same adjudication cascade, and the outcome coding is LePhantomCite's five-way taxonomy so our elicited results are directly comparable to their injected benchmark:
 
-**Extraction** by eyecite over the draft (the previous project's parsing conventions apply: vendor cites flagged, foreign-format scan on whole text). **Existence and pairing** against the oracle; and pairing is checked explicitly, name against volume/reporter/page, because a real name attached to a real-but-different citation is a *case name mismatch*, not a valid cite, and component-wise checking would silently pass it. **Quote fidelity** through the calibrated strict-band checker. **Pincite plausibility** via a deterministic range check: the pinpoint page must fall inside the cited case's page span, inferred from the start pages of every case in the same reporter volume (built fresh for this project; the old repo had no pincite machinery). Scoping honesty, recorded here so the paper never overclaims: the range check catches pins outside the case entirely, but not within-case wrong-page errors. However, as verified on 2026-08-31 against a cached CAP archive, CAP's HTML format carries true star pagination (`page-label` markers at every page break), the static volume downloads are free and unauthenticated, and CAP JSON supplies exact first/last pages per case. So **full page-level pincite verification for U.S. Reports authorities is buildable**: download the US Reports volumes from static.case.law, index opinion text by page label, verify quoted language at the cited page. This is precisely the capability LePhantomCite's authors say "is only accessible through Westlaw and LexisNexis," and it gets built for the full run (the pilot ships with the range check only). Outside U.S. Reports and CAP's coverage window, pincites keep the unverifiable label, and the quote-fidelity check (verbatim language at the whole-opinion level) carries the substance of the pincite question. The name-pairing check is likewise being upgraded from the old advisory one-token overlap to a real mismatch detector on the clusters_fts name index; required for separating "non-existent citation" from "case name mismatch" in the five-way taxonomy. **Relevance of surviving real citations**, the content-misrepresentation residual that no deterministic check reaches, scored by the order-debiased jury on a budgeted subsample, concentrated where the Goodhart hypothesis needs it (loop arm and combo cell).
+**Extraction.** Citations come out of the draft with eyecite, under the previous project's parsing conventions: vendor citations are flagged rather than judged, and a whole-text scan catches foreign citation formats that eyecite never extracts.
+
+**Existence and pairing.** Each extracted citation resolves, or fails to resolve, against the oracle. Pairing is checked explicitly, name against volume, reporter, and page, because a real case name attached to a real-but-different citation is a case name mismatch rather than a valid cite, and checking the components separately would silently pass it.
+
+**Quote fidelity.** Quoted passages go through the calibrated strict-band checker: accurate means verbatim, near-miss means every fragment reaches high token coverage without matching exactly, and anything less is inaccurate.
+
+**Pincites.** A pinpoint citation makes two claims at once, the case and the page, and the page half is the one the field cannot check without commercial databases. The pilot ships a deterministic range check (the pin must fall inside the cited case's page span). The full run goes further, because CAP's freely downloadable volume archives carry true star pagination in their HTML: index the opinion text by page label and verify that the quoted language sits on the cited page. That is exactly the capability LePhantomCite's authors describe as available only through Westlaw and LexisNexis. Outside U.S. Reports and CAP's coverage window, pincites keep the unverifiable label, and the whole-opinion quote check carries the substance of the question.
+
+**Relevance.** Whether a surviving real citation actually supports its proposition is the one residual no deterministic check reaches. The design assigns it to a calibrated jury on a budgeted subsample, concentrated where the Goodhart hypothesis needs it; the ledger records what became of that plan.
 
 ```mermaid
 flowchart TD
@@ -137,7 +145,7 @@ inaccurate; a quotation is near-miss when every fragment reaches token
 coverage $\geq 0.85$ against the opinion text without matching
 verbatim. The strict rate counts only accurate as success:
 
-$$S_d = \frac{\#\text{accurate}}{\#\text{accurate} + \#\text{near-miss} + \#\text{inaccurate}}$$
+$$S_d = \frac{n_{\text{accurate}}}{n_{\text{accurate}} + n_{\text{near-miss}} + n_{\text{inaccurate}}}$$
 
 In words: a quotation either reproduces the opinion's language exactly
 or it does not; close does not count, for models or for the human

@@ -1,0 +1,2 @@
+{"ts": 1788239235.460971, "step": "draft:1992-109:baseline", "type": "draft_done", "data": {"chars": 3312}}
+{"ts": 1788239235.538789, "step": "score:1992-109:baseline", "type": "scored", "data": {"matter": "1992-109", "side": "petitioner", "condition": "baseline", "n_citations": 8, "existence_rate": 1.0, "unresolvable_rate": 0.0, "quote_rate_strict": null, "n_quotes": 0, "quote_verdicts": {}, "cite_verdicts": {"exists": 8}, "pin_verdicts": {"in_range": 8}, "abstained": false, "draft_chars": 3312}}

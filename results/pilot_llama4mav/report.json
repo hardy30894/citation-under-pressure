@@ -1,0 +1,44 @@
+{
+  "model": "meta-llama/llama-4-maverick",
+  "n_rows": 1,
+  "total_cost_usd": 0.0014,
+  "rows": [
+    {
+      "matter": "1992-109",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 6,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "pin_verdicts": {
+        "no_pin": 1,
+        "in_range": 5
+      },
+      "abstained": false,
+      "draft_chars": 2574
+    }
+  ],
+  "by_condition": {
+    "baseline": {
+      "drafts": 1,
+      "abstained": 0,
+      "citations_total": 6,
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "existence_rate_pooled": 1.0,
+      "quote_verdicts": {},
+      "pin_verdicts": {
+        "no_pin": 1,
+        "in_range": 5
+      },
+      "temporal": {}
+    }
+  }
+}

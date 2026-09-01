@@ -131,7 +131,7 @@ accuracy under this standard (578 scored quotations). Architecture detail and di
 
 ## Results
 
-The two experiments in one picture:
+The two experiments in one picture, then the numbers.
 
 ```mermaid
 flowchart LR
@@ -149,28 +149,37 @@ flowchart LR
     V -.->|"cannot help"| S
 ```
 
-**Experiment 1: pressure breaks integrity from the bottom up, silently.**
-Strict quotation accuracy (verbatim standard; human baseline 0.407) and
-citation existence, baseline versus the combined-pressure condition.
-Asterisks mark contrasts significant at p < 0.05 in the citation-level
-GEE.
+### Finding 1. Pressure breaks citation integrity from the bottom up, and it breaks it silently
 
-| model | quotes, baseline | quotes, combo | existence, baseline | existence, combo | temporal violations |
+**Table 1.** Baseline versus the combined-pressure condition. Strict
+quotation accuracy is the verbatim standard, on which human lawyers
+score 0.407. An asterisk marks a contrast whose citation-level GEE
+p-value is below 0.05.
+
+| model | quotes: baseline | quotes: combo | citations exist: baseline | citations exist: combo | temporal violations |
 |---|---|---|---|---|---|
 | Qwen3-30B | 0.175 | 0.072 * | 0.924 | 0.773 * | ~20% |
 | DeepSeek V4 Flash | 0.281 | 0.120 * | 0.972 | 0.959 | 7 to 11% |
 | GPT-5.4-mini | 0.460 | 0.294 * | 0.981 | 0.962 | 13% |
 | Sonnet 5 | 0.333 | **0.427 \*** | 0.991 | **0.998 \*** | 1 of 802 |
 
-Existence collapses only at 30B. Quotation fidelity degrades
-significantly at every tier except the highest, where the sign
-reverses: the sanctions warning that damages or fails to move every
-other model makes the strongest model significantly more careful, on
-both channels. Across all 960 pressured drafts there was one refusal.
+How to read it: going down a column is the capability ladder; going
+from the baseline column to the combo column is what pressure does.
+Fabricated citations appear only in the top row. Quotation accuracy
+falls significantly in every row except the last, where it
+significantly *rises*: the sanctions warning that damages or fails to
+move every other model makes the strongest one more careful. Compliance
+with the pre-1970 rule follows the same ladder, from one violation in
+five down to one in eight hundred. And across all 960 pressured drafts
+there was exactly one refusal; every other degradation happened
+without a word of warning.
 
-**Experiment 2: repair is capability-gated, and imprecise verification
-is destructive.** Final strict quotation accuracy after up to three
-rounds of feedback:
+### Finding 2. The verifier repairs only the models that least need it, and false warnings poison every model
+
+**Table 2.** Strict quotation accuracy before and after up to three
+rounds of verifier feedback on combined-pressure drafts. The scrambled
+arm receives the same number of official-looking warnings aimed at
+items that are actually correct.
 
 | model | true feedback | scrambled feedback | converged |
 |---|---|---|---|
@@ -179,29 +188,46 @@ rounds of feedback:
 | GPT-5.4-mini | 0.360 → 0.719 | 0.360 → 0.241 | 22 of 24 |
 | Sonnet 5 | 0.471 → **0.974** | 0.471 → 0.266 | 23 of 24 |
 
-The tier where fabrication actually lives cannot use the verifier's
-help; the tier that can barely needed it. And false-positive verifier
-flags corrupt every model, worst at the top, because obeying feedback
-is precisely what strong models do best. Verifier precision is a
-deployment requirement.
+Two lessons sit in this table. Repair ability rises with capability,
+which means the tier where fabrication actually lives (row one) cannot
+use the verifier's help, while the tier that repairs almost perfectly
+barely needed it. And the scrambled column shows that false-positive
+verifier flags are not harmless noise: every model damages its own
+correct work trying to obey them, and the strongest models, being the
+best at obeying, are damaged most. A verifier in the loop needs
+precision guarantees, not just coverage.
 
-**What survives at frontier scale is misattribution, not invention.**
-55% of Sonnet 5's inaccurate quotations are paraphrases of the correct
-case presented as verbatim quotation; 366 quotations across the four
-models are real passages of real opinions bound to the wrong authority
-(proven by corpus search); and where a pinpoint page and a quotation
-co-occur, the quotation sits on the cited page 77% of the time for
-Sonnet 5 and 51 to 58% for the rest. The page-level check is exhaustive
-measurement, on public data, of the error class the best published
-detector catches at 18.2% recall.
+### Finding 3. What survives at frontier scale is misattribution, not invention
 
-**A negative result that frames the rest.** The one channel requiring
-judgment rather than lookup, whether a real quotation supports the
-proposition it is attached to, defeated three LLM juries (budget and
-frontier) against a pre-declared calibration bar of 0.75 on
-expert-labeled items: they scored 0.500, 0.700, and 0.594, each
-failing as a near-constant classifier. In legal citation integrity,
-the layer you can trust is the layer you can verify deterministically.
+Three residual failure modes, each measured deterministically:
+
+| failure mode | measurement | headline number |
+|---|---|---|
+| paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 55% of Sonnet 5's inaccurate quotes are paraphrases of the correct case |
+| right words, wrong case | corpus search for each quote's true source | 366 quotes across models are real opinion passages bound to the wrong authority |
+| right case, wrong page | quote located against star pagination | quote sits on the cited page 77% of the time (Sonnet 5), 51 to 58% for the rest |
+
+The models know the words of the law better than they know who said
+them or where. These are exactly the errors invisible to an existence
+check and to any reader who recognizes the language, and the page-level
+measurement is exhaustive on public data for an error class the best
+published detector catches at 18.2% recall.
+
+### Finding 4. The one judgment call defeated every jury
+
+Whether a real quotation actually supports its proposition cannot be
+looked up, only judged, so we tried to calibrate LLM panels against
+expert-labeled misrepresentations with a pre-declared bar of 0.75:
+
+| panel | accuracy | failure mode |
+|---|---|---|
+| three-family budget panel, binary verdict | 0.500 | rejected everything |
+| same panel, three-way verdict with abstention | 0.700 | accepted everything |
+| GPT-5.4 + Sonnet 5 + Gemini 2.5 Pro, 15K-character excerpts | 0.594 | accepted everything |
+
+No verdict from a failed panel was interpreted. The result frames the
+whole project: in legal citation integrity, the layer you can trust is
+the layer you can verify deterministically.
 
 ## Repository guide
 

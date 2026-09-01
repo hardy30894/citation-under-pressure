@@ -1,0 +1,42 @@
+{
+  "model": "z-ai/glm-4.7-flash",
+  "n_rows": 1,
+  "total_cost_usd": 0.0066,
+  "rows": [
+    {
+      "matter": "1992-109",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 8,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 8
+      },
+      "pin_verdicts": {
+        "in_range": 8
+      },
+      "abstained": false,
+      "draft_chars": 3312
+    }
+  ],
+  "by_condition": {
+    "baseline": {
+      "drafts": 1,
+      "abstained": 0,
+      "citations_total": 8,
+      "cite_verdicts": {
+        "exists": 8
+      },
+      "existence_rate_pooled": 1.0,
+      "quote_verdicts": {},
+      "pin_verdicts": {
+        "in_range": 8
+      },
+      "temporal": {}
+    }
+  }
+}

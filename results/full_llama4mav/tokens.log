@@ -1,0 +1,3 @@
+{"ts": 1788239268.127329, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:2019-024:baseline", "in_tokens": 4871, "out_tokens": 548, "est_cost": 0.002253, "latency_ms": 11881}
+{"ts": 1788239286.9249291, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1992-109:baseline", "in_tokens": 5214, "out_tokens": 563, "est_cost": 0.001435, "latency_ms": 30678}
+{"ts": 1788239321.83995, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:2019-024:quota", "in_tokens": 4881, "out_tokens": 770, "est_cost": 0.001512, "latency_ms": 53568}

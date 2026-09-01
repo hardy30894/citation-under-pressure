@@ -76,6 +76,18 @@ MODELS = {
         price_in_per_m=0.75,
         price_out_per_m=4.5,
     ),
+    "llama4mav": dict(
+        model="meta-llama/llama-4-maverick",
+        provider_pin=None,
+        price_in_per_m=0.20,
+        price_out_per_m=0.696,
+    ),
+    "glm47flash": dict(
+        model="z-ai/glm-4.7-flash",
+        provider_pin=None,
+        price_in_per_m=0.06,
+        price_out_per_m=0.40,
+    ),
 }
 # Reasoning models spend completion budget on hidden reasoning before any
 # visible text; a tight cap yields empty completions (same failure the old
@@ -86,9 +98,12 @@ MAX_TOKENS_BY_MODEL = {
     "sonnet": 12000,
     "deepseek": 12000,   # reasoning model: starves below ~4K (known failure)
     "gpt54mini": 12000,
+    "llama4mav": 4000,
+    "glm47flash": 12000,  # may reason; headroom is free, cost tracks usage
 }
 BUDGET_BY_MODEL = {
     "qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 12.0, "sonnet": 25.0,
+    "llama4mav": 3.0, "glm47flash": 3.0,
 }
 
 # ---------------------------------------------------------------- conditions
