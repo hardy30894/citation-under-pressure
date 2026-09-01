@@ -7,6 +7,18 @@ drafts and 192 repair episodes, the statistics, and a ledger of every
 analysis decision including the two findings the project retracted
 itself.
 
+```mermaid
+flowchart LR
+    A["a model is asked to<br/>draft a legal brief"] --> B["under real-world pressure:<br/>a citation quota, an<br/>old-authority rule, a<br/>sanctions warning"]
+    B --> C["it cites cases.<br/>do they exist? are the<br/>quotes verbatim? is the<br/>page right?"]
+    C --> D["we check every citation<br/>deterministically,<br/>never with an AI judge"]
+    D --> E["then put the checker inside<br/>the drafting loop and ask:<br/>can it repair what<br/>pressure breaks?"]
+```
+
+The short answer: pressure breaks citation integrity in exactly the
+models that are cheapest to deploy, it breaks them silently, and the
+checker can only repair the models that barely needed it.
+
 ## Abstract
 
 Language models fabricate legal citations, and the failures that reach
