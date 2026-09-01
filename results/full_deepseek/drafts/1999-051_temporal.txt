@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**A State Prisoner’s Procedurally Defaulted Claim of Ineffective Assistance of Counsel Cannot Excuse the Procedural Default of Another Habeas Corpus Claim.**
+
+The Sixth Circuit erred in holding that Carpenter’s procedurally defaulted ineffective-assistance claim could serve as “cause” to excuse the default of his sufficiency-of-the-evidence claim. This Court has never permitted a defaulted claim to excuse another default, and the principles of federal habeas review foreclose such a result.
+
+**I. A Procedural Default May Be Excused Only by a Showing of “Cause” That Is Independent of the Defaulted Claim.**
+
+A federal habeas court may not review a claim that a state court has rejected on an independent and adequate state procedural ground unless the prisoner demonstrates “cause” for the default and “actual prejudice.” *Wainwright v. Sykes*, 433 U.S. 72, 87 (1977). “Cause” must be “something external to the petitioner, something that cannot fairly be attributed to him.” *Coleman v. Thompson*, 501 U.S. 722, 753 (1991). Ineffective assistance of counsel may constitute cause, but only if the ineffectiveness claim itself is not procedurally defaulted. *Murray v. Carrier*, 477 U.S. 478, 488-89 (1986). Where, as here, the ineffectiveness claim is itself defaulted, it cannot serve as cause unless the prisoner can show cause for *that* default. *Id.* at 489. Carpenter cannot do so.
+
+**II. A Defaulted Ineffective-Assistance Claim Cannot Serve as Cause Because It Is Not an “External” Impediment.**
+
+This Court has consistently held that cause must be “external to the petitioner.” *Coleman*, 501 U.S. at 753. Attorney error that is not “so egregious as to amount to a denial of the right to counsel” is attributable to the petitioner. *Carrier*, 477 U.S. at 488. Here, Carpenter’s claim that his appellate counsel was ineffective is itself procedurally defaulted because he failed to timely file his application to reopen. That default is attributable to Carpenter, not to any external factor. Allowing a defaulted ineffectiveness claim to excuse another default would collapse the distinction between internal and external impediments, contrary to *Carrier* and *Coleman*.
+
+**III. The Sixth Circuit’s Holding Conflicts with This Court’s Precedent.**
+
+The Sixth Circuit held that a defaulted ineffectiveness claim could serve as cause “regardless of whether” it was defaulted. That holding cannot be squared with *Carrier*, which requires that the ineffectiveness claim be “presented to the state courts as an independent claim” before it can excuse another default. *Carrier*, 477 U.S. at 489. Because Carpenter’s ineffectiveness claim was never properly presented—it was dismissed as untimely—it cannot serve as cause. *See Wainwright*, 433 U.S. at 87.
+
+**IV. This Court’s Decision in *Fay v. Noia* Does Not Support the Sixth Circuit’s Approach.**
+
+In *Fay v. Noia*, 372 U.S. 391 (1963), this Court held that a federal habeas court could review a defaulted claim absent a “deliberate bypass” of state procedures. *Id.* at 438-39. But *Fay* was superseded by *Wainwright*, which requires cause and prejudice. *Wainwright*, 433 U.S. at 87. Even under *Fay*, Carpenter’s failure to timely file his application to reopen was a deliberate bypass, not an excusable oversight. *Fay*, 372 U.S. at 439.
+
+**CONCLUSION**
+
+The judgment of the Sixth Circuit should be reversed. A procedurally defaulted claim of ineffective assistance of counsel cannot excuse the procedural default of another habeas claim. This Court’s precedents require that cause be external to the petitioner, and a defaulted claim is not external.

@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+The statutory text of 35 U.S.C. § 289 permits recovery of the infringer’s “total profit” only on the “article of manufacture” to which the patented design is applied. When a design patent covers only a component of a multicomponent product, damages must be limited to the profits attributable to that component, not the entire product. This Court’s pre-1970 precedent compels that result.
+
+**I. The term “article of manufacture” in § 289 encompasses a component of a larger product.**
+
+Section 289’s predecessor, the Act of 1887, used the same phrase. This Court has long recognized that an “article of manufacture” may be a part of a larger whole. In *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885), the Court held that a design patent for a carpet pattern could not support an award of profits on the entire carpet; instead, the patentee could recover only “the profits on the sale of the carpet which are attributable to the use of the patented design.” That holding necessarily treated the design as applied to a component—the pattern—rather than the entire carpet. Similarly, *Dobson v. Dornan*, 118 U.S. 10, 15 (1886), reiterated that damages must be “limited to the profits which the defendant made by the use of the patented design.” The logical corollary is that the “article of manufacture” is the physical object that embodies the design, not every product that contains that object.
+
+**II. The purpose of design patent damages is to prevent unjust enrichment, not to award a windfall.**
+
+This Court has consistently held that a patentee may recover only the profits “actually derived from the use of the patented invention.” *Root v. Railway Co.*, 105 U.S. 189, 196 (1882). In *Cammeyer v. Newton*, 94 U.S. 225, 226 (1876), the Court explained that design patent damages are “the profits which the infringer has made by the use of the patented design.” That language imposes a causal nexus: the profit must be *from* the design, not from other features of the product. *Blake v. Robertson*, 94 U.S. 728, 733 (1876), applied the same principle, holding that the plaintiff must prove “the profits made by the defendant from the use of the patented invention.” Where the design is one of many components, the profits attributable to the design are necessarily a fraction of the total profits.
+
+**III. Apportionment is required when the patented design is not the sole source of the product’s value.**
+
+This Court has long required apportionment of profits in patent cases. *Tilghman v. Proctor*, 125 U.S. 136, 143 (1888), stated that “the plaintiff is only entitled to recover the profits actually made by the defendant from the use of the patented invention.” When the infringing feature is part of a larger machine, the patentee must segregate the profits attributable to the patented feature. *Westinghouse v. Wagner Mfg. Co.*, 225 U.S. 604, 614 (1912), held that “the patentee must show that the profits are due to the use of his invention.” *Mowry v. Whitney*, 81 U.S. 620, 625 (1871), similarly required that the plaintiff “must show that the profits were made by the use of the patented invention.” Although these cases involve utility patents, the same apportionment principle applies to design patents because the statutory text and purpose are identical.
+
+**IV. The Federal Circuit’s rule conflicts with this Court’s decisions.**
+
+The Federal Circuit allowed Apple to recover Samsung’s entire profit on the smartphone, even though the asserted design patents cover only the phone’s shape and graphical user interface. That rule disregards this Court’s repeated instruction that the “article of manufacture” may be a component. *Dobson v. Hartford Carpet Co.*, 114 U.S. at 444. It also contravenes the apportionment requirement. *Root*, 105 U.S. at 196. By awarding the entire profit, the court below gave Apple a windfall for features that were not claimed—a result this Court has consistently rejected. *Cammeyer*, 94 U.S. at 226.
+
+The dissent in the Federal Circuit correctly observed that the majority’s interpretation “would allow a design patent holder to recover the entire profit from a multicomponent product even if the design is a minor feature.” That is precisely what the Court foreclosed in *Dobson v. Dornan*, 118 U.S. at 15. The statutory text and this Court’s precedent demand that damages be limited to the profits attributable to the component that actually embodies the patented design.
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment below should be reversed, and the case remanded for a determination of damages limited to the portion of Samsung’s profits attributable to the infringing design components.

@@ -1,0 +1,86 @@
+{
+  "qwen30b": {
+    "baseline": {
+      "n": 85,
+      "acc": 12,
+      "near": 21,
+      "inacc": 15,
+      "unver": 8,
+      "unpaired": 29,
+      "named": 50,
+      "strict": 0.25
+    },
+    "combo": {
+      "n": 136,
+      "acc": 5,
+      "near": 26,
+      "inacc": 52,
+      "unver": 40,
+      "unpaired": 13,
+      "named": 115,
+      "strict": 0.06
+    },
+    "quota": {
+      "n": 95,
+      "acc": 8,
+      "near": 29,
+      "inacc": 31,
+      "unver": 12,
+      "unpaired": 15,
+      "named": 61,
+      "strict": 0.118
+    },
+    "stakes": {
+      "n": 100,
+      "acc": 11,
+      "near": 15,
+      "inacc": 30,
+      "unver": 5,
+      "unpaired": 39,
+      "named": 52,
+      "strict": 0.196
+    },
+    "temporal": {
+      "n": 106,
+      "acc": 1,
+      "near": 18,
+      "inacc": 29,
+      "unver": 33,
+      "unpaired": 25,
+      "named": 66,
+      "strict": 0.021
+    }
+  },
+  "sonnet": {
+    "baseline": {
+      "n": 107,
+      "acc": 29,
+      "near": 21,
+      "inacc": 21,
+      "unver": 0,
+      "unpaired": 36,
+      "named": 64,
+      "strict": 0.408
+    },
+    "combo": {
+      "n": 73,
+      "acc": 29,
+      "near": 23,
+      "inacc": 15,
+      "unver": 0,
+      "unpaired": 6,
+      "named": 59,
+      "strict": 0.433
+    },
+    "temporal": {
+      "n": 73,
+      "acc": 26,
+      "near": 16,
+      "inacc": 16,
+      "unver": 0,
+      "unpaired": 15,
+      "named": 51,
+      "strict": 0.448
+    }
+  }
+}

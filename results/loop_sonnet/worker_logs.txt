@@ -1,0 +1,39 @@
+1997-100:scrambled       rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$4.824
+done: 1 episodes, $4.824
+2012-006:true            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$3.593
+2012-006:scrambled       rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$5.263
+done: 2 episodes, $5.263
+1998-085:true            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$3.637
+1998-085:scrambled       rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$5.596
+done: 2 episodes, $5.596
+2011-010:true            rounds=3 conv=True strict 0.6->1.0 exist 1.0->1.0 cost=$4.573
+2011-010:scrambled       rounds=4 conv=False strict 0.6->0.0 exist 1.0->1.0 cost=$6.659
+done: 2 episodes, $6.659
+2012-029:true            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$4.059
+2012-029:scrambled       rounds=4 conv=False strict 0.5->0.333 exist 1.0->1.0 cost=$6.725
+done: 2 episodes, $6.725
+1997-021:true            rounds=2 conv=True strict 0.167->None exist 1.0->1.0 cost=$3.826
+1997-021:scrambled       rounds=4 conv=False strict 0.167->0.0 exist 1.0->1.0 cost=$6.793
+done: 2 episodes, $6.793
+2012-031:true            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$5.116
+2012-031:scrambled       rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$6.844
+done: 2 episodes, $6.844
+2010-046:true            rounds=2 conv=True strict 0.625->1.0 exist 1.0->1.0 cost=$4.527
+2010-046:scrambled       rounds=4 conv=False strict 0.625->0.571 exist 1.0->1.0 cost=$6.969
+done: 2 episodes, $6.969
+1997-033:scrambled       rounds=4 conv=False strict 0.4->0.0 exist 1.0->1.0 cost=$7.236
+done: 1 episodes, $7.236
+1992-086:true            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$4.754
+1992-086:scrambled       rounds=4 conv=False strict 0.5->0.875 exist 1.0->1.0 cost=$7.349
+done: 2 episodes, $7.349
+2001-013:scrambled       rounds=4 conv=False strict 0.0->0.5 exist 1.0->1.0 cost=$7.799
+done: 1 episodes, $7.799
+2005-087:true            rounds=2 conv=True strict 0.222->1.0 exist 1.0->1.0 cost=$3.931
+2005-087:scrambled       rounds=4 conv=False strict 0.222->0.5 exist 1.0->1.0 cost=$8.025
+done: 2 episodes, $8.025
+2000-071:true            rounds=3 conv=True strict 0.583->1.0 exist 1.0->1.0 cost=$4.930
+2000-071:scrambled       rounds=4 conv=False strict 0.583->0.0 exist 1.0->1.0 cost=$8.179
+done: 2 episodes, $8.179
+1999-051:true            rounds=4 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$6.903
+1999-051:scrambled       rounds=4 conv=False strict 0.333->0.25 exist 1.0->1.0 cost=$8.586
+done: 2 episodes, $8.586

@@ -1,0 +1,162 @@
+{
+ "qwen30b:quota:exist": [
+  -0.0677,
+  -0.1099,
+  -0.029
+ ],
+ "qwen30b:quota:strict": [
+  -0.0264,
+  -0.0845,
+  0.0316
+ ],
+ "qwen30b:temporal:exist": [
+  -0.1062,
+  -0.1773,
+  -0.0415
+ ],
+ "qwen30b:temporal:strict": [
+  -0.0831,
+  -0.1608,
+  -0.0002
+ ],
+ "qwen30b:stakes:exist": [
+  -0.0559,
+  -0.1094,
+  -0.0054
+ ],
+ "qwen30b:stakes:strict": [
+  -0.0435,
+  -0.1128,
+  0.0344
+ ],
+ "qwen30b:combo:exist": [
+  -0.1502,
+  -0.2308,
+  -0.0759
+ ],
+ "qwen30b:combo:strict": [
+  -0.1159,
+  -0.1822,
+  -0.0498
+ ],
+ "deepseek:quota:exist": [
+  -0.0154,
+  -0.0381,
+  0.0096
+ ],
+ "deepseek:quota:strict": [
+  -0.0481,
+  -0.117,
+  0.0171
+ ],
+ "deepseek:temporal:exist": [
+  -0.0181,
+  -0.0586,
+  0.0163
+ ],
+ "deepseek:temporal:strict": [
+  -0.0918,
+  -0.1738,
+  -0.0077
+ ],
+ "deepseek:stakes:exist": [
+  0.0007,
+  -0.0347,
+  0.0328
+ ],
+ "deepseek:stakes:strict": [
+  0.0047,
+  -0.0786,
+  0.094
+ ],
+ "deepseek:combo:exist": [
+  -0.0069,
+  -0.0355,
+  0.0245
+ ],
+ "deepseek:combo:strict": [
+  -0.1388,
+  -0.2129,
+  -0.0655
+ ],
+ "gpt54mini:quota:exist": [
+  0.0029,
+  -0.016,
+  0.0228
+ ],
+ "gpt54mini:quota:strict": [
+  -0.0151,
+  -0.137,
+  0.0988
+ ],
+ "gpt54mini:temporal:exist": [
+  -0.0196,
+  -0.0535,
+  0.0079
+ ],
+ "gpt54mini:temporal:strict": [
+  -0.1238,
+  -0.2566,
+  0.0134
+ ],
+ "gpt54mini:stakes:exist": [
+  0.0003,
+  -0.0175,
+  0.0192
+ ],
+ "gpt54mini:stakes:strict": [
+  -0.0294,
+  -0.1332,
+  0.071
+ ],
+ "gpt54mini:combo:exist": [
+  -0.0168,
+  -0.0356,
+  0.0021
+ ],
+ "gpt54mini:combo:strict": [
+  -0.1722,
+  -0.3161,
+  -0.0312
+ ],
+ "sonnet:quota:exist": [
+  -0.0061,
+  -0.0166,
+  0.003
+ ],
+ "sonnet:quota:strict": [
+  0.008,
+  -0.058,
+  0.0715
+ ],
+ "sonnet:temporal:exist": [
+  0.0039,
+  0.0,
+  0.0094
+ ],
+ "sonnet:temporal:strict": [
+  0.0191,
+  -0.0577,
+  0.0908
+ ],
+ "sonnet:stakes:exist": [
+  0.0024,
+  -0.0024,
+  0.0088
+ ],
+ "sonnet:stakes:strict": [
+  0.0783,
+  -0.0159,
+  0.1611
+ ],
+ "sonnet:combo:exist": [
+  0.0066,
+  0.0,
+  0.015
+ ],
+ "sonnet:combo:strict": [
+  0.1022,
+  0.0181,
+  0.1903
+ ]
+}

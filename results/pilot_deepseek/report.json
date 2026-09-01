@@ -1,0 +1,50 @@
+{
+  "model": "deepseek/deepseek-v4-flash",
+  "n_rows": 1,
+  "total_cost_usd": 0.001,
+  "rows": [
+    {
+      "matter": "1992-109",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 7,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.6667,
+      "n_quotes": 6,
+      "quote_verdicts": {
+        "accurate": 4,
+        "near_miss": 1,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 7
+      },
+      "pin_verdicts": {
+        "in_range": 7
+      },
+      "abstained": false,
+      "draft_chars": 4749
+    }
+  ],
+  "by_condition": {
+    "baseline": {
+      "drafts": 1,
+      "abstained": 0,
+      "citations_total": 7,
+      "cite_verdicts": {
+        "exists": 7
+      },
+      "existence_rate_pooled": 1.0,
+      "quote_verdicts": {
+        "accurate": 4,
+        "near_miss": 1,
+        "inaccurate": 1
+      },
+      "pin_verdicts": {
+        "in_range": 7
+      },
+      "temporal": {}
+    }
+  }
+}

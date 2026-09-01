@@ -1,0 +1,346 @@
+{
+ "qwen30b": {
+  "original": {
+   "baseline": {
+    "ex": 84,
+    "nf": 9,
+    "acc": 7,
+    "bad": 51,
+    "exist": 0.903,
+    "strict": 0.121
+   },
+   "combo": {
+    "ex": 93,
+    "nf": 19,
+    "acc": 7,
+    "bad": 92,
+    "exist": 0.83,
+    "strict": 0.071
+   },
+   "quota": {
+    "ex": 96,
+    "nf": 13,
+    "acc": 13,
+    "bad": 74,
+    "exist": 0.881,
+    "strict": 0.149
+   },
+   "stakes": {
+    "ex": 88,
+    "nf": 9,
+    "acc": 9,
+    "bad": 60,
+    "exist": 0.907,
+    "strict": 0.13
+   },
+   "temporal": {
+    "ex": 67,
+    "nf": 14,
+    "acc": 8,
+    "bad": 62,
+    "exist": 0.827,
+    "strict": 0.114
+   }
+  },
+  "paraphrase": {
+   "baseline": {
+    "ex": 34,
+    "nf": 2,
+    "acc": 0,
+    "bad": 18,
+    "exist": 0.944,
+    "strict": 0.0
+   },
+   "combo": {
+    "ex": 23,
+    "nf": 3,
+    "acc": 2,
+    "bad": 24,
+    "exist": 0.885,
+    "strict": 0.077
+   },
+   "quota": {
+    "ex": 34,
+    "nf": 5,
+    "acc": 1,
+    "bad": 8,
+    "exist": 0.872,
+    "strict": 0.111
+   },
+   "stakes": {
+    "ex": 33,
+    "nf": 3,
+    "acc": 3,
+    "bad": 15,
+    "exist": 0.917,
+    "strict": 0.167
+   },
+   "temporal": {
+    "ex": 23,
+    "nf": 7,
+    "acc": 2,
+    "bad": 26,
+    "exist": 0.767,
+    "strict": 0.071
+   }
+  }
+ },
+ "deepseek": {
+  "original": {
+   "baseline": {
+    "ex": 98,
+    "nf": 6,
+    "acc": 20,
+    "bad": 58,
+    "exist": 0.942,
+    "strict": 0.256
+   },
+   "combo": {
+    "ex": 123,
+    "nf": 2,
+    "acc": 12,
+    "bad": 96,
+    "exist": 0.984,
+    "strict": 0.111
+   },
+   "quota": {
+    "ex": 135,
+    "nf": 7,
+    "acc": 32,
+    "bad": 87,
+    "exist": 0.951,
+    "strict": 0.269
+   },
+   "stakes": {
+    "ex": 84,
+    "nf": 4,
+    "acc": 25,
+    "bad": 65,
+    "exist": 0.955,
+    "strict": 0.278
+   },
+   "temporal": {
+    "ex": 83,
+    "nf": 6,
+    "acc": 14,
+    "bad": 63,
+    "exist": 0.933,
+    "strict": 0.182
+   }
+  },
+  "paraphrase": {
+   "baseline": {
+    "ex": 23,
+    "nf": 0,
+    "acc": 11,
+    "bad": 12,
+    "exist": 1.0,
+    "strict": 0.478
+   },
+   "combo": {
+    "ex": 26,
+    "nf": 1,
+    "acc": 6,
+    "bad": 19,
+    "exist": 0.963,
+    "strict": 0.24
+   },
+   "quota": {
+    "ex": 29,
+    "nf": 1,
+    "acc": 4,
+    "bad": 13,
+    "exist": 0.967,
+    "strict": 0.235
+   },
+   "stakes": {
+    "ex": 22,
+    "nf": 0,
+    "acc": 7,
+    "bad": 25,
+    "exist": 1.0,
+    "strict": 0.219
+   },
+   "temporal": {
+    "ex": 18,
+    "nf": 1,
+    "acc": 2,
+    "bad": 18,
+    "exist": 0.947,
+    "strict": 0.1
+   }
+  }
+ },
+ "gpt54mini": {
+  "original": {
+   "baseline": {
+    "ex": 88,
+    "nf": 3,
+    "acc": 24,
+    "bad": 27,
+    "exist": 0.967,
+    "strict": 0.471
+   },
+   "combo": {
+    "ex": 182,
+    "nf": 7,
+    "acc": 19,
+    "bad": 17,
+    "exist": 0.963,
+    "strict": 0.528
+   },
+   "quota": {
+    "ex": 141,
+    "nf": 5,
+    "acc": 24,
+    "bad": 17,
+    "exist": 0.966,
+    "strict": 0.585
+   },
+   "stakes": {
+    "ex": 98,
+    "nf": 3,
+    "acc": 23,
+    "bad": 32,
+    "exist": 0.97,
+    "strict": 0.418
+   },
+   "temporal": {
+    "ex": 120,
+    "nf": 7,
+    "acc": 6,
+    "bad": 11,
+    "exist": 0.945,
+    "strict": 0.353
+   }
+  },
+  "paraphrase": {
+   "baseline": {
+    "ex": 22,
+    "nf": 0,
+    "acc": 3,
+    "bad": 5,
+    "exist": 1.0,
+    "strict": 0.375
+   },
+   "combo": {
+    "ex": 56,
+    "nf": 0,
+    "acc": 1,
+    "bad": 7,
+    "exist": 1.0,
+    "strict": 0.125
+   },
+   "quota": {
+    "ex": 36,
+    "nf": 0,
+    "acc": 9,
+    "bad": 5,
+    "exist": 1.0,
+    "strict": 0.643
+   },
+   "stakes": {
+    "ex": 33,
+    "nf": 0,
+    "acc": 6,
+    "bad": 14,
+    "exist": 1.0,
+    "strict": 0.3
+   },
+   "temporal": {
+    "ex": 29,
+    "nf": 0,
+    "acc": 2,
+    "bad": 1,
+    "exist": 1.0,
+    "strict": 0.667
+   }
+  }
+ },
+ "sonnet": {
+  "original": {
+   "baseline": {
+    "ex": 81,
+    "nf": 1,
+    "acc": 44,
+    "bad": 82,
+    "exist": 0.988,
+    "strict": 0.349
+   },
+   "combo": {
+    "ex": 111,
+    "nf": 0,
+    "acc": 32,
+    "bad": 53,
+    "exist": 1.0,
+    "strict": 0.376
+   },
+   "quota": {
+    "ex": 117,
+    "nf": 2,
+    "acc": 32,
+    "bad": 97,
+    "exist": 0.983,
+    "strict": 0.248
+   },
+   "stakes": {
+    "ex": 89,
+    "nf": 2,
+    "acc": 41,
+    "bad": 60,
+    "exist": 0.978,
+    "strict": 0.406
+   },
+   "temporal": {
+    "ex": 82,
+    "nf": 1,
+    "acc": 29,
+    "bad": 46,
+    "exist": 0.988,
+    "strict": 0.387
+   }
+  },
+  "paraphrase": {
+   "baseline": {
+    "ex": 24,
+    "nf": 0,
+    "acc": 11,
+    "bad": 19,
+    "exist": 1.0,
+    "strict": 0.367
+   },
+   "combo": {
+    "ex": 25,
+    "nf": 0,
+    "acc": 13,
+    "bad": 6,
+    "exist": 1.0,
+    "strict": 0.684
+   },
+   "quota": {
+    "ex": 31,
+    "nf": 0,
+    "acc": 13,
+    "bad": 18,
+    "exist": 1.0,
+    "strict": 0.419
+   },
+   "stakes": {
+    "ex": 23,
+    "nf": 0,
+    "acc": 13,
+    "bad": 23,
+    "exist": 1.0,
+    "strict": 0.361
+   },
+   "temporal": {
+    "ex": 23,
+    "nf": 0,
+    "acc": 9,
+    "bad": 8,
+    "exist": 1.0,
+    "strict": 0.529
+   }
+  }
+ }
+}

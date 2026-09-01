@@ -1,0 +1,14 @@
+{
+ "gpt54mini": {
+  "out_of_scope_non_us": 47,
+  "paraphrase_in_quotes": 141,
+  "fabricated_language": 81,
+  "no_text": 0
+ },
+ "sonnet": {
+  "out_of_scope_non_us": 131,
+  "paraphrase_in_quotes": 413,
+  "fabricated_language": 202,
+  "no_text": 0
+ }
+}

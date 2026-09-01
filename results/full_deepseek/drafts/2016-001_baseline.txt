@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+The design patent damages statute, 35 U.S.C. § 289, provides that a patentee may recover “the total profit of the infringer” from the “article of manufacture” to which the patented design has been applied. The central question is what constitutes the relevant “article of manufacture” when a design patent covers only a component of a multicomponent product. The text, structure, and purpose of § 289, as well as this Court’s precedents, compel the conclusion that the “article of manufacture” is the component itself—not the entire product in which it is incorporated.
+
+**I. The Statutory Text Limits Damages to the Component to Which the Design Is Applied**
+
+Section 289 states that a design patent infringer “shall be liable to the owner to the extent of his total profit” from the “article of manufacture” bearing the patented design. 35 U.S.C. § 289. The phrase “article of manufacture” is not defined in the statute, but its ordinary meaning refers to a thing made by human labor. *See* *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 445 (1885) (holding that the “article of manufacture” is the “thing” to which the design is applied). When a design is applied only to a component—such as a smartphone’s screen or bezel—the component itself is the “article of manufacture.” The statute does not authorize recovery of profits from unrelated components or the entire product.
+
+This Court has long recognized that the “article of manufacture” must be identified with precision. In *Dobson*, the Court rejected an attempt to recover profits from an entire carpet when the design covered only a small portion of it. 114 U.S. at 445–46. The Court explained that the patentee’s recovery is limited to profits from the “article” that actually embodies the design. *Id.* at 446. That principle applies with equal force here: Samsung’s smartphones contain thousands of components, only a few of which embody Apple’s design patents. Permitting Apple to recover profits from the entire phone would contravene the statute’s plain language.
+
+**II. This Court’s Precedents Require That the Article of Manufacture Be the Component**
+
+In *Gorham Mfg. Co. v. White*, 81 U.S. 511 (1871), the Court held that a design patent protects the “ornamental design” of an “article of manufacture.” *Id.* at 524. The Court emphasized that the design is applied to a specific article, not to the entire product line. *Id.* at 525. Similarly, in *Dobson*, the Court limited recovery to profits from the “article” that actually bore the design, rejecting an attempt to recover from the entire carpet. 114 U.S. at 445–46. These cases establish that the “article of manufacture” is the discrete item to which the design is applied, not the larger product in which it is incorporated.
+
+The Federal Circuit’s contrary approach—allowing recovery from the entire product whenever the design is applied to a component—ignores this Court’s teaching. The Federal Circuit has held that the “article of manufacture” is the “product as sold,” even if the design covers only a part. *See, e.g.,* *Apple Inc. v. Samsung Elecs. Co.*, 786 F.3d 983, 1002 (Fed. Cir. 2015) (affirming award of entire profits from smartphones). That rule is inconsistent with *Dobson* and *Gorham*, which require a component-by-component analysis.
+
+**III. The Federal Circuit’s Rule Overcompensates Patentees and Distorts Innovation**
+
+Allowing a patentee to recover profits from an entire product when the design covers only a component creates a windfall. A smartphone’s value derives from thousands of patented and unpatented features—processing power, memory, software, and design. The design of a single component, such as a rounded corner or a bezel, contributes only a fraction of that value. Yet under the Federal Circuit’s rule, the patentee can capture the entire profit, even from components that have nothing to do with the patented design. This overcompensation discourages innovation by imposing disproportionate liability on infringers and encourages patentees to assert design patents on minor components to extract outsized damages.
+
+This Court has cautioned against such overcompensation. In *Dobson*, the Court rejected a damages award that “would give the complainant the entire profits of the defendant’s business” when the design covered only a small part. 114 U.S. at 446. The same reasoning applies here. The statute’s purpose is to compensate the patentee for the value of the design, not to grant a monopoly over the entire product. *See* *Seymour v. McCormick*, 57 U.S. 480, 490 (1853) (explaining that damages must be “commensurate with the injury”).
+
+**IV. The Proper Test Is Whether the Component Is a Separate Article of Manufacture**
+
+The correct approach is to ask whether the component itself is an “article of manufacture” that can be sold or used separately. If the design is applied to a component that is a distinct article—such as a smartphone screen or case—then the “article of manufacture” is that component. If the design is applied to the entire product, then the entire product is the article. This test respects the statutory text and this Court’s precedents, and it prevents the overcompensation that results from the Federal Circuit’s rule.
+
+Here, Apple’s design patents cover specific components of Samsung’s smartphones—such as the front face, bezel, and graphical user interface. Those components are separate articles of manufacture that can be produced and sold independently. The district court erred by allowing the jury to award profits from the entire smartphone. The judgment should be reversed, and the case remanded for a determination of profits attributable only to the components that embody the patented designs.
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the Federal Circuit should be reversed.

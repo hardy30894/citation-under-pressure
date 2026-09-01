@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The rule announced in *Johnson v. United States*, 576 U.S. ____ (2015), does not apply retroactively to cases on collateral review. Under the framework established in *Teague v. Lane*, 489 U.S. 288 (1989), new constitutional rules of criminal procedure generally do not apply retroactively to final convictions unless they fall within one of two narrow exceptions. The *Johnson* rule is procedural, not substantive, and it does not satisfy either *Teague* exception.
+
+**I. The *Teague* Framework Governs Retroactivity**
+
+The threshold inquiry is whether a rule is substantive or procedural. *Schriro v. Summerlin*, 542 U.S. 348, 351 (2004). Substantive rules—those that narrow the scope of a criminal statute by interpreting the meaning of the statute or declaring that certain conduct cannot be punished—apply retroactively. *Bousley v. United States*, 523 U.S. 614, 620 (1998). Procedural rules—those that alter the manner in which courts determine guilt or punishment—do not apply retroactively absent a finding that they are “watershed” rules implicating fundamental fairness. *Whorton v. Bockting*, 549 U.S. 406, 421 (2007).
+
+*Johnson* struck down the residual clause of the Armed Career Criminal Act (ACCA) as unconstitutionally vague. 576 U.S. at ____. That holding does not alter the substantive definition of “violent felony.” Instead, it invalidates a particular *method* of determining whether a prior offense qualifies as a violent felony—namely, the categorical inquiry into the “hypothetical risk posed by an abstract generic version” of the crime. *Id.* (slip op. at 5). Because the residual clause required courts to engage in “grave uncertainty” about the scope of the offense, *id.* at 8, the rule is one of procedure: it changes the *process* by which courts classify prior convictions, not the *substance* of what conduct is punishable.
+
+**II. *Johnson* Announced a Procedural, Not a Substantive, Rule**
+
+*Bousley* illustrates the distinction. There, the Court held that a rule narrowing the definition of “use” of a firearm under 18 U.S.C. § 924(c) was substantive because it “necessarily carries a significant risk that a defendant stands convicted of an act that the law does not make criminal.” 523 U.S. at 620. *Johnson* does not declare that the conduct underlying the residual clause is *innocent*. The residual clause was not a separate criminal prohibition; it was a sentencing factor. The *Johnson* rule does not “decriminalize a class of conduct,” *id.*, but rather “prohibit[s] a certain category of punishment,” *Summerlin*, 542 U.S. at 352. That is a quintessential procedural ruling.
+
+Moreover, *Johnson* does not require courts to reconsider whether a prior conviction actually occurred. It merely requires a different *comparison* between the elements of the prior offense and the federal definition. This is akin to rules that alter the evidence a court may consider in sentencing, such as the rule in *United States v. Booker*, 543 U.S. 220 (2005), which this Court held does not apply retroactively. *See* *United States v. Morris*, 429 F.3d 65, 68 (3d Cir. 2005) (applying *Teague* to *Booker*). *Johnson* is similarly procedural.
+
+**III. *Johnson* Does Not Satisfy Either *Teague* Exception**
+
+The first *Teague* exception applies to rules that “place[] certain kinds of primary, private individual conduct beyond the power of the criminal law-making authority to proscribe.” *Teague*, 489 U.S. at 307. *Johnson* does not decriminalize any conduct. Even after *Johnson*, a defendant with three prior violent felonies—including those that qualify under the elements clause or the enumerated offenses clause—remains subject to the ACCA’s mandatory minimum. The *Johnson* rule only eliminates one of several alternative paths to that enhancement.
+
+The second exception applies to “watershed rules of criminal procedure” that are “implicit in the concept of ordered liberty.” *Id.* at 311. This exception is “extremely narrow,” *Schriro*, 542 U.S. at 352, and reserved for rules that “alter our understanding of the bedrock procedural elements essential to the fairness of a proceeding.” *Whorton*, 549 U.S. at 418. *Johnson* does not affect the reliability of the guilt-innocence determination. The defendant’s guilt of the underlying § 922(g)(1) offense is unaffected. The rule concerns only the *sentence* enhancement, and this Court has never held that a sentencing rule qualifies as a watershed procedural rule. *See* *Summerlin*, 542 U.S. at 352 (holding that the right to a jury determination of aggravating factors is not a watershed rule). *Johnson* is no different.
+
+**IV. The Eleventh Circuit’s Decision Is Consistent with Precedent**
+
+The court below correctly applied *Teague* by denying Welch’s collateral challenge. Welch’s Florida robbery conviction was already held to qualify under the residual clause, and the Eleventh Circuit’s analysis preceded *Johnson*. Because *Johnson* does not apply retroactively, the district court’s sentence stands.
+
+**CONCLUSION**
+
+For these reasons, the rule announced in *Johnson v. United States* does not apply retroactively to cases on collateral review. The judgment of the court of appeals should be affirmed.

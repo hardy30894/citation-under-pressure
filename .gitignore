@@ -1,0 +1,13 @@
+# secrets: never commit
+.env
+
+# rebuildable local caches (CAP volume archives download freely on demand)
+data/cap_cache/
+data/cap_text_cache.sqlite
+
+# third-party dataset: fetch from huggingface.co/datasets/ai-law-society-lab/Legal_Phantom_Citation
+data/lephantomcite/
+
+__pycache__/
+*.pyc
+.DS_Store

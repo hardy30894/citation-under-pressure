@@ -1,0 +1,23 @@
+ARGUMENT
+
+The design patent statute, 35 U.S.C. § 289, authorizes a patentee to recover “the total profit” the infringer made “on the article of manufacture to which [the] design has been applied.” The question presented is whether that “article of manufacture” is always the entire end product sold to consumers, or may be a component thereof. The text and structure of § 289, as well as this Court’s precedents, compel the answer that damages must be limited to the profits attributable to the specific component that embodies the patented design.
+
+**I. The Statutory Text and History Require That Damages Be Tied to the Infringing Article of Manufacture**
+
+Section 289 provides that an infringer “shall be liable to the owner to the extent of his total profit” on “the article of manufacture to which [the patented] design … has been applied.” This language focuses on the article that actually incorporates the design—not on any larger product of which that article may be a part. The statute’s predecessor, the Act of 1887, contained identical language, and this Court has long recognized that the “article of manufacture” is the item that “is made and sold” by the infringer. *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 446 (1885). In *Dobson*, the Court rejected a claim for profits on an entire carpet when only a small portion of the carpet bore the patented design, holding that the patentee could recover only “the profits made by the infringer on the article of manufacture to which the design was applied.” *Id.* at 445. The same principle governs here: when a design is applied to a component such as the front face of a smartphone, the “article of manufacture” is that component, not the entire device.
+
+**II. This Court’s Recent Decision in *Samsung v. Apple* Confirms That an Article of Manufacture Can Be a Component**
+
+In *Samsung Electronics Co. v. Apple Inc.*, 580 U.S. 53 (2016), this Court unanimously held that “the term ‘article of manufacture’ is broad enough to encompass both a product sold to a consumer and a component of that product.” *Id.* at 60. The Court rejected the Federal Circuit’s rule that the entire product must always be the article, explaining that “nothing in the text of § 289 indicates that the article of manufacture must be the end product sold to the consumer.” *Id.* at 61. The Court remanded for the lower courts to determine the proper article of manufacture in the context of multi-component products. That remand necessarily requires that damages be limited to the profits attributable to the infringing component, not the entire smartphone.
+
+**III. The Profits Recoverable Must Be Confined to Those Derived from the Infringing Component**
+
+Once the article of manufacture is identified as a component, the “total profit” recoverable under § 289 can only be the profit earned on that component. This Court has long instructed that “the infringer’s entire profit on the article of manufacture to which the design has been applied” is the measure, but that profit is limited to the article itself. *Bush & Lane Piano Co. v. Becker Bros.*, 222 U.S. 1, 6 (1911). In *Bush & Lane*, the Court held that damages for a design on a piano case could not include profits from the piano’s internal mechanisms. *Id.* at 7. Similarly, a design applied to a smartphone’s screen cannot capture profits from the phone’s processor, memory, battery, or other non-infringing components. To hold otherwise would grant the patentee a windfall far exceeding the value of the design and would ignore the statute’s “article of manufacture” limitation.
+
+**IV. The Federal Circuit’s Affirmance Conflicts with *Samsung* and *Dobson***
+
+The lower court affirmed a damages award based on Samsung’s entire profits from the sale of smartphones. That decision improperly treats the entire phone as the only possible article of manufacture. This Court’s decision in *Samsung* explicitly rejects that rigid approach. The Federal Circuit’s failure to apply the correct legal standard—requiring identification of the specific article of manufacture—requires reversal.
+
+**Conclusion**
+
+For the foregoing reasons, this Court should hold that when a design patent is applied only to a component of a product, damages under § 289 must be limited to the portion of the infringer’s profits attributable to that component. The judgment below should be reversed and remanded for further proceedings consistent with that principle.

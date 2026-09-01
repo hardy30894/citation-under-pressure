@@ -1,0 +1,146 @@
+[
+ {
+  "model": "deepseek",
+  "matter": "1997-100",
+  "condition": "temporal",
+  "cited": "395 U.S. 711 (North Carolina v. Pearce)",
+  "quote": "essentially criminal.",
+  "distinctive": false,
+  "all_corpus_hits": [
+   "Appellants' 15-year-old son, Gerald Gault, was taken into custody as the result",
+   "A forfeiture of imported merchandise not included in a declaration and entry pur",
+   "The prosecution of respondent as an adult in California Superior Court, after an",
+   "Upon trial in Federal District Court, defendant Mulcahey, who asserted the defen",
+   "Montana law enforcement officers raided the farm of respondents - members of the",
+   "In No. 95-345, the Government instituted civil forfeiture proceedings under C. S",
+   "The Office of the Comptroller of the Currency (OCC) imposed monetary penalties a"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "gpt54mini",
+  "matter": "2014-024",
+  "condition": "stakes",
+  "cited": "530 U.S. 255 (Carter v. United States)",
+  "quote": "wrongdoing must be conscious to be criminal,",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "1. A criminal intent is an essential element of an offense under 18 U.S.C. 641,",
+   "After his wife left him, petitioner Anthony Douglas Elonis, under the pseudonym",
+   "After his wife left him, petitioner Anthony Douglas Elonis, under the pseudonym",
+   "After his wife left him, petitioner Anthony Douglas Elonis, under the pseudonym"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "gpt54mini",
+  "matter": "2015-007",
+  "condition": "stakes",
+  "cited": "536 U.S. 584 (Ring v. Arizona)",
+  "quote": "the task of developing appropriate ways to enforce the constitutional restriction.",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "In 1974, petitioner was convicted of murder in a Florida state court and sentenc",
+   "Petitioner Atkins was convicted of capital murder and related crimes by a Virgin",
+   "Counsel of Record For Petitioner Roper: Stephen D. Hawke  Assistant Attorney Gen",
+   "Per Curiam.  In 1982, an Arizona jury convicted respondent Robert Douglas Smith",
+   "In Atkins v. Virginia, 536 U. S. 304, this Court held that the Eighth Amendment",
+   "After this Court held that the Eighth and Fourteenth Amendments forbid the execu",
+   "After this Court held that the Eighth and Fourteenth Amendments forbid the execu",
+   "Petitioner Kevan Brumfield was convicted of murder in a Louisiana court and sent",
+   "Petitioner Kevan Brumfield was convicted of murder in a Louisiana court and sent",
+   "Petitioner Kevan Brumfield was convicted of murder in a Louisiana court and sent"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "1992-109",
+  "condition": "stakes",
+  "cited": "317 U.S. 269 (Adams v. United States Ex Rel. McCann)",
+  "quote": "made aware of the dangers and disadvantages of self-representation, so that the record will establis",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "The Sixth Amendment as made applicable to the States by the Fourteenth guarantee",
+   "After respondent Moran pleaded not guilty to three counts of first-degree murder",
+   "At respondent Tovar's November 1996 arraignment for operating a motor vehicle un"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "1997-046",
+  "condition": "temporal",
+  "cited": "367 U.S. 886 (Cafeteria & Restaurant Workers Union, Local 473 v. McElr",
+  "quote": "the nature of the interest at stake",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "Respondent, hired for a fixed term of one academic year to teach at a state univ",
+   "Appellee Ohio public high school students, who had been suspended from school fo",
+   "Petitioners, pupils in a Dade County, Fla., junior high school, filed this actio",
+   "Footnote *",
+   "Footnote *",
+   "Under Nebraska statutes a prison inmate becomes eligible for discretionary parol",
+   "Under New York law, the State may terminate, over parental objection, the rights",
+   "Held:  A Texas statute which withholds from local school districts any state fun",
+   "Appellant is the putative father of a child born out of wedlock. Appellee mother",
+   "Appellant is the putative father of a child born out of wedlock. Appellee mother"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "2001-070",
+  "condition": "stakes",
+  "cited": "492 U.S. 361 (Stanford v. Kentucky)",
+  "quote": "clearest and most reliable objective evidence of contemporary values is the legislation enacted by t",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "Petitioner was charged with capital murder in Texas state court. He was found co",
+   "The Court of Appeals granted Robert Alton Harris a stay of execution pending a r",
+   "Petitioner Atkins was convicted of capital murder and related crimes by a Virgin",
+   "Petitioner Graham was 16 when he committed armed burglary and another crime. Und",
+   "Petitioner Graham was 16 when he committed armed burglary and another crime. Und",
+   "After this Court held that the Eighth and Fourteenth Amendments forbid the execu"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "2014-024",
+  "condition": "quota",
+  "cited": "258 U.S. 250 (United States v. Balint)",
+  "quote": "presumption in favor of a scienter requirement should apply to each of the statutory elements that c",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "Respondents were convicted under the Protection of Children Against Sexual Explo",
+   "Respondents were convicted under the Protection of Children Against Sexual Explo",
+   "Respondents were convicted under the Protection of Children Against Sexual Explo",
+   "After his wife left him, petitioner Anthony Douglas Elonis, under the pseudonym",
+   "After his wife left him, petitioner Anthony Douglas Elonis, under the pseudonym"
+  ],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "2014-024",
+  "condition": "quota",
+  "cited": "535 U.S. 234 (Ashcroft v. Free Speech Coalition)",
+  "quote": "a reasonable person would foresee that the statement would be interpreted . . . as a serious express",
+  "distinctive": true,
+  "all_corpus_hits": [],
+  "sole_source_is_argued_case": false
+ },
+ {
+  "model": "sonnet",
+  "matter": "2020-058",
+  "condition": "quota",
+  "cited": "503 U.S. 249 (Connecticut National Bank v. Germain)",
+  "quote": "the preeminent canon of statutory interpretation requires us to 'presume that [the] legislature says",
+  "distinctive": true,
+  "all_corpus_hits": [
+   "The Pittman Underground Water Act of 1919 authorized the Secretary of the Interi"
+  ],
+  "sole_source_is_argued_case": true
+ }
+]

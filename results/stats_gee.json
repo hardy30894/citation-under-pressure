@@ -1,0 +1,130 @@
+{
+ "citation:qwen30b:quota": {
+  "logOR": -0.5878,
+  "p": 0.00013
+ },
+ "citation:qwen30b:temporal": {
+  "logOR": -0.798,
+  "p": 0.00166
+ },
+ "citation:qwen30b:stakes": {
+  "logOR": -0.4359,
+  "p": 0.02546
+ },
+ "citation:qwen30b:combo": {
+  "logOR": -1.192,
+  "p": 1e-05
+ },
+ "citation:deepseek:quota": {
+  "logOR": -0.4545,
+  "p": 0.13588
+ },
+ "citation:deepseek:temporal": {
+  "logOR": -0.4785,
+  "p": 0.26848
+ },
+ "citation:deepseek:stakes": {
+  "logOR": -0.095,
+  "p": 0.83076
+ },
+ "citation:deepseek:combo": {
+  "logOR": -0.2393,
+  "p": 0.57604
+ },
+ "citation:gpt54mini:quota": {
+  "logOR": 0.0651,
+  "p": 0.87807
+ },
+ "citation:gpt54mini:temporal": {
+  "logOR": -0.7101,
+  "p": 0.11326
+ },
+ "citation:gpt54mini:stakes": {
+  "logOR": -0.0267,
+  "p": 0.94135
+ },
+ "citation:gpt54mini:combo": {
+  "logOR": -0.6054,
+  "p": 0.08354
+ },
+ "citation:sonnet:quota": {
+  "logOR": -0.4482,
+  "p": 0.3345
+ },
+ "citation:sonnet:temporal": {
+  "logOR": 0.6532,
+  "p": 0.09416
+ },
+ "citation:sonnet:stakes": {
+  "logOR": 0.1819,
+  "p": 0.6722
+ },
+ "citation:sonnet:combo": {
+  "logOR": 1.5165,
+  "p": 0.03358
+ },
+ "quote:qwen30b:quota": {
+  "logOR": -0.1302,
+  "p": 0.35704
+ },
+ "quote:qwen30b:temporal": {
+  "logOR": -0.8087,
+  "p": 0.0022
+ },
+ "quote:qwen30b:stakes": {
+  "logOR": -0.2488,
+  "p": 0.29604
+ },
+ "quote:qwen30b:combo": {
+  "logOR": -1.0498,
+  "p": 0.0
+ },
+ "quote:deepseek:quota": {
+  "logOR": -0.0405,
+  "p": 0.81746
+ },
+ "quote:deepseek:temporal": {
+  "logOR": -0.4886,
+  "p": 0.02513
+ },
+ "quote:deepseek:stakes": {
+  "logOR": -0.0393,
+  "p": 0.84626
+ },
+ "quote:deepseek:combo": {
+  "logOR": -0.9483,
+  "p": 0.0
+ },
+ "quote:gpt54mini:quota": {
+  "logOR": -0.0437,
+  "p": 0.85642
+ },
+ "quote:gpt54mini:temporal": {
+  "logOR": -0.6012,
+  "p": 0.04877
+ },
+ "quote:gpt54mini:stakes": {
+  "logOR": -0.1682,
+  "p": 0.43742
+ },
+ "quote:gpt54mini:combo": {
+  "logOR": -0.7869,
+  "p": 0.02335
+ },
+ "quote:sonnet:quota": {
+  "logOR": -0.007,
+  "p": 0.95895
+ },
+ "quote:sonnet:temporal": {
+  "logOR": 0.1449,
+  "p": 0.38007
+ },
+ "quote:sonnet:stakes": {
+  "logOR": 0.247,
+  "p": 0.16478
+ },
+ "quote:sonnet:combo": {
+  "logOR": 0.3886,
+  "p": 0.02918
+ }
+}

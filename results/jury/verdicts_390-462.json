@@ -1,0 +1,650 @@
+[
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:gpt54mini:2011-010:true:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2011-010",
+  "tag": "m:gpt54mini:2011-010:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2011-010",
+  "tag": "m:gpt54mini:2011-010:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:gpt54mini:2011-010:scrambled:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:gpt54mini:2011-010:scrambled:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2005-074",
+  "tag": "m:gpt54mini:2005-074:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2005-074",
+  "tag": "m:gpt54mini:2005-074:true:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2005-074",
+  "tag": "m:gpt54mini:2005-074:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2005-074",
+  "tag": "m:gpt54mini:2005-074:scrambled:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2001-013",
+  "tag": "m:gpt54mini:2001-013:true:r0:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2001-013",
+  "tag": "m:gpt54mini:2001-013:scrambled:r0:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2001-013",
+  "tag": "m:gpt54mini:2001-013:scrambled:final:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:true:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:true:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:scrambled:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:scrambled:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1992-086",
+  "tag": "m:gpt54mini:1992-086:scrambled:final:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:gpt54mini:2010-046:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:gpt54mini:2010-046:true:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:gpt54mini:2010-046:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:gpt54mini:2010-046:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:true:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:true:r0:2",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:true:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:scrambled:r0:2",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:scrambled:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2012-006",
+  "tag": "m:gpt54mini:2012-006:scrambled:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:true:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:scrambled:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:scrambled:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1998-026",
+  "tag": "m:gpt54mini:1998-026:scrambled:final:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:true:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:true:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:true:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:scrambled:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1997-100",
+  "tag": "m:gpt54mini:1997-100:scrambled:final:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:true:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:scrambled:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:gpt54mini:2000-071:scrambled:final:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:final:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:true:final:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:scrambled:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:scrambled:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:scrambled:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:gpt54mini:2012-029:scrambled:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:true:r0:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:true:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:scrambled:r0:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:scrambled:r0:1",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:scrambled:final:0",
+  "verdict_supported": null
+ },
+ {
+  "kind": "measurement",
+  "model": "gpt54mini",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1999-051",
+  "tag": "m:gpt54mini:1999-051:scrambled:final:1",
+  "verdict_supported": null
+ }
+]

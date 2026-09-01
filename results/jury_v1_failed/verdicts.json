@@ -1,0 +1,32 @@
+[
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:pulse-network-v-visa_431038849_part8.pdf:344 F.3d 229",
+  "verdict_supported": false
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:sec-v-jilaine-bauer_643464_part27.pdf:635 F.2d 156",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-109",
+  "tag": "m:sonnet:1992-109:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-109",
+  "tag": "m:sonnet:1992-109:true:r0:1",
+  "verdict_supported": false
+ }
+]

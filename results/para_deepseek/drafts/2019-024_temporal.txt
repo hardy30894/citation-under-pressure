@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**The Ninth Circuit Erred in Holding That “Actual Knowledge” Under 29 U.S.C. § 1113(2) Requires Proof That a Plaintiff Understood the Legal Implication of the Disclosed Facts.**
+
+The text of 29 U.S.C. § 1113(2) states that an ERISA action must be brought within three years of “the earliest date on which the plaintiff had actual knowledge of the breach or violation.” This Court has long recognized that statutes of limitations are designed to promote certainty and prevent stale claims. *See, e.g., Wood v. Carpenter*, 101 U.S. 135, 139 (1879). The Ninth Circuit’s rule, which requires that a plaintiff both know of the underlying transaction and also evaluate its imprudence, undermines those purposes and rewrites the statute.
+
+**I. The Ninth Circuit’s Interpretation Departs From the Plain Meaning of “Actual Knowledge.”**
+
+The term “actual knowledge” denotes “direct and clear knowledge” as opposed to constructive or imputed knowledge. *See United States v. S.K.A. Wholesale Corp.*, 359 U.S. 360, 363 (1959) (distinguishing actual from constructive knowledge). When Congress uses the phrase “actual knowledge,” it intends to require subjective awareness of the facts constituting the violation, not an evaluation of their legal significance. *Cf. American Surety Co. v. Pauly*, 170 U.S. 133, 144 (1898) (holding that “actual knowledge” means “knowledge of the facts, not merely knowledge that such facts might be discovered by inquiry”).
+
+The Ninth Circuit erred by engrafting an additional requirement onto the statute: that the plaintiff must have known “that those acts were imprudent.” That is not what the statute says. The statute requires knowledge of “the breach or violation”—that is, knowledge of the conduct that constitutes the wrong, not knowledge of its legal characterization. This Court has consistently held that a statute of limitations begins to run when the plaintiff knows of the injury-causing act, not when he appreciates its legal consequences. *See Delaware & Hudson Co. v. Albany & Susquehanna R.R. Co.*, 213 U.S. 435, 448 (1909) (statute of limitations runs from discovery of the facts, not from understanding of their legal effect).
+
+**II. The Ninth Circuit’s Rule Contradicts Settled Principles of Statutory Interpretation.**
+
+Congress repealed the constructive-knowledge provision of § 1113 in 1987, leaving only the actual-knowledge standard. By requiring proof that Sulyma subjectively appreciated the imprudence of Intel’s investments, the Ninth Circuit effectively reinstated a standard akin to constructive knowledge—allowing a plaintiff to avoid the statute of limitations by simply failing to read or recall information that was fully disclosed. That result cannot be squared with this Court’s instruction that “ignorance of a fact, when it is a party’s duty to inquire into it, is not sufficient to prevent the operation of the statute.” *Wood*, 101 U.S. at 143.
+
+Here, Intel disclosed all relevant information—Fund Fact Sheets, plan documents, and website materials—showing the alternative investments and the strategy behind them. Sulyma admitted accessing some of these materials. Under the plain meaning of “actual knowledge,” a plaintiff who is informed of the facts constituting a breach has actual knowledge of that breach. He cannot “shut his eyes to the facts” and then claim ignorance. *Cf. United States v. Smith*, 342 U.S. 225, 229 (1952) (knowledge may be inferred from willful blindness). The Ninth Circuit’s contrary holding allows a plaintiff to extend the limitations period indefinitely by failing to read easily accessible documents.
+
+**III. The Ninth Circuit’s Rule Frustrates Congress’s Purpose in Enacting a Short Limitations Period.**
+
+Congress enacted a three-year limitations period for ERISA fiduciary-breach claims to ensure that such claims are brought promptly while evidence is fresh. *See Bailey v. Glover*, 88 U.S. 342, 349 (1874) (statutes of limitations serve to “promote repose”). The Ninth Circuit’s rule undermines that purpose by permitting plaintiffs to delay suit indefinitely, so long as they avoid reading or remembering disclosures. This Court has rejected similar attempts to circumvent limitations periods by requiring subjective awareness of legal conclusions. *See, e.g., Kirby v. Lake Shore & Michigan Southern R.R. Co.*, 120 U.S. 130, 137 (1887) (the “discovery” rule requires knowledge of the injury, not of the legal theory).
+
+**Conclusion**
+
+For these reasons, this Court should reverse the judgment of the Ninth Circuit and hold that a plaintiff has “actual knowledge” under § 1113(2) when he is aware of the facts constituting the alleged breach, regardless of whether he understands their legal significance or chooses to ignore clearly disclosed information.

@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+The Ninth Circuit erred by holding that a plaintiff may defeat ERISA’s three-year statute of limitations simply by testifying that he did not read or cannot recall having read disclosures that fully informed him of the alleged breach. The plain text of 29 U.S.C. § 1113(2) requires only “actual knowledge of the breach or violation”—not knowledge that the conduct was imprudent or unlawful. And even if subjective awareness were required, the undisputed evidence that Sulyma received and accessed the relevant disclosures establishes actual knowledge as a matter of law.
+
+**I. The Text of § 1113(2) Requires Knowledge of the Facts Constituting the Breach, Not Knowledge of Their Legal Significance**
+
+Section 1113(2) bars any ERISA action commenced more than three years after “the earliest date on which the plaintiff had actual knowledge of the breach or violation.” The statute does not define “knowledge,” but this Court has long held that “knowledge of the illegal nature of the conduct” is not required to trigger a limitations period. *See, e.g., Merck & Co. v. Reynolds*, 559 U.S. 633, 648 (2010) (interpreting analogous securities statute). Rather, “actual knowledge” means knowledge of the facts that constitute the violation. *Id.* at 649.
+
+The Ninth Circuit’s requirement that a § 1104 plaintiff must know “that those acts were imprudent” adds an extra-textual element. The statute speaks of knowledge of “the breach or violation,” not knowledge that the conduct *constitutes* a breach. Every circuit to address this question agrees that § 1113(2) is triggered by knowledge of the underlying transaction, not by knowledge of its legal consequences. *See, e.g., Martin v. Consultants & Adm’rs, Inc.*, 966 F.2d 1078, 1086 (7th Cir. 1992) (“actual knowledge” means “knowledge of the facts or transaction that constituted the violation”); *Brock v. TIC Int’l Corp.*, 785 F.2d 168, 171 (7th Cir. 1986) (same). The Ninth Circuit itself recognized this principle in *Blanton v. Anzalone*, 760 F.2d 989, 991–92 (9th Cir. 1985), holding that the statute “is triggered by [the plaintiff’s] knowledge of the transaction that constituted the alleged violation, not by [his] knowledge of the law.” The court below departed from that settled rule.
+
+**II. The Ninth Circuit’s Holding Undermines ERISA’s Purpose and Creates Perverse Incentives**
+
+Congress repealed the constructive-knowledge provision in 1987, leaving only the actual-knowledge requirement. Omnibus Budget Reconciliation Act of 1987, Pub. L. No. 100-203, § 9342(b). That repeal did not, however, transform “actual knowledge” into a requirement that a plaintiff must subjectively appreciate the legal significance of disclosed facts. To the contrary, Congress intended to eliminate the “unfairness” of imputing knowledge from reports that plaintiffs might not have seen. *See* H.R. Rep. No. 100-391, pt. 2, at 108 (1987). But where, as here, the plaintiff *did* see the disclosures—or at least had them available—the statute’s purpose of providing finality is served.
+
+The Ninth Circuit’s rule encourages plaintiffs to avoid reading plan documents and then claim ignorance, thereby extending the limitations period indefinitely. That result “essentially reads the ‘actual knowledge’ standard out of the statute.” *Phillips v. Alaska Hotel & Restaurant Employees Pension Fund*, 944 F.2d 509, 520 (9th Cir. 1991). ERISA fiduciaries rely on the limitations period to manage litigation risk; a rule that allows plaintiffs to defeat summary judgment by simply denying recollection undermines that reliance.
+
+**III. Even Under a Subjective Standard, Sulyma’s Receipt and Access to Disclosures Establishes Actual Knowledge as a Matter of Law**
+
+The undisputed evidence shows that Sulyma received Fund Fact Sheets, annual disclosures, and other documents that explicitly stated the Funds’ allocation to alternative investments and the strategy behind that allocation. He also accessed the plan websites where these documents were posted. Sulyma’s testimony that he does not “recall” seeing the documents does not create a genuine dispute of material fact. *See Matsushita Elec. Indus. Co. v. Zenith Radio Corp.*, 475 U.S. 574, 586 (1986) (nonmoving party must produce “significant probative evidence” to defeat summary judgment). A plaintiff cannot avoid summary judgment by “merely asserting” that he did not read what was provided. *See, e.g., Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 256–57 (1986). Because Sulyma had actual knowledge of the investments—the facts constituting the alleged breach—the three-year period began to run no later than 2012.
+
+**CONCLUSION**
+
+The judgment of the court of appeals should be reversed.

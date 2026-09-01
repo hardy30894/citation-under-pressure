@@ -1,0 +1,524 @@
+[
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-021",
+  "tag": "m:sonnet:1997-021:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-021",
+  "tag": "m:sonnet:1997-021:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1997-021",
+  "tag": "m:sonnet:1997-021:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2005-087",
+  "tag": "m:sonnet:2005-087:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2005-087",
+  "tag": "m:sonnet:2005-087:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2005-087",
+  "tag": "m:sonnet:2005-087:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2005-087",
+  "tag": "m:sonnet:2005-087:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:sonnet:1997-100:scrambled:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:sonnet:1997-100:scrambled:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1997-100",
+  "tag": "m:sonnet:1997-100:scrambled:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1997-100",
+  "tag": "m:sonnet:1997-100:scrambled:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-029",
+  "tag": "m:sonnet:2012-029:true:final:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:r0:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:final:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2010-046",
+  "tag": "m:sonnet:2010-046:true:final:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2011-010",
+  "tag": "m:sonnet:2011-010:true:final:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:r0:1",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "1992-086",
+  "tag": "m:sonnet:1992-086:true:final:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2000-071",
+  "tag": "m:sonnet:2000-071:true:final:2",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-031",
+  "tag": "m:sonnet:2012-031:true:r0:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-031",
+  "tag": "m:sonnet:2012-031:true:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "r0",
+  "matter": "2012-031",
+  "tag": "m:sonnet:2012-031:true:r0:2",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-031",
+  "tag": "m:sonnet:2012-031:true:final:0",
+  "verdict_supported": true
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "true",
+  "stage": "final",
+  "matter": "2012-031",
+  "tag": "m:sonnet:2012-031:true:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:sonnet:2012-006:scrambled:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2012-006",
+  "tag": "m:sonnet:2012-006:scrambled:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "2012-006",
+  "tag": "m:sonnet:2012-006:scrambled:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:scrambled:r0:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:scrambled:r0:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:scrambled:final:0",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "final",
+  "matter": "1998-085",
+  "tag": "m:sonnet:1998-085:scrambled:final:1",
+  "verdict_supported": false
+ },
+ {
+  "kind": "measurement",
+  "model": "sonnet",
+  "arm": "scrambled",
+  "stage": "r0",
+  "matter": "2001-013",
+  "tag": "m:sonnet:2001-013:scrambled:r0:0",
+  "verdict_supported": false
+ }
+]

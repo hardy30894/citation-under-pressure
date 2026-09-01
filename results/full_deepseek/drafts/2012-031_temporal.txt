@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The decision below must be reversed. The District Court certified a class under Federal Rule of Civil Procedure 23(b)(3) without requiring the plaintiffs to demonstrate that damages could be measured and quantified on a class-wide basis through common evidence. Because the plaintiffs’ damages model was not tethered to the sole theory of antitrust impact remaining in the case, the certification cannot stand.
+
+**I. Class Certification Requires That Damages Be Capable of Common Proof**
+
+Rule 23(b)(3) demands that “questions of law or fact common to the members of the class predominate over any questions affecting only individual members.” This Court has long recognized that the predominance inquiry is not a matter of pleading; it demands a “rigorous analysis” of the evidence. *Eisen v. Carlisle & Jacquelin*, 391 U.S. 375, 380 (1968). When damages are at issue, the court must ensure that the proposed class action is a feasible method for resolving the dispute. *Snyder v. Harris*, 394 U.S. 332, 337 (1969). If damages cannot be established through common evidence, individual questions will overwhelm the action, and certification is improper.
+
+**II. The Plaintiffs’ Damages Model Failed to Measure Only the Damages Attributable to the Certified Theory of Liability**
+
+The District Court limited the class’s theory of antitrust impact to a single proposition: Comcast’s “clustering” conduct deterred the entry of overbuilders, thereby raising prices. *Behrend v. Comcast Corp.*, 264 F.R.D. 150, 154 (E.D. Pa. 2010). Yet the damages model proffered by plaintiffs’ expert, Dr. James McClave, did not isolate price increases caused by overbuilder deterrence. Instead, it purported to measure the difference between Comcast’s actual prices and a hypothetical benchmark derived from prices in other markets, without regard to whether those price differences were attributable to the challenged conduct or to other, lawful factors.
+
+This Court has consistently held that antitrust damages must be tied to the specific violation alleged. In *Zenith Radio Corp. v. Hazeltine Research, Inc.*, 395 U.S. 100, 119 (1969), the Court stated: “Damages are not recoverable for loss of profits that are not the result of the antitrust violation.” The plaintiff must prove a causal connection between the violation and the harm. *Bigelow v. RKO Radio Pictures, Inc.*, 327 U.S. 251, 264 (1946) (damages must be “the result of the wrongful acts”). A model that measures all price increases—including those from lawful competition, changes in demand, or other factors—cannot satisfy that requirement. It does not provide common evidence of damages, but rather invites individual inquiries into whether each class member’s price was affected by the overbuilder theory.
+
+The District Court’s acceptance of this model was clear error. The model was “wholly divorced from the legal standard” for antitrust damages. *See United States v. U.S. Gypsum Co.*, 333 U.S. 364, 395 (1948) (clearly erroneous finding “completely devoid of minimum evidentiary support”). Because the model did not measure only the damages caused by the overbuilder-deterrence theory, it could not generate common answers for the class. Certification thus violated the predominance requirement.
+
+**III. The District Court Failed to Conduct the Required Rigorous Analysis**
+
+The court below did not adequately scrutinize the expert’s methodology. *Eisen* requires that the district court “determine whether the class action is maintainable” based on “the allegations and evidence.” 391 U.S. at 380. Here, the court accepted the model without requiring a showing that it would actually isolate the damages attributable to the single theory of impact. Indeed, the expert conceded that his model captured the effects of all anticompetitive conduct, not just the overbuilder theory. Such a concession ought to have ended the inquiry. *See Hansberry v. Lee*, 311 U.S. 32, 42 (1940) (class action must protect the interests of absent members; a flawed damages model cannot do so).
+
+The predominance inquiry necessarily overlaps with the merits. *Eisen* did not forbid that overlap; it forbade a merits trial for purposes unrelated to certification. Here, the overlap was essential. The District Court could not determine whether common questions predominated without evaluating whether the damages model was capable of producing common proof of injury. *Cf. Vegelahn v. Guntner*, 167 Mass. 92, 106 (1896) (Holmes, J., dissenting) (noting that legal standards require careful factual analysis). The court’s failure to reject the model was an error of law.
+
+**IV. Without a Proper Damages Model, Individual Questions Predominate**
+
+If the damages model cannot measure class-wide injury, then each class member must prove that his or her higher prices were caused by overbuilder deterrence. That inquiry would require individualized evidence of each subscriber’s market, the presence of overbuilders, and the effect on pricing. Such individual questions would overwhelm the common ones. *See Alexander v. Hillman*, 296 U.S. 222, 238 (1935) (class action improper where individual issues predominate). The District Court therefore abused its discretion.
+
+**CONCLUSION**
+
+The court below erred in certifying the class without requiring that the plaintiffs’ damages model be limited to the theory of liability. The judgment of the Court of Appeals should be reversed.

@@ -1,0 +1,42 @@
+{
+ "qwen30b": {
+  "no_pin": 904,
+  "non_us": 288,
+  "pin_in_span": 672,
+  "pin_out_of_span": 7,
+  "no_cap_data": 97,
+  "quote_at_pin": 46,
+  "quote_near_pin": 5,
+  "quote_not_at_pin": 28
+ },
+ "deepseek": {
+  "no_pin": 368,
+  "non_us": 415,
+  "pin_in_span": 1194,
+  "pin_out_of_span": 3,
+  "no_cap_data": 25,
+  "quote_at_pin": 142,
+  "quote_near_pin": 42,
+  "quote_not_at_pin": 61
+ },
+ "gpt54mini": {
+  "no_pin": 908,
+  "non_us": 276,
+  "pin_in_span": 1403,
+  "pin_out_of_span": 3,
+  "no_cap_data": 51,
+  "quote_at_pin": 93,
+  "quote_near_pin": 33,
+  "quote_not_at_pin": 56
+ },
+ "sonnet": {
+  "no_pin": 1060,
+  "non_us": 150,
+  "pin_in_span": 691,
+  "pin_out_of_span": 0,
+  "no_cap_data": 8,
+  "quote_at_pin": 212,
+  "quote_near_pin": 19,
+  "quote_not_at_pin": 43
+ }
+}

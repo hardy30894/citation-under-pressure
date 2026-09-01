@@ -1,0 +1,122 @@
+[
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:loveridge-v-hall_523563_part20.pdf:458 U.S. 50",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:best-medical-international-v-eckert-ziegler-nuclitec-gmbh_580074_part10.pdf:461 U.S. 424",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:in-re-blaine-milam_412594115_part10.pdf:407 U.S. 67",
+  "verdict_supported": false
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:western-reserve-life-assurance-v-dk-llc_9314518_part14.pdf:94 U.S. 457",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:kim-westberg-v-fdic_1286680_part16.pdf:539 F.3d 373",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:best-medical-international-v-eckert-ziegler-nuclitec-gmbh_580074_part22.pdf:304 U.S. 458",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:monsarrat-v-newman_458449627_part29.pdf:689 F.3d 29",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:gonzalez-v-new-life-ventures-inc_21308196_part13.pdf:722 F.3d 1335",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:mohammad-talaie-v-wells-fargo-bank_667162_part7.pdf:218 Cal. App. 4th 1079",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:jayvon-wright-v-city-of-wilmington_12180821_part21.pdf:589 F.3d 585",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:united-states-v-clifton-mclean_20527485_part25.pdf:135 S. Ct. 2551",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:j-jordan-v-robert-flexton_22737537_part15.pdf:298 F.3d 136",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:intercollegiate-broadcasting-v-crb_440679057_part28.pdf:574 F.3d 748",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:bnsf-railway-company-v-stb_1280127_part35.pdf:570 F.3d 349",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:ivan-arnold-v-homeaway-incorporated_22241165_part14.pdf:343 F.3d 719",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:aldmyr-systems-inc-v-stephen-friedman_9330688_part23.pdf:650 F.3d 423",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:basf-plant-science-lp-v-commonwealth-scientific_451923637_part9.pdf:525 U.S. 55",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:in-re-blood-reagents-antitrus_571399_part34.pdf:610 F.3d 820",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:matthew-gallagher-v-us-bancorp_666571_part14.pdf:663 F.2d 896",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:owner-operator-independent-dr-v-dot_384359493_part4.pdf:744 F.3d 142",
+  "verdict_supported": true
+ }
+]

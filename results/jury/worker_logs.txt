@@ -1,0 +1,70 @@
+calibration items: 60, measurement items: 402
+sonnet     true      r0    supported 0.154 (n=26)
+sonnet     true      final supported 0.400 (n=20)
+sonnet     scrambled r0    supported 0.000 (n=8)
+sonnet     scrambled final supported 0.000 (n=4)
+cost $0.18
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+gpt54mini  true      r0    supported 0.235 (n=17)
+gpt54mini  true      final supported 0.222 (n=9)
+gpt54mini  scrambled r0    supported 0.250 (n=20)
+gpt54mini  scrambled final supported 0.000 (n=11)
+cost $0.19
+sonnet     scrambled r0    supported 0.667 (n=3)
+sonnet     scrambled final supported 0.000 (n=3)
+gpt54mini  true      r0    supported 0.118 (n=17)
+gpt54mini  true      final supported 0.250 (n=8)
+gpt54mini  scrambled r0    supported 0.176 (n=17)
+gpt54mini  scrambled final supported 0.000 (n=9)
+cost $0.20
+CALIBRATION: 0/2 = 0.000 (bar 0.75)
+sonnet     true      r0    supported 0.188 (n=16)
+sonnet     true      final supported 0.214 (n=14)
+sonnet     scrambled r0    supported 0.200 (n=15)
+sonnet     scrambled final supported 0.364 (n=11)
+cost $0.21
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+calibration items: 60, measurement items: 402
+gpt54mini  true      r0    supported 1.000 (n=12)
+gpt54mini  true      final supported 1.000 (n=10)
+gpt54mini  scrambled r0    supported 1.000 (n=11)
+gpt54mini  scrambled final supported 1.000 (n=7)
+cost $0.48
+sonnet     true      r0    supported 1.000 (n=14)
+sonnet     true      final supported 1.000 (n=14)
+sonnet     scrambled r0    supported 1.000 (n=14)
+sonnet     scrambled final supported 1.000 (n=8)
+cost $0.50
+sonnet     true      r0    supported 1.000 (n=23)
+sonnet     true      final supported 1.000 (n=17)
+sonnet     scrambled r0    supported 1.000 (n=10)
+sonnet     scrambled final supported 1.000 (n=5)
+cost $0.51
+gpt54mini  true      r0    supported 1.000 (n=15)
+gpt54mini  true      final supported 1.000 (n=7)
+gpt54mini  scrambled r0    supported 1.000 (n=16)
+gpt54mini  scrambled final supported 1.000 (n=6)
+cost $0.52
+sonnet     true      r0    supported 1.000 (n=14)
+sonnet     true      final supported 1.000 (n=17)
+sonnet     scrambled r0    supported 1.000 (n=17)
+sonnet     scrambled final supported 1.000 (n=9)
+cost $0.53
+sonnet     true      r0    supported 1.000 (n=3)
+sonnet     true      final supported 1.000 (n=3)
+sonnet     scrambled r0    supported 1.000 (n=13)
+sonnet     scrambled final supported 1.000 (n=15)
+gpt54mini  true      r0    supported 1.000 (n=6)
+gpt54mini  true      final supported 1.000 (n=2)
+gpt54mini  scrambled r0    supported 1.000 (n=6)
+gpt54mini  scrambled final supported 1.000 (n=3)
+cost $0.54
+CALIBRATION: 21/30 = 0.700 (bar 0.75)
+cost $0.57

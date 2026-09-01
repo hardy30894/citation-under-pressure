@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:mohammad-talaie-v-wells-fargo-bank_667162_part6.pdf:170 Cal. App. 4th 579",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:in-re-josue-romero-v-provide-commerce-inc_20816343_part12.pdf:56 F. Supp. 2d 355",
+  "verdict_supported": false
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:lsp-transmission-holdings-llc-v-katie-sieben_43584129_part5.pdf:511 U.S. 93",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:benjamin-v-trustees-barton-comm-college_301666810_part7.pdf:254 Kan. 870",
+  "verdict_supported": false
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:smith-v-frs_365051146_part15.pdf:520 U.S. 651",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:bridgette-snyder-v-kohls-department-stores-inc_640328_part17.pdf:104 F. Supp. 2d 710",
+  "verdict_supported": false
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:united-states-v-eme-homer-city-generation-lp_570156_part30.pdf:34 F.3d 472",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:eddie-cleland-v-academy-limited_414450980_part13.pdf:397 So. 2d 874",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:dennly-becker-v-wells-fargo-bank-na_671350_part23.pdf:118 Cal. App. 3d 1003",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": false,
+  "tag": "cal:owner-operator-independent-dr-v-dot_384359493_part15.pdf:136 S. Ct. 1540",
+  "verdict_supported": false
+ }
+]

@@ -1,0 +1,1 @@
+{"ts": 1788218400.589851, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:1992-109:baseline", "in_tokens": 5173, "out_tokens": 1093, "est_cost": 0.00103, "latency_ms": 18790}

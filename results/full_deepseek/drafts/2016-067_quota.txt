@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The FDCPA’s Definition of “Debt Collector” Turns on Whether the Collector Acts for Another, Not on the Default Status of the Debt.**
+
+The FDCPA defines a “debt collector” as “any person . . . who regularly collects or attempts to collect, directly or indirectly, debts owed or due or asserted to be owed or due another.” 15 U.S.C. § 1692a(6). This Court has recognized that the definition “includes a person ‘who regularly collects or attempts to collect, directly or indirectly, debts owed [to] . . . another.’” *Heintz v. Jenkins*, 514 U.S. 291, 293 (1995). The operative word is “another.” The debt must be owed to someone other than the collector at the time of the collection activity. *Davidson v. Capital One Bank (USA), N.A.*, 797 F.3d 1309, 1318 (11th Cir. 2015) (“our inquiry under § 1692a(6) is not whether Capital One regularly collects on debts originally owed or due another and now owed to Capital One; our inquiry is whether Capital One regularly collects on debts owed or due another at the time of collection”). The Ninth Circuit agrees: “The statute is not susceptible to the [plaintiffs’] interpretation that ‘owed or due another’ means ‘originally owed or due another.’” *Schlegel v. Wells Fargo Bank, NA*, 720 F.3d 1204, 1209 (9th Cir. 2013).
+
+The grammatical structure confirms this reading. The phrase “owed or due or asserted to be owed or due another” is governed by the rule that “when several words are followed by a clause which is applicable as much to the first and other words as to the last, the natural construction of the language demands that the clause be read as applicable to all.” *Paroline v. United States*, 134 S. Ct. 1710, 1721 (2014) (quoting *Porto Rico Ry., Light & Power Co. v. Mor*, 253 U.S. 345, 348 (1920)). Thus, “another” modifies each of the preceding phrases, requiring that the debt be owed to another at the time of collection.
+
+**II. Santander Collected the Debts for Its Own Account and Therefore Acted as a Creditor, Not a Debt Collector.**
+
+The FDCPA distinguishes between “creditors” and “debt collectors.” *FTC v. Check Investors, Inc.*, 502 F.3d 159, 173 (3d Cir. 2007); *Bridge v. Ocwen Fed. Bank, FSB*, 681 F.3d 355, 359 (6th Cir. 2012). A creditor is a person to whom the debt is owed, and a creditor collecting its own debt is not a debt collector. *Whitaker v. Ameritech Corp.*, 129 F.3d 909, 912 (7th Cir. 1997). Here, the complaint alleged that CitiFinancial sold the loans to Santander, and that Santander thereafter collected on debts it owned. It did not allege that Santander collected on behalf of CitiFinancial. Thus, Santander was collecting for its own account, exactly as a creditor does.
+
+The petitioners’ argument that default status controls is contrary to the statutory text. The default status of a debt is relevant only to the exclusion in § 1692a(6)(F)(iii), which applies to a person collecting “a debt which was not in default at the time it was obtained.” But that exclusion applies only after a person satisfies the main definition of “debt collector.” As the Eleventh Circuit explained, “where a person does not fall within subsection (F) or any one of the six statutory exclusions, he is not deemed a ‘debt collector’ as a matter of course. Instead, he must satisfy the Act’s substantive requirements.” *Davidson*, 797 F.3d at 1314. Because Santander does not collect debts owed to another, it cannot satisfy the main definition, and the exclusion is irrelevant.
+
+**III. The Petitioners’ Policy Arguments Cannot Override the Plain Text.**
+
+The petitioners warn of a “loophole” that would allow debt purchasers to escape the FDCPA. But Congress made a deliberate choice to regulate “debt collectors,” not creditors. The statutory purpose is “to eliminate abusive debt collection practices by debt collectors.” 15 U.S.C. § 1692(e). A company that purchases debt and collects for itself is a creditor, even if the debt was in default when purchased. The decisions cited by petitioners, such as *Ruth v. Triumph P’ships*, 577 F.3d 790 (7th Cir. 2009), are contrary to the statutory text and have been rejected by other courts. The Fourth Circuit correctly declined to follow them.
+
+**CONCLUSION**
+
+The judgment of the court of appeals should be affirmed.

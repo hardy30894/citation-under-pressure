@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The question presented is straightforward: May a district court that receives a case solely for “pretrial proceedings” under 28 U.S.C. § 1407(a) then invoke § 1404(a) to assign that case to itself for trial? The plain text of § 1407(a) answers no. The Ninth Circuit’s contrary conclusion cannot be squared with the statute’s unequivocal command.
+
+**I. Section 1407(a) Mandates Remand After Pretrial Proceedings**
+
+Section 1407(a) provides that the Judicial Panel on Multidistrict Litigation “shall” transfer actions “to any district for coordinated or consolidated pretrial proceedings.” It further commands that “[e]ach action so transferred shall be remanded by the panel at or before the conclusion of such pretrial proceedings.” 28 U.S.C. § 1407(a) (emphasis added). The word “shall” is “the language of command.” *Lexecon Inc. v. Milberg Weiss Bershad Hynes & Lerach*, 523 U.S. 26, 35 (1998) (quoting *Anderson v. Yungkau*, 329 U.S. 482, 485 (1947)). This mandatory language admits no exception. When a statute “speaks directly to the precise question at issue,” a court must “give effect to the unambiguously expressed intent of Congress.” *Chevron U.S.A. Inc. v. Natural Resources Defense Council, Inc.*, 467 U.S. 837, 842-43 (1984).
+
+The transferee court’s authority is strictly limited. It may conduct “pretrial proceedings”—discovery, summary judgment motions, and other matters that involve issues common to the transferred cases. *See* H.R. Rep. No. 90-1130, at 1-2 (1968) (discussing the purpose of § 1407). Once those proceedings conclude, the court’s role ends. The statute “strip[s] the transferee court of any power to retain the action after the common pretrial proceedings have terminated.” *Lexecon*, 523 U.S. at 39.
+
+Here, the District of Arizona had completed all pretrial proceedings. Its only lawful act under § 1407(a) was to remand the case to the Northern District of Illinois. By instead invoking § 1404(a) to “transfer” the case to itself for trial, it violated the explicit statutory directive.
+
+**II. Section 1404(a) Does Not Authorize a Transferee Court to Assign a Case to Itself**
+
+Section 1404(a) is a general venue statute: “For the convenience of parties and witnesses, in the interest of justice, a district court may transfer any civil action to any other district or division where it might have been brought.” But this provision does not override the specific mandate of § 1407(a). “[I]t is a commonplace of statutory construction that the specific governs the general.” *Morton v. Mancari*, 417 U.S. 535, 550-51 (1974). Section 1404(a) applies to ordinary venue transfers; it does not confer on a transferee court the power to circumvent the Panel’s exclusive authority over remand under § 1407.
+
+Moreover, the power to transfer under § 1404(a) is ordinarily exercised by the court in which the action is properly pending. After transfer under § 1407, the action is pending in the transferee district only for pretrial purposes. For trial, the proper venue is the original district. The transferee court lacks authority to change that venue because the Panel retains control over the case until remand. *See In re Multi-Piece Rim Products Liability Litigation*, 653 F.2d 671, 676-77 (D.C. Cir. 1981) (transferee court cannot retain jurisdiction after pretrial proceedings).
+
+Even if a § 1404(a) motion could be entertained after remand, it cannot be entertained before remand. The Panel’s duty to remand is ministerial and immediate. Allowing a transferee court to forestall that duty by “transferring” the case to itself effectively rewrites the statute. As Judge Kozinski observed below, section 1407 “precludes use of the general transfer section by district judges to subvert the panel’s responsibility.” *Lexecon Inc. v. United States District Court*, 61 F.3d 911, 912 (9th Cir. 1995) (Kozinski, J., dissenting). The Multidistrict Litigation Rule 14(b), which purported to authorize this practice, is invalid because it contradicts the statute. *Lexecon*, 523 U.S. at 44-45 (voiding the rule as inconsistent with § 1407).
+
+**III. The Practice Undermines Congressional Intent**
+
+Congress carefully balanced the benefits of coordinated pretrial proceedings against the burden on litigants forced to travel to a distant forum. It resolved that balance by limiting consolidation to pretrial and requiring remand for trial. *See* H.R. Rep. No. 90-1130, at 4 (1968) (noting that the Panel “shall remand” after pretrial). This preserves the plaintiff’s choice of forum for trial, a right deeply rooted in our jurisprudence. *See Piper Aircraft Co. v. Reyno*, 454 U.S. 235, 255-56 (1981) (plaintiff’s choice of forum is entitled to substantial deference).
+
+Courts that have allowed self-transfer have done so based on policy preferences, not statutory text. In *Pfizer, Inc. v. Lord*, 447 F.2d 122, 124-25 (2d Cir. 1971), the court admitted that “there is nothing in the language of 28 U.S.C. § 1407(a) or § 1404(a) which directly allows” the practice but justified it as a matter of “convenience.” Such judicial policymaking is impermissible when Congress has spoken. *See TVA v. Hill*, 437 U.S. 153, 194 (1978) (“The sole function of the courts is to enforce [the statute] according to its terms.”). The Ninth Circuit’s reliance on circuit precedent and MDL Rule 14(b) does not salvage an unauthorized practice. Congress did not intend for transferee courts to “glom onto” cases for trial. *Lexecon*, 61 F.3d at 912 (Kozinski, J., dissenting).
+
+**Conclusion**
+
+The district court lacked authority to assign this case to itself for trial under § 1404(a). The plain text of § 1407(a) commands immediate remand. The judgment of the court of appeals should be reversed.

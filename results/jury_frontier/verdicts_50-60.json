@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:michael-nozzi-v-hacla_666974_part9.pdf:425 F. App'x 539",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:united-states-v-eme-homer-city-generation-lp_570156_part25.pdf:608 F. Supp. 2d 1120",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:azurity-pharmaceuticals-inc-v-edge-pharma-llc_370602730_part12.pdf:442 Mass. 381",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:mary-ann-sivolella-v-axa-equitable-life-insurance-c_21501692_part14.pdf:545 F.2d 807",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:united-states-v-william-dahl_20527682_part21.pdf:582 F.3d 443",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:anhing-corporation-v-viet-phu-inc_670536_part33.pdf:328 F.3d 1122",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:vitlloch-roque-v-metrohealth-inc_352278892_part7.pdf:212 F.3d 638",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:united-states-v-cristobal-velasquez_386621147_part25.pdf:127 F.3d 380",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:diaz-v-jiten-hotel-management-inc_518509_part3.pdf:822 F. Supp. 2d 74",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:clear-with-computers-llc-v-altec-industries-inc_1438508_part18.pdf:773 F.3d 1245",
+  "verdict_supported": true
+ }
+]

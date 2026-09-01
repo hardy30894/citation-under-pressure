@@ -1,0 +1,62 @@
+[
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:united-states-v-clifton-mclean_20527485_part25.pdf:135 S. Ct. 2551",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:j-jordan-v-robert-flexton_22737537_part15.pdf:298 F.3d 136",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:intercollegiate-broadcasting-v-crb_440679057_part28.pdf:574 F.3d 748",
+  "verdict_supported": null
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:bnsf-railway-company-v-stb_1280127_part35.pdf:570 F.3d 349",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:ivan-arnold-v-homeaway-incorporated_22241165_part14.pdf:343 F.3d 719",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:aldmyr-systems-inc-v-stephen-friedman_9330688_part23.pdf:650 F.3d 423",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:basf-plant-science-lp-v-commonwealth-scientific_451923637_part9.pdf:525 U.S. 55",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:in-re-blood-reagents-antitrus_571399_part34.pdf:610 F.3d 820",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:matthew-gallagher-v-us-bancorp_666571_part14.pdf:663 F.2d 896",
+  "verdict_supported": true
+ },
+ {
+  "kind": "calibration",
+  "label_supported": true,
+  "tag": "cal:owner-operator-independent-dr-v-dot_384359493_part4.pdf:744 F.3d 142",
+  "verdict_supported": true
+ }
+]

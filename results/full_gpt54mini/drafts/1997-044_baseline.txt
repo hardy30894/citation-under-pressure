@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+I. **Section 523(a)(2)(A) makes only debts obtained by fraud nondischargeable, not every liability that can be traced to a fraudulent debtor.**
+
+The Bankruptcy Code’s “fresh start” is reserved for the “honest but unfortunate debtor.” **Grogan v. Garner, 498 U.S. 279, 286-87 (1991)**. Congress limited the fraud exception in 11 U.S.C. § 523(a)(2)(A) to debts “for money, property, services, or an extension, renewal, or refinancing of credit, to the extent obtained by” false pretenses, a false representation, or actual fraud. That text is narrower than a rule making all obligations of a fraudulent actor nondischargeable.
+
+This Court has emphasized that exceptions to discharge should be tied to what was actually obtained by fraud. In **Grogan**, the Court held that a creditor seeking the benefit of § 523 must prove its case by a preponderance of the evidence, but the decision did not expand the statute’s substantive reach. **Grogan, 498 U.S. at 291**. Nor did **Cohen v. de la Cruz, 523 U.S. 213 (1998)**, which this Court ultimately decided, alter the basic principle that discharge exceptions are statutory and must be applied according to their terms. The question is what “debt” Congress excluded from discharge.
+
+Petitioner Cohen’s obligation to refund allegedly excessive rents is not a debt “for money . . . obtained by” fraud in the sense contemplated by § 523(a)(2)(A). The tenants were entitled, at most, to restitution of overcharges. Any additional liability—treble damages, attorney’s fees, and costs—arises from the New Jersey Consumer Fraud Act, not from any money Cohen “obtained” from the tenants by fraud. Section 523(a)(2)(A) does not say that every statutory penalty attached to a fraud-related judgment is nondischargeable.
+
+II. **Punitive or enhanced damages are not “obtained by” fraud under the text of § 523(a)(2)(A).**
+
+The Ninth Circuit correctly read § 523(a)(2)(A) as limited to the amount actually obtained by fraud. In **In re Levy, 951 F.2d 196, 199-200 (9th Cir. 1991)**, the court held that punitive damages were dischargeable because they were not themselves “obtained by” fraud; only the compensatory portion fit the statute. That interpretation gives effect to Congress’s limiting phrase “to the extent obtained by.”
+
+By contrast, the Third Circuit below treated the statutory treble-damages award as part of the nondischargeable debt simply because it followed a fraud finding. That approach reads the phrase “to the extent obtained by” out of the statute. If Congress had wanted to make all consequences of fraud nondischargeable, it could have said so. It did not.
+
+The Eleventh Circuit’s contrary decision in **In re St. Laurent, 991 F.2d 672, 680-81 (11th Cir. 1993)** rested on a broad conception of “debt” and policy arguments about the debtor’s lack of a “fresh start.” But statutory policy cannot override statutory text. Section 523(a)(2)(A) is an exception to discharge, and this Court has repeatedly construed such exceptions according to the words Congress chose. See **Grogan, 498 U.S. at 286-87**; **Kawaauhau v. Geiger, 523 U.S. 57, 62-63 (1998)**.
+
+III. **The New Jersey Consumer Fraud Act cannot enlarge the federal bankruptcy exception.**
+
+The court below also erred by allowing a state-law penalty scheme to control dischargeability. Whether a liability is dischargeable is a question of federal bankruptcy law. In **Grogan**, 498 U.S. at 283-84, the Court treated § 523 as a federal standard governing discharge. Likewise, in **Kawaauhau, 523 U.S. at 61-62**, the Court rejected efforts to stretch § 523 beyond its terms based on the nature of the underlying wrong.
+
+A state statute may create treble damages, but it cannot transform a dischargeable debt into a nondischargeable one unless the Bankruptcy Code says so. Section 523(a)(2)(A) does not incorporate state punitive remedies wholesale. The lower courts’ rule would allow nondischargeability to vary dramatically from state to state depending on whether a legislature chose to authorize multiple damages, attorney’s fees, or other enhancements. Nothing in the Bankruptcy Code suggests such a result.
+
+IV. **The better rule is to limit nondischargeability to actual loss caused by fraud and allow the rest to be discharged.**
+
+That rule best fits both the statutory text and bankruptcy’s central purpose. The fraud exception ensures that a debtor cannot use bankruptcy to escape repayment of money wrongfully obtained. But it does not require permanent enforcement of every ancillary sanction attached to the debt. To hold otherwise would create a punitive bankruptcy exception that Congress did not enact.
+
+This Court should therefore reverse and hold that, at most, the tenants’ restitution claim is nondischargeable, while treble damages, attorney’s fees, and costs are dischargeable.

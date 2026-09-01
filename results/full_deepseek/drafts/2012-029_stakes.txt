@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. The Federal Courts Do Not Possess Exclusive Jurisdiction Over State Legal Malpractice Claims That Require Application of Federal Patent Law**
+
+The jurisdictional question presented is whether a state-law legal malpractice claim that requires a court to apply federal patent law necessarily "arises under" federal patent law for purposes of 28 U.S.C. § 1338(a). It does not. The Supreme Court has consistently held that a case "arises under" federal patent law only when "a well-pleaded complaint establishes either that federal patent law creates the cause of action or that the plaintiff's right to relief necessarily depends on resolution of a substantial question of federal patent law." *Christianson v. Colt Indus. Operating Corp.*, 486 U.S. 800, 808-09 (1988).
+
+In *Grable & Sons Metal Prods., Inc. v. Darue Eng'g & Mfg.*, 545 U.S. 308, 314 (2005), the Court refined this test, holding that federal question jurisdiction exists only where a federal issue is (1) necessarily raised, (2) actually disputed, (3) substantial, and (4) capable of resolution "without disturbing any congressionally approved balance of federal and state judicial responsibilities." The Texas Supreme Court erred by concluding that Minton's claim satisfies these requirements.
+
+**A. The Federal Patent Issue Is Not Substantial**
+
+A federal issue is "substantial" only if it is "significant to the federal system as a whole"—not merely to the parties' private dispute. *Gunn v. Minton*, 568 U.S. 251, 260 (2013). Here, the patent issue—whether the experimental use exception would have saved Minton's patent from the on-sale bar—is a backward-looking, case-specific inquiry that will not bind future patent litigants. It does not create or destroy any patent rights; it merely determines whether Minton's former attorneys were negligent. As the Supreme Court later explained in this very case, "the federal issue is not substantial in the *Grable* sense" because "it is hypothetical" and "fact-bound and case-specific." *Gunn*, 568 U.S. at 262-63. The Texas Supreme Court's contrary conclusion cannot be squared with *Grable*.
+
+**B. Federal Jurisdiction Would Disturb the Balance of State and Federal Judicial Responsibilities**
+
+State courts have "traditional competence" to adjudicate legal malpractice claims, even when they require application of federal law. *Grable*, 545 U.S. at 319. Congress never intended § 1338(a) to sweep routine state malpractice disputes into federal court. See *Gunn*, 568 U.S. at 264 (holding that "adjudicating patent malpractice claims would 'disrupt[t] the federal-state balance approved by Congress'"). The Texas Supreme Court ignored this federalism concern, instead relying on Federal Circuit precedent that itself failed to conduct the *Grable* analysis. *E.g.*, *Air Measurement Techs., Inc. v. Akin Gump Strauss Hauer & Feld, L.L.P.*, 504 F.3d 1262, 1273 (Fed. Cir. 2007) (concluding that a patent issue is "substantial" simply because it is "necessary" and "contested" without analyzing federalism). That approach erroneously collapses the *Grable* test's distinct elements into a single inquiry and effectively extends federal jurisdiction to any state case mentioning patent law. It should be rejected.
+
+**C. The Federal Issue Is Not Necessary to Resolution of the State Claim**
+
+Finally, Minton's malpractice claim could be resolved without reaching the patent issue at all. The trial court granted summary judgment based on "no evidence" of a genuine dispute about experimental purpose—a purely factual inquiry that does not require defining the contours of federal patent law. The federal issue arises only as a defense to a defense, which is insufficient to create federal jurisdiction. *Christianson*, 486 U.S. at 809 (federal jurisdiction must appear from the plaintiff's well-pleaded complaint, not from anticipated defenses). The Texas Supreme Court erred by treating the patent issue as necessary when it was merely incidental.
+
+**CONCLUSION**
+
+For these reasons, the judgment of the Supreme Court of Texas should be reversed, and the case remanded for consideration on the merits.

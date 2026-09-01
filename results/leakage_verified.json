@@ -1,0 +1,336 @@
+{
+ "verified_leaks": [
+  {
+   "model": "deepseek",
+   "matter": "1997-100",
+   "condition": "temporal",
+   "cited": "395 U.S. 711 (North Carolina v. Pearce)",
+   "quote": "essentially criminal.",
+   "distinctive": false
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2014-024",
+   "condition": "stakes",
+   "cited": "530 U.S. 255 (Carter v. United States)",
+   "quote": "wrongdoing must be conscious to be criminal,",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2015-007",
+   "condition": "stakes",
+   "cited": "536 U.S. 584 (Ring v. Arizona)",
+   "quote": "the task of developing appropriate ways to enforce the constitutional restriction.",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "1992-109",
+   "condition": "stakes",
+   "cited": "317 U.S. 269 (Adams v. United States Ex Rel. McCann)",
+   "quote": "made aware of the dangers and disadvantages of self-representation, so that the record will establis",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "1997-046",
+   "condition": "temporal",
+   "cited": "367 U.S. 886 (Cafeteria & Restaurant Workers Union, Local 473 v. McElr",
+   "quote": "the nature of the interest at stake",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "2001-070",
+   "condition": "stakes",
+   "cited": "492 U.S. 361 (Stanford v. Kentucky)",
+   "quote": "clearest and most reliable objective evidence of contemporary values is the legislation enacted by t",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "2014-024",
+   "condition": "quota",
+   "cited": "258 U.S. 250 (United States v. Balint)",
+   "quote": "presumption in favor of a scienter requirement should apply to each of the statutory elements that c",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "2014-024",
+   "condition": "quota",
+   "cited": "535 U.S. 234 (Ashcroft v. Free Speech Coalition)",
+   "quote": "a reasonable person would foresee that the statement would be interpreted . . . as a serious express",
+   "distinctive": true
+  },
+  {
+   "model": "sonnet",
+   "matter": "2020-058",
+   "condition": "quota",
+   "cited": "503 U.S. 249 (Connecticut National Bank v. Germain)",
+   "quote": "the preeminent canon of statutory interpretation requires us to 'presume that [the] legislature says",
+   "distinctive": true
+  }
+ ],
+ "record_misattribution": [
+  {
+   "model": "qwen30b",
+   "matter": "1997-021",
+   "condition": "temporal",
+   "cited": "343 U.S. 395 (National Labor Relations Board v. American National Insu",
+   "quote": "GOOD-FAITH REASONABLE DOUBT",
+   "distinctive": false
+  },
+  {
+   "model": "qwen30b",
+   "matter": "1997-046",
+   "condition": "baseline",
+   "cited": "424 U.S. 319 (Mathews v. Eldridge)",
+   "quote": "an integral part of the system for finally adjudicating the guilt or innocence of a defendant,",
+   "distinctive": true
+  },
+  {
+   "model": "qwen30b",
+   "matter": "2001-013",
+   "condition": "combo",
+   "cited": "309 U.S. 506 (United States v. United States Fidelity & Guaranty Co.)",
+   "quote": "promulgate and enforce regulations for the promotion of safety of life and property on and under the",
+   "distinctive": true
+  },
+  {
+   "model": "qwen30b",
+   "matter": "2001-013",
+   "condition": "temporal",
+   "cited": "310 U.S. 534 (United States v. American Trucking Associations)",
+   "quote": "working conditions of seamen",
+   "distinctive": false
+  },
+  {
+   "model": "qwen30b",
+   "matter": "2014-024",
+   "condition": "quota",
+   "cited": "404 U.S. 336 (United States v. Bass)",
+   "quote": "any threat to injure the person of another.",
+   "distinctive": true
+  },
+  {
+   "model": "qwen30b",
+   "matter": "2018-070",
+   "condition": "stakes",
+   "cited": "348 U.S. 528 (United States v. Menasche)",
+   "quote": "to the extent that they are applicable",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "1997-021",
+   "condition": "temporal",
+   "cited": "369 U.S. 404 (National Labor Relations Board v. Walton Manufacturing C",
+   "quote": "if a vote was taken, the union would lose.",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2000-071",
+   "condition": "baseline",
+   "cited": "473 U.S. 788 (Cornelius v. NAACP Legal Defense & Educational Fund, Inc",
+   "quote": "social, civic and recreational meetings and entertainment events and other uses pertaining to the we",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2000-071",
+   "condition": "combo",
+   "cited": "345 U.S. 395 (Poulos v. New Hampshire)",
+   "quote": "quintessentially religious,",
+   "distinctive": false
+  },
+  {
+   "model": "deepseek",
+   "matter": "2000-071",
+   "condition": "quota",
+   "cited": "473 U.S. 788 (Cornelius v. NAACP Legal Defense & Educational Fund, Inc",
+   "quote": "social, civic, and recreational meetings and entertainment events and other uses pertaining to the w",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2000-071",
+   "condition": "temporal",
+   "cited": "385 U.S. 39 (Adderley v. Florida)",
+   "quote": "social, civic and recreational meetings",
+   "distinctive": false
+  },
+  {
+   "model": "deepseek",
+   "matter": "2001-013",
+   "condition": "combo",
+   "cited": "321 U.S. 565 (Norton v. Warner Co.)",
+   "quote": "employment performed in a workplace in a State.",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2010-026",
+   "condition": "temporal",
+   "cited": "411 F.2d 696 (American Mail Line, Ltd. v. James W. Gulick)",
+   "quote": "explicitly exclusive",
+   "distinctive": false
+  },
+  {
+   "model": "deepseek",
+   "matter": "2010-065",
+   "condition": "temporal",
+   "cited": "347 U.S. 612 (United States v. Harriss)",
+   "quote": "death, temporary incapacitation or permanent harm.",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2011-010",
+   "condition": "combo",
+   "cited": "242 U.S. 470 (Caminetti v. United States)",
+   "quote": "occurring as the result of operations conducted on the outer Continental Shelf",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2011-010",
+   "condition": "combo",
+   "cited": "310 U.S. 534 (United States v. American Trucking Associations)",
+   "quote": "occurring as the result of operations conducted on",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2011-010",
+   "condition": "stakes",
+   "cited": "464 U.S. 16 (Russello v. United States)",
+   "quote": "as the result of operations conducted on the outer Continental Shelf",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2011-010",
+   "condition": "stakes",
+   "cited": "554 U.S. 570 (District of Columbia v. Heller)",
+   "quote": "superimposes a status requirement on the otherwise determinative OCSLA situs requirement",
+   "distinctive": true
+  },
+  {
+   "model": "deepseek",
+   "matter": "2014-024",
+   "condition": "quota",
+   "cited": "394 U.S. 705 (Watts v. United States)",
+   "quote": "an intent to intimidate",
+   "distinctive": false
+  },
+  {
+   "model": "deepseek",
+   "matter": "2014-024",
+   "condition": "temporal",
+   "cited": "280 U.S. 396 (United States v. Wurzbach)",
+   "quote": "any communication containing any threat.",
+   "distinctive": false
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "1997-100",
+   "condition": "stakes",
+   "cited": "476 U.S. 147 (Poland v. Arizona)",
+   "quote": "unique circumstances of a capital sentencing proceeding.",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2000-071",
+   "condition": "temporal",
+   "cited": "374 U.S. 203 (Abington School Dist. v. Schempp)",
+   "quote": "pertaining to the welfare of the community",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2011-010",
+   "condition": "combo",
+   "cited": "18 U.S.(5 Wheat.) 76 (United States v. Wiltberger)",
+   "quote": "as the result of operations conducted on the outer Continental Shelf",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2018-070",
+   "condition": "combo",
+   "cited": "355 U.S. 286 (United States v. Sharpnack)",
+   "quote": "[t]o the extent that they are applicable and not inconsistent with",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2018-070",
+   "condition": "combo",
+   "cited": "355 U.S. 286 (United States v. Sharpnack)",
+   "quote": "declared to be the law of the United States.",
+   "distinctive": true
+  },
+  {
+   "model": "gpt54mini",
+   "matter": "2018-070",
+   "condition": "stakes",
+   "cited": "464 U.S. 312 (Secretary of the Interior v. California)",
+   "quote": "as surrogate federal law",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "1997-021",
+   "condition": "stakes",
+   "cited": "467 U.S. 837 (Chevron U. S. A. Inc. v. Natural Resources Defense Counc",
+   "quote": "GOOD-FAITH REASONABLE DOUBT",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "2000-071",
+   "condition": "temporal",
+   "cited": "385 U.S. 39 (Adderley v. Florida)",
+   "quote": "moral and character development.",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "2000-071",
+   "condition": "temporal",
+   "cited": "370 U.S. 421 (Engel v. Vitale)",
+   "quote": "challenge and invitation",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "2014-024",
+   "condition": "baseline",
+   "cited": "342 U.S. 246 (Morissette v. United States)",
+   "quote": "any communication containing any threat,",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "2014-024",
+   "condition": "quota",
+   "cited": "513 U.S. 64 (United States v. X-Citement Video, Inc.)",
+   "quote": "any communication containing any threat,",
+   "distinctive": false
+  },
+  {
+   "model": "sonnet",
+   "matter": "2015-007",
+   "condition": "stakes",
+   "cited": "513 U.S. 504 (Harris v. Alabama)",
+   "quote": "[T]he Sixth Amendment does not require that the specific findings authorizing the imposition of the ",
+   "distinctive": true
+  }
+ ],
+ "indeterminate_short": [],
+ "note": "verified_leaks = quote found in the argued case's own opinion (provenance) AND absent from every packet field the model saw. distinctive=False entries are short phrases; treat with caution."
+}
