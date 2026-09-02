@@ -2,115 +2,45 @@
   "model": "llama4mav",
   "episodes": [
     {
-      "episode": "2014-024:none",
+      "episode": "2012-031:none",
       "arm": "none",
-      "matter": "2014-024",
+      "matter": "2012-031",
       "side": "petitioner",
       "rounds": [
         {
-          "n_citations": 11,
-          "existence_rate": 0.9091,
-          "n_quotes": 2,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
-          "q_unver": 2,
-          "strict": null
-        },
-        {
-          "n_citations": 11,
-          "existence_rate": 0.9091,
-          "n_quotes": 2,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
-          "q_unver": 2,
-          "strict": null
-        },
-        {
           "n_citations": 10,
-          "existence_rate": 0.9,
-          "n_quotes": 0,
+          "existence_rate": 1.0,
+          "n_quotes": 8,
           "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
+          "q_near": 4,
+          "q_inacc": 4,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.0
         },
         {
-          "n_citations": 10,
-          "existence_rate": 0.9,
-          "n_quotes": 0,
+          "n_citations": 9,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 0,
+          "q_inacc": 1,
           "q_unver": 0,
-          "strict": null
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true
-    },
-    {
-      "episode": "1990-075:none",
-      "arm": "none",
-      "matter": "1990-075",
-      "side": "respondent",
-      "rounds": [
+          "strict": 0.0
+        },
+        {
+          "n_citations": 9,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
+          "q_accurate": 2,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.667
+        },
         {
           "n_citations": 10,
           "existence_rate": 1.0,
           "n_quotes": 1,
-          "q_accurate": 1,
-          "q_near": 0,
-          "q_inacc": 0,
-          "q_unver": 0,
-          "strict": 1.0
-        }
-      ],
-      "converged": true,
-      "cap_exhausted": false
-    },
-    {
-      "episode": "1997-033:none",
-      "arm": "none",
-      "matter": "1997-033",
-      "side": "petitioner",
-      "rounds": [
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 7,
-          "q_accurate": 2,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 1,
-          "strict": 0.4
-        },
-        {
-          "n_citations": 6,
-          "existence_rate": 1.0,
-          "n_quotes": 6,
-          "q_accurate": 2,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.4
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 1.0,
-          "n_quotes": 7,
-          "q_accurate": 2,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.4
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
           "q_accurate": 0,
           "q_near": 0,
           "q_inacc": 1,
@@ -122,144 +52,114 @@
       "cap_exhausted": true
     },
     {
-      "episode": "1998-085:none",
+      "episode": "2011-010:none",
       "arm": "none",
-      "matter": "1998-085",
+      "matter": "2011-010",
       "side": "respondent",
       "rounds": [
         {
-          "n_citations": 11,
-          "existence_rate": 0.7273,
-          "n_quotes": 6,
-          "q_accurate": 1,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 1,
-          "strict": 0.25
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 0.7143,
-          "n_quotes": 5,
-          "q_accurate": 1,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.25
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 0.75,
-          "n_quotes": 5,
-          "q_accurate": 1,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.25
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 0.8571,
-          "n_quotes": 5,
-          "q_accurate": 1,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.25
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true
-    },
-    {
-      "episode": "1997-021:none",
-      "arm": "none",
-      "matter": "1997-021",
-      "side": "petitioner",
-      "rounds": [
-        {
-          "n_citations": 15,
-          "existence_rate": 0.6429,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 11,
-          "existence_rate": 0.7273,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 9,
-          "existence_rate": 0.7778,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 3,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 0.7,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 3,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true
-    },
-    {
-      "episode": "2005-087:none",
-      "arm": "none",
-      "matter": "2005-087",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 11,
+          "n_citations": 14,
           "existence_rate": 1.0,
           "n_quotes": 5,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 1,
+          "q_unver": 2,
+          "strict": 0.333
+        },
+        {
+          "n_citations": 11,
+          "existence_rate": 0.9091,
+          "n_quotes": 4,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 2,
+          "strict": 0.5
+        },
+        {
+          "n_citations": 13,
+          "existence_rate": 0.9231,
+          "n_quotes": 4,
           "q_accurate": 0,
           "q_near": 1,
-          "q_inacc": 2,
+          "q_inacc": 1,
           "q_unver": 2,
           "strict": 0.0
         },
         {
-          "n_citations": 8,
+          "n_citations": 14,
+          "existence_rate": 0.9286,
+          "n_quotes": 4,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 3,
+          "strict": 0.0
+        }
+      ],
+      "converged": false,
+      "cap_exhausted": true
+    },
+    {
+      "episode": "2005-074:none",
+      "arm": "none",
+      "matter": "2005-074",
+      "side": "petitioner",
+      "rounds": [
+        {
+          "n_citations": 11,
           "existence_rate": 1.0,
           "n_quotes": 2,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 2,
+          "q_inacc": 0,
+          "q_unver": 2,
+          "strict": null
+        }
+      ],
+      "converged": true,
+      "cap_exhausted": false
+    },
+    {
+      "episode": "2001-013:none",
+      "arm": "none",
+      "matter": "2001-013",
+      "side": "respondent",
+      "rounds": [
+        {
+          "n_citations": 15,
+          "existence_rate": 0.8667,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": null
+        },
+        {
+          "n_citations": 13,
+          "existence_rate": 0.9231,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 5,
+          "n_citations": 13,
+          "existence_rate": 0.9231,
+          "n_quotes": 1,
           "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 2,
-          "q_unver": 1,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 11,
-          "existence_rate": 1.0,
+          "n_citations": 13,
+          "existence_rate": 0.9231,
           "n_quotes": 0,
           "q_accurate": 0,
           "q_near": 0,
@@ -268,9 +168,89 @@
           "strict": null
         }
       ],
+      "converged": false,
+      "cap_exhausted": true
+    },
+    {
+      "episode": "1992-086:none",
+      "arm": "none",
+      "matter": "1992-086",
+      "side": "petitioner",
+      "rounds": [
+        {
+          "n_citations": 7,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.333
+        },
+        {
+          "n_citations": 11,
+          "existence_rate": 1.0,
+          "n_quotes": 4,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 2,
+          "q_unver": 0,
+          "strict": 0.25
+        },
+        {
+          "n_citations": 9,
+          "existence_rate": 1.0,
+          "n_quotes": 4,
+          "q_accurate": 1,
+          "q_near": 0,
+          "q_inacc": 3,
+          "q_unver": 0,
+          "strict": 0.25
+        },
+        {
+          "n_citations": 9,
+          "existence_rate": 1.0,
+          "n_quotes": 2,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.0
+        }
+      ],
+      "converged": false,
+      "cap_exhausted": true
+    },
+    {
+      "episode": "2010-046:none",
+      "arm": "none",
+      "matter": "2010-046",
+      "side": "respondent",
+      "rounds": [
+        {
+          "n_citations": 16,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 11,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 0,
+          "q_unver": 1,
+          "strict": null
+        }
+      ],
       "converged": true,
       "cap_exhausted": false
     }
   ],
-  "cost": 0.2682
+  "cost": 0.2826
 }

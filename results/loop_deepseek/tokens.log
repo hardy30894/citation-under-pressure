@@ -180,3 +180,5 @@
 {"ts": 1788393363.51054, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r1:2010-046:none", "in_tokens": 6265, "out_tokens": 1285, "est_cost": 0.000795, "latency_ms": 22438}
 {"ts": 1788393377.852235, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r2:2010-046:none", "in_tokens": 7571, "out_tokens": 1590, "est_cost": 0.001505, "latency_ms": 14286}
 {"ts": 1788393400.3481321, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:2010-046:none", "in_tokens": 8869, "out_tokens": 2304, "est_cost": 0.001509, "latency_ms": 22434}
+{"ts": 1788393456.441498, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:1999-051:none", "in_tokens": 5395, "out_tokens": 1259, "est_cost": 0.000578, "latency_ms": 337501}
+{"ts": 1788393571.58387, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r1:1990-075:none", "in_tokens": 6617, "out_tokens": 2497, "est_cost": 0.001556, "latency_ms": 21615}

@@ -29,6 +29,7 @@ sys.path.insert(0, str(HERE / "src"))
 
 from pilot import (  # noqa: E402  (also loads local .env)
     MODELS, MAX_TOKENS_BY_MODEL, GE, DB, task_message, pick_matters,
+    chat_or_none,
 )
 from runtime.llm_client import LLMClient, LLMCache, Meter, BudgetStop, \
     load_env_key  # noqa: E402
@@ -179,6 +180,7 @@ def main():
                 )
                 rounds = []
                 converged = False
+                dropped = False
                 for rnd in range(MAX_ROUNDS + 1):
                     recs, rates, qres = score(draft, checker, store)
                     rounds.append(summarize(recs, rates, qres))
@@ -195,11 +197,15 @@ def main():
                         {"role": "assistant", "content": draft},
                         {"role": "user", "content": fb},
                     ]
-                    draft = client.chat(
-                        messages, temperature=0.0,
+                    draft = chat_or_none(
+                        client, messages,
                         max_tokens=MAX_TOKENS_BY_MODEL[args.model],
                         tag=f"r{rnd + 1}:{ep_id}",
                     )
+                    if draft is None:
+                        print(f"{ep_id}: empty completion, episode dropped")
+                        dropped = True
+                        break
                     (run_dir / "drafts").mkdir(exist_ok=True)
                     (run_dir / "drafts" / f"{entry['id']}_{arm}_r{rnd + 1}.txt"
                      ).write_text(draft)
@@ -207,6 +213,7 @@ def main():
                     "episode": ep_id, "arm": arm, "matter": entry["id"],
                     "side": side, "rounds": rounds, "converged": converged,
                     "cap_exhausted": not converged and len(rounds) > MAX_ROUNDS,
+                    "dropped": dropped,
                 }
                 episodes.append(ep)
                 state.record(f"ep:{ep_id}", "episode_done", ep)

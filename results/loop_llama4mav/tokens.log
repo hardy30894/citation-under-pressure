@@ -144,3 +144,7 @@
 {"ts": 1788393267.299618, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r1:2001-013:none", "in_tokens": 3886, "out_tokens": 920, "est_cost": 0.001418, "latency_ms": 56189}
 {"ts": 1788393329.189631, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r2:2001-013:none", "in_tokens": 4833, "out_tokens": 811, "est_cost": 0.001531, "latency_ms": 61782}
 {"ts": 1788393391.373609, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r3:2001-013:none", "in_tokens": 5671, "out_tokens": 844, "est_cost": 0.001722, "latency_ms": 62061}
+{"ts": 1788393434.517518, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r1:1992-086:none", "in_tokens": 5445, "out_tokens": 822, "est_cost": 0.001661, "latency_ms": 43006}
+{"ts": 1788393442.892395, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r2:1992-086:none", "in_tokens": 6295, "out_tokens": 719, "est_cost": 0.00303, "latency_ms": 8329}
+{"ts": 1788393450.56448, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r3:1992-086:none", "in_tokens": 7041, "out_tokens": 712, "est_cost": 0.003283, "latency_ms": 7651}
+{"ts": 1788393458.296745, "client": "loop-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "r1:2010-046:none", "in_tokens": 5959, "out_tokens": 734, "est_cost": 0.001779, "latency_ms": 7625}

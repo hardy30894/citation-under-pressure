@@ -80,3 +80,30 @@ before or after seeing the relevant data. Nothing is deleted.
   "near-perfect repair" to "verifier satisfaction by deletion": the
   Goodhart question the introduction asks is answered, and the answer is
   yes. (c) Pressured drafts are 1,152, not 1,440.
+- 2026-09-02 (JURIX revision applied): paper.tex rewritten around the
+  Holm-corrected results; Table 1 carries lenient rates and not-found
+  counts, Table 2 carries scored and accurate quotation counts so the
+  deletion effect is visible in the table itself. Figure 1's existence
+  panel now starts at 0.7; Figure 2 splits true and false feedback into
+  two panels. Provenance, pincite, and not-in-corpus decompositions were
+  re-run over all six models (463 misattributed quotations in total). The
+  paraphrase arm covers the four models that existed when it was designed
+  (Qwen, DeepSeek, GPT-5.4-mini, Sonnet); the paper says so rather than
+  implying six.
+- 2026-09-02 (bibliography audit): every entry in references.bib and
+  ailaw.bib checked against arXiv, Crossref, the ACL Anthology, IOS Press,
+  and dblp by independent verifiers. Five field errors fixed: gehring
+  (now the ICML 2025 PMLR version with its six-author list), shao (year
+  2025, not 2026), gu (two missing authors, year 2024), spaeth (Michael J.
+  Nelson missing from the SCDB author line), tan (ICLR 2025 note added).
+  Two entries added and verified: Mata v. Avianca, 678 F. Supp. 3d 443
+  (S.D.N.Y. 2023), docket 1:22-cv-01461, opinion of June 22, 2023; and
+  Charlotin's hallucination cases database (2,008 cases as of Sept 2).
+  Gray et al. pages are 199-208 (188-198 is a different ICAIL paper);
+  Khatri et al. has seven authors per IOS Press (dblp's five is a gap).
+- 2026-09-02 (no-feedback loop control): a third loop arm ("none": the
+  same number of revision rounds with a content-free "revise as you see
+  fit" instruction) launched on all six models, 24 matters each, so that
+  repair and deletion can be separated from what revision alone does.
+  One DeepSeek lane died on an empty completion; loop_arm.py now drops the
+  episode instead of the lane, and the five missing episodes were rerun.
