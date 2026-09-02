@@ -59,3 +59,8 @@ before or after seeing the relevant data. Nothing is deleted.
   original models (two DeepSeek, one GPT-5.4-mini). All documents now
   say three refusals in 1,440 drafts. Caught during the six-model
   integration's number check.
+- 2026-09-02 (venue): submitting to JURIX 2026 (deadline Sept 13, long
+  paper, 10 IOS pages, single-blind). Decision by Hardy: one paper out
+  quickly outweighs the A* ceiling for this paper. Fallback recorded:
+  JURIX notifies Oct 8; a rejection can still enter ARR Oct 12. Number
+  audit script (src/audit_numbers.py) passes 22/22 at this point.
