@@ -33,8 +33,9 @@ from rescore_pilots import eyecite_pass  # noqa
 
 # full-run drafts (the paper's corpus); pilot dirs retired
 PILOTS = {
-    m: Path(__file__).resolve().parents[1] / "results" / f"full_{m}" / "drafts"
-    for m in ("qwen30b", "deepseek", "gpt54mini", "sonnet")
+    p.name.replace("full_", ""): p / "drafts"
+    for p in sorted((Path(__file__).resolve().parents[1] / "results").glob("full_*"))
+    if len(list((p / "drafts").glob("*.txt"))) >= 240
 }
 
 CORPUS = GE / "data/scotus_corpus/original_usdb.txt"

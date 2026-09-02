@@ -1,0 +1,1192 @@
+{
+ "holm": {
+  "quote:deepseek:combo": {
+   "p": 0.0,
+   "holm_p": 0.0,
+   "n_tests": 8
+  },
+  "quote:deepseek:temporal": {
+   "p": 0.02513,
+   "holm_p": 0.17591,
+   "n_tests": 8
+  },
+  "citation:deepseek:quota": {
+   "p": 0.13588,
+   "holm_p": 0.81528,
+   "n_tests": 8
+  },
+  "citation:deepseek:temporal": {
+   "p": 0.26848,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:deepseek:combo": {
+   "p": 0.57604,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:deepseek:quota": {
+   "p": 0.81746,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:deepseek:stakes": {
+   "p": 0.83076,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:deepseek:stakes": {
+   "p": 0.84626,
+   "holm_p": 0.84626,
+   "n_tests": 8
+  },
+  "quote:gpt54mini:combo": {
+   "p": 0.02335,
+   "holm_p": 0.1868,
+   "n_tests": 8
+  },
+  "quote:gpt54mini:temporal": {
+   "p": 0.04877,
+   "holm_p": 0.34139,
+   "n_tests": 8
+  },
+  "citation:gpt54mini:combo": {
+   "p": 0.08354,
+   "holm_p": 0.50124,
+   "n_tests": 8
+  },
+  "citation:gpt54mini:temporal": {
+   "p": 0.11326,
+   "holm_p": 0.5663,
+   "n_tests": 8
+  },
+  "quote:gpt54mini:stakes": {
+   "p": 0.43742,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:gpt54mini:quota": {
+   "p": 0.85642,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:gpt54mini:quota": {
+   "p": 0.87807,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:gpt54mini:stakes": {
+   "p": 0.94135,
+   "holm_p": 0.94135,
+   "n_tests": 8
+  },
+  "quote:llama4mav:temporal": {
+   "p": 1e-05,
+   "holm_p": 8e-05,
+   "n_tests": 8
+  },
+  "quote:llama4mav:combo": {
+   "p": 5e-05,
+   "holm_p": 0.00035,
+   "n_tests": 8
+  },
+  "quote:llama4mav:quota": {
+   "p": 0.09142,
+   "holm_p": 0.54852,
+   "n_tests": 8
+  },
+  "citation:llama4mav:quota": {
+   "p": 0.2071,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:llama4mav:combo": {
+   "p": 0.33135,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:llama4mav:temporal": {
+   "p": 0.49539,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:llama4mav:stakes": {
+   "p": 0.60517,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:llama4mav:stakes": {
+   "p": 0.82622,
+   "holm_p": 0.82622,
+   "n_tests": 8
+  },
+  "quote:mistralsmall:temporal": {
+   "p": 0.00749,
+   "holm_p": 0.05992,
+   "n_tests": 8
+  },
+  "citation:mistralsmall:temporal": {
+   "p": 0.05751,
+   "holm_p": 0.40257,
+   "n_tests": 8
+  },
+  "citation:mistralsmall:quota": {
+   "p": 0.08255,
+   "holm_p": 0.49529999999999996,
+   "n_tests": 8
+  },
+  "quote:mistralsmall:quota": {
+   "p": 0.11275,
+   "holm_p": 0.56375,
+   "n_tests": 8
+  },
+  "quote:mistralsmall:combo": {
+   "p": 0.12544,
+   "holm_p": 0.50176,
+   "n_tests": 8
+  },
+  "citation:mistralsmall:combo": {
+   "p": 0.16489,
+   "holm_p": 0.49467000000000005,
+   "n_tests": 8
+  },
+  "citation:mistralsmall:stakes": {
+   "p": 0.37478,
+   "holm_p": 0.74956,
+   "n_tests": 8
+  },
+  "quote:mistralsmall:stakes": {
+   "p": 0.42767,
+   "holm_p": 0.42767,
+   "n_tests": 8
+  },
+  "quote:qwen30b:combo": {
+   "p": 0.0,
+   "holm_p": 0.0,
+   "n_tests": 8
+  },
+  "citation:qwen30b:combo": {
+   "p": 1e-05,
+   "holm_p": 7.000000000000001e-05,
+   "n_tests": 8
+  },
+  "citation:qwen30b:quota": {
+   "p": 0.00013,
+   "holm_p": 0.0007799999999999999,
+   "n_tests": 8
+  },
+  "citation:qwen30b:temporal": {
+   "p": 0.00166,
+   "holm_p": 0.0083,
+   "n_tests": 8
+  },
+  "quote:qwen30b:temporal": {
+   "p": 0.0022,
+   "holm_p": 0.0088,
+   "n_tests": 8
+  },
+  "citation:qwen30b:stakes": {
+   "p": 0.02546,
+   "holm_p": 0.07638,
+   "n_tests": 8
+  },
+  "quote:qwen30b:stakes": {
+   "p": 0.29604,
+   "holm_p": 0.59208,
+   "n_tests": 8
+  },
+  "quote:qwen30b:quota": {
+   "p": 0.35704,
+   "holm_p": 0.35704,
+   "n_tests": 8
+  },
+  "quote:sonnet:combo": {
+   "p": 0.02918,
+   "holm_p": 0.23344,
+   "n_tests": 8
+  },
+  "citation:sonnet:combo": {
+   "p": 0.03358,
+   "holm_p": 0.23506,
+   "n_tests": 8
+  },
+  "citation:sonnet:temporal": {
+   "p": 0.09416,
+   "holm_p": 0.5649599999999999,
+   "n_tests": 8
+  },
+  "quote:sonnet:stakes": {
+   "p": 0.16478,
+   "holm_p": 0.8239000000000001,
+   "n_tests": 8
+  },
+  "citation:sonnet:quota": {
+   "p": 0.3345,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:sonnet:temporal": {
+   "p": 0.38007,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "citation:sonnet:stakes": {
+   "p": 0.6722,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:sonnet:quota": {
+   "p": 0.95895,
+   "holm_p": 0.95895,
+   "n_tests": 8
+  }
+ },
+ "significant_after_holm": [
+  "citation:qwen30b:combo",
+  "citation:qwen30b:quota",
+  "citation:qwen30b:temporal",
+  "quote:deepseek:combo",
+  "quote:llama4mav:combo",
+  "quote:llama4mav:temporal",
+  "quote:qwen30b:combo",
+  "quote:qwen30b:temporal"
+ ],
+ "raw_counts": {
+  "deepseek:baseline:citation": {
+   "exists": 344,
+   "not_found": 10,
+   "unresolvable": 2
+  },
+  "deepseek:baseline:quote": {
+   "accurate": 103,
+   "inaccurate": 135,
+   "near_miss": 128,
+   "unpaired": 72,
+   "unverifiable": 16,
+   "no_fragment": 1
+  },
+  "deepseek:combo:citation": {
+   "exists": 468,
+   "not_found": 20
+  },
+  "deepseek:combo:quote": {
+   "near_miss": 118,
+   "inaccurate": 211,
+   "accurate": 45,
+   "unpaired": 49,
+   "unverifiable": 20
+  },
+  "deepseek:quota:citation": {
+   "exists": 479,
+   "not_found": 25,
+   "unresolvable": 2
+  },
+  "deepseek:quota:quote": {
+   "near_miss": 139,
+   "accurate": 109,
+   "inaccurate": 162,
+   "unpaired": 36,
+   "unverifiable": 34
+  },
+  "deepseek:stakes:citation": {
+   "exists": 289,
+   "not_found": 10
+  },
+  "deepseek:stakes:quote": {
+   "accurate": 90,
+   "inaccurate": 133,
+   "near_miss": 111,
+   "unpaired": 119,
+   "unverifiable": 28
+  },
+  "deepseek:temporal:citation": {
+   "exists": 339,
+   "not_found": 17
+  },
+  "deepseek:temporal:quote": {
+   "near_miss": 89,
+   "inaccurate": 155,
+   "unpaired": 86,
+   "accurate": 56,
+   "unverifiable": 9,
+   "no_fragment": 2
+  },
+  "gpt54mini:baseline:citation": {
+   "exists": 409,
+   "not_found": 8,
+   "unresolvable": 1
+  },
+  "gpt54mini:baseline:quote": {
+   "near_miss": 49,
+   "inaccurate": 52,
+   "accurate": 86,
+   "unpaired": 35,
+   "no_fragment": 2,
+   "unverifiable": 12
+  },
+  "gpt54mini:combo:citation": {
+   "exists": 686,
+   "not_found": 27
+  },
+  "gpt54mini:combo:quote": {
+   "accurate": 37,
+   "inaccurate": 54,
+   "near_miss": 35,
+   "unpaired": 14,
+   "unverifiable": 3
+  },
+  "gpt54mini:quota:citation": {
+   "exists": 552,
+   "not_found": 11,
+   "unresolvable": 1
+  },
+  "gpt54mini:quota:quote": {
+   "near_miss": 51,
+   "inaccurate": 44,
+   "accurate": 79,
+   "unpaired": 23,
+   "unverifiable": 5
+  },
+  "gpt54mini:stakes:citation": {
+   "exists": 418,
+   "not_found": 9
+  },
+  "gpt54mini:stakes:quote": {
+   "near_miss": 57,
+   "inaccurate": 66,
+   "unpaired": 26,
+   "accurate": 90,
+   "unverifiable": 8
+  },
+  "gpt54mini:temporal:citation": {
+   "exists": 497,
+   "not_found": 22
+  },
+  "gpt54mini:temporal:quote": {
+   "inaccurate": 53,
+   "unverifiable": 6,
+   "accurate": 40,
+   "near_miss": 31,
+   "unpaired": 12
+  },
+  "llama4mav:baseline:citation": {
+   "exists": 204,
+   "not_found": 9,
+   "unresolvable": 1
+  },
+  "llama4mav:baseline:quote": {
+   "accurate": 41,
+   "inaccurate": 39,
+   "unpaired": 27,
+   "near_miss": 22,
+   "unverifiable": 8
+  },
+  "llama4mav:combo:citation": {
+   "exists": 475,
+   "not_found": 31,
+   "unresolvable": 1
+  },
+  "llama4mav:combo:quote": {
+   "accurate": 21,
+   "unpaired": 17,
+   "inaccurate": 64,
+   "near_miss": 32,
+   "unverifiable": 6
+  },
+  "llama4mav:quota:citation": {
+   "exists": 516,
+   "not_found": 13,
+   "unresolvable": 1
+  },
+  "llama4mav:quota:quote": {
+   "accurate": 50,
+   "inaccurate": 51,
+   "near_miss": 52,
+   "unverifiable": 10,
+   "unpaired": 19
+  },
+  "llama4mav:stakes:citation": {
+   "exists": 197,
+   "not_found": 9
+  },
+  "llama4mav:stakes:quote": {
+   "accurate": 35,
+   "unpaired": 28,
+   "near_miss": 28,
+   "inaccurate": 29,
+   "unverifiable": 4
+  },
+  "llama4mav:temporal:citation": {
+   "exists": 202,
+   "not_found": 12
+  },
+  "llama4mav:temporal:quote": {
+   "near_miss": 23,
+   "accurate": 11,
+   "unpaired": 26,
+   "inaccurate": 45,
+   "unverifiable": 6
+  },
+  "mistralsmall:baseline:citation": {
+   "exists": 336,
+   "not_found": 37,
+   "unresolvable": 5
+  },
+  "mistralsmall:baseline:quote": {
+   "unpaired": 45,
+   "accurate": 49,
+   "inaccurate": 93,
+   "near_miss": 95,
+   "unverifiable": 35,
+   "no_fragment": 1
+  },
+  "mistralsmall:combo:citation": {
+   "exists": 452,
+   "not_found": 69
+  },
+  "mistralsmall:combo:quote": {
+   "accurate": 43,
+   "inaccurate": 195,
+   "near_miss": 78,
+   "unpaired": 28,
+   "unverifiable": 55
+  },
+  "mistralsmall:quota:citation": {
+   "exists": 431,
+   "not_found": 33,
+   "unresolvable": 1
+  },
+  "mistralsmall:quota:quote": {
+   "accurate": 76,
+   "inaccurate": 122,
+   "unverifiable": 31,
+   "near_miss": 93,
+   "unpaired": 24
+  },
+  "mistralsmall:stakes:citation": {
+   "exists": 362,
+   "not_found": 32
+  },
+  "mistralsmall:stakes:quote": {
+   "accurate": 41,
+   "inaccurate": 106,
+   "near_miss": 98,
+   "unpaired": 43,
+   "unverifiable": 32
+  },
+  "mistralsmall:temporal:citation": {
+   "exists": 345,
+   "not_found": 56
+  },
+  "mistralsmall:temporal:quote": {
+   "accurate": 33,
+   "unpaired": 39,
+   "near_miss": 91,
+   "inaccurate": 159,
+   "unverifiable": 58,
+   "no_fragment": 1
+  },
+  "qwen30b:baseline:citation": {
+   "exists": 342,
+   "not_found": 28,
+   "unresolvable": 1
+  },
+  "qwen30b:baseline:quote": {
+   "unpaired": 158,
+   "accurate": 49,
+   "near_miss": 109,
+   "inaccurate": 122,
+   "unverifiable": 38
+  },
+  "qwen30b:combo:citation": {
+   "exists": 307,
+   "not_found": 90
+  },
+  "qwen30b:combo:quote": {
+   "unpaired": 84,
+   "near_miss": 96,
+   "accurate": 28,
+   "inaccurate": 263,
+   "unverifiable": 148
+  },
+  "qwen30b:quota:citation": {
+   "exists": 425,
+   "not_found": 65,
+   "unresolvable": 4
+  },
+  "qwen30b:quota:quote": {
+   "unpaired": 91,
+   "accurate": 59,
+   "near_miss": 148,
+   "inaccurate": 151,
+   "unverifiable": 64
+  },
+  "qwen30b:stakes:citation": {
+   "exists": 351,
+   "not_found": 45,
+   "unresolvable": 3
+  },
+  "qwen30b:stakes:quote": {
+   "accurate": 41,
+   "inaccurate": 115,
+   "near_miss": 126,
+   "unpaired": 127,
+   "unverifiable": 41
+  },
+  "qwen30b:temporal:citation": {
+   "not_found": 49,
+   "exists": 258
+  },
+  "qwen30b:temporal:quote": {
+   "inaccurate": 178,
+   "near_miss": 61,
+   "unpaired": 96,
+   "accurate": 21,
+   "unverifiable": 69
+  },
+  "sonnet:baseline:citation": {
+   "exists": 315,
+   "not_found": 3
+  },
+  "sonnet:baseline:quote": {
+   "unpaired": 163,
+   "near_miss": 122,
+   "inaccurate": 160,
+   "accurate": 141,
+   "unverifiable": 7
+  },
+  "sonnet:combo:citation": {
+   "exists": 449,
+   "not_found": 1
+  },
+  "sonnet:combo:quote": {
+   "unpaired": 61,
+   "near_miss": 69,
+   "accurate": 137,
+   "inaccurate": 115,
+   "no_fragment": 1
+  },
+  "sonnet:quota:citation": {
+   "exists": 447,
+   "not_found": 7
+  },
+  "sonnet:quota:quote": {
+   "unpaired": 77,
+   "near_miss": 130,
+   "accurate": 155,
+   "inaccurate": 181,
+   "unverifiable": 6
+  },
+  "sonnet:stakes:citation": {
+   "exists": 330,
+   "not_found": 3,
+   "unresolvable": 1
+  },
+  "sonnet:stakes:quote": {
+   "unpaired": 154,
+   "near_miss": 75,
+   "accurate": 149,
+   "inaccurate": 158,
+   "unverifiable": 8,
+   "no_fragment": 1
+  },
+  "sonnet:temporal:citation": {
+   "exists": 351,
+   "not_found": 2
+  },
+  "sonnet:temporal:quote": {
+   "near_miss": 79,
+   "accurate": 126,
+   "unpaired": 75,
+   "inaccurate": 132
+  }
+ },
+ "cells": {
+  "deepseek:baseline": {
+   "cite_unverifiable_share": 0.0056,
+   "strict": 0.2814,
+   "lenient": 0.6311,
+   "near_miss_share": 0.3497,
+   "quote_unverifiable": 16,
+   "quotes_scored": 366
+  },
+  "deepseek:combo": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1203,
+   "lenient": 0.4358,
+   "near_miss_share": 0.3155,
+   "quote_unverifiable": 20,
+   "quotes_scored": 374
+  },
+  "deepseek:quota": {
+   "cite_unverifiable_share": 0.004,
+   "strict": 0.2659,
+   "lenient": 0.6049,
+   "near_miss_share": 0.339,
+   "quote_unverifiable": 34,
+   "quotes_scored": 410
+  },
+  "deepseek:stakes": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.2695,
+   "lenient": 0.6018,
+   "near_miss_share": 0.3323,
+   "quote_unverifiable": 28,
+   "quotes_scored": 334
+  },
+  "deepseek:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1867,
+   "lenient": 0.4833,
+   "near_miss_share": 0.2967,
+   "quote_unverifiable": 9,
+   "quotes_scored": 300
+  },
+  "gpt54mini:baseline": {
+   "cite_unverifiable_share": 0.0024,
+   "strict": 0.4599,
+   "lenient": 0.7219,
+   "near_miss_share": 0.262,
+   "quote_unverifiable": 12,
+   "quotes_scored": 187
+  },
+  "gpt54mini:combo": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.2937,
+   "lenient": 0.5714,
+   "near_miss_share": 0.2778,
+   "quote_unverifiable": 3,
+   "quotes_scored": 126
+  },
+  "gpt54mini:quota": {
+   "cite_unverifiable_share": 0.0018,
+   "strict": 0.454,
+   "lenient": 0.7471,
+   "near_miss_share": 0.2931,
+   "quote_unverifiable": 5,
+   "quotes_scored": 174
+  },
+  "gpt54mini:stakes": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.4225,
+   "lenient": 0.6901,
+   "near_miss_share": 0.2676,
+   "quote_unverifiable": 8,
+   "quotes_scored": 213
+  },
+  "gpt54mini:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.3226,
+   "lenient": 0.5726,
+   "near_miss_share": 0.25,
+   "quote_unverifiable": 6,
+   "quotes_scored": 124
+  },
+  "llama4mav:baseline": {
+   "cite_unverifiable_share": 0.0047,
+   "strict": 0.402,
+   "lenient": 0.6176,
+   "near_miss_share": 0.2157,
+   "quote_unverifiable": 8,
+   "quotes_scored": 102
+  },
+  "llama4mav:combo": {
+   "cite_unverifiable_share": 0.002,
+   "strict": 0.1795,
+   "lenient": 0.453,
+   "near_miss_share": 0.2735,
+   "quote_unverifiable": 6,
+   "quotes_scored": 117
+  },
+  "llama4mav:quota": {
+   "cite_unverifiable_share": 0.0019,
+   "strict": 0.3268,
+   "lenient": 0.6667,
+   "near_miss_share": 0.3399,
+   "quote_unverifiable": 10,
+   "quotes_scored": 153
+  },
+  "llama4mav:stakes": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.3804,
+   "lenient": 0.6848,
+   "near_miss_share": 0.3043,
+   "quote_unverifiable": 4,
+   "quotes_scored": 92
+  },
+  "llama4mav:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1392,
+   "lenient": 0.4304,
+   "near_miss_share": 0.2911,
+   "quote_unverifiable": 6,
+   "quotes_scored": 79
+  },
+  "mistralsmall:baseline": {
+   "cite_unverifiable_share": 0.0132,
+   "strict": 0.2068,
+   "lenient": 0.6076,
+   "near_miss_share": 0.4008,
+   "quote_unverifiable": 35,
+   "quotes_scored": 237
+  },
+  "mistralsmall:combo": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1361,
+   "lenient": 0.3829,
+   "near_miss_share": 0.2468,
+   "quote_unverifiable": 55,
+   "quotes_scored": 316
+  },
+  "mistralsmall:quota": {
+   "cite_unverifiable_share": 0.0022,
+   "strict": 0.2612,
+   "lenient": 0.5808,
+   "near_miss_share": 0.3196,
+   "quote_unverifiable": 31,
+   "quotes_scored": 291
+  },
+  "mistralsmall:stakes": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1673,
+   "lenient": 0.5673,
+   "near_miss_share": 0.4,
+   "quote_unverifiable": 32,
+   "quotes_scored": 245
+  },
+  "mistralsmall:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.1166,
+   "lenient": 0.4382,
+   "near_miss_share": 0.3216,
+   "quote_unverifiable": 58,
+   "quotes_scored": 283
+  },
+  "qwen30b:baseline": {
+   "cite_unverifiable_share": 0.0027,
+   "strict": 0.175,
+   "lenient": 0.5643,
+   "near_miss_share": 0.3893,
+   "quote_unverifiable": 38,
+   "quotes_scored": 280
+  },
+  "qwen30b:combo": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.0724,
+   "lenient": 0.3204,
+   "near_miss_share": 0.2481,
+   "quote_unverifiable": 148,
+   "quotes_scored": 387
+  },
+  "qwen30b:quota": {
+   "cite_unverifiable_share": 0.0081,
+   "strict": 0.1648,
+   "lenient": 0.5782,
+   "near_miss_share": 0.4134,
+   "quote_unverifiable": 64,
+   "quotes_scored": 358
+  },
+  "qwen30b:stakes": {
+   "cite_unverifiable_share": 0.0075,
+   "strict": 0.1454,
+   "lenient": 0.5922,
+   "near_miss_share": 0.4468,
+   "quote_unverifiable": 41,
+   "quotes_scored": 282
+  },
+  "qwen30b:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.0808,
+   "lenient": 0.3154,
+   "near_miss_share": 0.2346,
+   "quote_unverifiable": 69,
+   "quotes_scored": 260
+  },
+  "sonnet:baseline": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.3333,
+   "lenient": 0.6217,
+   "near_miss_share": 0.2884,
+   "quote_unverifiable": 7,
+   "quotes_scored": 423
+  },
+  "sonnet:combo": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.4268,
+   "lenient": 0.6417,
+   "near_miss_share": 0.215,
+   "quote_unverifiable": 0,
+   "quotes_scored": 321
+  },
+  "sonnet:quota": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.3326,
+   "lenient": 0.6116,
+   "near_miss_share": 0.279,
+   "quote_unverifiable": 6,
+   "quotes_scored": 466
+  },
+  "sonnet:stakes": {
+   "cite_unverifiable_share": 0.003,
+   "strict": 0.3901,
+   "lenient": 0.5864,
+   "near_miss_share": 0.1963,
+   "quote_unverifiable": 8,
+   "quotes_scored": 382
+  },
+  "sonnet:temporal": {
+   "cite_unverifiable_share": 0.0,
+   "strict": 0.3739,
+   "lenient": 0.6083,
+   "near_miss_share": 0.2344,
+   "quote_unverifiable": 0,
+   "quotes_scored": 337
+  }
+ },
+ "memorization": {
+  "deepseek:baseline": {
+   "n_cites": 356,
+   "canonical_share": 0.124,
+   "median_year": 1990
+  },
+  "deepseek:combo": {
+   "n_cites": 488,
+   "canonical_share": 0.105,
+   "median_year": 1941
+  },
+  "deepseek:quota": {
+   "n_cites": 506,
+   "canonical_share": 0.099,
+   "median_year": 1988
+  },
+  "deepseek:stakes": {
+   "n_cites": 299,
+   "canonical_share": 0.147,
+   "median_year": 1988
+  },
+  "deepseek:temporal": {
+   "n_cites": 356,
+   "canonical_share": 0.143,
+   "median_year": 1943
+  },
+  "gpt54mini:baseline": {
+   "n_cites": 418,
+   "canonical_share": 0.127,
+   "median_year": 1991
+  },
+  "gpt54mini:combo": {
+   "n_cites": 713,
+   "canonical_share": 0.105,
+   "median_year": 1938
+  },
+  "gpt54mini:quota": {
+   "n_cites": 563,
+   "canonical_share": 0.091,
+   "median_year": 1989
+  },
+  "gpt54mini:stakes": {
+   "n_cites": 427,
+   "canonical_share": 0.122,
+   "median_year": 1992
+  },
+  "gpt54mini:temporal": {
+   "n_cites": 519,
+   "canonical_share": 0.139,
+   "median_year": 1941
+  },
+  "llama4mav:baseline": {
+   "n_cites": 213,
+   "canonical_share": 0.183,
+   "median_year": 1991
+  },
+  "llama4mav:combo": {
+   "n_cites": 507,
+   "canonical_share": 0.099,
+   "median_year": 1938
+  },
+  "llama4mav:quota": {
+   "n_cites": 530,
+   "canonical_share": 0.098,
+   "median_year": 1991
+  },
+  "llama4mav:stakes": {
+   "n_cites": 206,
+   "canonical_share": 0.165,
+   "median_year": 1991
+  },
+  "llama4mav:temporal": {
+   "n_cites": 214,
+   "canonical_share": 0.154,
+   "median_year": 1946
+  },
+  "mistralsmall:baseline": {
+   "n_cites": 378,
+   "canonical_share": 0.127,
+   "median_year": 1991
+  },
+  "mistralsmall:combo": {
+   "n_cites": 521,
+   "canonical_share": 0.111,
+   "median_year": 1961
+  },
+  "mistralsmall:quota": {
+   "n_cites": 465,
+   "canonical_share": 0.114,
+   "median_year": 1990
+  },
+  "mistralsmall:stakes": {
+   "n_cites": 394,
+   "canonical_share": 0.137,
+   "median_year": 1991
+  },
+  "mistralsmall:temporal": {
+   "n_cites": 401,
+   "canonical_share": 0.097,
+   "median_year": 1957
+  },
+  "qwen30b:baseline": {
+   "n_cites": 370,
+   "canonical_share": 0.097,
+   "median_year": 1989
+  },
+  "qwen30b:combo": {
+   "n_cites": 397,
+   "canonical_share": 0.128,
+   "median_year": 1948
+  },
+  "qwen30b:quota": {
+   "n_cites": 492,
+   "canonical_share": 0.098,
+   "median_year": 1988
+  },
+  "qwen30b:stakes": {
+   "n_cites": 398,
+   "canonical_share": 0.101,
+   "median_year": 1989
+  },
+  "qwen30b:temporal": {
+   "n_cites": 307,
+   "canonical_share": 0.16,
+   "median_year": 1948
+  },
+  "sonnet:baseline": {
+   "n_cites": 318,
+   "canonical_share": 0.145,
+   "median_year": 1986
+  },
+  "sonnet:combo": {
+   "n_cites": 450,
+   "canonical_share": 0.129,
+   "median_year": 1943
+  },
+  "sonnet:quota": {
+   "n_cites": 454,
+   "canonical_share": 0.106,
+   "median_year": 1987
+  },
+  "sonnet:stakes": {
+   "n_cites": 333,
+   "canonical_share": 0.159,
+   "median_year": 1985
+  },
+  "sonnet:temporal": {
+   "n_cites": 353,
+   "canonical_share": 0.153,
+   "median_year": 1944
+  }
+ },
+ "canonical_top50": [
+  "118 U.S. 356",
+  "158 F.3d 597",
+  "217 U.S. 349",
+  "242 U.S. 470",
+  "252 U.S. 416",
+  "276 U.S. 394",
+  "283 F.2d 909",
+  "283 U.S. 64",
+  "286 F.2d 453",
+  "293 U.S. 388",
+  "304 U.S. 458",
+  "306 U.S. 118",
+  "307 U.S. 496",
+  "310 U.S. 296",
+  "310 U.S. 534",
+  "321 U.S. 414",
+  "326 U.S. 310",
+  "328 U.S. 750",
+  "333 U.S. 364",
+  "337 U.S. 241",
+  "340 U.S. 474",
+  "343 U.S. 790",
+  "356 U.S. 86",
+  "362 U.S. 402",
+  "383 U.S. 375",
+  "395 U.S. 238",
+  "395 U.S. 352",
+  "395 U.S. 486",
+  "395 U.S. 711",
+  "397 U.S. 358",
+  "417 F.2d 1030",
+  "420 U.S. 162",
+  "427 U.S. 307",
+  "430 U.S. 99",
+  "454 U.S. 263",
+  "460 U.S. 37",
+  "467 U.S. 837",
+  "473 U.S. 788",
+  "477 U.S. 207",
+  "486 U.S. 800",
+  "489 U.S. 288",
+  "492 U.S. 302",
+  "507 U.S. 725",
+  "508 U.S. 384",
+  "511 U.S. 244",
+  "515 U.S. 819",
+  "530 U.S. 703",
+  "535 U.S. 55",
+  "536 U.S. 304",
+  "568 U.S. 41"
+ ],
+ "human_overall": {
+  "subset": "all_clean",
+  "n_excerpts": 482,
+  "quote_verdicts": {
+   "accurate": 235,
+   "near_miss": 158,
+   "inaccurate": 185,
+   "unverifiable": 199,
+   "unpaired": 897
+  },
+  "n_quotes_total": 1674,
+  "n_quotes_scored": 578,
+  "strict_quote_rate": 0.4066,
+  "citations": {
+   "exists": 822,
+   "not_found": 61,
+   "unresolvable": 167
+  },
+  "existence_rate": 0.9309
+ },
+ "human_resolved_only": {
+  "subset": "all_citations_exist",
+  "n_excerpts": 270,
+  "quote_verdicts": {
+   "accurate": 177,
+   "near_miss": 125,
+   "inaccurate": 140,
+   "unverifiable": 27,
+   "unpaired": 458
+  },
+  "n_quotes_total": 927,
+  "n_quotes_scored": 442,
+  "strict_quote_rate": 0.4005,
+  "citations": {
+   "exists": 584,
+   "not_found": 0,
+   "unresolvable": 0
+  },
+  "existence_rate": 1.0
+ },
+ "human_lenient": 0.6799,
+ "human_near_miss_share": 0.2734,
+ "loop_counts": {
+  "deepseek:true": {
+   "cites_r0": 248,
+   "cites_final": 236,
+   "quotes_scored_r0": 211,
+   "quotes_scored_final": 47,
+   "accurate_r0": 28,
+   "accurate_final": 19
+  },
+  "deepseek:scrambled": {
+   "cites_r0": 248,
+   "cites_final": 191,
+   "quotes_scored_r0": 211,
+   "quotes_scored_final": 105,
+   "accurate_r0": 28,
+   "accurate_final": 7
+  },
+  "gpt54mini:true": {
+   "cites_r0": 366,
+   "cites_final": 354,
+   "quotes_scored_r0": 65,
+   "quotes_scored_final": 39,
+   "accurate_r0": 28,
+   "accurate_final": 29
+  },
+  "gpt54mini:scrambled": {
+   "cites_r0": 366,
+   "cites_final": 331,
+   "quotes_scored_r0": 65,
+   "quotes_scored_final": 41,
+   "accurate_r0": 28,
+   "accurate_final": 15
+  },
+  "llama4mav:true": {
+   "cites_r0": 270,
+   "cites_final": 244,
+   "quotes_scored_r0": 64,
+   "quotes_scored_final": 29,
+   "accurate_r0": 11,
+   "accurate_final": 8
+  },
+  "llama4mav:scrambled": {
+   "cites_r0": 270,
+   "cites_final": 221,
+   "quotes_scored_r0": 64,
+   "quotes_scored_final": 35,
+   "accurate_r0": 11,
+   "accurate_final": 6
+  },
+  "mistralsmall:true": {
+   "cites_r0": 267,
+   "cites_final": 261,
+   "quotes_scored_r0": 145,
+   "quotes_scored_final": 133,
+   "accurate_r0": 15,
+   "accurate_final": 17
+  },
+  "mistralsmall:scrambled": {
+   "cites_r0": 267,
+   "cites_final": 268,
+   "quotes_scored_r0": 145,
+   "quotes_scored_final": 136,
+   "accurate_r0": 15,
+   "accurate_final": 12
+  },
+  "qwen30b:true": {
+   "cites_r0": 198,
+   "cites_final": 197,
+   "quotes_scored_r0": 182,
+   "quotes_scored_final": 181,
+   "accurate_r0": 16,
+   "accurate_final": 16
+  },
+  "qwen30b:scrambled": {
+   "cites_r0": 198,
+   "cites_final": 206,
+   "quotes_scored_r0": 182,
+   "quotes_scored_final": 162,
+   "accurate_r0": 16,
+   "accurate_final": 12
+  },
+  "sonnet:true": {
+   "cites_r0": 220,
+   "cites_final": 220,
+   "quotes_scored_r0": 157,
+   "quotes_scored_final": 73,
+   "accurate_r0": 68,
+   "accurate_final": 70
+  },
+  "sonnet:scrambled": {
+   "cites_r0": 220,
+   "cites_final": 203,
+   "quotes_scored_r0": 157,
+   "quotes_scored_final": 69,
+   "accurate_r0": 68,
+   "accurate_final": 26
+  }
+ },
+ "n_pressured_drafts": 1152,
+ "n_all_drafts": 1440
+}

@@ -64,3 +64,19 @@ before or after seeing the relevant data. Nothing is deleted.
   quickly outweighs the A* ceiling for this paper. Fallback recorded:
   JURIX notifies Oct 8; a rejection can still enter ARR Oct 12. Number
   audit script (src/audit_numbers.py) passes 22/22 at this point.
+- 2026-09-02 (post-review analyses, results/revision_stats.json): (a) Holm
+  correction within model over all GEE contrasts: surviving = Qwen
+  existence (quota, temporal, combo), Qwen quotes (temporal, combo),
+  DeepSeek combo quotes, Llama temporal and combo quotes. Sonnet's positive
+  combo effects (p=.029/.034 uncorrected) do NOT survive; the "sanctions
+  warning induces care" claim is withdrawn as a finding and reported only
+  as an uncorrected exploratory contrast with its alternative explanation.
+  (b) Loop held-out counts: under true feedback Sonnet's scored quotations
+  fell 157 -> 73 while accurate quotations went 68 -> 70; the rise in strict
+  rate to 0.974 is denominator collapse. The model satisfies the verifier
+  mainly by removing quotations, not by correcting them. Qwen changed
+  nothing (182 -> 181 scored, 16 -> 16 accurate). Existence repair is
+  genuine (citations replaced, counts flat). H2's headline changes from
+  "near-perfect repair" to "verifier satisfaction by deletion": the
+  Goodhart question the introduction asks is answered, and the answer is
+  yes. (c) Pressured drafts are 1,152, not 1,440.
