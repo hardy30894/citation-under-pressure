@@ -28,6 +28,7 @@ LABEL = {
     "qwen30b": "Qwen3-30B", "deepseek": "DeepSeek V4 Flash",
     "gpt54mini": "GPT-5.4-mini", "sonnet": "Sonnet 5",
     "llama4mav": "Llama-4 Maverick", "glm47flash": "GLM-4.7-flash",
+    "mistralsmall": "Mistral Small",
 }
 plt.rcParams.update({
     "font.size": 9, "axes.spines.top": False, "axes.spines.right": False,
@@ -54,9 +55,9 @@ def fig1():
         ax.set_title(title)
         if key == "strict_rate":
             ax.axhline(h, color="gray", linewidth=0.8, linestyle=":")
-            ax.text(0.05, h + 0.02, f"human lawyers ({h:.2f})",
+            ax.text(2.6, h - 0.07, f"human lawyers ({h:.2f})",
                     fontsize=7.5, color="gray")
-    axes[0].legend(fontsize=7, frameon=False, loc="upper right")
+    axes[0].legend(fontsize=6.5, frameon=False, loc="upper right", ncol=2)
     fig.tight_layout()
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig1_pressure.{ext}", dpi=200)
@@ -83,7 +84,7 @@ def fig2():
     ax.set_xticklabels(["round 0", "after feedback"])
     ax.set_ylim(0, 1.02)
     ax.set_title("repair under true (solid) vs scrambled (dashed) feedback")
-    ax.legend(fontsize=7, frameon=False, loc="upper left")
+    ax.legend(fontsize=6.5, frameon=False, loc="upper left", ncol=2)
     fig.tight_layout()
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig2_repair.{ext}", dpi=200)

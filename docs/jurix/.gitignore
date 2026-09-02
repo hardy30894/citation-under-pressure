@@ -1,0 +1,5 @@
+template/
+*.aux
+*.log
+*.bbl
+*.blg

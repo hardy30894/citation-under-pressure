@@ -1,0 +1,178 @@
+\documentclass{IOS-Book-Article}
+\usepackage{mathptmx}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\input{numbers}
+
+\begin{document}
+\begin{frontmatter}
+
+\title{Citation Under Pressure: What Deployment Constraints Do to Legal Citation Integrity, and What Deterministic Verification Can Repair}
+
+% TODO Hardy: confirm name, ORCID, department, corresponding-author line
+\author{\fnms{Harsh} \snm{Dubey}%
+\thanks{Corresponding Author: Harsh Dubey, New York University; harshdubeyjp@gmail.com.}}
+\runningauthor{H. Dubey}
+\address{New York University, New York, USA}
+
+\begin{abstract}
+Language models fabricate legal citations, and the failures that reach courtrooms have so far been studied mainly after the fact, through detection benchmarks and sanctions dockets. We study the production side. Six models spanning a capability ladder across six vendors, from 30B open-weight to frontier, each drafted merits-brief argument sections for 48 leakage-screened U.S. Supreme Court matters under five deployment conditions: an unpressured baseline, a citation quota, a restriction to pre-1970 authority, a Rule 11 sanctions warning, and all three combined. Every citation in the resulting \nDrafts{} drafts was adjudicated deterministically, with no language-model judge anywhere in the primary measurements: existence against an 18-million-row reporter database, quotation fidelity against a verbatim checker validated on seeded faults, and pinpoint pages against true star pagination recovered from freely available volume archives. Pressure dismantles citation integrity from the bottom of the ladder up. The 30B model loses fifteen points of citation existence under combined pressure (odds ratio \orCiteQwenCombo, $p<0.0001$, citation-level GEE clustered by matter), quotation fidelity degrades significantly at every tier except the highest, and models refused the task three times in \nDrafts{} pressured drafts. At the top of the ladder the sign reverses: under the full stack of constraints including the sanctions warning, the strongest model's quotation fidelity significantly improves. A second experiment placed the verifier inside the drafting loop. Repair is capability-gated, from no measurable improvement at 30B to near-perfect quotation fidelity at the top, and a scrambled-feedback control shows that false-positive verifier flags actively corrupt drafts at every tier, most severely for the models best at following feedback. What survives at frontier scale is not invented law: \sonnetParaphrasePct{} percent of the strongest model's inaccurate quotations are paraphrases of the correct case wearing quotation marks, and over a hundred are verbatim passages of real opinions attributed to the wrong authority. We release the instruments, including the first page-level pinpoint-citation verifier built entirely on public data.
+\end{abstract}
+
+\begin{keyword}
+legal citation\sep hallucination\sep large language models\sep verification\sep evaluation
+\end{keyword}
+\end{frontmatter}
+
+\section{Introduction}
+
+The public record of language models in legal practice is a record of citations that did not exist. Courts have sanctioned filings built on invented authority, and a growing measurement literature has responded with detection benchmarks: given a brief containing errors, how many can a model or agent find~\cite{liu2026whochecks,chen2026legalcitebench}. Detection is the right question for a court clerk. It is the wrong question for anyone deciding whether and how to deploy a drafting model, because it treats fabrication as a fixed property of text rather than a behavior with causes.
+
+This paper asks the production-side questions. First, what conditions cause citation failure? Practitioners do not prompt models in the abstract; they impose quotas, restrict the allowable authority, and raise the stakes. A controlled study of scholarly citations found that such constraints, temporal restrictions above all, collapse citation existence even in capable models~\cite{zhao2026deployment}. No comparable study existed for law, the domain where the failures carry professional sanctions. Second, when a verifier that can check citations deterministically is placed inside the drafting loop, does the model repair its drafts honestly, fail to repair them, or learn to satisfy the verifier while degrading something the verifier cannot see?
+
+Answering either question requires an instrument the field has said does not exist in public. Even the best published detection agent misses nearly half of incorrect pinpoint citations (52.8 percent recall, with open-weight detectors between 19 and 26 percent), and the benchmark's authors conclude that ``no models can reliably detect wrong pincites,'' attributing the difficulty to page-level information living only behind commercial databases~\cite{liu2026whochecks}. We built the missing instrument from public sources: citation existence and name pairing against a local database derived from CourtListener bulk data, verbatim quotation checking validated on seeded faults at 100 of 100 planted checks, and page-level pinpoint verification against star pagination recovered from the Caselaw Access Project's free volume archives~\cite{cap2024}. The instrument, not any language model, produces every primary number in this paper.
+
+Three findings organize the results, and together they yield a deployment prescription rather than only a diagnosis. Pressure breaks citation integrity from the bottom of the capability ladder up, channel by channel, and it does so silently: across \nDrafts{} pressured drafts there were three refusals. Verification inside the loop repairs only the models that least need it, and imprecise verification is worse than none, which makes verifier precision a hard requirement for any system that feeds automated citation checks back into drafting. And the failure that survives at frontier scale is misattribution rather than invention: real legal language bound to the wrong authority, and paraphrase presented as quotation, the error classes our released page-level and provenance instruments exist to catch.
+
+\section{Related Work}
+
+\textbf{Legal citation reliability.} Liu et al.~\cite{liu2026whochecks} construct a detection benchmark from real appellate briefs with injected errors grounded in a taxonomy of sanctioned filings; we adopt their five error categories as our outcome coding and measure, by elicitation rather than injection, the naturally occurring analogue their limitations section calls for. LegalCiteBench~\cite{chen2026legalcitebench} shows closed-book citation retrieval is near zero and that failing models almost never abstain, a pattern our pressure conditions reproduce in generation. Studies of hallucinated authority in deployed research tools established the stakes~\cite{dahl2024fictions,magesh2025hallucinationfree}.
+
+\textbf{Constraints and citation fabrication.} Zhao et al.~\cite{zhao2026deployment} is the closest design: five prompting regimes over scholarly claims, with fuzzy bibliographic matching as the verifier. We transplant their factorial skeleton to law and replace their probabilistic verification, which left 36 to 61 percent of citations unresolved, with deterministic adjudication that left 0.5 percent unresolved in our pilot. Their headline mechanism, compliance without substance under temporal restriction, transfers to law only partway down the ladder, a difference we measure.
+
+\textbf{Execution-grounded revision.} The loop experiment borrows its protocol shape from execution-feedback work in code generation~\cite{gehring2025rlef}, including the critical control: feedback whose form is preserved but whose content is uninformative, which separates the use of feedback content from the benefit of extra attempts.
+
+\textbf{Language-model judges.} Our negative result on relevance judging joins a literature documenting that agreement statistics overstate judge validity~\cite{norman2026reliability,zheng2023judging}. We add a calibration protocol with a pre-declared bar and report three failures against expert labels, at budget and frontier tiers.
+
+% JURIX-REQUIRED: AI & Law literature paragraph inserted here once the verified set arrives.
+\textbf{AI and law.} [AI-AND-LAW PARAGRAPH PENDING]
+
+\section{Tasks, Conditions, and Instruments}
+
+\textbf{Legal citations, briefly.} An American case citation such as \textit{Brown v. Board of Education}, 347 U.S. 483, 495 (1954) names the parties, then the volume (347), reporter series (U.S., the official Supreme Court reports), and first page (483) where the opinion is printed; the optional second page number (495) is the \textit{pincite}, pointing at the specific page that supports the writer's proposition. Quotations from opinions are expected to be verbatim, and \textit{star pagination} embeds the printed page boundaries in electronic text so a quotation can be located to its page. Rule 11 of the Federal Rules of Civil Procedure lets courts sanction attorneys for filings whose legal contentions are unwarranted, which is the rule invoked in the recent sanctions cases and in our stakes condition.
+
+\textbf{Matters.} Forty-eight U.S. Supreme Court cases from 1990 to 2020, drawn from a 500-case pool built from the Supreme Court Database~\cite{spaeth2025scdb}: each packet contains the question presented, party names, a factual summary, and an excerpt of the lower-court opinion, with the Supreme Court's own decision excluded and every packet screened for outcome leakage. The model argues an assigned side. Nothing in the design predicts case outcomes, which keeps the memorization confound that afflicts Supreme Court prediction tasks~\cite{ortega2025scotusmem} out of scope by construction.
+
+\textbf{Conditions.} Baseline; quota (``cite at least eight distinct case authorities''); temporal (``every authority you cite MUST have been decided before 1970''); stakes (the section will be filed, and miscited authority risks Rule 11 sanctions); and combo, the three stacked. One fixed template per condition, temperature 0. A robustness arm re-ran twelve matters under alternative phrasings of every condition.
+
+\textbf{Models.} Qwen3-30B-A3B, Mistral Small, Llama-4 Maverick, DeepSeek V4 Flash, GPT-5.4-mini, and Claude Sonnet 5, one per vendor, all through one API gateway. Selection follows the claims: the hypotheses concern how pressure effects and repair ability change with capability, so the set is a ladder from open-weight 30B to frontier, with every rung from a different vendor so that no family contributes two points. A seventh family (GLM-4.7-flash) could not complete the factorial and is reported separately in Section~4.
+
+\textbf{Adjudication.} Citations are extracted with eyecite~\cite{cushman2021eyecite} and adjudicated three ways, never two: exists, not found, or unverifiable, because coverage gaps masquerading as fabrication is the recurring flaw of prior pipelines. Existence and name pairing resolve against an 18-million-row citation table; quotations are located by balanced quotation marks, attributed to the case named nearest the quote with proximity as fallback, and checked verbatim against the cited opinion's text from a local-first chain of public sources. The quote instrument was validated by seeded faults before any measurement: across twenty synthetic drafts with planted genuine quotes, wrong-attribution quotes, single-word corruptions, fabrications, and formatting artifacts, it scored 100 of 100. Pinpoint pages are verified against star pagination parsed from the Caselaw Access Project's volumes, which give exact page spans and page-break positions for U.S. Reports. Vendor citations are excluded from fabrication counts by design.
+
+Formally, for draft $d$ the existence rate is the share of adjudicable citations that resolve, and the strict quotation rate is
+\begin{equation}
+S_d = \frac{n_{\text{accurate}}}{n_{\text{accurate}} + n_{\text{near-miss}} + n_{\text{inaccurate}}},
+\end{equation}
+where a quotation is near-miss when every fragment reaches token coverage of at least 0.85 against the opinion without matching verbatim. Close does not count, for models or for the human baseline.
+
+\textbf{Human reference.} The same instrument scored \humanExcerpts{} clean, pre-ChatGPT federal appellate brief excerpts from the benchmark of Liu et al. Human lawyers reach \humanStrict{} strict quotation accuracy (\humanScored{} scored quotations) and \humanExist{} citation existence under our oracle; the verbatim standard is severe for everyone, and all comparisons in this paper are within this one instrument. The frontier models sit at or just below this human level at rest, and the strongest reaches it only under the pressure condition that includes the sanctions warning.
+
+\textbf{Inference and pre-registration.} The primary analysis is a citation-level logistic generalized estimating equation per model, $\text{logit}\,P(y_{imk}=1)=\beta_0+\beta_k$ for citation $i$ in matter $m$ under condition $k$, with an exchangeable working correlation within matters~\cite{liang1986gee}, so that the 48 matters rather than the thousands of citations act as the independent units; a matter-level cluster bootstrap agreed on every cell. Hypotheses and decision rules were frozen before the full run; every later analysis decision, including two findings retracted by their own verification passes, is recorded in a forking-paths ledger shipped with the code.
+
+\section{Experiment 1: Pressure}
+
+Table~1 and Figure~1 report the definitive re-scored rates.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=\textwidth]{fig1_pressure.pdf}
+\caption{Strict quotation accuracy (left) and citation existence (right) by condition. The dotted line is the human-lawyer baseline under the identical instrument. Every quotation line except the top model's slopes downward under pressure; only the smallest model's existence moves at all.}
+\end{figure}
+
+\begin{table}[t]
+\caption{Baseline versus combined pressure. An asterisk marks a GEE contrast with $p<0.05$.}
+\centering
+\small
+\begin{tabular}{lccccc}
+\toprule
+Model & Quotes base & Quotes combo & Exist base & Exist combo & Temporal violations \\
+\midrule
+Qwen3-30B & \strictQwenBase & \strictQwenCombo\sigQuoteQwenCombo & \existQwenBase & \existQwenCombo\sigCiteQwenCombo & \violQwenTemporal\% \\
+Mistral Small & \strictMistralBase & \strictMistralCombo\sigQuoteMistralCombo & \existMistralBase & \existMistralCombo\sigCiteMistralCombo & \violMistralTemporal\% \\
+Llama-4 Maverick & \strictLlamaBase & \strictLlamaCombo\sigQuoteLlamaCombo & \existLlamaBase & \existLlamaCombo\sigCiteLlamaCombo & \violLlamaTemporal\% \\
+DeepSeek V4 Flash & \strictDeepseekBase & \strictDeepseekCombo\sigQuoteDeepseekCombo & \existDeepseekBase & \existDeepseekCombo\sigCiteDeepseekCombo & \violDeepseekTemporal\% \\
+GPT-5.4-mini & \strictGptBase & \strictGptCombo\sigQuoteGptCombo & \existGptBase & \existGptCombo\sigCiteGptCombo & \violGptTemporal\% \\
+Sonnet 5 & \strictSonnetBase & \strictSonnetCombo\sigQuoteSonnetCombo & \existSonnetBase & \existSonnetCombo\sigCiteSonnetCombo & \violSonnetTemporal\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Existence collapses only at the bottom.} The 30B model's citation existence falls from \existQwenBase{} at baseline to \existQwenCombo{} under combo, and every one of its four pressure contrasts is significant (combo OR \orCiteQwenCombo, $p<0.0001$). Every larger model holds existence between 0.94 and 1.00 in every cell, with no significant negative contrast anywhere.
+
+\textbf{Quotation fidelity is pressure-sensitive at every tier except the highest.} Strict accuracy under temporal and combo falls significantly for the 30B model (\strictQwenBase{} to \strictQwenCombo), Llama-4 (\strictLlamaBase{} to \strictLlamaCombo), DeepSeek (\strictDeepseekBase{} to \strictDeepseekCombo), and GPT-5.4-mini (\strictGptBase{} to \strictGptCombo), with odds ratios between 0.20 and 0.61. Llama-4 is the most deployment-relevant row: it quotes at essentially the human-lawyer level at rest and becomes a serial misquoter the moment constraints are added.
+
+\textbf{At the top, the sign reverses.} Under combo, the condition stacking the quota, the temporal restriction, and the sanctions warning, Sonnet 5's quotation fidelity is its best cell, \strictSonnetCombo{} against a \strictSonnetBase{} baseline, significant on both channels (quotes OR \orQuoteSonnetCombo, $p=\pQuoteSonnetCombo$; existence OR \orCiteSonnetCombo, $p=\pCiteSonnetCombo$). The warning that degrades or fails to move every other model appears to induce care in the one model with the capability to be careful. The paraphrase arm reproduces the direction.
+
+\textbf{Compliance broadly follows the ladder, with one exception.} The temporal restriction is violated in roughly \violQwenTemporal{} percent of checked citations at 30B, 7 to 13 percent at most middle tiers, and once in 802 at the top; Mistral Small is the outlier at \violMistralTemporal{} percent, a reminder that compliance and quotation fidelity are related but distinct capabilities.
+
+\textbf{Almost no one abstains, and one model goes silent instead.} Across all \nDrafts{} pressured drafts there were three refusals; degradation is otherwise silent, consistent with the misleading-answer rates LegalCiteBench reports closed-book. A seventh family we attempted, GLM-4.7-flash, exhibited a different failure entirely: on most combined-pressure drafts it reasoned until a 30,000-token budget was exhausted without emitting one word of output, in two escalating budget attempts. It is excluded from the tables because its missingness concentrates in exactly the cells under comparison, and reported here as a failure mode the taxonomy should contain: under stacked constraints, some models neither fabricate nor refuse but stall.
+
+\section{Experiment 2: The Verifier in the Loop}
+
+Combined-pressure drafts entered a revision loop: each round, the deterministic checker returned one structured line per failure (a citation that does not resolve; a quotation that does not appear verbatim in the cited opinion), the model revised, and the loop ended on a clean draft or after three revisions. The control arm received the same number of identically formatted lines pointed at items that were in fact correct.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig2_repair.pdf}
+\caption{Strict quotation accuracy from round 0 to the final draft under true feedback (solid) and scrambled feedback (dashed). Solid lines rise with capability; every dashed line falls.}
+\end{figure}
+
+\begin{table}[t]
+\caption{The repair experiment: strict quotation accuracy, round 0 to final, and episodes converging under true feedback (of 24).}
+\centering
+\small
+\begin{tabular}{lccc}
+\toprule
+Model & True feedback & Scrambled feedback & Converged \\
+\midrule
+Qwen3-30B & \loopQwenTrueStart{} to \loopQwenTrueFinal & \loopQwenScrStart{} to \loopQwenScrFinal & \convQwenTrue \\
+Mistral Small & \loopMistralTrueStart{} to \loopMistralTrueFinal & \loopMistralScrStart{} to \loopMistralScrFinal & \convMistralTrue \\
+Llama-4 Maverick & \loopLlamaTrueStart{} to \loopLlamaTrueFinal & \loopLlamaScrStart{} to \loopLlamaScrFinal & \convLlamaTrue \\
+DeepSeek V4 Flash & \loopDeepseekTrueStart{} to \loopDeepseekTrueFinal & \loopDeepseekScrStart{} to \loopDeepseekScrFinal & \convDeepseekTrue \\
+GPT-5.4-mini & \loopGptTrueStart{} to \loopGptTrueFinal & \loopGptScrStart{} to \loopGptScrFinal & \convGptTrue \\
+Sonnet 5 & \loopSonnetTrueStart{} to \loopSonnetTrueFinal & \loopSonnetScrStart{} to \loopSonnetScrFinal & \convSonnetTrue \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\textbf{Repair is capability-gated.} Final strict quotation accuracy under true feedback climbs the ladder monotonically, from \loopQwenTrueFinal{} at the bottom rung to \loopSonnetTrueFinal{} at the top, with Sonnet 5 converging in \convSonnetTrue{} of 24 episodes in a mean of 2.6 rounds and the bottom rung never converging at all. Citation existence repairs more easily than quotation at every tier; the 30B model can replace a fabricated citation when told which one it is, but cannot fix its quoting.
+
+\textbf{Imprecise verification is worse than none.} Under scrambled feedback all six models got worse, and the strongest models degraded most: Sonnet 5 fell from \loopSonnetScrStart{} to \loopSonnetScrFinal, GPT-5.4-mini from \loopGptScrStart{} to \loopGptScrFinal. Told that a correct quotation is wrong, a capable model dutifully rewrites it into something wrong. The models best at using feedback are the most damaged by false feedback, which makes verifier precision, not just recall, a deployment requirement. Our own instrument's false-alarm audit found 6 to 15 spurious inaccuracy verdicts per model across all drafts, each traceable to partial opinion text.
+
+Together the two experiments frame an uncomfortable complementarity: the tier where fabrication lives cannot use the verifier's help, and the tier that can use it barely needed it. Verification in the loop is a frontier amenity, not a safety net for the cheap models deployed at volume.
+
+\section{What Survives at Scale}
+
+Three failure modes remain when existence is essentially solved, each measured deterministically.
+
+\textbf{Paraphrase wearing quotation marks.} Decomposing every frontier inaccurate quotation against the cited case's own text: \sonnetParaphrasePct{} percent of Sonnet 5's (\sonnetParaphrase{} of them) are recognizable paraphrases of the correct case presented as verbatim quotation, \sonnetFabricated{} match nothing substantial in the cited opinion, and \sonnetOutOfScope{} cite authority outside the corpus's scope. The dominant frontier sin is not inventing law; it is putting quotation marks around a summary.
+
+\textbf{Right words, wrong case.} Searching every inaccurate quotation against a segmented corpus of Supreme Court opinions yields, per model in ladder order, 66, 120, 66, and 114 quotations for the four originally measured models whose distinctive language appears verbatim in a different case than the one cited. The models know the words of the law better than they know which case said them. A screen for a more exotic possibility, models quoting the argued case's own later-decided opinion from memory, did not survive its own audit: of 41 candidates, 32 were record or statute text present in the prompt, and the packet-absent remainder proved to be famous doctrinal formulas that the argued opinions were themselves quoting from precedent. We report this retraction because the screen that killed the finding is the same one that establishes the others.
+
+\textbf{Right case, wrong page.} Where a pinpoint page and a quotation co-occur on a star-paginated authority, the quotation actually sits on the cited page \pinAtSonnet{} percent of the time for Sonnet 5 and between 51 and 58 percent for the other originally measured models, while pins almost never fall outside the case entirely (13 of roughly 4,000). This is exhaustive measurement, on public data, of the error class detection agents handle worst.
+
+\section{The Jury That Could Not Be Seated}
+
+One question resists deterministic checking: whether a real, correctly quoted case supports the proposition it is cited for. We attempted to calibrate a language-model panel against the expert-labeled content-misrepresentation items of Liu et al., with a pre-declared bar of 0.75 accuracy on decisive verdicts. A three-family budget panel judged binary support at 0.500, rejecting everything. Reframed with a three-way verdict and abstention, the same panel scored 0.700, accepting nearly everything, with misrepresentation recall of 2 of 11. A frontier panel of GPT-5.4, Sonnet 5, and Gemini 2.5 Pro with 15,000-character grounded excerpts scored 0.594, recall 4 of 17. No measurement verdict from any failed panel was interpreted. We report the three failures as a result: on the one channel that requires judgment rather than lookup, no jury we could assemble met a modest validity bar. In legal citation integrity, the layer you can trust is the layer you can verify deterministically.
+
+\section{Discussion}
+
+The results reorganize the safety question around capability rather than around models in general. ``Do language models fabricate legal citations under pressure'' has no single answer; it has a gradient, and the gradient runs opposite to deployment reality, since cost pushes production systems toward exactly the tier where a citation quota and a hard authority restriction triple the odds of fabrication. The finding that the sanctions warning improves the strongest model while doing nothing or worse below it suggests that stakes framing is not a safety lever but a capability amplifier, and it should not be relied on where it is needed most.
+
+The loop results carry the paper's prescriptions. First, deterministic citation verification belongs inside the drafting loop for frontier-tier deployments: it is cheap to build from public data, it repairs drafts almost completely in under three rounds, and its measured false-alarm rate is low enough not to trigger the corruption effect. Second, probabilistic detectors do not inherit that license: an imprecise verifier is actively destructive in proportion to the target model's obedience, so any system feeding a hallucination detector's output back into revision should measure its false-positive cost before shipping. Third, below the capability floor the loop is not a safety mechanism, and deployments at that tier need the verifier as a hard output gate rather than as feedback, because the model cannot act on the feedback. Fourth, stakes warnings are not a portable safeguard.
+
+Finally, the decompositions relocate the frontier problem. Once fabrication is gone, what remains is a binding failure between language and source: paraphrase presented as quotation, doctrine attributed to the wrong case, quotations pinned to the wrong page. These errors survive because they are invisible to existence checks and to readers who recognize the words. They are exactly the errors our instrument stack was built to see, and all three verifiers run on public data.
+
+\section{Limitations}
+
+Single domain and single task: U.S. Supreme Court merits argument, one packet format, one fixed template per condition with a phrasing-robustness subsample rather than a full paraphrase factorial. The quote instrument's strict standard fails bracketed alterations and ellipses for humans and models alike; we therefore anchor to a human baseline under the same standard rather than to an absolute notion of accuracy. The provenance corpus covers 8,392 Supreme Court opinions and cannot adjudicate quotations from other courts, which we label out of scope rather than fabricated. The relevance channel is unmeasured, bounded by three documented calibration failures. Inference is per-model at 48 matters, which are the independent units the clustering respects; effects of a few points would not be detectable. The capability ladder confounds scale, family, and training recipe, as any six-model ladder must.
+
+\section{Ethics and Release}
+
+All source material is public court data. Drafts were generated for measurement, are marked as machine output, and none was filed anywhere. We release the instrument stack, the seeded-fault validation harness, the forking-paths ledger, and per-citation records sufficient to reproduce every table. Language-model assistance was used in drafting code and prose for this work under the authors' direction, and every reported number is produced by the released deterministic instruments rather than by any model.
+
+\bibliographystyle{vancouver}
+\bibliography{references}
+
+\end{document}
