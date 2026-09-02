@@ -1,0 +1,157 @@
+1992-109:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.593
+2009-045:none            rounds=4 conv=False strict 0.667->0.6 exist 1.0->1.0 cost=$0.728
+1997-046:none            rounds=3 conv=True strict 0.0->None exist 0.9474->1.0 cost=$0.745
+2020-032:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.745
+2015-055:none            rounds=3 conv=True strict 0.0->None exist 1.0->None cost=$0.755
+2013-058:none            rounds=3 conv=True strict 1.0->None exist 0.8->1.0 cost=$0.775
+done: 6 episodes, $0.775
+2014-024:none            rounds=4 conv=False strict 0.25->0.0 exist 1.0->0.8462 cost=$0.399
+Traceback (most recent call last):
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 230, in <module>
+    main()
+  File "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src/loop_arm.py", line 198, in main
+    draft = client.chat(
+            ^^^^^^^^^^^^
+  File "/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution/src/runtime/llm_client.py", line 193, in chat
+    raise RuntimeError(f"{self.name}: empty completion (tag={tag})")
+RuntimeError: loop-deepseek: empty completion (tag=r1:1990-075:none)
+2012-006:none            rounds=3 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$0.643
+1998-026:none            rounds=2 conv=True strict 0.0->None exist 0.9286->1.0 cost=$0.659
+1997-100:none            rounds=4 conv=True strict 0.25->None exist 1.0->1.0 cost=$0.691
+2000-071:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.794
+2012-029:none            rounds=4 conv=False strict 0.6->0.75 exist 1.0->1.0 cost=$0.834
+1999-051:none            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.847
+done: 6 episodes, $0.847
+2014-024:none            rounds=4 conv=False strict 0.0->0.0 exist 0.6923->0.6923 cost=$0.100
+1990-075:none            rounds=4 conv=False strict 0.2->0.167 exist 0.7143->0.7143 cost=$0.105
+1997-033:none            rounds=4 conv=False strict 0.111->0.111 exist 0.6667->0.6667 cost=$0.112
+1998-085:none            rounds=4 conv=False strict 0.0->0.0 exist 0.875->0.8571 cost=$0.117
+1997-021:none            rounds=4 conv=False strict 0.571->0.571 exist 0.7778->0.7778 cost=$0.121
+2005-087:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9286->1.0 cost=$0.123
+done: 6 episodes, $0.123
+2012-006:none            rounds=4 conv=False strict None->0.0 exist 0.9091->0.9091 cost=$0.204
+1998-026:none            rounds=4 conv=False strict 0.111->None exist 0.8667->0.9091 cost=$0.214
+1997-100:none            rounds=3 conv=True strict 1.0->1.0 exist 0.875->1.0 cost=$0.220
+2000-071:none            rounds=4 conv=False strict 0.048->0.261 exist 1.0->1.0 cost=$0.224
+2012-029:none            rounds=4 conv=False strict 0.5->0.5 exist 1.0->1.0 cost=$0.230
+1999-051:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.238
+done: 6 episodes, $0.238
+2014-024:none            rounds=2 conv=True strict 0.75->1.0 exist 1.0->1.0 cost=$0.632
+1990-075:none            rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.698
+1997-033:none            rounds=4 conv=False strict 0.5->0.75 exist 0.9333->0.9286 cost=$0.847
+1998-085:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.871
+1997-021:none            rounds=4 conv=False strict 0.333->None exist 0.8->0.8235 cost=$0.900
+2005-087:none            rounds=4 conv=False strict 0.5->0.5 exist 1.0->1.0 cost=$0.917
+done: 6 episodes, $0.917
+2012-031:none            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$8.935
+2011-010:none            rounds=4 conv=False strict 0.6->0.667 exist 1.0->1.0 cost=$9.545
+2005-074:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$9.545
+2001-013:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$10.037
+1992-086:none            rounds=4 conv=False strict 0.5->0.857 exist 1.0->1.0 cost=$10.730
+2010-046:none            rounds=4 conv=False strict 0.625->0.667 exist 1.0->1.0 cost=$11.425
+done: 6 episodes, $11.425
+2012-006:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.184
+1998-026:none            rounds=4 conv=False strict None->None exist 0.7778->0.75 cost=$0.197
+1997-100:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.206
+2000-071:none            rounds=4 conv=False strict 0.0->None exist 0.8667->0.875 cost=$0.230
+2012-029:none            rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.241
+1999-051:none            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.241
+done: 6 episodes, $0.241
+2012-006:none            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$8.881
+1998-026:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$8.881
+1997-100:none            rounds=4 conv=False strict 0.5->0.4 exist 1.0->1.0 cost=$9.606
+2000-071:none            rounds=4 conv=False strict 0.583->0.8 exist 1.0->1.0 cost=$10.422
+2012-029:none            rounds=4 conv=False strict 0.5->0.5 exist 1.0->1.0 cost=$10.958
+1999-051:none            rounds=4 conv=False strict 0.333->0.125 exist 1.0->1.0 cost=$11.467
+done: 6 episodes, $11.467
+2012-031:none            rounds=4 conv=False strict None->None exist 0.8095->0.8125 cost=$0.665
+2011-010:none            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->0.8571 cost=$0.781
+2005-074:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9375->1.0 cost=$0.917
+2001-013:none            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.924
+1992-086:none            rounds=2 conv=True strict 0.5->None exist 1.0->1.0 cost=$0.934
+2010-046:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.934
+done: 6 episodes, $0.934
+1992-109:none            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.170
+2009-045:none            rounds=4 conv=False strict 0.0->0.0 exist 0.75->0.8333 cost=$0.189
+1997-046:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.207
+2020-032:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.218
+2015-055:none            rounds=3 conv=True strict 0.4->None exist 1.0->1.0 cost=$0.237
+2013-058:none            rounds=4 conv=False strict 0.0->0.0 exist 0.7778->0.875 cost=$0.247
+done: 6 episodes, $0.247
+1992-109:none            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->1.0 cost=$0.099
+2009-045:none            rounds=4 conv=False strict 0.1->0.1 exist 0.9167->0.9167 cost=$0.108
+1997-046:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.114
+2020-032:none            rounds=4 conv=False strict 0.0->0.0 exist 0.875->0.875 cost=$0.122
+2015-055:none            rounds=4 conv=False strict 0.0->0.0 exist 0.6667->0.6923 cost=$0.127
+2013-058:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.134
+done: 6 episodes, $0.134
+2012-006:none            rounds=4 conv=False strict 0.5->0.0 exist 0.6667->0.6667 cost=$0.101
+1998-026:none            rounds=4 conv=False strict None->None exist 0.0->0.0 cost=$0.107
+1997-100:none            rounds=4 conv=False strict 0.286->0.286 exist 0.5714->0.5714 cost=$0.113
+2000-071:none            rounds=4 conv=False strict 0.091->0.083 exist 0.8889->0.8889 cost=$0.124
+2012-029:none            rounds=4 conv=False strict 0.0->0.0 exist 0.5->0.5714 cost=$0.130
+1999-051:none            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->0.8571 cost=$0.135
+done: 6 episodes, $0.135
+1992-109:none            rounds=4 conv=False strict 0.3->0.667 exist 1.0->1.0 cost=$9.726
+2009-045:none            rounds=2 conv=True strict 0.667->1.0 exist 1.0->1.0 cost=$9.990
+1997-046:none            rounds=4 conv=False strict 0.5->0.6 exist 1.0->1.0 cost=$10.473
+2020-032:none            rounds=3 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$11.027
+2015-055:none            rounds=4 conv=False strict 0.778->0.714 exist 1.0->1.0 cost=$11.635
+2013-058:none            rounds=4 conv=False strict 0.2->0.25 exist 1.0->1.0 cost=$11.902
+done: 6 episodes, $11.902
+2012-031:none            rounds=4 conv=False strict 0.0->0.0 exist 0.8333->0.8571 cost=$0.183
+2011-010:none            rounds=4 conv=False strict 0.154->0.143 exist 0.9333->0.9333 cost=$0.241
+2005-074:none            rounds=4 conv=False strict 0.333->0.25 exist 0.4444->0.4444 cost=$0.250
+2001-013:none            rounds=4 conv=False strict 0.0->0.0 exist 0.625->0.625 cost=$0.255
+1992-086:none            rounds=4 conv=False strict 0.125->0.125 exist 0.9167->0.9167 cost=$0.260
+2010-046:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9091->0.9 cost=$0.264
+done: 6 episodes, $0.264
+2014-024:none            rounds=4 conv=False strict 0.2->0.5 exist 1.0->1.0 cost=$9.476
+1990-075:none            rounds=4 conv=False strict 0.4->0.222 exist 1.0->1.0 cost=$10.106
+1997-033:none            rounds=4 conv=False strict 0.4->0.636 exist 1.0->1.0 cost=$10.855
+1998-085:none            rounds=4 conv=False strict 0.5->0.333 exist 1.0->1.0 cost=$11.364
+1997-021:none            rounds=4 conv=False strict 0.167->0.25 exist 1.0->1.0 cost=$11.786
+2005-087:none            rounds=4 conv=False strict 0.222->0.1 exist 1.0->1.0 cost=$11.977
+done: 6 episodes, $11.977
+1992-109:none            rounds=4 conv=False strict 0.6->0.5 exist 1.0->1.0 cost=$0.400
+2009-045:none            rounds=4 conv=False strict 0.062->0.067 exist 0.9167->1.0 cost=$0.414
+1997-046:none            rounds=4 conv=False strict 0.4->0.25 exist 1.0->1.0 cost=$0.420
+2020-032:none            rounds=4 conv=False strict 0.0->0.125 exist 1.0->1.0 cost=$0.429
+2015-055:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.438
+2013-058:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9->0.9 cost=$0.443
+done: 6 episodes, $0.443
+1992-109:none            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.172
+2009-045:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.172
+1997-046:none            rounds=4 conv=False strict 0.167->0.167 exist 1.0->1.0 cost=$0.195
+2020-032:none            rounds=4 conv=False strict None->0.0 exist 0.9231->0.9 cost=$0.201
+2015-055:none            rounds=4 conv=False strict 0.2->0.2 exist 0.8889->0.8889 cost=$0.204
+2013-058:none            rounds=4 conv=False strict 0.0->0.0 exist 0.7647->0.7647 cost=$0.271
+done: 6 episodes, $0.271
+2012-031:none            rounds=4 conv=False strict 0.0->0.0 exist 0.6667->0.6667 cost=$0.100
+2011-010:none            rounds=4 conv=False strict 0.3->0.273 exist 1.0->1.0 cost=$0.117
+2005-074:none            rounds=4 conv=False strict 0.0->0.0 exist 0.3->0.3 cost=$0.130
+2001-013:none            rounds=4 conv=False strict 0.0->0.0 exist 0.4286->0.4286 cost=$0.134
+1992-086:none            rounds=4 conv=False strict 0.062->0.062 exist 0.8889->0.8889 cost=$0.137
+2010-046:none            rounds=4 conv=False strict 0.083->0.0 exist 1.0->1.0 cost=$0.139
+done: 6 episodes, $0.139
+2014-024:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.190
+1990-075:none            rounds=4 conv=False strict 0.5->0.5 exist 0.9->0.9 cost=$0.196
+1997-033:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9444->0.9444 cost=$0.241
+1998-085:none            rounds=4 conv=False strict 0.0->0.0 exist 0.6364->0.6364 cost=$0.251
+1997-021:none            rounds=4 conv=False strict 0.0->0.0 exist 0.8333->0.8333 cost=$0.272
+2005-087:none            rounds=4 conv=False strict 0.25->0.2 exist 0.8333->0.8333 cost=$0.274
+done: 6 episodes, $0.274
+2014-024:none            rounds=4 conv=False strict None->None exist 0.9091->0.9 cost=$0.186
+1990-075:none            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.186
+1997-033:none            rounds=4 conv=False strict 0.4->0.0 exist 1.0->1.0 cost=$0.198
+1998-085:none            rounds=4 conv=False strict 0.25->0.25 exist 0.7273->0.8571 cost=$0.250
+1997-021:none            rounds=4 conv=False strict 0.0->0.0 exist 0.6429->0.7 cost=$0.259
+2005-087:none            rounds=4 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.268
+done: 6 episodes, $0.268
+2012-031:none            rounds=4 conv=False strict 0.231->0.111 exist 1.0->1.0 cost=$0.396
+2011-010:none            rounds=4 conv=False strict 0.214->0.182 exist 1.0->1.0 cost=$0.406
+2005-074:none            rounds=4 conv=False strict 0.0->0.083 exist 0.8889->0.8889 cost=$0.431
+2001-013:none            rounds=4 conv=False strict 0.0->0.0 exist 0.9->0.9 cost=$0.444
+1992-086:none            rounds=4 conv=False strict 0.25->0.25 exist 1.0->1.0 cost=$0.447
+2010-046:none            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.451
+done: 6 episodes, $0.451

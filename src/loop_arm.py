@@ -41,6 +41,7 @@ import quotecheck2 as q2  # noqa: E402
 
 N_MATTERS = 24
 MAX_ROUNDS = 3
+ARMS = ("true", "scrambled")
 LOOP_BUDGET = {"qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 8.0,
                "sonnet": 15.0, "llama4mav": 3.0, "glm47flash": 3.0, "mistralsmall": 3.0}
 
@@ -60,6 +61,11 @@ FB_HEAD = (
     "full argument section, correcting ONLY these problems while "
     "preserving your argument:\n"
 )
+# no-feedback control: same number of revision rounds, no verifier content
+FB_NONE = (
+    "Please revise the full argument section, improving it as you see fit "
+    "while preserving your argument."
+)
 
 
 def score(text, checker, qchk_store):
@@ -78,6 +84,8 @@ def feedback_lines(recs, qres, arm, rng):
             true_lines.append(
                 FB_QUOTE.format(q=r["quote"][:60], c=r["citation"])
             )
+    if arm == "none":
+        return ["__NONE__"] if true_lines else []
     if arm == "true" or not true_lines:
         return true_lines
     # scrambled: same count, templates aimed at VERIFIED items
@@ -116,7 +124,10 @@ def main():
     ap.add_argument("--n-matters", type=int, default=N_MATTERS)
     ap.add_argument("--slice", default=None,
                     help="a:b matter-index range for parallel workers")
+    ap.add_argument("--arms", default="true,scrambled")
     args = ap.parse_args()
+    global ARMS
+    ARMS = tuple(args.arms.split(","))
 
     run_dir = HERE / "results" / f"loop_{args.model}"
     run_dir.mkdir(parents=True, exist_ok=True)
@@ -151,7 +162,7 @@ def main():
             )
             view = case_view(packet)
             side = "petitioner" if mi % 2 == 0 else "respondent"
-            for arm in ("true", "scrambled"):
+            for arm in ARMS:
                 if state.should_stop():
                     print("pause requested")
                     return
@@ -178,11 +189,11 @@ def main():
                         break
                     if rnd == MAX_ROUNDS or not lines:
                         break
+                    fb = FB_NONE if lines == ["__NONE__"] else (
+                        FB_HEAD + "\n".join(f"- {ln}" for ln in lines))
                     messages = messages + [
                         {"role": "assistant", "content": draft},
-                        {"role": "user",
-                         "content": FB_HEAD + "\n".join(
-                             f"- {ln}" for ln in lines)},
+                        {"role": "user", "content": fb},
                     ]
                     draft = client.chat(
                         messages, temperature=0.0,

@@ -1,14 +1,4 @@
 {
- "qwen30b": {
-  "no_pin": 904,
-  "non_us": 288,
-  "pin_in_span": 672,
-  "pin_out_of_span": 7,
-  "no_cap_data": 97,
-  "quote_at_pin": 46,
-  "quote_near_pin": 5,
-  "quote_not_at_pin": 28
- },
  "deepseek": {
   "no_pin": 368,
   "non_us": 415,
@@ -28,6 +18,36 @@
   "quote_at_pin": 93,
   "quote_near_pin": 33,
   "quote_not_at_pin": 56
+ },
+ "llama4mav": {
+  "no_pin": 882,
+  "non_us": 323,
+  "pin_in_span": 464,
+  "pin_out_of_span": 1,
+  "no_cap_data": 1,
+  "quote_at_pin": 35,
+  "quote_near_pin": 5,
+  "quote_not_at_pin": 15
+ },
+ "mistralsmall": {
+  "no_pin": 533,
+  "non_us": 523,
+  "pin_in_span": 1046,
+  "pin_out_of_span": 12,
+  "no_cap_data": 45,
+  "quote_at_pin": 57,
+  "quote_near_pin": 18,
+  "quote_not_at_pin": 62
+ },
+ "qwen30b": {
+  "no_pin": 904,
+  "non_us": 288,
+  "pin_in_span": 672,
+  "pin_out_of_span": 7,
+  "no_cap_data": 97,
+  "quote_at_pin": 46,
+  "quote_near_pin": 5,
+  "quote_not_at_pin": 28
  },
  "sonnet": {
   "no_pin": 1060,

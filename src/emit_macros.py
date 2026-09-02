@@ -81,3 +81,101 @@ emit("sonnetParaphrasePct",
 OUT.parent.mkdir(parents=True, exist_ok=True)
 OUT.write_text("\n".join(lines) + "\n")
 print(f"{len(lines) - 1} macros -> {OUT}")
+
+# ---- revision additions (all optional: skip if the artifact is absent) ----
+extra = []
+
+
+def emit2(name, value):
+    extra.append(f"\\newcommand{{\\{name}}}{{{value}}}")
+
+
+rs_path = R / "revision_stats.json"
+if rs_path.exists():
+    rs = json.loads(rs_path.read_text())
+    emit2("nPressured", f"{rs['n_pressured_drafts']:,}")
+    emit2("nHolmTests", str(next(iter(rs["holm"].values()))["n_tests"]))
+    emit2("humanLenient", f"{rs['human_lenient']:.3f}")
+    emit2("humanNearMissShare", f"{100 * rs['human_near_miss_share']:.0f}")
+    for key, v in rs["holm"].items():
+        kind, m, c = key.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            kk = "Cite" if kind == "citation" else "Quote"
+            emit2(f"holm{kk}{mk}{CONDS[c]}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "<0.001")
+    for cell, v in rs["cells"].items():
+        m, c = cell.split(":")
+        mk = ALPHA.get(m)
+        if mk and v.get("lenient") is not None:
+            emit2(f"lenient{mk}{CONDS[c]}", f"{v['lenient']:.3f}")
+    for key, v in rs["loop_counts"].items():
+        m, arm = key.split(":")
+        mk = ALPHA.get(m)
+        ak = {"true": "True", "scrambled": "Scr", "none": "None"}.get(arm)
+        if mk and ak:
+            emit2(f"lqScored{mk}{ak}Start", str(v["quotes_scored_r0"]))
+            emit2(f"lqScored{mk}{ak}Final", str(v["quotes_scored_final"]))
+            emit2(f"lqAcc{mk}{ak}Start", str(v["accurate_r0"]))
+            emit2(f"lqAcc{mk}{ak}Final", str(v["accurate_final"]))
+            emit2(f"lCites{mk}{ak}Start", str(v["cites_r0"]))
+            emit2(f"lCites{mk}{ak}Final", str(v["cites_final"]))
+    for key, v in rs["memorization"].items():
+        m, c = key.split(":")
+        mk = ALPHA.get(m)
+        if mk and v["canonical_share"] is not None:
+            emit2(f"canon{mk}{CONDS[c]}", f"{100 * v['canonical_share']:.0f}")
+    raw = rs["raw_counts"]
+    for m, mk in ALPHA.items():
+        for c, ck in CONDS.items():
+            d = raw.get(f"{m}:{c}:citation", {})
+            emit2(f"nf{mk}{ck}", str(d.get("not_found", 0)))
+            emit2(f"ex{mk}{ck}", str(d.get("exists", 0)))
+
+pp = R / "paraphrase_comparison.json"
+if pp.exists():
+    para = json.loads(pp.read_text())
+    for m, mk in ALPHA.items():
+        if m in para:
+            for which, wk in (("original", "Orig"), ("paraphrase", "Para")):
+                c = para[m][which].get("combo", {})
+                if c.get("exist") is not None:
+                    emit2(f"para{wk}Exist{mk}Combo", fmt3(c["exist"]))
+                if c.get("strict") is not None:
+                    emit2(f"para{wk}Strict{mk}Combo", fmt3(c["strict"]))
+
+gl = R / "full_glm47flash" / "drafts"
+if gl.exists():
+    emit2("glmDrafts", str(len(list(gl.glob("*.txt")))))
+
+dc = R / "notincorpus_decomposition.json"
+if dc.exists():
+    d = json.loads(dc.read_text())
+    for m, mk in ALPHA.items():
+        if m in d:
+            x = d[m]
+            tot = x["paraphrase_in_quotes"] + x["fabricated_language"] + x["out_of_scope_non_us"]
+            emit2(f"decompPara{mk}", str(x["paraphrase_in_quotes"]))
+            emit2(f"decompFab{mk}", str(x["fabricated_language"]))
+            emit2(f"decompOut{mk}", str(x["out_of_scope_non_us"]))
+            if tot:
+                emit2(f"decompParaPct{mk}", f"{100 * x['paraphrase_in_quotes'] / tot:.0f}")
+
+pr = R / "provenance_report.md"
+if pr.exists():
+    import re as _re
+    from collections import Counter as _C
+    cnt = _C()
+    for line in open(pr):
+        m_ = _re.match(r"- \*\*(\w+)\*\* \| (\w+) ", line)
+        if m_:
+            cnt[(m_.group(2), m_.group(1))] += 1
+    for m, mk in ALPHA.items():
+        if any(k[0] == m for k in cnt):
+            emit2(f"misattr{mk}", str(cnt[(m, "misattributed")]))
+            emit2(f"falseAlarm{mk}", str(cnt[(m, "found_in_attributed")]))
+            emit2(f"notInCorpus{mk}", str(cnt[(m, "not_in_scotus_corpus")]))
+    emit2("misattrTotal", str(sum(v for k, v in cnt.items() if k[1] == "misattributed")))
+
+with open(OUT, "a") as fh:
+    fh.write("\n".join(extra) + "\n")
+print(f"+{len(extra)} revision macros")
