@@ -45,8 +45,7 @@ Three findings organize the results, and together they yield a deployment prescr
 
 \textbf{Language-model judges.} Our negative result on relevance judging joins a literature documenting that agreement statistics overstate judge validity~\cite{norman2026reliability,zheng2023judging}. We add a calibration protocol with a pre-declared bar and report three failures against expert labels, at budget and frontier tiers.
 
-% JURIX-REQUIRED: AI & Law literature paragraph inserted here once the verified set arrives.
-\textbf{AI and law.} [AI-AND-LAW PARAGRAPH PENDING]
+\textbf{Legal AI reliability in the AI and law community.} The instability of language-model legal answers is documented at ICAIL~\cite{blairstanek2025unstable,blairstanek2023gpt3}, and the AI and Law journal has reported hallucinations and inconsistencies when models summarize judgments~\cite{deroy2025summarization}, draft filings~\cite{trozze2025crypto}, and sit exams~\cite{martinez2025barexam}. The community's evaluation frameworks separate factual truth from reasoning soundness~\cite{gultekin2025twodim} and argue that automated metrics must be paired with what lawyers actually check~\cite{sanchi2024hybrid,pires2025legalwriting}; our instrument is the automatable slice of that checklist, applied to the one property, citation integrity, where a deterministic ground truth exists. Mitigation work at JURIX has pursued constrained retrieval~\cite{nguyen2024consrag} and domain-specific research systems~\cite{surani2025stara}, and the tendency of models to miss overruled precedent~\cite{zhang2025overruled} is a failure class adjacent to the ones we measure. Closest to our pincite instrument, Garneau et al.~\cite{garneau2024pincites} show paragraph-level citation retrieval is far harder than case-level retrieval, exactly the gap our page-level verifier closes from the other side; citation-worthiness detection on the Caselaw Access Project~\cite{khatri2023citecaselaw}, argument generation grounded in case factors~\cite{gray2025magnitudes,fournier2024structured}, and computational argumentation over Supreme Court briefs~\cite{zheng2025scotusbriefs} are the assistive-writing neighbors. The citation-graph lineage in the journal~\cite{sadeghian2018edgelabeling,dadgostari2021lawsearch,mumford2025citationnetworks} treats citations as typed, checkable claims, which is the stance this paper operationalizes at generation time. Finally, lawyers rate identical documents lower when told a model wrote them~\cite{harasta2026cannotberight}; machine-verifiable integrity, rather than perceived provenance, is the route to trust this work proposes.
 
 \section{Tasks, Conditions, and Instruments}
 
@@ -173,6 +172,6 @@ Single domain and single task: U.S. Supreme Court merits argument, one packet fo
 All source material is public court data. Drafts were generated for measurement, are marked as machine output, and none was filed anywhere. We release the instrument stack, the seeded-fault validation harness, the forking-paths ledger, and per-citation records sufficient to reproduce every table. Language-model assistance was used in drafting code and prose for this work under the authors' direction, and every reported number is produced by the released deterministic instruments rather than by any model.
 
 \bibliographystyle{vancouver}
-\bibliography{references}
+\bibliography{references,ailaw}
 
 \end{document}
