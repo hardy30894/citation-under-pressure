@@ -308,3 +308,15 @@ before or after seeing the relevant data. Nothing is deleted.
   first two lines had been leaving five lines empty at the foot of
   page 8; cutting five lines before Section 6 recovered ten. Appellate
   arm total $17.22; project $119.91.
+- 2026-09-03 (appellate lens, second pass, 7 items applied): reporter
+  mix now filtered to the 48 manifest matters (28 orphan drafts from the
+  first build excluded; federal not-found 22 percent); the U.S. Reports
+  share is reported at baseline only (37 to 58 percent), since the
+  temporal clause inflates the pooled figure; the memorization check is
+  now shown for the appellate task (Sonnet 5's median cited decision
+  year 1991 at baseline and under stakes, 1946 under temporal), so the
+  stakes-only rise is not a shift toward older cases; the twelve
+  circuits are named (First through Eleventh and Federal; no D.C.
+  Circuit); the Conclusion states the appellate result as a fall in
+  baseline existence for six of seven models rather than "fabrication
+  reaches every model but Sonnet".

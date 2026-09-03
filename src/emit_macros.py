@@ -391,7 +391,10 @@ if ap.exists():
     ex = [a["rates"][f"{m}:baseline"]["exist"] for m in ALPHA if f"{m}:baseline" in a["rates"]]
     emit2("aExistBaseMin", fmt3(min(ex)))
     emit2("aExistBaseMax", fmt3(max(ex)))
-    us = [a["reporter_mix"][m]["us_share"] for m in ALPHA if m in a["reporter_mix"] and a["reporter_mix"][m]["us_share"] is not None]
+    us = [a["reporter_mix"][m]["us_share_baseline"] for m in ALPHA if m in a["reporter_mix"] and a["reporter_mix"][m].get("us_share_baseline") is not None]
+    for c, ck in (("baseline", "Base"), ("stakes", "Stakes"), ("temporal", "Temporal"), ("combo", "Combo")):
+        if c in a.get("sonnet_median_year", {}):
+            emit2(f"aSonnetYear{ck}", str(a["sonnet_median_year"][c]))
     emit2("aUsShareMin", f"{100 * min(us):.0f}")
     emit2("aUsShareMax", f"{100 * max(us):.0f}")
     emit2("aShortDrafts", str(sum(v["short_drafts"] for k, v in a["reporter_mix"].items() if not k.startswith("_"))))

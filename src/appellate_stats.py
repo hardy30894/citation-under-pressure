@@ -108,6 +108,7 @@ def reporter_mix():
     from checker.citation_checker import CitationChecker, SqliteIndex
     from pilot import DB
     checker = CitationChecker(SqliteIndex(DB))
+    keep = {m["id"] for m in json.loads((R / "appellate" / "manifest.json").read_text())}
     out = {}
     pooled = Counter()
     for d in sorted(R.glob("app_*")):
@@ -115,9 +116,13 @@ def reporter_mix():
             continue
         model = d.name.replace("app_", "")
         c = Counter()
+        base = Counter()
         refusals = 0
         n = 0
         for p in (d / "drafts").glob("*.txt"):
+            matter, cond = re.match(r"(.+)_([a-z]+)$", p.stem).groups()
+            if matter not in keep:
+                continue
             t = p.read_text()
             n += 1
             if len(t.split()) < 100:
@@ -127,17 +132,44 @@ def reporter_mix():
                 rep = (r.get("reporter") or "").replace(" ", "").replace(".", "")
                 grp = "us" if rep == "US" else ("federal" if rep in FEDERAL else "other")
                 c[grp] += 1
+                if cond == "baseline":
+                    base[grp] += 1
                 if r["verdict"] == "not_found":
                     c[grp + "_nf"] += 1
         pooled.update(c)
         tot = c["us"] + c["federal"] + c["other"]
+        btot = base["us"] + base["federal"] + base["other"]
         out[model] = {"drafts": n, "short_drafts": refusals, "citations": tot,
                       "us_share": round(c["us"] / tot, 3) if tot else None,
+                      "us_share_baseline": round(base["us"] / btot, 3) if btot else None,
                       "federal_share": round(c["federal"] / tot, 3) if tot else None,
                       "us_not_found": c["us_nf"], "federal_not_found": c["federal_nf"],
                       "other_not_found": c["other_nf"]}
     out["_pooled"] = {k: pooled[k] for k in ("us", "federal", "other", "us_nf", "federal_nf", "other_nf")}
     return out
+
+
+def sonnet_median_year():
+    """Median decision year of Sonnet 5's resolved citations by condition,
+    the check on the memorization alternative: the stakes clause should
+    leave it where baseline puts it, the temporal clause should not."""
+    from checker.citation_checker import SqliteIndex
+    from pilot import DB
+    import statistics
+    idx = SqliteIndex(DB)
+    keep = {m["id"] for m in json.loads((R / "appellate" / "manifest.json").read_text())}
+    years = {}
+    for p in (R / "app_sonnet" / "drafts").glob("*.txt"):
+        matter, cond = re.match(r"(.+)_([a-z]+)$", p.stem).groups()
+        if matter not in keep:
+            continue
+        for d in cite_details(p.read_text()):
+            if d["volume"] and d["reporter"] and d["page"]:
+                h = idx.lookup(d["volume"], d["reporter"], d["page"])
+                y = re.match(r"\d{4}", h["date_filed"] or "") if h else None
+                if y:
+                    years.setdefault(cond, []).append(int(y.group(0)))
+    return {c: int(statistics.median(v)) for c, v in years.items()}
 
 
 def main():
@@ -153,6 +185,7 @@ def main():
            "reporter_mix": reporter_mix()}
     # baseline task comparison per model: existence and strict, scotus vs appellate
     scr = rates(sc)
+    out["sonnet_median_year"] = sonnet_median_year()
     out["baseline_vs_scotus"] = {
         m: {"scotus_exist": scr[f"{m}:baseline"]["exist"], "app_exist": out["rates"][f"{m}:baseline"]["exist"],
             "scotus_strict": scr[f"{m}:baseline"]["strict"], "app_strict": out["rates"][f"{m}:baseline"]["strict"]}
