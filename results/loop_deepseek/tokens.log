@@ -182,3 +182,8 @@
 {"ts": 1788393400.3481321, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:2010-046:none", "in_tokens": 8869, "out_tokens": 2304, "est_cost": 0.001509, "latency_ms": 22434}
 {"ts": 1788393456.441498, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:1999-051:none", "in_tokens": 5395, "out_tokens": 1259, "est_cost": 0.000578, "latency_ms": 337501}
 {"ts": 1788393571.58387, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r1:1990-075:none", "in_tokens": 6617, "out_tokens": 2497, "est_cost": 0.001556, "latency_ms": 21615}
+{"ts": 1788393614.3459048, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r2:1990-075:none", "in_tokens": 8411, "out_tokens": 1766, "est_cost": 0.001075, "latency_ms": 42662}
+{"ts": 1788393669.972322, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:1990-075:none", "in_tokens": 10277, "out_tokens": 5410, "est_cost": 0.002851, "latency_ms": 55531}
+{"ts": 1788393689.703706, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r1:1997-033:none", "in_tokens": 3779, "out_tokens": 2018, "est_cost": 0.001094, "latency_ms": 19625}
+{"ts": 1788393704.497685, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r2:1997-033:none", "in_tokens": 4887, "out_tokens": 1617, "est_cost": 0.000793, "latency_ms": 14735}
+{"ts": 1788393715.928107, "client": "loop-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "r3:1997-033:none", "in_tokens": 5816, "out_tokens": 1260, "est_cost": 0.000708, "latency_ms": 11152}

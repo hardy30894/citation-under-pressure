@@ -40,7 +40,7 @@ Every citation in every draft passes through the same adjudication cascade, and 
 
 **Quote fidelity.** Quoted passages go through the calibrated strict-band checker: accurate means verbatim, near-miss means every fragment reaches high token coverage without matching exactly, and anything less is inaccurate.
 
-**Pincites.** A pinpoint citation makes two claims at once, the case and the page, and the page half is the one the field cannot check without commercial databases. The pilot ships a deterministic range check (the pin must fall inside the cited case's page span). The full run goes further, because CAP's freely downloadable volume archives carry true star pagination in their HTML: index the opinion text by page label and verify that the quoted language sits on the cited page. That is exactly the capability LePhantomCite's authors describe as available only through Westlaw and LexisNexis. Outside U.S. Reports and CAP's coverage window, pincites keep the unverifiable label, and the whole-opinion quote check carries the substance of the question.
+**Pincites.** A pinpoint citation makes two claims at once, the case and the page, and the page half is the one the field cannot check without commercial databases. The pilot ships a deterministic range check (the pin must fall inside the cited case's page span). The full run goes further, because CAP's freely downloadable volume archives carry the official reporter page boundaries as page labels in their HTML: index the opinion text by page label and verify that the quoted language sits on the cited page. That is exactly the capability LePhantomCite's authors describe as available only through Westlaw and LexisNexis. Outside U.S. Reports and CAP's coverage window, pincites keep the unverifiable label, and the whole-opinion quote check carries the substance of the question.
 
 **Relevance.** Whether a surviving real citation actually supports its proposition is the one residual no deterministic check reaches. The design assigns it to a calibrated jury on a budgeted subsample, concentrated where the Goodhart hypothesis needs it; the ledger records what became of that plan.
 
@@ -73,7 +73,7 @@ flowchart TD
     PR --> DR["draft<br/>saved to disk permanently<br/>(drafts are the money; scoring is free to redo)"]
     DR --> CIT["citation adjudication<br/>eyecite → oracle → exists / not_found / unverifiable"]
     DR --> QT["quote pipeline<br/>extraction → named attribution → verbatim bands"]
-    DR --> PIN["pincite check<br/>CAP star pagination, U.S. Reports"]
+    DR --> PIN["pincite check<br/>CAP page labels, U.S. Reports"]
     CIT & QT & PIN --> RES["results/*.json<br/>re-scorable from drafts at zero cost"]
 ```
 
@@ -90,7 +90,7 @@ revisions the seeded validation forced.
 flowchart LR
     Q["quote needs the cited case's text"] --> T1["checker.db caches<br/>opinion_texts + 47K citation_texts"]
     T1 -->|miss| T2["legacy cache<br/>75K texts (legal_classification)"]
-    T2 -->|miss| T3["CAP static volumes<br/>free · unauthenticated · unrated<br/>+ star pagination in HTML"]
+    T2 -->|miss| T3["CAP static volumes<br/>free · unauthenticated · unrated<br/>+ page labels in HTML"]
     T3 -->|miss| T4["LII scrape cache<br/>6,350 SCOTUS opinions"]
     T4 -->|miss| T5["CourtListener API<br/>last resort, rate-capped"]
 ```
