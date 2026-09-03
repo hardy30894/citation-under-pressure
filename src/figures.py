@@ -5,11 +5,13 @@ Figure 1: strict quotation accuracy by condition, one line per model,
 with the human baseline as a reference band. Reads rescore_full.json,
 so it grows automatically when models are added and re-scored.
 
-Figure 2: the repair experiment. Round-0 to final strict accuracy under
-true feedback (solid) and scrambled feedback (dashed), per model.
-Reads rescore_loops.json.
+Figure 2: the revision experiment. Round-0 to final strict accuracy under
+true, false, and no feedback, one panel each, per model. Reads
+rescore_loops.json.
 
-Outputs PDF and PNG into docs/figures/.
+Both figures are drawn at the IOS Press type-area width (12.4 cm) so
+that the fonts print at their nominal size; IOS requires lettering of at
+least 6 points. Outputs PDF and PNG into docs/figures/.
 """
 
 import json
@@ -30,8 +32,12 @@ LABEL = {
     "llama4mav": "Llama-4 Maverick", "glm47flash": "GLM-4.7-flash",
     "mistralsmall": "Mistral Small",
 }
+WIDTH_IN = 12.4 / 2.54  # IOS Press type-area width
 plt.rcParams.update({
-    "font.size": 9, "axes.spines.top": False, "axes.spines.right": False,
+    "font.size": 7, "axes.titlesize": 8, "xtick.labelsize": 7,
+    "ytick.labelsize": 7, "legend.fontsize": 6.5,
+    "axes.spines.top": False, "axes.spines.right": False,
+    "pdf.fonttype": 42,
 })
 
 
@@ -40,7 +46,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.3))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.85))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -54,13 +60,12 @@ def fig1():
         ax.set_ylim(0.7 if key == "existence_rate" else 0, 1.02)
         ax.set_title(title)
         if key == "strict_rate":
-            ax.axhline(h, color="gray", linewidth=0.8, linestyle=":")
-            ax.text(2.6, h - 0.07, f"human lawyers ({h:.2f})",
-                    fontsize=7.5, color="gray")
+            ax.axhline(h, color="gray", linewidth=0.8, linestyle=":",
+                       label=f"human lawyers ({h:.2f})")
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, fontsize=7, frameon=False, loc="lower center",
-               ncol=3, bbox_to_anchor=(0.5, -0.02))
-    fig.tight_layout(rect=(0, 0.1, 1, 1))
+    fig.legend(handles, labels, frameon=False, loc="lower center",
+               ncol=4, bbox_to_anchor=(0.5, -0.03))
+    fig.tight_layout(rect=(0, 0.12, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig1_pressure.{ext}", dpi=200,
                     bbox_inches="tight")
@@ -69,7 +74,7 @@ def fig1():
 
 def fig2():
     data = json.loads((HERE / "results/rescore_loops.json").read_text())
-    fig, axes = plt.subplots(1, 3, figsize=(7.4, 2.2), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(WIDTH_IN, 1.6), sharey=True)
     xs = [0, 1]
     for ax, arm, title in ((axes[0], "true", "true feedback"),
                            (axes[1], "scrambled", "false feedback"),
@@ -90,9 +95,9 @@ def fig2():
         ax.set_ylim(0, 1.02)
         ax.set_title(title)
     handles, labels = axes[0].get_legend_handles_labels()
-    fig.legend(handles, labels, fontsize=7, frameon=False, loc="lower center",
-               ncol=3, bbox_to_anchor=(0.5, -0.02))
-    fig.tight_layout(rect=(0, 0.1, 1, 1))
+    fig.legend(handles, labels, frameon=False, loc="lower center",
+               ncol=3, bbox_to_anchor=(0.5, -0.03))
+    fig.tight_layout(rect=(0, 0.14, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig2_repair.{ext}", dpi=200, bbox_inches="tight")
     plt.close(fig)

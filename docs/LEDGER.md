@@ -131,3 +131,19 @@ before or after seeing the relevant data. Nothing is deleted.
   between runs; all macros regenerated together. Body fits exactly ten
   pages; the phrasing-robustness paragraph moved into Limitations and
   the language-model-judges paragraph into Section 6 to make room.
+- 2026-09-02 (IOS Press format pass): checked paper.tex against the JURIX
+  call and the IOS book-article instructions. Title and headings now
+  follow IOS capitalization (prepositions lower case). Every table,
+  figure, and section carries a label and is cross-referenced with
+  \ref; every illustration is referenced in the text; no "above" or
+  "below" references remain. Figures are drawn at the type-area width
+  (12.4 cm) so lettering prints at 6.5 to 8 points, above the 6-point
+  minimum; tables use the class's 8-point footnotesize, the minimum for
+  tables. DOIs print in the reference list (IOS asks for them when known;
+  the bst constant that suppresses them is documented as adjustable and
+  was switched on); arXiv DataCite DOIs added to preprint entries. The
+  paper builds cleanly with pdflatex and bibtex, the toolchain IOS names,
+  with all fonts embedded, via docs/jurix/build.sh; a user-level TeX Live
+  was installed in ~/texlive-portable for this. Body ends at the foot of
+  page 10 under pdflatex. Still needed from Hardy: ORCID in the author
+  line, and the EasyChair category (long paper).

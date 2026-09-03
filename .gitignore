@@ -11,3 +11,8 @@ data/lephantomcite/
 __pycache__/
 *.pyc
 .DS_Store
+docs/jurix/*.aux
+docs/jurix/*.bbl
+docs/jurix/*.blg
+docs/jurix/*.log
+docs/jurix/*.out
