@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. The District Court Abused Its Discretion by Refusing to Ask the Jury to Clarify the Ambiguous and Inconsistent Verdicts.**
+
+The jury returned verdicts that cannot be reconciled under the court’s instructions. It found Enron breached the contract and awarded Unit $70,768.02 on Form 1. It then awarded Enron a set-off of $86,494.30 on Form 3. Under the instructions, if the jury reduced Unit’s damages by the cost of repairing the pipes, it should not have awarded Enron that same repair cost as a separate set-off. Yet the district court’s interpretation does exactly that—it subtracts the set-off from Unit’s damages and reduces Unit’s recovery to zero. Alternatively, if the jury intended its Form 1 award to be the unpaid invoices ($157,262.36) minus the set-off ($86,494.30), then Form 3 is redundant. Either way, the verdicts are ambiguous and internally inconsistent.
+
+When a verdict is ambiguous or inconsistent, the trial court has a duty to seek clarification from the jury before discharging it. *Atlantic & Gulf Stevedores, Inc. v. Ellerman Lines, Ltd.*, 369 U.S. 355, 364 (1962) (court should attempt to reconcile the jury’s findings before declaring them inconsistent); *Skidmore v. Baltimore & Ohio R.R.*, 167 F.2d 54, 64 (2d Cir. 1948) (court may not speculate on an ambiguous verdict; it must ask the jury); *United States v. Nunez*, 889 F.2d 156, 162 (10th Cir. 1989) (trial court should clear up ambiguity of jury’s intentions). The district court here did not ask a single question. It did not attempt to reconcile the verdicts. It simply selected a construction that nullified Unit’s verdict.
+
+The refusal to clarify was especially prejudicial because Unit requested that the jury be questioned before it was discharged. The cost of asking would have been minimal, and the answers would have conclusively resolved the ambiguity. By refusing, the district court substituted its own guess for the jury’s actual intent. This was an abuse of discretion and reversible error.
+
+**II. The District Court Misinterpreted the Jury’s Verdict.**
+
+Even if the court was unwilling to seek clarification, its interpretation of the verdicts was erroneous as a matter of law. A verdict must be construed in light of the instructions and the evidence, and it must be given a reasonable construction that upholds the jury’s intent. *Atlantic & Gulf Stevedores*, 369 U.S. at 364. Here, the arithmetic reveals the jury’s intent. Unit’s unpaid invoices totaled $157,262.36. Enron’s set-off claim was $86,494.30. The difference is exactly $70,768.02—the precise amount the jury awarded Unit on Form 1. The jury plainly subtracted the set-off from the contract price and reported the net figure on Form 1.
+
+The district court instead subtracted the set-off a second time, reaching zero. That construction is unreasonable. The jury was instructed that if it found Enron liable on Form 1, it should award Unit damages; a zero award would be inconsistent with a finding of breach. The court’s construction also gives Enron a windfall: it receives a set-off on Form 3 even though it already received the benefit of that deduction in the reduced Form 1 award. No rational juror could have intended both.
+
+Because the jury’s intent was clear from the figures, the district court should have entered judgment for Unit in the amount of $70,768.02. Its contrary interpretation was based on speculation, not on the record. The judgment must therefore be reversed and remanded with directions to enter judgment for Unit, or, at minimum, for a new trial.
+
+**III. The Jury Instruction Claim Is Waived, but the Verdict Errors Are Independent.**
+
+Unit acknowledges that its specific objection to the jury instructions was not preserved under Federal Rule of Civil Procedure 51, and it does not pursue that claim on appeal. But the verdict-clarification and verdict-interpretation errors are independent and dispositive. They do not depend on the content of the instructions; they arise from the district court’s mishandling of the verdict after it was returned. Those errors alone require reversal.
+
+**IV. The District Court Erred in Excluding Evidence of Enron’s Dealings with Another Contractor.**
+
+The district court also erred in excluding evidence of Enron’s dealings with another drilling contractor. That evidence was relevant to Enron’s claimed damages and to its set-off claim. Its exclusion deprived Unit of the opportunity to challenge Enron’s calculation of its alleged repair costs. This evidentiary error further supports reversal.
+
+For these reasons, Unit respectfully requests that the Court reverse the judgment and remand with instructions to enter judgment for Unit in the amount of $70,768.02, or in the alternative, grant a new trial.

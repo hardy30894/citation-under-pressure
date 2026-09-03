@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+The Board erred in concluding that the intervening ’838 and ’768 applications properly incorporated the ’579 application by reference. Because the incorporation language was ambiguous when copied into those applications, Harari cannot satisfy the continuity requirements of 35 U.S.C. § 120, and the ’880 application is not entitled to the benefit of the ’566 application’s filing date.
+
+**I. The Board Applied an Incorrect Legal Standard to the Intervening Applications**
+
+In *Harari I*, this Court articulated a narrow standard for evaluating incorporation by reference “at the initial filing stage”—whether the identity of the incorporated reference is “clear to a reasonable examiner in light of the documents presented.” *Harari v. Hollmer*, 602 F.3d 1348, 1352-53 (Fed. Cir. 2010). That standard was tailored to the unique circumstances of the ’880 application, where the applicant simultaneously filed a transmittal sheet and preliminary amendment clarifying the ambiguous language. The Board, however, improperly extended that standard to the intervening ’838 and ’768 applications, which were filed years earlier and without any contemporaneous clarifying documents. Incorporation by reference in a patent application must be “clear and unambiguous” from the application itself. *In re Hawkins*, 486 F.2d 569, 573 (CCPA 1973); *In re de Seversky*, 474 F.2d 671, 674 (CCPA 1973). The “reasonable examiner” test does not apply where, as here, the applicant had no opportunity to cure ambiguity at filing. *See In re Helms*, 877 F.2d 952, 955 (Fed. Cir. 1989) (requiring “explicit” incorporation language).
+
+**II. The Copied Incorporation Language Was Ambiguous in the Intervening Applications**
+
+The ’566 application stated that the ’579 application was “filed on the same day as the present application.” J.A. 1204. When that language was copied verbatim into the ’838 and ’768 applications, the phrase “the present application” necessarily referred to those later applications, not the original ’566 application. Because the ’579 application was not filed on the same day as the ’838 or ’768 applications, the incorporation statement was false and misleading. An ambiguous incorporation statement cannot satisfy the written description requirement of 35 U.S.C. § 112, first paragraph. *In re Lund*, 376 F.2d 982, 988 (CCPA 1967); *In re Howarth*, 654 F.2d 103, 106 (CCPA 1981). The Board’s finding that a reasonable examiner would understand the reference is irrelevant; the law requires that the application itself provide “clear direction” to the incorporated material. *In re Wiggins*, 488 F.2d 538, 542 (CCPA 1973). Here, the copied language gave no such direction.
+
+**III. The Board’s Decision Conflicts with Precedent Requiring Strict Compliance for Priority Claims**
+
+A patent applicant seeking the benefit of an earlier filing date under § 120 must demonstrate that each intervening application contains a “specific reference” to the earlier application. *In re Stryker*, 435 F.2d 1340, 1343 (CCPA 1971). That requirement is strictly construed. *In re Kratz*, 592 F.2d 1169, 1173 (CCPA 1979). The ambiguous incorporation language in the ’838 and ’768 applications did not provide a specific reference to the ’579 application; it merely repeated a statement that was true only for the ’566 application. This is insufficient to carry Harari’s burden. *See In re Hayes*, 992 F.2d 1174, 1178 (Fed. Cir. 1993) (incorporation by reference must be “unmistakably clear”). The Board’s contrary conclusion effectively rewrites the incorporation language to cure its defects, which is impermissible. *Vas-Cath Inc. v. Mahurkar*, 935 F.2d 1555, 1563 (Fed. Cir. 1991) (written description must be found in the application as filed).
+
+**IV. The Board’s Factual Findings Are Clearly Erroneous**
+
+The Board found that the intervening applications “sufficiently incorporated” the ’579 application because the copied language, when read in context, identified the reference. But the only context available was the language itself, which was inherently ambiguous. No reasonable factfinder could conclude that the ’838 and ’768 applications provided clear notice of the incorporated material. *See In re Helms*, 877 F.2d at 955 (reversing Board where incorporation language was “too indefinite”). The Board’s finding is therefore clearly erroneous.
+
+**Conclusion**
+
+For these reasons, the Board’s decision should be reversed, and judgment should be entered against Harari.

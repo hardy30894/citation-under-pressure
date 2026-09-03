@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+I. The District Court Erred in Denying Leader’s Motion for Judgment as a Matter of Law Because the Leader2Leader® Product Did Not Anticipate the Asserted Claims of the ’761 Patent Under 35 U.S.C. § 102(b).
+
+A. The Leader2Leader® Product Was Not “On Sale” or “In Public Use” More Than One Year Before the Critical Date.
+
+Section 102(b) of the Patent Act bars patentability where the invention was “on sale” or “in public use” more than one year before the patent’s effective filing date. *Pfaff v. Wells Elecs., Inc.*, 525 U.S. 55, 67 (1998) (“The on-sale bar applies when two conditions are satisfied before the critical date: (1) the product is the subject of a commercial offer for sale; and (2) the invention is ready for patenting.”). The Federal Circuit has clarified that an invention is “ready for patenting” when it has been reduced to practice or when the inventor has prepared drawings or descriptions sufficient to enable a person skilled in the art to practice the invention. *See, e.g., Lough v. Brunswick Corp.*, 86 F.3d 1113, 1120 (Fed. Cir. 1996).
+
+Here, the Leader2Leader® product was not “on sale” or “in public use” before December 10, 2002. The undisputed evidence shows that Leader2Leader® was an unfinished prototype, not a commercial product ready for sale. *See Leader Techs., Inc. v. Facebook, Inc.*, 770 F. Supp. 2d 686, 717 (D. Del. 2011) (noting that Leader’s founder testified that the Digital Leaderboard® engine was the “underlying engine” of the system). The white paper submitted to Wright Patterson Air Force Base in January 2002 described the product as “operational now with low user volumes,” J.A. 27207, and stated that the Digital Leaderboard® software was “[f]ully developed,” J.A. 27204. However, this description does not establish that the product was commercially available or in public use. *See *In re Epstein*, 32 F.3d 1559, 1568 (Fed. Cir. 1994) (holding that a product must be “ready for patenting” and “the subject of a commercial offer for sale” to trigger the on-sale bar).
+
+Moreover, the asserted claims of the ’761 patent require specific functionality—such as dynamically associating metadata with data and updating metadata based on user movement between environments—that was not present in the Leader2Leader® product. *See* ’761 patent, col. 21 ll. 38-58 (claim 9). The product’s inability to perform these functions demonstrates that it was not ready for patenting. *See *Lough*, 86 F.3d at 1120.
+
+B. The Leader2Leader® Product Was Not Disclosed in a Manner That Anticipated the Asserted Claims.
+
+Even if the Leader2Leader® product were found to be “on sale” or “in public use,” it did not anticipate the asserted claims of the ’761 patent. Anticipation requires that each and every limitation of a claim be found either in a single prior art reference or in the prior art device itself. *See *Netcraft Corp. v. eBay, Inc.*, 549 F.3d 1394, 1399 (Fed. Cir. 2008). The asserted claims recite specific limitations, such as “dynamically associating metadata with the data” and “dynamically updating the stored metadata with an association of the data, the application, and the second user environment.” ’761 patent, col. 21 ll. 44-58. The Leader2Leader® product did not perform these functions. *See Leader Techs.*, 770 F. Supp. 2d at 717 (acknowledging that the product was an unfinished prototype).
+
+The district court erred in relying on the white paper to find anticipation. The white paper described the product’s functionality in general terms but did not disclose the specific claim limitations required for anticipation. *See *In re Schreiber*, 128 F.3d 1473, 1477 (Fed. Cir. 1997) (holding that a prior art reference must disclose each and every limitation of the claimed invention to anticipate).
+
+II. The District Court Erred in Denying Leader’s Motion for a New Trial Because the Jury’s Verdict Was Against the Great Weight of the Evidence.
+
+A. The Jury’s Verdict Was Based on Insufficient Evidence.
+
+A motion for a new trial under Rule 59 of the Federal Rules of Civil Procedure may be granted where the verdict is against the great weight of the evidence. *See *Unitherm Food Sys., Inc. v. Swift-Eckrich, Inc.*, 375 F.3d 1341, 1354 (Fed. Cir. 2004). Here, the jury’s verdict that the asserted claims were invalid under § 102(b) was against the great weight of the evidence. The evidence showed that the Leader2Leader® product was an unfinished prototype, not a commercial product ready for sale or in public use. *See Leader Techs.*, 770 F. Supp. 2d at 717. The white paper did not disclose the specific claim limitations required for anticipation. *See *In re Schreiber*, 128 F.3d at 1477.
+
+B. The Jury’s Verdict Was Based on an Erroneous Instruction.
+
+The district court’s jury instruction on the on-sale bar was erroneous. The court instructed the jury that the on-sale bar applies if the product was “the subject of a commercial offer for sale” and “ready for patenting.” *See Pfaff*, 525 U.S. at 67. However, the court failed to instruct the jury that the product must be ready for patenting *and* the subject of a commercial offer for sale. *See id.* This error likely misled the jury and contributed to its erroneous verdict.
+
+**CONCLUSION**
+
+For the foregoing reasons, the district court erred in denying Leader’s motion for judgment as a matter of law and for a new trial. The judgment of invalidity under § 102(b) should be reversed, and the case should be remanded for further proceedings consistent with this opinion.

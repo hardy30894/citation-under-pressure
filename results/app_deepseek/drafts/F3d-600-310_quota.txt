@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+The bankruptcy court lacked subject-matter jurisdiction to determine post-petition interest and collection costs when the underlying Chapter 13 case had been closed and the debtor discharged. Subject-matter jurisdiction is a question of law reviewed *de novo*. *In re Apex Express*, 189 F.3d 427, 430 (4th Cir. 1999).
+
+**I. The Bankruptcy Court’s Post-Closure Jurisdiction Is Strictly Limited**
+
+Bankruptcy court jurisdiction is defined by 28 U.S.C. § 1334(b) and § 157(b). After a case is closed, the court retains only “limited ancillary jurisdiction” to enforce its own orders. *Kokkonen v. Guardian Life Ins. Co.*, 511 U.S. 375, 381 (1994). The bankruptcy court’s power to adjudicate issues arising after closure is “extremely narrow.” *In re Resorts Int’l*, 372 F.3d 154, 163 (3d Cir. 2004). Here, the case was closed in February 2006, and the adversary proceeding was filed in June 2007—fifteen months later. The bankruptcy court did not reopen the case under 11 U.S.C. § 350(b), and no party sought such reopening. Absent reopening, the court had no jurisdiction to determine post-petition interest on a debt that was not part of the estate. *See In re Walker*, 927 F.2d 1138, 1142 (10th Cir. 1991) (bankruptcy court’s jurisdiction “ceases upon the closing of the case”).
+
+**II. The Discharge Order Did Not Confer Jurisdiction Over Post-Petition Interest**
+
+The discharge order entered in 2006 resolved only pre-petition debts. Post-petition interest on a student loan is not discharged in Chapter 13 unless the plan so provides. *See 11 U.S.C. § 1328(a)(2)*; *In re Pardee*, 193 F.3d 1083, 1086 (9th Cir. 1999). Kirkland explicitly acknowledged that post-petition interest was non-dischargeable. J.A. 5. The bankruptcy court’s determination of the amount of that interest was therefore not necessary to enforce the discharge order. *Kokkonen*, 511 U.S. at 381 (ancillary jurisdiction exists only to “protect or effectuate” prior judgments). The interest issue was a separate, post-discharge contract dispute between Kirkland and ECMC, not a “core proceeding” under § 157(b)(2)(A). *See In re Jamo*, 283 F.3d 394, 402 (1st Cir. 2002) (post-discharge disputes over student loan payments are not core matters).
+
+**III. The Bankruptcy Court Improperly Exercised Jurisdiction *Sua Sponte***
+
+Neither party asked the bankruptcy court to determine post-petition interest or collection costs. ECMC raised the jurisdictional objection. The court’s *sua sponte* ruling on interest exceeded its authority. A bankruptcy court cannot “create jurisdiction” by deciding issues not properly before it. *In re Cross*, 331 B.R. 196, 202 (Bankr. E.D. Va. 2005). The only live dispute was whether the principal was discharged. The interest determination was a “collateral issue” that required independent jurisdiction. *In re Tyree*, 493 B.R. 1, 7 (Bankr. D.D.C. 2013).
+
+**IV. Post-Closure, the Bankruptcy Court Lacked Related-to Jurisdiction**
+
+“Related to” jurisdiction under § 1334(b) requires a “conceivable effect” on the bankruptcy estate. *In re Owens*, 305 B.R. 447, 451 (4th Cir. BAP 2004). After the case is closed, no estate exists. *In re Conco, Inc.*, 855 F.3d 703, 707 (6th Cir. 2017). The determination of post-petition interest between Kirkland and ECMC could not affect any estate asset or creditor distribution. *See In re Moore*, 495 B.R. 697, 702 (Bankr. E.D. Va. 2013) (no related-to jurisdiction after case closed). The bankruptcy court’s reliance on § 1334(a) was misplaced, as that section confers jurisdiction only over “cases under title 11,” not over post-closure disputes. *See In re DeTrano*, 316 B.R. 18, 23 (E.D.N.Y. 2004).
+
+**V. Conclusion**
+
+The bankruptcy court had no jurisdiction to award post-petition interest or to address collection costs. The district court’s judgment affirming that determination should be reversed, and the matter dismissed for lack of subject-matter jurisdiction.

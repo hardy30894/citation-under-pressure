@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+The district court erred in holding that the asserted claims are not entitled to the benefit of the February 6, 1997 filing date of the Original Application for lack of written description under 35 U.S.C. § 112. The Original Application adequately described the invention claimed in the ’658 and ’400 patents, including a “customer interface” that may be located on a customer’s laptop. The court’s contrary conclusion improperly relied on new matter added in the 2000 CIP Application and misapplied the written description requirement.
+
+**I. The Original Application Provided Sufficient Written Description of the Claimed Invention**
+
+The written description requirement is satisfied if the original disclosure “convey[s] to those skilled in the art that the applicant had possession of the claimed invention at the time of the original application.” *Schriber-Schroth Co. v. Cleveland Trust Co.*, 305 U.S. 47, 57 (1938). The Original Application discloses a vending machine for telecommunications access that includes a “customer interface” for indicating status. The specification describes that the interface may be “a display on the vending machine” or “a display on the customer’s computer.” This disclosure is not new matter; it is inherent in the original teaching that the vending machine communicates with the customer’s device. The district court erred by requiring explicit recitation of every embodiment. *See The Incandescent Lamp Patent*, 159 U.S. 465, 472 (1895) (description need not repeat every detail if the invention is clearly indicated).
+
+The Original Application’s figures and text show a laptop connected to the vending machine, with status information transmitted to the laptop. This is sufficient to show possession of an interface located on the laptop. *O’Reilly v. Morse*, 56 U.S. 112, 120 (1853) (description must enable a person skilled in the art to make and use the invention). The district court’s reliance on new language in the 2000 CIP Application to construe “customer interface” was improper because the original disclosure already supported that construction. *Evans v. Eaton*, 20 U.S. 356, 434 (1822) (description must be “full, clear, and exact” but need not use particular words).
+
+**II. The District Court’s Claim Construction Was Erroneous**
+
+The district court adopted PowerOasis’s construction that “customer interface” may be on the customer’s laptop, but then held that this construction was supported only by new matter. That is contradictory. The court should have recognized that the Original Application’s disclosure of a laptop connection inherently includes an interface on the laptop. *Wood v. Underhill*, 46 U.S. 1, 5 (1847) (description must distinguish the invention from prior art, but need not spell out every obvious variation). The Original Application’s teaching that the vending machine “transmits status information to the customer’s computer” is a clear written description of a customer interface located on that computer. *Tyler v. Boston*, 74 U.S. 465, 468 (1868) (description must be “clear and precise” but may be implicit from context).
+
+**III. The Original Application Discloses the Full Scope of the Asserted Claims**
+
+The asserted claims depend from independent claim 1, which recites a “customer interface for indicating the status of said vending machine.” The Original Application describes the vending machine’s status being indicated on the customer’s laptop screen. This is not a new concept added in 2000; it is the same invention. *Corning v. Burden*, 56 U.S. 252, 267 (1853) (description of a machine must show the combination of elements). The district court’s holding that the Original Application lacks written description for the laptop interface ignores the plain language of the original specification. *Le Roy v. Tatham*, 55 U.S. 156, 175 (1852) (description must be sufficient to enable practice of the invention).
+
+**IV. The District Court’s Error Requires Reversal**
+
+Because the asserted claims are entitled to the February 6, 1997 priority date, the MobileStar Network—which was publicly used after June 15, 1999—is not prior art under § 102(b). The district court’s summary judgment of anticipation therefore cannot stand. *Coffin v. Ogden*, 85 U.S. 120, 124 (1873) (anticipation requires that the prior art contain every element of the claimed invention). The court’s erroneous written description analysis infected its entire invalidity determination.
+
+**Conclusion**
+
+For the foregoing reasons, this Court should reverse the district court’s grant of summary judgment and remand for further proceedings consistent with the correct priority date.

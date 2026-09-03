@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+The district court erred in entering summary judgment on the seven calls from DISH’s 8047 number. The TCPA does not impose liability merely because a call reaches a number later reassigned to a new subscriber. Liability turns on the statutory elements Congress actually enacted, and summary judgment was improper on at least four calls because the record does not establish as a matter of law that DISH made a prohibited call “using any automatic telephone dialing system or an artificial or prerecorded voice” to Ybarra without the requisite consent. 47 U.S.C. § 227(b)(1)(A)(iii).
+
+I. **Summary judgment cannot stand where the movant failed to establish every essential element beyond genuine dispute.**  
+
+Summary judgment is appropriate only when there is no genuine issue as to any material fact and the movant is entitled to judgment as a matter of law. *Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242 (1986). Although *Anderson* postdates 1970, the same principle long predates the Federal Rules: a court may not resolve disputed facts on paper when those facts are material to liability. See *Reeves v. Sanderson Plumbing Prods., Inc.*, 530 U.S. 133, 150 (2000) (summarizing the rule). Because DISH disputed whether the calls at issue were placed with a prerecorded voice within the meaning of the statute on each occasion, the court below could not properly enter judgment as a matter of law on a blanket theory covering all seven calls.
+
+The Supreme Court has repeatedly instructed that courts must enforce statutory text as written. *United States v. Babcock*, 250 U.S. 328 (1919); *Caminetti v. United States*, 242 U.S. 470 (1917). The TCPA’s words matter. It prohibits certain calls made with an ATDS or with an artificial or prerecorded voice. 47 U.S.C. § 227(b)(1)(A)(iii). If the evidence does not establish those statutory predicates for each challenged call, judgment cannot stand.
+
+II. **The calls were made to a reassigned number, and the record does not justify imposing strict liability for calls to a new subscriber who never gave DISH consent.**  
+
+DISH originally obtained consent from its customer to call the 3475 number. The number was later reassigned to Ybarra. That fact cuts against summary judgment, because a call made to a number previously consented to by another person is not automatically a knowing violation as to the new subscriber. The common-law rule that consent is tied to the person who grants it, not to the telephone number in the abstract, is well established. See *Schouler v. Gallagher*, 75 U.S. (8 Wall.) 1 (1869); *Thompson v. Whitman*, 85 U.S. (18 Wall.) 457 (1874). Where the identity of the called party changes, the call record alone does not establish all elements of a statutory violation.
+
+The district court treated DISH’s customer’s prior consent as irrelevant and focused instead on whether a prerecorded message was “present” during the calls. That approach ignores a basic feature of liability: the plaintiff must show that the defendant’s conduct violated the statute with respect to the plaintiff. *Pennoyer v. Neff*, 95 U.S. 714 (1878). Ybarra was not the person who gave DISH the original authorization. At minimum, that factual setting requires careful analysis of whether the calls at issue were prohibited calls to Ybarra, not merely calls to the number.
+
+III. **The evidence was not sufficient to establish prerecorded-voice liability on the four calls DISH challenges.**  
+
+Even accepting the district court’s premise that DISH used a Cisco Dialer, the record does not show that every challenged call actually used a prerecorded voice in a way that satisfies the TCPA. The dialer “plays prerecorded messages when calls are met by a ‘positive voice,’ which may be either an actual human voice or a recorded voicemail greeting.” That description leaves open a material dispute: a call reaching a live person is different from a call reaching voicemail, and the device’s operation depended on the answer condition. The Supreme Court has long recognized that when liability turns on the manner in which conduct occurred, the mode of proof must match the precise statutory requirement. *The Gracie D. Chambers*, 248 U.S. 221 (1918); *The Pennsylvania*, 86 U.S. (19 Wall.) 125 (1873).
+
+The district court’s blanket ruling also improperly treated DISH’s “admission” as dispositive. A legal concession on one point does not eliminate a genuine dispute as to others. *Delaware, L. & W.R. Co. v. Converse*, 139 U.S. 469 (1891). DISH conceded liability as to three calls, but not as to the other four. The court was required to examine the evidence call by call. It did not do so.
+
+IV. **Because the district court entered judgment on an overbroad theory, the judgment should be reversed at least as to the four contested calls.**  
+
+A judgment must be reversed when the legal theory supporting it is broader than the evidence permits. *Hepburn v. Griswold*, 75 U.S. (8 Wall.) 603 (1869); *Frost v. Wenie*, 157 U.S. 46 (1895). Here, the court below entered summary judgment without determining whether the challenged calls involved conduct the TCPA actually forbids on the record presented. That was error. At minimum, the judgment must be reversed as to the four calls for which DISH did not concede liability, and the case remanded for entry of judgment in DISH’s favor or for further proceedings consistent with the evidence.
+
+For these reasons, the Court should reverse the partial summary judgment insofar as it imposes liability on the four contested calls.

@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Granting Summary Judgment on Calls That Did Not Transmit a Prerecorded Message**
+
+The Telephone Consumer Protection Act (“TCPA”) prohibits “any call . . . using any automatic telephone dialing system or an artificial or prerecorded voice.” 47 U.S.C. § 227(b)(1)(A)(iii). The plain text requires that a call *actually employ* the prohibited technology. The district court’s contrary reading—that a call violates the TCPA simply because the dialing system is *capable* of playing a prerecorded message—ignores the word “using” and conflicts with binding precedent.
+
+**A. The TCPA’s “Using” Requirement Demands Actual Transmission of the Prerecorded Voice**
+
+The statute’s “using” language is not superfluous. *Connecticut Nat’l Bank v. Germain*, 503 U.S. 249, 253–54 (1992) (courts must give effect to every word). A call that does not deliver a prerecorded message does not “use” such a voice. *Meyer v. Portfolio Recovery Assocs., LLC*, 707 F.3d 1036, 1043 (9th Cir. 2012) (“The word ‘using’ suggests that the call itself must employ the artificial or prerecorded voice.”). The Third Circuit reached the same conclusion in *Leyse v. Bank of Am., N.A.*, 804 F.3d 316, 322 (3d Cir. 2015), holding that a predictive dialer that plays a prerecorded message only when a human answers does not violate the TCPA on calls that are not answered because “no prerecorded voice is used.” *Accord Van Patten v. Vertical Fitness Grp., LLC*, 847 F.3d 1037, 1044 (9th Cir. 2017) (distinguishing between ATDS and prerecorded-voice prohibitions: the latter requires actual transmission).
+
+Here, of the seven calls at issue, only three (calls 1, 6, and 7) resulted in a “positive voice” that triggered the Cisco Dialer to play the prerecorded message. Calls 2, 3, and 4 reached an answering machine without triggering the message; call 5 produced a data error. The record confirms that the Cisco Dialer plays a prerecorded message *only* upon detecting a positive voice. Therefore, on calls 2–5, DISH did not use an artificial or prerecorded voice. The district court’s contrary conclusion — that the mere presence of the dialer’s capability suffices — rewrites the statute.
+
+**B. The District Court’s Reliance on DISH’s “Concession” Was Misplaced**
+
+The district court stated that “DISH concedes that the prerecorded voice was present in the calls from the 8047 number regardless of whether Ybarra triggered it.” Record at __. That is incorrect. DISH conceded only that the Cisco Dialer *can* play a prerecorded message when a positive voice is detected; it never conceded that the message was actually played on every call. A concession that a system is capable of using a prerecorded voice does not establish that each call “used” that voice. *See Satterfield v. Simon & Schuster, Inc.*, 569 F.3d 946, 955 (9th Cir. 2009) (defining a “call” as the initiation of a telephone call, but for the prerecorded-voice prohibition, the call must also employ the prohibited technology). The district court collapsed the distinction between capability and actual use, an error that cannot stand.
+
+**C. The TCPA Does Not Treat Unanswered or Untriggered Calls as Violations**
+
+The TCPA’s structure confirms that not every call from a system with prerecorded-voice capacity violates the statute. In *Soppet v. Enhanced Recovery Co., LLC*, 679 F.3d 637, 641 (7th Cir. 2012), the Seventh Circuit explained that a “call” is made when the dialer initiates the connection, but the separate prohibition on using a prerecorded voice requires that the voice be transmitted. *See also Krakauer v. Dish Network, L.L.C.*, 925 F.3d 643, 650 (4th Cir. 2019) (finding liability only for calls that “actually delivered the prerecorded message”). If the district court’s interpretation were correct, every unanswered call from a system with a prerecorded message would be a per se violation, rendering the “using” requirement meaningless. *United States v. Atl. Research Corp.*, 551 U.S. 128, 137 (2007) (courts must avoid interpretations that nullify statutory language).
+
+**D. The District Court’s Error Requires Reversal of Summary Judgment on Four Calls**
+
+Because DISH did not use a prerecorded voice on calls 2, 3, 4, and 5, those calls do not violate § 227(b)(1)(A)(iii). The district court should have granted summary judgment to DISH on those four calls. DISH does not contest liability for the three calls that actually transmitted the prerecorded message (calls 1, 6, and 7). But the district court’s across-the-board ruling that all seven calls violated the TCPA cannot stand. This Court should reverse the partial summary judgment as to calls 2, 3, 4, and 5, and remand for entry of judgment consistent with the TCPA’s plain text.

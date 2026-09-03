@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. Standard of Review**
+
+This Court reviews de novo a dismissal under Rule 12(b)(6), accepting all well-pleaded facts as true and drawing all reasonable inferences in the plaintiff’s favor. *Medina-Velázquez v. Hernández-Gregorat*, 767 F.3d 103, 108 (1st Cir. 2014). To survive, a complaint need only “contain sufficient factual matter, accepted as true, to state a claim to relief that is plausible on its face.” *Ashcroft v. Iqbal*, 556 U.S. 662, 678 (2009) (quoting *Bell Atlantic Corp. v. Twombly*, 550 U.S. 544, 570 (2007)). Foley’s complaint meets this standard.
+
+**II. The District Court Erred in Dismissing Foley’s Breach of Contract Claim**
+
+Foley is an intended third-party beneficiary of the class action settlement agreement between Wells Fargo and the Pick-a-Payment class. Under Massachusetts law, a third party may enforce a contract if “the circumstances indicate that the promisee intends to give the beneficiary the benefit of the promised performance.” *Anderson v. Fox Hill Village Homeowners Corp.*, 734 N.E.2d 679, 684 (Mass. 2000) (quoting Restatement (Second) of Contracts § 302). The settlement agreement explicitly requires Wells Fargo to consider Settlement Class B members—including Foley—for a HAMP modification and, if ineligible, for a MAP2R modification before initiating foreclosure. The agreement’s “servicing commitments” further mandate clear written explanations of denials and foreclosure notifications. Foley alleged that Wells Fargo never considered him for any modification, failed to provide required notices, and proceeded to foreclosure. These allegations plausibly show that Wells Fargo breached duties owed directly to Foley as a class member. *See Spinner v. Nutt*, 627 N.E.2d 930, 933 (Mass. App. Ct. 1994) (third-party beneficiary may sue for breach). The district court’s contrary conclusion ignored the plain language of the agreement and the reasonable inferences from Foley’s detailed factual allegations.
+
+**III. The District Court Erred in Dismissing Foley’s Negligence Claim**
+
+Wells Fargo owed Foley a duty of reasonable care in processing his loan modification application. Massachusetts law recognizes that a lender may assume a duty of care when it undertakes to provide services to a borrower. *Jupin v. Kask*, 849 N.E.2d 829, 834 (Mass. 2006) (duty arises from “affirmative conduct” that induces reliance). Here, Wells Fargo repeatedly promised to send Foley a HAMP application, delayed seven months, then lost his completed application, ignored his calls, and sent misleading letters about short sales while scheduling foreclosure. These allegations state a plausible claim for negligence. *See Cusack v. Cummings*, 541 N.E.2d 1006, 1009 (Mass. 1989) (duty to use reasonable care when undertaking to act). The district court erred by concluding that no duty existed; Foley’s reliance on Wells Fargo’s promises was reasonable and foreseeable.
+
+**IV. The District Court Erred in Dismissing Foley’s Statutory Claim Under Mass. Gen. Laws ch. 244**
+
+Massachusetts law requires a mortgagee to provide a borrower with a right to cure before foreclosure. *See* Mass. Gen. Laws ch. 244, § 35A. Foley alleged that Wells Fargo failed to give him proper notice of his right to cure and proceeded with foreclosure without considering him for a modification as required by the settlement agreement. These allegations state a claim under the statute. *See, e.g., U.S. Bank Nat’l Ass’n v. Schumacher*, 5 N.E.3d 933, 939 (Mass. 2014) (strict compliance with statutory notice requirements is required). The district court’s dismissal on the ground that Foley did not allege a specific statutory violation misapplied the pleading standard; Foley’s factual allegations gave fair notice of the claim.
+
+**V. Wells Fargo’s Preemption Argument Fails**
+
+Wells Fargo argues that federal law—specifically, the Home Affordable Modification Program (HAMP)—preempts Foley’s state-law claims. But HAMP does not preempt state law. *Wigod v. Wells Fargo Bank, N.A.*, 673 F.3d 547, 580 (7th Cir. 2012) (HAMP does not occupy the field and does not conflict with state contract or tort law). Moreover, the settlement agreement is a private contract, not a federal directive. Preemption applies only when Congress has clearly expressed an intent to supersede state law. *Hughes v. Talen Energy Marketing, LLC*, 578 U.S. 150, 162 (2016). No such intent exists here. Foley’s claims arise from Wells Fargo’s independent contractual and common-law duties, not from any federal program. The district court therefore erred in entertaining preemption as a basis for dismissal.
+
+**Conclusion**
+
+For these reasons, this Court should reverse the district court’s dismissal of Counts I, II, and III and remand for further proceedings.

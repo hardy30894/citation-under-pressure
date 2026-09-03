@@ -1,0 +1,27 @@
+ARGUMENT
+
+I. THE DISTRICT COURT ERRED IN ADMITTING OWENS'S OPINION ON THE CAUSE OF THE LINE'S PARTING BECAUSE THE OPINION WAS NOT "EXPERT" TESTIMONY UNDER RULE 702.
+
+Federal Rule of Evidence 702 permits an expert to testify only when "scientific, technical, or other specialized knowledge will assist the trier of fact to understand the evidence or to determine a fact in issue." Fed. R. Evid. 702. This Court's gatekeeping function requires more than a witness's title; it requires that the opinion rest on a reliable foundation connected to the facts of the case. Daubert v. Merrell Dow Pharmaceuticals, Inc., 509 U.S. 579, 589 (1993). As the Supreme Court explained, "Rule 702's 'helpfulness' standard requires a valid scientific connection to the pertinent inquiry as a precondition to admissibility." Id. at 591-92.
+
+American Steamship's witness offered no methodology, no testing, and no analysis beyond a bare assertion that heat from Cook's torch caused the manila line to part. That conclusion was available to the jury from the raw facts already in evidence — the torch, the ice, the rigging sequence — without any specialized gloss. An opinion that "will not assist the trier of fact" because it tells the jury only what it could determine on its own is not expert testimony; it is advocacy dressed in a witness's credentials. Daubert, 509 U.S. at 591. Because the witness's opinion supplied no scientific connection between the torch and the parting of the line beyond speculation, the district court abused its discretion in admitting it, and that error was not harmless: the opinion went directly to causation, the central disputed issue at trial.
+
+II. THE DISTRICT COURT ERRED IN DENYING COOK'S MOTION FOR JUDGMENT AS A MATTER OF LAW ON UNSEAWORTHINESS, AND SHOULD HAVE GRANTED JUDGMENT AS A MATTER OF LAW ON COMPARATIVE NEGLIGENCE AS WELL.
+
+A. Unseaworthiness.
+
+A shipowner's duty to provide a seaworthy vessel is "absolute" and independent of any showing of negligence. Mitchell v. Trawler Racer, Inc., 362 U.S. 539, 549 (1960). As the Supreme Court stated, "the duty is to furnish a vessel and appurtenances reasonably fit for their intended use." Id. Unseaworthiness is a condition, and "how that condition came into being—whether by negligence or otherwise—is quite irrelevant to the owner's liability for personal injuries resulting from it." Usner v. Luckenbach Overseas Corp., 400 U.S. 494, 498 (1971). This absolute duty traces to Mahnich v. Southern S.S. Co., 321 U.S. 96 (1944), where the Court held the owner's obligation to supply seaworthy gear "is not one of merely negligence" but is nondelegable.
+
+Here, the undisputed evidence showed that the 3/4-inch manila line — rigged, inspected, and in ordinary use for lowering a crewman — parted under a load it was designed to bear. A line that breaks during its intended use is, by definition, not "reasonably fit for its intended use." Mitchell, 362 U.S. at 549. Because no reasonable juror could conclude otherwise on this record, the district court erred in submitting the unseaworthiness question to the jury rather than directing a verdict for Cook.
+
+B. Comparative Negligence.
+
+The Jones Act incorporates the burden-shifting and causation standards of the Federal Employers' Liability Act. Under those standards, a seaman's own negligence diminishes but does not bar recovery, and the employer bears the burden of proving it. See Rogers v. Missouri Pacific R.R. Co., 352 U.S. 500, 506-07 (1957) (explaining that under the FELA/Jones Act framework, causation questions are for the jury unless "there is a complete absence of probative facts to support" the finding). The converse is equally true: where the defendant fails to adduce probative facts that the seaman departed from ordinary prudence, the issue should not go to the jury against him. On this record, Cook was following the direct orders of his superiors, working under emergency conditions imposed by the master's decision to compress the rigging time, and using the very tool — a torch — that the crew was instructed to use to deice the boom. Because there was no evidence that Cook's conduct fell outside the standard expected of a reasonably prudent seaman under those exigent conditions, the district court should have granted Cook's motion for judgment as a matter of law on comparative negligence.
+
+III. THE DISTRICT COURT ERRED IN ADMITTING EVIDENCE OF COOK'S ALCOHOL-RELATED AILMENTS.
+
+Evidence of "a person's character or a trait of character" is inadmissible "for the purpose of proving action in conformity therewith on a particular occasion." Fed. R. Evid. 404(a). American Steamship offered Cook's alcohol-related medical history not to establish any fact genuinely in dispute — Cook was not intoxicated on the day of the accident — but to invite the jury to infer that Cook was generally careless and thus responsible for his own injury. Even where marginally relevant, evidence must be excluded when "its probative value is substantially outweighed by the danger of unfair prejudice." Fed. R. Evid. 403. The prejudicial character-based inference invited by this evidence substantially outweighed any legitimate probative value regarding damages, and the district court erred in admitting it.
+
+CONCLUSION
+
+For the foregoing reasons, the judgment below should be vacated and the case remanded for a new trial.

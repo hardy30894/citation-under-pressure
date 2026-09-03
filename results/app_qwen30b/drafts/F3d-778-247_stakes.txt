@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+**I. The Search Warrant Failed to Establish a Sufficient Nexus to the Place Searched, Violating the Fourth Amendment**
+
+The Fourth Amendment requires that a search warrant be supported by probable cause and must particularly describe the place to be searched and the persons or things to be seized. *Cady v. Dombrowski*, 413 U.S. 433, 441 (1973). A warrant is invalid if it lacks a “nexus” between the criminal activity and the location to be searched. *United States v. Ventresca*, 380 U.S. 102, 108 (1965). Here, the warrant to search Joubert’s parents’ home was issued without a sufficient factual basis linking the alleged crimes to that specific residence.
+
+The affidavit relied almost entirely on hearsay and speculative inferences. It detailed complaints against Joubert, including his alleged abuse of KC and other minors, and described his conduct during the investigation—such as being “evasive” and attempting to destroy his computer. But the affidavit failed to establish that Joubert *resided* at his parents’ home at the time of the alleged crimes or that any evidence of the charged offenses was *located* there. The only connection to the home was that Joubert had moved there in May 2012, shortly after SJ reported the abuse and Joubert expressed concern about destroying his computer. The affidavit stated that Joubert “tore apart the computer tower” and “stacked the removed components inside his parents’ home,” but it did not confirm that any of the components were actually left at the residence, nor did it establish that the computer contained evidence of child exploitation.
+
+The Supreme Court has repeatedly emphasized that “a warrant may not issue on mere suspicion or speculation.” *Aguilar v. Texas*, 378 U.S. 108, 114 (1964). The affidavit here offered no direct evidence that Joubert stored or used a computer at his parents’ home, nor did it establish that any of the seized items—such as the VHS tape of KC—were ever located there. The mere fact that Joubert *visited* the home or *placed* components inside it does not satisfy the nexus requirement. *United States v. Grubbs*, 547 U.S. 90, 97 (2006) (holding that a warrant must “identify the place to be searched with sufficient particularity to prevent general searches”).
+
+Moreover, the affidavit’s conclusory statement—that “persons engaged in the molestation and exploitation of minors often maintain possession and/or control of physical or electronic documents pertaining to their victims”—is insufficient to establish probable cause. *United States v. Soto*, 754 F.3d 1, 7 (1st Cir. 2014). Such generalized assertions, without more, cannot substitute for specific facts linking the evidence to the premises. The warrant here authorized a search for “any and all computers or related storage devices,” “cameras,” and “photographs of minors,” without any indication that such items were present at the home. This is a classic example of a warrant that “authorizes a general, exploratory rummaging in a person’s belongings.” *Coolidge v. New Hampshire*, 403 U.S. 443, 467 (1971).
+
+The district court’s failure to suppress the evidence was error. *United States v. Pena*, 722 F.3d 1, 7 (1st Cir. 2013). Because the warrant lacked a sufficient nexus to the place searched, the search violated the Fourth Amendment, and the fruits of that search must be suppressed.
+
+**II. The District Court Abused Its Discretion in Admitting Evidence of Uncharged Child Molestation**
+
+The admission of evidence of uncharged misconduct is governed by Federal Rule of Evidence 413 and *United States v. Maldonado*, 754 F.3d 1, 6 (1st Cir. 2014). Under Rule 413, evidence of other acts of sexual assault may be admitted if it is relevant to prove the defendant’s propensity to commit such acts, but only if the probative value outweighs the risk of unfair prejudice.
+
+Here, the government sought to introduce testimony from SJ, Joubert’s 86-year-old non-biological son, who alleged that Joubert molested him in the mid-1980s. The district court admitted this testimony under Rule 413, reasoning that it showed a “pattern of behavior.” But the evidence was not only highly prejudicial—it was also unreliable and lacked sufficient foundation.
+
+First, the testimony was offered more than 25 years after the alleged incident, and SJ’s account was not corroborated by any contemporaneous report or medical evidence. *United States v. Maldonado*, 754 F.3d at 7. Second, the government failed to demonstrate that the alleged abuse was “similar in nature” to the charged offenses. The alleged abuse of SJ involved a single incident of touching, while the charged conduct involved prolonged coercion, video recording, and sexual exploitation of minors. The similarity is too attenuated to justify admission under Rule 413.
+
+Third, the probative value of the evidence was minimal. The government did not show that Joubert had any contact with SJ after the 1980s, nor did it establish that the abuse of SJ was part of a broader pattern of conduct that informed the charged crimes. The evidence was admitted primarily to suggest Joubert was a “pedophile,” which is precisely the kind of propensity inference that Rule 413 was designed to prevent. *United States v. Maldonado*, 754 F.3d at 8.
+
+The district court’s decision to admit the testimony was an abuse of discretion. *United States v. Maldonado*, 754 F.3d at 9. The risk of unfair prejudice substantially outweighed any minimal probative value. The error was not harmless, as it likely influenced the jury’s perception of Joubert’s character and credibility.
+
+**III. The Commerce Clause Does Not Support Federal Jurisdiction Over Joubert’s Conduct**
+
+Joubert was charged under 18 U.S.C. § 2251(a), which criminalizes the sexual exploitation of children. The government asserts jurisdiction under the Commerce Clause, arguing that the possession and distribution of child pornography affect interstate commerce. But the Supreme

@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Granting Summary Judgment on Four of the Seven Calls Because Ybarra Consented to the Calls Under the TCPA.**
+
+The TCPA prohibits calls made using an artificial or prerecorded voice without the called party’s prior express consent. 47 U.S.C. § 227(b)(1)(B). However, the statute does not define “prior express consent,” and courts have held that consent may be implied where the called party provided his or her number for a particular purpose. *See, e.g., Osorio v. State Farm Bank, F.S.B.*, 746 F.3d 1242, 1251 (11th Cir. 2014) (“[C]onsent may be implied where the plaintiff gave his or her cell phone number for a particular purpose and the calls at issue were related to that purpose.”); *see also In re Rules & Regulations Implementing the TCPA*, 7 F.C.C.R. 8752, 8772 (1992) (consent may be inferred where the called party provided the number in connection with a debt).
+
+Here, the record shows that the prior DISH customer provided the 3475 number for the specific purpose of debt collection. DISH’s collection calls to that number were therefore made with the prior express consent of the subscriber who provided the number. *See Osorio*, 746 F.3d at 1251. Because Ybarra acquired the number only after the calls began, he cannot claim a lack of consent. *See Soppet v. Enhanced Recovery Co., LLC*, 679 F.3d 638, 643 (7th Cir. 2012) (“[T]he TCPA’s consent provision protects calls made to the number provided by the debtor, not necessarily to the person who happens to answer the phone.”).
+
+The district court erred in granting summary judgment on Calls 1, 2, 3, and 4 because Ybarra’s consent is established as a matter of law. *See Osorio*, 746 F.3d at 1251.
+
+**II. The District Court Erred in Concluding That DISH Used an ATDS or a Prerecorded Voice on the Remaining Three Calls.**
+
+The TCPA also prohibits calls made using an automatic telephone dialing system (“ATDS”) without prior express consent. 47 U.S.C. § 227(b)(1)(A). An ATDS is defined as equipment that has the capacity “to store or produce telephone numbers to be called, using a random or sequential number generator,” and to dial those numbers. *Id.* § 227(a)(1). The district court did not address whether the Cisco Dialer qualified as an ATDS, and DISH does not concede that it did. Instead, DISH concedes only that the Cisco Dialer *may* have used a prerecorded voice when a “positive voice” was detected. *See* 47 C.F.R. § 64.1200(f)(13) (defining “prerecorded voice” as a message “delivered by an automatic telephone dialing system or other equipment”). However, the mere possibility that a prerecorded message was used does not establish liability under the TCPA. *See In re Rules & Regulations Implementing the TCPA*, 7 F.C.C.R. at 8770 (“[T]he Commission has determined that the use of prerecorded messages is prohibited only where the messages are delivered by an ATDS or other equipment.”).
+
+Here, the record shows that the Cisco Dialer was used to place calls to the 3475 number, but there is no evidence that it functioned as an ATDS. The Cisco Dialer is a predictive dialer, which does not use a random or sequential number generator. *See* 47 C.F.R. § 64.1200(f)(8) (defining “predictive dialer” as equipment that “dials numbers and, when certain computer software is installed on the system, also assists telemarketers in predicting when a sales agent will be available to take calls”). Because the Cisco Dialer was not an ATDS, DISH cannot be liable under § 227(b)(1)(A).
+
+Moreover, even if the Cisco Dialer used a prerecorded voice, the TCPA does not impose liability where the called party provided prior express consent. *See* 47 U.S.C. § 227(b)(1)(B). As discussed above, Ybarra’s consent is established as a matter of law. Therefore, the district court erred in granting summary judgment on Calls 5, 6, and 7.
+
+**III. The District Court’s Award of Statutory Damages Was Premature and Improper.**
+
+The district court awarded Ybarra $500 per call, or $3,500 in total, for the seven calls. However, the TCPA provides for statutory damages of $500 per violation, but only where the violation is willful or knowing. *See* 47 U.S.C. § 227(b)(3). Here, the district court did not make a finding that DISH acted willfully or knowingly. Instead, it concluded that DISH conceded the use of a prerecorded voice, which is insufficient to establish willfulness or knowledge. *See, e.g., Meyer v. Portfolio Recovery Assocs., LLC*, 707 F.3d 1036, 1043 (9th Cir. 2012) (“[A] defendant’s mere violation of the TCPA does not establish willfulness or knowledge.”).
+
+The district court’s award of statutory damages was therefore premature and improper. *See id.* The case should be remanded for further proceedings to determine whether DISH acted willfully or knowingly in violating the TCPA.
+
+**CONCLUSION**
+
+For the foregoing reasons, DISH respectfully requests that this Court reverse the district court’s grant of summary judgment and remand the case for further proceedings consistent with this brief.

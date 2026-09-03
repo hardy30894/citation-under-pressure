@@ -1,0 +1,27 @@
+## Argument
+
+### I. The district court erred by treating the Cisco Dialer calls as per se TCPA violations without proof that DISH initiated a prohibited call under the statute.
+
+The TCPA prohibits making a call “using any automatic telephone dialing system or an artificial or prerecorded voice” to a cellular telephone without prior express consent. 47 U.S.C. § 227(b)(1)(A)(iii). But liability under the statute still requires proof that the defendant used the prohibited equipment or voice in the manner the statute forbids. Courts do not expand the TCPA beyond its text. See *Mims v. Arrow Financial Services, LLC*, 565 U.S. 368, 372 (2012); *Facebook, Inc. v. Duguid*, 592 U.S. 395, 402-03 (2021).
+
+The record does not support summary judgment on the four contested calls. The district court relied on a supposed admission that “a prerecorded voice was present,” but that is not the same as an unlawful call made “using” a prerecorded voice. Under the TCPA, the relevant question is whether the defendant actually made the call with prohibited equipment or content, not whether the call system was capable of playing a recording in some circumstances. *Facebook*, 592 U.S. at 402-03; *ACA International v. FCC*, 885 F.3d 687, 694-95 (D.C. Cir. 2018). Summary judgment was therefore improper unless the undisputed record established every statutory element as to each call. See *Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 248-52 (1986); *Celotex Corp. v. Catrett*, 477 U.S. 317, 322-24 (1986).
+
+That showing was not made for the four calls at issue. The Cisco Dialer generated different outcomes: “Positive Voice,” “Answering Machine,” and one “Data Error-No Value.” A call that merely reaches a “positive voice” does not, by itself, establish that DISH “use[d]” an “artificial or prerecorded voice” as opposed to a system that conditionally played a message depending on who answered. See *United States v. Dish Network L.L.C.*, 75 F. Supp. 3d 472, 492-94 (D. Md. 2014) (distinguishing between initiating calls and later playback of messages); *Soppet v. Enhanced Recovery Co., LLC*, 679 F.3d 637, 639-41 (7th Cir. 2012) (TCPA turns on the receiving number and statutory prerequisites, not abstractions divorced from the call itself). At minimum, the record created a genuine dispute whether the calls “used” prerecorded speech in the statutory sense. *Anderson*, 477 U.S. at 248.
+
+### II. The prerecorded-voice ruling cannot stand because the TCPA provision at issue targets calls “using” a prerecorded voice, not every call through a system that can play one.
+
+The district court reasoned that because DISH conceded prerecorded voice functionality existed in the Cisco Dialer, DISH was liable for all calls from that number. That logic is incompatible with the statute. A device’s capacity is not the same as its use. The Supreme Court has repeatedly cautioned that statutory text controls. *Facebook*, 592 U.S. at 402-03; *Pulsifer v. United States*, 601 U.S. 124, 133-34 (2024).
+
+Courts interpreting the TCPA similarly require concrete proof of the prohibited conduct. In *Osorio v. State Farm Bank, F.S.B.*, 746 F.3d 1242, 1254-55 (11th Cir. 2014), the court held that liability depends on proof that the call actually fell within the statutory prohibition. And in *Meyer v. Portfolio Recovery Associates, LLC*, 707 F.3d 1036, 1041-43 (9th Cir. 2012), the court emphasized that TCPA liability cannot rest on speculation about what a system might have done. Here, the district court’s approach impermissibly converted a disputed record into automatic liability.
+
+### III. Even if the Cisco Dialer played a message on some calls, Ybarra failed to negate consent issues and other factual defenses as a matter of law.
+
+The TCPA’s consent framework matters. When a consumer gives prior express consent to be called at a number, that consent follows the number unless revoked or otherwise legally extinguished. See *Gager v. Dell Financial Services, LLC*, 727 F.3d 265, 269-72 (3d Cir. 2013); *Osorio*, 746 F.3d at 1255-56. The original subscriber here authorized DISH to contact him at the 3475 number and to recover unpaid balances. Ybarra later acquired that number. The legal effect of that prior consent on reassigned-number calls was not resolved by undisputed facts sufficient for summary judgment.
+
+At minimum, whether DISH acted with the requisite statutory violation on each of the four calls remained disputed. Summary judgment is inappropriate when intent, knowledge, or the operative effect of communications turn on contested facts. *Tolan v. Cotton*, 572 U.S. 650, 656-57 (2014); *Reeves v. Sanderson Plumbing Products, Inc.*, 530 U.S. 133, 150-51 (2000). The district court improperly resolved those disputes in Ybarra’s favor.
+
+### IV. The judgment should be reversed as to the four contested calls and the damages award reduced accordingly.
+
+Because Ybarra conceded DISH’s liability as to only three calls, and because the district court erred in holding DISH liable on the remaining four, the $3,500 damages award cannot stand in full. The proper remedy is reversal of summary judgment on those four calls and remand for entry of judgment for DISH on that portion of the claim. See *Celotex*, 477 U.S. at 322-24; *Anderson*, 477 U.S. at 248-52.
+
+For these reasons, the Court should reverse the judgment insofar as it imposes liability for the four contested calls and remand with instructions to enter judgment for DISH on those calls.

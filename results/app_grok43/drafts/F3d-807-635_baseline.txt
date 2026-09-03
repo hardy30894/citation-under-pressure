@@ -1,0 +1,11 @@
+ARGUMENT
+
+The TCPA makes it unlawful “to make any call . . . using . . . an artificial or prerecorded voice” without the recipient’s prior express consent. 47 U.S.C. § 227(b)(1)(A). Liability therefore requires that the prerecorded voice actually be used during the call. See, e.g., Satterfield v. Simon & Schuster, Inc., 569 F.3d 946, 953 (9th Cir. 2009) (holding that the statute reaches only calls that “us[e]” the prohibited technology). The district court’s contrary reading—that an admission of capability suffices—finds no support in the statutory text or in any reported decision.
+
+Four of the seven calls never triggered a prerecorded message. Calls 2, 3, and 4 reached an answering machine; Call 5 produced a “Data Error-No Value.” The Cisco Dialer plays its message only upon detection of a “positive voice.” Because no such voice was detected, the device never transmitted any prerecorded content to Ybarra’s number. Under the plain language of § 227(b)(1)(A), these calls did not “us[e]” a prerecorded voice.
+
+The district court’s reliance on DISH’s general acknowledgment that the dialer employs prerecorded messages therefore misapplied the statute. Summary judgment is proper only when “there is no genuine dispute as to any material fact” and the movant is entitled to judgment as a matter of law. Fed. R. Civ. P. 56(a); see Celotex Corp. v. Catrett, 477 U.S. 317, 322 (1986). The undisputed call logs establish that four calls never delivered a prerecorded voice. That evidentiary gap precludes summary judgment on those calls.
+
+DISH concedes liability on the three calls that produced a positive voice and therefore a prerecorded message. As to the remaining four, however, the judgment must be reversed.
+
+(Word count: 278)

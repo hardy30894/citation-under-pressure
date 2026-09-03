@@ -1,160 +1,107 @@
 {
   "model": "qwen/qwen3-30b-a3b-instruct-2507",
-  "n_rows": 12,
-  "total_cost_usd": 0.0159,
+  "n_rows": 40,
+  "total_cost_usd": 0.0795,
   "rows": [
     {
-      "matter": "F3d-133-322",
+      "matter": "F3d-807-635",
       "side": null,
       "condition": "baseline",
-      "n_citations": 3,
-      "existence_rate": 1.0,
+      "n_citations": 6,
+      "existence_rate": 0.1667,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "inaccurate": 1,
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "in_range": 3
-      },
-      "abstained": false,
-      "draft_chars": 5043
-    },
-    {
-      "matter": "F3d-133-322",
-      "side": null,
-      "condition": "combo",
-      "n_citations": 3,
-      "existence_rate": 0.3333,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.5,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "near_miss": 1,
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 1,
-        "not_found": 2
-      },
-      "pin_verdicts": {
-        "in_range": 1,
-        "case_unknown": 2
-      },
-      "abstained": false,
-      "draft_chars": 6088,
-      "temporal": {
-        "checked": 3,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "F3d-134-948",
-      "side": null,
-      "condition": "baseline",
-      "n_citations": 7,
-      "existence_rate": 0.7143,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 7,
-      "quote_verdicts": {
-        "inaccurate": 5,
-        "near_miss": 2
-      },
-      "cite_verdicts": {
-        "exists": 5,
-        "not_found": 2
-      },
-      "pin_verdicts": {
-        "in_range": 5,
-        "case_unknown": 2
-      },
-      "abstained": false,
-      "draft_chars": 5880
-    },
-    {
-      "matter": "F3d-134-948",
-      "side": null,
-      "condition": "combo",
-      "n_citations": 9,
-      "existence_rate": 0.1111,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
+      "quote_rate_strict": null,
       "n_quotes": 1,
       "quote_verdicts": {
-        "near_miss": 1
+        "unverifiable": 1
       },
       "cite_verdicts": {
-        "not_found": 8,
+        "not_found": 5,
         "exists": 1
       },
       "pin_verdicts": {
-        "case_unknown": 8,
+        "case_unknown": 5,
         "no_pin": 1
       },
       "abstained": false,
-      "draft_chars": 6070,
-      "temporal": {
-        "checked": 9,
-        "violated": 1
-      }
+      "draft_chars": 5402
     },
     {
-      "matter": "F3d-159-480",
+      "matter": "F3d-807-635",
       "side": null,
-      "condition": "baseline",
-      "n_citations": 3,
-      "existence_rate": 0.6667,
+      "condition": "quota",
+      "n_citations": 5,
+      "existence_rate": 0.4,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
-      "n_quotes": 0,
-      "quote_verdicts": {},
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "unverifiable": 3
+      },
       "cite_verdicts": {
         "exists": 2,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "no_pin": 3
-      },
-      "abstained": false,
-      "draft_chars": 4884
-    },
-    {
-      "matter": "F3d-159-480",
-      "side": null,
-      "condition": "combo",
-      "n_citations": 8,
-      "existence_rate": 0.625,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 4,
-      "quote_verdicts": {
-        "near_miss": 3,
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 5,
         "not_found": 3
       },
       "pin_verdicts": {
-        "no_pin": 8
+        "in_range": 2,
+        "case_unknown": 3
       },
       "abstained": false,
-      "draft_chars": 6468,
+      "draft_chars": 5563
+    },
+    {
+      "matter": "F3d-807-635",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 5,
+      "quote_verdicts": {
+        "inaccurate": 5
+      },
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "no_pin": 5
+      },
+      "abstained": false,
+      "draft_chars": 5286,
       "temporal": {
-        "checked": 8,
+        "checked": 5,
         "violated": 0
       }
     },
     {
-      "matter": "F3d-169-1322",
+      "matter": "F3d-807-635",
       "side": null,
-      "condition": "baseline",
+      "condition": "stakes",
+      "n_citations": 4,
+      "existence_rate": 0.5,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "near_miss": 2,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "not_found": 2,
+        "exists": 2
+      },
+      "pin_verdicts": {
+        "case_unknown": 2,
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 5566
+    },
+    {
+      "matter": "F3d-807-635",
+      "side": null,
+      "condition": "combo",
       "n_citations": 3,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
@@ -170,50 +117,648 @@
         "in_range": 3
       },
       "abstained": false,
-      "draft_chars": 5894
+      "draft_chars": 6040,
+      "temporal": {
+        "checked": 3,
+        "violated": 0
+      }
     },
     {
-      "matter": "F3d-169-1322",
+      "matter": "F3d-842-299",
       "side": null,
-      "condition": "combo",
+      "condition": "baseline",
+      "n_citations": 8,
+      "existence_rate": 0.5,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 5,
+      "quote_verdicts": {
+        "inaccurate": 3,
+        "near_miss": 2
+      },
+      "cite_verdicts": {
+        "exists": 4,
+        "not_found": 4
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "case_unknown": 4
+      },
+      "abstained": false,
+      "draft_chars": 5981
+    },
+    {
+      "matter": "F3d-842-299",
+      "side": null,
+      "condition": "quota",
       "n_citations": 9,
       "existence_rate": 0.8889,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
-      "n_quotes": 7,
+      "n_quotes": 8,
       "quote_verdicts": {
-        "inaccurate": 6,
-        "near_miss": 1
+        "inaccurate": 3,
+        "near_miss": 5
       },
       "cite_verdicts": {
         "exists": 8,
         "not_found": 1
       },
       "pin_verdicts": {
-        "in_range": 7,
-        "in_range_unbounded": 1,
+        "in_range": 8,
         "case_unknown": 1
       },
       "abstained": false,
-      "draft_chars": 5835,
+      "draft_chars": 5714
+    },
+    {
+      "matter": "F3d-842-299",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 8,
+      "existence_rate": 0.875,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 6,
+      "quote_verdicts": {
+        "inaccurate": 3,
+        "near_miss": 3
+      },
+      "cite_verdicts": {
+        "exists": 7,
+        "not_found": 1
+      },
+      "pin_verdicts": {
+        "in_range": 7,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 5947,
       "temporal": {
-        "checked": 9,
-        "violated": 1
+        "checked": 8,
+        "violated": 2
       }
     },
     {
-      "matter": "F3d-246-633",
+      "matter": "F3d-842-299",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 0.6,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "near_miss": 2
+      },
+      "cite_verdicts": {
+        "exists": 3,
+        "not_found": 2
+      },
+      "pin_verdicts": {
+        "in_range": 3,
+        "case_unknown": 2
+      },
+      "abstained": false,
+      "draft_chars": 5632
+    },
+    {
+      "matter": "F3d-842-299",
+      "side": null,
+      "condition": "combo",
+      "n_citations": 9,
+      "existence_rate": 0.5556,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 2,
+        "unverifiable": 1
+      },
+      "cite_verdicts": {
+        "exists": 5,
+        "not_found": 4
+      },
+      "pin_verdicts": {
+        "in_range": 5,
+        "case_unknown": 4
+      },
+      "abstained": false,
+      "draft_chars": 6100,
+      "temporal": {
+        "checked": 9,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-866-962",
+      "side": null,
+      "condition": "baseline",
+      "n_citations": 3,
+      "existence_rate": 0.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "not_found": 3
+      },
+      "pin_verdicts": {
+        "case_unknown": 3
+      },
+      "abstained": false,
+      "draft_chars": 6427
+    },
+    {
+      "matter": "F3d-866-962",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 3,
+      "existence_rate": 0.6667,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.25,
+      "n_quotes": 4,
+      "quote_verdicts": {
+        "inaccurate": 3,
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 1
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 6222
+    },
+    {
+      "matter": "F3d-866-962",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 1,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 1
+      },
+      "pin_verdicts": {
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 5421,
+      "temporal": {
+        "checked": 1,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-866-962",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 4,
+      "existence_rate": 0.5,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.3333,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 2,
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 2
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "case_unknown": 2
+      },
+      "abstained": false,
+      "draft_chars": 5499
+    },
+    {
+      "matter": "F3d-866-962",
+      "side": null,
+      "condition": "combo",
+      "n_citations": 4,
+      "existence_rate": 0.5,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 3
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 2
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "case_unknown": 2
+      },
+      "abstained": false,
+      "draft_chars": 5551,
+      "temporal": {
+        "checked": 4,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-87-457",
+      "side": null,
+      "condition": "baseline",
+      "n_citations": 8,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 8,
+      "quote_verdicts": {
+        "inaccurate": 5,
+        "near_miss": 3
+      },
+      "cite_verdicts": {
+        "exists": 8
+      },
+      "pin_verdicts": {
+        "in_range": 7,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 6477
+    },
+    {
+      "matter": "F3d-87-457",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 27,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.125,
+      "n_quotes": 8,
+      "quote_verdicts": {
+        "near_miss": 5,
+        "inaccurate": 2,
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 27
+      },
+      "pin_verdicts": {
+        "no_pin": 13,
+        "in_range": 14
+      },
+      "abstained": false,
+      "draft_chars": 4910
+    },
+    {
+      "matter": "F3d-87-457",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 9,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 9
+      },
+      "pin_verdicts": {
+        "in_range": 8,
+        "out_of_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 6421,
+      "temporal": {
+        "checked": 9,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-87-457",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 19,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 4,
+      "quote_verdicts": {
+        "near_miss": 4
+      },
+      "cite_verdicts": {
+        "exists": 19
+      },
+      "pin_verdicts": {
+        "in_range": 12,
+        "no_pin": 7
+      },
+      "abstained": false,
+      "draft_chars": 5640
+    },
+    {
+      "matter": "F3d-87-457",
+      "side": null,
+      "condition": "combo",
+      "n_citations": 4,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "near_miss": 1,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 4
+      },
+      "pin_verdicts": {
+        "in_range": 4
+      },
+      "abstained": false,
+      "draft_chars": 6208,
+      "temporal": {
+        "checked": 4,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-923-938",
+      "side": null,
+      "condition": "baseline",
+      "n_citations": 7,
+      "existence_rate": 0.2857,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 3
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 5
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "case_unknown": 2,
+        "no_pin": 3
+      },
+      "abstained": false,
+      "draft_chars": 5866
+    },
+    {
+      "matter": "F3d-923-938",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 6,
+      "existence_rate": 0.3333,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "unverifiable": 2
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 4
+      },
+      "pin_verdicts": {
+        "in_range": 1,
+        "case_unknown": 2,
+        "out_of_range": 1,
+        "no_pin": 2
+      },
+      "abstained": false,
+      "draft_chars": 5575
+    },
+    {
+      "matter": "F3d-923-938",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 2,
+      "existence_rate": 0.5,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "not_found": 1,
+        "exists": 1
+      },
+      "pin_verdicts": {
+        "case_unknown": 1,
+        "out_of_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 5895,
+      "temporal": {
+        "checked": 2,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-923-938",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 0.4,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 3
+      },
+      "cite_verdicts": {
+        "exists": 2,
+        "not_found": 3
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "no_pin": 2,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 6107
+    },
+    {
+      "matter": "F3d-923-938",
+      "side": null,
+      "condition": "combo",
+      "n_citations": 8,
+      "existence_rate": 0.125,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 1,
+        "not_found": 7
+      },
+      "pin_verdicts": {
+        "in_range": 1,
+        "case_unknown": 6,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 5799,
+      "temporal": {
+        "checked": 8,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-928-311",
+      "side": null,
+      "condition": "baseline",
+      "n_citations": 4,
+      "existence_rate": 0.25,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "not_found": 3,
+        "exists": 1
+      },
+      "pin_verdicts": {
+        "case_unknown": 3,
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 5905
+    },
+    {
+      "matter": "F3d-928-311",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 9,
+      "existence_rate": 0.1111,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "not_found": 8,
+        "exists": 1
+      },
+      "pin_verdicts": {
+        "case_unknown": 8,
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 5242
+    },
+    {
+      "matter": "F3d-928-311",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 5,
+      "existence_rate": 0.6,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 2
+      },
+      "cite_verdicts": {
+        "not_found": 2,
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "case_unknown": 2,
+        "in_range": 2,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 5920,
+      "temporal": {
+        "checked": 5,
+        "violated": 5
+      }
+    },
+    {
+      "matter": "F3d-928-311",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 7,
+      "existence_rate": 0.4286,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 10,
+      "quote_verdicts": {
+        "near_miss": 6,
+        "inaccurate": 4
+      },
+      "cite_verdicts": {
+        "not_found": 4,
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "case_unknown": 4,
+        "in_range": 2,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 5434
+    },
+    {
+      "matter": "F3d-928-311",
+      "side": null,
+      "condition": "combo",
+      "n_citations": 4,
+      "existence_rate": 0.75,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 7,
+      "quote_verdicts": {
+        "inaccurate": 5,
+        "unverifiable": 2
+      },
+      "cite_verdicts": {
+        "exists": 3,
+        "not_found": 1
+      },
+      "pin_verdicts": {
+        "in_range": 3,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 6015,
+      "temporal": {
+        "checked": 4,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-95-375",
       "side": null,
       "condition": "baseline",
       "n_citations": 8,
       "existence_rate": 0.5,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.1667,
-      "n_quotes": 6,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 4,
-        "inaccurate": 1
+        "inaccurate": 2
       },
       "cite_verdicts": {
         "not_found": 4,
@@ -224,134 +769,333 @@
         "in_range": 4
       },
       "abstained": false,
-      "draft_chars": 5706
+      "draft_chars": 5753
     },
     {
-      "matter": "F3d-246-633",
+      "matter": "F3d-95-375",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 7,
+      "existence_rate": 0.5714,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 4,
+        "not_found": 3
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "case_unknown": 3
+      },
+      "abstained": false,
+      "draft_chars": 5865
+    },
+    {
+      "matter": "F3d-95-375",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 2,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 2
+      },
+      "pin_verdicts": {
+        "no_pin": 2
+      },
+      "abstained": false,
+      "draft_chars": 4842,
+      "temporal": {
+        "checked": 2,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-95-375",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 12,
+      "existence_rate": 0.75,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 9,
+        "not_found": 3
+      },
+      "pin_verdicts": {
+        "no_pin": 5,
+        "case_unknown": 3,
+        "in_range": 4
+      },
+      "abstained": false,
+      "draft_chars": 5777
+    },
+    {
+      "matter": "F3d-95-375",
       "side": null,
       "condition": "combo",
-      "n_citations": 6,
+      "n_citations": 11,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 9,
+      "quote_verdicts": {
+        "inaccurate": 8,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 11
+      },
+      "pin_verdicts": {
+        "in_range": 11
+      },
+      "abstained": false,
+      "draft_chars": 6038,
+      "temporal": {
+        "checked": 11,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-96-66",
+      "side": null,
+      "condition": "baseline",
+      "n_citations": 4,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "unverifiable": 1
+      },
+      "cite_verdicts": {
+        "exists": 4
+      },
+      "pin_verdicts": {
+        "no_pin": 3,
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 5995
+    },
+    {
+      "matter": "F3d-96-66",
+      "side": null,
+      "condition": "quota",
+      "n_citations": 7,
+      "existence_rate": 0.7143,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 5,
+        "not_found": 2
+      },
+      "pin_verdicts": {
+        "in_range": 1,
+        "no_pin": 4,
+        "case_unknown": 2
+      },
+      "abstained": false,
+      "draft_chars": 5830
+    },
+    {
+      "matter": "F3d-96-66",
+      "side": null,
+      "condition": "temporal",
+      "n_citations": 3,
+      "existence_rate": 0.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "not_found": 3
+      },
+      "pin_verdicts": {
+        "case_unknown": 3
+      },
+      "abstained": false,
+      "draft_chars": 6178,
+      "temporal": {
+        "checked": 3,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "F3d-96-66",
+      "side": null,
+      "condition": "stakes",
+      "n_citations": 3,
       "existence_rate": 0.6667,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
       "n_quotes": 2,
       "quote_verdicts": {
         "near_miss": 1,
-        "unverifiable": 1
+        "inaccurate": 1
       },
       "cite_verdicts": {
-        "exists": 4,
-        "not_found": 2
+        "exists": 2,
+        "not_found": 1
       },
       "pin_verdicts": {
-        "in_range": 3,
-        "case_unknown": 2,
-        "out_of_range": 1
+        "in_range": 2,
+        "case_unknown": 1
       },
       "abstained": false,
-      "draft_chars": 5709,
-      "temporal": {
-        "checked": 6,
-        "violated": 2
-      }
+      "draft_chars": 5173
     },
     {
-      "matter": "F3d-472-471",
+      "matter": "F3d-96-66",
       "side": null,
-      "condition": "baseline",
-      "n_citations": 8,
-      "existence_rate": 0.25,
+      "condition": "combo",
+      "n_citations": 3,
+      "existence_rate": 0.3333,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
       "n_quotes": 0,
       "quote_verdicts": {},
       "cite_verdicts": {
-        "not_found": 6,
-        "exists": 2
+        "exists": 1,
+        "not_found": 2
       },
       "pin_verdicts": {
-        "case_unknown": 6,
-        "in_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 5896
-    },
-    {
-      "matter": "F3d-472-471",
-      "side": null,
-      "condition": "combo",
-      "n_citations": 10,
-      "existence_rate": 0.2,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "inaccurate": 2,
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "not_found": 8,
-        "exists": 2
-      },
-      "pin_verdicts": {
-        "case_unknown": 8,
         "in_range": 1,
-        "out_of_range": 1
+        "case_unknown": 2
       },
       "abstained": false,
-      "draft_chars": 6323,
+      "draft_chars": 6004,
       "temporal": {
-        "checked": 10,
-        "violated": 0
+        "checked": 3,
+        "violated": 1
       }
     }
   ],
   "by_condition": {
     "combo": {
-      "drafts": 6,
+      "drafts": 8,
       "abstained": 0,
-      "citations_total": 45,
+      "citations_total": 46,
       "cite_verdicts": {
-        "exists": 21,
-        "not_found": 24
+        "exists": 30,
+        "not_found": 16
       },
-      "existence_rate_pooled": 0.467,
+      "existence_rate_pooled": 0.652,
       "quote_verdicts": {
-        "near_miss": 7,
-        "accurate": 1,
-        "inaccurate": 9,
-        "unverifiable": 2
+        "inaccurate": 22,
+        "unverifiable": 3,
+        "near_miss": 2
       },
       "pin_verdicts": {
-        "in_range": 12,
-        "case_unknown": 21,
-        "no_pin": 9,
-        "in_range_unbounded": 1,
+        "in_range": 30,
+        "case_unknown": 15,
+        "no_pin": 1
+      },
+      "temporal": {
+        "checked": 46,
+        "violated": 1
+      }
+    },
+    "temporal": {
+      "drafts": 8,
+      "abstained": 0,
+      "citations_total": 35,
+      "cite_verdicts": {
+        "exists": 28,
+        "not_found": 7
+      },
+      "existence_rate_pooled": 0.8,
+      "quote_verdicts": {
+        "inaccurate": 14,
+        "near_miss": 4
+      },
+      "pin_verdicts": {
+        "no_pin": 8,
+        "in_range": 18,
+        "case_unknown": 7,
         "out_of_range": 2
       },
       "temporal": {
-        "checked": 45,
-        "violated": 4
+        "checked": 35,
+        "violated": 7
       }
     },
     "baseline": {
-      "drafts": 6,
+      "drafts": 8,
       "abstained": 0,
-      "citations_total": 32,
+      "citations_total": 48,
       "cite_verdicts": {
-        "exists": 19,
-        "not_found": 13
+        "not_found": 24,
+        "exists": 24
       },
-      "existence_rate_pooled": 0.594,
+      "existence_rate_pooled": 0.5,
       "quote_verdicts": {
-        "inaccurate": 9,
-        "near_miss": 7,
+        "unverifiable": 2,
+        "inaccurate": 14,
+        "near_miss": 5
+      },
+      "pin_verdicts": {
+        "case_unknown": 21,
+        "no_pin": 8,
+        "in_range": 19
+      },
+      "temporal": {}
+    },
+    "stakes": {
+      "drafts": 8,
+      "abstained": 0,
+      "citations_total": 59,
+      "cite_verdicts": {
+        "not_found": 17,
+        "exists": 42
+      },
+      "existence_rate_pooled": 0.712,
+      "quote_verdicts": {
+        "near_miss": 15,
+        "inaccurate": 13,
         "accurate": 1
       },
       "pin_verdicts": {
-        "in_range": 17,
-        "case_unknown": 12,
-        "no_pin": 3
+        "case_unknown": 15,
+        "in_range": 29,
+        "no_pin": 15
+      },
+      "temporal": {}
+    },
+    "quota": {
+      "drafts": 8,
+      "abstained": 0,
+      "citations_total": 73,
+      "cite_verdicts": {
+        "exists": 51,
+        "not_found": 22
+      },
+      "existence_rate_pooled": 0.699,
+      "quote_verdicts": {
+        "unverifiable": 5,
+        "inaccurate": 11,
+        "near_miss": 11,
+        "accurate": 2
+      },
+      "pin_verdicts": {
+        "in_range": 33,
+        "case_unknown": 20,
+        "no_pin": 19,
+        "out_of_range": 1
       },
       "temporal": {}
     }

@@ -358,15 +358,26 @@ if ap.exists():
                 emit2(f"aStrict{mk}{ck}", fmt3(v["strict"]))
                 emit2(f"aNotFound{mk}{ck}", str(v["not_found"]))
                 emit2(f"aAdj{mk}{ck}", str(v["adjudicable"]))
-        for kind, kk in (("citation", "Cite"), ("quote", "Quote")):
-            g = a["gee"].get(f"{kind}:{m}:combo", {})
-            if g.get("OR") is not None:
-                emit2(f"aOr{kk}{mk}", f"{g['OR']:.2f}")
-                emit2(f"aHolm{kk}{mk}", f"{g['holm_p']:.3f}")
-            g2 = a["gee_pooled_tasks"].get(f"{kind}:{m}:combo", {})
-            if g2.get("OR") is not None:
-                emit2(f"aPooledOr{kk}{mk}", f"{g2['OR']:.2f}")
-                emit2(f"aPooledHolm{kk}{mk}", f"{g2['holm_p']:.3f}" if g2["holm_p"] >= 0.001 else "$<$0.001")
+        for c, ck in (("quota", "Quota"), ("temporal", "Temporal"), ("stakes", "Stakes"), ("combo", "Combo")):
+            v = a["rates"].get(f"{m}:{c}")
+            if v and c not in ("baseline", "combo"):
+                emit2(f"aExist{mk}{ck}", fmt3(v["exist"]))
+                emit2(f"aStrict{mk}{ck}", fmt3(v["strict"]))
+            for kind, kk in (("citation", "Cite"), ("quote", "Quote")):
+                g = a["gee"].get(f"{kind}:{m}:{c}", {})
+                if g.get("OR") is not None:
+                    emit2(f"aOr{kk}{mk}{ck}", f"{g['OR']:.2f}")
+                    emit2(f"aHolm{kk}{mk}{ck}", f"{g['holm_p']:.3f}" if g["holm_p"] >= 0.001 else "$<$0.001")
+                    if c == "combo":
+                        emit2(f"aOr{kk}{mk}", f"{g['OR']:.2f}")
+                        emit2(f"aHolm{kk}{mk}", f"{g['holm_p']:.3f}")
+                g2 = a["gee_pooled_tasks"].get(f"{kind}:{m}:{c}", {})
+                if g2.get("OR") is not None:
+                    emit2(f"aPooledOr{kk}{mk}{ck}", f"{g2['OR']:.2f}")
+                    emit2(f"aPooledHolm{kk}{mk}{ck}", f"{g2['holm_p']:.3f}" if g2["holm_p"] >= 0.001 else "$<$0.001")
+                    if c == "combo":
+                        emit2(f"aPooledOr{kk}{mk}", f"{g2['OR']:.2f}")
+                        emit2(f"aPooledHolm{kk}{mk}", f"{g2['holm_p']:.3f}" if g2["holm_p"] >= 0.001 else "$<$0.001")
         rm = a["reporter_mix"].get(m)
         if rm and rm["us_share"] is not None:
             emit2(f"aUsShare{mk}", f"{100 * rm['us_share']:.0f}")

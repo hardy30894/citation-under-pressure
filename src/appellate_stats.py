@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
-"""Second task, federal courts of appeals (results/app_<model>/, 24
-matters, baseline and combined). Per model and condition: citation
-existence, strict quotation accuracy, refusals, and the share of
-citations to the U.S. Reports against the federal reporters. A
-citation-level logistic GEE per model, clustered by matter, for the
-combined-versus-baseline contrast on both outcomes, Holm-corrected over
-the 14 tests; and the same contrast pooled over both tasks with a task
-effect. Reads records_app.jsonl (from records_dump.py --tag app) and
-records.jsonl. Writes results/appellate_stats.json."""
+"""Second task, federal courts of appeals (results/app_<model>/, 48
+matters, five conditions). Per model and condition: citation existence,
+strict quotation accuracy, refusals, and the share of citations to the
+U.S. Reports against the federal reporters. The same citation-level
+logistic GEE as gee.py per model (four contrasts against baseline, two
+outcomes, Holm within model over eight tests), and the same fit pooled
+over both tasks with a task effect. Reads records_app.jsonl (from
+records_dump.py --tag app) and records.jsonl. Writes
+results/appellate_stats.json."""
 
 import json
 import re
@@ -24,6 +24,29 @@ HERE = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(HERE / "src"))
 R = HERE / "results"
 from pilot import cite_details  # noqa: E402
+from gee import fit as gee_fit, CONDS as GEE_CONDS  # noqa: E402
+
+
+def full_gee(df, template=False):
+    """gee.py's fit per model and outcome, Holm within model."""
+    out = {}
+    for model in sorted(df.model.unique()):
+        tests = []
+        for kind in ("citation", "quote"):
+            try:
+                res = gee_fit(df, model, kind, template=template)
+            except Exception as e:
+                for c in GEE_CONDS:
+                    out[f"{kind}:{model}:{c}"] = {"OR": None, "p": None, "note": str(e)[:80]}
+                continue
+            for c, v in res.items():
+                out[f"{kind}:{model}:{c}"] = v
+                tests.append((f"{kind}:{model}:{c}", v["p"]))
+        tests.sort(key=lambda t: t[1])
+        m = len(tests)
+        for i, (k, p) in enumerate(tests):
+            out[k]["holm_p"] = round(min(1.0, p * (m - i)), 4)
+    return out
 
 
 def rates(df):
@@ -121,11 +144,12 @@ def main():
     app = pd.DataFrame(json.loads(l) for l in open(R / "records_app.jsonl"))
     app["task"] = "appellate"
     sc = pd.DataFrame(json.loads(l) for l in open(R / "records.jsonl"))
-    sc = sc[sc.condition.isin(["baseline", "combo"])].copy()
     sc["task"] = "scotus"
     both = pd.concat([sc, app], ignore_index=True)
-    out = {"rates": rates(app), "gee": combo_gee(app),
-           "gee_pooled_tasks": combo_gee(both, " + C(task)"),
+    both["template"] = both["task"]  # reuse gee.py's template effect as the task effect
+    app["template"] = "appellate"
+    out = {"rates": rates(app), "gee": full_gee(app),
+           "gee_pooled_tasks": full_gee(both, template=True),
            "reporter_mix": reporter_mix()}
     # baseline task comparison per model: existence and strict, scotus vs appellate
     scr = rates(sc)
@@ -137,8 +161,9 @@ def main():
     for k, v in sorted(out["rates"].items()):
         print(f"{k:24s} exist {v['exist']} ({v['not_found']}/{v['adjudicable']})  strict {v['strict']} ({v['quotes_scored']})")
     for k, v in out["gee"].items():
-        if v.get("holm_p") is not None:
-            print(f"  {k:28s} OR {v['OR']} holm {v['holm_p']}{' *' if v['holm_p'] < 0.05 else ''}")
+        if v.get("holm_p") is not None and v["holm_p"] < 0.05:
+            print(f"  {k:28s} OR {v['OR']} holm {v['holm_p']} *")
+    print("pooled-task survivors:", sorted(k for k, v in out["gee_pooled_tasks"].items() if v.get("holm_p") is not None and v["holm_p"] < 0.05))
     print("reporter mix:", {m: (v.get("us_share"), v.get("federal_share")) for m, v in out["reporter_mix"].items() if not m.startswith("_")})
     print("pooled not found by reporter:", out["reporter_mix"]["_pooled"])
 

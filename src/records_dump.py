@@ -33,11 +33,19 @@ def main():
     store = ChainTextStore(OpinionTextStore(DB, cl_token=None,
                                             fetch_budget=0))
     out = open(HERE / "results" / f"records{suffix}.jsonl", "w")
+    # the appellate set was extended after a first build; only matters in
+    # the current manifest count
+    keep = None
+    if tag == "app":
+        keep = {m["id"] for m in json.loads(
+            (HERE / "results" / "appellate" / "manifest.json").read_text())}
     n = 0
     for model in MODELS:
         for p in sorted((HERE / "results" / f"{tag}_{model}" /
                          "drafts").glob("*.txt")):
             matter, cond = re.match(r"(.+)_([a-z]+)$", p.stem).groups()
+            if keep is not None and matter not in keep:
+                continue
             text = p.read_text()
             recs, _ = checker.check_text(text)
             qres = q2.check_draft(text, recs, eyecite_pass(text), store)

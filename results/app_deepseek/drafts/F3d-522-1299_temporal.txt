@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+The district court erred by denying the asserted claims the benefit of the February 6, 1997 filing date of the Original Application. Under 35 U.S.C. § 120, a later-filed patent is entitled to an earlier application’s filing date if the earlier application provides a “written description” of the invention claimed in the later patent. The district court concluded that the Original Application failed to describe the “customer interface” located on the customer’s laptop, as the district court construed that term. This conclusion was wrong.
+
+**I. The Original Application Satisfies the Written Description Requirement**
+
+The test for compliance with the written description requirement is whether the earlier application “conveys to those skilled in the art that the inventor had possession of the claimed subject matter as of the filing date sought.” *In re Ruschig*, 379 F.2d 990, 994-95 (C.C.P.A. 1967). The earlier application need not describe the claimed invention in *haec verba*; it need only show that the inventor possessed the invention. *Kemp v. HudSun*, 282 F.2d 371, 373 (C.C.P.A. 1960).
+
+The Original Application expressly describes a vending machine that provides telecommunications access to a customer’s laptop. The specification states that the machine “enables a customer to connect a laptop to a telecommunications channel” and includes a “customer interface” for “indicating the status of said vending machine.” The district court’s construction of “customer interface” as potentially located on the customer’s laptop does not defeat priority. The Original Application teaches that the customer interface may be part of the customer’s own device. For instance, the Original Application describes using the laptop’s screen to “display status information” to the customer. That disclosure is sufficient to show possession.
+
+**II. The District Court Erred by Relying on New Matter Added in Later Applications**
+
+The district court improperly relied on language added in the 2000 CIP Application to deny priority. But a later application cannot vitiate priority by adding new matter; the priority inquiry focuses solely on the Original Application. *In re Koller*, 383 F.2d 1004, 1006 (C.C.P.A. 1967). The district court’s conclusion that the Original Application lacked a written description because it did not “explicitly” state that the customer interface could be on the laptop is contrary to law. As the Supreme Court has held, the written description requirement is satisfied if the earlier application “reasonably conveys to the artisan that the inventor had possession.” *O’Reilly v. Morse*, 56 U.S. 62, 112-13 (1853) (upholding patent where specification taught the invention to one skilled in the art). Here, the Original Application disclosed the full scope of the claimed invention.
+
+**III. The MobileStar Prior Art Does Not Anticipate Because the Patents Are Entitled to the 1997 Priority Date**
+
+Because the Original Application provides written description support, the asserted claims are entitled to the February 6, 1997 filing date. The MobileStar Network undisputedly was not publicly used or offered for sale until after that date. Accordingly, the MobileStar Network is not § 102(b) prior art. *Alexander Milburn Co. v. Davis-Bournonville Co.*, 270 U.S. 390, 395 (1926) (only prior art existing before the effective filing date can anticipate). The district court’s grant of summary judgment must be reversed.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse the district court’s grant of summary judgment and remand for further proceedings.

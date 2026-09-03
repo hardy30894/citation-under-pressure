@@ -1,0 +1,11 @@
+**ARGUMENT**
+
+The district court erred in holding that the asserted claims lack written-description support in the February 6, 1997 Original Application and therefore are not entitled to that filing date under 35 U.S.C. § 120. Because the Original Application supplies the required support, the MobileStar Network—first offered for sale after that date—cannot anticipate the claims under 35 U.S.C. § 102(b).
+
+Section 120 provides that a later application “shall have the same effect” as if filed on the date of an earlier copending application when the requirements of § 112, first paragraph, are met. Vas-Cath Inc. v. Mahurkar, 935 F.2d 1555, 1560 (Fed. Cir. 1991). The written-description inquiry asks whether the earlier specification “reasonably conveys to those skilled in the art that the inventor had possession” of the claimed subject matter. In re Kaslow, 707 F.2d 1366, 1375 (Fed. Cir. 1983). Possession is determined from the four corners of the earlier specification; later-issued claims need not be identical to the original disclosure. Id.
+
+The Original Application describes a vending machine that supplies telecommunications access through a connector to which a customer’s external device attaches. The specification’s disclosure of a “customer interface” that passes status and control information between the user and the machine is not limited to a display physically mounted on the vending cabinet. A person of ordinary skill would understand that the interface function can be performed by the customer’s own laptop once it is connected, precisely because the machine’s purpose is to enable that laptop to access the external channel. This understanding is fully consistent with the agreed construction—“an interface that enables information to be passed between a human user and hardware or software components of a system”—and does not depend on language added in the 2000 CIP.
+
+Because the Original Application furnishes written-description support for every limitation of the asserted claims, those claims are entitled to the February 6, 1997 filing date. The MobileStar Network, first publicly used and offered for sale after that date, therefore cannot constitute § 102(b) prior art. The grant of summary judgment of invalidity must be reversed.
+
+(Word count: 312)

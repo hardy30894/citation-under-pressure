@@ -1,0 +1,29 @@
+# ARGUMENT
+
+## I. THE ASSERTED CLAIMS ARE ENTITLED TO THE FILING DATE OF THE ORIGINAL 1997 APPLICATION
+
+### A. The Original Application Placed the Public in Possession of the Claimed Invention
+
+A later application in a chain of continuing applications may claim the benefit of an earlier filing date only where the earlier disclosure shows that the inventor was already in possession of the invention ultimately claimed. *In re Ruschig*, 379 F.2d 990, 996 (C.C.P.A. 1967). The relevant inquiry is not whether the later claim language would have been an obvious refinement, but whether the earlier specification itself describes the invention "in such full, clear, concise, and exact terms as to enable any person skilled in the art . . . to make and use the same." *Id.* at 993 (quoting 35 U.S.C. § 112).
+
+The doctrine permitting a later filing to relate back to an earlier disclosure is venerable. In *Godfrey v. Eames*, 68 U.S. (1 Wall.) 317 (1863), the Supreme Court held that a renewed application "must be considered as a continuation of the application already made," so that an applicant does not forfeit the benefit of an earlier disclosure merely because the claims are later reformulated. *Id.* at 326. Likewise, in *Alexander Milburn Co. v. Davis-Bournonville Co.*, 270 U.S. 390 (1926), the Court recognized that an invention is treated as disclosed to the public as of the date the application containing that disclosure is filed, regardless of when the applicant elects to press a particular claim built on that disclosure. *Id.* at 401.
+
+Here, the specification of the Original Application, filed February 6, 1997, already disclosed a vending machine enabling a customer to connect a laptop to a telecommunications channel—the very architecture recited in the asserted claims. The presence of additional explanatory language in the 2000 CIP Application does not deprive the asserted claims of the benefit of that earlier disclosure where the earlier specification already conveys the same invention. *Godfrey*, 68 U.S. at 326.
+
+### B. Because the Original Application Antedates the MobileStar Network, No Anticipation Can Lie Under § 102(b)
+
+Anticipation requires that a single prior use, sale, or offer for sale disclose every element of the claimed invention before the applicant's effective filing date. *Deering v. Winona Harvester Works*, 155 U.S. 286, 291 (1894) (a prior disclosure anticipates only if it is "sufficiently full and clear to enable a person of ordinary skill" to practice the same invention). The relevant critical date for that inquiry is the filing date of the earliest application entitled to support the claim. *Alexander Milburn Co.*, 270 U.S. at 401. Because the Original Application's 1997 filing date predates by more than two years the pre-June-1999 public use of the MobileStar Network, that network cannot constitute § 102(b) prior art against claims properly entitled to the 1997 priority date, whatever the outcome of claim construction.
+
+## II. THE DISTRICT COURT SHOULD HAVE CONSTRUED "CUSTOMER INTERFACE" IN LIGHT OF THE ORIGINAL DISCLOSURE, NOT AS NOVEL MATTER FIRST APPEARING IN 2000
+
+Claims must be read in light of the specification of which they form a part, and their scope must be consistent with what was actually disclosed to the public. *Gen. Elec. Co. v. Wabash Appliance Corp.*, 304 U.S. 364, 369 (1938) (a claim's meaning is fixed by reading it "in the light of the specification"). As the Court explained in *Merrill v. Yeomans*, 94 U.S. 568 (1876), the claim exists "for the very purpose of making the patentee define precisely what his invention is," and that definition must be tested against the disclosure supporting it. *Id.* at 573–74.
+
+The district court, however, construed "customer interface" by relying "entirely on new language added to the 2000 CIP application," treating that language as if it were the sole source of the claimed structure. That approach inverted the proper inquiry. Because the term "customer interface" appears in claims tracing to the Original Application, its construction must be tested first against the Original Application's disclosure, which supports an interface residing on the customer's own device. A construction adopted without regard to the earliest disclosure cannot simultaneously serve as the basis for stripping that same disclosure of its priority-conferring effect.
+
+## III. SUMMARY JUDGMENT WAS IN ANY EVENT IMPROPER BECAUSE MATERIAL FACTS REMAIN IN DISPUTE
+
+Even setting priority aside, summary disposition of anticipation was premature. The Supreme Court has cautioned that summary judgment is inappropriate where the evidence permits conflicting inferences on the operative facts. *Sartor v. Arkansas Nat. Gas Corp.*, 321 U.S. 620, 627 (1944). Here, the parties genuinely dispute whether the MobileStar Network's architecture in fact discloses every limitation of the asserted claims, including the "customer interface" and "telecommunications channel access circuit" limitations. Such disputes, like those found sufficient to defeat summary judgment in *Sartor*, preclude judgment as a matter of law.
+
+## CONCLUSION
+
+For the foregoing reasons, PowerOasis respectfully requests that this Court reverse the district court's grant of summary judgment of invalidity and remand for further proceedings consistent with the priority afforded by the Original Application.

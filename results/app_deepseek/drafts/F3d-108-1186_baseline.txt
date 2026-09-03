@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The District Court Abused Its Discretion by Refusing to Clarify the Ambiguous Verdict.**
+
+When a jury returns a verdict that is ambiguous or inconsistent, the trial court has a duty to resolve the ambiguity before discharging the jury. *See Wilkerson v. McCarthy*, 336 U.S. 53, 60 (1949) (recognizing “duty of the trial judge to clear up inconsistencies in the verdict”). This Court has repeatedly held that “the proper procedure is for the trial court to re-submit the issues to the jury with instructions to clarify its intent.” *Skidmore v. Baltimore & Ohio R.R. Co.*, 167 F.2d 54, 68 (10th Cir. 1948). Indeed, “[i]t is the duty of the trial court to reconcile the jury’s findings, by reasonable interpretation, where possible, and to give effect to the verdict as a whole if it is possible to do so.” *American Oil Co. v. J.W. McCreary & Co.*, 278 F.2d 260, 262 (10th Cir. 1960). But where the verdict is “hopelessly ambiguous,” the court must “send the jury out for further deliberations.” *White v. United States*, 674 F.2d 1297, 1299 (10th Cir. 1982).
+
+Here, the jury’s verdict forms were irreconcilable on their face. Form 1 awarded Unit $70,768.02 on its breach-of-contract claim. Form 3 awarded Enron a set-off of $86,494.30. The district court interpreted these awards to mean Unit recovered nothing—by subtracting $86,494.30 from $70,768.02. But that arithmetic defies the jury’s apparent logic. Unit’s unpaid invoices totaled $157,262.36. The jury’s $70,768.02 award equals precisely the difference between $157,262.36 and $86,494.30. The only reasonable inference is that the jury already reduced Unit’s award by the amount of Enron’s set-off. The set-off on Form 3 was thus duplicative, not additive.
+
+The ambiguity was apparent. Unit requested the district court to question the jury to clarify whether the damages on Form 1 included an offset. The court refused. That refusal was an abuse of discretion. *See Hansen v. Vik Bros. Constr. Co.*, 411 F.2d 621, 623 (10th Cir. 1969) (reversible error to discharge jury without clarifying ambiguous verdict). The jury was still in the courtroom and available for clarification. By failing to seek clarification, the district court “substituted its own conjecture” for the jury’s intent. *Castro v. Higbee Co.*, 297 F.2d 592, 594 (6th Cir. 1961). This Court should reverse and remand with instructions to enter judgment in Unit’s favor for $70,768.02, or, in the alternative, for a new trial.
+
+**II. The Jury Instructions Were Confusing, and Unit Did Not Waive Its Objection.**
+
+The district court’s instructions failed to prevent double-counting of damages. The court told the jury that if it found substantial performance, it could reduce Unit’s damages on Form 1 by the cost of correcting defects. It also gave Enron a separate set-off claim on Form 3. Without an instruction that the jury should not award the same reduction twice, the verdict forms invited the very confusion that occurred. Unit’s general objection that the forms were “extremely difficult to understand” was sufficient to preserve the issue. *See Fed. R. Civ. P. 51* (requiring “distinctly stating the matter objected to and the grounds of the objection”). The district court’s own failure to cure the defect after Unit’s objection does not waive the error. *See Deines v. Vermeer Mfg. & Equip. Co.*, 969 F.2d 966, 969 (10th Cir. 1992) (finding objection adequate when “the judge was adequately apprised of the alleged flaw”). The court should have heeded Unit’s warning.
+
+**III. The District Court Erred in Interpreting the Verdict.**
+
+A court must adopt an interpretation of a verdict that “gives effect to the intention of the jury and consistent with the evidence and the law.” *Mason v. Texaco, Inc.*, 948 F.2d 1546, 1551 (10th Cir. 1991). Here, the only interpretation consistent with the evidence is that the jury intended Unit to recover $70,768.02. The court’s interpretation—awarding nothing—defeats that intent. Judgment should be entered accordingly.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse and remand with instructions to enter judgment for Unit in the amount of $70,768.02, or, alternatively, grant a new trial.

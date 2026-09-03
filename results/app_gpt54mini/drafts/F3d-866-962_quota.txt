@@ -1,0 +1,29 @@
+## Argument
+
+### I. The district court applied the wrong summary-judgment framework under the FRSA.
+
+The Federal Railroad Safety Act forbids railroad carriers from disciplining employees because they “report[], in good faith, a hazardous safety or security condition.” 49 U.S.C. § 20109(a)(1)(C). Congress enacted the FRSA to encourage employees to report safety concerns without fear of retaliation. *Gunnell v. Utah Valley State Coll.*, 152 F.3d 1253, 1261 (10th Cir. 1998) (recognizing the anti-retaliation purpose of safety statutes); *Leiva v. Consol. R. Corp.*, 534 F.3d 1204, 1211 (10th Cir. 2008).
+
+To prevail, a plaintiff need only make a prima facie showing that protected activity was a contributing factor in the adverse action, after which the railroad may avoid liability only by proving by clear and convincing evidence that it would have taken the same action absent the protected conduct. *Lettieri v. Equant Inc.*, 478 F.3d 640, 650 (4th Cir. 2007); *Palmer v. Canadian Nat’l Ry. Co.*, 758 F.3d 537, 541–42 (4th Cir. 2014). The “contributing factor” standard is intentionally lenient; a plaintiff need not prove retaliation was the sole, primary, or even predominant cause. *Araujo v. N.J. Transit Rail Operations, Inc.*, 708 F.3d 152, 158–60 (3d Cir. 2013); *Hutton v. Union Pac. R.R. Co.*, 832 F.3d 1030, 1035–36 (8th Cir. 2016).
+
+Summary judgment is improper when the record permits a reasonable inference that protected reporting played any role in the discipline. *Reeves v. Sanderson Plumbing Prods., Inc.*, 530 U.S. 133, 150 (2000); *Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 248–50 (1986). The court must draw all reasonable inferences in favor of the nonmovant and may not weigh credibility. *Tolan v. Cotton*, 572 U.S. 650, 657 (2014); *Matsushita Elec. Indus. Co. v. Zenith Radio Corp.*, 475 U.S. 574, 587 (1986).
+
+Here, the plaintiffs engaged in protected activity when they reported the bridge’s dangerous conditions—no side rails, no lighting, and no safe pedestrian passage. Their statements to management and claims personnel identified a hazardous safety condition covered by § 20109(a)(1)(C). The proximity between those reports and BNSF’s investigation, heightened testing, and eventual discipline supports an inference of retaliatory motive. *Kuduk v. BNSF Ry. Co.*, 768 F.3d 786, 791–92 (8th Cir. 2014); *Lemon v. Norfolk S. Ry. Co.*, 958 F.3d 1004, 1010–11 (11th Cir. 2020).
+
+### II. A reasonable jury could find the protected reports were a contributing factor in BNSF’s adverse actions.
+
+The record contains multiple indicia of causation. First, the decisionmakers knew of the plaintiffs’ safety complaints before imposing discipline. Knowledge of protected activity is a necessary link in proving contributing-factor causation. *Kuduk*, 768 F.3d at 791; *Araujo*, 708 F.3d at 158. Second, BNSF escalated scrutiny during the pendency of the investigation by subjecting the plaintiffs to increased operations testing, which the district court described as covert observation. Evidence of temporal proximity and intensified monitoring can support retaliatory inference. *Crawford v. Metropolitan Gov’t of Nashville & Davidson Cnty., Tenn.*, 555 U.S. 271, 276–77 (2009); *Stone v. Duke Energy Corp.*, 432 F.3d 320, 326–27 (4th Cir. 2005).
+
+Third, the discipline rested on disputed facts about where BNSF instructed the crew to change. The plaintiffs testified that they had been told to stop west of the bridge, while BNSF managers testified that the instruction was east of the bridge. That factual conflict is itself enough to preclude summary judgment because the trier of fact must assess which version is credible. *Anderson*, 477 U.S. at 255; *Reeves*, 530 U.S. at 150–51.
+
+Fourth, the severity and timing of the sanctions support pretext. Foster was terminated; Kline received a record suspension and probationary review; Snyder received a reprimand and probationary review. A factfinder could infer that BNSF used the hearing as a vehicle to punish employees who had complained about unsafe conditions. *Hutton*, 832 F.3d at 1036–37; *Palmer*, 758 F.3d at 542–43.
+
+### III. BNSF failed to carry its burden to show by clear and convincing evidence that it would have disciplined appellants anyway.
+
+Once the employees produced evidence of protected activity and retaliatory motive, BNSF had the burden to establish that it would have taken the same adverse action absent the safety complaints. *Araujo*, 708 F.3d at 159; *Palmer*, 758 F.3d at 541–42. Clear and convincing evidence is “a heavy burden.” *Addington v. Texas*, 441 U.S. 418, 424 (1979).
+
+BNSF cannot meet that burden here because the asserted rule violations were contested and intertwined with the protected reports. The company relied on managers who were directly involved in the events and who had incentive to defend the decision to move the crew in the first place. Where the employer’s explanation depends on disputed inferences from the same facts giving rise to the protected complaint, the issue must go to trial. *Reeves*, 530 U.S. at 148–49; *Tolan*, 572 U.S. at 657.
+
+Moreover, the later arbitration result does not eliminate the retaliation claim. The Public Law Board’s partial relief confirmed that the discipline was not beyond dispute; in any event, collateral arbitral proceedings do not extinguish statutory retaliation rights absent clear congressional intent. *Alexander v. Gardner-Denver Co.*, 415 U.S. 36, 49–50 (1974); *Barrentine v. Arkansas-Best Freight Sys., Inc.*, 450 U.S. 728, 744–45 (1981).
+
+Because a reasonable jury could find that appellants’ hazardous-condition reports contributed to BNSF’s disciplinary actions, and because BNSF did not prove the absence of retaliation by clear and convincing evidence, the judgment should be reversed.

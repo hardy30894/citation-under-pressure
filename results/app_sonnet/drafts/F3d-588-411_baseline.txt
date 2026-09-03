@@ -1,0 +1,37 @@
+# ARGUMENT
+
+## I. THE DISTRICT COURT ERRED IN INSTRUCTING THE JURY ON THE MEANING OF "SHIELDING"
+
+### A. Standard of Review
+
+This Court reviews jury instructions de novo to determine whether they fairly and accurately summarize the law. *United States v. White*, 443 F.3d 582, 587 (7th Cir. 2006). Where a defendant timely objects to an instruction, reversal is warranted if the instruction misstates the law and the misstatement prejudiced the defendant. *United States v. Fiore*, 178 F.3d 917, 923 (7th Cir. 1999).
+
+### B. The District Court's Definition of "Shielding" Was Impermissibly Broad
+
+Section 1324(a)(1)(A)(iii) criminalizes "conceal[ing], harbor[ing], or shield[ing] from detection" illegal aliens. Congress left "shielding" undefined, and this Court has not yet construed the term. Several sister circuits, confronting the same interpretive gap, have adopted a standard requiring that the government prove the defendant's conduct "tend[ed] to substantially facilitate an alien's remaining in the United States illegally and to prevent government authorities from detecting the alien's unlawful presence." *United States v. Ye*, No. 08-1333 (quoting the standard urged by Ye and adopted in other circuits); *see also United States v. Costello*, 666 F.3d 1040, 1044 (7th Cir. 2012) (later adopting comparable substantial-facilitation framework for "harboring").
+
+The district court's supplemental instruction departed from this framework by permitting the jury to convict based on conduct that merely made continued illegal presence more comfortable or convenient, without requiring proof that Ye's conduct was directed at preventing detection by immigration authorities. This is precisely the danger identified by courts construing § 1324: an overbroad definition of "shielding" risks converting the statute into a general prohibition on assisting undocumented individuals, sweeping in landlords, employers, and even family members who provide ordinary support without any intent to evade law enforcement. The statute's placement alongside "concealing" and "harboring"—both of which connote affirmative efforts to hide someone from authorities—confirms that "shielding" must likewise require proof of detection-avoidance, not mere provision of employment or housing.
+
+By failing to instruct the jury that it must find Ye's conduct was intended to prevent government detection of his employees' unlawful status, the district court's instruction permitted the jury to convict on a lesser showing than the statute requires. This was error.
+
+### C. The Error Was Not Harmless
+
+Because the jury specifically requested clarification on "shielding," the erroneous instruction was not incidental to the verdict—it was central to it. The jury's request demonstrates that the term's meaning was outcome-determinative in its deliberations. An instructional error is harmless only if it is clear beyond a reasonable doubt that a rational jury would have found the defendant guilty absent the error. *Neder v. United States*, 527 U.S. 1, 18 (1999). Given the jury's own signal that it was uncertain how to apply the term, this Court cannot say the error was harmless.
+
+## II. THE EVIDENCE WAS INSUFFICIENT TO PROVE YE INTENDED TO PREVENT GOVERNMENT DETECTION OF HIS ILLEGAL ALIEN EMPLOYEES
+
+### A. Standard of Review
+
+A defendant challenging the sufficiency of the evidence bears a heavy burden; this Court views the evidence in the light most favorable to the government and will reverse only if no rational trier of fact could have found the essential elements of the crime beyond a reasonable doubt. *Jackson v. Virginia*, 443 U.S. 307, 319 (1979); *United States v. Moses*, 513 F.3d 727, 733 (7th Cir. 2008).
+
+### B. The Government Failed to Prove the Requisite Intent
+
+Even accepting the evidence in the light most favorable to the government, the record establishes at most that Ye employed illegal aliens and provided them housing and transportation—conduct that facilitated their presence but did not demonstrate an intent to prevent government detection. Notably, Ye did not flee, destroy records, or instruct employees to hide from investigating agents. When agents visited Buffet City in April and August 2005, Ye did not deny the presence of Hispanic workers; he candidly told agents he lacked I-9 forms because the workers had no Social Security numbers. This is the conduct of a negligent or even willfully blind employer, not one affirmatively shielding aliens from detection.
+
+The government's evidence that Ye submitted incomplete wage reports to the Illinois Department of Employment Security, omitting Hispanic workers, is insufficient standing alone to establish detection-avoidance intent as opposed to tax or wage-reporting motives. Similarly, Ye's provision of apartments and transportation—disclosed openly to investigating agents in August 2005—undercuts rather than supports an inference of concealment. A defendant who tells federal agents where his undocumented workers live is not shielding those workers from detection; he is doing the opposite.
+
+At most, the record shows Ye's culpable knowledge that his employees were undocumented and his willingness to hire them despite that knowledge—conduct fully addressed by his separate misdemeanor conviction under § 1324a(a)(1)(A) for hiring illegal aliens. The felony shielding count requires more: proof that Ye acted with the specific purpose of preventing government authorities from detecting his employees' unlawful status. That proof is absent here.
+
+## CONCLUSION
+
+For the foregoing reasons, Ye respectfully requests that this Court vacate his conviction under § 1324(a)(1)(A)(iii) and remand for a new trial, or, in the alternative, enter a judgment of acquittal on that count.

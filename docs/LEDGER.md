@@ -287,3 +287,24 @@ before or after seeing the relevant data. Nothing is deleted.
   of failures, so the appellate shortfall is fabrication, not index
   coverage. Sonnet's pooled-task quotation rise (OR 1.59, Holm 0.009)
   is now reported beside the falls.
+- 2026-09-03 (appellate task extended to the full factorial): 48
+  matters (four per circuit, twelve circuits, cross-appeals excluded,
+  22 of the first 24 kept), five conditions, seven models, 1,680 drafts.
+  The OpenRouter account ran out of credits 38 drafts short; Hardy
+  added $10 and the lanes resumed. Findings (appellate_stats.py, now
+  the same GEE as gee.py with Holm within model): baseline existence
+  0.645 Qwen, 0.725 Mistral, 0.907 DeepSeek, 0.924 GPT, 0.950 Llama,
+  0.959 Grok, 0.993 Sonnet; 23 percent of federal-reporter citations
+  and 4 percent of U.S. Reports citations do not resolve; within the
+  task three contrasts survive: Llama-4's temporal existence fall (OR
+  0.32), and Sonnet 5's quotation rises under combined (OR 1.61) and
+  under the STAKES clause alone (0.316 to 0.433, OR 1.68, Holm 0.019),
+  which the memorization alternative cannot explain because the stakes
+  clause does not change which cases may be cited. Pooled over both
+  tasks: six of the eight Supreme Court survivors survive (Qwen quota
+  and temporal existence do not), plus Llama existence falls, DeepSeek
+  and Mistral temporal quotation falls, and Sonnet's rises under
+  combined and stakes. Page fit: a heading that could not fit with its
+  first two lines had been leaving five lines empty at the foot of
+  page 8; cutting five lines before Section 6 recovered ten. Appellate
+  arm total $9.45; project $112.

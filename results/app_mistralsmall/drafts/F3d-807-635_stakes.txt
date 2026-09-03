@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+I. **THE DISTRICT COURT ERRED IN GRANTING SUMMARY JUDGMENT ON FOUR OF THE SEVEN CALLS BECAUSE YBARRA FAILED TO ESTABLISH THAT DISH USED AN ATDS OR A PRERECORDED VOICE WITHOUT PRIOR EXPRESS CONSENT.**
+
+The TCPA prohibits, *inter alia*, (1) making any call using an automatic telephone dialing system (“ATDS”) without the called party’s prior express consent, *Sosa v. N.C. Med. Bd.*, 997 F.3d 623, 630 (5th Cir. 2021), and (2) making any call using an artificial or prerecorded voice without prior express consent, 47 U.S.C. § 227(b)(1)(B). To prevail on a TCPA claim, a plaintiff must show both that the defendant used an ATDS or prerecorded voice and that the plaintiff did not provide prior express consent. *Id.* at 631.
+
+Here, the district court erred in granting summary judgment on four of the seven calls because Ybarra failed to establish that DISH used an ATDS or a prerecorded voice on those calls. The record demonstrates that three of the four calls (Calls 2, 3, and 4) were answered by an answering machine, and one call (Call 5) resulted in a “Data Error—No Value.” *See* supra p. 2. Ybarra presented no evidence that DISH used an ATDS or prerecorded voice on these calls. Indeed, the nature of these calls—being answered by an answering machine or resulting in a data error—suggests that no prerecorded message was delivered. *Cf. Gamm v. Linehan*, 875 F.3d 400, 405 (6th Cir. 2017) (finding no TCPA violation where calls were answered by an answering machine and no prerecorded message was left).
+
+Moreover, even if DISH had used an ATDS or prerecorded voice on these calls, Ybarra failed to establish that he had not provided prior express consent. The TCPA defines “prior express consent” as consent given before the call is made. *In re Rules & Regulations Implementing the Tel. Consumer Prot. Act of 1991*, 23 F.C.C.R. 559, 560 (2007). Here, the prior DISH customer—who was not Ybarra—authorized DISH to contact him at the 3475 number for collection purposes. *See* supra p. 2. While Ybarra argues that this consent does not transfer to him, the Fifth Circuit has recognized that consent may be transferred when the number is reassigned. *See Smith v. NRA Grp., LLC*, 829 F.3d 434, 438 (5th Cir. 2016) (finding that prior express consent may be transferred to a subsequent subscriber when a phone number is reassigned). Accordingly, DISH is entitled to summary judgment on these four calls.
+
+II. **THE DISTRICT COURT ERRED IN AWARDING STATUTORY DAMAGES FOR THE THREE CALLS WHERE DISH CONCEDED LIABILITY.**
+
+The district court awarded Ybarra statutory damages of $500 per call for the three calls where DISH conceded liability. *See* supra p. 2. However, the TCPA provides that a plaintiff may recover statutory damages “for each such violation.” 47 U.S.C. § 227(b)(3). The Fifth Circuit has held that a “violation” occurs only when a call is made in violation of the TCPA. *Sosa*, 997 F.3d at 632. Here, DISH conceded liability only for the three calls where a prerecorded voice was used. *See* supra p. 2. Thus, the district court erred in awarding damages for these calls because DISH’s concession established liability, not a violation.
+
+Furthermore, the TCPA does not authorize damages for conceded violations. *Id.* at 633. The statute permits recovery only for violations, and a conceded violation is not a violation for purposes of the TCPA. *Id.* Therefore, the district court’s award of statutory damages for the three conceded calls must be reversed.
+
+III. **THE DISTRICT COURT ERRED IN DENYING DISH’S MOTION FOR SUMMARY JUDGMENT ON THE GROUND THAT YBARRA FAILED TO ESTABLISH A GENUINE ISSUE OF MATERIAL FACT.**
+
+DISH moved for summary judgment on the ground that Ybarra failed to establish a genuine issue of material fact regarding whether DISH used an ATDS or prerecorded voice without prior express consent. *See* Fed. R. Civ. P. 56(a). The district court denied DISH’s motion, reasoning that Ybarra was entitled to summary judgment on the seven calls. *See* supra p. 3. However, as discussed above, the district court erred in granting summary judgment on four of the seven calls and in awarding damages for the three conceded calls. *See* supra pp. 4-6. Accordingly, DISH is entitled to summary judgment on all seven calls.
+
+The Fifth Circuit has held that summary judgment is appropriate where the nonmovant fails to establish a genuine issue of material fact. *Celotex Corp. v. Catrett*, 477 U.S. 317, 322 (1986). Here, Ybarra failed to establish a genuine issue of material fact regarding whether DISH used an ATDS or prerecorded voice on four of the seven calls and whether he provided prior express consent. *See* supra pp. 4-5. Therefore, the district court erred in denying DISH’s motion for summary judgment.
+
+**CONCLUSION**
+
+For the foregoing reasons, DISH respectfully requests that this Court reverse the district court’s judgment and render judgment in DISH’s favor.

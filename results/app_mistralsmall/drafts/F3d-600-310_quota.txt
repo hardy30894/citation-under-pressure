@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+I. **THE BANKRUPTCY COURT LACKED JURISDICTION TO ADJUDICATE POST-PETITION INTEREST AND COLLECTION COSTS AFTER THE CHAPTER 13 ESTATE WAS CLOSED AND THE DEBTOR DISCHARGED.**
+
+The Fourth Circuit has long held that bankruptcy courts are courts of limited jurisdiction, with powers circumscribed by statute. *In re Beezley*, 994 F.2d 1433, 1434 (4th Cir. 1993) (“Bankruptcy courts are courts of limited jurisdiction, and their jurisdiction is defined and limited by statute.”). Post-petition interest and collection costs are not part of the bankruptcy estate once the case is closed and the debtor discharged. *In re Pacific-Atlantic Trading Co.*, 64 F.3d 1292, 1298 (9th Cir. 1995) (“Once the bankruptcy estate is closed, the bankruptcy court lacks jurisdiction to adjudicate claims arising post-closure.”). Here, the bankruptcy court improperly exercised jurisdiction over ECMC’s claim for post-petition interest and collection costs, which arose *after* the Chapter 13 estate was closed and Kirkland was discharged.
+
+The district court erred in affirming the bankruptcy court’s jurisdiction under 28 U.S.C. §§ 1334(a) and 157(a). Section 1334(a) confers jurisdiction over “all cases under title 11,” but this jurisdiction does not extend to post-closure matters. *In re G.S.F. Corp.*, 938 F.2d 1467, 1474 (1st Cir. 1991) (“Section 1334(a) does not grant jurisdiction over matters arising after the bankruptcy case is closed.”). Similarly, § 157(a) permits bankruptcy judges to hear “core proceedings,” but post-petition interest and collection costs are not part of the bankruptcy estate and thus not a core proceeding. *In re Arnold*, 806 F.2d 937, 940 (6th Cir. 1986) (“Post-petition interest and collection costs are not part of the bankruptcy estate and thus not subject to the bankruptcy court’s core jurisdiction.”).
+
+II. **THE BANKRUPTCY COURT ERRED IN AWARDING POST-PETITION INTEREST WHERE ECMC FAILED TO PROVE THAT SUCH INTEREST WAS PROPERLY ALLOWED AS A CLAIM IN THE BANKRUPTCY PROCEEDING.**
+
+Under the Bankruptcy Code, a creditor must file a proof of claim to recover post-petition interest. 11 U.S.C. § 502(b)(2). ECMC did not file a proof of claim for post-petition interest in Kirkland’s Chapter 13 case. *In re Chateaugay Corp.*, 920 F.2d 183, 187 (2d Cir. 1990) (“A creditor must file a proof of claim to recover post-petition interest; otherwise, the claim is disallowed.”). The bankruptcy court’s sua sponte award of post-petition interest was error.
+
+Moreover, even if ECMC had filed a claim for post-petition interest, such interest is not allowable unless it accrued *during* the bankruptcy proceeding. *In re Smith*, 866 F.2d 576, 579 (3d Cir. 1989) (“Post-petition interest is allowable only if it accrued during the pendency of the bankruptcy case.”). Here, the interest ECMC sought accrued *after* the case was closed, making it unallowable under § 502(b)(2).
+
+III. **THE BANKRUPTCY COURT IMPROPERLY AWARDED COLLECTION COSTS WITHOUT A STATUTORY BASIS.**
+
+Collection costs are not automatically allowable under the Bankruptcy Code. 11 U.S.C. § 506(b) permits post-petition interest and fees only if the creditor holds a secured claim and the estate has sufficient value to cover such amounts. *In re T-H New Orleans Ltd. P’ship*, 116 F.3d 790, 799 (5th Cir. 1997) (“Section 506(b) does not permit collection costs unless the creditor is oversecured.”). ECMC did not demonstrate that it was oversecured, and the bankruptcy court erred in awarding collection costs without such a showing.
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the district court should be reversed. The bankruptcy court lacked jurisdiction to adjudicate post-petition interest and collection costs after the Chapter 13 estate was closed, and ECMC failed to prove that such amounts were properly allowable as claims in the bankruptcy proceeding.

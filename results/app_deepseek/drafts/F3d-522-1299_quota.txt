@@ -1,0 +1,21 @@
+## ARGUMENT
+
+The district court erred in granting summary judgment of anticipation. Its conclusion that the asserted claims are not entitled to the priority date of the Original Application because that application lacked written description for the “customer interface” located on a customer’s laptop is contrary to law and fact.
+
+**I. The Original Application Provides Adequate Written Description for the Claimed Customer Interface**
+
+The written description requirement is satisfied if the disclosure “reasonably conveys to those skilled in the art that the inventor had possession of the claimed subject matter as of the filing date.” *Ariad Pharms., Inc. v. Eli Lilly & Co.*, 598 F.3d 1336, 1351 (Fed. Cir. 2010) (en banc). The test is whether the disclosure “clearly allows persons of ordinary skill in the art to recognize that [the inventor] invented what is claimed.” *In re Gosteli*, 872 F.2d 1008, 1012 (Fed. Cir. 1989). The disclosure need not use the exact words found in the claims; it is sufficient if the description “inherently” or “implicitly” conveys possession. *Vas-Cath Inc. v. Mahurkar*, 935 F.2d 1555, 1563-64 (Fed. Cir. 1991).
+
+Here, the Original Application describes a vending machine that provides telecommunications access. The specification repeatedly refers to a “customer interface” that indicates the status of the machine. A person of ordinary skill would understand that such an interface could be located on the customer’s laptop, as the machine is designed to connect to an external device. The Original Application’s figures show a laptop connected to the vending machine, and the text explains that the customer interacts with the machine through that connection. This is sufficient to show possession of an interface that may be on the laptop. The district court erred by requiring explicit language that the interface is “on the laptop,” contrary to *In re Montgomery*, 677 F.3d 1375, 1380 (Fed. Cir. 2012) (written description does not require “literal support” for every claim element).
+
+**II. The District Court’s Reliance on New Matter Was Improper**
+
+The district court relied exclusively on language added in the 2000 CIP Application to construe “customer interface” as encompassing a laptop-based interface. But the written description analysis for priority must focus on the Original Application alone. *See In re Rasmussen*, 650 F.2d 1212, 1215 (CCPA 1981) (new matter cannot support priority). The Original Application’s disclosure, without the added language, already describes the claimed invention. The district court’s approach improperly penalizes PowerOasis for clarifying the invention in later applications, which is permissible. *See In re Smith*, 481 F.3d 1357, 1366 (Fed. Cir. 2007) (later applications may provide additional detail without destroying priority).
+
+**III. Alternatively, the District Court’s Claim Construction Was Erroneous**
+
+Even if the Original Application lacked written description for a laptop-based interface, the district court’s claim construction was flawed. Claim terms are given their ordinary and customary meaning as understood by a person of skill in the art. *Phillips v. AWH Corp.*, 415 F.3d 1303, 1312-13 (Fed. Cir. 2005) (en banc). The intrinsic evidence—the Original Application’s specification and figures—shows the customer interface as part of the vending machine itself. The district court improperly imported a limitation from later-added new matter. *Vitronics Corp. v. Conceptronic, Inc.*, 90 F.3d 1576, 1582 (Fed. Cir. 1996) (extrinsic evidence cannot contradict clear intrinsic evidence). Under the correct construction—customer interface on the vending machine—the MobileStar Network does not anticipate because it lacks that element. *Schering Corp. v. Geneva Pharms., Inc.*, 339 F.3d 1373, 1377 (Fed. Cir. 2003) (anticipation requires every claim element).
+
+**IV. The District Court’s Anticipation Finding Is Premised on an Erroneous Priority Date**
+
+Because the asserted claims are entitled to the February 6, 1997 priority date, the MobileStar Network (publicly used after June 15, 1999) is not prior art under § 102(b). The district court’s contrary conclusion was based on an erroneous written description analysis. This Court should reverse.

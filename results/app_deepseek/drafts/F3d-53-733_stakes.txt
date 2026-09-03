@@ -1,0 +1,19 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Admitting Expert Testimony That Did Not Meet the Reliability Standard of *Daubert*.**
+
+This Court reviews the admission of expert testimony for abuse of discretion. *General Electric Co. v. Joiner*, 522 U.S. 136, 141 (1997). Under *Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579, 589 (1993), “the trial judge must ensure that any and all scientific testimony . . . is not only relevant, but reliable.” American Steamship’s expert, a marine engineer, opined that the line parted due to Cook’s use of a propane torch. But the expert conducted no testing, relied on speculation about unseen charring, and ignored evidence that the line had been stored in a heated room and was ice-free. A mere “subjective belief or unsupported speculation” does not constitute admissible expert opinion. *Id.* at 590. Because the opinion was not “the product of reliable principles and methods,” *id.* at 597, the district court abused its discretion. This error was not harmless, as the expert’s testimony was central to the jury’s finding of comparative negligence. *See Weisgram v. Marley Co.*, 528 U.S. 440, 455 (2000) (reversing when erroneous expert testimony likely affected verdict).
+
+**II. The District Court Erred in Denying Cook’s Motion for Judgment as a Matter of Law on Unseaworthiness, But Not on Comparative Negligence.**
+
+A vessel is unseaworthy if any part of the vessel or its appurtenances is not “reasonably fit for its intended purpose.” *Mitchell v. Trawler Racer, Inc.*, 362 U.S. 539, 550 (1960). Here, the boom’s frozen bearings—caused by summer grease—rendered the vessel unseaworthy as a matter of law because the crew could not safely operate the boom without extraordinary deicing measures. *See Usner v. Luckenbach Overseas Corp.*, 400 U.S. 494, 499 (1971) (unseaworthiness exists when a “condition” makes the vessel “unfit”). The evidence was undisputed that the summer grease froze in the sub-zero temperatures, and that Cook had to apply a direct flame to the bearings. The jury’s verdict on unseaworthiness therefore lacks any “legally sufficient evidentiary basis.” Fed. R. Civ. P. 50(a)(1). Judgment as a matter of law should have been granted. *See Walker v. Sears, Roebuck & Co.*, 853 F.2d 355, 359 (6th Cir. 1988).
+
+As to comparative negligence, however, the evidence was sufficient for a jury to find that Cook acted negligently by using the torch near the line. The Court correctly denied the motion on that issue. *See Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 255 (1986) (directed verdict only when “reasonable minds could not differ”).
+
+**III. The District Court Did Not Err in Admitting Evidence of Cook’s Alcohol-Related Ailments.**
+
+Evidence of Cook’s history of alcohol-related pancreatitis and hepatitis was admissible under Federal Rule of Evidence 401 because it was relevant to his “propensity . . . to suffer[] long-term injuries,” as well as to his damages claim. *See Old Chief v. United States*, 519 U.S. 172, 182 (1997) (evidence relevant if it has “any tendency to make a fact more or less probable”). Cook’s medical records showed that these ailments could cause chronic abdominal pain, which might confuse the jury as to the source of his current complaints. The district court did not abuse its discretion in admitting this evidence under Rule 403, as its probative value regarding causation of Cook’s alleged continuing pain outweighed any unfair prejudice. *See United States v. Bilderbeck*, 163 F.3d 971, 976 (6th Cir. 1999).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment should be vacated and the case remanded for a new trial.

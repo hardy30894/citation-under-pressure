@@ -1,454 +1,1273 @@
 {
  "rates": {
   "deepseek:baseline": {
-   "exist": 0.9,
-   "not_found": 17,
-   "adjudicable": 170,
-   "strict": 0.1633,
-   "quotes_scored": 98
+   "exist": 0.9068,
+   "not_found": 30,
+   "adjudicable": 322,
+   "strict": 0.2118,
+   "quotes_scored": 203
   },
   "deepseek:combo": {
-   "exist": 0.9153,
-   "not_found": 21,
-   "adjudicable": 248,
-   "strict": 0.2118,
-   "quotes_scored": 85
+   "exist": 0.9126,
+   "not_found": 41,
+   "adjudicable": 469,
+   "strict": 0.1892,
+   "quotes_scored": 185
+  },
+  "deepseek:quota": {
+   "exist": 0.8843,
+   "not_found": 59,
+   "adjudicable": 510,
+   "strict": 0.1865,
+   "quotes_scored": 252
+  },
+  "deepseek:stakes": {
+   "exist": 0.9076,
+   "not_found": 28,
+   "adjudicable": 303,
+   "strict": 0.1525,
+   "quotes_scored": 223
+  },
+  "deepseek:temporal": {
+   "exist": 0.874,
+   "not_found": 46,
+   "adjudicable": 365,
+   "strict": 0.1173,
+   "quotes_scored": 179
   },
   "gpt54mini:baseline": {
-   "exist": 0.9102,
-   "not_found": 29,
-   "adjudicable": 323,
-   "strict": 0.2576,
-   "quotes_scored": 66
+   "exist": 0.9245,
+   "not_found": 44,
+   "adjudicable": 583,
+   "strict": 0.2403,
+   "quotes_scored": 129
   },
   "gpt54mini:combo": {
-   "exist": 0.9054,
-   "not_found": 33,
-   "adjudicable": 349,
-   "strict": 0.2162,
-   "quotes_scored": 37
+   "exist": 0.9303,
+   "not_found": 48,
+   "adjudicable": 689,
+   "strict": 0.1538,
+   "quotes_scored": 91
+  },
+  "gpt54mini:quota": {
+   "exist": 0.9402,
+   "not_found": 45,
+   "adjudicable": 753,
+   "strict": 0.3645,
+   "quotes_scored": 107
+  },
+  "gpt54mini:stakes": {
+   "exist": 0.9551,
+   "not_found": 24,
+   "adjudicable": 535,
+   "strict": 0.3429,
+   "quotes_scored": 140
+  },
+  "gpt54mini:temporal": {
+   "exist": 0.9234,
+   "not_found": 36,
+   "adjudicable": 470,
+   "strict": 0.1647,
+   "quotes_scored": 85
   },
   "grok43:baseline": {
-   "exist": 0.9358,
-   "not_found": 7,
-   "adjudicable": 109,
-   "strict": 0.3684,
-   "quotes_scored": 76
+   "exist": 0.9591,
+   "not_found": 9,
+   "adjudicable": 220,
+   "strict": 0.3139,
+   "quotes_scored": 137
   },
   "grok43:combo": {
-   "exist": 0.9511,
-   "not_found": 11,
-   "adjudicable": 225,
-   "strict": 0.3182,
-   "quotes_scored": 44
+   "exist": 0.9696,
+   "not_found": 13,
+   "adjudicable": 428,
+   "strict": 0.2609,
+   "quotes_scored": 115
+  },
+  "grok43:quota": {
+   "exist": 0.9714,
+   "not_found": 13,
+   "adjudicable": 455,
+   "strict": 0.3529,
+   "quotes_scored": 85
+  },
+  "grok43:stakes": {
+   "exist": 0.9676,
+   "not_found": 6,
+   "adjudicable": 185,
+   "strict": 0.3846,
+   "quotes_scored": 130
+  },
+  "grok43:temporal": {
+   "exist": 0.9754,
+   "not_found": 5,
+   "adjudicable": 203,
+   "strict": 0.2609,
+   "quotes_scored": 115
   },
   "llama4mav:baseline": {
-   "exist": 0.9364,
-   "not_found": 7,
-   "adjudicable": 110,
-   "strict": 0.1915,
-   "quotes_scored": 47
+   "exist": 0.9495,
+   "not_found": 10,
+   "adjudicable": 198,
+   "strict": 0.1566,
+   "quotes_scored": 83
   },
   "llama4mav:combo": {
-   "exist": 0.838,
-   "not_found": 46,
-   "adjudicable": 284,
-   "strict": 0.0526,
-   "quotes_scored": 57
+   "exist": 0.8571,
+   "not_found": 90,
+   "adjudicable": 630,
+   "strict": 0.0833,
+   "quotes_scored": 108
+  },
+  "llama4mav:quota": {
+   "exist": 0.9505,
+   "not_found": 27,
+   "adjudicable": 546,
+   "strict": 0.1508,
+   "quotes_scored": 126
+  },
+  "llama4mav:stakes": {
+   "exist": 0.9309,
+   "not_found": 15,
+   "adjudicable": 217,
+   "strict": 0.2289,
+   "quotes_scored": 83
+  },
+  "llama4mav:temporal": {
+   "exist": 0.8571,
+   "not_found": 30,
+   "adjudicable": 210,
+   "strict": 0.1562,
+   "quotes_scored": 64
   },
   "mistralsmall:baseline": {
-   "exist": 0.716,
-   "not_found": 46,
-   "adjudicable": 162,
-   "strict": 0.1972,
-   "quotes_scored": 71
-  },
-  "mistralsmall:combo": {
-   "exist": 0.7207,
-   "not_found": 62,
-   "adjudicable": 222,
-   "strict": 0.0857,
-   "quotes_scored": 70
-  },
-  "qwen30b:baseline": {
-   "exist": 0.5652,
-   "not_found": 60,
-   "adjudicable": 138,
-   "strict": 0.0316,
-   "quotes_scored": 95
-  },
-  "qwen30b:combo": {
-   "exist": 0.5024,
-   "not_found": 102,
-   "adjudicable": 205,
-   "strict": 0.016,
-   "quotes_scored": 125
-  },
-  "sonnet:baseline": {
-   "exist": 0.9934,
-   "not_found": 1,
-   "adjudicable": 151,
-   "strict": 0.3176,
+   "exist": 0.7247,
+   "not_found": 87,
+   "adjudicable": 316,
+   "strict": 0.1554,
    "quotes_scored": 148
   },
+  "mistralsmall:combo": {
+   "exist": 0.7307,
+   "not_found": 115,
+   "adjudicable": 427,
+   "strict": 0.0608,
+   "quotes_scored": 148
+  },
+  "mistralsmall:quota": {
+   "exist": 0.75,
+   "not_found": 95,
+   "adjudicable": 380,
+   "strict": 0.1908,
+   "quotes_scored": 152
+  },
+  "mistralsmall:stakes": {
+   "exist": 0.7062,
+   "not_found": 104,
+   "adjudicable": 354,
+   "strict": 0.2105,
+   "quotes_scored": 114
+  },
+  "mistralsmall:temporal": {
+   "exist": 0.7624,
+   "not_found": 91,
+   "adjudicable": 383,
+   "strict": 0.087,
+   "quotes_scored": 138
+  },
+  "qwen30b:baseline": {
+   "exist": 0.645,
+   "not_found": 93,
+   "adjudicable": 262,
+   "strict": 0.0395,
+   "quotes_scored": 177
+  },
+  "qwen30b:combo": {
+   "exist": 0.546,
+   "not_found": 163,
+   "adjudicable": 359,
+   "strict": 0.016,
+   "quotes_scored": 250
+  },
+  "qwen30b:quota": {
+   "exist": 0.6712,
+   "not_found": 122,
+   "adjudicable": 371,
+   "strict": 0.0568,
+   "quotes_scored": 229
+  },
+  "qwen30b:stakes": {
+   "exist": 0.7401,
+   "not_found": 72,
+   "adjudicable": 277,
+   "strict": 0.0406,
+   "quotes_scored": 197
+  },
+  "qwen30b:temporal": {
+   "exist": 0.5959,
+   "not_found": 99,
+   "adjudicable": 245,
+   "strict": 0.0276,
+   "quotes_scored": 181
+  },
+  "sonnet:baseline": {
+   "exist": 0.9933,
+   "not_found": 2,
+   "adjudicable": 300,
+   "strict": 0.316,
+   "quotes_scored": 307
+  },
   "sonnet:combo": {
-   "exist": 0.9954,
+   "exist": 0.9977,
    "not_found": 1,
-   "adjudicable": 217,
-   "strict": 0.4695,
-   "quotes_scored": 164
+   "adjudicable": 442,
+   "strict": 0.4332,
+   "quotes_scored": 307
+  },
+  "sonnet:quota": {
+   "exist": 0.989,
+   "not_found": 5,
+   "adjudicable": 453,
+   "strict": 0.3812,
+   "quotes_scored": 341
+  },
+  "sonnet:stakes": {
+   "exist": 0.9935,
+   "not_found": 2,
+   "adjudicable": 309,
+   "strict": 0.4332,
+   "quotes_scored": 247
+  },
+  "sonnet:temporal": {
+   "exist": 0.9942,
+   "not_found": 2,
+   "adjudicable": 344,
+   "strict": 0.3942,
+   "quotes_scored": 312
   }
  },
  "gee": {
-  "citation:deepseek:combo": {
-   "OR": 1.342,
-   "ci_low": 0.54,
-   "ci_high": 3.336,
-   "p": 0.52655,
-   "n": 418,
+  "citation:deepseek:quota": {
+   "OR": 0.786,
+   "ci_low": 0.469,
+   "ci_high": 1.318,
+   "p": 0.36138,
+   "n": 1969,
    "holm_p": 1.0
+  },
+  "citation:deepseek:temporal": {
+   "OR": 0.718,
+   "ci_low": 0.426,
+   "ci_high": 1.211,
+   "p": 0.21377,
+   "n": 1969,
+   "holm_p": 1.0
+  },
+  "citation:deepseek:stakes": {
+   "OR": 1.01,
+   "ci_low": 0.547,
+   "ci_high": 1.863,
+   "p": 0.9754,
+   "n": 1969,
+   "holm_p": 0.9754
+  },
+  "citation:deepseek:combo": {
+   "OR": 1.144,
+   "ci_low": 0.596,
+   "ci_high": 2.194,
+   "p": 0.68579,
+   "n": 1969,
+   "holm_p": 1.0
+  },
+  "quote:deepseek:quota": {
+   "OR": 0.89,
+   "ci_low": 0.605,
+   "ci_high": 1.31,
+   "p": 0.55446,
+   "n": 1042,
+   "holm_p": 1.0
+  },
+  "quote:deepseek:temporal": {
+   "OR": 0.489,
+   "ci_low": 0.248,
+   "ci_high": 0.965,
+   "p": 0.03916,
+   "n": 1042,
+   "holm_p": 0.3133
+  },
+  "quote:deepseek:stakes": {
+   "OR": 0.686,
+   "ci_low": 0.471,
+   "ci_high": 1.001,
+   "p": 0.0506,
+   "n": 1042,
+   "holm_p": 0.3542
   },
   "quote:deepseek:combo": {
-   "OR": 1.838,
-   "ci_low": 0.734,
-   "ci_high": 4.599,
-   "p": 0.19353,
-   "n": 183,
+   "OR": 0.848,
+   "ci_low": 0.459,
+   "ci_high": 1.566,
+   "p": 0.59869,
+   "n": 1042,
    "holm_p": 1.0
+  },
+  "citation:gpt54mini:quota": {
+   "OR": 1.243,
+   "ci_low": 0.895,
+   "ci_high": 1.727,
+   "p": 0.19421,
+   "n": 3030,
+   "holm_p": 0.7768
+  },
+  "citation:gpt54mini:temporal": {
+   "OR": 0.97,
+   "ci_low": 0.501,
+   "ci_high": 1.878,
+   "p": 0.92791,
+   "n": 3030,
+   "holm_p": 0.9279
+  },
+  "citation:gpt54mini:stakes": {
+   "OR": 1.679,
+   "ci_low": 0.937,
+   "ci_high": 3.007,
+   "p": 0.08135,
+   "n": 3030,
+   "holm_p": 0.5695
   },
   "citation:gpt54mini:combo": {
-   "OR": 0.985,
-   "ci_low": 0.603,
-   "ci_high": 1.61,
-   "p": 0.95318,
-   "n": 672,
-   "holm_p": 0.9532
-  },
-  "quote:gpt54mini:combo": {
-   "OR": 0.68,
-   "ci_low": 0.289,
-   "ci_high": 1.599,
-   "p": 0.37666,
-   "n": 103,
+   "OR": 1.092,
+   "ci_low": 0.639,
+   "ci_high": 1.867,
+   "p": 0.74806,
+   "n": 3030,
    "holm_p": 1.0
   },
+  "quote:gpt54mini:quota": {
+   "OR": 1.693,
+   "ci_low": 1.035,
+   "ci_high": 2.769,
+   "p": 0.03602,
+   "n": 552,
+   "holm_p": 0.2882
+  },
+  "quote:gpt54mini:temporal": {
+   "OR": 0.643,
+   "ci_low": 0.324,
+   "ci_high": 1.277,
+   "p": 0.20752,
+   "n": 552,
+   "holm_p": 0.6226
+  },
+  "quote:gpt54mini:stakes": {
+   "OR": 1.553,
+   "ci_low": 0.9,
+   "ci_high": 2.679,
+   "p": 0.11343,
+   "n": 552,
+   "holm_p": 0.6806
+  },
+  "quote:gpt54mini:combo": {
+   "OR": 0.62,
+   "ci_low": 0.315,
+   "ci_high": 1.222,
+   "p": 0.1675,
+   "n": 552,
+   "holm_p": 0.8375
+  },
+  "citation:grok43:quota": {
+   "OR": 1.489,
+   "ci_low": 0.535,
+   "ci_high": 4.144,
+   "p": 0.4459,
+   "n": 1491,
+   "holm_p": 0.8918
+  },
+  "citation:grok43:temporal": {
+   "OR": 1.938,
+   "ci_low": 0.533,
+   "ci_high": 7.054,
+   "p": 0.31536,
+   "n": 1491,
+   "holm_p": 1.0
+  },
+  "citation:grok43:stakes": {
+   "OR": 1.222,
+   "ci_low": 0.578,
+   "ci_high": 2.581,
+   "p": 0.59961,
+   "n": 1491,
+   "holm_p": 0.5996
+  },
   "citation:grok43:combo": {
-   "OR": 1.451,
-   "ci_low": 0.527,
-   "ci_high": 4.0,
-   "p": 0.47147,
-   "n": 334,
+   "OR": 1.534,
+   "ci_low": 0.585,
+   "ci_high": 4.023,
+   "p": 0.38447,
+   "n": 1491,
+   "holm_p": 1.0
+  },
+  "quote:grok43:quota": {
+   "OR": 1.235,
+   "ci_low": 0.778,
+   "ci_high": 1.963,
+   "p": 0.37084,
+   "n": 582,
+   "holm_p": 1.0
+  },
+  "quote:grok43:temporal": {
+   "OR": 0.772,
+   "ci_low": 0.437,
+   "ci_high": 1.364,
+   "p": 0.37295,
+   "n": 582,
+   "holm_p": 1.0
+  },
+  "quote:grok43:stakes": {
+   "OR": 1.352,
+   "ci_low": 0.84,
+   "ci_high": 2.175,
+   "p": 0.21409,
+   "n": 582,
    "holm_p": 1.0
   },
   "quote:grok43:combo": {
-   "OR": 0.64,
-   "ci_low": 0.338,
-   "ci_high": 1.21,
-   "p": 0.16934,
-   "n": 120,
+   "OR": 0.664,
+   "ci_low": 0.44,
+   "ci_high": 1.003,
+   "p": 0.05153,
+   "n": 582,
+   "holm_p": 0.4122
+  },
+  "citation:llama4mav:quota": {
+   "OR": 1.068,
+   "ci_low": 0.548,
+   "ci_high": 2.08,
+   "p": 0.84673,
+   "n": 1801,
+   "holm_p": 1.0
+  },
+  "citation:llama4mav:temporal": {
+   "OR": 0.322,
+   "ci_low": 0.156,
+   "ci_high": 0.666,
+   "p": 0.00225,
+   "n": 1801,
+   "holm_p": 0.018
+  },
+  "citation:llama4mav:stakes": {
+   "OR": 0.75,
+   "ci_low": 0.319,
+   "ci_high": 1.764,
+   "p": 0.50994,
+   "n": 1801,
    "holm_p": 1.0
   },
   "citation:llama4mav:combo": {
-   "OR": 0.436,
-   "ci_low": 0.162,
-   "ci_high": 1.172,
-   "p": 0.09992,
-   "n": 394,
+   "OR": 0.357,
+   "ci_low": 0.167,
+   "ci_high": 0.76,
+   "p": 0.00754,
+   "n": 1801,
+   "holm_p": 0.0528
+  },
+  "quote:llama4mav:quota": {
+   "OR": 1.019,
+   "ci_low": 0.505,
+   "ci_high": 2.057,
+   "p": 0.95769,
+   "n": 464,
+   "holm_p": 0.9577
+  },
+  "quote:llama4mav:temporal": {
+   "OR": 0.891,
+   "ci_low": 0.408,
+   "ci_high": 1.945,
+   "p": 0.77223,
+   "n": 464,
+   "holm_p": 1.0
+  },
+  "quote:llama4mav:stakes": {
+   "OR": 1.494,
+   "ci_low": 0.808,
+   "ci_high": 2.763,
+   "p": 0.20094,
+   "n": 464,
    "holm_p": 1.0
   },
   "quote:llama4mav:combo": {
-   "OR": 0.22,
-   "ci_low": 0.062,
-   "ci_high": 0.773,
-   "p": 0.01819,
-   "n": 104,
-   "holm_p": 0.2364
+   "OR": 0.521,
+   "ci_low": 0.232,
+   "ci_high": 1.171,
+   "p": 0.11457,
+   "n": 464,
+   "holm_p": 0.6874
+  },
+  "citation:mistralsmall:quota": {
+   "OR": 1.156,
+   "ci_low": 0.871,
+   "ci_high": 1.535,
+   "p": 0.31595,
+   "n": 1860,
+   "holm_p": 1.0
+  },
+  "citation:mistralsmall:temporal": {
+   "OR": 1.19,
+   "ci_low": 0.854,
+   "ci_high": 1.658,
+   "p": 0.30396,
+   "n": 1860,
+   "holm_p": 1.0
+  },
+  "citation:mistralsmall:stakes": {
+   "OR": 0.953,
+   "ci_low": 0.713,
+   "ci_high": 1.274,
+   "p": 0.74527,
+   "n": 1860,
+   "holm_p": 0.7453
   },
   "citation:mistralsmall:combo": {
-   "OR": 1.065,
-   "ci_low": 0.654,
-   "ci_high": 1.735,
-   "p": 0.80074,
-   "n": 384,
+   "OR": 1.074,
+   "ci_low": 0.759,
+   "ci_high": 1.518,
+   "p": 0.68828,
+   "n": 1860,
+   "holm_p": 1.0
+  },
+  "quote:mistralsmall:quota": {
+   "OR": 1.357,
+   "ci_low": 0.677,
+   "ci_high": 2.72,
+   "p": 0.3902,
+   "n": 700,
+   "holm_p": 1.0
+  },
+  "quote:mistralsmall:temporal": {
+   "OR": 0.493,
+   "ci_low": 0.183,
+   "ci_high": 1.331,
+   "p": 0.16275,
+   "n": 700,
+   "holm_p": 1.0
+  },
+  "quote:mistralsmall:stakes": {
+   "OR": 1.472,
+   "ci_low": 0.691,
+   "ci_high": 3.136,
+   "p": 0.31605,
+   "n": 700,
    "holm_p": 1.0
   },
   "quote:mistralsmall:combo": {
-   "OR": 0.283,
-   "ci_low": 0.097,
-   "ci_high": 0.826,
-   "p": 0.02084,
-   "n": 141,
-   "holm_p": 0.2501
+   "OR": 0.348,
+   "ci_low": 0.15,
+   "ci_high": 0.805,
+   "p": 0.01362,
+   "n": 700,
+   "holm_p": 0.109
+  },
+  "citation:qwen30b:quota": {
+   "OR": 1.094,
+   "ci_low": 0.795,
+   "ci_high": 1.504,
+   "p": 0.58164,
+   "n": 1514,
+   "holm_p": 1.0
+  },
+  "citation:qwen30b:temporal": {
+   "OR": 0.766,
+   "ci_low": 0.475,
+   "ci_high": 1.236,
+   "p": 0.27508,
+   "n": 1514,
+   "holm_p": 1.0
+  },
+  "citation:qwen30b:stakes": {
+   "OR": 1.483,
+   "ci_low": 1.076,
+   "ci_high": 2.044,
+   "p": 0.01618,
+   "n": 1514,
+   "holm_p": 0.1294
   },
   "citation:qwen30b:combo": {
-   "OR": 0.843,
-   "ci_low": 0.471,
-   "ci_high": 1.51,
-   "p": 0.566,
-   "n": 343,
+   "OR": 0.7,
+   "ci_low": 0.44,
+   "ci_high": 1.112,
+   "p": 0.13077,
+   "n": 1514,
+   "holm_p": 0.9154
+  },
+  "quote:qwen30b:quota": {
+   "OR": 1.474,
+   "ci_low": 0.683,
+   "ci_high": 3.181,
+   "p": 0.3234,
+   "n": 1034,
    "holm_p": 1.0
+  },
+  "quote:qwen30b:temporal": {
+   "OR": 0.688,
+   "ci_low": 0.253,
+   "ci_high": 1.872,
+   "p": 0.46423,
+   "n": 1034,
+   "holm_p": 1.0
+  },
+  "quote:qwen30b:stakes": {
+   "OR": 1.042,
+   "ci_low": 0.449,
+   "ci_high": 2.418,
+   "p": 0.92411,
+   "n": 1034,
+   "holm_p": 0.9241
   },
   "quote:qwen30b:combo": {
-   "OR": 0.548,
-   "ci_low": 0.117,
-   "ci_high": 2.561,
-   "p": 0.4447,
-   "n": 220,
+   "OR": 0.362,
+   "ci_low": 0.095,
+   "ci_high": 1.37,
+   "p": 0.13452,
+   "n": 1034,
+   "holm_p": 0.8071
+  },
+  "citation:sonnet:quota": {
+   "OR": 0.596,
+   "ci_low": 0.113,
+   "ci_high": 3.155,
+   "p": 0.54303,
+   "n": 1848,
    "holm_p": 1.0
+  },
+  "citation:sonnet:temporal": {
+   "OR": 1.144,
+   "ci_low": 0.156,
+   "ci_high": 8.399,
+   "p": 0.89491,
+   "n": 1848,
+   "holm_p": 1.0
+  },
+  "citation:sonnet:stakes": {
+   "OR": 1.025,
+   "ci_low": 0.141,
+   "ci_high": 7.461,
+   "p": 0.98084,
+   "n": 1848,
+   "holm_p": 0.9808
   },
   "citation:sonnet:combo": {
-   "OR": 1.417,
-   "ci_low": 0.086,
-   "ci_high": 23.366,
-   "p": 0.80752,
-   "n": 368,
+   "OR": 2.932,
+   "ci_low": 0.259,
+   "ci_high": 33.246,
+   "p": 0.38524,
+   "n": 1848,
    "holm_p": 1.0
   },
+  "quote:sonnet:quota": {
+   "OR": 1.308,
+   "ci_low": 0.948,
+   "ci_high": 1.805,
+   "p": 0.10204,
+   "n": 1514,
+   "holm_p": 0.5102
+  },
+  "quote:sonnet:temporal": {
+   "OR": 1.46,
+   "ci_low": 1.016,
+   "ci_high": 2.097,
+   "p": 0.04077,
+   "n": 1514,
+   "holm_p": 0.2446
+  },
+  "quote:sonnet:stakes": {
+   "OR": 1.683,
+   "ci_low": 1.198,
+   "ci_high": 2.364,
+   "p": 0.00267,
+   "n": 1514,
+   "holm_p": 0.0187
+  },
   "quote:sonnet:combo": {
-   "OR": 2.025,
-   "ci_low": 1.325,
-   "ci_high": 3.096,
-   "p": 0.00112,
-   "n": 312,
-   "holm_p": 0.0157
+   "OR": 1.61,
+   "ci_low": 1.211,
+   "ci_high": 2.14,
+   "p": 0.00104,
+   "n": 1514,
+   "holm_p": 0.0083
   }
  },
  "gee_pooled_tasks": {
-  "citation:deepseek:combo": {
-   "OR": 1.006,
-   "ci_low": 0.531,
-   "ci_high": 1.907,
-   "p": 0.986,
-   "n": 1260,
-   "holm_p": 0.986
+  "citation:deepseek:quota": {
+   "OR": 0.738,
+   "ci_low": 0.492,
+   "ci_high": 1.107,
+   "p": 0.14198,
+   "n": 3970,
+   "holm_p": 0.7099
   },
-  "quote:deepseek:combo": {
-   "OR": 0.508,
-   "ci_low": 0.349,
-   "ci_high": 0.74,
-   "p": 0.00042,
-   "n": 923,
-   "holm_p": 0.005
+  "citation:deepseek:temporal": {
+   "OR": 0.688,
+   "ci_low": 0.44,
+   "ci_high": 1.073,
+   "p": 0.09933,
+   "n": 3970,
+   "holm_p": 0.596
   },
-  "citation:gpt54mini:combo": {
-   "OR": 0.81,
-   "ci_low": 0.538,
-   "ci_high": 1.218,
-   "p": 0.31087,
-   "n": 1802,
-   "holm_p": 0.9326
-  },
-  "quote:gpt54mini:combo": {
-   "OR": 0.487,
-   "ci_low": 0.272,
-   "ci_high": 0.871,
-   "p": 0.0153,
-   "n": 416,
-   "holm_p": 0.1377
-  },
-  "citation:grok43:combo": {
-   "OR": 1.713,
-   "ci_low": 0.678,
-   "ci_high": 4.33,
-   "p": 0.25519,
-   "n": 1070,
+  "citation:deepseek:stakes": {
+   "OR": 0.977,
+   "ci_low": 0.591,
+   "ci_high": 1.615,
+   "p": 0.92921,
+   "n": 3970,
    "holm_p": 1.0
   },
+  "citation:deepseek:combo": {
+   "OR": 1.021,
+   "ci_low": 0.606,
+   "ci_high": 1.718,
+   "p": 0.93912,
+   "n": 3970,
+   "holm_p": 0.9391
+  },
+  "quote:deepseek:quota": {
+   "OR": 0.936,
+   "ci_low": 0.718,
+   "ci_high": 1.22,
+   "p": 0.62399,
+   "n": 2826,
+   "holm_p": 1.0
+  },
+  "quote:deepseek:temporal": {
+   "OR": 0.572,
+   "ci_low": 0.398,
+   "ci_high": 0.821,
+   "p": 0.00248,
+   "n": 2826,
+   "holm_p": 0.0174
+  },
+  "quote:deepseek:stakes": {
+   "OR": 0.858,
+   "ci_low": 0.638,
+   "ci_high": 1.153,
+   "p": 0.30858,
+   "n": 2826,
+   "holm_p": 1.0
+  },
+  "quote:deepseek:combo": {
+   "OR": 0.505,
+   "ci_low": 0.362,
+   "ci_high": 0.705,
+   "p": 6e-05,
+   "n": 2826,
+   "holm_p": 0.0005
+  },
+  "citation:gpt54mini:quota": {
+   "OR": 1.214,
+   "ci_low": 0.891,
+   "ci_high": 1.655,
+   "p": 0.22,
+   "n": 5669,
+   "holm_p": 1.0
+  },
+  "citation:gpt54mini:temporal": {
+   "OR": 0.816,
+   "ci_low": 0.483,
+   "ci_high": 1.379,
+   "p": 0.44778,
+   "n": 5669,
+   "holm_p": 1.0
+  },
+  "citation:gpt54mini:stakes": {
+   "OR": 1.497,
+   "ci_low": 0.931,
+   "ci_high": 2.405,
+   "p": 0.09558,
+   "n": 5669,
+   "holm_p": 0.5735
+  },
+  "citation:gpt54mini:combo": {
+   "OR": 0.917,
+   "ci_low": 0.594,
+   "ci_high": 1.418,
+   "p": 0.69816,
+   "n": 5669,
+   "holm_p": 1.0
+  },
+  "quote:gpt54mini:quota": {
+   "OR": 1.171,
+   "ci_low": 0.819,
+   "ci_high": 1.675,
+   "p": 0.38554,
+   "n": 1376,
+   "holm_p": 1.0
+  },
+  "quote:gpt54mini:temporal": {
+   "OR": 0.585,
+   "ci_low": 0.372,
+   "ci_high": 0.92,
+   "p": 0.02032,
+   "n": 1376,
+   "holm_p": 0.1422
+  },
+  "quote:gpt54mini:stakes": {
+   "OR": 1.053,
+   "ci_low": 0.75,
+   "ci_high": 1.477,
+   "p": 0.76709,
+   "n": 1376,
+   "holm_p": 0.7671
+  },
+  "quote:gpt54mini:combo": {
+   "OR": 0.508,
+   "ci_low": 0.307,
+   "ci_high": 0.841,
+   "p": 0.00847,
+   "n": 1376,
+   "holm_p": 0.0678
+  },
+  "citation:grok43:quota": {
+   "OR": 1.387,
+   "ci_low": 0.609,
+   "ci_high": 3.158,
+   "p": 0.43575,
+   "n": 3177,
+   "holm_p": 0.8715
+  },
+  "citation:grok43:temporal": {
+   "OR": 1.433,
+   "ci_low": 0.515,
+   "ci_high": 3.989,
+   "p": 0.49061,
+   "n": 3177,
+   "holm_p": 0.4906
+  },
+  "citation:grok43:stakes": {
+   "OR": 1.296,
+   "ci_low": 0.749,
+   "ci_high": 2.243,
+   "p": 0.35426,
+   "n": 3177,
+   "holm_p": 1.0
+  },
+  "citation:grok43:combo": {
+   "OR": 1.7,
+   "ci_low": 0.698,
+   "ci_high": 4.14,
+   "p": 0.24256,
+   "n": 3177,
+   "holm_p": 0.9702
+  },
+  "quote:grok43:quota": {
+   "OR": 1.32,
+   "ci_low": 0.975,
+   "ci_high": 1.788,
+   "p": 0.07231,
+   "n": 1508,
+   "holm_p": 0.4339
+  },
+  "quote:grok43:temporal": {
+   "OR": 0.776,
+   "ci_low": 0.561,
+   "ci_high": 1.073,
+   "p": 0.12492,
+   "n": 1508,
+   "holm_p": 0.6246
+  },
+  "quote:grok43:stakes": {
+   "OR": 1.411,
+   "ci_low": 1.056,
+   "ci_high": 1.887,
+   "p": 0.02008,
+   "n": 1508,
+   "holm_p": 0.1606
+  },
   "quote:grok43:combo": {
-   "OR": 0.694,
-   "ci_low": 0.454,
-   "ci_high": 1.059,
-   "p": 0.09013,
-   "n": 498,
-   "holm_p": 0.5408
+   "OR": 0.709,
+   "ci_low": 0.502,
+   "ci_high": 1.0,
+   "p": 0.05014,
+   "n": 1508,
+   "holm_p": 0.351
+  },
+  "citation:llama4mav:quota": {
+   "OR": 1.255,
+   "ci_low": 0.79,
+   "ci_high": 1.994,
+   "p": 0.33643,
+   "n": 3469,
+   "holm_p": 1.0
+  },
+  "citation:llama4mav:temporal": {
+   "OR": 0.434,
+   "ci_low": 0.248,
+   "ci_high": 0.76,
+   "p": 0.00346,
+   "n": 3469,
+   "holm_p": 0.0208
+  },
+  "citation:llama4mav:stakes": {
+   "OR": 0.823,
+   "ci_low": 0.438,
+   "ci_high": 1.548,
+   "p": 0.54601,
+   "n": 3469,
+   "holm_p": 1.0
   },
   "citation:llama4mav:combo": {
-   "OR": 0.548,
-   "ci_low": 0.292,
-   "ci_high": 1.029,
-   "p": 0.06143,
-   "n": 1113,
-   "holm_p": 0.43
+   "OR": 0.46,
+   "ci_low": 0.267,
+   "ci_high": 0.793,
+   "p": 0.00518,
+   "n": 3469,
+   "holm_p": 0.0259
+  },
+  "quote:llama4mav:quota": {
+   "OR": 0.799,
+   "ci_low": 0.55,
+   "ci_high": 1.16,
+   "p": 0.238,
+   "n": 1007,
+   "holm_p": 0.952
+  },
+  "quote:llama4mav:temporal": {
+   "OR": 0.352,
+   "ci_low": 0.204,
+   "ci_high": 0.606,
+   "p": 0.00016,
+   "n": 1007,
+   "holm_p": 0.0011
+  },
+  "quote:llama4mav:stakes": {
+   "OR": 1.042,
+   "ci_low": 0.699,
+   "ci_high": 1.552,
+   "p": 0.8405,
+   "n": 1007,
+   "holm_p": 0.8405
   },
   "quote:llama4mav:combo": {
-   "OR": 0.286,
-   "ci_low": 0.165,
-   "ci_high": 0.496,
-   "p": 1e-05,
-   "n": 323,
-   "holm_p": 0.0001
+   "OR": 0.339,
+   "ci_low": 0.203,
+   "ci_high": 0.566,
+   "p": 4e-05,
+   "n": 1007,
+   "holm_p": 0.0003
+  },
+  "citation:mistralsmall:quota": {
+   "OR": 1.23,
+   "ci_low": 0.982,
+   "ci_high": 1.54,
+   "p": 0.07171,
+   "n": 4013,
+   "holm_p": 0.3585
+  },
+  "citation:mistralsmall:temporal": {
+   "OR": 0.966,
+   "ci_low": 0.742,
+   "ci_high": 1.258,
+   "p": 0.79743,
+   "n": 4013,
+   "holm_p": 1.0
+  },
+  "citation:mistralsmall:stakes": {
+   "OR": 1.04,
+   "ci_low": 0.807,
+   "ci_high": 1.34,
+   "p": 0.76407,
+   "n": 4013,
+   "holm_p": 1.0
   },
   "citation:mistralsmall:combo": {
-   "OR": 0.875,
-   "ci_low": 0.64,
-   "ci_high": 1.195,
-   "p": 0.4013,
-   "n": 1278,
-   "holm_p": 0.8026
+   "OR": 0.933,
+   "ci_low": 0.715,
+   "ci_high": 1.218,
+   "p": 0.60961,
+   "n": 4013,
+   "holm_p": 1.0
+  },
+  "quote:mistralsmall:quota": {
+   "OR": 1.42,
+   "ci_low": 0.977,
+   "ci_high": 2.065,
+   "p": 0.06611,
+   "n": 2072,
+   "holm_p": 0.3967
+  },
+  "quote:mistralsmall:temporal": {
+   "OR": 0.497,
+   "ci_low": 0.31,
+   "ci_high": 0.796,
+   "p": 0.00361,
+   "n": 2072,
+   "holm_p": 0.0289
+  },
+  "quote:mistralsmall:stakes": {
+   "OR": 0.988,
+   "ci_low": 0.65,
+   "ci_high": 1.502,
+   "p": 0.95552,
+   "n": 2072,
+   "holm_p": 0.9555
   },
   "quote:mistralsmall:combo": {
-   "OR": 0.583,
-   "ci_low": 0.374,
-   "ci_high": 0.908,
-   "p": 0.01707,
-   "n": 694,
-   "holm_p": 0.1366
+   "OR": 0.58,
+   "ci_low": 0.373,
+   "ci_high": 0.901,
+   "p": 0.01539,
+   "n": 2072,
+   "holm_p": 0.1077
+  },
+  "citation:qwen30b:quota": {
+   "OR": 0.856,
+   "ci_low": 0.678,
+   "ci_high": 1.081,
+   "p": 0.1921,
+   "n": 3474,
+   "holm_p": 0.7684
+  },
+  "citation:qwen30b:temporal": {
+   "OR": 0.641,
+   "ci_low": 0.457,
+   "ci_high": 0.9,
+   "p": 0.0102,
+   "n": 3474,
+   "holm_p": 0.051
+  },
+  "citation:qwen30b:stakes": {
+   "OR": 1.09,
+   "ci_low": 0.843,
+   "ci_high": 1.41,
+   "p": 0.50918,
+   "n": 3474,
+   "holm_p": 1.0
   },
   "citation:qwen30b:combo": {
-   "OR": 0.498,
-   "ci_low": 0.33,
-   "ci_high": 0.752,
-   "p": 0.00091,
-   "n": 1110,
-   "holm_p": 0.01
+   "OR": 0.512,
+   "ci_low": 0.361,
+   "ci_high": 0.725,
+   "p": 0.00016,
+   "n": 3474,
+   "holm_p": 0.0011
+  },
+  "quote:qwen30b:quota": {
+   "OR": 0.963,
+   "ci_low": 0.741,
+   "ci_high": 1.251,
+   "p": 0.77675,
+   "n": 2605,
+   "holm_p": 0.7768
+  },
+  "quote:qwen30b:temporal": {
+   "OR": 0.475,
+   "ci_low": 0.295,
+   "ci_high": 0.765,
+   "p": 0.0022,
+   "n": 2605,
+   "holm_p": 0.0132
+  },
+  "quote:qwen30b:stakes": {
+   "OR": 0.821,
+   "ci_low": 0.542,
+   "ci_high": 1.244,
+   "p": 0.35199,
+   "n": 2605,
+   "holm_p": 1.0
   },
   "quote:qwen30b:combo": {
-   "OR": 0.368,
-   "ci_low": 0.249,
-   "ci_high": 0.544,
+   "OR": 0.35,
+   "ci_low": 0.238,
+   "ci_high": 0.515,
    "p": 0.0,
-   "n": 891,
+   "n": 2605,
    "holm_p": 0.0
   },
+  "citation:sonnet:quota": {
+   "OR": 0.636,
+   "ci_low": 0.277,
+   "ci_high": 1.458,
+   "p": 0.28465,
+   "n": 3756,
+   "holm_p": 1.0
+  },
+  "citation:sonnet:temporal": {
+   "OR": 1.501,
+   "ci_low": 0.569,
+   "ci_high": 3.959,
+   "p": 0.41137,
+   "n": 3756,
+   "holm_p": 0.8227
+  },
+  "citation:sonnet:stakes": {
+   "OR": 1.125,
+   "ci_low": 0.449,
+   "ci_high": 2.819,
+   "p": 0.80213,
+   "n": 3756,
+   "holm_p": 0.8021
+  },
   "citation:sonnet:combo": {
-   "OR": 2.963,
-   "ci_low": 0.759,
-   "ci_high": 11.565,
-   "p": 0.11804,
-   "n": 1136,
-   "holm_p": 0.5902
+   "OR": 3.821,
+   "ci_low": 1.015,
+   "ci_high": 14.389,
+   "p": 0.04753,
+   "n": 3756,
+   "holm_p": 0.2377
+  },
+  "quote:sonnet:quota": {
+   "OR": 1.117,
+   "ci_low": 0.908,
+   "ci_high": 1.373,
+   "p": 0.29561,
+   "n": 3443,
+   "holm_p": 0.8868
+  },
+  "quote:sonnet:temporal": {
+   "OR": 1.281,
+   "ci_low": 1.007,
+   "ci_high": 1.631,
+   "p": 0.04391,
+   "n": 3443,
+   "holm_p": 0.2635
+  },
+  "quote:sonnet:stakes": {
+   "OR": 1.432,
+   "ci_low": 1.116,
+   "ci_high": 1.836,
+   "p": 0.00469,
+   "n": 3443,
+   "holm_p": 0.0328
   },
   "quote:sonnet:combo": {
-   "OR": 1.588,
-   "ci_low": 1.208,
-   "ci_high": 2.088,
-   "p": 0.00091,
-   "n": 1056,
-   "holm_p": 0.0091
+   "OR": 1.521,
+   "ci_low": 1.207,
+   "ci_high": 1.916,
+   "p": 0.00037,
+   "n": 3443,
+   "holm_p": 0.003
   }
  },
  "reporter_mix": {
   "deepseek": {
-   "drafts": 48,
+   "drafts": 244,
    "short_drafts": 0,
-   "citations": 418,
-   "us_share": 0.615,
-   "federal_share": 0.316,
-   "us_not_found": 5,
-   "federal_not_found": 28,
-   "other_not_found": 5
+   "citations": 2014,
+   "us_share": 0.527,
+   "federal_share": 0.391,
+   "us_not_found": 18,
+   "federal_not_found": 137,
+   "other_not_found": 56
   },
   "gpt54mini": {
-   "drafts": 48,
+   "drafts": 244,
    "short_drafts": 0,
-   "citations": 672,
-   "us_share": 0.592,
-   "federal_share": 0.26,
-   "us_not_found": 19,
-   "federal_not_found": 19,
-   "other_not_found": 24
+   "citations": 3094,
+   "us_share": 0.607,
+   "federal_share": 0.307,
+   "us_not_found": 56,
+   "federal_not_found": 92,
+   "other_not_found": 65
   },
   "grok43": {
-   "drafts": 48,
-   "short_drafts": 0,
-   "citations": 336,
-   "us_share": 0.756,
-   "federal_share": 0.167,
-   "us_not_found": 3,
-   "federal_not_found": 5,
-   "other_not_found": 10
-  },
-  "llama4mav": {
-   "drafts": 48,
-   "short_drafts": 0,
-   "citations": 394,
-   "us_share": 0.571,
-   "federal_share": 0.363,
-   "us_not_found": 5,
-   "federal_not_found": 36,
-   "other_not_found": 12
-  },
-  "mistralsmall": {
-   "drafts": 48,
-   "short_drafts": 0,
-   "citations": 384,
-   "us_share": 0.487,
-   "federal_share": 0.422,
-   "us_not_found": 8,
-   "federal_not_found": 80,
+   "drafts": 244,
+   "short_drafts": 2,
+   "citations": 1518,
+   "us_share": 0.718,
+   "federal_share": 0.229,
+   "us_not_found": 6,
+   "federal_not_found": 20,
    "other_not_found": 20
   },
-  "qwen30b": {
-   "drafts": 48,
+  "llama4mav": {
+   "drafts": 244,
    "short_drafts": 0,
-   "citations": 346,
-   "us_share": 0.546,
-   "federal_share": 0.396,
-   "us_not_found": 61,
-   "federal_not_found": 96,
-   "other_not_found": 5
+   "citations": 1840,
+   "us_share": 0.483,
+   "federal_share": 0.435,
+   "us_not_found": 17,
+   "federal_not_found": 113,
+   "other_not_found": 44
+  },
+  "mistralsmall": {
+   "drafts": 244,
+   "short_drafts": 0,
+   "citations": 1899,
+   "us_share": 0.508,
+   "federal_share": 0.409,
+   "us_not_found": 30,
+   "federal_not_found": 367,
+   "other_not_found": 95
+  },
+  "qwen30b": {
+   "drafts": 244,
+   "short_drafts": 0,
+   "citations": 1541,
+   "us_share": 0.579,
+   "federal_share": 0.316,
+   "us_not_found": 199,
+   "federal_not_found": 307,
+   "other_not_found": 46
   },
   "sonnet": {
-   "drafts": 48,
+   "drafts": 244,
    "short_drafts": 0,
-   "citations": 368,
-   "us_share": 0.734,
-   "federal_share": 0.182,
+   "citations": 1880,
+   "us_share": 0.674,
+   "federal_share": 0.257,
    "us_not_found": 2,
-   "federal_not_found": 0,
-   "other_not_found": 0
+   "federal_not_found": 7,
+   "other_not_found": 3
   },
   "_pooled": {
-   "us": 1780,
-   "federal": 872,
-   "other": 266,
-   "us_nf": 103,
-   "federal_nf": 264,
-   "other_nf": 76
+   "us": 8041,
+   "federal": 4633,
+   "other": 1112,
+   "us_nf": 328,
+   "federal_nf": 1043,
+   "other_nf": 329
   }
  },
  "baseline_vs_scotus": {
   "deepseek": {
    "scotus_exist": 0.9718,
-   "app_exist": 0.9,
+   "app_exist": 0.9068,
    "scotus_strict": 0.2814,
-   "app_strict": 0.1633
+   "app_strict": 0.2118
   },
   "gpt54mini": {
    "scotus_exist": 0.9808,
-   "app_exist": 0.9102,
+   "app_exist": 0.9245,
    "scotus_strict": 0.4599,
-   "app_strict": 0.2576
+   "app_strict": 0.2403
   },
   "grok43": {
    "scotus_exist": 0.9805,
-   "app_exist": 0.9358,
+   "app_exist": 0.9591,
    "scotus_strict": 0.3263,
-   "app_strict": 0.3684
+   "app_strict": 0.3139
   },
   "llama4mav": {
    "scotus_exist": 0.9577,
-   "app_exist": 0.9364,
+   "app_exist": 0.9495,
    "scotus_strict": 0.402,
-   "app_strict": 0.1915
+   "app_strict": 0.1566
   },
   "mistralsmall": {
    "scotus_exist": 0.9008,
-   "app_exist": 0.716,
+   "app_exist": 0.7247,
    "scotus_strict": 0.2068,
-   "app_strict": 0.1972
+   "app_strict": 0.1554
   },
   "qwen30b": {
    "scotus_exist": 0.9243,
-   "app_exist": 0.5652,
+   "app_exist": 0.645,
    "scotus_strict": 0.175,
-   "app_strict": 0.0316
+   "app_strict": 0.0395
   },
   "sonnet": {
    "scotus_exist": 0.9906,
-   "app_exist": 0.9934,
+   "app_exist": 0.9933,
    "scotus_strict": 0.3333,
-   "app_strict": 0.3176
+   "app_strict": 0.316
   }
  }
 }

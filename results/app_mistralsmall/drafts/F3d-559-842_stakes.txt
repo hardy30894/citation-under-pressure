@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. The Mouas’ Right to Rescind Was Not Waived and the Three-Year Rescission Period Applies**
+
+The Truth in Lending Act (TILA), 15 U.S.C. § 1635(a), and its implementing regulation, Regulation Z, 12 C.F.R. § 226.23, establish a statutory right of rescission for certain loan transactions secured by a consumer’s principal dwelling. *See Beach v. Ocwen Fed. Bank, 523 U.S. 410, 414 (1998)*. Where a lender fails to make the required disclosures or provide the statutorily mandated notice, the right of rescission does not expire after three days but instead persists for three years. *Id.* at 415; *see also Keiran v. Home Capital, Inc., 720 F.3d 721, 725 (7th Cir. 2013)*.
+
+Here, the Mouas’ right to rescind was not effectively waived, and the three-year rescission period applies because Rand failed to comply with TILA and HOEPA’s disclosure requirements. First, Rand did not provide the Mouas with the three-day advance HOEPA disclosure required by 15 U.S.C. § 1639(b). The statute explicitly mandates that a lender provide this disclosure *before* consummation of the loan. *See 15 U.S.C. § 1639(b)(1)*; *cf. Smith v. Highland Bank, 100 F.3d 1348, 1351 (8th Cir. 1996)* (holding that failure to provide required disclosures prior to consummation triggers extended rescission period). The Mouas’ alleged waiver of this disclosure was ineffective because TILA does not permit waiver of the *advance* disclosure requirement. *See 15 U.S.C. § 1635(c)*; *see also In re Smith, 351 B.R. 60, 68 (Bankr. E.D. Pa. 2006)* (finding waiver of advance disclosure invalid under TILA).
+
+Second, Rand failed to provide clear and conspicuous notice of the right to cancel. The Notice of Right to Cancel provided to the Mouas was defective because it contained a “Confirmation” section that falsely stated the three-day period had already elapsed. This misrepresentation deprived the Mouas of meaningful notice of their rescission rights. *See 12 C.F.R. § 226.23(b)(1)* (requiring notice to be “clear and conspicuous”); *see also Gilbert v. Residential Funding LLC, 678 F.3d 279, 285 (2d Cir. 2012)* (holding that misleading or confusing notices do not satisfy TILA’s requirements).
+
+Third, the loan included a prepayment penalty prohibited by HOEPA, 15 U.S.C. § 1639(b)(2). The presence of such a penalty constitutes a material violation of HOEPA and further extends the rescission period. *See 15 U.S.C. § 1639(b)(2)*; *see also In re Stewart, 352 B.R. 825, 832 (Bankr. D. Md. 2006)* (finding prepayment penalty in HOEPA-covered loan triggers three-year rescission period).
+
+Because Rand failed to provide the required advance HOEPA disclosure, failed to give clear and conspicuous notice of the right to cancel, and included a prohibited prepayment penalty, the three-year rescission period applies. *See Beach, 523 U.S. at 415*; *Keiran, 720 F.3d at 725*.
+
+**II. The Mouas Did Not Validly Waive Their Right to Rescission**
+
+Even if the Mouas signed a waiver, TILA strictly limits the circumstances under which a borrower may waive the right to rescind. Waiver is permitted only in cases of a “bona fide personal financial emergency,” and the lender bears the burden of proving such an emergency existed. *See 15 U.S.C. § 1635(e)*; *see also In re Smith, 351 B.R. at 69*. Here, Rand’s claim of a financial emergency is insufficient. The mere expiration of a redemption period does not constitute a “bona fide personal financial emergency” under TILA. *See Gilbert, 678 F.3d at 286* (finding no emergency where borrower faced foreclosure but lender failed to prove urgency). Moreover, the Mouas’ signatures on the Confirmation section were obtained under misleading circumstances, as they were told to sign before understanding their rights. *See 12 C.F.R. § 226.23(b)(1)* (requiring notice to be given in a manner enabling borrower to understand it).
+
+**III. The District Court Erred in Granting Summary Judgment to Rand**
+
+The district court erred in granting summary judgment because there are genuine disputes of material fact regarding whether the Mouas validly waived their rescission rights and whether Rand complied with TILA and HOEPA. *See Celotex Corp. v. Catrett, 477 U.S. 317, 322 (1986)* (summary judgment standard). The Mouas’ testimony that they did not understand the Confirmation section and were misled by the closer creates a factual dispute precluding summary judgment. *See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 248 (1986)* (credibility determinations are for the factfinder).
+
+**CONCLUSION**
+
+For the foregoing reasons, the Mouas’ right to rescind was not waived, and the three-year rescission period applies. The district court’s grant of summary judgment to Rand should be reversed, and this matter remanded for further proceedings consistent with TILA and HOEPA.

@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+I. THE DISTRICT COURT ERRED IN HOLDING THAT THE ASSERTED CLAIMS ARE NOT ENTITLED TO THE BENEFIT OF THE ORIGINAL APPLICATION’S FILING DATE UNDER 35 U.S.C. § 120.
+
+A. The Original Application Provided Sufficient Written Description of the Asserted Claims.
+
+To qualify for the benefit of an earlier filing date under § 120, an applicant must show that the earlier application provides a written description of the invention claimed in the later application. *In re Ruschig*, 379 F.2d 990, 994 (C.C.P.A. 1967). The test is whether the disclosure of the earlier application “reasonably conveys to the artisan” that the inventor had possession of the claimed invention. *Id.* (citing *Minerals Separation, Ltd. v. Hyde*, 242 U.S. 261, 270 (1916)).
+
+Here, the Original Application’s specification, read as a whole, clearly describes a vending machine for telecommunications access. The specification discloses a payment mechanism, a customer interface, an electronic circuit for determining transaction completion, a telecommunications channel access circuit, and a control unit—each of which is recited in claim 1 of the asserted patents. The fact that the Original Application did not use the exact phrase “customer interface” is immaterial, as long as the disclosure reasonably conveys possession of the invention. *See In re Gardner*, 357 F.2d 1002, 1005 (C.C.P.A. 1966) (holding that the absence of a specific term does not defeat written description if the invention is otherwise described).
+
+B. The District Court Improperly Required the Original Application to Mirror the Later Claims.
+
+The district court erred by requiring the Original Application to contain verbatim recitation of every claim limitation. Section 120 does not impose such a rigid standard. *See In re Lukach*, 359 F.2d 1005, 1008 (C.C.P.A. 1966) (holding that the earlier application need not recite the claims in haec verba). Instead, the inquiry is whether the earlier disclosure provides sufficient support for the later claims. *Id.* The Original Application’s description of a vending machine for telecommunications access plainly supports the asserted claims, which merely elaborate on the same core invention.
+
+II. THE DISTRICT COURT ERRED IN CONSTRUING “CUSTOMER INTERFACE” TO INCLUDE AN INTERFACE LOCATED ON A CUSTOMER’S LAPTOP.
+
+The district court’s construction of “customer interface” as encompassing a laptop-based interface is inconsistent with the intrinsic evidence. Claim 1 recites a “customer interface for indicating the status of said vending machine,” which plainly refers to a component of the vending machine itself. *See Markman v. Westview Instruments, Inc.*, 52 F.3d 967, 979 (Fed. Cir. 1995) (en banc) (holding that claims must be read in light of the specification).
+
+Moreover, the specification repeatedly describes the customer interface as part of the vending machine. For example, the Original Application states that the vending machine includes “a customer interface for indicating the status of the vending machine.” This language confirms that the customer interface is a component of the vending machine, not a separate device such as a laptop. *See Autogiro Co. of America v. United States*, 181 F.2d 385, 390 (Ct. Cl. 1950) (holding that claims should be construed in light of the specification).
+
+III. THE MOBILESTAR NETWORK DOES NOT ANTICIPATE THE ASSERTED CLAIMS.
+
+Even if the asserted claims are not entitled to the Original Application’s filing date, the MobileStar Network does not anticipate them under § 102(b). Anticipation requires that a single prior art reference disclose every limitation of the claimed invention, either expressly or inherently. *In re Schreiber*, 128 F.2d 702, 704 (C.C.P.A. 1942). Here, the MobileStar Network lacks a “customer interface” as properly construed—a component integral to the vending machine. Without this limitation, the MobileStar Network cannot anticipate the asserted claims. *See In re Spada*, 911 F.2d 705, 707 (Fed. Cir. 1990) (holding that a prior art reference must disclose all claim limitations to anticipate).
+
+**CONCLUSION**
+
+For the foregoing reasons, the district court erred in granting summary judgment. The asserted claims are entitled to the Original Application’s filing date under § 120, and the MobileStar Network does not anticipate them under § 102(b). The judgment below should be reversed.

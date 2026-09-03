@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+I. **THE DISTRICT COURT ERRED IN HOLDING THAT THE ASSERTED CLAIMS ARE NOT ENTITLED TO THE BENEFIT OF THE ORIGINAL APPLICATION’S FILING DATE UNDER 35 U.S.C. § 120**
+
+A. **The Original Application Provides Sufficient Written Description Under 35 U.S.C. § 112**
+
+The district court erred in concluding that the Original Application failed to provide adequate written description for the asserted claims. Section 112 requires that the specification "contain a written description of the invention" such that one skilled in the art can reasonably conclude that the inventor had possession of the claimed subject matter. *See Ariad Pharms., Inc. v. Eli Lilly & Co.*, 598 F.3d 1336, 1351 (Fed. Cir. 2010) (en banc). The Original Application’s specification, read as a whole, clearly describes a vending machine for telecommunications access, including the key components recited in claim 1—payment mechanism, customer interface, electronic circuit, telecommunications channel access circuit, and control unit. *See PowerOasis, Inc. v. T-Mobile USA, Inc.*, No. 05-cv-42-PB, 2007 WL 962937, at *3 (D.N.H. Mar. 30, 2007) (acknowledging the Original Application’s disclosure of these components).
+
+The district court improperly relied on the 2000 CIP Application’s addition of "substantial new matter" to invalidate the Original Application’s written description. *See id.* at *2. However, the Federal Circuit has made clear that "new matter" concerns only whether amendments introduce subject matter not present in the original disclosure, not whether the original disclosure was sufficient. *See In re Rasmussen*, 650 F.2d 1212, 1215 (C.C.P.A. 1981). The Original Application’s disclosure of a vending machine with telecommunications access is plainly sufficient to support the asserted claims.
+
+B. **The Asserted Claims Are Entitled to the Original Application’s Filing Date Under § 120**
+
+Section 120 permits a patent applicant to claim the benefit of an earlier filing date if the later application is a continuation or continuation-in-part of the earlier application and the earlier application provides support for the later claims. *See 35 U.S.C. § 120*; *see also In re Hogan*, 559 F.2d 595, 601 (C.C.P.A. 1977). The asserted claims are continuations of the Original Application, and the Original Application’s specification provides written description for the asserted claims. Therefore, the asserted claims are entitled to the Original Application’s February 6, 1997 filing date.
+
+The district court’s contrary conclusion rested on an erroneous interpretation of § 112’s written description requirement. *See PowerOasis*, 2007 WL 962937, at *3. This was legal error. As the Federal Circuit has held, "a claim limitation is adequately described in the original disclosure if the disclosure reasonably conveys to those skilled in the art that the inventor had possession of the claimed subject matter." *Ariad*, 598 F.3d at 1351. The Original Application’s disclosure of a vending machine with telecommunications access satisfies this standard.
+
+II. **THE ASSERTED CLAIMS ARE NOT ANTICIPATED BY THE MOBILESTAR NETWORK UNDER 35 U.S.C. § 102(b)**
+
+Because the asserted claims are entitled to the Original Application’s filing date, the MobileStar Network—disclosed and publicly used before June 15, 1999—cannot anticipate the asserted claims under § 102(b). *See 35 U.S.C. § 102(b)*; *see also In re Katz*, 687 F.2d 450, 454 (C.C.P.A. 1982) (holding that prior art under § 102(b) must predate the patent’s effective filing date). The MobileStar Network’s activities occurred more than one year before the Original Application’s filing date, but the asserted claims are entitled to that earlier date. Therefore, the MobileStar Network cannot anticipate the asserted claims.
+
+The district court’s contrary conclusion rested on its erroneous denial of priority. *See PowerOasis*, 2007 WL 962937, at *4. Once the asserted claims are properly accorded the Original Application’s filing date, the MobileStar Network cannot serve as § 102(b) prior art.
+
+III. **THE DISTRICT COURT ERRED IN CONSTRUING "CUSTOMER INTERFACE" TO INCLUDE AN INTERFACE ON THE CUSTOMER’S LAPTOP**
+
+The district court’s construction of "customer interface" as encompassing an interface on the customer’s laptop was erroneous. Claim terms are generally given their ordinary and customary meaning, as understood by one skilled in the art. *See Phillips v. AWH Corp.*, 415 F.3d 1303, 1312-13 (Fed. Cir. 2005) (en banc). The term "customer interface" in the context of a vending machine plainly refers to a component of the vending machine itself, not an external device such as a laptop. *See id.* at 1314-15 (holding that claim terms should be construed in light of the specification and prosecution history).
+
+The district court’s construction improperly relied on new matter added in the 2000 CIP Application. *See PowerOasis*, 2007 WL 962937, at *3. However, the specification must be read as a whole, and the Original Application’s disclosure supports a construction limited to the vending machine itself. *See Phillips*, 415 F.3d at 1321 (holding that the specification is the primary guide to claim construction).
+
+**CONCLUSION**
+
+For the foregoing reasons, the district court erred in granting summary judgment of invalidity. The asserted claims are entitled to the Original Application’s filing date, and the MobileStar Network does not anticipate them. The district court also erred in construing "customer interface." The judgment below should be reversed.

@@ -1,0 +1,17 @@
+ARGUMENT
+
+I. The District Court Erred in Granting Summary Judgment to Ybarra on the Seven Calls from DISH's 8047 Number.
+
+The Telephone Consumer Protection Act ("TCPA") prohibits making "any call" using an "artificial or prerecorded voice" to a cellular telephone number without the called party's prior express consent. 47 U.S.C. § 227(b)(1)(A)(iii). The district court granted summary judgment to Ybarra on the seven calls from DISH's 8047 number, reasoning that DISH had admitted to using a prerecorded voice in those calls. However, this reasoning is flawed because it ignores the requirement that the prerecorded voice be actually played to the called party.
+
+The TCPA prohibits "any call" using an artificial or prerecorded voice, but it does not prohibit the mere capacity to play a prerecorded voice. See In the Matter of Rules & Regulations Implementing the Tel. Consumer Prot. Act of 1991, 23 F.C.C.R. 559, 566 (2008) ("A prerecorded message is played only when a call is answered by a human voice or when an answering machine is triggered to record a message."). The evidence shows that the Cisco Dialer used by DISH plays prerecorded messages only when a call is met with a "positive voice," which may be either an actual human voice or a recorded voicemail greeting. 
+
+The record shows that out of the seven calls at issue, only three resulted in a "positive voice" (Calls 1, 6, and 7). The other four calls either resulted in an "answering machine" (Calls 2, 3, and 4) or a "data error-no value" (Call 5). As to Calls 2, 3, and 4, the district court erred in granting summary judgment because there is a genuine issue of material fact as to whether the Cisco Dialer played a prerecorded message when it encountered an answering machine. See Mais v. Gulf Coast Collection Bureau, Inc., 768 F.3d 1110, 1114-15 (11th Cir. 2014) (reversing summary judgment where there was a dispute as to whether the defendant's autodialer played a prerecorded message when it encountered an answering machine). As to Call 5, there is no evidence that a prerecorded message was played, as the call resulted in a "data error-no value." 
+
+DISH has conceded liability as to the three calls that resulted in a "positive voice" (Calls 1, 6, and 7), and Ybarra is entitled to statutory damages for those calls. However, the district court erred in granting summary judgment as to the other four calls. This Court should reverse the district court's grant of summary judgment and remand for further proceedings.
+
+II. The District Court's Judgment Should Be Reversed and Remanded for Further Proceedings.
+
+Because the district court erred in granting summary judgment to Ybarra on four of the seven calls, this Court should reverse the district court's judgment and remand for further proceedings. See FED. R. CIV. P. 56(a); Celotex Corp. v. Catrett, 477 U.S. 317, 322-23 (1986) (summary judgment is proper only if there is no genuine dispute as to any material fact). On remand, the district court should determine whether DISH is liable for the four calls that did not result in a "positive voice." 
+
+In conclusion, the district court erred in granting summary judgment to Ybarra on the seven calls from DISH's 8047 number. This Court should reverse the district court's judgment and remand for further proceedings.

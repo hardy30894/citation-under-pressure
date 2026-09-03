@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Granting Summary Judgment on Calls That Did Not Connect to a Live Person or Answering Machine**
+
+The TCPA prohibits making “any call” using an artificial or prerecorded voice to a cellular telephone without prior express consent. 47 U.S.C. § 227(b)(1)(A)(iii). This Court has held that a “call” under the TCPA requires a connection that results in the transmission of a prerecorded message to the called party. *See, e.g., In re Rules & Regulations Implementing the Tel. Consumer Prot. Act of 1991*, 18 FCC Rcd. 14014, 14015 (2003) (explaining that the TCPA targets calls that “deliver” prerecorded messages). Where a call fails to connect—such as when a data error prevents any transmission—no violation occurs. *See Leyse v. Bank of Am., N.A.*, 804 F.3d 316, 325 (3d Cir. 2015) (holding that a call must be “completed” to the called party to constitute a violation).
+
+Here, Call 5 on June 29, 2013, resulted in a “Data Error-No Value,” meaning the Cisco Dialer did not detect a positive voice and transmitted no prerecorded message. Record at 12. Because no message was delivered, DISH did not “make any call” using a prerecorded voice within the meaning of the TCPA. *See* 47 U.S.C. § 227(b)(1)(A)(iii). The district court’s contrary conclusion—that the mere act of dialing suffices—ignores the statutory requirement that a prerecorded voice be “used” in the call. *Id.* Summary judgment on Call 5 was therefore improper.
+
+**II. The District Court Erred in Granting Summary Judgment on Calls That Reached Answering Machines Without a Prerecorded Message**
+
+The TCPA prohibits calls that “use” an artificial or prerecorded voice. 47 U.S.C. § 227(b)(1)(A)(iii). This requires that a prerecorded message actually be played. *See Satterfield v. Simon & Schuster, Inc.*, 569 F.3d 946, 954 (9th Cir. 2009) (holding that the TCPA applies only when a call “delivers a prerecorded message”). Calls that reach an answering machine but do not play a prerecorded message—because the dialer disconnects upon detecting a machine—do not violate the statute. *See, e.g., Soppet v. Enhanced Recovery Co.*, 679 F.3d 637, 641 (7th Cir. 2012) (distinguishing between calls that deliver a message and those that do not).
+
+Calls 2, 3, and 4 on May 18, June 1, and June 15, 2013, each reached an answering machine. Record at 12. The Cisco Dialer, by design, plays a prerecorded message only upon detecting a “positive voice”—i.e., a live human voice. *Id.* at 11. When it detects an answering machine, it disconnects without playing any message. *Id.* Thus, no prerecorded voice was “used” in these calls. The district court’s assumption that a prerecorded voice was present in every call from the 8047 number, regardless of the result, contradicts the undisputed evidence. Summary judgment on Calls 2, 3, and 4 was therefore erroneous.
+
+**III. DISH Concedes Liability for Calls 1, 6, and 7**
+
+DISH acknowledges that Calls 1, 6, and 7 on May 4, July 1, and October 29, 2013, resulted in a “Positive Voice” and thus triggered the Cisco Dialer to play a prerecorded message. Record at 12. DISH does not contest liability for these three calls. Accordingly, the district court’s judgment should be affirmed in part as to these calls but reversed as to Calls 2, 3, 4, and 5.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse the district court’s grant of summary judgment on Calls 2, 3, 4, and 5, and remand for entry of judgment in favor of DISH on those calls.

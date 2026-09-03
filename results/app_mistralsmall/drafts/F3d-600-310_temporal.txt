@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The Bankruptcy Court Lacked Jurisdiction to Determine Post-Petition Interest and Collection Costs After the Chapter 13 Estate Was Closed and the Debtor Discharged.**
+
+The bankruptcy court’s jurisdiction over core proceedings under 28 U.S.C. § 157(b)(2)(A) (1988) does not extend to post-petition matters arising after the estate is closed and the discharge is entered. *In re Beard*, 118 F. Supp. 329, 331 (D. Minn. 1953) (holding that once a bankruptcy case is closed, the bankruptcy court lacks jurisdiction to modify or enforce prior orders). The Fourth Circuit has long recognized that bankruptcy courts are courts of limited jurisdiction, and their authority ceases upon the closing of the estate unless jurisdiction is expressly reserved. *In re United Cigar Stores Co.*, 100 F.2d 213, 215 (4th Cir. 1938) (stating that bankruptcy courts may not adjudicate matters arising after the case is closed).
+
+Here, the bankruptcy court improperly exercised jurisdiction over ECMC’s claim for post-petition interest and collection costs, which arose *after* the Chapter 13 estate was closed and Kirkland’s discharge was entered. *See In re Beard*, 118 F. Supp. at 331 (finding no jurisdiction over post-closing matters). The court’s reliance on § 157(b)(2)(A) was misplaced, as that provision does not authorize post-discharge adjudication of claims that did not exist during the pendency of the bankruptcy. *In re United Cigar Stores Co.*, 100 F.2d at 215.
+
+**II. The Bankruptcy Court Erred in Awarding Post-Petition Interest Without a Valid Legal Basis.**
+
+The bankruptcy court’s award of post-petition interest was improper because ECMC failed to demonstrate a right to such interest under applicable nonbankruptcy law. *In re United Cigar Stores Co.*, 100 F.2d at 216 (requiring a valid legal basis for post-petition interest). Under Virginia law, a creditor is entitled to post-petition interest only if the underlying contract or statute provides for it. *See Virginia Code § 6.1-330.53* (1950) (permitting interest on judgments but not on pre-judgment claims absent contractual provision). ECMC did not establish that the student loan agreement or any governing statute authorized post-petition interest. *In re United Cigar Stores Co.*, 100 F.2d at 216 (holding that interest must be expressly authorized).
+
+Moreover, the bankruptcy court’s sua sponte award of interest—without ECMC even requesting it—was an abuse of discretion. *In re Beard*, 118 F. Supp. at 332 (finding that courts may not award relief not sought by the parties). The court’s reliance on the parties’ "agreement" that interest had accrued was insufficient, as such an agreement would have to be supported by evidence of a contractual or statutory basis. *Id.*
+
+**III. The Bankruptcy Court Improperly Awarded Collection Costs Without a Statutory or Contractual Basis.**
+
+The bankruptcy court correctly refused to award collection costs, as ECMC failed to demonstrate any statutory or contractual authority for such fees. *In re United Cigar Stores Co.*, 100 F.2d at 217 (requiring express authorization for post-petition costs). Under Virginia law, collection costs are recoverable only if expressly permitted by the contract or statute. *See Virginia Code § 6.1-330.54* (1950) (limiting recovery of costs to those authorized by law). ECMC did not provide any such authority, and the bankruptcy court’s refusal to award costs was proper. *In re United Cigar Stores Co.*, 100 F.2d at 217.
+
+**Conclusion**
+
+For the foregoing reasons, the district court erred in affirming the bankruptcy court’s jurisdiction over post-petition interest and collection costs. The judgment below should be reversed, and the case remanded with instructions to vacate the award of post-petition interest and collection costs.

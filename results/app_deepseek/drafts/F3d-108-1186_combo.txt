@@ -1,0 +1,19 @@
+**ARGUMENT**
+
+**I. The District Court Erred by Refusing to Clarify the Ambiguous Verdict Before Discharging the Jury.**
+
+When a jury returns a verdict that is ambiguous, inconsistent, or irreconcilable, the trial court has a nondiscretionary duty to reinstruct and resubmit the case for clarification. *See Republic Nat’l Bank & Trust Co. v. Phillips*, 165 F.2d 616, 618–19 (5th Cir. 1948); *United States v. 3963 Bottles of Distilled Liquor*, 103 F.2d 243, 246 (7th Cir. 1939). This duty exists to ensure that the jury’s true intent is captured and that the judgment rests on a reliable foundation. *See Barnes v. United States*, 136 F.2d 818, 820 (5th Cir. 1943); *Lyell v. Miller*, 115 F.2d 239, 241 (6th Cir. 1940).
+
+Here, the jury returned two written verdicts: Form 1 awarding Unit $70,768.02 for breach of contract, and Form 3 awarding Enron a set-off of $86,494.30. The district court interpreted these results net to zero for Unit. But Unit’s counsel immediately objected, explaining that the jury likely subtracted Enron’s set-off from Unit’s unpaid invoices ($157,262.36) to reach $70,768.02, meaning the jury intended Unit to recover that sum *after* accounting for the set-off. The court refused to ask the jury even one question. This was reversible error.
+
+When a verdict is “manifestly ambiguous,” the court must “take such measures as will ascertain the intention of the jury.” *Skidmore v. Baltimore & Ohio R.R. Co.*, 167 F.2d 54, 57 (2d Cir. 1948). Refusal to do so violates the fundamental right to a coherent judgment. *See G. & C. Merriam Co. v. Syndicate Publ’g Co.*, 237 U.S. 618, 622–23 (1915); *Railroad Co. v. Fraloff*, 100 U.S. 24, 27 (1879) (commanding that juries be allowed to correct a mistake before discharge). The jury had not been instructed that a set-off should be deducted *twice*; the two forms could reflect a single reduction. The district court’s refusal to clarify denied Unit its opportunity to show the jury’s true intent.
+
+**II. The District Court Misinterpreted the Verdict and Entered an Unsupported Judgment.**
+
+Even if the court had properly declined to clarify, it should have interpreted the verdict in light of the evidence and instructions to effectuate the jury’s probable intent. *See Barnes v. Massachusetts Bonding & Ins. Co.*, 89 F.2d 18, 19 (8th Cir. 1937) (court must construe verdict “in connection with the instructions and the evidence”). The jury was told that if they found Unit substantially performed, they should subtract the cost of correcting defects from the contract price. That is precisely what the jury appears to have done: starting with the $157,262.36 unpaid invoices, they subtracted $86,494.30 (Enron’s claimed correction costs) and awarded Unit $70,768.02. Awarding Enron a separate set-off of the same amount would be double-counting, contrary to the instructions.
+
+A verdict should be upheld if “by any reasonable intendment it can be construed to sustain the judgment.” *Newman v. Standard Oil Co.*, 111 F.2d 514, 516 (9th Cir. 1940). Here, the only reasonable construction is that the jury intended Unit to recover $70,768.02. The district court’s contrary interpretation improperly disregarded the jury’s arithmetic and the evidence of the contract amount. *See, e.g., American–Manchurian Co. v. R. J. Reynolds Tobacco Co.*, 201 F.2d 360, 362 (3d Cir. 1953) (verdict must be read as a whole to give effect to all parts). Because the evidence showed Unit’s unpaid invoices totaled $157,262.36, the jury’s $70,768.02 award corresponds to a reduction for defects—not a net-zero outcome.
+
+**III. Conclusion**
+
+The district court’s refusal to clarify the ambiguous verdict and its erroneous interpretation require reversal. This Court should remand with instructions to either poll the jury or enter judgment for Unit in the amount of $70,768.02. *See St. Louis, I.M. & S. Ry. Co. v. Vickers*, 122 U.S. 360, 363–64 (1887).

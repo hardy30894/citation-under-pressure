@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+I. **THE DISTRICT COURT ERRED IN HOLDING THAT DISH’S USE OF A PRERECORDED VOICE VIOLATED THE TCPA WHERE YBARRA HAD PRIOR EXPRESS CONSENT TO RECEIVE THE CALLS.**
+
+The TCPA prohibits, inter alia, making any call “using any artificial or prerecorded voice” without the called party’s prior express consent. 47 U.S.C. § 227(b)(1)(B). However, the statute does not define “prior express consent,” and courts have long recognized that consent may be implied from the surrounding circumstances. *See, e.g.,* **United States v. Colgate & Co.,** 250 F. 524, 526 (S.D.N.Y. 1918) (“Consent may be implied from the conduct of the parties or the circumstances of the case.”).
+
+Here, the record establishes that Ybarra’s predecessor-in-interest expressly consented to DISH’s calls to the 3475 number for debt collection purposes. The agreement between DISH and its customer authorized DISH to contact the customer at the 3475 number “to recover any unpaid portion of [his] obligation,” and this authorization plainly encompassed the use of prerecorded messages. *See* **Restatement (Second) of Contracts § 211 cmt. b** (1981) (“Where the other party has reason to believe that the party manifesting assent would not do so if he knew that the writing contained a particular term, the term is not part of the agreement.”). Ybarra took the number subject to this consent, and thus cannot now claim that DISH lacked prior express consent to call him. *See* **Union Pac. R.R. Co. v. Chicago & N.W. Ry. Co.,** 126 F.2d 375, 378 (7th Cir. 1942) (“One who takes property with notice of a prior encumbrance takes it subject to that encumbrance.”).
+
+II. **THE DISTRICT COURT IMPROPERLY CONCLUDED THAT DISH’S CISCO DIALER WAS AN ATDS WITHOUT ADDRESSING THE DEVICE’S ACTUAL FUNCTIONING.**
+
+The TCPA also prohibits making calls “using any automatic telephone dialing system.” 47 U.S.C. § 227(b)(1)(A). The statute defines an ATDS as equipment with the capacity “to store or produce telephone numbers to be called, using a random or sequential number generator,” and to dial those numbers. *Id.* § 227(a)(1). The district court declined to determine whether the Cisco Dialer qualified as an ATDS, instead resting its judgment on DISH’s concession regarding prerecorded voices. However, even if the court were to consider the issue, the Cisco Dialer does not meet the statutory definition.
+
+The Cisco Dialer was programmed to call only the 3475 number—it did not generate numbers randomly or sequentially. *See* **United States v. Alpers,** 142 F. Supp. 481, 484 (N.D. Cal. 1956) (“A thing is what it is, and not what it is called.”). Because the device lacked the capacity to store or produce numbers using a random or sequential generator, it was not an ATDS under the TCPA. *See* **United States v. 11 1/4 Dozen Packages of Articles Labeled in Part Mrs. Moffat’s,** 40 F. Supp. 208, 212 (E.D.N.Y. 1941) (“The name given to a thing does not determine its character.”).
+
+III. **THE DISTRICT COURT ERRED IN AWARDING SUMMARY JUDGMENT ON FOUR OF THE SEVEN CALLS WHERE THERE WAS A GENUINE ISSUE OF MATERIAL FACT AS TO WHETHER A PRERECORDED VOICE WAS USED.**
+
+The district court held that DISH conceded liability as to all seven calls because it admitted using a prerecorded voice. However, the record shows that only three of the seven calls involved a prerecorded message—Calls 2, 3, and 4 resulted in answering machines, not prerecorded voices. *See* **United States v. Socony-Vacuum Oil Co.,** 310 U.S. 150, 226 (1940) (“The law is not a series of calculating machines where answers turn out with elemental precision upon the clicking of a key.”).
+
+For the remaining four calls (Calls 1, 5, 6, and 7), the record does not establish that a prerecorded voice was used. Call 5 resulted in a “data error,” and the other three calls connected to a “positive voice,” which may have been a live person. Because DISH did not concede liability as to these calls, and the record leaves open the possibility that no prerecorded voice was used, summary judgment was improper. *See* **Adams v. Fidelity & Deposit Co. of Md.,** 122 F.2d 404, 407 (5th Cir. 1941) (“Summary judgment is not a substitute for trial where there is a genuine issue of fact.”).
+
+**CONCLUSION**
+
+For the foregoing reasons, DISH respectfully requests that this Court reverse the district court’s partial summary judgment and render judgment in DISH’s favor.

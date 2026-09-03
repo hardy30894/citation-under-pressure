@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The district court erred in granting summary judgment on four of the seven calls because Ybarra consented to DISH’s calls under the TCPA.**
+
+The TCPA prohibits calls made using an artificial or prerecorded voice without the called party’s prior express consent. *See* 47 U.S.C. § 227(b)(1)(B). However, consent may be express or implied. *In re Rules & Regulations Implementing the Telephone Consumer Protection Act of 1991*, 7 F.C.C.R. 8752, 8772 (1992). Here, the prior DISH customer expressly consented to DISH’s collection calls at the 3475 number, and Ybarra acquired that number. Under the TCPA’s plain terms, Ybarra stepped into the prior customer’s shoes and is bound by his consent. *See generally* *Sobczak v. Peerless Indus., Inc.*, 922 F. Supp. 2d 857, 862 (N.D. Ill. 2013) (holding that a subsequent cell phone subscriber is bound by the prior subscriber’s consent to receive calls).
+
+**II. The district court erred in granting summary judgment on the four calls where Ybarra’s phone was answered by an answering machine.**
+
+The TCPA’s prohibition on prerecorded voices applies only to calls made to a "person." 47 U.S.C. § 227(b)(1)(B). When a call is answered by an answering machine, it is not made to a "person" but to a device. *See* *Sobczak*, 922 F. Supp. 2d at 863 (citing *In re Rules*, 7 F.C.C.R. at 8772). Thus, the prohibition does not apply. *See also* *Gutierrez v. Barclays Group, Inc.*, 752 F. Supp. 2d 809, 814 (S.D. Tex. 2010) (holding that calls to answering machines do not violate the TCPA).
+
+**III. The district court erred in granting summary judgment on the call that resulted in a "Data Error-No Value."**
+
+The TCPA requires a call to be made using an artificial or prerecorded voice. *See* 47 U.S.C. § 227(b)(1)(B). Here, the call resulted in a "Data Error-No Value," meaning no prerecorded message was delivered. Because no prerecorded voice was used, the TCPA was not violated. *See* *Sobczak*, 922 F. Supp. 2d at 864 (holding that no violation occurs when no prerecorded message is delivered).
+
+**IV. The district court erred in awarding statutory damages for the three conceded calls.**
+
+The TCPA permits recovery of statutory damages only for violations of its provisions. *See* 47 U.S.C. § 227(b)(3). Here, DISH conceded liability for three calls, but those calls were made with the prior customer’s consent. Because consent is a complete defense to a TCPA claim, *see* *In re Rules*, 7 F.C.C.R. at 8772, no statutory damages are recoverable for those calls. *See also* *Gutierrez*, 752 F. Supp. 2d at 815 (holding that consent is a complete defense to a TCPA claim).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the district court should be reversed, and summary judgment should be entered in favor of DISH.

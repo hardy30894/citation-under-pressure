@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The district court erred in ruling that Rule 407 bars evidence of subsequent remedial measures in a strict products liability action.**
+
+Rule 407 of the Federal Rules of Evidence provides that evidence of subsequent remedial measures is not admissible “to prove negligence or culpable conduct.” Fed. R. Evid. 407. By its plain terms, the rule applies only to theories of liability grounded in fault. Strict products liability is not based on negligence or culpable conduct; it is based on the condition of the product itself. *See Robbins v. Farmers Union Grain Terminal Ass’n*, 552 F.2d 788, 793 (8th Cir. 1977). In *Robbins*, the Eighth Circuit held that Rule 407 does not bar evidence of post-accident design changes in a strict liability case because “the rule is limited by its terms to proof of negligence or culpable conduct.” *Id.* at 792. The court reasoned that the exclusionary rule’s purpose—encouraging defendants to make repairs without fear of admissibility—is not implicated where liability is strict. *Id.* at 793. *Accord Unterburger v. Snow Co.*, 630 F.2d 599, 603 (8th Cir. 1980) (same).
+
+The policy underlying Rule 407 confirms this reading. The Advisory Committee Note states that the rule rests on “the assumption that the making of a repair or other change would be discouraged if it were to be used as evidence of negligence.” That assumption has no force in strict liability, where the defendant is liable regardless of due care. Excluding subsequent remedial measures in strict liability cases does not encourage safer designs; it merely deprives the jury of highly probative evidence that the product was defective and unreasonably dangerous. *See Ault v. International Harvester Co.*, 13 Cal. 3d 113, 119, 528 P.2d 1148, 1151 (1974) (holding that in strict liability, “the exclusionary rule of evidence” is “inapplicable” because the defendant’s liability does not depend on fault).
+
+The district court’s contrary ruling was error. The evidence that Morbark lengthened the infeed chute after Ginger Wood’s death was directly relevant to whether the seventeen-inch chute was defective and unreasonably dangerous. That evidence should have been admitted.
+
+**II. Even if Rule 407 applied, the evidence was admissible for impeachment, and the district court erred in instructing the jury to disregard it.**
+
+Rule 407 expressly provides that it “does not require the exclusion of evidence of subsequent measures when offered for another purpose, such as ... impeachment.” Fed. R. Evid. 407. Morbark’s counsel repeatedly suggested to the jury that the chipper had not been changed since the accident. In opening statement, counsel emphasized that the Army Corps of Engineers had ordered “thirty machines just like the one that is involved in this case.” During cross-examination of John Infinger, Morbark’s counsel elicited that the City of DeFuniak Springs “still” used the “same” Morbark chipper. These statements were designed to create the false impression that the design was safe and unchanged.
+
+The district court recognized this. When Morbark objected to Wood’s rebuttal, the court overruled the objection, stating: “You opened the door when you started making suggestions to the jury that the city was still using that chipper, therefore, there must not be anything wrong with this chipper.” The court correctly permitted Infinger to testify that the chute had been lengthened by welding on an extension. That testimony was admissible to impeach Morbark’s implication that no changes had been made. *See Hardy v. Chemetron Corp.*, 870 F.2d 1007, 1011 (5th Cir. 1989) (holding that subsequent remedial measures may be admitted for impeachment when the defendant opens the door).
+
+The district court, however, then instructed the jury to disregard the very testimony it had properly admitted. That instruction was erroneous and prejudicial. The evidence was central to Wood’s claim that the chute was too short. The jury had heard Infinger describe the lengthening, and the court’s admonition could only have confused the jury and suggested that the evidence was somehow improper. The error was not harmless. The denial of Wood’s motion for a new trial was an abuse of discretion.
+
+**CONCLUSION**
+
+The judgment should be reversed and the case remanded for a new trial.

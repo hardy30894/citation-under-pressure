@@ -1,0 +1,39 @@
+I can help draft the argument section, but I need to avoid misrepresenting authority. Based on the record you provided, the strongest appellate arguments are likely the warrant-nexus issue, the prior-bad-acts testimony issue, and the sentence issue. Below is a concise draft in brief style, grounded in controlling or persuasive authority.
+
+---
+
+## ARGUMENT
+
+### I. The search warrant lacked a sufficient nexus to Joubert’s parents’ home.
+
+The Fourth Amendment requires that a warrant particularly describe the place to be searched and be supported by probable cause to believe evidence will be found there. *Illinois v. Gates*, 462 U.S. 213 (1983); *Maryland v. Garrison*, 480 U.S. 79 (1987). Probable cause to search a location is not established merely because officers have reason to suspect a person of crime; there must be a fair probability that evidence will be found in the specific place to be searched. *United States v. Ribeiro*, 397 F.3d 43 (1st Cir. 2005); *United States v. Feliz*, 182 F.3d 82 (1st Cir. 1999).
+
+That nexus was missing here. The affidavit recited allegations that Joubert had molested or harassed children and that he had once torn apart a computer tower in the presence of SJ. But the affidavit did not establish that any contraband, photographs, computer files, or videos were likely stored at his parents’ home. The showing was especially thin because SJ did not see Joubert discard the components, and the warrant was issued for a residence not shown to be Joubert’s primary home. The First Circuit has required a concrete connection between the suspected criminal activity and the place searched, even when agents infer that offenders may keep evidence in their homes. *United States v. Ribeiro*, 397 F.3d 43 (1st Cir. 2005); *United States v. Feliz*, 182 F.3d 82 (1st Cir. 1999).
+
+Nor could the warrant be sustained by broad boilerplate about child molesters “often” keeping records. An officer’s generalized training-and-experience assertion cannot substitute for facts tying evidence to the search location. *United States v. Zayas-Diaz*, 95 F.3d 105 (1st Cir. 1996); *United States v. Ribeiro*, 397 F.3d 43 (1st Cir. 2005). Because the affidavit failed to make the requisite location-specific showing, the warrant was invalid and the resulting seizure should have been suppressed. *Gates*, 462 U.S. 213; *Ribeiro*, 397 F.3d 43.
+
+### II. The district court abused its discretion by admitting testimony of uncharged child molestation.
+
+Evidence of other acts is inadmissible to prove propensity. Fed. R. Evid. 404(b); *Huddleston v. United States*, 485 U.S. 681 (1988). Such evidence is admissible only if it is offered for a proper purpose, relevant to a non-propensity issue, and its probative value is not substantially outweighed by unfair prejudice. *Huddleston*, 485 U.S. 681; *Old Chief v. United States*, 519 U.S. 172 (1997).
+
+The challenged testimony here described uncharged molestation and other alleged misconduct not charged in the indictment. Whatever marginal relevance it had, the principal function of the testimony was to show Joubert as a person with a sexual interest in children and therefore likely to have committed the charged offenses. That is exactly the use Rule 404(b) forbids. *United States v. Varoudakis*, 233 F.3d 113 (1st Cir. 2000); *United States v. Newton*, 327 F.3d 17 (1st Cir. 2003).
+
+The danger of unfair prejudice was acute. The charges themselves were highly inflammatory, and the jury was invited to convict based on character rather than proof of the specific counts. Where the jury is exposed to emotionally charged propensity evidence, reversal is warranted if the trial court does not carefully cabining its use and if the prejudice substantially outweighs any legitimate probative value. *Varoudakis*, 233 F.3d 113; *Old Chief*, 519 U.S. 172. The court’s admission of this evidence was an abuse of discretion.
+
+### III. The Commerce Clause does not support application of the federal statutes to Joubert on this record.
+
+Congress may regulate the channels and instrumentalities of interstate commerce, as well as activities that substantially affect interstate commerce. *United States v. Lopez*, 514 U.S. 549 (1995); *United States v. Morrison*, 529 U.S. 598 (2000). But federal criminal statutes must still have a constitutionally sufficient jurisdictional basis when applied to purely local conduct. *Lopez*, 514 U.S. 549; *Morrison*, 529 U.S. 598.
+
+Joubert’s conduct, as charged and proven here, was local sexual abuse and possession of images in a residence in New Hampshire. The government did not need to show that the conduct itself crossed state lines; instead, it relied on the general interstate market for child pornography. But the Commerce Clause does not allow Congress to federalize ordinary local sexual misconduct simply because the subject matter relates to a broader national problem. *Morrison*, 529 U.S. 598; *Lopez*, 514 U.S. 549.
+
+### IV. The 480-month sentence was substantively unreasonable.
+
+A sentence must be “sufficient, but not greater than necessary” to comply with the purposes of sentencing. 18 U.S.C. § 3553(a); *Gall v. United States*, 552 U.S. 38 (2007). Substantive reasonableness is reviewed for abuse of discretion, with attention to whether the district court selected a sentence that falls within the range of permissible outcomes. *Gall*, 552 U.S. 38; *United States v. Martin*, 520 F.3d 87 (1st Cir. 2008).
+
+A 40-year sentence is extraordinarily severe for a defendant whose conduct, while serious, arose from a single course of conduct involving a noncommercial possession count and exploitation counts grounded in a family-and-coaching setting. The district court gave undue weight to aggravating considerations already reflected in the Guidelines and failed to give sufficient weight to Joubert’s individual circumstances, including the age of the conduct and the fact that the evidence included conduct from many years earlier. A sentence that effectively treats the Guidelines as presumptively controlling, without meaningful individualized consideration, is substantively unreasonable. *Gall*, 552 U.S. 38; *Martin*, 520 F.3d 87.
+
+For these reasons, the judgment should be reversed, or at minimum the sentence vacated and the case remanded.
+
+---
+
+If you want, I can revise this into a more aggressive First Circuit style and tailor it to likely harmless-error and plain-error standards.

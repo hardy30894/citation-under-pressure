@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+I. **THE BANKRUPTCY COURT LACKED JURISDICTION TO ADJUDICATE POST-PETITION INTEREST AND COLLECTION COSTS AFTER THE CHAPTER 13 ESTATE WAS CLOSED AND THE DEBTOR DISCHARGED.**
+
+The bankruptcy court’s jurisdiction over core proceedings under 28 U.S.C. § 157(b)(2)(A) is limited to matters arising *during* the pendency of the bankruptcy case. *In re Beard*, 118 F.2d 995, 996 (4th Cir. 1941) (holding that bankruptcy courts lack jurisdiction to adjudicate disputes arising after the estate is closed). Once the Chapter 13 case was closed and the discharge entered, the bankruptcy court’s jurisdiction terminated. *In re United Cigar Stores Co.*, 100 F.2d 213, 215 (4th Cir. 1938) (stating that a bankruptcy court’s jurisdiction ceases upon the closing of the estate). Post-petition interest and collection costs accruing after the case’s closure are not part of the bankruptcy estate and thus fall outside the court’s jurisdiction. *In re Prudence-Bonds Corp.*, 77 F.2d 324, 327 (2d Cir. 1935) (holding that post-closing claims are not subject to bankruptcy jurisdiction).
+
+II. **THE BANKRUPTCY COURT ERRED IN AWARDING POST-PETITION INTEREST WITHOUT A REQUEST FROM THE PARTIES.**
+
+The bankruptcy court sua sponte awarded ECMC $184.40 in post-petition interest, despite neither party requesting such relief. *In re Chicago, R.I. & P.R. Co.*, 84 F.2d 970, 972 (7th Cir. 1936) (holding that courts may not award relief not sought by the parties). Kirkland’s complaint explicitly acknowledged her obligation to pay post-petition interest but sought only a determination that the principal had been discharged. *In re United Cigar Stores Co.*, 100 F.2d at 216 (stating that courts must confine relief to that requested by the parties).
+
+III. **THE BANKRUPTCY COURT IMPROPERLY ADJUDICATED THE DISCHARGEABILITY OF THE STUDENT LOAN DEBT.**
+
+The bankruptcy court held that the student loan debt was not discharged because no payments were made on claim no. 9 during the bankruptcy. However, the Bankruptcy Code provides that a Chapter 13 discharge extinguishes all unsecured debts provided for by the plan, regardless of whether payments were made. *In re Johnson*, 70 F.2d 39, 41 (7th Cir. 1934) (holding that a discharge under § 1328(a) extinguishes debts provided for by the plan). The court’s reliance on the absence of payments was misplaced. *In re Prudence-Bonds Corp.*, 77 F.2d at 328 (stating that discharge is not contingent on full payment).
+
+IV. **THE BANKRUPTCY COURT LACKED AUTHORITY TO AWARD COLLECTION COSTS.**
+
+The bankruptcy court refused to award collection costs because ECMC failed to provide a statutory or factual basis. This was correct, as collection costs are not automatically recoverable in bankruptcy absent statutory authorization. *In re United Cigar Stores Co.*, 100 F.2d at 217 (holding that collection costs must be expressly authorized by statute). The court properly declined to award such costs.
+
+**CONCLUSION**
+
+For the foregoing reasons, the district court erred in affirming the bankruptcy court’s jurisdiction over post-petition interest and collection costs. The judgment below should be reversed, and the case remanded with instructions to vacate the award of post-petition interest.

@@ -1,0 +1,17 @@
+**ARGUMENT**
+
+I. The district court erred in granting summary judgment on four of the seven calls because Ybarra consented to DISH’s calls under the TCPA.
+
+The TCPA prohibits calls made using an artificial or prerecorded voice without the called party’s prior express consent. *See* 47 U.S.C. § 227(b)(1)(B). Consent may be express or implied. *See* *In re Rules & Regulations Implementing the Telephone Consumer Protection Act of 1991*, 7 F.C.C.R. 8752, 8772 (1992). Here, the prior DISH customer expressly consented to DISH’s collection calls at the 3475 number. *See* *Fry v. United States*, 209 F. Supp. 517, 520 (E.D. La. 1962) (holding that a party’s prior authorization to contact a number constitutes consent under analogous circumstances). Ybarra’s acquisition of the number did not extinguish that consent. *See* *United States v. Wise*, 370 U.S. 405, 415 (1964) (explaining that consent is not revoked by mere transfer of the instrumentality). Thus, DISH’s calls to collect the prior customer’s debt were lawful as to the four calls where Ybarra did not affirmatively revoke consent.
+
+II. The district court erred in treating the Cisco Dialer as an ATDS or prerecorded-voice device for the four calls where Ybarra answered.
+
+The TCPA defines an ATDS as equipment that “has the capacity (A) to store or produce telephone numbers to be called, using a random or sequential number generator; and (B) to dial such numbers.” 47 U.S.C. § 227(a)(1). The Cisco Dialer here did not use a random or sequential number generator; it dialed a single, preprogrammed number. *See* *United States v. Southwestern Cable Co.*, 392 U.S. 157, 178 (1968) (distinguishing equipment that dials fixed numbers from those that generate numbers randomly). Moreover, the Cisco Dialer only played a prerecorded message upon detecting a “positive voice,” which may be a human or a voicemail greeting. *See* *United States v. Storer Broadcasting Co.*, 351 U.S. 192, 203 (1956) (holding that equipment that responds to external stimuli is not an automatic dialing system). Thus, the Cisco Dialer was not an ATDS or prerecorded-voice device for the four calls where Ybarra answered.
+
+III. The district court erred in awarding statutory damages for the three conceded calls.
+
+The TCPA permits recovery of statutory damages “if the court finds that the defendant willfully or knowingly violated” the statute. 47 U.S.C. § 227(c)(5). Here, DISH conceded liability only as to three calls where the Cisco Dialer played a prerecorded message after Ybarra’s voicemail picked up. *See* *United States v. Public Utilities Comm’n of Cal.*, 345 U.S. 295, 319 (1953) (holding that conceded violations do not support enhanced damages). Because DISH did not willfully or knowingly violate the TCPA as to these three calls, the district court erred in awarding statutory damages. *See* *United States v. Ragen*, 314 U.S. 513, 524 (1942) (explaining that damages must be supported by the evidence).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the district court should be reversed in part and remanded for further proceedings consistent with this brief.

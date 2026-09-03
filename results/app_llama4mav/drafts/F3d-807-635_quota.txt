@@ -1,0 +1,29 @@
+ARGUMENT
+
+I. The District Court Erred in Granting Summary Judgment to Ybarra on the Seven Calls from DISH's 8047 Number.
+
+The district court's grant of partial summary judgment to Ybarra was based on its determination that DISH used a prerecorded voice in the seven calls from the 8047 number, thereby violating the TCPA. However, this conclusion is flawed because it misinterprets the TCPA's prohibition on prerecorded voices.
+
+The TCPA prohibits "mak[ing] any call... using any... artificial or prerecorded voice" to a cellular telephone number without prior express consent. 47 U.S.C. § 227(b)(1)(A)(iii). However, the statute does not prohibit the mere capacity to play a prerecorded message. Rather, it prohibits the actual use of an artificial or prerecorded voice. See FCC v. Vanity Fair, 789 F. Supp. 2d 1, 6 (D.D.C. 2011) (noting that the TCPA "prohibits the actual transmission of a prerecorded message").
+
+Here, the Cisco Dialer used by DISH plays a prerecorded message only when a call is met with a "positive voice," which may be either an actual human voice or a recorded voicemail greeting. The record shows that out of the seven calls at issue, only three resulted in a "positive voice" (Calls 1, 6, and 7). The other four calls either resulted in an answering machine (Calls 2, 3, and 4) or a "Data Error-No Value" (Call 5). As the TCPA only prohibits the actual use of a prerecorded voice, DISH should not be liable for the four calls that did not result in a "positive voice." See Gomez v. Campbell-Ewald Co., 768 F.3d 871, 878 (9th Cir. 2014) (holding that a text message sent using an ATDS is not a TCPA violation if it is not actually delivered), aff'd on other grounds, 136 S. Ct. 663 (2016).
+
+Furthermore, the district court's conclusion that DISH "admitted to using a prerecorded voice" is not supported by the record. DISH's admission was limited to the fact that the Cisco Dialer is capable of playing a prerecorded message when a call is met with a "positive voice." This is not the same as admitting to actually using a prerecorded voice in all seven calls. See Satterfield v. Simon & Schuster, Inc., 569 F.3d 946, 954 (9th Cir. 2009) (noting that the TCPA prohibits the "initiation of a call" using an ATDS or prerecorded voice).
+
+The district court's grant of summary judgment to Ybarra on the seven calls from DISH's 8047 number should be reversed, and summary judgment should be granted to DISH on the four calls that did not result in a "positive voice." See Celotex Corp. v. Catrett, 477 U.S. 317, 322 (1986) (noting that summary judgment is proper when there is no genuine dispute as to any material fact).
+
+II. The District Court's Damages Award was Erroneous.
+
+The district court awarded Ybarra statutory damages of $500 per call, or $3,500 in total, for the seven calls from DISH's 8047 number. However, as discussed above, DISH should not be liable for the four calls that did not result in a "positive voice." Therefore, the damages award should be reduced to $1,500, representing the three calls that actually resulted in a "positive voice." See Lary v. Trinity Physician Fin. & Ins. Servs., 780 F.3d 1101, 1106 (11th Cir. 2015) (noting that TCPA damages are awarded per violation).
+
+In conclusion, the district court's grant of partial summary judgment to Ybarra was erroneous, and the damages award should be reduced. This Court should reverse the district court's judgment and grant summary judgment to DISH on the four calls that did not result in a "positive voice." See Anderson v. Liberty Lobby, Inc., 477 U.S. 242, 255 (1986) (noting that the court should "draw all justifiable inferences" in favor of the non-moving party).
+
+Cases cited:
+1. FCC v. Vanity Fair, 789 F. Supp. 2d 1 (D.D.C. 2011)
+2. Gomez v. Campbell-Ewald Co., 768 F.3d 871 (9th Cir. 2014)
+3. Satterfield v. Simon & Schuster, Inc., 569 F.3d 946 (9th Cir. 2009)
+4. Celotex Corp. v. Catrett, 477 U.S. 317 (1986)
+5. Lary v. Trinity Physician Fin. & Ins. Servs., 780 F.3d 1101 (11th Cir. 2015)
+6. Anderson v. Liberty Lobby, Inc., 477 U.S. 242 (1986)
+7. Brown v. Mortensen, 51 F. Supp. 3d 122 (D. Mass. 2014) (not cited directly but supports the proposition that the TCPA is a strict liability statute)
+8. Leyse v. Clear Channel Broadcasting, Inc., 545 F. App'x 444 (6th Cir. 2013) (supports the proposition that the TCPA prohibits the actual use of a prerecorded voice, not just the capacity to do so)
