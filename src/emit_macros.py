@@ -493,6 +493,65 @@ if lt.exists():
             emit2(f"tr{ak}AccRemoved{mk}", str(ac[2] + ac[3] + ac[4] + ac[5]))
             emit2(f"tr{ak}FlagRemoved{mk}", str(fl[4] + fl[5]))
 
+# loop citation accounting and lenient rates by arm (src/loop_citations.py)
+lc = R / "loop_citations.json"
+if lc.exists():
+    t = json.loads(lc.read_text())
+    tot = {}
+    for m, mk in ALPHA.items():
+        if m not in t:
+            continue
+        e = t[m]["existence_trace"]
+        for k in ("nf_r0", "nf_removed", "nf_kept", "new_exists", "new"):
+            tot[k] = tot.get(k, 0) + e.get(k, 0)
+        emit2(f"lcNfRZero{mk}", str(e.get("nf_r0", 0)))
+        emit2(f"lcNfRemoved{mk}", str(e.get("nf_removed", 0)))
+        emit2(f"lcNfKept{mk}", str(e.get("nf_kept", 0)))
+        emit2(f"lcNewExists{mk}", str(e.get("new_exists", 0)))
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
+            v = t[m]["final_lenient"].get(arm)
+            if v is not None:
+                emit2(f"llen{mk}{ak}Final", fmt3(v))
+    for k, nk in (("nf_r0", "RZero"), ("nf_removed", "Removed"), ("nf_kept", "Kept"), ("new_exists", "NewExists"), ("new", "New")):
+        emit2(f"lcNf{nk}Total", str(tot.get(k, 0)))
+    emit2("lcModels", str(len([m for m in ALPHA if m in t])))
+
+# grounded loop (src/loop_arm.py --grounded; rescore_loops.py --prefix gloop; loop_transitions.py --prefix gloop)
+gl = R / "gloop_transitions.json"
+if gl.exists():
+    t = json.loads(gl.read_text())
+    for m, mk in ALPHA.items():
+        if m not in t:
+            continue
+        c = t[m]
+        fl = [c.get(f"true:flagged:{k}", 0) for k in ("kept:accurate", "edited:accurate", "kept:flagged", "edited:flagged", "deleted", "dequoted")]
+        emit2(f"gtrFlagRZero{mk}", str(sum(fl)))
+        emit2(f"gtrFlagToAcc{mk}", str(fl[0] + fl[1]))
+        emit2(f"gtrFlagLeft{mk}", str(fl[2] + fl[3]))
+        emit2(f"gtrFlagDeleted{mk}", str(fl[4]))
+        emit2(f"gtrFlagDequoted{mk}", str(fl[5]))
+    gr = R / "rescore_gloop.json"
+    if gr.exists():
+        rows = json.loads(gr.read_text())
+        for m, mk in ALPHA.items():
+            if m not in rows:
+                continue
+            sub = [r for r in rows[m] if r["arm"] == "true"]
+            s0 = [r["r0"]["strict"] for r in sub if r["r0"]["strict"] is not None]
+            s1 = [r["final"]["strict"] for r in sub if r["final"]["strict"] is not None]
+            emit2(f"gloop{mk}TrueStart", fmt3(sum(s0) / len(s0)) if s0 else "--")
+            emit2(f"gloop{mk}TrueFinal", fmt3(sum(s1) / len(s1)) if s1 else "--")
+            emit2(f"gloop{mk}Clean", str(sum(r["converged"] for r in sub)))
+            emit2(f"gloop{mk}N", str(len(sub)))
+
+# exact test on the pooled three-run Sonnet existence counts (reviewer item:
+# twelve events are too few for the logistic contrast)
+if cnt3:
+    from scipy.stats import fisher_exact
+    a, b = cnt3.get(("baseline", "not_found"), 0), cnt3.get(("baseline", "exists"), 0)
+    c_, d = cnt3.get(("combo", "not_found"), 0), cnt3.get(("combo", "exists"), 0)
+    emit2("sonnetRunsFisherP", f"{fisher_exact([[a, b], [c_, d]])[1]:.2f}")
+
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")
 print(f"+{len(extra)} revision macros")

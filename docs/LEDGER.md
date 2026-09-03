@@ -381,3 +381,26 @@ before or after seeing the relevant data. Nothing is deleted.
   them) and keeps the half-precision point; Figure 2 is drawn at 1.15in
   height so the Section 6 heading no longer opens a page-foot gap. Body
   ends on page 10, references on page 11.
+- 2026-09-03 (external-style review, second pass, the three open
+  majors): (1) existence in the loop is traced per citation
+  (src/loop_citations.py, results/loop_citations.json): of 113
+  non-resolving round-0 citations across the seven models 86 were
+  removed and 27 kept, with 33 new resolving citations, so the paper
+  and Conclusion now say existence rises "chiefly by removal". (2) The
+  precision curve is recomputed under the lenient verdict (same file):
+  Sonnet 5 0.983 / 0.879 / 0.769 / 0.727 / 0.573 at precision 1 to 0
+  against 0.796 with no feedback, so a verifier right half the time or
+  less sits below revision alone; one sentence added to Controls. (3)
+  The true-feedback loop was rerun from the grounded combined drafts of
+  Sonnet 5 and DeepSeek with the retrieved excerpts kept in the prompt
+  (loop_arm.py --grounded; results/gloop_*; rescore_loops.py and
+  loop_transitions.py take --prefix gloop; cost $3.73): Sonnet 5 92
+  flagged, 1 corrected, 17 dequoted, 56 deleted, 18 left, strict 0.496
+  to 0.837; DeepSeek 3 of 89 corrected. The "future work" clause is
+  replaced by the result. Also: Sonnet 5's pooled existence rise now
+  carries Fisher's exact p = 0.38 on its twelve events beside the
+  logistic p; the seeded validation is described as balanced (twenty
+  drafts, one planted item of each of five kinds); the abstract gives
+  the single-run count (three models) beside the pooled six of seven;
+  Related Work, Inference, Controls, and Limitations trimmed to keep
+  the body on ten pages.

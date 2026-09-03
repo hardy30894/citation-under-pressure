@@ -4,6 +4,7 @@ For each episode, score the FINAL draft (last revision, or the round-0
 combo draft if no revision was needed) and the round-0 draft, giving the
 paper's H2 before/after table free of CL-quota noise."""
 
+import argparse
 import json
 import re
 import sys
@@ -19,9 +20,14 @@ from local_text import ChainTextStore  # noqa: E402
 from pilot import DB  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
+ap = argparse.ArgumentParser()
+ap.add_argument("--prefix", default="loop",
+                help="loop (closed-book, from full_* drafts) or gloop "
+                     "(grounded, from rag_* drafts)")
+ARGS = ap.parse_args()
 MODELS = tuple(
-    p.name.replace("loop_", "")
-    for p in sorted((Path(__file__).resolve().parents[1] / "results").glob("loop_*"))
+    p.name.replace(f"{ARGS.prefix}_", "")
+    for p in sorted((Path(__file__).resolve().parents[1] / "results").glob(f"{ARGS.prefix}_*"))
     if (p / "run/events.jsonl").exists())
 
 
@@ -46,10 +52,11 @@ def main():
                                             fetch_budget=0))
     out = {}
     for model in MODELS:
-        loop_drafts = HERE / "results" / f"loop_{model}" / "drafts"
-        full_drafts = HERE / "results" / f"full_{model}" / "drafts"
+        loop_drafts = HERE / "results" / f"{ARGS.prefix}_{model}" / "drafts"
+        src = "full" if ARGS.prefix == "loop" else "rag"
+        full_drafts = HERE / "results" / f"{src}_{model}" / "drafts"
         eps = {}
-        for l in open(HERE / "results" / f"loop_{model}" /
+        for l in open(HERE / "results" / f"{ARGS.prefix}_{model}" /
                       "run/events.jsonl"):
             try:
                 d = json.loads(l)
@@ -85,7 +92,8 @@ def main():
                   f"{m([r['final']['exist'] for r in sub])} "
                   f"strict {m([r['r0']['strict'] for r in sub])}->"
                   f"{m([r['final']['strict'] for r in sub])}")
-    (HERE / "results" / "rescore_loops.json").write_text(
+    (HERE / "results" / ("rescore_loops.json" if ARGS.prefix == "loop"
+                         else f"rescore_{ARGS.prefix}.json")).write_text(
         json.dumps(out, indent=1))
 
 

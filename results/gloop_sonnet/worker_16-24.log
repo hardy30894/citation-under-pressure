@@ -1,0 +1,9 @@
+1992-086:true            rounds=2 conv=True strict 0.667->1.0 exist 1.0->1.0 cost=$0.054
+2010-046:true            rounds=4 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$0.719
+2012-006:true            rounds=3 conv=True strict 0.8->1.0 exist 1.0->1.0 cost=$1.001
+1998-026:true            rounds=4 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$1.524
+1997-100:true            rounds=3 conv=True strict 0.429->1.0 exist 1.0->1.0 cost=$2.151
+2000-071:true            rounds=4 conv=False strict 0.1->0.778 exist 1.0->1.0 cost=$2.965
+2012-029:true            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$3.292
+1999-051:true            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$3.292
+done: 8 episodes, $3.292

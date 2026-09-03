@@ -75,13 +75,18 @@ def classify(q0, finals, final_norm, used):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--prefix", default="loop", help="loop or gloop (grounded)")
+    args = ap.parse_args()
     checker = CitationChecker(SqliteIndex(DB))
     store = ChainTextStore(OpinionTextStore(DB, cl_token=None, fetch_budget=0))
-    loops = json.loads((HERE / "results/rescore_loops.json").read_text())
+    src = "rescore_loops.json" if args.prefix == "loop" else f"rescore_{args.prefix}.json"
+    loops = json.loads((HERE / "results" / src).read_text())
     out = {}
     for model, rows in loops.items():
-        loop_drafts = HERE / "results" / f"loop_{model}" / "drafts"
-        full_drafts = HERE / "results" / f"full_{model}" / "drafts"
+        loop_drafts = HERE / "results" / f"{args.prefix}_{model}" / "drafts"
+        full_drafts = HERE / "results" / f"{'full' if args.prefix == 'loop' else 'rag'}_{model}" / "drafts"
         cnt = Counter()
         for ep in rows:
             matter, arm = ep["matter"], ep["arm"]
@@ -106,7 +111,8 @@ def main():
                         cnt[f"{arm}:added:{'accurate' if q['verdict'] == 'accurate' else 'flagged'}"] += 1
         out[model] = dict(sorted(cnt.items()))
         print(model, {k: v for k, v in out[model].items() if k.startswith("true:flagged")})
-    (HERE / "results/loop_transitions.json").write_text(json.dumps(out, indent=1))
+    (HERE / "results" / ("loop_transitions.json" if args.prefix == "loop"
+                         else f"{args.prefix}_transitions.json")).write_text(json.dumps(out, indent=1))
 
 
 if __name__ == "__main__":

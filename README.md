@@ -262,8 +262,25 @@ or 0.75 give the dose-response: Sonnet 5 removed 17, 24, 38, 53, and
 56 of its 68 correct quotations as verifier precision fell from 1 to
 0 (18 with no feedback at all), and its final accuracy fell 0.974,
 0.855, 0.664, 0.508, 0.266 with it; a verifier right half the time
-left it within seven points of no feedback. Verifier precision is
-therefore a deployment requirement.
+left it within seven points of no feedback, and under the lenient
+verdict (near misses counted as correct) a verifier right half the
+time or less leaves Sonnet 5 below revision alone. Verifier precision
+is therefore a deployment requirement.
+
+Two further accountings close the loop's books
+(`results/loop_citations.json`, `results/gloop_transitions.json`).
+The existence rise under true feedback is also removal: of the 113
+citations that did not resolve at round 0 across the seven models, 86
+were gone from the final draft and 27 remained, while 33 new resolving
+citations appeared, 17 of them Mistral Small's. And because a
+closed-book model cannot consult the opinion it is told it misquoted,
+the true-feedback loop was rerun from the grounded combined-condition
+drafts of Sonnet 5 and DeepSeek with the verbatim excerpts of the ten
+retrieved authorities kept in the prompt (`src/loop_arm.py --grounded`):
+of Sonnet 5's 92 flagged quotations 1 was corrected, 17 dequoted, 56
+deleted, and 18 left (strict 0.496 to 0.837); DeepSeek corrected 3 of
+89. The models delete in answer to a flag whether or not they hold the
+source.
 
 Two robustness campaigns back the single-run table. Three independent
 generations of the baseline and combined drafts on all 48 matters and
@@ -366,6 +383,8 @@ withdrew itself after its own verification passes.
       rescore_full.json        definitive Experiment 1 tables
       stats_gee.json           primary citation-level inference
       rescore_loops.json       definitive Experiment 2 tables
+      loop_citations.json      existence trace and lenient rates by arm
+      gloop_<model>/           grounded true-feedback loop (Sonnet 5, DeepSeek)
       provenance_report.md     per-quote true-source classification
       pincites.json            page-level pincite verification
       human_baseline.json      the human yardstick

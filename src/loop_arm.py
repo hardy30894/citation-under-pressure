@@ -15,7 +15,9 @@ true but not scrambled feedback is using feedback content; substitution
 that appears only under true feedback is steering to the verifier.
 
 Ledger note: loop arm runs on the combo cell only (budget); recorded at
-freeze in LEDGER.md.
+freeze in LEDGER.md. --grounded reruns the true arm from the grounded
+combo drafts with the ten retrieved passages kept in the conversation,
+so the model has source text to correct against (results/gloop_<model>/).
 """
 
 import argparse
@@ -29,7 +31,7 @@ sys.path.insert(0, str(HERE / "src"))
 
 from pilot import (  # noqa: E402  (also loads local .env)
     MODELS, MAX_TOKENS_BY_MODEL, GE, DB, task_message, pick_matters,
-    chat_or_none,
+    chat_or_none, grounded_block,
 )
 from runtime.llm_client import LLMClient, LLMCache, Meter, BudgetStop, \
     load_env_key  # noqa: E402
@@ -134,11 +136,16 @@ def main():
     ap.add_argument("--slice", default=None,
                     help="a:b matter-index range for parallel workers")
     ap.add_argument("--arms", default="true,scrambled")
+    ap.add_argument("--grounded", action="store_true",
+                    help="start from the grounded combo drafts (results/rag_*) "
+                         "and keep the retrieved passages in the prompt; "
+                         "writes results/gloop_<model>/")
     args = ap.parse_args()
     global ARMS
     ARMS = tuple(args.arms.split(","))
 
-    run_dir = HERE / "results" / f"loop_{args.model}"
+    prefix = "gloop" if args.grounded else "loop"
+    run_dir = HERE / "results" / f"{prefix}_{args.model}"
     run_dir.mkdir(parents=True, exist_ok=True)
     meter = Meter(run_dir / "tokens.log")
     cache = LLMCache(run_dir / "cache.sqlite")
@@ -157,7 +164,8 @@ def main():
     state = RunState(run_dir / "run", control_dir=run_dir)
     state.install_signal_handlers()
 
-    full_drafts = HERE / "results" / f"full_{args.model}" / "drafts"
+    full_drafts = HERE / "results" / (
+        f"rag_{args.model}" if args.grounded else f"full_{args.model}") / "drafts"
     episodes = []
     try:
         lo, hi = 0, args.n_matters
@@ -179,7 +187,9 @@ def main():
                 if state.is_done(f"ep:{ep_id}"):
                     continue
                 rng = random.Random(f"loop:{ep_id}:20260831")
-                messages = task_message(view, side, "combo")
+                messages = task_message(
+                    view, side, "combo",
+                    grounded=grounded_block(entry["id"], "combo") if args.grounded else "")
                 d0 = full_drafts / f"{entry['id']}_combo.txt"
                 draft = d0.read_text() if d0.exists() else client.chat(
                     messages, temperature=0.0,
