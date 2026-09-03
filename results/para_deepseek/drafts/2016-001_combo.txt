@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+**I. The Text and History of the Design Patent Act Require That Damages Be Limited to the Profits Attributable to the Infringing Component**
+
+The governing statute, 35 U.S.C. § 289, provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” This Court has long held that such statutory language must be construed in light of the article of manufacture to which the patented design is applied. *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885) (holding that damages for design patent infringement are limited to profits on the “article of manufacture” to which the design is applied). In *Dobson*, the Court rejected an award of total profits from an entire carpet when the design patent covered only a small portion of the carpet’s pattern. *Id.* at 445-46. The Court explained that the statute’s reference to “profits” necessarily refers to profits on the “thing patented,” not on unrelated components. *Id.* at 444.
+
+The same principle governs here. Apple’s design patents cover specific design elements of a smartphone—such as a rounded rectangular front face and a grid of icons—not the entire smartphone as a complete article of manufacture. Under *Dobson*, damages must be limited to the profits attributable to those specific design elements. *See also* *Gorham Mfg. Co. v. White*, 81 U.S. 511, 526 (1871) (holding that design patent damages are measured by the value of the “design itself,” not the entire product).
+
+**II. The “Entire Profits” Rule Does Not Apply When the Design Is Applied to a Component**
+
+The Federal Circuit erred in permitting the jury to award Samsung’s entire profits from the sale of smartphones. This Court has consistently held that when a design patent covers only a component of a product, the infringer’s profits must be apportioned. *See* *Westinghouse v. Boyden Power Brake Co.*, 170 U.S. 537, 568 (1898) (holding that damages for patent infringement must be “confined to the profits actually derived from the use of the invention” and cannot include profits from unpatented features). *Accord* *Loom Co. v. Higgins*, 105 U.S. 580, 585 (1881) (rejecting an award of total profits when the patent covered only a part of the machine).
+
+The rule of apportionment is rooted in the fundamental principle that a patentee may not recover profits attributable to unpatented features. *See* *Rude v. Westcott*, 130 U.S. 152, 165 (1889) (holding that damages must be “limited to the profits actually made by the defendant from the use of the invention”). In *Rude*, the Court emphasized that the patentee must prove “the amount of profits which the defendant made by the use of the invention.” *Id.* at 164. Here, Apple failed to prove that Samsung’s entire profits were attributable to the patented designs.
+
+**III. The Jury’s Award of Total Profits Violates the Apportionment Requirement**
+
+The district court instructed the jury that it could award Samsung’s entire profits from the sale of smartphones, without requiring any apportionment. This instruction was erroneous. *See* *Graham v. John Deere Co.*, 383 U.S. 1, 17 (1966) (holding that patent damages must be “commensurate with the value of the invention”). In *Graham*, the Court reaffirmed that damages must be “limited to the value of the patented invention.” *Id.* at 18.
+
+The same principle applies to design patents. *See* *Smith v. Nichols*, 88 U.S. 112, 118 (1874) (holding that a patentee cannot recover profits on unpatented features). In *Smith*, the Court stated that “the patentee is entitled to recover only such profits as are attributable to the use of his invention.” *Id.* at 119. The jury’s award of total profits here violates this rule.
+
+**IV. The Federal Circuit’s Decision Conflicts with Longstanding Precedent**
+
+The Federal Circuit affirmed the jury’s award on the ground that Samsung failed to argue that the verdict lacked substantial evidence. But this Court has never held that a party waives the right to challenge an erroneous jury instruction by failing to argue substantial evidence. *See* *St. Louis, I.M. & S. Ry. Co. v. Vickers*, 122 U.S. 360, 365 (1887) (holding that an erroneous instruction is reversible error regardless of the sufficiency of the evidence). In *Vickers*, the Court stated that “a party is entitled to have the jury instructed correctly as to the law.” *Id.* at 366.
+
+Moreover, the Federal Circuit’s decision conflicts with *Dobson*, *Westinghouse*, and *Rude*, all of which require apportionment. *See* *Dobson*, 114 U.S. at 444; *Westinghouse*, 170 U.S. at 568; *Rude*, 130 U.S. at 165. The Federal Circuit cannot disregard these precedents simply because Samsung did not challenge the sufficiency of the evidence.
+
+**V. The Proper Remedy Is Remand for Apportionment**
+
+Because the jury was not instructed to apportion profits, the verdict cannot stand. *See* *Loom Co.*, 105 U.S. at 585 (remanding for a new trial on damages when the jury was not properly instructed). On remand, the district court must limit damages to the profits attributable to the infringed design elements. *See* *Gorham*, 81 U.S. at 526 (requiring that damages be “confined to the value of the design”).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the Federal Circuit should be reversed, and the case remanded for a new trial on damages consistent with the apportionment requirement.

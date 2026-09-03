@@ -1,0 +1,23 @@
+ARGUMENT
+
+The Bankruptcy Code exempts “retirement funds” from a debtor’s estate, 11 U.S.C. § 522(b)(3)(C), (d)(12), but an inherited individual retirement account is not “retirement funds” in the debtor’s hands. The Seventh Circuit correctly held that such an account is a time-limited tax-deferral vehicle, not a fund reserved for use after the debtor stops working.
+
+**I. The Statutory Text Requires That Funds Be Held for Retirement.**
+
+Section 522(b)(3)(C) and (d)(12) exempt “retirement funds” without defining the term. The ordinary meaning of “retirement funds” is money set aside for the owner’s own retirement. *See* *In re Clark*, 714 F.3d 559, 561 (7th Cir. 2013) (Easterbrook, C.J.). An inherited IRA, however, “cannot be held in the account until the current owner’s retirement.” *Id.* at 562. The Internal Revenue Code prohibits additional contributions, 26 U.S.C. § 408(d)(3)(C), and mandates that distributions begin within one year of the original owner’s death, with payout completed in as little as five years, 26 U.S.C. § 401(a)(9)(B). Thus, the account “must begin distributing its assets within a year of the original owner’s death” and “payout must be completed in as little as five years.” *Clark*, 714 F.3d at 561. Because the debtor cannot hold the funds until her own retirement, they are not “retirement funds” as that phrase is commonly understood.
+
+**II. The Absence of the Word “Debtor’s” Does Not Change the Analysis.**
+
+Debtors argue that § 522(b)(3)(C) and (d)(12) omit the word “debtor’s,” unlike other exemptions, and therefore any funds that were ever retirement funds—even in a predecessor’s hands—qualify. The Seventh Circuit correctly rejected this argument. The omission of “debtor’s” has a temporal effect: it allows new contributions to retirement accounts during bankruptcy to remain exempt, even though the debtor did not hold them before the filing. *Id.* at 562–63. But it does not mean that “a pot of assets that is not ‘retirement funds’ any time during the bankruptcy is exempt just because the debtor’s predecessor in interest had saved for retirement.” *Id.* at 563.
+
+The parallel with the homestead exemption illustrates the point. A house is exempt only if the debtor has used it as a domicile for the required period. 11 U.S.C. § 522(b)(3)(A). If a debtor inherits a home that was her mother’s residence, she cannot claim the exemption unless she herself has lived there. *Clark*, 714 F.3d at 563. “Exemption would depend on how Heidi used the property, not how her mother used it. Just so with retirement funds.” *Id.* The same logic applies to inherited IRAs: the funds’ character in the debtor’s hands determines exemption, not their character when held by the decedent.
+
+**III. The Purpose of the Exemption Is to Protect Retirement Savings, Not to Shield Inherited Assets.**
+
+Congress enacted the exemption to “protect retirement savings from creditors, not to create a broad exemption for any tax-deferred account.” *Id.* at 561. An inherited IRA “provides tax benefits” but is “not a place to hold wealth for use after the new owner’s retirement.” *Id.* at 562. The debtor can withdraw the funds immediately for current consumption without penalty (other than ordinary income tax). *Id.* at 561. Exempting such an account would “shelter from creditors a pot of money that can be freely used for current consumption.” *Id.* at 562. That result would undermine the bankruptcy goal of equitable distribution to creditors. As the Seventh Circuit observed, “no legislation pursues its purposes at all costs.” *Id.* at 563 (quoting *Rodriguez v. United States*, 480 U.S. 522, 525–26 (1987)). The exemption for retirement funds should not be expanded beyond its intended scope.
+
+**IV. The Decisions of the Fifth and Eighth Circuits Are Erroneous.**
+
+The Fifth Circuit in *In re Chilton*, 674 F.3d 486 (5th Cir. 2012), and the Eighth Circuit Bankruptcy Appellate Panel in *In re Nessa*, 426 B.R. 312 (BAP 8th Cir. 2010), held that inherited IRAs are exempt because the funds were once retirement funds. Those decisions focus on the source rather than the current character of the assets. *Chilton* reasoned that the statute does not require the funds to be the debtor’s, but that reasoning proves too much. If money expressly withdrawn from a retirement account and given to a child before death loses its character, *Clark*, 714 F.3d at 562, then the same is true when the funds pass by inheritance. The Seventh Circuit correctly concluded that “an inherited IRA does not have the economic attributes of a retirement vehicle” and therefore is not exempt. *Id.*
+
+The judgment of the Seventh Circuit should be affirmed.

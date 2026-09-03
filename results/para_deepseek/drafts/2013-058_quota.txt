@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+The plain text, structure, and purpose of the Bankruptcy Code compel the conclusion that inherited IRAs are not exempt from a debtor’s estate. The Seventh Circuit correctly held that such accounts do not constitute “retirement funds” under 11 U.S.C. §522(b)(3)(C) and (d)(12). *In re Clark*, 714 F.3d 559 (7th Cir. 2013).
+
+**I. The Statutory Text Requires That Funds Be “Retirement Funds” in the Debtor’s Hands**
+
+Section 522(b)(3)(C) exempts “retirement funds to the extent that those funds are in a fund or account that is exempt from taxation” under specified Internal Revenue Code provisions. The term “retirement funds” is not defined, but its ordinary meaning focuses on the *current* character of the assets. *See United States v. Ron Pair Enters., Inc.*, 489 U.S. 235, 241 (1989) (statutory interpretation begins with plain language). An inherited IRA lacks the hallmarks of retirement savings: the beneficiary cannot make contributions, must begin withdrawals within one year of the decedent’s death, and may be required to distribute the entire balance within five years. 26 U.S.C. §408(d)(3)(C); §401(a)(9)(B). As the Seventh Circuit recognized, these features make an inherited IRA “a time-limited tax-deferral vehicle, but not a place to hold wealth for use after the new owner’s retirement.” *Clark*, 714 F.3d at 561. Because the funds are available for current consumption, they are not “retirement funds” in the debtor’s hands. *Id.* at 562.
+
+**II. The Exemption’s Structure Confirms That It Does Not Cover Inherited IRAs**
+
+Congress carefully defined the scope of bankruptcy exemptions. Many provisions in §522 explicitly refer to “the debtor’s” interest. *See, e.g.*, §522(b)(3)(B) (exempting “any interest in property in which the debtor had . . . an interest as a tenant by the entirety”). The absence of such language in §522(b)(3)(C) does not expand the exemption to cover assets that were never the debtor’s retirement funds. *Clark*, 714 F.3d at 562. Rather, it reflects a temporal distinction: the exemption protects post-petition contributions to a retirement fund, unlike other exemptions that are frozen at filing. *Id.* (citing *Patterson v. Shumate*, 504 U.S. 753, 763 (1992) (retirement benefits are exempt even if not yet distributed)). That temporal grace does not convert a non-retirement asset into retirement funds. *Clark*, 714 F.3d at 562.
+
+**III. The Homestead Analogy Demonstrates the Error in Petitioners’ Position**
+
+The Bankruptcy Code also exempts a debtor’s “domicile.” §522(b)(3)(A). If a debtor inherits a house that was the decedent’s homestead, the exemption applies only if the house has been the debtor’s home for the required period. *See, e.g., In re Barker*, 768 F.2d 191, 196 (7th Cir. 1985). The character of the asset depends on the debtor’s use, not the decedent’s. *Clark*, 714 F.3d at 562. So too with retirement funds: the exemption turns on whether the funds are held for the debtor’s retirement. *Id.*
+
+**IV. Tax Status Alone Does Not Create Bankruptcy Exemption**
+
+Petitioners emphasize that an inherited IRA is tax-deferred. But the statute requires both that the funds be in a tax-exempt account *and* that they be “retirement funds.” *Clark*, 714 F.3d at 561. Tax deferral is a necessary condition, not a sufficient one. *Begier v. IRS*, 496 U.S. 53, 67 (1990) (court must give effect to each statutory requirement). An inherited IRA provides tax benefits, but those benefits are designed to prevent immediate taxation of the decedent’s pre-tax dollars, not to shelter the beneficiary’s savings. *Clark*, 714 F.3d at 561.
+
+**V. Contrary Authority Is Unpersuasive**
+
+The Fifth Circuit in *In re Chilton*, 674 F.3d 486 (5th Cir. 2012), and the Eighth Circuit BAP in *In re Nessa*, 426 B.R. 312 (8th Cir. BAP 2010), held that inherited IRAs are exempt because the funds were “retirement funds” in the decedent’s hands. This reasoning conflates the source of the funds with their current character. *Clark*, 714 F.3d at 561. As the Supreme Court has cautioned, “no legislation pursues its purposes at all costs.” *Rodriguez v. United States*, 480 U.S. 522, 525-26 (1987). Exemptions are to be construed narrowly, not expanded beyond their text. *Schwab v. Reilly*, 560 U.S. 770, 785 (2010); *Law v. Siegel*, 571 U.S. 415, 424 (2014). *Chilton* and *Nessa* improperly stretch the term “retirement funds” to include assets that the debtor can consume immediately.
+
+**VI. Policy Considerations Support the Seventh Circuit’s Holding**
+
+If inherited IRAs were exempt, debtors could shield assets intended for current consumption. *Clark*, 714 F.3d at 562. Congress could have provided such a broad exemption, but it did not. *RadLAX Gateway Hotel, LLC v. Amalgamated Bank*, 566 U.S. 639, 649 (2012) (courts should not rewrite statutes). The bankruptcy system balances fresh start for debtors with fair treatment of creditors. Exempting inherited IRAs would upset that balance. *See, e.g., In re Clark*, 714 F.3d at 563.
+
+**CONCLUSION**
+
+The judgment of the Seventh Circuit should be affirmed.

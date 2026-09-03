@@ -219,27 +219,49 @@ if pr.exists():
 rp = R / "replicate.json"
 if rp.exists():
     rep = json.loads(rp.read_text())
-    diffs_e, diffs_s, ident = [], [], []
+    sd_e, sd_s, ident, n = [], [], 0, 0
+    sign_stable = 0
     for m, mk in ALPHA.items():
         if m not in rep:
             continue
         r = rep[m]
         for c, ck in (("baseline", "Base"), ("combo", "Combo")):
-            for run, rk in (("run1", "One"), ("run2", "Two")):
-                emit2(f"rep{rk}Exist{mk}{ck}", fmt3(r[c][run]["exist"]))
-                if r[c][run]["strict"] is not None:
-                    emit2(f"rep{rk}Strict{mk}{ck}", fmt3(r[c][run]["strict"]))
-            diffs_e.append(abs(r[c]["run1"]["exist"] - r[c]["run2"]["exist"]))
-            if None not in (r[c]["run1"]["strict"], r[c]["run2"]["strict"]):
-                diffs_s.append(abs(r[c]["run1"]["strict"] - r[c]["run2"]["strict"]))
-        ident.append(r["identical_drafts"])
-    emit2("repMaxExistDiff", fmt3(max(diffs_e)))
-    emit2("repMaxStrictDiff", fmt3(max(diffs_s)))
-    import statistics as _st
-    emit2("repMedianStrictDiff", fmt3(_st.median(diffs_s)))
-    emit2("repIdentical", str(sum(int(x.split("/")[0]) for x in ident)))
-    emit2("repDrafts", str(sum(int(x.split("/")[1]) for x in ident)))
-    emit2("repModels", str(len(ident)))
+            emit2(f"repMeanExist{mk}{ck}", fmt3(r[c]["exist_mean"]))
+            emit2(f"repMeanStrict{mk}{ck}", fmt3(r[c]["strict_mean"]))
+            emit2(f"repSdStrict{mk}{ck}", fmt3(r[c]["strict_sd"]))
+            sd_e.append(r[c]["exist_sd"]); sd_s.append(r[c]["strict_sd"])
+        ident += r["identical_any_pair"]; n += r["n_drafts_per_run"]
+        signs = {(r[f"{run}_contrast"]["strict"] or 0) > 0 for run in ("full", "rep2", "rep3")}
+        sign_stable += len(signs) == 1
+    emit2("repMaxExistSd", fmt3(max(sd_e)))
+    emit2("repMaxStrictSd", fmt3(max(sd_s)))
+    emit2("repIdentical", str(ident))
+    emit2("repDrafts", str(n))
+    emit2("repModels", str(len([m for m in ALPHA if m in rep])))
+    emit2("repSignStable", str(sign_stable))
+    emit2("repMistralIdentical", str(rep.get("mistralsmall", {}).get("identical_any_pair", 0)))
+
+gr = R / "stats_gee_runs.json"
+if gr.exists():
+    g = json.loads(gr.read_text())
+    surv = {"citation": [], "quote": []}
+    for k, v in g.items():
+        kind, m, _ = k.split(":")
+        mk = ALPHA.get(m)
+        if not mk:
+            continue
+        kk = "Cite" if kind == "citation" else "Quote"
+        emit2(f"runsOr{kk}{mk}", f"{v['OR']:.2f}")
+        emit2(f"runsCi{kk}{mk}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
+        emit2(f"runsHolm{kk}{mk}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else f"{v['holm_p']:.4f}")
+        if v["holm_p"] < 0.05:
+            surv[kind].append(m)
+    emit2("runsQuoteSurvivors", str(len(surv["quote"])))
+    emit2("runsCiteSurvivors", str(len(surv["citation"])))
+    qs = [g[f"quote:{m}:combo"]["OR"] for m in ALPHA if m in {x for x in surv["quote"]} and m != "sonnet"]
+    if qs:
+        emit2("runsQuoteOrMin", f"{min(qs):.2f}")
+        emit2("runsQuoteOrMax", f"{max(qs):.2f}")
 
 lt = R / "loop_transitions.json"
 if lt.exists():

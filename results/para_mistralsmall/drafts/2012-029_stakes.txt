@@ -1,0 +1,28 @@
+**ARGUMENT**
+
+**I. The Federal Circuit’s Decision in *Air Measurement* Correctly Recognizes That Federal Courts Have Exclusive Jurisdiction Over State Malpractice Claims That Require Resolution of Substantial, Necessary Patent Issues.**
+
+The Supreme Court has long held that federal courts possess exclusive jurisdiction over cases “arising under” federal patent law. *See Christianson v. Colt Indus. Operating Corp.*, 486 U.S. 800, 808–09 (1988) (interpreting 28 U.S.C. § 1338(a)). This jurisdiction extends to state-law claims where resolution of a federal patent issue is “necessary” to the plaintiff’s claim. *Id.* at 809. The Federal Circuit has applied this principle to legal malpractice claims arising from patent litigation, recognizing that such claims implicate the federal interest in uniform patent law. *See Air Measurement Techs., Inc. v. Akin Gump Strauss Hauer & Feld, L.L.P.*, 504 F.3d 1262, 1271–73 (Fed. Cir. 2007).
+
+In *Air Measurement*, the Federal Circuit held that a state malpractice claim arising from allegedly negligent handling of patent litigation triggered federal jurisdiction because the plaintiff’s right to relief depended on proving that the underlying patent was valid and infringed—issues governed by federal patent law. *Id.* at 1271. The court reasoned that allowing state courts to adjudicate such claims would risk inconsistent rulings on patent validity and infringement, undermining the federal interest in uniformity. *Id.* at 1272–73. This reasoning applies with equal force here.
+
+**II. The Texas Supreme Court Erred in Concluding That the Federal Patent Issue in This Case Is Not Substantial or Necessary.**
+
+The Texas Supreme Court misapplied the *Grable* test by downplaying the significance of the patent issue in Minton’s malpractice claim. *See Grable & Sons Metal Prods., Inc. v. Darue Eng’g & Mfg.*, 545 U.S. 308, 314 (2005). Under *Grable*, federal jurisdiction exists where a state-law claim:
+(1) necessarily raises a disputed federal issue;
+(2) the federal issue is substantial; and
+(3) federal jurisdiction will not disrupt the balance of state and federal judicial responsibilities. *Id.*
+
+Here, Minton’s malpractice claim turns entirely on whether his attorneys’ failure to raise the experimental use exception proximately caused his injury. *See Electromotive Div. of Gen. Motors Corp. v. Tramp. Sys. Div. of Gen. Elec. Co.*, 417 F.3d 1203, 1210 (Fed. Cir. 2005). The experimental use exception is a creature of federal patent law, and its application requires interpreting § 102(b) of the Patent Act. *See* 35 U.S.C. § 102(b). Without resolving this federal issue, the state court cannot determine whether Minton would have prevailed in the underlying patent litigation—a prerequisite to his malpractice claim. *See Christianson*, 486 U.S. at 809.
+
+The Texas Supreme Court’s dismissal of the patent issue as “incidental” ignores the fact that the experimental use exception is the linchpin of Minton’s malpractice claim. *See supra* at 11–12. The Supreme Court has repeatedly cautioned against allowing state courts to adjudicate disputes that hinge on federal patent law, lest uniformity be sacrificed. *See id.* at 808–09; *Grable*, 545 U.S. at 313–14.
+
+**III. The Federal Circuit’s Precedent in *Air Measurement* and *Immunocept* Is Binding and Correctly Applies Supreme Court Precedent.**
+
+The Texas Supreme Court’s refusal to follow *Air Measurement* and *Immunocept, LLC v. Fulbright & Jaworski, LLP*, 504 F.3d 1281 (Fed. Cir. 2007), was error. Those decisions correctly recognize that state malpractice claims arising from patent litigation implicate substantial federal interests. *See Air Measurement*, 504 F.3d at 1271–73; *Immunocept*, 504 F.3d at 1284–85. The Fifth Circuit has since adopted this reasoning. *See USPPS, LLC v. Avery Dennison Corp.*, 647 F.3d 274, 278–81 (5th Cir. 2011).
+
+Contrary to the dissent’s suggestion, *Grable* does not require a different result. *Grable* itself involved a state quiet title action where the federal tax issue was not dispositive of the plaintiff’s claim. 545 U.S. at 314–15. Here, by contrast, the federal patent issue is dispositive of Minton’s malpractice claim. *See Christianson*, 486 U.S. at 809.
+
+**CONCLUSION**
+
+The Texas Supreme Court erred in dismissing this case for lack of jurisdiction. The Federal Circuit’s decisions in *Air Measurement* and *Immunocept* correctly apply Supreme Court precedent, and this Court should reverse the judgment below.

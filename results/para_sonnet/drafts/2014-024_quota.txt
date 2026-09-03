@@ -1,0 +1,33 @@
+# ARGUMENT
+
+**A CONVICTION UNDER 18 U.S.C. §875(c) REQUIRES PROOF THAT THE DEFENDANT SUBJECTIVELY INTENDED HIS COMMUNICATION AS A THREAT**
+
+## I. The Text and Structure of §875(c) Require Proof of a Culpable Mental State
+
+Section 875(c) criminalizes transmission "in interstate commerce" of "any communication containing any threat to injure the person of another." The statute is silent as to mens rea, but this Court has repeatedly held that "the presumption in favor of a scienter requirement should apply to each of the statutory elements that criminalize otherwise innocent conduct." *United States v. X-Citement Video, Inc.*, 513 U.S. 64, 72 (1994). This presumption exists because "some indication of congressional intent, express or implied, is required to dispense with mens rea as an element of a crime." *Staples v. United States*, 511 U.S. 600, 606 (1994).
+
+This Court's decision in *Morissette v. United States*, 342 U.S. 246 (1952), remains the foundational statement of this principle: crime generally "consists of a mental part and a physical part," and "unaccompanied by any criminal intent" mere conduct does not become criminal simply because Congress created a prohibition. *Id.* at 251, 275. The Third Circuit's negligence-based "reasonable speaker" standard—asking only whether a reasonable person would foresee the statement would be understood as threatening—divorces criminal liability from any culpable mental state and instead punishes Elonis for the reactions of others, not his own intent.
+
+This Court's recent decision in *Elonis v. United States* itself illustrates the proper analytical framework, but the Third Circuit's holding cannot be reconciled with the Court's treatment of analogous threat statutes. In *United States v. Alkhabaz*, though a Sixth Circuit decision, courts applying similar reasoning have recognized that transmission of a threat requires that the speaker intend the communication to be understood as a threat—not merely that a reasonable recipient might so understand it.
+
+## II. Virginia v. Black Establishes That "True Threats" Require Subjective Intent
+
+The Third Circuit's holding cannot survive this Court's decision in *Virginia v. Black*, 538 U.S. 343 (2003). In *Black*, this Court defined true threats as "statements where the speaker means to communicate a serious expression of an intent to commit an act of unlawful violence to a particular individual or group of individuals." *Id.* at 359 (emphasis added). The Court explained that "[t]he speaker need not actually intend to carry out the threat," but critically, the speaker *must* intend the communication as a threat. *Id.* This formulation—"means to communicate"—is inherently a subjective inquiry into the defendant's own state of mind, not an objective inquiry into how a reasonable listener would perceive the statement.
+
+The Third Circuit's pre-*Black* decision in *United States v. Kosma*, 951 F.2d 549, 557 (3d Cir. 1991), applying a "reasonable speaker" standard, cannot survive *Black*'s subsequent clarification. Yet the panel below erroneously concluded that *Kosma* remained controlling, effectively nullifying this Court's intervening precedent.
+
+## III. The First Amendment Demands a Subjective-Intent Standard to Avoid Chilling Protected Speech
+
+The First Amendment concerns animating the true-threats doctrine independently compel a subjective-intent requirement. This Court has long recognized that "the line between speech unconditionally guaranteed and speech which may be legitimately regulated is finely drawn," and "the separation of legitimate from illegitimate speech calls for more sensitive tools than [the government] has supplied." *Speiser v. Randall*, 357 U.S. 513, 525 (1958). An objective, negligence-based standard fails to supply such sensitive tools; it instead permits conviction based solely on how third parties—jurors applying hindsight—characterize ambiguous, emotionally charged, or artistically framed speech.
+
+This Court's decision in *Watts v. United States*, 394 U.S. 705 (1969) (per curiam), first recognized the true-threats exception, cautioning that the statute at issue there "is not to be read this way, but as covering only 'true' threats," and distinguishing "political hyperbole" from genuine threats. *Id.* at 708. That distinction is meaningless if a defendant's own hyperbolic, artistic, or emotionally reactive intent is irrelevant to liability. Elonis's postings—styled as rap lyrics, referencing popular culture, and posted in the immediate aftermath of the collapse of his marriage—present precisely the kind of ambiguous expression *Watts* sought to protect from criminalization absent proof of genuine threatening intent.
+
+This Court's decision in *Hess v. Indiana*, 414 U.S. 105 (1973) (per curiam), similarly recognized that speech, even if provocative, cannot be criminalized unless it was "intended" to produce the proscribed result. *Id.* at 109. An objective standard collapses this critical inquiry, permitting punishment for speech that the defendant never intended to be understood as threatening, based solely on the impression it created in the mind of the listener—precisely the chilling effect the First Amendment forbids.
+
+## IV. The Objective Standard Applied Below Improperly Conflates Civil Negligence Concepts With Criminal Liability
+
+The "reasonable speaker" test imported by the Third Circuit is a negligence standard borrowed from tort law, wholly inappropriate for a federal felony carrying years of imprisonment. This Court's admonition in *Liparota v. United States*, 471 U.S. 419 (1985), applies with full force: because criminal statutes derive their force from the "moral condemnation of the community," this Court will not lightly presume Congress intended to criminalize conduct engaged in without a guilty mind. *Id.* at 426. Under the Third Circuit's rule, Elonis could be convicted and imprisoned even if he sincerely and reasonably believed his Facebook posts—styled as rap lyrics referencing publicly available song titles—would never be understood as genuine threats. That result offends the basic principle that "the existence of a mens rea is the rule of, rather than the exception to, the principles of Anglo-American criminal jurisprudence." *Dennis v. United States*, 341 U.S. 494, 500 (1951) (quoting *Morissette*, 342 U.S. at 250).
+
+## CONCLUSION
+
+For the foregoing reasons, this Court should hold that §875(c) requires proof that the defendant subjectively intended his communication to be understood as a threat, and should reverse the judgment of the Third Circuit.

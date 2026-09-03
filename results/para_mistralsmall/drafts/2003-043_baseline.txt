@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. The IRS Must Assess Each Individual Partner Separately to Extend the Statute of Limitations Against Them.**
+
+The Ninth Circuit correctly held that the IRS’s assessment against the partnership did not extend the statute of limitations against the individual partners. *See Galletti v. United States (In re Galletti)*, 298 F.3d 1107, 1114 (9th Cir. 2002). This conclusion is compelled by the plain text of the Internal Revenue Code and this Court’s precedents.
+
+Section 6502(a) of the Internal Revenue Code provides that the IRS may collect a tax “by levy or by a proceeding in court” only if the levy or proceeding is commenced “within 10 years after the assessment of the tax.” 26 U.S.C. § 6502(a). An “assessment” is defined as the recording of a taxpayer’s liability in the Secretary’s records. 26 U.S.C. § 6203. The term “taxpayer” is defined to include “any person subject to any internal revenue tax,” and “person” includes “an individual, a trust, estate, partnership, association, company or corporation.” 26 U.S.C. § 7701(a)(14), (a)(1). Thus, the statute contemplates that an assessment must be made against a specific taxpayer—here, an individual partner—to extend the limitations period for that taxpayer. *See United States v. Coson*, 286 F.2d 453, 458 (9th Cir. 1961) (holding that an assessment must identify the taxpayer to be valid).
+
+The IRS’s contrary argument—that a single assessment against the partnership suffices to extend the limitations period against all partners—finds no support in the Code. The IRS cites no provision that treats partners as mere extensions of the partnership for purposes of assessment or limitations. To the contrary, the Code distinguishes between partnerships and their partners. *See* 26 U.S.C. § 7701(a)(2) (defining “partnership” separately from “partner”). Partners are “persons” and “taxpayers” in their own right, each with their own taxpayer identification number. *See* 26 C.F.R. § 301.6203-1 (requiring that an assessment “provide identification of the taxpayer”). Thus, the IRS’s failure to assess the individual partners within the three-year limitations period of § 6501(a) bars it from collecting the unpaid taxes from them. *See Galletti*, 298 F.3d at 1114.
+
+The IRS’s reliance on *United States v. Wright*, 57 F.3d 561 (7th Cir. 1995), is misplaced. In *Wright*, the IRS had assessed both the partnership and the individual partners, extending the limitations period for all. *Id.* at 562. Here, by contrast, the IRS assessed only the partnership. The Seventh Circuit’s decision does not address whether an assessment against a partnership alone suffices to extend the limitations period against the partners. *See id.* The IRS’s attempt to bootstrap *Wright* to this case fails.
+
+**II. The IRS Cannot Collect the Partnership’s Tax Debt from the Partners Without First Obtaining a Judgment Against Them.**
+
+Even if the IRS could extend the limitations period against the partners by assessing the partnership, it still could not collect the debt from the partners without first obtaining a judgment against them. Under California law, a judgment against a partnership is not a judgment against the partners. *See* Cal. Corp. Code § 16307(c) (“A judgment against a partnership is not by itself a judgment against a partner.”). To reach a partner’s personal assets, the IRS must first obtain a judgment against that partner. *See id.*; *9 B.E. Witkin, Summary of California Law* § 60V (9th ed. Supp. 2001) (“[A] judgment against a partnership may not be satisfied from a partner’s assets unless there is also a judgment against the partner.”).
+
+The IRS has not obtained such a judgment. The three-year limitations period for bringing a collection action against the partners has expired. 26 U.S.C. § 6501(a). Thus, the IRS’s claims in bankruptcy are unenforceable against the partners. *See* 11 U.S.C. § 502(b)(1) (disallowing claims that are “unenforceable against the debtor ... under applicable law”).
+
+**III. The Ninth Circuit’s Decision Does Not Conflict with Other Circuits.**
+
+The IRS argues that other circuits permit the IRS to collect partnership tax debts directly from partners without individual assessments. *See, e.g., United States v. Texas, 507 U.S. 52 (1993)* (per curiam). But those cases do not address the specific question presented here: whether an assessment against the partnership alone extends the limitations period against the partners. *See Texas*, 507 U.S. at 56 (noting that the partners were assessed individually). The IRS’s reliance on these cases is unavailing.
+
+**CONCLUSION**
+
+The Ninth Circuit correctly held that the IRS must assess each individual partner separately to extend the statute of limitations against them. The IRS’s failure to do so bars its claims in bankruptcy. The judgment below should be affirmed.

@@ -92,3 +92,5 @@
 {"ts": 1788405728.503715, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2020-067:combo", "in_tokens": 5119, "out_tokens": 2827, "est_cost": 0.001508, "latency_ms": 42030}
 {"ts": 1788405781.957751, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2016-063:baseline", "in_tokens": 5176, "out_tokens": 3870, "est_cost": 0.002583, "latency_ms": 53367}
 {"ts": 1788405818.86498, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:2016-063:combo", "in_tokens": 5161, "out_tokens": 4113, "est_cost": 0.001794, "latency_ms": 36785}
+{"ts": 1788405962.7450938, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:1994-059:baseline", "in_tokens": 4373, "out_tokens": 1067, "est_cost": 0.000476, "latency_ms": 143794}
+{"ts": 1788405984.426927, "client": "drafter-deepseek", "model": "deepseek/deepseek-v4-flash", "tag": "draft:1994-059:combo", "in_tokens": 4437, "out_tokens": 1382, "est_cost": 0.001008, "latency_ms": 21512}

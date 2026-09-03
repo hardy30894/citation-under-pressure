@@ -93,3 +93,4 @@
 {"ts": 1788405781.140395, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2016-063:baseline", "in_tokens": 8042, "out_tokens": 2102, "est_cost": 0.037104, "latency_ms": 25362}
 {"ts": 1788405883.0121548, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2016-063:combo", "in_tokens": 8138, "out_tokens": 9603, "est_cost": 0.112306, "latency_ms": 101829}
 {"ts": 1788405910.2182798, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:1994-059:baseline", "in_tokens": 6949, "out_tokens": 2203, "est_cost": 0.035928, "latency_ms": 27076}
+{"ts": 1788405964.683189, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:1994-059:combo", "in_tokens": 7045, "out_tokens": 4640, "est_cost": 0.06049, "latency_ms": 54371}

@@ -1,0 +1,114 @@
+{
+ "citation:deepseek:combo": {
+  "OR": 0.752,
+  "ci_low": 0.438,
+  "ci_high": 1.29,
+  "p": 0.30076,
+  "n": 2534,
+  "holm_p": 0.3008
+ },
+ "quote:deepseek:combo": {
+  "OR": 0.399,
+  "ci_low": 0.302,
+  "ci_high": 0.527,
+  "p": 0.0,
+  "n": 2108,
+  "holm_p": 0.0
+ },
+ "citation:gpt54mini:combo": {
+  "OR": 0.734,
+  "ci_low": 0.458,
+  "ci_high": 1.177,
+  "p": 0.19931,
+  "n": 3333,
+  "holm_p": 0.5979
+ },
+ "quote:gpt54mini:combo": {
+  "OR": 0.405,
+  "ci_low": 0.27,
+  "ci_high": 0.608,
+  "p": 1e-05,
+  "n": 917,
+  "holm_p": 0.0001
+ },
+ "citation:grok43:combo": {
+  "OR": 2.173,
+  "ci_low": 0.539,
+  "ci_high": 8.758,
+  "p": 0.27514,
+  "n": 2177,
+  "holm_p": 0.5503
+ },
+ "quote:grok43:combo": {
+  "OR": 0.365,
+  "ci_low": 0.249,
+  "ci_high": 0.535,
+  "p": 0.0,
+  "n": 1099,
+  "holm_p": 0.0
+ },
+ "citation:llama4mav:combo": {
+  "OR": 0.564,
+  "ci_low": 0.331,
+  "ci_high": 0.961,
+  "p": 0.03534,
+  "n": 2315,
+  "holm_p": 0.1414
+ },
+ "quote:llama4mav:combo": {
+  "OR": 0.325,
+  "ci_low": 0.188,
+  "ci_high": 0.562,
+  "p": 6e-05,
+  "n": 669,
+  "holm_p": 0.0005
+ },
+ "citation:mistralsmall:combo": {
+  "OR": 0.618,
+  "ci_low": 0.472,
+  "ci_high": 0.809,
+  "p": 0.00046,
+  "n": 2660,
+  "holm_p": 0.0032
+ },
+ "quote:mistralsmall:combo": {
+  "OR": 0.5,
+  "ci_low": 0.343,
+  "ci_high": 0.729,
+  "p": 0.00032,
+  "n": 1656,
+  "holm_p": 0.0026
+ },
+ "citation:qwen30b:combo": {
+  "OR": 0.365,
+  "ci_low": 0.256,
+  "ci_high": 0.521,
+  "p": 0.0,
+  "n": 2338,
+  "holm_p": 0.0
+ },
+ "quote:qwen30b:combo": {
+  "OR": 0.343,
+  "ci_low": 0.244,
+  "ci_high": 0.483,
+  "p": 0.0,
+  "n": 2062,
+  "holm_p": 0.0
+ },
+ "citation:sonnet:combo": {
+  "OR": 2.008,
+  "ci_low": 1.331,
+  "ci_high": 3.03,
+  "p": 0.00089,
+  "n": 2299,
+  "holm_p": 0.0054
+ },
+ "quote:sonnet:combo": {
+  "OR": 1.331,
+  "ci_low": 1.07,
+  "ci_high": 1.656,
+  "p": 0.01026,
+  "n": 2250,
+  "holm_p": 0.0513
+ }
+}

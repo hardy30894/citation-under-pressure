@@ -1,0 +1,33 @@
+# ARGUMENT
+
+## THE ASSESSMENT AGAINST A PARTNERSHIP DOES NOT EXTEND THE STATUTE OF LIMITATIONS AS TO INDIVIDUAL PARTNERS
+
+### A. The Text of the Internal Revenue Code Requires Assessment of Each Taxpayer
+
+Section 6502(a) extends the limitations period to ten years only where "the assessment of any tax imposed by this title has been made within the period of limitation properly applicable thereto." 26 U.S.C. § 6502(a). This extension is inseparably tied to the taxpayer against whom assessment was made. Section 6203 confirms that "[t]he assessment shall be made by recording the liability of the taxpayer," and the implementing regulation requires that a valid assessment "provide identification of the taxpayer." 26 C.F.R. § 301.6203-1 (emphasis added).
+
+Critically, the Code's definitions treat individuals and partnerships as distinct taxpayers. Section 7701(a)(1) defines "person" to include "an individual, a trust, estate, partnership, association, company or corporation"—listing "individual" and "partnership" as separate categories, not synonyms. Each Respondent here has a distinct taxpayer identification number, confirming that each is a separately identified "taxpayer" under § 7701(a)(14). As the Ninth Circuit correctly held, "[t]he Partnership is a 'taxpayer' within the meaning of the statute, but so is each individual Debtor a separate 'taxpayer.'" *United States v. Galletti*, 348 F.3d 997, 1002 (9th Cir. 2003) (amended opinion). The government's timely assessment against the Partnership therefore extended the limitations period only for the Partnership—it "left unaltered the limitations period applicable to Debtors." *Id.*
+
+This textual reading follows directly from *Bull v. United States*, 295 U.S. 247 (1935), which described assessment as the formal, individualized act that gives the government "the power to collect the sum by summary proceedings." *Id.* at 260. An assessment against one taxpayer cannot logically create summary collection powers against a different taxpayer never identified in that assessment.
+
+### B. Ninth Circuit Precedent Confirms That Assessment Must Identify the Individual From Whom Collection Is Sought
+
+This Court's decision need not disturb settled circuit law. In *United States v. Coson*, 286 F.2d 453 (9th Cir. 1961), the court confronted a nearly identical scenario: the IRS attempted to enforce a lien against an individual partner based solely on an assessment naming the partnership. The district court had explained that a valid assessment requires identification of the specific taxpayer, and that an assessment naming only the partnership and "an unknown number of unidentified taxpayers" could not support collection against the individual partner. *Coson v. United States*, 169 F. Supp. 671, 675 (S.D. Cal. 1958). This Court affirmed. 286 F.2d at 458.
+
+The government's reliance on *Young v. Riddell*, 283 F.2d 909 (9th Cir. 1960), is misplaced. *Young* held only that a partner who had *already paid* his share of partnership taxes could not obtain a refund merely because the assessment did not separately name him—his state-law liability for partnership debts barred a refund once payment was voluntarily made. Critically, the *Young* district court expressly distinguished the refund question from the collection question, stating that to *collect* the tax from an unnamed partner, the government must "resort[] to court action" or make an individual assessment. *Young v. Riddell*, 60-1 U.S. Tax Cas. (CCH) ¶ 9831, at 76,050 (S.D. Cal. 1959), *aff'd*, 283 F.2d 909 (9th Cir. 1960). This Court's affirmance did not disturb that limitation. *Galletti*, 348 F.3d at 1004.
+
+### C. The Seventh Circuit's Decision in *Wright* Is Not to the Contrary
+
+The government's reliance on *United States v. Wright*, 57 F.3d 561 (7th Cir. 1995), fails on its own terms. In *Wright*, the IRS had assessed *both* the partnership and the individual partners. *United States v. Wright*, 868 F. Supp. 1070, 1071 & n.1 (S.D. Ind. 1994). The only question was whether the limitations period applicable to the partners—already validly extended by their own individual assessments—was tolled during the partnership's bankruptcy. 57 F.3d at 562–63. The Seventh Circuit "therefore had no occasion to address" whether an assessment against the partnership alone suffices to bind individual partners. *Galletti*, 348 F.3d at 999–1000 (amended opinion). *Wright* thus provides no support for the government's position here, where no assessment—individual or otherwise—was ever made against Respondents.
+
+### D. State Partnership Law Does Not Substitute for the Required Assessment or Judgment
+
+The government's alternative theory—that California's joint-and-several liability rule for partnership debts independently authorizes collection from partners—also fails. California Corporations Code § 16307(c) expressly provides: "A judgment against a partnership is not by itself a judgment against a partner. A judgment against a partnership may not be satisfied from a partner's assets unless there is also a judgment against the partner." Thus, even accepting that Respondents are substantively liable under state law for the Partnership's debts, the government was required to obtain an individual judgment against each partner within the applicable limitations period to render that liability enforceable. It did neither.
+
+### E. Sound Statutory Policy Supports the Individualized-Assessment Requirement
+
+This reading also comports with the structural design of the assessment process, which this Court has recognized affords the government extraordinary summary powers—liens, levies, and priority in bankruptcy—precisely because assessment is a formalized, individualized act subject to procedural safeguards. See *Bull*, 295 U.S. at 259–60. Permitting an assessment against an entity to silently extend the limitations period against unnamed individuals would eviscerate the notice and procedural protections Congress built into §§ 6203 and 6501, allowing the government to sit on individual partners' liability indefinitely so long as the partnership itself was assessed.
+
+### CONCLUSION
+
+For the foregoing reasons, the judgment of the Court of Appeals should be affirmed.

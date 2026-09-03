@@ -1177,60 +1177,101 @@
 \newcommand{\falseAlarmPctSonnet}{1.2}
 \newcommand{\inaccTotalGrok}{307}
 \newcommand{\falseAlarmPctGrok}{2.0}
-\newcommand{\repOneExistQwenBase}{0.903}
-\newcommand{\repOneStrictQwenBase}{0.121}
-\newcommand{\repTwoExistQwenBase}{0.880}
-\newcommand{\repTwoStrictQwenBase}{0.100}
-\newcommand{\repOneExistQwenCombo}{0.830}
-\newcommand{\repOneStrictQwenCombo}{0.071}
-\newcommand{\repTwoExistQwenCombo}{0.811}
-\newcommand{\repTwoStrictQwenCombo}{0.058}
-\newcommand{\repOneExistMistralBase}{0.924}
-\newcommand{\repOneStrictMistralBase}{0.143}
-\newcommand{\repTwoExistMistralBase}{0.915}
-\newcommand{\repTwoStrictMistralBase}{0.197}
-\newcommand{\repOneExistMistralCombo}{0.889}
-\newcommand{\repOneStrictMistralCombo}{0.104}
-\newcommand{\repTwoExistMistralCombo}{0.909}
-\newcommand{\repTwoStrictMistralCombo}{0.087}
-\newcommand{\repOneExistLlamaBase}{0.947}
-\newcommand{\repOneStrictLlamaBase}{0.407}
-\newcommand{\repTwoExistLlamaBase}{0.946}
-\newcommand{\repTwoStrictLlamaBase}{0.414}
-\newcommand{\repOneExistLlamaCombo}{0.893}
-\newcommand{\repOneStrictLlamaCombo}{0.194}
-\newcommand{\repTwoExistLlamaCombo}{0.908}
-\newcommand{\repTwoStrictLlamaCombo}{0.122}
-\newcommand{\repOneExistDeepseekBase}{0.942}
-\newcommand{\repOneStrictDeepseekBase}{0.256}
-\newcommand{\repTwoExistDeepseekBase}{0.956}
-\newcommand{\repTwoStrictDeepseekBase}{0.375}
-\newcommand{\repOneExistDeepseekCombo}{0.984}
-\newcommand{\repOneStrictDeepseekCombo}{0.111}
-\newcommand{\repTwoExistDeepseekCombo}{0.953}
-\newcommand{\repTwoStrictDeepseekCombo}{0.183}
-\newcommand{\repOneExistGptBase}{0.967}
-\newcommand{\repOneStrictGptBase}{0.471}
-\newcommand{\repTwoExistGptBase}{0.956}
-\newcommand{\repTwoStrictGptBase}{0.519}
-\newcommand{\repOneExistGptCombo}{0.963}
-\newcommand{\repOneStrictGptCombo}{0.528}
-\newcommand{\repTwoExistGptCombo}{0.963}
-\newcommand{\repTwoStrictGptCombo}{0.200}
-\newcommand{\repOneExistSonnetBase}{0.988}
-\newcommand{\repOneStrictSonnetBase}{0.349}
-\newcommand{\repTwoExistSonnetBase}{0.989}
-\newcommand{\repTwoStrictSonnetBase}{0.260}
-\newcommand{\repOneExistSonnetCombo}{1.000}
-\newcommand{\repOneStrictSonnetCombo}{0.376}
-\newcommand{\repTwoExistSonnetCombo}{0.991}
-\newcommand{\repTwoStrictSonnetCombo}{0.309}
-\newcommand{\repMaxExistDiff}{0.031}
-\newcommand{\repMaxStrictDiff}{0.328}
-\newcommand{\repMedianStrictDiff}{0.061}
-\newcommand{\repIdentical}{1}
-\newcommand{\repDrafts}{144}
-\newcommand{\repModels}{6}
+\newcommand{\repMeanExistQwenBase}{0.901}
+\newcommand{\repMeanStrictQwenBase}{0.160}
+\newcommand{\repSdStrictQwenBase}{0.014}
+\newcommand{\repMeanExistQwenCombo}{0.746}
+\newcommand{\repMeanStrictQwenCombo}{0.062}
+\newcommand{\repSdStrictQwenCombo}{0.009}
+\newcommand{\repMeanExistMistralBase}{0.912}
+\newcommand{\repMeanStrictMistralBase}{0.237}
+\newcommand{\repSdStrictMistralBase}{0.027}
+\newcommand{\repMeanExistMistralCombo}{0.864}
+\newcommand{\repMeanStrictMistralCombo}{0.132}
+\newcommand{\repSdStrictMistralCombo}{0.010}
+\newcommand{\repMeanExistLlamaBase}{0.964}
+\newcommand{\repMeanStrictLlamaBase}{0.405}
+\newcommand{\repSdStrictLlamaBase}{0.013}
+\newcommand{\repMeanExistLlamaCombo}{0.932}
+\newcommand{\repMeanStrictLlamaCombo}{0.174}
+\newcommand{\repSdStrictLlamaCombo}{0.016}
+\newcommand{\repMeanExistDeepseekBase}{0.967}
+\newcommand{\repMeanStrictDeepseekBase}{0.331}
+\newcommand{\repSdStrictDeepseekBase}{0.046}
+\newcommand{\repMeanExistDeepseekCombo}{0.953}
+\newcommand{\repMeanStrictDeepseekCombo}{0.157}
+\newcommand{\repSdStrictDeepseekCombo}{0.034}
+\newcommand{\repMeanExistGptBase}{0.969}
+\newcommand{\repMeanStrictGptBase}{0.465}
+\newcommand{\repSdStrictGptBase}{0.018}
+\newcommand{\repMeanExistGptCombo}{0.957}
+\newcommand{\repMeanStrictGptCombo}{0.268}
+\newcommand{\repSdStrictGptCombo}{0.024}
+\newcommand{\repMeanExistSonnetBase}{0.993}
+\newcommand{\repMeanStrictSonnetBase}{0.334}
+\newcommand{\repSdStrictSonnetBase}{0.001}
+\newcommand{\repMeanExistSonnetCombo}{0.996}
+\newcommand{\repMeanStrictSonnetCombo}{0.402}
+\newcommand{\repSdStrictSonnetCombo}{0.044}
+\newcommand{\repMeanExistGrokBase}{0.981}
+\newcommand{\repMeanStrictGrokBase}{0.373}
+\newcommand{\repSdStrictGrokBase}{0.049}
+\newcommand{\repMeanExistGrokCombo}{0.992}
+\newcommand{\repMeanStrictGrokCombo}{0.179}
+\newcommand{\repSdStrictGrokCombo}{0.059}
+\newcommand{\repMaxExistSd}{0.050}
+\newcommand{\repMaxStrictSd}{0.059}
+\newcommand{\repIdentical}{22}
+\newcommand{\repDrafts}{672}
+\newcommand{\repModels}{7}
+\newcommand{\repSignStable}{7}
+\newcommand{\repMistralIdentical}{22}
+\newcommand{\runsOrCiteDeepseek}{0.75}
+\newcommand{\runsCiCiteDeepseek}{0.44 to 1.29}
+\newcommand{\runsHolmCiteDeepseek}{0.301}
+\newcommand{\runsOrQuoteDeepseek}{0.40}
+\newcommand{\runsCiQuoteDeepseek}{0.30 to 0.53}
+\newcommand{\runsHolmQuoteDeepseek}{0.0000}
+\newcommand{\runsOrCiteGpt}{0.73}
+\newcommand{\runsCiCiteGpt}{0.46 to 1.18}
+\newcommand{\runsHolmCiteGpt}{0.598}
+\newcommand{\runsOrQuoteGpt}{0.41}
+\newcommand{\runsCiQuoteGpt}{0.27 to 0.61}
+\newcommand{\runsHolmQuoteGpt}{0.0001}
+\newcommand{\runsOrCiteGrok}{2.17}
+\newcommand{\runsCiCiteGrok}{0.54 to 8.76}
+\newcommand{\runsHolmCiteGrok}{0.550}
+\newcommand{\runsOrQuoteGrok}{0.36}
+\newcommand{\runsCiQuoteGrok}{0.25 to 0.54}
+\newcommand{\runsHolmQuoteGrok}{0.0000}
+\newcommand{\runsOrCiteLlama}{0.56}
+\newcommand{\runsCiCiteLlama}{0.33 to 0.96}
+\newcommand{\runsHolmCiteLlama}{0.141}
+\newcommand{\runsOrQuoteLlama}{0.33}
+\newcommand{\runsCiQuoteLlama}{0.19 to 0.56}
+\newcommand{\runsHolmQuoteLlama}{0.0005}
+\newcommand{\runsOrCiteMistral}{0.62}
+\newcommand{\runsCiCiteMistral}{0.47 to 0.81}
+\newcommand{\runsHolmCiteMistral}{0.003}
+\newcommand{\runsOrQuoteMistral}{0.50}
+\newcommand{\runsCiQuoteMistral}{0.34 to 0.73}
+\newcommand{\runsHolmQuoteMistral}{0.003}
+\newcommand{\runsOrCiteQwen}{0.36}
+\newcommand{\runsCiCiteQwen}{0.26 to 0.52}
+\newcommand{\runsHolmCiteQwen}{0.0000}
+\newcommand{\runsOrQuoteQwen}{0.34}
+\newcommand{\runsCiQuoteQwen}{0.24 to 0.48}
+\newcommand{\runsHolmQuoteQwen}{0.0000}
+\newcommand{\runsOrCiteSonnet}{2.01}
+\newcommand{\runsCiCiteSonnet}{1.33 to 3.03}
+\newcommand{\runsHolmCiteSonnet}{0.005}
+\newcommand{\runsOrQuoteSonnet}{1.33}
+\newcommand{\runsCiQuoteSonnet}{1.07 to 1.66}
+\newcommand{\runsHolmQuoteSonnet}{0.051}
+\newcommand{\runsQuoteSurvivors}{6}
+\newcommand{\runsCiteSurvivors}{3}
+\newcommand{\runsQuoteOrMin}{0.33}
+\newcommand{\runsQuoteOrMax}{0.50}
 \newcommand{\trTrueFlagToAccQwen}{0}
 \newcommand{\trTrueFlagToFlagQwen}{129}
 \newcommand{\trTrueFlagDequotedQwen}{11}

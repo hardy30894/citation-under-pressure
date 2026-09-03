@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The question presented—whether a company that regularly attempts to collect debts it purchased after default is a “debt collector” subject to the Fair Debt Collection Practices Act (FDCPA)—must be answered in the negative. The Fourth Circuit correctly held that Santander Consumer USA, Inc., as a purchaser of defaulted consumer debt who collected on its own account, was not a “debt collector” under § 1692a(6) of the FDCPA. This conclusion follows from the plain language of the statute, the structure of its definitions, and binding precedent interpreting the distinction between creditors and debt collectors.
+
+### I. THE FDCPA REGULATES DEBT COLLECTORS, NOT CREDITORS COLLECTING THEIR OWN DEBTS
+
+The FDCPA’s core purpose is to “eliminate abusive debt collection practices by debt collectors.” 15 U.S.C. § 1692(e). It does not regulate creditors collecting debts owed to themselves. *See* Heintz v. Jenkins, 514 U.S. 291, 293, 115 S. Ct. 1489, 131 L. Ed. 2d 395 (1995) (“The Act’s definition of the term ‘debt collector’ includes a person ‘who regularly collects or attempts to collect, directly or indirectly, debts owed [to] ... another’ ” (quoting § 1692a(6))). The statutory framework makes clear that the term “debt collector” applies only when a person acts on behalf of another, not when it collects for itself.
+
+Congress defined “debt collector” in § 1692a(6) with two parts: first, a list of persons *included* in the term; second, a list of exclusions. The relevant inclusion is:
+
+> “any person who regularly collects or attempts to collect, directly or indirectly, debts owed or due or asserted to be owed or due another.”
+
+15 U.S.C. § 1692a(6) (emphasis added). This provision hinges on whether the person collects debts *owed to another*, not whether the debt was in default at acquisition. *See* Davidson v. Capital One Bank (USA), N.A., 797 F.3d 1309, 1315–16 (11th Cir. 2015) (“The statutory text is entirely transparent.... [A] person must regularly collect or attempt to collect debts for others in order to qualify as a ‘debt collector’ under the second definition of the term’’).
+
+Here, Santander did not collect on behalf of CitiFinancial Auto after December 1, 2011. Instead, it *purchased* the defaulted loans and became the new owner. The complaint acknowledges this: “CitiFinancial Auto sold the plaintiffs’ loans to Santander,” and “Santander... attempted to collect on the loans it had purchased.” The act of purchasing the debt transformed Santander from a potential servicer into a creditor entitled to enforce its own contractual rights. *See* id. at 1318 (“Our inquiry under § 1692a(6) is not whether Capital One regularly collects on debts originally owed or due another and now owed to Capital One; our inquiry is whether Capital One regularly collects on debts owed or due another at the time of collection”).
+
+### II. THE DEFAULT STATUS OF A DEBT DOES NOT DETERMINE WHETHER A PURCHASER IS A DEBT COLLECTOR
+
+The petitioners argue that because Santander acquired the debts *after* default, it must be a “debt collector.” This argument misreads the statute. Congress explicitly excluded from the definition of “debt collector” any person collecting a debt that was *not in default* when obtained—§ 1692a(6)(F)(iii)—but said nothing about excluding those who acquire *defaulted* debts. The absence of such a provision confirms that default status is irrelevant to the threshold determination of whether a person qualifies as a debt collector.
+
+Indeed, the legislative history supports this reading. The Senate Report explains that the exclusion in § 1692a(6)(F)(iii) was intended to protect loan servicers who service non-defaulted debts, not to define the scope of the term “debt collector” more broadly. S. Rep. No. 95-382, at 3–4 (1977), reprinted in 1977 U.S.C.C.A.N. 1695, 1698 (“[T]he committee does not intend the definition [of debt collector] to cover the activities of ... mortgage service companies and others who service outstanding debts for others, so long as the debts were not in default when taken for servicing” (emphasis added)).
+
+Thus, the presence of default does not trigger FDCPA coverage. Rather, the key inquiry is whether the entity collects debts *for another*. When a company purchases a debt and seeks to recover what it paid for, it is acting as a creditor—not a debt collector. *See* Schlegel v. Wells Fargo Bank, N.A., 720 F.3d 1204, 1209 (9th Cir. 2013) (“The statute is not susceptible to the [plaintiffs’] interpretation that ‘owed or due another’ means ‘originally owed or due another’ ”).
+
+### III. THE PETITIONERS’ INTERPRETATION WOULD EXPAND THE FDCPA BEYOND CONGRESS’S INTENT
+
+The petitioners’ proposed rule—that any entity that collects on a defaulted debt it purchased becomes a “debt collector”—would render the FDCPA applicable to nearly every financial institution engaged in credit-related activity. Such an interpretation would sweep in banks, investment firms, and even insurers that purchase delinquent receivables. But Congress did not intend such broad application. *See* Heintz, 514 U.S. at 293 (the FDCPA targets “abusive conduct by persons who were acting as debt collectors”).
+
+Moreover, the petitioners’ theory creates a paradox: a company could be a “debt collector” while servicing a defaulted loan, but become a “creditor” simply by buying the debt. *See* Bridge v. Ocwen Fed. Bank, FSB, 681 F.3d 355, 359 (6th Cir. 2012) (“The terms ‘debt

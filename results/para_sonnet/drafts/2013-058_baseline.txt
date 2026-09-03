@@ -1,0 +1,29 @@
+# ARGUMENT
+
+## AN INHERITED IRA IS NOT EXEMPT UNDER 11 U.S.C. § 522(b)(3)(C) BECAUSE ITS FUNDS ARE NOT "RETIREMENT FUNDS" IN THE HANDS OF THE DEBTOR
+
+Section 522(b)(3)(C) exempts from a bankruptcy estate "retirement funds to the extent that those funds are in a fund or account that is exempt from taxation under" specified Internal Revenue Code provisions. This Court should hold, consistent with the Seventh Circuit's decision below, that an inherited IRA held by a non-spouse beneficiary does not satisfy this exemption because the funds it contains are not, and cannot be, retirement funds for the debtor who inherited them.
+
+### A. The Plain Meaning of "Retirement Funds" Requires That the Funds Be Set Aside for the Debtor's Own Retirement
+
+This Court has repeatedly instructed that statutory exemptions must be construed according to their ordinary meaning. *See Taylor v. Freeland & Kronz*, 503 U.S. 638, 644 (1992) (courts must look to the "plain meaning" of Bankruptcy Code exemption provisions). The ordinary understanding of "retirement funds" is money accumulated and preserved for use during one's own retirement years. As the Seventh Circuit correctly observed, an inherited IRA "does not have the economic attributes of a retirement vehicle, because the money cannot be held in the account until the current owner's retirement." Pet. App. 6a.
+
+The structural features of inherited IRAs confirm this conclusion. Unlike a traditional IRA, an inherited IRA prohibits any new contributions and cannot be rolled over into another account. 26 U.S.C. § 408(d)(3)(C). More critically, the beneficiary must begin mandatory withdrawals within one year of the original owner's death, 26 U.S.C. § 402(c)(11)(A), incorporating 26 U.S.C. § 401(a)(9)(B), regardless of the beneficiary's age or proximity to retirement. As the court below explained, "an inherited IRA is a time-limited tax-deferral vehicle, but not a place to hold wealth for use after the new owner's retirement." Pet. App. 3a. Petitioners here could withdraw the entire $300,000 the day after filing for bankruptcy without penalty—precisely the "opportunity for current consumption" that distinguishes an inherited IRA from a genuine retirement account. Pet. App. 15a.
+
+### B. Exemption Status Depends on the Debtor's Relationship to the Funds, Not Their Historical Origin
+
+Petitioners' position—that funds retain their exempt character merely because they were once "retirement funds" in a decedent's hands—cannot be reconciled with how bankruptcy exemptions ordinarily operate. This Court has recognized that "no legislation pursues its purposes at all costs," and that courts must respect the specific limits Congress placed on statutory exemptions rather than extending them to serve a generalized purpose. *Rodriguez v. United States*, 480 U.S. 522, 525–26 (1987) (emphasis in original).
+
+The homestead exemption provides an instructive parallel. Section 522(b)(3)(A) exempts a debtor's "domicile" only if the debtor has lived there for the requisite statutory period before filing. A debtor who inherits a parent's house but rents it out cannot claim the homestead exemption merely because the house was once the parent's residence; exemption depends on the debtor's own use of the property. Pet. App. 8a–9a. The same principle governs retirement funds: what matters is whether the account functions as retirement savings for the debtor, not whether it once did so for someone else.
+
+Notably, § 522(b)(3)(C) does exempt certain non-debtor-owned assets when they function as retirement savings—for instance, funds a debtor holds in trust for another's retirement. Pet. App. 7a. But this exception proves the rule: exemption turns on the *function* the asset serves, not on its historical pedigree. An inherited IRA, once received by a non-spouse beneficiary, no longer functions as anyone's retirement fund—not the decedent's, who is deceased, and not the beneficiary's, who must exhaust it before retirement in many cases and may spend it immediately regardless.
+
+### C. The Contrary Approach Would Convert a Retirement Exemption Into an Unlimited Inheritance Shelter
+
+Adopting petitioners' interpretation would produce consequences far beyond what Congress intended when it enacted a "retirement funds" exemption. If any account that was ever a retirement account remains exempt forever in the hands of successive generations of beneficiaries, then IRAs could function as generational wealth-transfer vehicles wholly insulated from creditors, notwithstanding that the beneficiaries are able to withdraw and spend the funds immediately for ordinary consumption. This would transform a narrow, purpose-specific exemption into a broad shelter for inherited wealth generally—a result nothing in the statutory text supports.
+
+The Fifth Circuit's decision in *In re Chilton*, 674 F.3d 486 (5th Cir. 2012), rests on the observation that § 522(b)(3)(C) does not expressly limit the exemption to "the debtor's" retirement funds, unlike other exemption provisions such as § 522(b)(3)(B). But this textual difference reflects only that Congress declined to impose a *temporal* snapshot rule—for example, allowing continued employer contributions during bankruptcy—not that Congress intended the exemption to survive indefinitely regardless of whether the funds serve any retirement function for the current holder. Pet. App. 7a–8a. The absence of the word "debtor's" does not transform a retirement-savings exemption into an all-purpose inheritance exemption.
+
+### CONCLUSION
+
+For the foregoing reasons, and those stated by the court below, the judgment of the Seventh Circuit should be affirmed.

@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+The plain text of 11 U.S.C. § 522(b)(3)(C) and (d)(12) exempts only “retirement funds” from a debtor’s bankruptcy estate. An inherited IRA, by its very nature, does not constitute “retirement funds” in the hands of the debtor-beneficiary. The Seventh Circuit correctly held that because the funds are not held for the debtor’s retirement, they are not exempt. *In re Clark*, 714 F.3d 559, 561 (7th Cir. 2013).
+
+**I. The Statutory Text and Purpose Confine the Exemption to Funds Held for the Debtor’s Own Retirement**
+
+Section 522(b)(3)(C) exempts “retirement funds to the extent that those funds are in a fund or account that is exempt from taxation under” specified Internal Revenue Code provisions. The phrase “retirement funds” is not defined, but its ordinary meaning directs the inquiry to the *current* character of the funds, not their historical origins. Funds are “retirement funds” only if they are set aside for the owner’s retirement years. *Clark*, 714 F.3d at 561.
+
+An inherited IRA lacks the essential attributes of a retirement vehicle. The Internal Revenue Code prohibits any new contributions to an inherited IRA, 26 U.S.C. § 408(d)(3)(C), and requires the beneficiary to begin receiving distributions within one year of the original owner’s death, with the entire account often payable within five years. 26 U.S.C. § 402(c)(11)(A), incorporating § 401(a)(9)(B). These mandatory distributions occur long before the beneficiary’s own retirement. As the Seventh Circuit observed, “an inherited IRA is a time-limited tax-deferral vehicle, but not a place to hold wealth for use after the new owner’s retirement.” *Clark*, 714 F.3d at 561.
+
+Congress’s purpose in exempting retirement funds is to protect assets that are “necessary for the debtor’s support during retirement.” *In re Barnes*, 689 F.3d 1013, 1018 (9th Cir. 2012). That purpose is not served by shielding a pot of money that the debtor can withdraw at any time without penalty and that must be distributed before retirement. The exemption is not a windfall for beneficiaries; it is a shield for the debtor’s own future needs.
+
+**II. The Inherited IRA’s Ability to Be Used for Current Consumption Disqualifies It**
+
+The critical distinction between a traditional IRA and an inherited IRA is the absence of a penalty for early withdrawal. A traditional IRA imposes a 10% penalty on withdrawals before age 59½, 26 U.S.C. § 72(t), ensuring that the funds remain committed to retirement. An inherited IRA carries no such penalty; the beneficiary can withdraw the entire balance immediately and spend it on current consumption. *Clark*, 714 F.3d at 562. That freedom makes the funds indistinguishable from cash in a bank account, which is plainly not exempt.
+
+The Fifth Circuit’s decision in *In re Chilton*, 674 F.3d 486 (5th Cir. 2012), erroneously concluded that any funds that were once “retirement funds” retain that character forever. That approach would lead to absurd results. If the original owner had withdrawn the money from her IRA, paid the tax, and then given it to the debtor, the cash would not be exempt. *Clark*, 714 F.3d at 562. There is no principled reason why the same result should not follow when the money passes by inheritance. The exemption does not turn on the source of the funds but on their current function.
+
+**III. The Structure of Section 522 Reinforces that Exemptions Are Determined by the Debtor’s Use, Not the Predecessor’s**
+
+Other exemptions in § 522 expressly require that the property be the debtor’s. For example, § 522(b)(3)(A) exempts a “domicile” in which the debtor lived for at least 730 days before filing. If the debtor inherited a house that had been her mother’s home, she could not claim it as exempt unless she lived there herself. *Clark*, 714 F.3d at 563. The same logic applies to retirement funds. The omission of the word “debtor’s” in § 522(b)(3)(C) does not mean that the funds can be anyone’s retirement funds; it simply removes a temporal restriction that would prevent exempting contributions made during the bankruptcy case. *Id.* It does not expand the exemption to cover funds that are not retirement funds at all.
+
+**IV. The Contrary Decisions Are Unpersuasive**
+
+The Bankruptcy Appellate Panel for the Eighth Circuit in *In re Nessa*, 426 B.R. 312 (B.A.P. 8th Cir. 2010), and the Fifth Circuit in *Chilton* relied on the label “inherited individual retirement account” and the fact that the funds once were retirement funds. But as the Seventh Circuit noted, “the ‘IRA’ part of ‘inherited IRA’ designates the funds’ source, not the assets’ current status.” *Clark*, 714 F.3d at 562. Moreover, those decisions gave insufficient weight to the mandatory distribution rules that make inherited IRAs a vehicle for *current* consumption, not retirement savings.
+
+The Supreme Court has instructed that “no legislation pursues its purposes at all costs.” *Rodriguez v. United States*, 480 U.S. 522, 525–26 (1987). Even if exempting inherited IRAs might encourage retirement savings, that policy goal cannot override the plain meaning of the statute. The Bankruptcy Code provides a specific exemption for retirement funds, and inherited IRAs do not qualify.
+
+**CONCLUSION**
+
+The judgment of the Seventh Circuit should be affirmed.

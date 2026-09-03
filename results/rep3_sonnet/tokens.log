@@ -93,3 +93,6 @@
 {"ts": 1788405803.5246809, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2000-071:baseline", "in_tokens": 7129, "out_tokens": 2099, "est_cost": 0.035248, "latency_ms": 27121}
 {"ts": 1788405876.319579, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2000-071:combo", "in_tokens": 7225, "out_tokens": 6425, "est_cost": 0.0787, "latency_ms": 72602}
 {"ts": 1788405903.4138932, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2012-029:baseline", "in_tokens": 8440, "out_tokens": 2296, "est_cost": 0.03984, "latency_ms": 27003}
+{"ts": 1788405967.8619719, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:2012-029:combo", "in_tokens": 8536, "out_tokens": 5983, "est_cost": 0.076902, "latency_ms": 64311}
+{"ts": 1788406009.281984, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:1999-051:baseline", "in_tokens": 3230, "out_tokens": 3672, "est_cost": 0.04318, "latency_ms": 41305}
+{"ts": 1788406054.325047, "client": "drafter-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "draft:1999-051:combo", "in_tokens": 3326, "out_tokens": 4020, "est_cost": 0.046852, "latency_ms": 44965}

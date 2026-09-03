@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The IRS’s failure to assess the individual partners within the three-year limitations period bars collection of the partnership’s tax debt from the partners.**
+
+The Internal Revenue Code requires the IRS to assess a tax “against the taxpayer” within three years after the return is filed. 26 U.S.C. § 6501(a) (1954). An assessment is valid only if it “provide[s] identification of the taxpayer.” 26 C.F.R. § 301.6203-1 (1959). Here, the IRS assessed the partnership, not the individual partners. Because the partners are separate “taxpayers” under § 7701(a)(14), the assessment against the partnership did not extend the limitations period for the partners. *Coson v. United States*, 286 F.2d 453, 458 (9th Cir. 1961) (“[T]he assessment at issue named only the partnership and ‘an unknown number of unidentified taxpayers.’ ... [T]he government’s attempts to collect the unpaid taxes from [the partner] were improper.”); *United States v. Coson*, 169 F. Supp. 671, 675–76 (S.D. Cal. 1958) (“[T]his court is of the opinion that such a lien does not exist against a particular individual’s property ... unless the underlying tax obligation has been assessed against him under § 6203.”).
+
+The IRS’s reliance on *Young v. Riddell*, 283 F.2d 909 (9th Cir. 1960), is misplaced. The Ninth Circuit affirmed the district court’s holding that a partner was not entitled to a refund because he was liable for the partnership’s tax debt under state law. *Id.* at 910. The court did not hold that the IRS could collect the tax from the partner without an assessment or judgment. To the contrary, the district court expressly stated that the IRS would have had to “resort to court action” to collect the tax if the partner had refused to pay. *Young v. Riddell*, 60-1 U.S. Tax Cas. (CCH) ¶ 9831, at 76,050 (S.D. Cal. 1959), aff’d, 283 F.2d 909 (9th Cir. 1960). Thus, *Young* does not support the IRS’s position.
+
+**II. The IRS cannot circumvent the assessment requirement by relying on state partnership law to impose liability on the partners.**
+
+Under California law, a judgment against a partnership is not a judgment against the partners. *Cal. Corp. Code § 16307(c)* (1949); *Witkin, Summary of California Law* § 60V (1958) (“[A] judgment against a partnership may not be satisfied from a partner’s assets unless there is also a judgment against the partner.”). The IRS has not obtained such a judgment against the partners. *Coson*, 286 F.2d at 458 (holding that the IRS’s lien was invalid because the partner had never been assessed individually); *United States v. Coson*, 169 F. Supp. at 676 (same).
+
+The IRS’s reliance on *United States v. Wright*, 57 F.3d 561 (7th Cir. 1995), is unavailing. In *Wright*, the IRS had assessed both the partnership and the individual partners, extending the limitations period for all. *Id.* at 562. Here, no such assessment was made against the partners. The IRS’s attempt to distinguish *Wright* on the ground that the partnership was in bankruptcy is irrelevant. *Id.* at 562–63. The Seventh Circuit did not address whether an assessment against the partnership alone would suffice to extend the limitations period for the partners.
+
+**III. The IRS’s failure to assess the partners within the three-year period renders its claims unenforceable in bankruptcy.**
+
+The Bankruptcy Code permits a creditor to file a claim only if the claim is “enforceable against the debtor.” 11 U.S.C. § 502(b)(1) (1952). Here, the IRS’s claims are unenforceable because the partners were never assessed, and the IRS did not obtain a judgment against them within the three-year limitations period. *Coson*, 286 F.2d at 458; *United States v. Coson*, 169 F. Supp. at 676. The IRS’s reliance on *United States v. Western Products, Ltd.*, 168 F. Supp. 84 (S.D.N.Y. 2001), is misplaced, as that case involved an assessment against the partnership *and* the partner. *Id.* at 91.
+
+**Conclusion**
+
+The IRS’s failure to assess the individual partners within the three-year limitations period bars collection of the partnership’s tax debt from the partners. The IRS cannot rely on state partnership law to impose liability without an assessment or judgment. The bankruptcy court correctly disallowed the IRS’s claims.
