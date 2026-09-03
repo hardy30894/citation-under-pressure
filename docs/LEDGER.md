@@ -233,7 +233,7 @@ before or after seeing the relevant data. Nothing is deleted.
   were placed in the prompt with citation, year, and best-matching
   250-word passage (src/retrieve.py, results/retrieval/), and baseline
   and combined were rerun on all 48 matters and seven models
-  (results/rag_*, $14.31). Findings (src/grounded_stats.py): models drew
+  (results/rag_*, $8.79). Findings (src/grounded_stats.py): models drew
   51 to 83 percent of citations from the list; citations not found fell
   to 74 in 5,605; Qwen combined existence 0.773 to 0.995 (OR 54);
   combined existence no lower than baseline for any model; strict
@@ -243,4 +243,4 @@ before or after seeing the relevant data. Nothing is deleted.
   percent paraphrase of the cited case (55 closed-book). Retrieval
   removes the existence failure and leaves the residual class in place;
   the Discussion's earlier prediction to that effect is now a
-  measurement. Project spend $108.
+  measurement. Project spend $102.69.
