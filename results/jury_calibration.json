@@ -1,0 +1,9 @@
+{
+ "budget_binary": 0.5,
+ "budget_threeway": 0.7,
+ "frontier": 0.594,
+ "recall_threeway": "2 of 11",
+ "recall_frontier": "4 of 17",
+ "bar": 0.75,
+ "source": "docs/LEDGER.md jury entries (2026-09-01); verdict files in results/jury*, results/jury_v1_failed"
+}

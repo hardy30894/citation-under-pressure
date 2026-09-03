@@ -351,3 +351,21 @@ before or after seeing the relevant data. Nothing is deleted.
   a grounded loop left for future work; the Discussion names the
   lenient standard as the one a deployer should enforce. The release
   link works only once the repository is public, which is Hardy's step.
+- 2026-09-03 (tenth pass, 17 items applied): Llama-4's loop existence
+  rise is reported with its citation-count drop (270 to 244) beside
+  Qwen's flat count; the precision-curve claim in the Discussion is
+  scoped to Sonnet 5, the only monotone line; "most of the rest" fixed
+  to "most of those"; the Sonnet three-run existence sentence names its
+  direction and its baseline; stock-phrase matches (99) stated as
+  excluded from the misattribution count; "one fixed template" scoped
+  to the primary run and "single clause" to each pressure clause; the
+  human existence shortfall restated as partly held state reporters;
+  the second-template survivor count phrased without contradiction; the
+  lenient-standard recommendation given its reason; "cannot distinguish";
+  jury scores named as agreement with expert labels; "separate task" in
+  the abstract; duplicate one-per-vendor phrasing removed; paired-test
+  denominators named; the appellate coverage sentence says "overall".
+  Previously hand-typed numbers (index sizes, provenance corpus, Sonnet
+  median years, three-run not-found counts, jury scores) are now macros
+  from results files (results/jury_calibration.json records the jury
+  figures with their source).

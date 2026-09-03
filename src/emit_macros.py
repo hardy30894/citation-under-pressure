@@ -423,6 +423,47 @@ if ea.exists():
     emit2("misattrSameDraft", str(e["attribution"]["pooled"]["true_source_cited_in_draft"]))
     emit2("misattrSameDraftPct", f"{100 * e['attribution']['pooled']['share']:.0f}")
 
+jc = R / "jury_calibration.json"
+if jc.exists():
+    j = json.loads(jc.read_text())
+    emit2("juryBinary", f"{j['budget_binary']:.3f}")
+    emit2("juryThreeway", f"{j['budget_threeway']:.3f}")
+    emit2("juryFrontier", f"{j['frontier']:.3f}")
+    emit2("juryBar", f"{j['bar']:.2f}")
+import sqlite3 as _sq
+try:
+    from pilot import DB as _DB
+    con = _sq.connect(_DB)
+    for rep, mk in (("F3d", "IndexFThird"), ("F2d", "IndexFSecond")):
+        n = con.execute("SELECT count(*) FROM citations WHERE replace(replace(reporter,' ',''),'.','')=?", (rep,)).fetchone()[0]
+        emit2(mk, f"{round(n, -3):,}")
+except Exception:
+    pass
+pv = R / "provenance_six.log"
+if pv.exists():
+    import re as _re2
+    m_ = _re2.findall(r"(\d+) documents indexed", pv.read_text())
+    if m_:
+        emit2("provenanceCorpus", f"{int(m_[-1]):,}")
+if rs_path.exists():
+    mem = json.loads(rs_path.read_text())["memorization"]
+    emit2("sonnetYearBase", str(mem["sonnet:baseline"]["median_year"]))
+    emit2("sonnetYearCombo", str(mem["sonnet:combo"]["median_year"]))
+    emit2("sonnetYearStakes", str(mem["sonnet:stakes"]["median_year"]))
+cnt3 = {}
+for fn in ("records.jsonl", "records_rep2.jsonl", "records_rep3.jsonl"):
+    fp = R / fn
+    if fp.exists():
+        for l in open(fp):
+            r = json.loads(l)
+            if r["model"] == "sonnet" and r["kind"] == "citation" and r["condition"] in ("baseline", "combo"):
+                cnt3[(r["condition"], r["verdict"])] = cnt3.get((r["condition"], r["verdict"]), 0) + 1
+if cnt3:
+    emit2("sonnetRunsNfBase", str(cnt3.get(("baseline", "not_found"), 0)))
+    emit2("sonnetRunsAdjBase", f"{cnt3.get(('baseline', 'exists'), 0) + cnt3.get(('baseline', 'not_found'), 0):,}")
+    emit2("sonnetRunsNfCombo", str(cnt3.get(("combo", "not_found"), 0)))
+    emit2("sonnetRunsAdjCombo", f"{cnt3.get(('combo', 'exists'), 0) + cnt3.get(('combo', 'not_found'), 0):,}")
+
 lt = R / "loop_transitions.json"
 if lt.exists():
     t = json.loads(lt.read_text())
