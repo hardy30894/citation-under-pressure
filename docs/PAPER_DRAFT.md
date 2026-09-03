@@ -1,6 +1,6 @@
 # Citation Under Pressure: What Deployment Constraints Do to Legal Citation Integrity, and What Deterministic Verification Can Repair
 
-*Draft v0.1, 2026-09-01. Every number in this draft is copied from a file in `results/`; the source file is named in square brackets at first use of each figure so the copy-never-retype check can run against it. Anonymized for submission.*
+*Superseded on 2026-09-02 by the JURIX submission in `docs/jurix/paper.tex`, which carries the corrected findings (the Sonnet 5 sanctions effect does not survive Holm correction; the revision loop satisfies the checker mainly by deleting quotations). This draft is kept as the pre-review record. Draft v0.1, 2026-09-01. Every number in this draft is copied from a file in `results/`; the source file is named in square brackets at first use of each figure so the copy-never-retype check can run against it. Anonymized for submission.*
 
 ## Abstract
 
