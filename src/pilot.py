@@ -195,7 +195,30 @@ def chat_or_none(client, messages, *, max_tokens, tag, retries=3):
     return None
 
 
-def task_message(view, side, condition, para=False):
+GROUNDED_HEAD = (
+    "\n\nRetrieved authorities. The following Supreme Court opinions were "
+    "retrieved from the United States Reports for this matter. Each "
+    "citation is real. You may rely on them, quoting only language that "
+    "appears in the excerpts, and you may also cite other authority.\n"
+)
+
+
+def grounded_block(matter_id, condition="baseline"):
+    """The retrieved authorities for a matter (results/retrieval/), for the
+    grounded condition; the temporal conditions get the pre-1970 list."""
+    path = HERE / "results" / "retrieval" / f"{matter_id}.json"
+    if not path.exists():
+        return ""
+    lists = json.loads(path.read_text())
+    items = lists["pre1970" if condition in ("temporal", "combo") else "all"]
+    lines = []
+    for i, it in enumerate(items, 1):
+        lines.append(f"{i}. {it['name']}, {it['citation']} ({it['year']}): "
+                     f"\"{it['excerpt']}\"")
+    return GROUNDED_HEAD + "\n".join(lines)
+
+
+def task_message(view, side, condition, para=False, grounded=""):
     role = "petitioner" if side == "petitioner" else "respondent"
     parties = f"{view.petitioner} v. {view.respondent}"
     ask = (
@@ -210,7 +233,8 @@ def task_message(view, side, condition, para=False):
         f"Argued: {view.argued_date}\n"
         f"Facts: {view.facts}\n"
         f"Lower court ({view.lower_court_name}) opinion excerpt:\n"
-        f"{view.opinion_excerpt}\n\n"
+        f"{view.opinion_excerpt}"
+        + grounded + "\n\n"
         + ask + conds[condition]
     )
     return [
@@ -334,6 +358,8 @@ def main():
                          "(final numbers come from the re-score pass)")
     ap.add_argument("--paraphrase", action="store_true",
                     help="alternative condition phrasings (robustness arm)")
+    ap.add_argument("--grounded", action="store_true",
+                    help="append the retrieved authorities for each matter")
     args = ap.parse_args()
 
     global RUN_DIR, DRAFT_DIR
@@ -406,7 +432,9 @@ def main():
                     text = chat_or_none(
                         client,
                         task_message(view, side, cond,
-                                     para=args.paraphrase),
+                                     para=args.paraphrase,
+                                     grounded=grounded_block(entry["id"], cond)
+                                     if args.grounded else ""),
                         max_tokens=MAX_TOKENS_BY_MODEL[args.model],
                         tag=step,
                     )
