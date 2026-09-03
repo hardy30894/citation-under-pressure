@@ -301,6 +301,9 @@ if ph.exists():
 gs = R / "grounded_stats.json"
 if gs.exists():
     g = json.loads(gs.read_text())
+    rm = R / "retrieval" / "_meta.json"
+    if rm.exists():
+        emit2("retrievalCorpus", f"{json.loads(rm.read_text())['indexed_opinions']:,}")
     for m, mk in ALPHA.items():
         for c, ck in (("baseline", "Base"), ("combo", "Combo")):
             key = f"{m}:{c}"
@@ -324,6 +327,14 @@ if gs.exists():
     adj = sum(g["grounded"][k]["adjudicable"] for k in g["grounded"])
     emit2("gNotFoundTotal", str(nf))
     emit2("gAdjudicableTotal", f"{adj:,}")
+    nfc = sum(g["closed"][k]["not_found"] for k in g["closed"])
+    adjc = sum(g["closed"][k]["adjudicable"] for k in g["closed"])
+    emit2("cNotFoundTotal", str(nfc))
+    emit2("cAdjudicableTotal", f"{adjc:,}")
+    base_rise = sum(1 for m in ALPHA if f"{m}:baseline" in g["grounded"] and
+                    g["grounded"][f"{m}:baseline"]["strict"] > g["closed"][f"{m}:baseline"]["strict"])
+    emit2("gBaseStrictRise", str(base_rise))
+    emit2("gStrictMax", fmt3(max(v["strict"] for v in g["grounded"].values())))
     for k, v in g["gee"].items():
         kind, m, c = k.split(":")
         mk = ALPHA.get(m)

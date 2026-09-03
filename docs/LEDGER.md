@@ -227,7 +227,7 @@ before or after seeing the relevant data. Nothing is deleted.
 - 2026-09-03 (grounded arm): a retrieval condition, run after the
   pre-registered analysis and reported as its own paragraph. For each
   matter the ten U.S. Reports opinions most similar to the question and
-  facts (TF-IDF over the 62,534 opinions in the local Caselaw Access
+  facts (TF-IDF over the 25,250 opinions of substantial length in the local Caselaw Access
   Project cache; decided before argument, and before 1970 for the
   combined condition; the argued case excluded by citation and by name)
   were placed in the prompt with citation, year, and best-matching
@@ -244,3 +244,14 @@ before or after seeing the relevant data. Nothing is deleted.
   removes the existence failure and leaves the residual class in place;
   the Discussion's earlier prediction to that effect is now a
   measurement. Project spend $102.69.
+- 2026-09-03 (grounded-arm lens, 7 items applied): the retrieval corpus
+  is the 25,250 cached U.S. Reports opinions with a name and date and
+  at least 2,000 characters (62,534 was the raw row count); exclusion is
+  by party name in the caption, which for the ten matters with the
+  United States as a party removes every opinion captioned United
+  States v. (stated in the code and paper); the prompt permitted other
+  authority; "at least half not verbatim" corrected to "no cell exceeded
+  0.525"; quotation accuracy rose in every combined cell and six of
+  seven baseline cells (Llama-4 baseline fell 0.402 to 0.381);
+  "removes" softened to "nearly removes" (74 not found remain in 5,605,
+  against 341 in 5,856 closed-book).

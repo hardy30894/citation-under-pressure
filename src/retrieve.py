@@ -6,10 +6,12 @@ similar to the matter's question and facts among the opinions decided
 before the matter was argued, and save each with its citation, case
 name, year, and the 250-word passage that best matches the query. The
 corpus is the U.S. Reports text already cached from the Caselaw Access
-Project (data/cap_text_cache.sqlite, slug "us"), so every retrieved
-citation exists by construction. Case names and decision dates come from
-the CourtListener-derived index. The argued case itself is excluded by
-citation lookup and by name.
+Project (data/cap_text_cache.sqlite, slug "us"), restricted to opinions
+of at least 2,000 characters with a name and decision date in the
+CourtListener-derived index, so every retrieved citation exists by
+construction. Any opinion whose caption names either party is excluded,
+which removes the argued case and, for matters with the United States
+as a party, every opinion captioned United States v.
 
 Similarity is TF-IDF cosine (sublinear term frequency) over the first
 2,500 words of each opinion; the best passage is the 250-word window
@@ -77,6 +79,9 @@ def main():
                      "date": hit["date_filed"][:10]})
         docs.append(" ".join(text.split()[:HEAD_WORDS]))
     print(f"{len(docs)} with name and date", flush=True)
+    (OUT / "_meta.json").write_text(json.dumps(
+        {"cached_us_opinions": len(rows), "indexed_opinions": len(docs),
+         "head_words": HEAD_WORDS, "window_words": WINDOW, "top": TOP}))
     vec = TfidfVectorizer(sublinear_tf=True, min_df=3, max_df=0.5,
                           stop_words="english", dtype=np.float32)
     X = vec.fit_transform(docs)
