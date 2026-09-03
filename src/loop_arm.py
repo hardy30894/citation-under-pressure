@@ -43,8 +43,8 @@ import quotecheck2 as q2  # noqa: E402
 N_MATTERS = 24
 MAX_ROUNDS = 3
 ARMS = ("true", "scrambled")
-LOOP_BUDGET = {"qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 8.0,
-               "sonnet": 15.0, "llama4mav": 3.0, "glm47flash": 3.0, "mistralsmall": 3.0}
+LOOP_BUDGET = {"qwen30b": 4.0, "deepseek": 6.0, "gpt54mini": 12.0,
+               "sonnet": 25.0, "llama4mav": 6.0, "glm47flash": 3.0, "mistralsmall": 6.0}
 
 FB_CITE = (
     "The citation {c} does not correspond to any real case: it does not "
@@ -89,19 +89,25 @@ def feedback_lines(recs, qres, arm, rng):
         return ["__NONE__"] if true_lines else []
     if arm == "true" or not true_lines:
         return true_lines
-    # scrambled: same count, templates aimed at VERIFIED items
+    # scrambled: same count, templates aimed at VERIFIED items;
+    # half: each line true or scrambled with equal probability, so the
+    # verifier's precision is about one half
     ok_cites = [r["citation"] for r in recs if r["verdict"] == "exists"]
     ok_quotes = [
         (r["quote"][:60], r["citation"])
         for r in qres if r["verdict"] == "accurate" and r["citation"]
     ]
     lines = []
-    for _ in true_lines:
-        if ok_quotes and rng.random() < 0.5:
+    for true_line in true_lines:
+        if arm == "half" and rng.random() < 0.5:
+            lines.append(true_line)
+        elif ok_quotes and rng.random() < 0.5:
             qt, c = rng.choice(ok_quotes)
             lines.append(FB_QUOTE.format(q=qt, c=c))
         elif ok_cites:
             lines.append(FB_CITE.format(c=rng.choice(ok_cites)))
+        elif arm == "half":
+            lines.append(true_line)
     return lines
 
 

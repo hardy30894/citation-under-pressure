@@ -20,6 +20,10 @@
 \newcommand{\loopQwenNoneStart}{0.099}
 \newcommand{\loopQwenNoneFinal}{0.072}
 \newcommand{\convQwenNone}{0}
+\newcommand{\loopQwenHalfStart}{0.099}
+\newcommand{\loopQwenHalfFinal}{0.097}
+\newcommand{\convQwenHalf}{0}
+\newcommand{\cleanRZeroQwen}{0}
 \newcommand{\orCiteQwenQuota}{0.56}
 \newcommand{\ciCiteQwenQuota}{0.41 to 0.75}
 \newcommand{\pCiteQwenQuota}{0.0001}
@@ -75,6 +79,10 @@
 \newcommand{\loopMistralNoneStart}{0.208}
 \newcommand{\loopMistralNoneFinal}{0.198}
 \newcommand{\convMistralNone}{3}
+\newcommand{\loopMistralHalfStart}{0.208}
+\newcommand{\loopMistralHalfFinal}{0.223}
+\newcommand{\convMistralHalf}{5}
+\newcommand{\cleanRZeroMistral}{2}
 \newcommand{\orCiteMistralQuota}{1.41}
 \newcommand{\ciCiteMistralQuota}{0.96 to 2.08}
 \newcommand{\pCiteMistralQuota}{0.0825}
@@ -130,6 +138,10 @@
 \newcommand{\loopLlamaNoneStart}{0.176}
 \newcommand{\loopLlamaNoneFinal}{0.109}
 \newcommand{\convLlamaNone}{7}
+\newcommand{\loopLlamaHalfStart}{0.176}
+\newcommand{\loopLlamaHalfFinal}{0.400}
+\newcommand{\convLlamaHalf}{15}
+\newcommand{\cleanRZeroLlama}{4}
 \newcommand{\orCiteLlamaQuota}{1.54}
 \newcommand{\ciCiteLlamaQuota}{0.79 to 3.00}
 \newcommand{\pCiteLlamaQuota}{0.2071}
@@ -185,6 +197,10 @@
 \newcommand{\loopDeepseekNoneStart}{0.181}
 \newcommand{\loopDeepseekNoneFinal}{0.152}
 \newcommand{\convDeepseekNone}{0}
+\newcommand{\loopDeepseekHalfStart}{0.181}
+\newcommand{\loopDeepseekHalfFinal}{0.325}
+\newcommand{\convDeepseekHalf}{11}
+\newcommand{\cleanRZeroDeepseek}{0}
 \newcommand{\orCiteDeepseekQuota}{0.64}
 \newcommand{\ciCiteDeepseekQuota}{0.35 to 1.15}
 \newcommand{\pCiteDeepseekQuota}{0.1359}
@@ -240,6 +256,10 @@
 \newcommand{\loopGptNoneStart}{0.360}
 \newcommand{\loopGptNoneFinal}{0.543}
 \newcommand{\convGptNone}{13}
+\newcommand{\loopGptHalfStart}{0.360}
+\newcommand{\loopGptHalfFinal}{0.706}
+\newcommand{\convGptHalf}{17}
+\newcommand{\cleanRZeroGpt}{4}
 \newcommand{\orCiteGptQuota}{1.07}
 \newcommand{\ciCiteGptQuota}{0.47 to 2.45}
 \newcommand{\pCiteGptQuota}{0.8781}
@@ -295,6 +315,10 @@
 \newcommand{\loopSonnetNoneStart}{0.471}
 \newcommand{\loopSonnetNoneFinal}{0.595}
 \newcommand{\convSonnetNone}{6}
+\newcommand{\loopSonnetHalfStart}{0.471}
+\newcommand{\loopSonnetHalfFinal}{0.664}
+\newcommand{\convSonnetHalf}{11}
+\newcommand{\cleanRZeroSonnet}{2}
 \newcommand{\orCiteSonnetQuota}{0.64}
 \newcommand{\ciCiteSonnetQuota}{0.26 to 1.59}
 \newcommand{\pCiteSonnetQuota}{0.3345}
@@ -329,6 +353,9 @@
 \newcommand{\sigQuoteSonnetCombo}{*}
 \newcommand{\pinAtSonnet}{77}
 \newcommand{\pinWrongSonnet}{16}
+\newcommand{\pinAtHuman}{89}
+\newcommand{\pinHumanN}{45}
+\newcommand{\cleanRZeroTotal}{12}
 \newcommand{\humanStrict}{0.407}
 \newcommand{\humanScored}{578}
 \newcommand{\humanExist}{0.931}
@@ -446,6 +473,14 @@
 \newcommand{\lCitesDeepseekNoneFinal}{248}
 \newcommand{\lExistDeepseekNoneStart}{0.971}
 \newcommand{\lExistDeepseekNoneFinal}{0.969}
+\newcommand{\lqScoredDeepseekHalfStart}{211}
+\newcommand{\lqScoredDeepseekHalfFinal}{40}
+\newcommand{\lqAccDeepseekHalfStart}{28}
+\newcommand{\lqAccDeepseekHalfFinal}{9}
+\newcommand{\lCitesDeepseekHalfStart}{248}
+\newcommand{\lCitesDeepseekHalfFinal}{202}
+\newcommand{\lExistDeepseekHalfStart}{0.971}
+\newcommand{\lExistDeepseekHalfFinal}{0.989}
 \newcommand{\lqScoredGptTrueStart}{65}
 \newcommand{\lqScoredGptTrueFinal}{39}
 \newcommand{\lqAccGptTrueStart}{28}
@@ -470,6 +505,14 @@
 \newcommand{\lCitesGptNoneFinal}{306}
 \newcommand{\lExistGptNoneStart}{0.959}
 \newcommand{\lExistGptNoneFinal}{0.975}
+\newcommand{\lqScoredGptHalfStart}{65}
+\newcommand{\lqScoredGptHalfFinal}{31}
+\newcommand{\lqAccGptHalfStart}{28}
+\newcommand{\lqAccGptHalfFinal}{23}
+\newcommand{\lCitesGptHalfStart}{366}
+\newcommand{\lCitesGptHalfFinal}{337}
+\newcommand{\lExistGptHalfStart}{0.959}
+\newcommand{\lExistGptHalfFinal}{0.984}
 \newcommand{\lqScoredLlamaTrueStart}{64}
 \newcommand{\lqScoredLlamaTrueFinal}{29}
 \newcommand{\lqAccLlamaTrueStart}{11}
@@ -494,6 +537,14 @@
 \newcommand{\lCitesLlamaNoneFinal}{235}
 \newcommand{\lExistLlamaNoneStart}{0.930}
 \newcommand{\lExistLlamaNoneFinal}{0.943}
+\newcommand{\lqScoredLlamaHalfStart}{64}
+\newcommand{\lqScoredLlamaHalfFinal}{14}
+\newcommand{\lqAccLlamaHalfStart}{11}
+\newcommand{\lqAccLlamaHalfFinal}{6}
+\newcommand{\lCitesLlamaHalfStart}{270}
+\newcommand{\lCitesLlamaHalfFinal}{220}
+\newcommand{\lExistLlamaHalfStart}{0.930}
+\newcommand{\lExistLlamaHalfFinal}{0.981}
 \newcommand{\lqScoredMistralTrueStart}{145}
 \newcommand{\lqScoredMistralTrueFinal}{133}
 \newcommand{\lqAccMistralTrueStart}{15}
@@ -518,6 +569,14 @@
 \newcommand{\lCitesMistralNoneFinal}{261}
 \newcommand{\lExistMistralNoneStart}{0.877}
 \newcommand{\lExistMistralNoneFinal}{0.883}
+\newcommand{\lqScoredMistralHalfStart}{145}
+\newcommand{\lqScoredMistralHalfFinal}{117}
+\newcommand{\lqAccMistralHalfStart}{15}
+\newcommand{\lqAccMistralHalfFinal}{13}
+\newcommand{\lCitesMistralHalfStart}{267}
+\newcommand{\lCitesMistralHalfFinal}{242}
+\newcommand{\lExistMistralHalfStart}{0.877}
+\newcommand{\lExistMistralHalfFinal}{0.868}
 \newcommand{\lqScoredQwenTrueStart}{186}
 \newcommand{\lqScoredQwenTrueFinal}{188}
 \newcommand{\lqAccQwenTrueStart}{16}
@@ -542,6 +601,14 @@
 \newcommand{\lCitesQwenNoneFinal}{195}
 \newcommand{\lExistQwenNoneStart}{0.739}
 \newcommand{\lExistQwenNoneFinal}{0.751}
+\newcommand{\lqScoredQwenHalfStart}{186}
+\newcommand{\lqScoredQwenHalfFinal}{179}
+\newcommand{\lqAccQwenHalfStart}{16}
+\newcommand{\lqAccQwenHalfFinal}{16}
+\newcommand{\lCitesQwenHalfStart}{198}
+\newcommand{\lCitesQwenHalfFinal}{209}
+\newcommand{\lExistQwenHalfStart}{0.739}
+\newcommand{\lExistQwenHalfFinal}{0.762}
 \newcommand{\lqScoredSonnetTrueStart}{157}
 \newcommand{\lqScoredSonnetTrueFinal}{73}
 \newcommand{\lqAccSonnetTrueStart}{68}
@@ -566,6 +633,14 @@
 \newcommand{\lCitesSonnetNoneFinal}{230}
 \newcommand{\lExistSonnetNoneStart}{1.000}
 \newcommand{\lExistSonnetNoneFinal}{1.000}
+\newcommand{\lqScoredSonnetHalfStart}{157}
+\newcommand{\lqScoredSonnetHalfFinal}{63}
+\newcommand{\lqAccSonnetHalfStart}{68}
+\newcommand{\lqAccSonnetHalfFinal}{46}
+\newcommand{\lCitesSonnetHalfStart}{220}
+\newcommand{\lCitesSonnetHalfFinal}{216}
+\newcommand{\lExistSonnetHalfStart}{1.000}
+\newcommand{\lExistSonnetHalfFinal}{1.000}
 \newcommand{\ldiffDeepseekScr}{0.39}
 \newcommand{\lciDeepseekScr}{0.16 to 0.62}
 \newcommand{\lpDeepseekScr}{0.016}
@@ -574,6 +649,10 @@
 \newcommand{\lciDeepseekNone}{0.27 to 0.70}
 \newcommand{\lpDeepseekNone}{0.005}
 \newcommand{\lnDeepseekNone}{15}
+\newcommand{\ldiffDeepseekHalf}{0.50}
+\newcommand{\lciDeepseekHalf}{0.20 to 0.80}
+\newcommand{\lpDeepseekHalf}{0.035}
+\newcommand{\lnDeepseekHalf}{10}
 \newcommand{\ldiffGptScr}{0.44}
 \newcommand{\lciGptScr}{0.23 to 0.66}
 \newcommand{\lpGptScr}{0.004}
@@ -582,6 +661,10 @@
 \newcommand{\lciGptNone}{-0.06 to 0.32}
 \newcommand{\lpGptNone}{0.293}
 \newcommand{\lnGptNone}{13}
+\newcommand{\ldiffGptHalf}{-0.03}
+\newcommand{\lciGptHalf}{-0.18 to 0.12}
+\newcommand{\lpGptHalf}{0.684}
+\newcommand{\lnGptHalf}{14}
 \newcommand{\ldiffLlamaScr}{0.03}
 \newcommand{\lciLlamaScr}{-0.14 to 0.17}
 \newcommand{\lpLlamaScr}{0.713}
@@ -590,6 +673,10 @@
 \newcommand{\lciLlamaNone}{0.08 to 0.53}
 \newcommand{\lpLlamaNone}{0.039}
 \newcommand{\lnLlamaNone}{13}
+\newcommand{\ldiffLlamaHalf}{-0.12}
+\newcommand{\lciLlamaHalf}{-0.35 to 0.07}
+\newcommand{\lpLlamaHalf}{0.285}
+\newcommand{\lnLlamaHalf}{10}
 \newcommand{\ldiffMistralScr}{0.12}
 \newcommand{\lciMistralScr}{0.05 to 0.21}
 \newcommand{\lpMistralScr}{0.012}
@@ -598,6 +685,10 @@
 \newcommand{\lciMistralNone}{-0.01 to 0.08}
 \newcommand{\lpMistralNone}{0.169}
 \newcommand{\lnMistralNone}{18}
+\newcommand{\ldiffMistralHalf}{0.04}
+\newcommand{\lciMistralHalf}{-0.05 to 0.12}
+\newcommand{\lpMistralHalf}{0.182}
+\newcommand{\lnMistralHalf}{18}
 \newcommand{\ldiffQwenScr}{0.01}
 \newcommand{\lciQwenScr}{-0.01 to 0.04}
 \newcommand{\lpQwenScr}{0.208}
@@ -606,6 +697,10 @@
 \newcommand{\lciQwenNone}{0.00 to 0.09}
 \newcommand{\lpQwenNone}{0.075}
 \newcommand{\lnQwenNone}{23}
+\newcommand{\ldiffQwenHalf}{0.01}
+\newcommand{\lciQwenHalf}{-0.01 to 0.04}
+\newcommand{\lpQwenHalf}{0.484}
+\newcommand{\lnQwenHalf}{23}
 \newcommand{\ldiffSonnetScr}{0.69}
 \newcommand{\lciSonnetScr}{0.52 to 0.86}
 \newcommand{\lpSonnetScr}{0.0001}
@@ -614,6 +709,10 @@
 \newcommand{\lciSonnetNone}{0.23 to 0.51}
 \newcommand{\lpSonnetNone}{0.0003}
 \newcommand{\lnSonnetNone}{23}
+\newcommand{\ldiffSonnetHalf}{0.31}
+\newcommand{\lciSonnetHalf}{0.19 to 0.46}
+\newcommand{\lpSonnetHalf}{0.001}
+\newcommand{\lnSonnetHalf}{23}
 \newcommand{\unverifiablePct}{0.2}
 \newcommand{\nCitationRecords}{12,353}
 \newcommand{\sonnetTempChecked}{803}
@@ -782,6 +881,60 @@
 \newcommand{\falseAlarmPctGpt}{4.9}
 \newcommand{\inaccTotalSonnet}{617}
 \newcommand{\falseAlarmPctSonnet}{1.3}
+\newcommand{\repOneExistQwenBase}{0.903}
+\newcommand{\repOneStrictQwenBase}{0.121}
+\newcommand{\repTwoExistQwenBase}{0.880}
+\newcommand{\repTwoStrictQwenBase}{0.100}
+\newcommand{\repOneExistQwenCombo}{0.830}
+\newcommand{\repOneStrictQwenCombo}{0.071}
+\newcommand{\repTwoExistQwenCombo}{0.811}
+\newcommand{\repTwoStrictQwenCombo}{0.058}
+\newcommand{\repOneExistMistralBase}{0.924}
+\newcommand{\repOneStrictMistralBase}{0.143}
+\newcommand{\repTwoExistMistralBase}{0.915}
+\newcommand{\repTwoStrictMistralBase}{0.197}
+\newcommand{\repOneExistMistralCombo}{0.889}
+\newcommand{\repOneStrictMistralCombo}{0.104}
+\newcommand{\repTwoExistMistralCombo}{0.909}
+\newcommand{\repTwoStrictMistralCombo}{0.087}
+\newcommand{\repOneExistLlamaBase}{0.947}
+\newcommand{\repOneStrictLlamaBase}{0.407}
+\newcommand{\repTwoExistLlamaBase}{0.946}
+\newcommand{\repTwoStrictLlamaBase}{0.414}
+\newcommand{\repOneExistLlamaCombo}{0.893}
+\newcommand{\repOneStrictLlamaCombo}{0.194}
+\newcommand{\repTwoExistLlamaCombo}{0.908}
+\newcommand{\repTwoStrictLlamaCombo}{0.122}
+\newcommand{\repOneExistDeepseekBase}{0.942}
+\newcommand{\repOneStrictDeepseekBase}{0.256}
+\newcommand{\repTwoExistDeepseekBase}{0.956}
+\newcommand{\repTwoStrictDeepseekBase}{0.375}
+\newcommand{\repOneExistDeepseekCombo}{0.984}
+\newcommand{\repOneStrictDeepseekCombo}{0.111}
+\newcommand{\repTwoExistDeepseekCombo}{0.953}
+\newcommand{\repTwoStrictDeepseekCombo}{0.183}
+\newcommand{\repOneExistGptBase}{0.967}
+\newcommand{\repOneStrictGptBase}{0.471}
+\newcommand{\repTwoExistGptBase}{0.956}
+\newcommand{\repTwoStrictGptBase}{0.519}
+\newcommand{\repOneExistGptCombo}{0.963}
+\newcommand{\repOneStrictGptCombo}{0.528}
+\newcommand{\repTwoExistGptCombo}{0.963}
+\newcommand{\repTwoStrictGptCombo}{0.200}
+\newcommand{\repOneExistSonnetBase}{0.988}
+\newcommand{\repOneStrictSonnetBase}{0.349}
+\newcommand{\repTwoExistSonnetBase}{0.989}
+\newcommand{\repTwoStrictSonnetBase}{0.260}
+\newcommand{\repOneExistSonnetCombo}{1.000}
+\newcommand{\repOneStrictSonnetCombo}{0.376}
+\newcommand{\repTwoExistSonnetCombo}{0.991}
+\newcommand{\repTwoStrictSonnetCombo}{0.309}
+\newcommand{\repMaxExistDiff}{0.031}
+\newcommand{\repMaxStrictDiff}{0.328}
+\newcommand{\repMedianStrictDiff}{0.067}
+\newcommand{\repIdentical}{1}
+\newcommand{\repDrafts}{144}
+\newcommand{\repModels}{6}
 \newcommand{\trTrueFlagToAccQwen}{0}
 \newcommand{\trTrueFlagToFlagQwen}{132}
 \newcommand{\trTrueFlagDequotedQwen}{8}
@@ -820,6 +973,18 @@
 \newcommand{\trNoneAddedFlagQwen}{4}
 \newcommand{\trNoneAccRemovedQwen}{2}
 \newcommand{\trNoneFlagRemovedQwen}{1}
+\newcommand{\trHalfFlagToAccQwen}{1}
+\newcommand{\trHalfFlagToFlagQwen}{144}
+\newcommand{\trHalfFlagDequotedQwen}{4}
+\newcommand{\trHalfFlagDeletedQwen}{21}
+\newcommand{\trHalfAccToAccQwen}{14}
+\newcommand{\trHalfAccToFlagQwen}{1}
+\newcommand{\trHalfAccDequotedQwen}{0}
+\newcommand{\trHalfAccDeletedQwen}{1}
+\newcommand{\trHalfAddedAccQwen}{1}
+\newcommand{\trHalfAddedFlagQwen}{21}
+\newcommand{\trHalfAccRemovedQwen}{2}
+\newcommand{\trHalfFlagRemovedQwen}{25}
 \newcommand{\trTrueFlagToAccMistral}{0}
 \newcommand{\trTrueFlagToFlagMistral}{79}
 \newcommand{\trTrueFlagDequotedMistral}{12}
@@ -858,6 +1023,18 @@
 \newcommand{\trNoneAddedFlagMistral}{32}
 \newcommand{\trNoneAccRemovedMistral}{2}
 \newcommand{\trNoneFlagRemovedMistral}{26}
+\newcommand{\trHalfFlagToAccMistral}{2}
+\newcommand{\trHalfFlagToFlagMistral}{72}
+\newcommand{\trHalfFlagDequotedMistral}{16}
+\newcommand{\trHalfFlagDeletedMistral}{40}
+\newcommand{\trHalfAccToAccMistral}{8}
+\newcommand{\trHalfAccToFlagMistral}{1}
+\newcommand{\trHalfAccDequotedMistral}{2}
+\newcommand{\trHalfAccDeletedMistral}{4}
+\newcommand{\trHalfAddedAccMistral}{4}
+\newcommand{\trHalfAddedFlagMistral}{44}
+\newcommand{\trHalfAccRemovedMistral}{7}
+\newcommand{\trHalfFlagRemovedMistral}{56}
 \newcommand{\trTrueFlagToAccLlama}{0}
 \newcommand{\trTrueFlagToFlagLlama}{16}
 \newcommand{\trTrueFlagDequotedLlama}{9}
@@ -896,6 +1073,18 @@
 \newcommand{\trNoneAddedFlagLlama}{8}
 \newcommand{\trNoneAccRemovedLlama}{8}
 \newcommand{\trNoneFlagRemovedLlama}{31}
+\newcommand{\trHalfFlagToAccLlama}{0}
+\newcommand{\trHalfFlagToFlagLlama}{5}
+\newcommand{\trHalfFlagDequotedLlama}{13}
+\newcommand{\trHalfFlagDeletedLlama}{35}
+\newcommand{\trHalfAccToAccLlama}{1}
+\newcommand{\trHalfAccToFlagLlama}{0}
+\newcommand{\trHalfAccDequotedLlama}{1}
+\newcommand{\trHalfAccDeletedLlama}{9}
+\newcommand{\trHalfAddedAccLlama}{5}
+\newcommand{\trHalfAddedFlagLlama}{3}
+\newcommand{\trHalfAccRemovedLlama}{10}
+\newcommand{\trHalfFlagRemovedLlama}{48}
 \newcommand{\trTrueFlagToAccDeepseek}{0}
 \newcommand{\trTrueFlagToFlagDeepseek}{15}
 \newcommand{\trTrueFlagDequotedDeepseek}{67}
@@ -934,6 +1123,18 @@
 \newcommand{\trNoneAddedFlagDeepseek}{35}
 \newcommand{\trNoneAccRemovedDeepseek}{11}
 \newcommand{\trNoneFlagRemovedDeepseek}{54}
+\newcommand{\trHalfFlagToAccDeepseek}{0}
+\newcommand{\trHalfFlagToFlagDeepseek}{18}
+\newcommand{\trHalfFlagDequotedDeepseek}{61}
+\newcommand{\trHalfFlagDeletedDeepseek}{104}
+\newcommand{\trHalfAccToAccDeepseek}{7}
+\newcommand{\trHalfAccToFlagDeepseek}{1}
+\newcommand{\trHalfAccDequotedDeepseek}{4}
+\newcommand{\trHalfAccDeletedDeepseek}{16}
+\newcommand{\trHalfAddedAccDeepseek}{4}
+\newcommand{\trHalfAddedFlagDeepseek}{14}
+\newcommand{\trHalfAccRemovedDeepseek}{21}
+\newcommand{\trHalfFlagRemovedDeepseek}{165}
 \newcommand{\trTrueFlagToAccGpt}{2}
 \newcommand{\trTrueFlagToFlagGpt}{9}
 \newcommand{\trTrueFlagDequotedGpt}{5}
@@ -972,6 +1173,18 @@
 \newcommand{\trNoneAddedFlagGpt}{11}
 \newcommand{\trNoneAccRemovedGpt}{9}
 \newcommand{\trNoneFlagRemovedGpt}{30}
+\newcommand{\trHalfFlagToAccGpt}{1}
+\newcommand{\trHalfFlagToFlagGpt}{5}
+\newcommand{\trHalfFlagDequotedGpt}{4}
+\newcommand{\trHalfFlagDeletedGpt}{27}
+\newcommand{\trHalfAccToAccGpt}{21}
+\newcommand{\trHalfAccToFlagGpt}{0}
+\newcommand{\trHalfAccDequotedGpt}{3}
+\newcommand{\trHalfAccDeletedGpt}{4}
+\newcommand{\trHalfAddedAccGpt}{1}
+\newcommand{\trHalfAddedFlagGpt}{4}
+\newcommand{\trHalfAccRemovedGpt}{7}
+\newcommand{\trHalfFlagRemovedGpt}{31}
 \newcommand{\trTrueFlagToAccSonnet}{4}
 \newcommand{\trTrueFlagToFlagSonnet}{0}
 \newcommand{\trTrueFlagDequotedSonnet}{13}
@@ -1010,3 +1223,15 @@
 \newcommand{\trNoneAddedFlagSonnet}{39}
 \newcommand{\trNoneAccRemovedSonnet}{18}
 \newcommand{\trNoneFlagRemovedSonnet}{50}
+\newcommand{\trHalfFlagToAccSonnet}{1}
+\newcommand{\trHalfFlagToFlagSonnet}{5}
+\newcommand{\trHalfFlagDequotedSonnet}{10}
+\newcommand{\trHalfFlagDeletedSonnet}{73}
+\newcommand{\trHalfAccToAccSonnet}{30}
+\newcommand{\trHalfAccToFlagSonnet}{0}
+\newcommand{\trHalfAccDequotedSonnet}{5}
+\newcommand{\trHalfAccDeletedSonnet}{33}
+\newcommand{\trHalfAddedAccSonnet}{18}
+\newcommand{\trHalfAddedFlagSonnet}{13}
+\newcommand{\trHalfAccRemovedSonnet}{38}
+\newcommand{\trHalfFlagRemovedSonnet}{83}

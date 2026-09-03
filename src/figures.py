@@ -46,7 +46,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.85))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.75))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -74,11 +74,12 @@ def fig1():
 
 def fig2():
     data = json.loads((HERE / "results/rescore_loops.json").read_text())
-    fig, axes = plt.subplots(1, 3, figsize=(WIDTH_IN, 1.6), sharey=True)
+    fig, axes = plt.subplots(1, 4, figsize=(WIDTH_IN, 1.5), sharey=True)
     xs = [0, 1]
     for ax, arm, title in ((axes[0], "true", "true feedback"),
-                           (axes[1], "scrambled", "false feedback"),
-                           (axes[2], "none", "no feedback")):
+                           (axes[1], "half", "half true"),
+                           (axes[2], "scrambled", "false feedback"),
+                           (axes[3], "none", "no feedback")):
         for mi, (model, rows) in enumerate(data.items()):
             sub = [r for r in rows if r["arm"] == arm]
             if not sub:
@@ -91,7 +92,7 @@ def fig2():
             ax.plot(xs, y, "-", marker="o", markersize=3, color=f"C{mi}",
                     linewidth=1.4, label=LABEL.get(model, model))
         ax.set_xticks(xs)
-        ax.set_xticklabels(["round 0", "after revision"])
+        ax.set_xticklabels(["round 0", "final"])
         ax.set_ylim(0, 1.02)
         ax.set_title(title)
     handles, labels = axes[0].get_legend_handles_labels()

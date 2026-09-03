@@ -147,3 +147,24 @@ before or after seeing the relevant data. Nothing is deleted.
   was installed in ~/texlive-portable for this. Body ends at the foot of
   page 10 under pdflatex. Still needed from Hardy: ORCID in the author
   line, and the EasyChair category (long paper).
+- 2026-09-02 (award pass, three additions, all after the pre-registered
+  analysis): (1) a half-true feedback arm (each checker line kept or
+  replaced by a scrambled one with equal probability, so the verifier's
+  precision is about one half), 24 matters on all six models; with true,
+  false, and no feedback this gives a precision dose-response. Sonnet 5's
+  correct quotations removed: 17 under true, 38 under half, 56 under
+  false, 18 under none; its final strict rate under half-true feedback
+  (0.664) sits close to revision without feedback (0.595) and 0.31 below
+  true feedback (paired p = 0.001). Table 3 now shows all four arms.
+  (2) A replication of the baseline and combined drafts for the first
+  twelve matters on all six models with a fresh cache (144 drafts): one
+  draft identical to the first run; existence rates agreed within 0.031
+  and every existence contrast kept its sign; strict quotation rates on
+  twelve matters differed by a median of 0.067 and up to 0.328
+  (GPT-5.4-mini combined, where the contrast changed sign). Reported in
+  Limitations as the run-to-run noise bound. (3) The pincite verifier
+  run on the human brief excerpts: quotations sit on the cited page 89
+  percent of the time (45 quotations), against 77 percent for Sonnet 5.
+  Also: round-0 clean drafts counted (12 of 144 combined drafts would
+  pass a gate unrevised). Spend for the three additions about $5; project
+  total about $57.

@@ -41,7 +41,7 @@ for m, mk in ALPHA.items():
         emit(f"strict{mk}{ck}", fmt3(cell["strict_rate"]))
         if cell["tchecked"]:
             emit(f"viol{mk}{ck}", f"{100 * cell['viol'] / cell['tchecked']:.0f}")
-    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None")):
+    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half")):
         sub = [r for r in loops[m] if r["arm"] == arm]
         if not sub:
             continue
@@ -50,6 +50,8 @@ for m, mk in ALPHA.items():
         emit(f"loop{mk}{ak}Start", fmt3(sum(f0) / len(f0)))
         emit(f"loop{mk}{ak}Final", fmt3(sum(f1) / len(f1)))
         emit(f"conv{mk}{ak}", str(sum(r["converged"] for r in sub)))
+    tr = [r for r in loops[m] if r["arm"] == "true"]
+    emit(f"cleanRZero{mk}", str(sum(1 for r in tr if r["converged"] and r["rounds"] == 1)))
     for kind, kk in (("citation", "Cite"), ("quote", "Quote")):
         for c, ck in CONDS.items():
             if c == "baseline":
@@ -68,6 +70,12 @@ for m, mk in ALPHA.items():
             emit(f"pinAt{mk}", f"{100 * p['quote_at_pin'] / tot:.0f}")
             emit(f"pinWrong{mk}", f"{100 * p['quote_not_at_pin'] / tot:.0f}")
 
+ph = pins.get("human")
+if ph:
+    tot = ph["quote_at_pin"] + ph["quote_near_pin"] + ph["quote_not_at_pin"]
+    emit("pinAtHuman", f"{100 * ph['quote_at_pin'] / tot:.0f}")
+    emit("pinHumanN", str(tot))
+emit("cleanRZeroTotal", str(sum(1 for m in ALPHA for r in loops[m] if r["arm"] == "true" and r["converged"] and r["rounds"] == 1)))
 emit("humanStrict", fmt3(human["strict_quote_rate"]))
 emit("humanScored", str(human["n_quotes_scored"]))
 emit("humanExist", fmt3(human["existence_rate"]))
@@ -115,7 +123,7 @@ if rs_path.exists():
     for key, v in rs["loop_counts"].items():
         m, arm = key.split(":")
         mk = ALPHA.get(m)
-        ak = {"true": "True", "scrambled": "Scr", "none": "None"}.get(arm)
+        ak = {"true": "True", "scrambled": "Scr", "none": "None", "half": "Half"}.get(arm)
         if mk and ak:
             emit2(f"lqScored{mk}{ak}Start", str(v["quotes_scored_r0"]))
             emit2(f"lqScored{mk}{ak}Final", str(v["quotes_scored_final"]))
@@ -129,7 +137,7 @@ if rs_path.exists():
     for key, v in rs.get("loop_tests", {}).items():
         m, contrast = key.split(":")
         mk = ALPHA.get(m)
-        ck = {"true_vs_scrambled": "Scr", "true_vs_none": "None"}[contrast]
+        ck = {"true_vs_scrambled": "Scr", "true_vs_none": "None", "true_vs_half": "Half"}[contrast]
         if mk:
             emit2(f"ldiff{mk}{ck}", f"{v['mean_diff']:.2f}")
             emit2(f"lci{mk}{ck}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
@@ -204,6 +212,30 @@ if pr.exists():
             emit2(f"inaccTotal{mk}", str(tot))
             emit2(f"falseAlarmPct{mk}", f"{100 * cnt[(m, 'found_in_attributed')] / tot:.1f}")
 
+rp = R / "replicate.json"
+if rp.exists():
+    rep = json.loads(rp.read_text())
+    diffs_e, diffs_s, ident = [], [], []
+    for m, mk in ALPHA.items():
+        if m not in rep:
+            continue
+        r = rep[m]
+        for c, ck in (("baseline", "Base"), ("combo", "Combo")):
+            for run, rk in (("run1", "One"), ("run2", "Two")):
+                emit2(f"rep{rk}Exist{mk}{ck}", fmt3(r[c][run]["exist"]))
+                if r[c][run]["strict"] is not None:
+                    emit2(f"rep{rk}Strict{mk}{ck}", fmt3(r[c][run]["strict"]))
+            diffs_e.append(abs(r[c]["run1"]["exist"] - r[c]["run2"]["exist"]))
+            if None not in (r[c]["run1"]["strict"], r[c]["run2"]["strict"]):
+                diffs_s.append(abs(r[c]["run1"]["strict"] - r[c]["run2"]["strict"]))
+        ident.append(r["identical_drafts"])
+    emit2("repMaxExistDiff", fmt3(max(diffs_e)))
+    emit2("repMaxStrictDiff", fmt3(max(diffs_s)))
+    emit2("repMedianStrictDiff", fmt3(sorted(diffs_s)[len(diffs_s) // 2]))
+    emit2("repIdentical", str(sum(int(x.split("/")[0]) for x in ident)))
+    emit2("repDrafts", str(sum(int(x.split("/")[1]) for x in ident)))
+    emit2("repModels", str(len(ident)))
+
 lt = R / "loop_transitions.json"
 if lt.exists():
     t = json.loads(lt.read_text())
@@ -211,7 +243,7 @@ if lt.exists():
         if m not in t:
             continue
         c = t[m]
-        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None")):
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half")):
             for v0, vk in (("flagged", "Flag"), ("accurate", "Acc")):
                 kept_acc = c.get(f"{arm}:{v0}:kept:accurate", 0) + c.get(f"{arm}:{v0}:edited:accurate", 0)
                 kept_flag = c.get(f"{arm}:{v0}:kept:flagged", 0) + c.get(f"{arm}:{v0}:edited:flagged", 0)

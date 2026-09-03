@@ -130,7 +130,7 @@ def _mean(xs):
 
 loop_counts = {}
 for model, rows in loops.items():
-    for arm in ("true", "scrambled", "none"):
+    for arm in ("true", "scrambled", "none", "half"):
         sub = [r for r in rows if r["arm"] == arm]
         if not sub:
             continue
@@ -155,7 +155,7 @@ for model, rows in loops.items():
     by = {}
     for r in rows:
         by.setdefault(r["matter"], {})[r["arm"]] = r
-    for other in ("scrambled", "none"):
+    for other in ("scrambled", "none", "half"):
         pairs = [(v["true"], v[other]) for v in by.values()
                  if "true" in v and other in v
                  and v["true"]["final"]["strict"] is not None

@@ -1,0 +1,169 @@
+2014-024:half            rounds=2 conv=True strict 0.75->1.0 exist 1.0->1.0 cost=$0.934
+1990-075:half            rounds=2 conv=True strict 0.25->1.0 exist 1.0->1.0 cost=$0.934
+1997-033:half            rounds=4 conv=True strict 0.6->1.0 exist 0.9333->1.0 cost=$1.001
+1998-085:half            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$1.023
+1997-021:half            rounds=4 conv=True strict 0.333->None exist 0.8->1.0 cost=$1.118
+2005-087:half            rounds=4 conv=False strict 0.5->0.667 exist 1.0->1.0 cost=$1.147
+done: 6 episodes, $1.147
+2012-031:half            rounds=4 conv=False strict None->None exist 0.8095->0.8095 cost=$1.008
+2011-010:half            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->0.8889 cost=$1.080
+2005-074:half            rounds=4 conv=True strict 0.0->1.0 exist 0.9375->1.0 cost=$1.130
+2001-013:half            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$1.130
+1992-086:half            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$1.166
+2010-046:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$1.166
+done: 6 episodes, $1.166
+1992-109:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.934
+2009-045:half            rounds=3 conv=True strict 0.667->1.0 exist 1.0->1.0 cost=$0.934
+1997-046:half            rounds=3 conv=True strict 0.0->None exist 0.9474->1.0 cost=$0.980
+2020-032:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.980
+2015-055:half            rounds=4 conv=True strict 0.0->None exist 1.0->1.0 cost=$1.067
+2013-058:half            rounds=4 conv=True strict 1.0->1.0 exist 0.8->1.0 cost=$1.201
+done: 6 episodes, $1.201
+2012-006:half            rounds=4 conv=False strict None->None exist 0.9091->0.9091 cost=$0.288
+1998-026:half            rounds=4 conv=False strict 0.1->0.0 exist 0.8667->0.6667 cost=$0.301
+1997-100:half            rounds=4 conv=False strict 1.0->1.0 exist 0.875->0.8571 cost=$0.307
+2000-071:half            rounds=4 conv=False strict 0.048->0.238 exist 1.0->1.0 cost=$0.322
+2012-029:half            rounds=4 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$0.329
+1999-051:half            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.331
+done: 6 episodes, $0.331
+2012-006:half            rounds=4 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$0.996
+1998-026:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9286->0.9167 cost=$1.057
+1997-100:half            rounds=3 conv=True strict 0.25->None exist 1.0->1.0 cost=$1.096
+2000-071:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$1.178
+2012-029:half            rounds=4 conv=False strict 0.6->0.333 exist 1.0->1.0 cost=$1.212
+1999-051:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$1.230
+done: 6 episodes, $1.230
+1992-109:half            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.274
+2009-045:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.274
+1997-046:half            rounds=4 conv=False strict 0.167->0.25 exist 1.0->1.0 cost=$0.290
+2020-032:half            rounds=3 conv=True strict None->None exist 0.9231->1.0 cost=$0.302
+2015-055:half            rounds=4 conv=False strict 0.2->0.0 exist 0.8889->0.8889 cost=$0.319
+2013-058:half            rounds=4 conv=False strict 0.0->0.0 exist 0.7647->0.8462 cost=$0.338
+done: 6 episodes, $0.338
+2014-024:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.287
+1990-075:half            rounds=4 conv=False strict 0.5->0.333 exist 0.9->1.0 cost=$0.303
+1997-033:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9444->0.8 cost=$0.337
+1998-085:half            rounds=4 conv=False strict 0.0->0.0 exist 0.6364->0.6364 cost=$0.342
+1997-021:half            rounds=4 conv=False strict 0.0->0.0 exist 0.8333->0.7 cost=$0.350
+2005-087:half            rounds=4 conv=False strict 0.25->0.2 exist 0.8333->0.9091 cost=$0.354
+done: 6 episodes, $0.354
+1992-109:half            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.283
+2009-045:half            rounds=3 conv=True strict 0.0->None exist 0.75->1.0 cost=$0.291
+1997-046:half            rounds=4 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.302
+2020-032:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.334
+2015-055:half            rounds=4 conv=False strict 0.333->0.5 exist 1.0->1.0 cost=$0.344
+2013-058:half            rounds=3 conv=True strict 0.0->None exist 0.7778->1.0 cost=$0.344
+done: 6 episodes, $0.344
+2012-006:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.306
+1998-026:half            rounds=4 conv=False strict None->None exist 0.7778->0.875 cost=$0.346
+1997-100:half            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.346
+2000-071:half            rounds=4 conv=True strict 0.0->None exist 0.8667->1.0 cost=$0.365
+2012-029:half            rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.373
+1999-051:half            rounds=1 conv=True strict None->None exist 1.0->1.0 cost=$0.373
+done: 6 episodes, $0.373
+2012-031:half            rounds=4 conv=False strict 0.0->None exist 0.8333->0.5 cost=$0.286
+2011-010:half            rounds=4 conv=False strict 0.143->0.083 exist 0.9333->0.9286 cost=$0.305
+2005-074:half            rounds=4 conv=False strict 0.333->0.0 exist 0.4444->0.7778 cost=$0.343
+2001-013:half            rounds=4 conv=False strict 0.0->0.0 exist 0.625->0.5 cost=$0.355
+1992-086:half            rounds=4 conv=False strict 0.125->0.125 exist 0.9167->1.0 cost=$0.359
+2010-046:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9091->0.9167 cost=$0.363
+done: 6 episodes, $0.363
+2012-031:half            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$12.082
+2011-010:half            rounds=3 conv=True strict 0.6->1.0 exist 1.0->1.0 cost=$12.651
+2005-074:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$12.651
+2001-013:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$13.148
+1992-086:half            rounds=4 conv=False strict 0.5->0.6 exist 1.0->1.0 cost=$13.913
+2010-046:half            rounds=2 conv=True strict 0.625->1.0 exist 1.0->1.0 cost=$14.258
+done: 6 episodes, $14.258
+2012-006:half            rounds=4 conv=False strict 0.5->0.5 exist 0.6667->0.6667 cost=$0.148
+1998-026:half            rounds=4 conv=False strict None->None exist 0.0->0.0 cost=$0.148
+1997-100:half            rounds=4 conv=False strict 0.286->0.125 exist 0.5714->0.75 cost=$0.156
+2000-071:half            rounds=4 conv=False strict 0.083->0.083 exist 0.8889->0.8889 cost=$0.161
+2012-029:half            rounds=4 conv=False strict 0.0->0.0 exist 0.5->0.3333 cost=$0.168
+1999-051:half            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->0.8571 cost=$0.174
+done: 6 episodes, $0.174
+2014-024:half            rounds=4 conv=False strict None->0.0 exist 0.9091->1.0 cost=$0.289
+1990-075:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$0.289
+1997-033:half            rounds=4 conv=False strict 0.333->0.0 exist 1.0->1.0 cost=$0.319
+1998-085:half            rounds=4 conv=True strict 0.4->None exist 0.7273->1.0 cost=$0.352
+1997-021:half            rounds=4 conv=True strict 0.0->1.0 exist 0.6429->1.0 cost=$0.381
+2005-087:half            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.389
+done: 6 episodes, $0.389
+empty completion r3:1992-109:half (attempt 1)
+1992-109:half            rounds=4 conv=False strict 0.3->0.5 exist 1.0->1.0 cost=$12.890
+2009-045:half            rounds=2 conv=True strict 0.667->1.0 exist 1.0->1.0 cost=$12.890
+1997-046:half            rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$13.747
+2020-032:half            rounds=4 conv=False strict 0.333->0.0 exist 1.0->1.0 cost=$14.494
+2015-055:half            rounds=2 conv=True strict 0.778->1.0 exist 1.0->1.0 cost=$14.648
+2013-058:half            rounds=3 conv=True strict 0.2->1.0 exist 1.0->1.0 cost=$14.648
+done: 6 episodes, $14.648
+2012-031:half            rounds=4 conv=False strict 0.0->0.0 exist 0.6667->0.6 cost=$0.144
+2011-010:half            rounds=4 conv=False strict 0.273->0.273 exist 1.0->1.0 cost=$0.149
+2005-074:half            rounds=4 conv=False strict 0.0->0.0 exist 0.3->0.2857 cost=$0.155
+2001-013:half            rounds=4 conv=False strict 0.0->0.0 exist 0.4286->0.625 cost=$0.162
+1992-086:half            rounds=4 conv=False strict 0.062->0.062 exist 0.8889->0.9 cost=$0.169
+2010-046:half            rounds=4 conv=False strict 0.083->0.1 exist 1.0->1.0 cost=$0.175
+done: 6 episodes, $0.175
+2014-024:half            rounds=4 conv=False strict 0.2->0.0 exist 1.0->1.0 cost=$12.458
+1990-075:half            rounds=4 conv=False strict 0.4->0.5 exist 1.0->1.0 cost=$12.758
+1997-033:half            rounds=4 conv=False strict 0.4->0.333 exist 1.0->1.0 cost=$13.457
+1998-085:half            rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$13.457
+1997-021:half            rounds=4 conv=True strict 0.167->None exist 1.0->1.0 cost=$13.968
+2005-087:half            rounds=4 conv=False strict 0.222->0.75 exist 1.0->1.0 cost=$14.687
+done: 6 episodes, $14.687
+2012-031:half            rounds=4 conv=False strict 0.0->1.0 exist 1.0->0.8 cost=$0.314
+2011-010:half            rounds=4 conv=False strict 0.2->0.0 exist 1.0->0.8667 cost=$0.361
+2005-074:half            rounds=4 conv=True strict 0.5->None exist 1.0->1.0 cost=$0.387
+2001-013:half            rounds=3 conv=True strict None->None exist 0.8667->1.0 cost=$0.394
+1992-086:half            rounds=3 conv=True strict 0.333->None exist 1.0->1.0 cost=$0.397
+2010-046:half            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.397
+done: 6 episodes, $0.397
+2012-006:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9->0.8571 cost=$0.500
+1998-026:half            rounds=4 conv=False strict 0.143->None exist 0.9->0.8889 cost=$0.514
+1997-100:half            rounds=3 conv=True strict 0.25->1.0 exist 1.0->1.0 cost=$0.521
+2000-071:half            rounds=3 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$0.529
+2012-029:half            rounds=4 conv=False strict 0.5->0.0 exist 0.9091->1.0 cost=$0.534
+1999-051:half            rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$0.541
+done: 6 episodes, $0.541
+2012-006:half            rounds=3 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$12.195
+1998-026:half            rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$12.195
+1997-100:half            rounds=4 conv=False strict 0.5->0.75 exist 1.0->1.0 cost=$13.257
+2000-071:half            rounds=4 conv=False strict 0.583->0.833 exist 1.0->1.0 cost=$14.023
+2012-029:half            rounds=4 conv=False strict 0.5->0.5 exist 1.0->1.0 cost=$14.552
+1999-051:half            rounds=4 conv=False strict 0.333->0.5 exist 1.0->1.0 cost=$14.902
+done: 6 episodes, $14.902
+1992-109:half            rounds=4 conv=False strict 0.0->0.0 exist 0.8571->1.0 cost=$0.147
+2009-045:half            rounds=4 conv=False strict 0.1->0.091 exist 0.9167->1.0 cost=$0.156
+1997-046:half            rounds=4 conv=False strict 0.0->0.125 exist 1.0->1.0 cost=$0.164
+2020-032:half            rounds=4 conv=False strict 0.0->0.0 exist 0.875->0.875 cost=$0.177
+2015-055:half            rounds=4 conv=False strict 0.0->0.0 exist 0.6667->0.7333 cost=$0.181
+2013-058:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.184
+done: 6 episodes, $0.184
+2014-024:half            rounds=4 conv=False strict 0.0->0.0 exist 0.6923->0.7 cost=$0.146
+1990-075:half            rounds=4 conv=False strict 0.2->0.2 exist 0.7143->0.8333 cost=$0.160
+1997-033:half            rounds=4 conv=False strict 0.111->0.125 exist 0.6667->0.5714 cost=$0.168
+1998-085:half            rounds=4 conv=False strict 0.0->0.0 exist 0.875->1.0 cost=$0.177
+1997-021:half            rounds=4 conv=False strict 0.571->0.571 exist 0.7778->0.75 cost=$0.180
+2005-087:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9286->0.9286 cost=$0.185
+done: 6 episodes, $0.185
+1992-109:half            rounds=4 conv=True strict 0.6->1.0 exist 1.0->1.0 cost=$0.490
+2009-045:half            rounds=4 conv=False strict 0.062->0.0 exist 0.9167->1.0 cost=$0.509
+1997-046:half            rounds=4 conv=False strict 0.4->0.2 exist 1.0->1.0 cost=$0.524
+2020-032:half            rounds=4 conv=False strict 0.0->0.0 exist 1.0->1.0 cost=$0.533
+2015-055:half            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.545
+2013-058:half            rounds=4 conv=False strict 0.0->0.0 exist 0.9->1.0 cost=$0.558
+done: 6 episodes, $0.558
+2014-024:half            rounds=4 conv=True strict 0.25->1.0 exist 1.0->1.0 cost=$0.485
+1990-075:half            rounds=4 conv=True strict 0.111->None exist 1.0->1.0 cost=$0.507
+1997-033:half            rounds=4 conv=False strict 0.5->0.0 exist 1.0->1.0 cost=$0.539
+1998-085:half            rounds=2 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.549
+1997-021:half            rounds=3 conv=True strict 0.0->None exist 1.0->1.0 cost=$0.551
+2005-087:half            rounds=4 conv=False strict 0.0->0.333 exist 1.0->1.0 cost=$0.560
+done: 6 episodes, $0.560
+2012-031:half            rounds=3 conv=True strict 0.231->None exist 1.0->1.0 cost=$0.492
+2011-010:half            rounds=4 conv=False strict 0.214->0.0 exist 1.0->1.0 cost=$0.511
+2005-074:half            rounds=4 conv=False strict 0.0->0.0 exist 0.8889->1.0 cost=$0.523
+2001-013:half            rounds=4 conv=True strict 0.0->None exist 0.9->1.0 cost=$0.539
+1992-086:half            rounds=4 conv=False strict 0.25->0.0 exist 1.0->1.0 cost=$0.552
+2010-046:half            rounds=4 conv=True strict 0.0->1.0 exist 1.0->1.0 cost=$0.564
+done: 6 episodes, $0.564

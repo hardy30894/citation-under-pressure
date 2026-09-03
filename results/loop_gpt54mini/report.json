@@ -2,115 +2,158 @@
   "model": "gpt54mini",
   "episodes": [
     {
-      "episode": "2012-031:none",
-      "arm": "none",
-      "matter": "2012-031",
+      "episode": "2012-006:half",
+      "arm": "half",
+      "matter": "2012-006",
       "side": "petitioner",
       "rounds": [
         {
-          "n_citations": 21,
-          "existence_rate": 0.8095,
-          "n_quotes": 0,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
+          "n_citations": 13,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 1,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.333
         },
         {
-          "n_citations": 16,
-          "existence_rate": 0.8125,
-          "n_quotes": 0,
-          "q_accurate": 0,
-          "q_near": 0,
+          "n_citations": 13,
+          "existence_rate": 1.0,
+          "n_quotes": 2,
+          "q_accurate": 1,
+          "q_near": 1,
           "q_inacc": 0,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.5
         },
         {
-          "n_citations": 16,
-          "existence_rate": 0.8125,
-          "n_quotes": 0,
-          "q_accurate": 0,
-          "q_near": 0,
+          "n_citations": 13,
+          "existence_rate": 1.0,
+          "n_quotes": 2,
+          "q_accurate": 1,
+          "q_near": 1,
           "q_inacc": 0,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.5
         },
         {
-          "n_citations": 16,
-          "existence_rate": 0.8125,
-          "n_quotes": 0,
-          "q_accurate": 0,
+          "n_citations": 13,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 1,
           "q_near": 0,
           "q_inacc": 0,
           "q_unver": 0,
-          "strict": null
+          "strict": 1.0
         }
       ],
-      "converged": false,
-      "cap_exhausted": true
+      "converged": true,
+      "cap_exhausted": false,
+      "dropped": false
     },
     {
-      "episode": "2011-010:none",
-      "arm": "none",
-      "matter": "2011-010",
+      "episode": "1998-026:half",
+      "arm": "half",
+      "matter": "1998-026",
       "side": "respondent",
       "rounds": [
         {
           "n_citations": 14,
-          "existence_rate": 0.8571,
-          "n_quotes": 3,
+          "existence_rate": 0.9286,
+          "n_quotes": 2,
           "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 2,
+          "q_near": 1,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 13,
-          "existence_rate": 0.8462,
-          "n_quotes": 5,
+          "n_citations": 15,
+          "existence_rate": 0.8667,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 14,
+          "existence_rate": 0.9286,
+          "n_quotes": 2,
           "q_accurate": 0,
           "q_near": 1,
-          "q_inacc": 3,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.0
         },
         {
           "n_citations": 12,
-          "existence_rate": 0.8333,
-          "n_quotes": 6,
+          "existence_rate": 0.9167,
+          "n_quotes": 2,
           "q_accurate": 0,
           "q_near": 1,
-          "q_inacc": 3,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 14,
-          "existence_rate": 0.8571,
-          "n_quotes": 5,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 4,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.0
         }
       ],
       "converged": false,
-      "cap_exhausted": true
+      "cap_exhausted": true,
+      "dropped": false
     },
     {
-      "episode": "2005-074:none",
-      "arm": "none",
-      "matter": "2005-074",
+      "episode": "1997-100:half",
+      "arm": "half",
+      "matter": "1997-100",
       "side": "petitioner",
       "rounds": [
         {
-          "n_citations": 16,
-          "existence_rate": 0.9375,
-          "n_quotes": 2,
+          "n_citations": 10,
+          "existence_rate": 1.0,
+          "n_quotes": 4,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 2,
+          "q_unver": 0,
+          "strict": 0.25
+        },
+        {
+          "n_citations": 8,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 8,
+          "existence_rate": 1.0,
+          "n_quotes": 0,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": null
+        }
+      ],
+      "converged": true,
+      "cap_exhausted": false,
+      "dropped": false
+    },
+    {
+      "episode": "2000-071:half",
+      "arm": "half",
+      "matter": "2000-071",
+      "side": "respondent",
+      "rounds": [
+        {
+          "n_citations": 19,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
           "q_inacc": 2,
@@ -120,117 +163,140 @@
         {
           "n_citations": 17,
           "existence_rate": 1.0,
-          "n_quotes": 2,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 1,
+          "q_inacc": 3,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 15,
+          "n_citations": 17,
           "existence_rate": 1.0,
-          "n_quotes": 2,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 1,
+          "q_inacc": 3,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 15,
+          "n_citations": 17,
           "existence_rate": 1.0,
-          "n_quotes": 2,
+          "n_quotes": 1,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 2,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.0
         }
       ],
       "converged": false,
-      "cap_exhausted": true
+      "cap_exhausted": true,
+      "dropped": false
     },
     {
-      "episode": "2001-013:none",
-      "arm": "none",
-      "matter": "2001-013",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 16,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 14,
-          "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
-          "q_unver": 0,
-          "strict": null
-        }
-      ],
-      "converged": true,
-      "cap_exhausted": false
-    },
-    {
-      "episode": "1992-086:none",
-      "arm": "none",
-      "matter": "1992-086",
+      "episode": "2012-029:half",
+      "arm": "half",
+      "matter": "2012-029",
       "side": "petitioner",
       "rounds": [
         {
-          "n_citations": 16,
+          "n_citations": 11,
+          "existence_rate": 1.0,
+          "n_quotes": 5,
+          "q_accurate": 3,
+          "q_near": 2,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.6
+        },
+        {
+          "n_citations": 10,
+          "existence_rate": 1.0,
+          "n_quotes": 5,
+          "q_accurate": 3,
+          "q_near": 1,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.6
+        },
+        {
+          "n_citations": 9,
           "existence_rate": 1.0,
           "n_quotes": 4,
           "q_accurate": 2,
-          "q_near": 2,
-          "q_inacc": 0,
+          "q_near": 1,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.5
         },
         {
-          "n_citations": 15,
+          "n_citations": 9,
           "existence_rate": 1.0,
-          "n_quotes": 0,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 0,
+          "n_quotes": 3,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 1,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.333
         }
       ],
-      "converged": true,
-      "cap_exhausted": false
+      "converged": false,
+      "cap_exhausted": true,
+      "dropped": false
     },
     {
-      "episode": "2010-046:none",
-      "arm": "none",
-      "matter": "2010-046",
+      "episode": "1999-051:half",
+      "arm": "half",
+      "matter": "1999-051",
       "side": "respondent",
       "rounds": [
         {
-          "n_citations": 14,
+          "n_citations": 13,
           "existence_rate": 1.0,
           "n_quotes": 2,
-          "q_accurate": 2,
-          "q_near": 0,
+          "q_accurate": 0,
+          "q_near": 2,
           "q_inacc": 0,
           "q_unver": 0,
-          "strict": 1.0
+          "strict": 0.0
+        },
+        {
+          "n_citations": 12,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 12,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 12,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.0
         }
       ],
-      "converged": true,
-      "cap_exhausted": false
+      "converged": false,
+      "cap_exhausted": true,
+      "dropped": false
     }
   ],
-  "cost": 0.9339
+  "cost": 1.2305
 }
