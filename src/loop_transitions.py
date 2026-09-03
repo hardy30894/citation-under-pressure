@@ -98,8 +98,23 @@ def main():
             q1s = scored_quotes(final, checker, store) if revs else q0s
             final_norm = normalize(final)
             used = set()
+            fates = []
             for q in q0s:
                 fate, v1 = classify(q, q1s, final_norm, used)
+                fates.append([q, fate, v1])
+            # a flagged quotation that was deleted while a new accurate
+            # quotation appeared on the same citation counts as replaced:
+            # the wording was swapped for the opinion's, which is repair by
+            # another route (each new quotation claimed once)
+            for f in fates:
+                q, fate, v1 = f
+                if fate == "deleted" and q["verdict"] != "accurate":
+                    for i, q1 in enumerate(q1s):
+                        if i not in used and q1["citation"] == q["citation"] and q1["verdict"] == "accurate":
+                            used.add(i)
+                            f[1] = "replaced"
+                            break
+            for q, fate, v1 in fates:
                 v0 = "accurate" if q["verdict"] == "accurate" else "flagged"
                 key = f"{arm}:{v0}:{fate}"
                 if v1 is not None:

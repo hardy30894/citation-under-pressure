@@ -42,7 +42,7 @@ for m, mk in ALPHA.items():
         emit(f"strict{mk}{ck}", fmt3(cell["strict_rate"]))
         if cell["tchecked"]:
             emit(f"viol{mk}{ck}", f"{100 * cell['viol'] / cell['tchecked']:.0f}")
-    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
+    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
         sub = [r for r in loops[m] if r["arm"] == arm]
         if not sub:
             continue
@@ -131,7 +131,7 @@ if rs_path.exists():
     for key, v in rs["loop_counts"].items():
         m, arm = key.split(":")
         mk = ALPHA.get(m)
-        ak = {"true": "True", "scrambled": "Scr", "none": "None", "half": "Half", "quarter": "Quarter", "threequarter": "Threeq"}.get(arm)
+        ak = {"true": "True", "scrambled": "Scr", "none": "None", "half": "Half", "quarter": "Quarter", "threequarter": "Threeq", "passage": "Passage"}.get(arm)
         if mk and ak:
             emit2(f"lqScored{mk}{ak}Start", str(v["quotes_scored_r0"]))
             emit2(f"lqScored{mk}{ak}Final", str(v["quotes_scored_final"]))
@@ -475,7 +475,7 @@ if lt.exists():
         if m not in t:
             continue
         c = t[m]
-        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
             for v0, vk in (("flagged", "Flag"), ("accurate", "Acc")):
                 kept_acc = c.get(f"{arm}:{v0}:kept:accurate", 0) + c.get(f"{arm}:{v0}:edited:accurate", 0)
                 kept_flag = c.get(f"{arm}:{v0}:kept:flagged", 0) + c.get(f"{arm}:{v0}:edited:flagged", 0)
@@ -485,10 +485,16 @@ if lt.exists():
                     emit2(f"tr{ak}FlagLeft{mk}", str(kept_flag))
                 emit2(f"tr{ak}{vk}Dequoted{mk}", str(c.get(f"{arm}:{v0}:dequoted", 0)))
                 emit2(f"tr{ak}{vk}Deleted{mk}", str(c.get(f"{arm}:{v0}:deleted", 0)))
+                if v0 == "flagged":
+                    # replaced: deleted while a new accurate quotation on
+                    # the same citation appeared; repaired = in place + replaced
+                    emit2(f"tr{ak}FlagReplaced{mk}", str(c.get(f"{arm}:flagged:replaced", 0)))
+                    emit2(f"tr{ak}FlagRepaired{mk}", str(kept_acc + c.get(f"{arm}:flagged:replaced", 0)))
+                    emit2(f"tr{ak}FlagGone{mk}", str(c.get(f"{arm}:flagged:deleted", 0) + c.get(f"{arm}:flagged:dequoted", 0)))
             emit2(f"tr{ak}AddedAcc{mk}", str(c.get(f"{arm}:added:accurate", 0)))
             emit2(f"tr{ak}AddedFlag{mk}", str(c.get(f"{arm}:added:flagged", 0)))
             fl = [c.get(f"{arm}:flagged:{k}", 0) for k in
-                  ("kept:flagged", "edited:flagged", "kept:accurate", "edited:accurate", "dequoted", "deleted")]
+                  ("kept:flagged", "edited:flagged", "kept:accurate", "edited:accurate", "dequoted", "deleted", "replaced")]
             ac = [c.get(f"{arm}:accurate:{k}", 0) for k in
                   ("kept:accurate", "edited:accurate", "kept:flagged", "edited:flagged", "dequoted", "deleted")]
             if arm == "true":
@@ -512,7 +518,7 @@ if lc.exists():
         emit2(f"lcNfRemoved{mk}", str(e.get("nf_removed", 0)))
         emit2(f"lcNfKept{mk}", str(e.get("nf_kept", 0)))
         emit2(f"lcNewExists{mk}", str(e.get("new_exists", 0)))
-        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
             v = t[m]["final_lenient"].get(arm)
             if v is not None:
                 emit2(f"llen{mk}{ak}Final", fmt3(v))
@@ -528,9 +534,11 @@ if gl.exists():
         if m not in t:
             continue
         c = t[m]
-        fl = [c.get(f"true:flagged:{k}", 0) for k in ("kept:accurate", "edited:accurate", "kept:flagged", "edited:flagged", "deleted", "dequoted")]
+        fl = [c.get(f"true:flagged:{k}", 0) for k in ("kept:accurate", "edited:accurate", "kept:flagged", "edited:flagged", "deleted", "dequoted", "replaced")]
         emit2(f"gtrFlagRZero{mk}", str(sum(fl)))
         emit2(f"gtrFlagToAcc{mk}", str(fl[0] + fl[1]))
+        emit2(f"gtrFlagReplaced{mk}", str(fl[6]))
+        emit2(f"gtrFlagRepaired{mk}", str(fl[0] + fl[1] + fl[6]))
         emit2(f"gtrFlagLeft{mk}", str(fl[2] + fl[3]))
         emit2(f"gtrFlagDeleted{mk}", str(fl[4]))
         emit2(f"gtrFlagDequoted{mk}", str(fl[5]))

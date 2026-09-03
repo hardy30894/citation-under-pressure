@@ -4,24 +4,26 @@
   "true:accurate:dequoted": 5,
   "true:accurate:edited:accurate": 1,
   "true:accurate:kept:accurate": 49,
-  "true:added:accurate": 5,
+  "true:added:accurate": 2,
   "true:added:flagged": 2,
-  "true:flagged:deleted": 43,
+  "true:flagged:deleted": 40,
   "true:flagged:dequoted": 18,
   "true:flagged:edited:accurate": 3,
-  "true:flagged:kept:flagged": 25
+  "true:flagged:kept:flagged": 25,
+  "true:flagged:replaced": 3
  },
  "sonnet": {
   "true:accurate:deleted": 3,
   "true:accurate:dequoted": 3,
   "true:accurate:edited:accurate": 6,
   "true:accurate:kept:accurate": 89,
-  "true:added:accurate": 36,
+  "true:added:accurate": 20,
   "true:added:flagged": 8,
-  "true:flagged:deleted": 56,
+  "true:flagged:deleted": 40,
   "true:flagged:dequoted": 17,
   "true:flagged:edited:flagged": 1,
   "true:flagged:kept:accurate": 1,
-  "true:flagged:kept:flagged": 17
+  "true:flagged:kept:flagged": 17,
+  "true:flagged:replaced": 16
  }
 }

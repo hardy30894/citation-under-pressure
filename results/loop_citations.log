@@ -1,7 +1,7 @@
-deepseek {'nf_r0': 7, 'nf_removed': 7, 'new': 2, 'new_exists': 2} lenient {'true': 0.752, 'threequarter': 0.78, 'half': 0.454, 'quarter': 0.458, 'scrambled': 0.381, 'none': 0.389}
+deepseek {'nf_r0': 7, 'nf_removed': 7, 'new': 2, 'new_exists': 2} lenient {'true': 0.752, 'threequarter': 0.78, 'half': 0.454, 'quarter': 0.458, 'scrambled': 0.381, 'none': 0.389, 'passage': 0.895}
 gpt54mini {'nf_r0': 15, 'nf_removed': 15, 'new': 7, 'new_exists': 5, 'new_other': 2} lenient {'true': 0.774, 'threequarter': 0.926, 'half': 0.814, 'quarter': 0.569, 'scrambled': 0.594, 'none': 0.596}
 grok43 {'new': 2, 'new_exists': 2, 'nf_r0': 1, 'nf_removed': 1} lenient {'true': 1.0, 'threequarter': 1.0, 'half': 1.0, 'quarter': 0.781, 'scrambled': 0.669, 'none': 0.646}
 llama4mav {'nf_r0': 18, 'nf_removed': 18, 'new': 3, 'new_exists': 3} lenient {'true': 0.385, 'threequarter': 0.65, 'half': 0.45, 'quarter': 0.289, 'scrambled': 0.401, 'none': 0.233}
 mistralsmall {'nf_r0': 32, 'nf_removed': 26, 'new': 20, 'new_exists': 17, 'new_other': 3, 'nf_kept': 6} lenient {'true': 0.479, 'threequarter': 0.462, 'half': 0.391, 'quarter': 0.464, 'scrambled': 0.374, 'none': 0.35}
 qwen30b {'nf_r0': 40, 'nf_removed': 19, 'new': 4, 'new_other': 1, 'nf_kept': 21, 'new_exists': 3} lenient {'true': 0.411, 'threequarter': 0.299, 'half': 0.355, 'quarter': 0.35, 'scrambled': 0.366, 'none': 0.341}
-sonnet {'new': 1, 'new_exists': 1} lenient {'true': 0.983, 'threequarter': 0.879, 'half': 0.769, 'quarter': 0.727, 'scrambled': 0.573, 'none': 0.796}
+sonnet {'new': 1, 'new_exists': 1} lenient {'true': 0.983, 'threequarter': 0.879, 'half': 0.769, 'quarter': 0.727, 'scrambled': 0.573, 'none': 0.796, 'passage': 0.951}

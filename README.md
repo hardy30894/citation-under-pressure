@@ -257,7 +257,8 @@ that revision alone lifts Sonnet 5 only to 0.595 and GPT-5.4-mini to
 p = 0.0003) but nothing distinguishable for GPT-5.4-mini. A
 per-quotation trace (`results/loop_transitions.json`) shows the
 mechanism directly: of Sonnet 5's 89 flagged quotations, 4 were
-corrected, 13 lost their quotation marks, and 72 were deleted; under
+corrected in place and 8 replaced by a new accurate quotation from the
+same case, 13 lost their quotation marks, and 64 were deleted; under
 false feedback it removed 56 of its 68 correct quotations. Mixed
 arms in which each feedback line is true with probability 0.25, 0.5,
 or 0.75 give the dose-response: Sonnet 5 removed 17, 24, 38, 53, and
@@ -279,10 +280,18 @@ closed-book model cannot consult the opinion it is told it misquoted,
 the true-feedback loop was rerun from the grounded combined-condition
 drafts of Sonnet 5 and DeepSeek with the verbatim excerpts of the ten
 retrieved authorities kept in the prompt (`src/loop_arm.py --grounded`):
-of Sonnet 5's 92 flagged quotations 1 was corrected, 17 dequoted, 56
-deleted, and 18 left (strict 0.496 to 0.837); DeepSeek corrected 3 of
-89. The models delete in answer to a flag whether or not they hold the
-source.
+repair (in place or by a replacement quotation on the same citation)
+moved from 12 to 17 of Sonnet 5's 92 flags and from 2 to 6 of DeepSeek's
+89, with removal still the majority response. A passage arm then put
+the evidence in the flag itself: each quotation line carried the closest
+passage of the cited opinion, found by the same window search the
+retrieval arm uses (`--arms passage`). Repair tripled, to 36 of 89 for
+Sonnet 5 (9 in place, 27 replaced) and 22 of 183 for DeepSeek against 2,
+with final strict rates of 0.944 and 0.877 over more surviving
+quotations (110 scored against 73 for Sonnet 5); yet 52 of Sonnet 5's
+flags and 159 of DeepSeek's still ended in deletion or dequoting. A loop
+should hand the model the passage; even then it deletes most of what is
+flagged.
 
 Three instrument checks answer the questions a reader will ask of the
 strict standard and the index. Refitting every contrast on the lenient

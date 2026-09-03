@@ -18,6 +18,9 @@ Ledger note: loop arm runs on the combo cell only (budget); recorded at
 freeze in LEDGER.md. --grounded reruns the true arm from the grounded
 combo drafts with the ten retrieved passages kept in the conversation,
 so the model has source text to correct against (results/gloop_<model>/).
+The passage arm keeps the closed-book drafts but makes each quotation
+line carry the closest passage of the cited opinion, the verifier
+handing over evidence instead of a verdict.
 """
 
 import argparse
@@ -65,6 +68,14 @@ FB_HEAD = (
     "full argument section, correcting ONLY these problems while "
     "preserving your argument:\n"
 )
+# passage arm: the quotation line carries the closest passage of the
+# cited opinion, so the model holds the evidence rather than a verdict
+FB_QUOTE_PASSAGE = (
+    "The quoted passage beginning “{q}…” does not appear "
+    "verbatim in the opinion of {c}. The closest passage in that opinion "
+    "reads: “{p}”. Quote the opinion's actual language or remove the "
+    "quotation marks."
+)
 # no-feedback control: same number of revision rounds, no verifier content
 FB_NONE = (
     "Please revise the full argument section, improving it as you see fit "
@@ -78,19 +89,46 @@ def score(text, checker, qchk_store):
     return recs, rates, qres
 
 
-def feedback_lines(recs, qres, arm, rng):
+def closest_passage(quote, opinion, width=45, step=10):
+    """The width-word window of the opinion sharing the most distinctive
+    words (five letters or more) with the quotation, in the opinion's own
+    wording; the same window search the retrieval arm uses."""
+    words = opinion.split()
+    qwords = {w.lower().strip(".,;:()\"'“”") for w in quote.split() if len(w) >= 5}
+    if len(words) <= width:
+        return " ".join(words)
+    best, best_score = 0, -1
+    for i in range(0, len(words) - width + 1, step):
+        chunk = words[i:i + width]
+        score = sum(1 for w in chunk if w.lower().strip(".,;:()\"'“”") in qwords)
+        if score > best_score:
+            best, best_score = i, score
+    return " ".join(words[best:best + width])
+
+
+def feedback_lines(recs, qres, arm, rng, store=None):
     true_lines = []
     for r in recs:
         if r["verdict"] == "not_found":
             true_lines.append(FB_CITE.format(c=r["citation"]))
+    by_cite = {r["citation"]: r for r in recs}
     for r in qres:
         if r["verdict"] in ("inaccurate", "near_miss") and r["citation"]:
+            if arm == "passage" and store is not None:
+                rec = by_cite.get(r["citation"], {})
+                opinion = store.get(rec.get("cluster_id"), volume=rec.get("volume"),
+                                    reporter=rec.get("reporter"), page=rec.get("page")) if rec else None
+                if opinion:
+                    true_lines.append(FB_QUOTE_PASSAGE.format(
+                        q=r["quote"][:60], c=r["citation"],
+                        p=closest_passage(r["quote"], opinion)))
+                    continue
             true_lines.append(
                 FB_QUOTE.format(q=r["quote"][:60], c=r["citation"])
             )
     if arm == "none":
         return ["__NONE__"] if true_lines else []
-    if arm == "true" or not true_lines:
+    if arm in ("true", "passage") or not true_lines:
         return true_lines
     # scrambled: same count, templates aimed at VERIFIED items;
     # quarter / half / threequarter: each line kept with that probability
@@ -202,7 +240,7 @@ def main():
                 for rnd in range(MAX_ROUNDS + 1):
                     recs, rates, qres = score(draft, checker, store)
                     rounds.append(summarize(recs, rates, qres))
-                    lines = feedback_lines(recs, qres, arm, rng)
+                    lines = feedback_lines(recs, qres, arm, rng, store)
                     true_left = feedback_lines(recs, qres, "true", rng)
                     if not true_left:
                         converged = True

@@ -80,7 +80,7 @@ def fig2():
     trans = json.loads((HERE / "results/loop_transitions.json").read_text())
     arms = [("none", "none"), ("scrambled", "0"), ("quarter", "0.25"),
             ("half", "0.5"), ("threequarter", "0.75"), ("true", "1")]
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.15))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.08))
     for mi, (model, rows) in enumerate(data.items()):
         strict, removed = [], []
         for arm, _ in arms:

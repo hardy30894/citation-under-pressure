@@ -11,7 +11,8 @@
    "scrambled": 3,
    "half": 7,
    "threequarter": 6,
-   "quarter": 2
+   "quarter": 2,
+   "passage": 5
   },
   "r0_flags": {
    "inaccurate": 121,
@@ -23,7 +24,8 @@
    "half": 0.454,
    "quarter": 0.458,
    "scrambled": 0.381,
-   "none": 0.389
+   "none": 0.389,
+   "passage": 0.895
   },
   "final_strict": {
    "true": 0.645,
@@ -31,7 +33,8 @@
    "half": 0.325,
    "quarter": 0.247,
    "scrambled": 0.153,
-   "none": 0.152
+   "none": 0.152,
+   "passage": 0.877
   }
  },
  "gpt54mini": {
@@ -241,7 +244,8 @@
    "half": 0.769,
    "quarter": 0.727,
    "scrambled": 0.573,
-   "none": 0.796
+   "none": 0.796,
+   "passage": 0.951
   },
   "final_strict": {
    "true": 0.974,
@@ -249,7 +253,8 @@
    "half": 0.664,
    "quarter": 0.508,
    "scrambled": 0.266,
-   "none": 0.595
+   "none": 0.595,
+   "passage": 0.944
   }
  }
 }

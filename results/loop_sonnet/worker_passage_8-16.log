@@ -1,0 +1,10 @@
+empty completion r1:1997-033:passage (attempt 1)
+1997-033:passage         rounds=3 conv=True strict 0.4->1.0 exist 1.0->1.0 cost=$21.770
+1998-085:passage         rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$21.809
+1997-021:passage         rounds=4 conv=True strict 0.167->1.0 exist 1.0->1.0 cost=$22.208
+2005-087:passage         rounds=2 conv=True strict 0.222->1.0 exist 1.0->1.0 cost=$22.374
+2012-031:passage         rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$22.576
+2011-010:passage         rounds=4 conv=True strict 0.6->1.0 exist 1.0->1.0 cost=$22.960
+2005-074:passage         rounds=1 conv=True strict 1.0->1.0 exist 1.0->1.0 cost=$22.960
+2001-013:passage         rounds=4 conv=False strict 0.0->0.667 exist 1.0->1.0 cost=$23.571
+done: 8 episodes, $23.571

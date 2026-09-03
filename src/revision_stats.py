@@ -130,7 +130,7 @@ def _mean(xs):
 
 loop_counts = {}
 for model, rows in loops.items():
-    for arm in ("true", "scrambled", "none", "half", "quarter", "threequarter"):
+    for arm in ("true", "scrambled", "none", "half", "quarter", "threequarter", "passage"):
         sub = [r for r in rows if r["arm"] == arm]
         if not sub:
             continue

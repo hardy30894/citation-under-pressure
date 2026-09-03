@@ -450,3 +450,18 @@ before or after seeing the relevant data. Nothing is deleted.
   as the checker's own error. With real case names as sources the
   same-draft check rises from 151 to 294 of 620 (Sonnet 5: 83 of 123).
   Paper, README, and Discussion false-alarm rate follow the macros.
+- 2026-09-04 (passage arm and the replaced outcome): loop_arm.py gains
+  a passage arm in which each quotation line carries the closest passage
+  of the cited opinion (closest_passage, the retrieval arm's window
+  search); run on Sonnet 5 and DeepSeek, 24 matters, $3.17. The trace
+  gains a "replaced" outcome (a flagged quotation deleted while a new
+  accurate quotation appeared on the same citation, each new quotation
+  claimed once), and Table 2's corrected column is now in place plus
+  replaced. Closed-book true feedback: Sonnet 5 4 in place + 8 replaced
+  of 89, DeepSeek 2 of 183; grounded loop: 17 of 92 and 6 of 89; passage
+  arm: 36 of 89 (9 + 27) and 22 of 183, final strict 0.944 and 0.877
+  over 110 and more surviving quotations, 52 and 159 flags still deleted
+  or dequoted. Abstract, Section 5, Discussion, and Conclusion updated;
+  "For courts" folded into "What evaluations should include"; Figure 2
+  at 1.08in; the Section 5 thesis sentence dropped as redundant with the
+  Discussion.

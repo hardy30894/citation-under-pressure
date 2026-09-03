@@ -1,0 +1,9 @@
+1992-109:passage         rounds=4 conv=False strict 0.3->0.857 exist 1.0->1.0 cost=$21.218
+2009-045:passage         rounds=2 conv=True strict 0.667->1.0 exist 1.0->1.0 cost=$21.259
+1997-046:passage         rounds=2 conv=True strict 0.5->1.0 exist 1.0->1.0 cost=$21.594
+2020-032:passage         rounds=2 conv=True strict 0.333->1.0 exist 1.0->1.0 cost=$21.893
+2015-055:passage         rounds=2 conv=True strict 0.778->1.0 exist 1.0->1.0 cost=$22.093
+2013-058:passage         rounds=4 conv=False strict 0.2->0.8 exist 1.0->1.0 cost=$22.741
+2014-024:passage         rounds=4 conv=False strict 0.2->0.667 exist 1.0->1.0 cost=$23.430
+1990-075:passage         rounds=4 conv=True strict 0.4->1.0 exist 1.0->1.0 cost=$23.804
+done: 8 episodes, $23.804

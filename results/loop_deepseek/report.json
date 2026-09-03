@@ -2,8 +2,8 @@
   "model": "deepseek",
   "episodes": [
     {
-      "episode": "1997-033:quarter",
-      "arm": "quarter",
+      "episode": "1997-033:passage",
+      "arm": "passage",
       "matter": "1997-033",
       "side": "petitioner",
       "rounds": [
@@ -18,55 +18,14 @@
           "strict": 0.5
         },
         {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 3,
-          "q_accurate": 1,
-          "q_near": 0,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.333
-        },
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
-          "q_accurate": 1,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.5
-        },
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
-          "q_accurate": 1,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.5
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "1997-033:threequarter",
-      "arm": "threequarter",
-      "matter": "1997-033",
-      "side": "petitioner",
-      "rounds": [
-        {
           "n_citations": 10,
           "existence_rate": 1.0,
-          "n_quotes": 4,
+          "n_quotes": 5,
           "q_accurate": 2,
           "q_near": 0,
-          "q_inacc": 2,
+          "q_inacc": 3,
           "q_unver": 0,
-          "strict": 0.5
+          "strict": 0.4
         },
         {
           "n_citations": 10,
@@ -84,8 +43,8 @@
       "dropped": false
     },
     {
-      "episode": "1998-085:quarter",
-      "arm": "quarter",
+      "episode": "1998-085:passage",
+      "arm": "passage",
       "matter": "1998-085",
       "side": "respondent",
       "rounds": [
@@ -100,58 +59,7 @@
           "strict": 0.0
         },
         {
-          "n_citations": 4,
-          "existence_rate": 1.0,
-          "n_quotes": 15,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 8,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 1.0,
-          "n_quotes": 7,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 6,
-          "existence_rate": 1.0,
-          "n_quotes": 7,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "1998-085:threequarter",
-      "arm": "threequarter",
-      "matter": "1998-085",
-      "side": "respondent",
-      "rounds": [
-        {
           "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 16,
-          "q_accurate": 0,
-          "q_near": 3,
-          "q_inacc": 8,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 8,
           "existence_rate": 1.0,
           "n_quotes": 5,
           "q_accurate": 0,
@@ -166,8 +74,8 @@
       "dropped": false
     },
     {
-      "episode": "1997-021:quarter",
-      "arm": "quarter",
+      "episode": "1997-021:passage",
+      "arm": "passage",
       "matter": "1997-021",
       "side": "petitioner",
       "rounds": [
@@ -182,65 +90,24 @@
           "strict": 0.0
         },
         {
-          "n_citations": 8,
+          "n_citations": 9,
           "existence_rate": 1.0,
           "n_quotes": 8,
           "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 5,
+          "q_near": 3,
+          "q_inacc": 3,
           "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 8,
+          "n_citations": 9,
           "existence_rate": 1.0,
           "n_quotes": 7,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 4,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 1.0,
-          "n_quotes": 8,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 5,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "1997-021:threequarter",
-      "arm": "threequarter",
-      "matter": "1997-021",
-      "side": "petitioner",
-      "rounds": [
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 8,
-          "q_accurate": 0,
-          "q_near": 4,
+          "q_accurate": 1,
+          "q_near": 2,
           "q_inacc": 2,
           "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 9,
-          "q_accurate": 0,
-          "q_near": 6,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
+          "strict": 0.2
         },
         {
           "n_citations": 9,
@@ -258,59 +125,8 @@
       "dropped": false
     },
     {
-      "episode": "2005-087:quarter",
-      "arm": "quarter",
-      "matter": "2005-087",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 11,
-          "existence_rate": 1.0,
-          "n_quotes": 18,
-          "q_accurate": 0,
-          "q_near": 9,
-          "q_inacc": 9,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 1.0,
-          "n_quotes": 4,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 1,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 1.0,
-          "n_quotes": 4,
-          "q_accurate": 0,
-          "q_near": 3,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 6,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "2005-087:threequarter",
-      "arm": "threequarter",
+      "episode": "2005-087:passage",
+      "arm": "passage",
       "matter": "2005-087",
       "side": "respondent",
       "rounds": [
@@ -340,8 +156,8 @@
       "dropped": false
     },
     {
-      "episode": "2012-031:quarter",
-      "arm": "quarter",
+      "episode": "2012-031:passage",
+      "arm": "passage",
       "matter": "2012-031",
       "side": "petitioner",
       "rounds": [
@@ -354,82 +170,31 @@
           "q_inacc": 7,
           "q_unver": 0,
           "strict": 0.231
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "2012-031:threequarter",
-      "arm": "threequarter",
-      "matter": "2012-031",
-      "side": "petitioner",
-      "rounds": [
-        {
-          "n_citations": 11,
-          "existence_rate": 1.0,
-          "n_quotes": 13,
-          "q_accurate": 3,
-          "q_near": 3,
-          "q_inacc": 7,
-          "q_unver": 0,
-          "strict": 0.231
-        },
-        {
-          "n_citations": 11,
-          "existence_rate": 1.0,
-          "n_quotes": 13,
-          "q_accurate": 6,
-          "q_near": 3,
-          "q_inacc": 4,
-          "q_unver": 0,
-          "strict": 0.462
-        },
-        {
-          "n_citations": 11,
-          "existence_rate": 1.0,
-          "n_quotes": 13,
-          "q_accurate": 6,
-          "q_near": 3,
-          "q_inacc": 4,
-          "q_unver": 0,
-          "strict": 0.462
         },
         {
           "n_citations": 10,
           "existence_rate": 1.0,
-          "n_quotes": 4,
+          "n_quotes": 6,
+          "q_accurate": 4,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.8
+        },
+        {
+          "n_citations": 10,
+          "existence_rate": 1.0,
+          "n_quotes": 7,
+          "q_accurate": 4,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.8
+        },
+        {
+          "n_citations": 10,
+          "existence_rate": 1.0,
+          "n_quotes": 5,
           "q_accurate": 4,
           "q_near": 0,
           "q_inacc": 0,
@@ -442,8 +207,8 @@
       "dropped": false
     },
     {
-      "episode": "2011-010:quarter",
-      "arm": "quarter",
+      "episode": "2011-010:passage",
+      "arm": "passage",
       "matter": "2011-010",
       "side": "respondent",
       "rounds": [
@@ -460,32 +225,32 @@
         {
           "n_citations": 13,
           "existence_rate": 1.0,
-          "n_quotes": 16,
-          "q_accurate": 3,
-          "q_near": 6,
-          "q_inacc": 5,
+          "n_quotes": 5,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 3,
           "q_unver": 0,
-          "strict": 0.214
+          "strict": 0.0
         },
         {
-          "n_citations": 9,
+          "n_citations": 13,
           "existence_rate": 1.0,
-          "n_quotes": 8,
-          "q_accurate": 2,
-          "q_near": 3,
-          "q_inacc": 1,
+          "n_quotes": 5,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 3,
           "q_unver": 0,
-          "strict": 0.333
+          "strict": 0.0
         },
         {
-          "n_citations": 7,
+          "n_citations": 13,
           "existence_rate": 1.0,
-          "n_quotes": 8,
-          "q_accurate": 2,
-          "q_near": 3,
+          "n_quotes": 3,
+          "q_accurate": 0,
+          "q_near": 0,
           "q_inacc": 1,
           "q_unver": 0,
-          "strict": 0.333
+          "strict": 0.0
         }
       ],
       "converged": false,
@@ -493,59 +258,8 @@
       "dropped": false
     },
     {
-      "episode": "2011-010:threequarter",
-      "arm": "threequarter",
-      "matter": "2011-010",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 13,
-          "existence_rate": 1.0,
-          "n_quotes": 16,
-          "q_accurate": 3,
-          "q_near": 6,
-          "q_inacc": 5,
-          "q_unver": 0,
-          "strict": 0.214
-        },
-        {
-          "n_citations": 13,
-          "existence_rate": 1.0,
-          "n_quotes": 14,
-          "q_accurate": 4,
-          "q_near": 4,
-          "q_inacc": 5,
-          "q_unver": 0,
-          "strict": 0.308
-        },
-        {
-          "n_citations": 12,
-          "existence_rate": 1.0,
-          "n_quotes": 15,
-          "q_accurate": 4,
-          "q_near": 4,
-          "q_inacc": 6,
-          "q_unver": 0,
-          "strict": 0.286
-        },
-        {
-          "n_citations": 11,
-          "existence_rate": 1.0,
-          "n_quotes": 15,
-          "q_accurate": 4,
-          "q_near": 4,
-          "q_inacc": 5,
-          "q_unver": 0,
-          "strict": 0.308
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "2005-074:quarter",
-      "arm": "quarter",
+      "episode": "2005-074:passage",
+      "arm": "passage",
       "matter": "2005-074",
       "side": "petitioner",
       "rounds": [
@@ -556,72 +270,72 @@
           "q_accurate": 0,
           "q_near": 1,
           "q_inacc": 10,
+          "q_unver": 2,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 7,
+          "existence_rate": 1.0,
+          "n_quotes": 10,
+          "q_accurate": 4,
+          "q_near": 0,
+          "q_inacc": 4,
+          "q_unver": 0,
+          "strict": 0.5
+        },
+        {
+          "n_citations": 7,
+          "existence_rate": 1.0,
+          "n_quotes": 6,
+          "q_accurate": 4,
+          "q_near": 0,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 1.0
+        }
+      ],
+      "converged": true,
+      "cap_exhausted": false,
+      "dropped": false
+    },
+    {
+      "episode": "2001-013:passage",
+      "arm": "passage",
+      "matter": "2001-013",
+      "side": "respondent",
+      "rounds": [
+        {
+          "n_citations": 10,
+          "existence_rate": 0.9,
+          "n_quotes": 10,
+          "q_accurate": 0,
+          "q_near": 6,
+          "q_inacc": 2,
           "q_unver": 2,
           "strict": 0.0
         },
         {
           "n_citations": 10,
-          "existence_rate": 0.9,
-          "n_quotes": 14,
-          "q_accurate": 0,
-          "q_near": 0,
-          "q_inacc": 8,
-          "q_unver": 4,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
           "existence_rate": 1.0,
-          "n_quotes": 8,
+          "n_quotes": 5,
           "q_accurate": 0,
           "q_near": 2,
-          "q_inacc": 4,
-          "q_unver": 2,
+          "q_inacc": 3,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 6,
-          "existence_rate": 0.8333,
-          "n_quotes": 8,
+          "n_citations": 10,
+          "existence_rate": 1.0,
+          "n_quotes": 1,
           "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 5,
-          "q_unver": 2,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "2005-074:threequarter",
-      "arm": "threequarter",
-      "matter": "2005-074",
-      "side": "petitioner",
-      "rounds": [
-        {
-          "n_citations": 9,
-          "existence_rate": 0.8889,
-          "n_quotes": 15,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 10,
-          "q_unver": 2,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 7,
-          "existence_rate": 0.8571,
-          "n_quotes": 13,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 10,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
+          "n_citations": 10,
           "existence_rate": 1.0,
           "n_quotes": 0,
           "q_accurate": 0,
@@ -633,110 +347,8 @@
       ],
       "converged": true,
       "cap_exhausted": false,
-      "dropped": false
-    },
-    {
-      "episode": "2001-013:quarter",
-      "arm": "quarter",
-      "matter": "2001-013",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 10,
-          "existence_rate": 0.9,
-          "n_quotes": 10,
-          "q_accurate": 0,
-          "q_near": 6,
-          "q_inacc": 2,
-          "q_unver": 2,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 8,
-          "existence_rate": 0.875,
-          "n_quotes": 5,
-          "q_accurate": 0,
-          "q_near": 3,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 0.8571,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 0,
-          "q_unver": 0,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 7,
-          "existence_rate": 0.8571,
-          "n_quotes": 3,
-          "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
-      "dropped": false
-    },
-    {
-      "episode": "2001-013:threequarter",
-      "arm": "threequarter",
-      "matter": "2001-013",
-      "side": "respondent",
-      "rounds": [
-        {
-          "n_citations": 10,
-          "existence_rate": 0.9,
-          "n_quotes": 10,
-          "q_accurate": 0,
-          "q_near": 6,
-          "q_inacc": 2,
-          "q_unver": 2,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 7,
-          "q_accurate": 0,
-          "q_near": 4,
-          "q_inacc": 2,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 5,
-          "q_accurate": 0,
-          "q_near": 3,
-          "q_inacc": 1,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 4,
-          "q_accurate": 0,
-          "q_near": 3,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.0
-        }
-      ],
-      "converged": false,
-      "cap_exhausted": true,
       "dropped": false
     }
   ],
-  "cost": 0.7047
+  "cost": 0.7658
 }

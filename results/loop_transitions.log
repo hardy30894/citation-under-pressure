@@ -1,6 +1,7 @@
-deepseek {'true:flagged:deleted': 101, 'true:flagged:dequoted': 67, 'true:flagged:edited:flagged': 2, 'true:flagged:kept:flagged': 13}
+deepseek {'true:flagged:deleted': 99, 'true:flagged:dequoted': 67, 'true:flagged:edited:flagged': 2, 'true:flagged:kept:flagged': 13, 'true:flagged:replaced': 2}
 gpt54mini {'true:flagged:deleted': 21, 'true:flagged:dequoted': 5, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:flagged': 9}
-llama4mav {'true:flagged:deleted': 28, 'true:flagged:dequoted': 9, 'true:flagged:edited:flagged': 1, 'true:flagged:kept:flagged': 15}
-mistralsmall {'true:flagged:deleted': 39, 'true:flagged:dequoted': 12, 'true:flagged:edited:flagged': 14, 'true:flagged:kept:flagged': 65}
+grok43 {'true:flagged:deleted': 19, 'true:flagged:dequoted': 27}
+llama4mav {'true:flagged:deleted': 27, 'true:flagged:dequoted': 9, 'true:flagged:edited:flagged': 1, 'true:flagged:kept:flagged': 15, 'true:flagged:replaced': 1}
+mistralsmall {'true:flagged:deleted': 36, 'true:flagged:dequoted': 12, 'true:flagged:edited:flagged': 14, 'true:flagged:kept:flagged': 65, 'true:flagged:replaced': 3}
 qwen30b {'true:flagged:deleted': 30, 'true:flagged:dequoted': 11, 'true:flagged:edited:flagged': 7, 'true:flagged:kept:flagged': 122}
-sonnet {'true:flagged:deleted': 72, 'true:flagged:dequoted': 13, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:accurate': 2}
+sonnet {'true:flagged:deleted': 64, 'true:flagged:dequoted': 13, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:accurate': 2, 'true:flagged:replaced': 8}

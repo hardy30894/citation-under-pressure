@@ -1311,6 +1311,16 @@
    "exist_r0": 0.971,
    "exist_final": 1.0
   },
+  "deepseek:passage": {
+   "cites_r0": 248,
+   "cites_final": 244,
+   "quotes_scored_r0": 211,
+   "quotes_scored_final": 42,
+   "accurate_r0": 28,
+   "accurate_final": 39,
+   "exist_r0": 0.971,
+   "exist_final": 1.0
+  },
   "gpt54mini:true": {
    "cites_r0": 366,
    "cites_final": 354,
@@ -1668,6 +1678,16 @@
    "quotes_scored_final": 76,
    "accurate_r0": 68,
    "accurate_final": 65,
+   "exist_r0": 1.0,
+   "exist_final": 1.0
+  },
+  "sonnet:passage": {
+   "cites_r0": 220,
+   "cites_final": 219,
+   "quotes_scored_r0": 157,
+   "quotes_scored_final": 110,
+   "accurate_r0": 68,
+   "accurate_final": 103,
    "exist_r0": 1.0,
    "exist_final": 1.0
   }

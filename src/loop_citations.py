@@ -37,7 +37,7 @@ from local_text import ChainTextStore  # noqa: E402
 from pilot import DB  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
-ARMS = ("true", "threequarter", "half", "quarter", "scrambled", "none")
+ARMS = ("true", "threequarter", "half", "quarter", "scrambled", "none", "passage")
 
 
 def cites(recs):
