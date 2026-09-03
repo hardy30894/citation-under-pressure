@@ -237,3 +237,4 @@
 {"ts": 1788406841.472277, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1994-059:quota", "in_tokens": 4431, "out_tokens": 1107, "est_cost": 0.001657, "latency_ms": 102394}
 {"ts": 1788406898.7082849, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1994-059:temporal", "in_tokens": 4445, "out_tokens": 637, "est_cost": 0.001332, "latency_ms": 57179}
 {"ts": 1788406945.0786471, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1994-059:stakes", "in_tokens": 4449, "out_tokens": 538, "est_cost": 0.001264, "latency_ms": 46332}
+{"ts": 1788406957.250498, "client": "drafter-llama4mav", "model": "meta-llama/llama-4-maverick", "tag": "draft:1994-059:combo", "in_tokens": 4489, "out_tokens": 965, "est_cost": 0.00167, "latency_ms": 12137}

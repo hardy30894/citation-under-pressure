@@ -263,6 +263,41 @@ if gr.exists():
         emit2("runsQuoteOrMin", f"{min(qs):.2f}")
         emit2("runsQuoteOrMax", f"{max(qs):.2f}")
 
+ph = R / "phrasing_stats.json"
+if ph.exists():
+    ps = json.loads(ph.read_text())
+    emit2("phrSurvA", str(len(ps["survivors_a"])))
+    emit2("phrMaxStrictDiff", f"{100 * ps['max_strict_diff_ab']:.0f}")
+    emit2("phrMaxExistDiff", f"{100 * ps['max_exist_diff_ab']:.0f}")
+    emit2("phrSurvB", str(len(ps["survivors_b"])))
+    emit2("phrAinB", str(len(ps["a_replicated_in_b"])))
+    emit2("phrAinPooled", str(len(ps["a_replicated_pooled"])))
+    emit2("phrSurvPooled", str(len(ps["survivors_pooled"])))
+    qc = [k for k in ps["survivors_pooled"] if k.startswith("quote:") and k.endswith(":combo")]
+    emit2("phrPooledQuoteCombo", str(len(qc)))
+    ec = [k for k in ps["survivors_pooled"] if k.startswith("citation:")]
+    emit2("phrPooledCiteModels", str(len({k.split(":")[1] for k in ec})))
+    for key, v in ps["cells_b"].items():
+        m, c = key.split(":")
+        mk = ALPHA.get(m)
+        if mk and c in CONDS:
+            if v["exist"] is not None:
+                emit2(f"existB{mk}{CONDS[c]}", fmt3(v["exist"]))
+            if v["strict"] is not None:
+                emit2(f"strictB{mk}{CONDS[c]}", fmt3(v["strict"]))
+    for key, v in ps["gee_pooled"].items():
+        kind, m, c = key.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            kk = "Cite" if kind == "citation" else "Quote"
+            emit2(f"pooledOr{kk}{mk}{CONDS[c]}", f"{v['OR']:.2f}")
+            hp = ps["holm_pooled"][key]
+            emit2(f"pooledHolm{kk}{mk}{CONDS[c]}", f"{hp:.3f}" if hp >= 0.001 else "<0.001")
+    ors = [ps["gee_pooled"][k]["OR"] for k in qc]
+    if ors:
+        emit2("phrPooledQuoteOrMin", f"{min(ors):.2f}")
+        emit2("phrPooledQuoteOrMax", f"{max(ors):.2f}")
+
 lt = R / "loop_transitions.json"
 if lt.exists():
     t = json.loads(lt.read_text())

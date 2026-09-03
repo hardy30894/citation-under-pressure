@@ -198,3 +198,29 @@ before or after seeing the relevant data. Nothing is deleted.
   626; the top of the range is Sonnet 5, GPT-5.4-mini, and Grok 4.3
   (highest baseline existence). The replication and paraphrase arms
   cover the six original models and say so. Project spend about $60.
+- 2026-09-03 (award pass, second round; all after the pre-registered
+  analysis, all reported as robustness beside the primary fit):
+  (1) Precision arms at 0.25 and 0.75 on all seven models; Figure 2 is
+  now the precision curve (final accuracy and share of correct
+  quotations removed against verifier precision, with no feedback as
+  the leftmost point) and Table 3 was removed as redundant with it.
+  Sonnet 5's correct quotations removed: 17, 24, 38, 53, 56 of 68 at
+  precisions 1, 0.75, 0.5, 0.25, 0. (2) Two further generations of the
+  baseline and combined drafts on all 48 matters and all seven models
+  ($14.60): no identical drafts except 22 of 96 for Mistral Small;
+  cell SD at most 0.05 (existence) and 0.06 (strict); the combined
+  quotation contrast kept its sign in every run for all seven models;
+  pooling three runs with a run effect (src/gee_pooled_runs.py), the
+  combined fall survives Holm for six of seven models (OR 0.33 to
+  0.50), Sonnet 5 excepted; Sonnet's existence contrast reaches
+  corrected p = 0.005 on 7 not found in 975 against 5 in 1,324, still
+  reported as a null with the memorization alternative untested.
+  (3) The second template on all 48 matters and all seven models
+  ($19.61): 12 contrasts survive under template B, 5 of the 8
+  template-A survivors; pooling both templates with a template effect
+  (src/gee.py --pooled, src/phrasing_stats.py), all 8 survive and the
+  combined fall survives for 6 of 7 models (OR 0.32 to 0.46); cell
+  rates differ between templates by at most 11 points (strict) and 20
+  (existence, Qwen temporal), replacing the 40-point figure from the
+  twelve-matter check. (4) The deletion-is-rational objection is stated
+  and answered in the Discussion. Project spend $93.90 of the $200 cap.

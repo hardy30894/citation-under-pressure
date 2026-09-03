@@ -1,254 +1,361 @@
 {
   "model": "meta-llama/llama-4-maverick",
   "n_rows": 60,
-  "total_cost_usd": 0.3845,
+  "total_cost_usd": 0.3904,
   "rows": [
     {
-      "matter": "2019-024",
+      "matter": "2015-066",
       "side": "petitioner",
       "condition": "baseline",
-      "n_citations": 4,
+      "n_citations": 5,
       "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 7,
-      "quote_verdicts": {
-        "unverifiable": 7
-      },
-      "cite_verdicts": {
-        "exists": 4
-      },
-      "pin_verdicts": {
-        "no_pin": 2,
-        "in_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 2422
-    },
-    {
-      "matter": "2019-024",
-      "side": "petitioner",
-      "condition": "quota",
-      "n_citations": 8,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "unverifiable": 3
-      },
-      "cite_verdicts": {
-        "exists": 8
-      },
-      "pin_verdicts": {
-        "in_range": 6,
-        "out_of_range": 1,
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 3960
-    },
-    {
-      "matter": "2019-024",
-      "side": "petitioner",
-      "condition": "temporal",
-      "n_citations": 2,
-      "existence_rate": 0.5,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
       "n_quotes": 0,
       "quote_verdicts": {},
       "cite_verdicts": {
-        "not_found": 1,
-        "exists": 1
+        "exists": 5
       },
       "pin_verdicts": {
+        "in_range": 3,
         "no_pin": 2
       },
       "abstained": false,
-      "draft_chars": 2223,
+      "draft_chars": 3040
+    },
+    {
+      "matter": "2015-066",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 10,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 10
+      },
+      "pin_verdicts": {
+        "in_range": 6,
+        "no_pin": 4
+      },
+      "abstained": false,
+      "draft_chars": 4162
+    },
+    {
+      "matter": "2015-066",
+      "side": "petitioner",
+      "condition": "temporal",
+      "n_citations": 6,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "pin_verdicts": {
+        "no_pin": 6
+      },
+      "abstained": false,
+      "draft_chars": 2097,
       "temporal": {
-        "checked": 2,
-        "violated": 0
+        "checked": 6,
+        "violated": 1
       }
     },
     {
-      "matter": "2019-024",
+      "matter": "2015-066",
       "side": "petitioner",
       "condition": "stakes",
-      "n_citations": 3,
+      "n_citations": 7,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
-      "n_quotes": 6,
+      "n_quotes": 1,
       "quote_verdicts": {
-        "unverifiable": 6
+        "unverifiable": 1
       },
       "cite_verdicts": {
-        "exists": 3
+        "exists": 7
       },
       "pin_verdicts": {
-        "no_pin": 3
+        "in_range": 3,
+        "no_pin": 4
       },
       "abstained": false,
-      "draft_chars": 2700
+      "draft_chars": 2703
     },
     {
-      "matter": "2019-024",
+      "matter": "2015-066",
       "side": "petitioner",
       "condition": "combo",
       "n_citations": 12,
-      "existence_rate": 0.75,
+      "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 10,
-      "quote_verdicts": {
-        "unverifiable": 8,
-        "inaccurate": 1,
-        "near_miss": 1
-      },
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
       "cite_verdicts": {
-        "exists": 9,
-        "not_found": 3
+        "exists": 12
       },
       "pin_verdicts": {
         "no_pin": 12
       },
       "abstained": false,
-      "draft_chars": 4312,
+      "draft_chars": 3256,
       "temporal": {
         "checked": 12,
         "violated": 2
       }
     },
     {
-      "matter": "2011-027",
+      "matter": "2015-038",
       "side": "respondent",
       "condition": "baseline",
-      "n_citations": 7,
+      "n_citations": 6,
       "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "pin_verdicts": {
+        "no_pin": 6
+      },
+      "abstained": false,
+      "draft_chars": 2834
+    },
+    {
+      "matter": "2015-038",
+      "side": "respondent",
+      "condition": "quota",
+      "n_citations": 18,
+      "existence_rate": 0.8889,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
       "n_quotes": 1,
       "quote_verdicts": {
-        "near_miss": 1
+        "inaccurate": 1
       },
       "cite_verdicts": {
-        "exists": 7
+        "exists": 16,
+        "not_found": 2
       },
       "pin_verdicts": {
-        "in_range": 4,
+        "in_range": 6,
+        "case_unknown": 1,
         "out_of_range": 1,
+        "no_pin": 10
+      },
+      "abstained": false,
+      "draft_chars": 6475
+    },
+    {
+      "matter": "2015-038",
+      "side": "respondent",
+      "condition": "temporal",
+      "n_citations": 2,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "unverifiable": 2
+      },
+      "cite_verdicts": {
+        "exists": 2
+      },
+      "pin_verdicts": {
         "no_pin": 2
       },
       "abstained": false,
-      "draft_chars": 2568
-    },
-    {
-      "matter": "2011-027",
-      "side": "respondent",
-      "condition": "quota",
-      "n_citations": 12,
-      "existence_rate": 0.9167,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 11,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "no_pin": 7,
-        "in_range": 3,
-        "out_of_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 3811
-    },
-    {
-      "matter": "2011-027",
-      "side": "respondent",
-      "condition": "temporal",
-      "n_citations": 3,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "inaccurate": 2
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "no_pin": 3
-      },
-      "abstained": false,
-      "draft_chars": 2897,
+      "draft_chars": 2610,
       "temporal": {
-        "checked": 3,
+        "checked": 2,
         "violated": 0
       }
     },
     {
-      "matter": "2011-027",
+      "matter": "2015-038",
       "side": "respondent",
       "condition": "stakes",
+      "n_citations": 3,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "in_range": 3
+      },
+      "abstained": false,
+      "draft_chars": 3031
+    },
+    {
+      "matter": "2015-038",
+      "side": "respondent",
+      "condition": "combo",
+      "n_citations": 8,
+      "existence_rate": 0.875,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 8,
+      "quote_verdicts": {
+        "near_miss": 4,
+        "unverifiable": 4
+      },
+      "cite_verdicts": {
+        "exists": 7,
+        "not_found": 1
+      },
+      "pin_verdicts": {
+        "no_pin": 8
+      },
+      "abstained": false,
+      "draft_chars": 5050,
+      "temporal": {
+        "checked": 8,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2020-058",
+      "side": "petitioner",
+      "condition": "baseline",
       "n_citations": 5,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
-      "n_quotes": 1,
+      "n_quotes": 5,
       "quote_verdicts": {
-        "near_miss": 1
+        "unverifiable": 4,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "in_range": 3,
+        "no_pin": 2
+      },
+      "abstained": false,
+      "draft_chars": 3398
+    },
+    {
+      "matter": "2020-058",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 9,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 10,
+      "quote_verdicts": {
+        "unverifiable": 6,
+        "inaccurate": 4
+      },
+      "cite_verdicts": {
+        "exists": 9
+      },
+      "pin_verdicts": {
+        "in_range": 9
+      },
+      "abstained": false,
+      "draft_chars": 4379
+    },
+    {
+      "matter": "2020-058",
+      "side": "petitioner",
+      "condition": "temporal",
+      "n_citations": 4,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 9,
+      "quote_verdicts": {
+        "inaccurate": 7,
+        "near_miss": 1,
+        "unverifiable": 1
+      },
+      "cite_verdicts": {
+        "exists": 4
+      },
+      "pin_verdicts": {
+        "no_pin": 4
+      },
+      "abstained": false,
+      "draft_chars": 2973,
+      "temporal": {
+        "checked": 4,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2020-058",
+      "side": "petitioner",
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "unverifiable": 2
       },
       "cite_verdicts": {
         "exists": 5
       },
       "pin_verdicts": {
         "in_range": 2,
-        "out_of_range": 1,
-        "no_pin": 2
+        "no_pin": 3
       },
       "abstained": false,
-      "draft_chars": 2469
+      "draft_chars": 2947
     },
     {
-      "matter": "2011-027",
-      "side": "respondent",
+      "matter": "2020-058",
+      "side": "petitioner",
       "condition": "combo",
-      "n_citations": 9,
-      "existence_rate": 0.8889,
+      "n_citations": 12,
+      "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.3333,
-      "n_quotes": 6,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 5,
       "quote_verdicts": {
-        "inaccurate": 2,
-        "near_miss": 2,
-        "accurate": 2
+        "unverifiable": 4,
+        "inaccurate": 1
       },
       "cite_verdicts": {
-        "exists": 8,
-        "not_found": 1
+        "exists": 12
       },
       "pin_verdicts": {
-        "in_range": 2,
-        "no_pin": 6,
-        "case_unknown": 1
+        "in_range": 9,
+        "no_pin": 2,
+        "out_of_range": 1
       },
       "abstained": false,
-      "draft_chars": 3673,
+      "draft_chars": 4208,
       "temporal": {
-        "checked": 9,
+        "checked": 12,
         "violated": 0
       }
     },
     {
-      "matter": "2016-001",
-      "side": "petitioner",
+      "matter": "2020-005",
+      "side": "respondent",
       "condition": "baseline",
       "n_citations": 3,
       "existence_rate": 1.0,
@@ -265,35 +372,396 @@
         "in_range": 3
       },
       "abstained": false,
-      "draft_chars": 2944
+      "draft_chars": 2575
     },
     {
-      "matter": "2016-001",
-      "side": "petitioner",
+      "matter": "2020-005",
+      "side": "respondent",
       "condition": "quota",
-      "n_citations": 10,
+      "n_citations": 9,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.6667,
+      "n_quotes": 4,
+      "quote_verdicts": {
+        "accurate": 2,
+        "unverifiable": 1,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 9
+      },
+      "pin_verdicts": {
+        "in_range": 5,
+        "no_pin": 4
+      },
+      "abstained": false,
+      "draft_chars": 5155
+    },
+    {
+      "matter": "2020-005",
+      "side": "respondent",
+      "condition": "temporal",
+      "n_citations": 3,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.3333,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "near_miss": 2,
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "no_pin": 2,
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 2778,
+      "temporal": {
+        "checked": 3,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2020-005",
+      "side": "respondent",
+      "condition": "stakes",
+      "n_citations": 4,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.3333,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "near_miss": 1,
+        "inaccurate": 1,
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 4
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "no_pin": 2
+      },
+      "abstained": false,
+      "draft_chars": 3301
+    },
+    {
+      "matter": "2020-005",
+      "side": "respondent",
+      "condition": "combo",
+      "n_citations": 9,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
-      "n_quotes": 5,
+      "n_quotes": 3,
       "quote_verdicts": {
-        "inaccurate": 1,
-        "unverifiable": 4
+        "near_miss": 3
       },
       "cite_verdicts": {
-        "exists": 10
+        "exists": 9
       },
       "pin_verdicts": {
-        "no_pin": 10
+        "no_pin": 9
       },
       "abstained": false,
-      "draft_chars": 4756
+      "draft_chars": 4844,
+      "temporal": {
+        "checked": 9,
+        "violated": 0
+      }
     },
     {
-      "matter": "2016-001",
+      "matter": "2018-070",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 2,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 1,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 2
+      },
+      "pin_verdicts": {
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 2600
+    },
+    {
+      "matter": "2018-070",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 7,
+      "existence_rate": 0.8333,
+      "unresolvable_rate": 0.1429,
+      "quote_rate_strict": 0.5,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "accurate": 1,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 5,
+        "not_found": 1,
+        "unresolvable": 1
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "no_pin": 2,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 3928
+    },
+    {
+      "matter": "2018-070",
       "side": "petitioner",
       "condition": "temporal",
-      "n_citations": 4,
+      "n_citations": 2,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "accurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 2
+      },
+      "pin_verdicts": {
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 2411,
+      "temporal": {
+        "checked": 2,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2018-070",
+      "side": "petitioner",
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 2972
+    },
+    {
+      "matter": "2018-070",
+      "side": "petitioner",
+      "condition": "combo",
+      "n_citations": 7,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "accurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 7
+      },
+      "pin_verdicts": {
+        "no_pin": 7
+      },
+      "abstained": false,
+      "draft_chars": 3781,
+      "temporal": {
+        "checked": 7,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2016-067",
+      "side": "respondent",
+      "condition": "baseline",
+      "n_citations": 3,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "in_range": 3
+      },
+      "abstained": false,
+      "draft_chars": 2648
+    },
+    {
+      "matter": "2016-067",
+      "side": "respondent",
+      "condition": "quota",
+      "n_citations": 7,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "near_miss": 1,
+        "unverifiable": 2
+      },
+      "cite_verdicts": {
+        "exists": 7
+      },
+      "pin_verdicts": {
+        "in_range": 7
+      },
+      "abstained": false,
+      "draft_chars": 3915
+    },
+    {
+      "matter": "2016-067",
+      "side": "respondent",
+      "condition": "temporal",
+      "n_citations": 3,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.25,
+      "n_quotes": 4,
+      "quote_verdicts": {
+        "accurate": 1,
+        "inaccurate": 3
+      },
+      "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "in_range": 2,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 2892,
+      "temporal": {
+        "checked": 3,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2016-067",
+      "side": "respondent",
+      "condition": "stakes",
+      "n_citations": 3,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "unverifiable": 2
+      },
+      "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "no_pin": 1,
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 2525
+    },
+    {
+      "matter": "2016-067",
+      "side": "respondent",
+      "condition": "combo",
+      "n_citations": 13,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 2,
+        "unverifiable": 1
+      },
+      "cite_verdicts": {
+        "exists": 13
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "no_pin": 9
+      },
+      "abstained": false,
+      "draft_chars": 4038,
+      "temporal": {
+        "checked": 13,
+        "violated": 2
+      }
+    },
+    {
+      "matter": "1999-033",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.3333,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "accurate": 1,
+        "inaccurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "no_pin": 3,
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 2672
+    },
+    {
+      "matter": "1999-033",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 11,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "inaccurate": 2,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 11
+      },
+      "pin_verdicts": {
+        "no_pin": 10,
+        "in_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 3867
+    },
+    {
+      "matter": "1999-033",
+      "side": "petitioner",
+      "condition": "temporal",
+      "n_citations": 5,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
@@ -303,23 +771,241 @@
         "inaccurate": 1
       },
       "cite_verdicts": {
-        "exists": 4
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "no_pin": 2,
+        "in_range": 3
+      },
+      "abstained": false,
+      "draft_chars": 1916,
+      "temporal": {
+        "checked": 5,
+        "violated": 1
+      }
+    },
+    {
+      "matter": "1999-033",
+      "side": "petitioner",
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "unverifiable": 2,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 5
       },
       "pin_verdicts": {
         "no_pin": 3,
-        "in_range": 1
+        "in_range": 2
       },
       "abstained": false,
-      "draft_chars": 2709,
+      "draft_chars": 2337
+    },
+    {
+      "matter": "1999-033",
+      "side": "petitioner",
+      "condition": "combo",
+      "n_citations": 8,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.5,
+      "n_quotes": 4,
+      "quote_verdicts": {
+        "unverifiable": 2,
+        "accurate": 1,
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 8
+      },
+      "pin_verdicts": {
+        "no_pin": 8
+      },
+      "abstained": false,
+      "draft_chars": 4174,
       "temporal": {
-        "checked": 4,
+        "checked": 8,
         "violated": 0
       }
     },
     {
-      "matter": "2016-001",
-      "side": "petitioner",
+      "matter": "1990-114",
+      "side": "respondent",
+      "condition": "baseline",
+      "n_citations": 6,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "accurate": 1,
+        "unverifiable": 1
+      },
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "pin_verdicts": {
+        "in_range": 3,
+        "no_pin": 2,
+        "out_of_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 3545
+    },
+    {
+      "matter": "1990-114",
+      "side": "respondent",
+      "condition": "quota",
+      "n_citations": 12,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 12
+      },
+      "pin_verdicts": {
+        "in_range": 8,
+        "no_pin": 3,
+        "out_of_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 4791
+    },
+    {
+      "matter": "1990-114",
+      "side": "respondent",
+      "condition": "temporal",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
+      "quote_verdicts": {
+        "inaccurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "in_range": 5
+      },
+      "abstained": false,
+      "draft_chars": 3258,
+      "temporal": {
+        "checked": 5,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "1990-114",
+      "side": "respondent",
       "condition": "stakes",
+      "n_citations": 6,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 1.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "accurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 6
+      },
+      "pin_verdicts": {
+        "in_range": 4,
+        "no_pin": 1,
+        "out_of_range": 1
+      },
+      "abstained": false,
+      "draft_chars": 3130
+    },
+    {
+      "matter": "1990-114",
+      "side": "respondent",
+      "condition": "combo",
+      "n_citations": 15,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "inaccurate": 1
+      },
+      "cite_verdicts": {
+        "exists": 15
+      },
+      "pin_verdicts": {
+        "out_of_range": 1,
+        "in_range": 6,
+        "no_pin": 8
+      },
+      "abstained": false,
+      "draft_chars": 4103,
+      "temporal": {
+        "checked": 15,
+        "violated": 0
+      }
+    },
+    {
+      "matter": "2020-012",
+      "side": "petitioner",
+      "condition": "baseline",
+      "n_citations": 4,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 4
+      },
+      "pin_verdicts": {
+        "in_range": 3,
+        "no_pin": 1
+      },
+      "abstained": false,
+      "draft_chars": 3062
+    },
+    {
+      "matter": "2020-012",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 9,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "unverifiable": 1,
+        "inaccurate": 2
+      },
+      "cite_verdicts": {
+        "exists": 9
+      },
+      "pin_verdicts": {
+        "no_pin": 3,
+        "in_range": 4,
+        "out_of_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 4298
+    },
+    {
+      "matter": "2020-012",
+      "side": "petitioner",
+      "condition": "temporal",
       "n_citations": 5,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
@@ -332,18 +1018,44 @@
         "exists": 5
       },
       "pin_verdicts": {
-        "in_range": 4,
-        "no_pin": 1
+        "no_pin": 4,
+        "in_range": 1
       },
       "abstained": false,
-      "draft_chars": 3630
+      "draft_chars": 2914,
+      "temporal": {
+        "checked": 5,
+        "violated": 3
+      }
     },
     {
-      "matter": "2016-001",
+      "matter": "2020-012",
+      "side": "petitioner",
+      "condition": "stakes",
+      "n_citations": 5,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "unverifiable": 3
+      },
+      "cite_verdicts": {
+        "exists": 5
+      },
+      "pin_verdicts": {
+        "no_pin": 3,
+        "in_range": 2
+      },
+      "abstained": false,
+      "draft_chars": 2498
+    },
+    {
+      "matter": "2020-012",
       "side": "petitioner",
       "condition": "combo",
-      "n_citations": 16,
-      "existence_rate": 0.75,
+      "n_citations": 12,
+      "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
       "n_quotes": 1,
@@ -351,48 +1063,47 @@
         "unverifiable": 1
       },
       "cite_verdicts": {
-        "not_found": 4,
         "exists": 12
       },
       "pin_verdicts": {
-        "no_pin": 16
+        "no_pin": 12
       },
       "abstained": false,
-      "draft_chars": 4590,
+      "draft_chars": 4013,
       "temporal": {
-        "checked": 16,
-        "violated": 0
+        "checked": 12,
+        "violated": 3
       }
     },
     {
-      "matter": "2010-065",
+      "matter": "2020-067",
       "side": "respondent",
       "condition": "baseline",
-      "n_citations": 6,
+      "n_citations": 3,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 3,
+      "quote_rate_strict": 0.5,
+      "n_quotes": 2,
       "quote_verdicts": {
-        "unverifiable": 1,
-        "accurate": 2
+        "accurate": 1,
+        "near_miss": 1
       },
       "cite_verdicts": {
-        "exists": 6
+        "exists": 3
       },
       "pin_verdicts": {
-        "no_pin": 1,
-        "in_range": 5
+        "in_range": 2,
+        "no_pin": 1
       },
       "abstained": false,
-      "draft_chars": 2767
+      "draft_chars": 2603
     },
     {
-      "matter": "2010-065",
+      "matter": "2020-067",
       "side": "respondent",
       "condition": "quota",
-      "n_citations": 19,
-      "existence_rate": 1.0,
+      "n_citations": 15,
+      "existence_rate": 0.8667,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 1.0,
       "n_quotes": 1,
@@ -400,27 +1111,29 @@
         "accurate": 1
       },
       "cite_verdicts": {
-        "exists": 19
+        "exists": 13,
+        "not_found": 2
       },
       "pin_verdicts": {
-        "no_pin": 12,
-        "in_range": 7
+        "in_range": 4,
+        "no_pin": 10,
+        "case_unknown": 1
       },
       "abstained": false,
-      "draft_chars": 3604
+      "draft_chars": 3274
     },
     {
-      "matter": "2010-065",
+      "matter": "2020-067",
       "side": "respondent",
       "condition": "temporal",
       "n_citations": 2,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
+      "quote_rate_strict": 1.0,
       "n_quotes": 2,
       "quote_verdicts": {
-        "unverifiable": 1,
-        "near_miss": 1
+        "accurate": 1,
+        "unverifiable": 1
       },
       "cite_verdicts": {
         "exists": 2
@@ -429,364 +1142,225 @@
         "no_pin": 2
       },
       "abstained": false,
-      "draft_chars": 2313,
+      "draft_chars": 2399,
       "temporal": {
         "checked": 2,
         "violated": 0
       }
     },
     {
-      "matter": "2010-065",
+      "matter": "2020-067",
       "side": "respondent",
       "condition": "stakes",
-      "n_citations": 8,
+      "n_citations": 4,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 1,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 2,
       "quote_verdicts": {
-        "unverifiable": 1
+        "inaccurate": 1,
+        "near_miss": 1
       },
       "cite_verdicts": {
-        "exists": 8
+        "exists": 4
       },
       "pin_verdicts": {
-        "no_pin": 1,
-        "in_range": 7
+        "in_range": 3,
+        "no_pin": 1
       },
       "abstained": false,
-      "draft_chars": 2451
+      "draft_chars": 2841
     },
     {
-      "matter": "2010-065",
+      "matter": "2020-067",
       "side": "respondent",
       "condition": "combo",
       "n_citations": 11,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.3333,
-      "n_quotes": 3,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 4,
       "quote_verdicts": {
-        "inaccurate": 1,
-        "near_miss": 1,
-        "accurate": 1
+        "unverifiable": 1,
+        "near_miss": 3
       },
       "cite_verdicts": {
         "exists": 11
       },
       "pin_verdicts": {
-        "no_pin": 11
+        "no_pin": 10,
+        "in_range": 1
       },
       "abstained": false,
-      "draft_chars": 4158,
+      "draft_chars": 3609,
       "temporal": {
         "checked": 11,
-        "violated": 4
+        "violated": 0
       }
     },
     {
-      "matter": "1997-044",
+      "matter": "2016-063",
       "side": "petitioner",
       "condition": "baseline",
       "n_citations": 3,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.6667,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "accurate": 2,
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "out_of_range": 1,
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 2469
-    },
-    {
-      "matter": "1997-044",
-      "side": "petitioner",
-      "condition": "quota",
-      "n_citations": 10,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.4,
-      "n_quotes": 5,
-      "quote_verdicts": {
-        "accurate": 2,
-        "inaccurate": 2,
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 10
-      },
-      "pin_verdicts": {
-        "in_range": 8,
-        "out_of_range": 1,
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 4260
-    },
-    {
-      "matter": "1997-044",
-      "side": "petitioner",
-      "condition": "temporal",
-      "n_citations": 2,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
       "n_quotes": 0,
       "quote_verdicts": {},
       "cite_verdicts": {
+        "exists": 3
+      },
+      "pin_verdicts": {
+        "in_range": 1,
+        "no_pin": 2
+      },
+      "abstained": false,
+      "draft_chars": 4421
+    },
+    {
+      "matter": "2016-063",
+      "side": "petitioner",
+      "condition": "quota",
+      "n_citations": 14,
+      "existence_rate": 0.8571,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 3,
+      "quote_verdicts": {
+        "unverifiable": 2,
+        "near_miss": 1
+      },
+      "cite_verdicts": {
+        "exists": 12,
+        "not_found": 2
+      },
+      "pin_verdicts": {
+        "no_pin": 5,
+        "in_range": 8,
+        "case_unknown": 1
+      },
+      "abstained": false,
+      "draft_chars": 4275
+    },
+    {
+      "matter": "2016-063",
+      "side": "petitioner",
+      "condition": "temporal",
+      "n_citations": 2,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": 0.0,
+      "n_quotes": 1,
+      "quote_verdicts": {
+        "near_miss": 1
+      },
+      "cite_verdicts": {
         "exists": 2
       },
       "pin_verdicts": {
         "no_pin": 2
       },
       "abstained": false,
-      "draft_chars": 2653,
+      "draft_chars": 2624,
       "temporal": {
         "checked": 2,
         "violated": 0
       }
     },
     {
-      "matter": "1997-044",
+      "matter": "2016-063",
       "side": "petitioner",
       "condition": "stakes",
-      "n_citations": 4,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "near_miss": 2,
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 4
-      },
-      "pin_verdicts": {
-        "in_range": 2,
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 3220
-    },
-    {
-      "matter": "1997-044",
-      "side": "petitioner",
-      "condition": "combo",
-      "n_citations": 9,
-      "existence_rate": 0.8889,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.1429,
-      "n_quotes": 8,
-      "quote_verdicts": {
-        "inaccurate": 5,
-        "unverifiable": 1,
-        "near_miss": 1,
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 8,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "no_pin": 9
-      },
-      "abstained": false,
-      "draft_chars": 4378,
-      "temporal": {
-        "checked": 9,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2001-070",
-      "side": "respondent",
-      "condition": "baseline",
-      "n_citations": 3,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.6667,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "no_pin": 2,
-        "in_range": 1
-      },
-      "abstained": false,
-      "draft_chars": 2551
-    },
-    {
-      "matter": "2001-070",
-      "side": "respondent",
-      "condition": "quota",
-      "n_citations": 9,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "accurate": 2
-      },
-      "cite_verdicts": {
-        "exists": 9
-      },
-      "pin_verdicts": {
-        "no_pin": 1,
-        "in_range": 8
-      },
-      "abstained": false,
-      "draft_chars": 3229
-    },
-    {
-      "matter": "2001-070",
-      "side": "respondent",
-      "condition": "temporal",
       "n_citations": 6,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.4,
-      "n_quotes": 5,
+      "quote_rate_strict": null,
+      "n_quotes": 2,
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 2,
-        "inaccurate": 1
+        "unverifiable": 2
       },
       "cite_verdicts": {
         "exists": 6
       },
       "pin_verdicts": {
-        "no_pin": 3,
-        "in_range": 3
+        "no_pin": 6
       },
       "abstained": false,
-      "draft_chars": 2914,
-      "temporal": {
-        "checked": 6,
-        "violated": 2
-      }
+      "draft_chars": 3498
     },
     {
-      "matter": "2001-070",
-      "side": "respondent",
-      "condition": "stakes",
-      "n_citations": 4,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 4
-      },
-      "pin_verdicts": {
-        "no_pin": 2,
-        "in_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 2080
-    },
-    {
-      "matter": "2001-070",
-      "side": "respondent",
-      "condition": "combo",
-      "n_citations": 15,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.5714,
-      "n_quotes": 7,
-      "quote_verdicts": {
-        "accurate": 4,
-        "near_miss": 2,
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 15
-      },
-      "pin_verdicts": {
-        "no_pin": 14,
-        "in_range": 1
-      },
-      "abstained": false,
-      "draft_chars": 4085,
-      "temporal": {
-        "checked": 15,
-        "violated": 2
-      }
-    },
-    {
-      "matter": "2000-087",
+      "matter": "2016-063",
       "side": "petitioner",
+      "condition": "combo",
+      "n_citations": 13,
+      "existence_rate": 1.0,
+      "unresolvable_rate": 0.0,
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
+      "cite_verdicts": {
+        "exists": 13
+      },
+      "pin_verdicts": {
+        "no_pin": 13
+      },
+      "abstained": false,
+      "draft_chars": 4936,
+      "temporal": {
+        "checked": 13,
+        "violated": 3
+      }
+    },
+    {
+      "matter": "1994-059",
+      "side": "respondent",
       "condition": "baseline",
       "n_citations": 3,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
       "cite_verdicts": {
         "exists": 3
       },
       "pin_verdicts": {
-        "no_pin": 1,
-        "in_range": 2
+        "no_pin": 3
       },
       "abstained": false,
-      "draft_chars": 2833
+      "draft_chars": 4225
     },
     {
-      "matter": "2000-087",
-      "side": "petitioner",
+      "matter": "1994-059",
+      "side": "respondent",
       "condition": "quota",
-      "n_citations": 9,
+      "n_citations": 17,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "near_miss": 2
-      },
+      "quote_rate_strict": null,
+      "n_quotes": 0,
+      "quote_verdicts": {},
       "cite_verdicts": {
-        "exists": 9
+        "exists": 17
       },
       "pin_verdicts": {
-        "no_pin": 5,
-        "in_range": 4
+        "no_pin": 17
       },
       "abstained": false,
-      "draft_chars": 3634
+      "draft_chars": 4809
     },
     {
-      "matter": "2000-087",
-      "side": "petitioner",
+      "matter": "1994-059",
+      "side": "respondent",
       "condition": "temporal",
       "n_citations": 4,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.2,
-      "n_quotes": 5,
+      "quote_rate_strict": null,
+      "n_quotes": 3,
       "quote_verdicts": {
-        "inaccurate": 3,
-        "accurate": 1,
-        "near_miss": 1
+        "unverifiable": 3
       },
       "cite_verdicts": {
         "exists": 4
@@ -795,779 +1369,172 @@
         "no_pin": 4
       },
       "abstained": false,
-      "draft_chars": 2680,
+      "draft_chars": 3200,
       "temporal": {
         "checked": 4,
         "violated": 0
       }
     },
     {
-      "matter": "2000-087",
-      "side": "petitioner",
-      "condition": "stakes",
-      "n_citations": 1,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 1
-      },
-      "pin_verdicts": {
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 3014
-    },
-    {
-      "matter": "2000-087",
-      "side": "petitioner",
-      "condition": "combo",
-      "n_citations": 12,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.1667,
-      "n_quotes": 9,
-      "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 3,
-        "inaccurate": 2,
-        "unverifiable": 3
-      },
-      "cite_verdicts": {
-        "exists": 12
-      },
-      "pin_verdicts": {
-        "in_range": 5,
-        "no_pin": 6,
-        "out_of_range": 1
-      },
-      "abstained": false,
-      "draft_chars": 4154,
-      "temporal": {
-        "checked": 12,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2013-068",
-      "side": "respondent",
-      "condition": "baseline",
-      "n_citations": 2,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 0,
-      "quote_verdicts": {},
-      "cite_verdicts": {
-        "exists": 2
-      },
-      "pin_verdicts": {
-        "in_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 3357
-    },
-    {
-      "matter": "2013-068",
-      "side": "respondent",
-      "condition": "quota",
-      "n_citations": 10,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 10
-      },
-      "pin_verdicts": {
-        "in_range": 9,
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 4612
-    },
-    {
-      "matter": "2013-068",
-      "side": "respondent",
-      "condition": "temporal",
-      "n_citations": 2,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 2
-      },
-      "pin_verdicts": {
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 2175,
-      "temporal": {
-        "checked": 2,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2013-068",
+      "matter": "1994-059",
       "side": "respondent",
       "condition": "stakes",
-      "n_citations": 5,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 0,
-      "quote_verdicts": {},
-      "cite_verdicts": {
-        "exists": 5
-      },
-      "pin_verdicts": {
-        "in_range": 4,
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 2798
-    },
-    {
-      "matter": "2013-068",
-      "side": "respondent",
-      "condition": "combo",
-      "n_citations": 9,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 9
-      },
-      "pin_verdicts": {
-        "in_range": 7,
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 4407,
-      "temporal": {
-        "checked": 9,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2020-060",
-      "side": "petitioner",
-      "condition": "baseline",
-      "n_citations": 10,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 0,
-      "quote_verdicts": {},
-      "cite_verdicts": {
-        "exists": 10
-      },
-      "pin_verdicts": {
-        "in_range": 2,
-        "out_of_range": 1,
-        "no_pin": 7
-      },
-      "abstained": false,
-      "draft_chars": 3868
-    },
-    {
-      "matter": "2020-060",
-      "side": "petitioner",
-      "condition": "quota",
-      "n_citations": 16,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 5,
-      "quote_verdicts": {
-        "inaccurate": 4,
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "exists": 16
-      },
-      "pin_verdicts": {
-        "in_range": 5,
-        "out_of_range": 1,
-        "no_pin": 10
-      },
-      "abstained": false,
-      "draft_chars": 4741
-    },
-    {
-      "matter": "2020-060",
-      "side": "petitioner",
-      "condition": "temporal",
-      "n_citations": 3,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "inaccurate": 2
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "in_range": 3
-      },
-      "abstained": false,
-      "draft_chars": 2507,
-      "temporal": {
-        "checked": 3,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2020-060",
-      "side": "petitioner",
-      "condition": "stakes",
-      "n_citations": 3,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "in_range": 3
-      },
-      "abstained": false,
-      "draft_chars": 3205
-    },
-    {
-      "matter": "2020-060",
-      "side": "petitioner",
-      "condition": "combo",
-      "n_citations": 10,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 5,
-      "quote_verdicts": {
-        "inaccurate": 4,
-        "near_miss": 1
-      },
-      "cite_verdicts": {
-        "exists": 10
-      },
-      "pin_verdicts": {
-        "no_pin": 10
-      },
-      "abstained": false,
-      "draft_chars": 4864,
-      "temporal": {
-        "checked": 10,
-        "violated": 1
-      }
-    },
-    {
-      "matter": "2003-043",
-      "side": "respondent",
-      "condition": "baseline",
       "n_citations": 4,
-      "existence_rate": 0.75,
+      "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": null,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "unverifiable": 2
-      },
+      "n_quotes": 0,
+      "quote_verdicts": {},
       "cite_verdicts": {
-        "exists": 3,
-        "not_found": 1
+        "exists": 4
       },
       "pin_verdicts": {
-        "in_range": 3,
-        "case_unknown": 1
+        "no_pin": 4
       },
       "abstained": false,
-      "draft_chars": 3088
+      "draft_chars": 2750
     },
     {
-      "matter": "2003-043",
+      "matter": "1994-059",
       "side": "respondent",
-      "condition": "quota",
+      "condition": "combo",
       "n_citations": 8,
-      "existence_rate": 0.875,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "exists": 7,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "in_range": 2,
-        "case_unknown": 1,
-        "no_pin": 5
-      },
-      "abstained": false,
-      "draft_chars": 5023
-    },
-    {
-      "matter": "2003-043",
-      "side": "respondent",
-      "condition": "temporal",
-      "n_citations": 5,
-      "existence_rate": 0.8,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "unverifiable": 2
-      },
-      "cite_verdicts": {
-        "exists": 4,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "no_pin": 4,
-        "in_range": 1
-      },
-      "abstained": false,
-      "draft_chars": 2376,
-      "temporal": {
-        "checked": 4,
-        "violated": 1
-      }
-    },
-    {
-      "matter": "2003-043",
-      "side": "respondent",
-      "condition": "stakes",
-      "n_citations": 4,
-      "existence_rate": 0.75,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "unverifiable": 2
-      },
-      "cite_verdicts": {
-        "exists": 3,
-        "not_found": 1
-      },
-      "pin_verdicts": {
-        "in_range": 1,
-        "no_pin": 2,
-        "case_unknown": 1
-      },
-      "abstained": false,
-      "draft_chars": 3452
-    },
-    {
-      "matter": "2003-043",
-      "side": "respondent",
-      "condition": "combo",
-      "n_citations": 12,
-      "existence_rate": 0.75,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "exists": 9,
-        "not_found": 3
-      },
-      "pin_verdicts": {
-        "no_pin": 12
-      },
-      "abstained": false,
-      "draft_chars": 3603,
-      "temporal": {
-        "checked": 11,
-        "violated": 3
-      }
-    },
-    {
-      "matter": "2010-026",
-      "side": "petitioner",
-      "condition": "baseline",
-      "n_citations": 5,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 5,
-      "quote_verdicts": {
-        "near_miss": 1,
-        "unverifiable": 3,
-        "inaccurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 5
-      },
-      "pin_verdicts": {
-        "in_range": 3,
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 2942
-    },
-    {
-      "matter": "2010-026",
-      "side": "petitioner",
-      "condition": "quota",
-      "n_citations": 14,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.3333,
-      "n_quotes": 6,
-      "quote_verdicts": {
-        "near_miss": 1,
-        "unverifiable": 3,
-        "inaccurate": 1,
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 14
-      },
-      "pin_verdicts": {
-        "in_range": 4,
-        "no_pin": 10
-      },
-      "abstained": false,
-      "draft_chars": 4369
-    },
-    {
-      "matter": "2010-026",
-      "side": "petitioner",
-      "condition": "temporal",
-      "n_citations": 3,
       "existence_rate": 1.0,
       "unresolvable_rate": 0.0,
       "quote_rate_strict": 0.0,
       "n_quotes": 4,
       "quote_verdicts": {
-        "inaccurate": 2,
-        "near_miss": 1,
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "exists": 3
-      },
-      "pin_verdicts": {
-        "in_range": 1,
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 2253,
-      "temporal": {
-        "checked": 3,
-        "violated": 3
-      }
-    },
-    {
-      "matter": "2010-026",
-      "side": "petitioner",
-      "condition": "stakes",
-      "n_citations": 6,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "inaccurate": 2,
-        "unverifiable": 1
-      },
-      "cite_verdicts": {
-        "exists": 6
-      },
-      "pin_verdicts": {
-        "in_range": 3,
-        "no_pin": 3
-      },
-      "abstained": false,
-      "draft_chars": 2577
-    },
-    {
-      "matter": "2010-026",
-      "side": "petitioner",
-      "condition": "combo",
-      "n_citations": 5,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "inaccurate": 3
-      },
-      "cite_verdicts": {
-        "exists": 5
-      },
-      "pin_verdicts": {
-        "in_range": 4,
-        "no_pin": 1
-      },
-      "abstained": false,
-      "draft_chars": 3712,
-      "temporal": {
-        "checked": 5,
-        "violated": 2
-      }
-    },
-    {
-      "matter": "2015-007",
-      "side": "respondent",
-      "condition": "baseline",
-      "n_citations": 7,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.5,
-      "n_quotes": 2,
-      "quote_verdicts": {
-        "near_miss": 1,
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 7
-      },
-      "pin_verdicts": {
-        "no_pin": 3,
-        "in_range": 4
-      },
-      "abstained": false,
-      "draft_chars": 3209
-    },
-    {
-      "matter": "2015-007",
-      "side": "respondent",
-      "condition": "quota",
-      "n_citations": 24,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
+        "inaccurate": 3,
         "near_miss": 1
       },
       "cite_verdicts": {
-        "exists": 24
+        "exists": 8
       },
       "pin_verdicts": {
-        "no_pin": 22,
-        "in_range": 2
+        "no_pin": 8
       },
       "abstained": false,
-      "draft_chars": 4038
-    },
-    {
-      "matter": "2015-007",
-      "side": "respondent",
-      "condition": "temporal",
-      "n_citations": 2,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 0.0,
-      "n_quotes": 3,
-      "quote_verdicts": {
-        "inaccurate": 1,
-        "near_miss": 2
-      },
-      "cite_verdicts": {
-        "exists": 2
-      },
-      "pin_verdicts": {
-        "no_pin": 2
-      },
-      "abstained": false,
-      "draft_chars": 2736,
+      "draft_chars": 4592,
       "temporal": {
-        "checked": 2,
-        "violated": 0
-      }
-    },
-    {
-      "matter": "2015-007",
-      "side": "respondent",
-      "condition": "stakes",
-      "n_citations": 5,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": 1.0,
-      "n_quotes": 1,
-      "quote_verdicts": {
-        "accurate": 1
-      },
-      "cite_verdicts": {
-        "exists": 5
-      },
-      "pin_verdicts": {
-        "no_pin": 2,
-        "in_range": 3
-      },
-      "abstained": false,
-      "draft_chars": 2420
-    },
-    {
-      "matter": "2015-007",
-      "side": "respondent",
-      "condition": "combo",
-      "n_citations": 12,
-      "existence_rate": 1.0,
-      "unresolvable_rate": 0.0,
-      "quote_rate_strict": null,
-      "n_quotes": 0,
-      "quote_verdicts": {},
-      "cite_verdicts": {
-        "exists": 12
-      },
-      "pin_verdicts": {
-        "no_pin": 10,
-        "in_range": 2
-      },
-      "abstained": false,
-      "draft_chars": 3980,
-      "temporal": {
-        "checked": 12,
+        "checked": 8,
         "violated": 1
       }
     }
   ],
   "by_condition": {
-    "stakes": {
+    "quota": {
       "drafts": 12,
       "abstained": 0,
-      "citations_total": 53,
+      "citations_total": 138,
       "cite_verdicts": {
-        "exists": 52,
-        "not_found": 1
+        "exists": 130,
+        "not_found": 7,
+        "unresolvable": 1
       },
-      "existence_rate_pooled": 0.981,
+      "existence_rate_pooled": 0.949,
       "quote_verdicts": {
-        "unverifiable": 11,
-        "near_miss": 4,
-        "inaccurate": 4,
-        "accurate": 2
+        "accurate": 6,
+        "inaccurate": 11,
+        "unverifiable": 12,
+        "near_miss": 3
       },
       "pin_verdicts": {
-        "no_pin": 20,
-        "in_range": 31,
-        "out_of_range": 1,
-        "case_unknown": 1
+        "in_range": 62,
+        "no_pin": 68,
+        "case_unknown": 4,
+        "out_of_range": 4
       },
       "temporal": {}
     },
-    "baseline": {
+    "stakes": {
       "drafts": 12,
       "abstained": 0,
       "citations_total": 57,
       "cite_verdicts": {
-        "exists": 56,
-        "not_found": 1
+        "exists": 57
       },
-      "existence_rate_pooled": 0.982,
+      "existence_rate_pooled": 1.0,
       "quote_verdicts": {
-        "unverifiable": 14,
-        "near_miss": 4,
-        "accurate": 8,
-        "inaccurate": 2
+        "unverifiable": 12,
+        "near_miss": 2,
+        "inaccurate": 3,
+        "accurate": 2
       },
       "pin_verdicts": {
-        "no_pin": 22,
-        "in_range": 31,
-        "out_of_range": 3,
-        "case_unknown": 1
+        "in_range": 27,
+        "no_pin": 29,
+        "out_of_range": 1
       },
       "temporal": {}
     },
     "temporal": {
       "drafts": 12,
       "abstained": 0,
-      "citations_total": 38,
+      "citations_total": 43,
       "cite_verdicts": {
-        "not_found": 2,
-        "exists": 36
+        "exists": 43
       },
-      "existence_rate_pooled": 0.947,
+      "existence_rate_pooled": 1.0,
       "quote_verdicts": {
-        "inaccurate": 12,
-        "unverifiable": 6,
-        "near_miss": 7,
-        "accurate": 4
+        "inaccurate": 15,
+        "unverifiable": 10,
+        "near_miss": 4,
+        "accurate": 5
       },
       "pin_verdicts": {
         "no_pin": 29,
-        "in_range": 9
+        "in_range": 14
       },
       "temporal": {
-        "checked": 37,
-        "violated": 6
+        "checked": 43,
+        "violated": 5
       }
+    },
+    "baseline": {
+      "drafts": 12,
+      "abstained": 0,
+      "citations_total": 48,
+      "cite_verdicts": {
+        "exists": 48
+      },
+      "existence_rate_pooled": 1.0,
+      "quote_verdicts": {
+        "unverifiable": 6,
+        "inaccurate": 5,
+        "near_miss": 3,
+        "accurate": 3
+      },
+      "pin_verdicts": {
+        "in_range": 25,
+        "no_pin": 22,
+        "out_of_range": 1
+      },
+      "temporal": {}
     },
     "combo": {
       "drafts": 12,
       "abstained": 0,
-      "citations_total": 132,
+      "citations_total": 128,
       "cite_verdicts": {
-        "exists": 120,
-        "not_found": 12
+        "exists": 127,
+        "not_found": 1
       },
-      "existence_rate_pooled": 0.909,
+      "existence_rate_pooled": 0.992,
       "quote_verdicts": {
-        "unverifiable": 14,
-        "inaccurate": 19,
         "near_miss": 11,
-        "accurate": 10
+        "unverifiable": 13,
+        "inaccurate": 8,
+        "accurate": 3
       },
       "pin_verdicts": {
-        "no_pin": 109,
-        "in_range": 21,
-        "case_unknown": 1,
-        "out_of_range": 1
+        "no_pin": 106,
+        "in_range": 20,
+        "out_of_range": 2
       },
       "temporal": {
-        "checked": 131,
-        "violated": 15
+        "checked": 128,
+        "violated": 11
       }
-    },
-    "quota": {
-      "drafts": 12,
-      "abstained": 0,
-      "citations_total": 149,
-      "cite_verdicts": {
-        "exists": 147,
-        "not_found": 2
-      },
-      "existence_rate_pooled": 0.987,
-      "quote_verdicts": {
-        "unverifiable": 12,
-        "near_miss": 6,
-        "inaccurate": 8,
-        "accurate": 7
-      },
-      "pin_verdicts": {
-        "in_range": 58,
-        "out_of_range": 5,
-        "no_pin": 85,
-        "case_unknown": 1
-      },
-      "temporal": {}
     }
   }
 }

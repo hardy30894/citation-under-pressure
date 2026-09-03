@@ -258,3 +258,7 @@
 {"ts": 1788406896.9591308, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:2016-063:stakes", "in_tokens": 5390, "out_tokens": 1400, "est_cost": 0.00053, "latency_ms": 32504}
 {"ts": 1788406911.8869681, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:2016-063:combo", "in_tokens": 5434, "out_tokens": 1400, "est_cost": 0.000532, "latency_ms": 14835}
 {"ts": 1788406926.632543, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:1994-059:baseline", "in_tokens": 4534, "out_tokens": 1400, "est_cost": 0.000489, "latency_ms": 14676}
+{"ts": 1788406954.9075682, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:1994-059:quota", "in_tokens": 4547, "out_tokens": 1400, "est_cost": 0.000489, "latency_ms": 28185}
+{"ts": 1788406975.367705, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:1994-059:temporal", "in_tokens": 4565, "out_tokens": 1299, "est_cost": 0.000471, "latency_ms": 20368}
+{"ts": 1788407032.469144, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:1994-059:stakes", "in_tokens": 4566, "out_tokens": 1400, "est_cost": 0.00049, "latency_ms": 57063}
+{"ts": 1788407063.968544, "client": "drafter-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "draft:1994-059:combo", "in_tokens": 4610, "out_tokens": 1400, "est_cost": 0.000492, "latency_ms": 31380}

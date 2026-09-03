@@ -1,0 +1,35 @@
+**ARGUMENT**
+
+**I. The D.C. Circuit Erred in Holding That *Kloeckner v. Solis* Did Not Overrule *Powell v. Department of Defense* Because Jurisdictional and Procedural Dismissals Are Indistinguishable for Purposes of the Mixed-Case Statute.**
+
+The plain text of 5 U.S.C. § 7702(a)(1) defines a mixed case as one in which an employee “(A) has been affected by an action which [she] may appeal to the Merit Systems Protection Board, and (B) alleges that a basis for the action was discrimination.” The statute does not distinguish between procedural and jurisdictional dismissals. In *Kloeckner v. Solis*, 568 U.S. 41, 47 (2012), this Court held that when the Board dismisses a mixed case on procedural grounds, judicial review lies in district court. The reasoning of *Kloeckner* compels the same result for jurisdictional dismissals.
+
+**A. The Statutory Definition of a Mixed Case Does Not Turn on the Board’s Ultimate Decision About Its Jurisdiction.**
+
+The D.C. Circuit reasoned that jurisdictionally barred appeals are not “appealable to the MSPB” within the meaning of § 7702(a)(1)(A). *Perry v. Merit Sys. Prot. Bd.*, 829 F.3d 760, 767 (D.C. Cir. 2016). But this Court in *Kloeckner* rejected a similar argument. The Court explained that the phrase “may appeal” refers to the employee’s right to bring the appeal, not the Board’s power to hear it. *Kloeckner*, 568 U.S. at 48. An employee “may appeal” an adverse action to the Board if the action is of a type listed in 5 U.S.C. § 7512—such as removal or suspension—regardless of whether the Board ultimately determines that it lacks jurisdiction for some other reason. *Id.* at 49.
+
+Here, Perry’s suspension and retirement were actions “which [he] may appeal to the Board” under § 7512. The Board’s subsequent determination that the actions were voluntary did not retroactively strip Perry of his right to appeal. As this Court stated in *Kloeckner*, “the question whether an employee has been affected by an action that she may appeal to the MSPB is answered by looking to the action taken against her, not to the Board’s decision about its jurisdiction.” *Id.* at 50.
+
+**B. The Distinction Between Procedural and Jurisdictional Dismissals Is Inconsistent with *Kloeckner*’s Holding.**
+
+The D.C. Circuit relied on *Powell v. Department of Defense*, 158 F.3d 597 (D.C. Cir. 1998), which held that jurisdictional dismissals must be appealed to the Federal Circuit. But *Kloeckner* “effectively overrules” *Powell* because the two decisions are “incompatible.” *Dellums v. U.S. Nuclear Regulatory Comm’n*, 863 F.2d 968, 978 n.11 (D.C. Cir. 1988). In *Kloeckner*, this Court held that the proper forum for review of a mixed-case dismissal is district court, regardless of the ground for dismissal. *Kloeckner*, 568 U.S. at 55. The Court emphasized that the statute “directs an employee to file a civil action in district court” when the Board dismisses a mixed case, and that “the statute does not distinguish between dismissals on the merits and dismissals on procedural grounds.” *Id.* at 52. The same logic applies to jurisdictional dismissals.
+
+The D.C. Circuit attempted to distinguish *Kloeckner* by noting that the Board has discretion to waive procedural defects but not jurisdictional defects. *Perry*, 829 F.3d at 767. But this Court in *Kloeckner* did not base its holding on the Board’s discretion. Instead, the Court focused on the employee’s right to appeal the adverse action, not the Board’s ability to hear the appeal. *Kloeckner*, 568 U.S. at 49. Moreover, the Federal Circuit has recognized that the Board’s jurisdiction over voluntariness determinations is not truly jurisdictional in the sense of subject-matter jurisdiction. *See Garcia v. Dep’t of Homeland Sec.*, 437 F.3d 1322, 1328 (Fed. Cir. 2006) (en banc) (holding that the Board’s jurisdiction over voluntariness is a “threshold issue” that “does not implicate the Board’s subject-matter jurisdiction”).
+
+**C. The D.C. Circuit’s Approach Creates an Unworkable Distinction That Undermines the Purpose of the Mixed-Case Statute.**
+
+The mixed-case statute was designed to ensure that discrimination claims are reviewed in district court, where employees can obtain a trial and a jury. *See* 5 U.S.C. § 7703(b)(2); *Kloeckner*, 568 U.S. at 50. The D.C. Circuit’s approach frustrates this purpose by forcing employees to litigate discrimination claims in the Federal Circuit, which lacks jurisdiction to hear discrimination claims on the merits. *See* 28 U.S.C. § 1295(a)(9); *Ball v. Merit Sys. Prot. Bd.*, 870 F.3d 1370, 1375 (Fed. Cir. 2017) (holding that the Federal Circuit cannot review discrimination claims in mixed cases).
+
+Furthermore, the distinction between procedural and jurisdictional dismissals is often unclear. As this Court recognized in *Kloeckner*, the Board’s dismissal on procedural grounds may involve factual determinations that overlap with the merits of the discrimination claim. *Kloeckner*, 568 U.S. at 53. The same is true of jurisdictional dismissals based on voluntariness. *See* *Powell*, 158 F.3d at 599 (noting that the voluntariness determination “may involve the same facts as the discrimination claim”). Requiring employees to appeal jurisdictional dismissals to the Federal Circuit creates unnecessary confusion and inefficiency.
+
+**D. The Federal Circuit’s Decision in *Conforto v. Merit Systems Protection Board* Does Not Salvage *Powell*.**
+
+The D.C. Circuit relied on *Conforto v. Merit Sys. Prot. Bd.*, 713 F.3d 1118 (Fed. Cir. 2013), which held that *Kloeckner* did not overrule the Federal Circuit’s precedent on jurisdictional dismissals. But *Conforto* is not binding on this Court, and its reasoning is flawed. The Federal Circuit in *Conforto* failed to recognize that *Kloeckner*’s holding applies to all dismissals of mixed cases, not just procedural dismissals. *See Conforto*, 713 F.3d at 1118 n.1. Moreover, the Federal Circuit’s interest in preserving its own jurisdiction over Board decisions does not justify ignoring this Court’s clear directive in *Kloeckner*. *See* *Kloeckner*, 568 U.S. at 55 (holding that “the proper forum for judicial review of a mixed case is a district court”).
+
+**II. The D.C. Circuit’s Decision Conflicts with the Decisions of Other Circuits.**
+
+The D.C. Circuit’s decision creates a circuit split. The Second and Tenth Circuits have held that jurisdictional dismissals of mixed cases must be appealed to district court. *See Harms v. IRS*, 321 F.3d 1001, 1007-08 (10th Cir. 2003); *Downey v. Runyon*, 160 F.3d 139, 145-46 (2d Cir. 1998). These courts recognized that the mixed-case statute does not distinguish between procedural and jurisdictional dismissals. *Harms*, 321 F.3d at 1007. The D.C. Circuit’s contrary holding in *Powell* and *Perry* is an outlier that should be overruled.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should hold that judicial review of a Merit Systems Protection Board decision dismissing a mixed case on jurisdictional grounds lies in district court, not the Federal Circuit.
