@@ -277,3 +277,13 @@ before or after seeing the relevant data. Nothing is deleted.
   262,886 F.3d and 506,638 F.2d citations and Sonnet's appellate drafts
   had 2 not-found in 368, so the lower existence of the other models is
   fabrication, not coverage.
+- 2026-09-03 (appellate lens, 11 items applied): the cross-appeal
+  F3d-169-1322 (Charles v. Burton) was argued for the cross-appellant
+  because the caption regex matched "Cross-Appellants"; stated in the
+  paper, and appellate_packets.py now skips cross-appeals. Not-found
+  citations in the appellate drafts by reporter: 264 of 872 federal
+  reporter citations (30 percent) and 103 of 1,780 U.S. Reports
+  citations (6 percent) do not resolve; state reporters are 17 percent
+  of failures, so the appellate shortfall is fabrication, not index
+  coverage. Sonnet's pooled-task quotation rise (OR 1.59, Holm 0.009)
+  is now reported beside the falls.
