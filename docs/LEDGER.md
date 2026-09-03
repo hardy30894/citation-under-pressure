@@ -369,3 +369,15 @@ before or after seeing the relevant data. Nothing is deleted.
   median years, three-run not-found counts, jury scores) are now macros
   from results files (results/jury_calibration.json records the jury
   figures with their source).
+- 2026-09-03 (external-style review, review_papers/CUP_v5_review.txt,
+  relevant items applied): the sanctions tracker is described as a
+  docket in the thousands; the loop rates are defined as means over
+  drafts with at least one scored quotation, with drafts left with none
+  dropping out; the human near-miss gap is characterised (bracketed
+  alterations and ellipses); Sonnet 5's out-of-corpus quotations in the
+  grounded arm are described as citing authority outside the U.S.
+  Reports, which the decomposition does not cover; the Controls
+  paragraph drops the per-level final accuracies (Figure 2 carries
+  them) and keeps the half-precision point; Figure 2 is drawn at 1.15in
+  height so the Section 6 heading no longer opens a page-foot gap. Body
+  ends on page 10, references on page 11.
