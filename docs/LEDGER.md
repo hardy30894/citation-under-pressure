@@ -307,4 +307,4 @@ before or after seeing the relevant data. Nothing is deleted.
   combined and stakes. Page fit: a heading that could not fit with its
   first two lines had been leaving five lines empty at the foot of
   page 8; cutting five lines before Section 6 recovered ten. Appellate
-  arm total $9.45; project $112.
+  arm total $17.22; project $119.91.
