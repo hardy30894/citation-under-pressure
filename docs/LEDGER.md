@@ -320,3 +320,16 @@ before or after seeing the relevant data. Nothing is deleted.
   Circuit); the Conclusion states the appellate result as a fall in
   baseline existence for six of seven models rather than "fabrication
   reaches every model but Sonnet".
+- 2026-09-03 (final whole-paper review, 30 items applied): the
+  Experiment 2 trace now names its fourth outcome (flagged quotations
+  left in place), and the Discussion no longer says the words "usually"
+  survive as paraphrase, since deletion exceeds dequoting for six of
+  seven models; the abstract mentions the appellate task; the Inference
+  paragraph counts three robustness fits; "grounded arm" is used
+  consistently; the top of the range is defined at first use; the
+  Sonnet paragraph is headed as a contrast that survived only outside
+  the pre-registered run; the pincite remainder is named and pins
+  outside the cited case are counted (26 in 6,644); the 99 stock-phrase
+  matches close Sonnet's provenance partition; the temporal-violation
+  sentence uses temporal-only counts; several colon reveals and a
+  comma splice removed. Body ends three quarters down page 10.

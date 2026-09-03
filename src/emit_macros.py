@@ -51,6 +51,8 @@ for m, mk in ALPHA.items():
         emit(f"loop{mk}{ak}Start", fmt3(sum(f0) / len(f0)))
         emit(f"loop{mk}{ak}Final", fmt3(sum(f1) / len(f1)))
         emit(f"conv{mk}{ak}", str(sum(r["converged"] for r in sub)))
+    emit(f"tempOnlyChecked{mk}", str(full[m]["temporal"]["tchecked"]))
+    emit(f"tempOnlyViol{mk}", str(full[m]["temporal"]["viol"]))
     tc = full[m]["temporal"]["tchecked"] + full[m]["combo"]["tchecked"]
     emit(f"tempChecked{mk}", str(tc))
     emit(f"tempViol{mk}", str(full[m]["temporal"]["viol"] + full[m]["combo"]["viol"]))
@@ -74,6 +76,8 @@ for m, mk in ALPHA.items():
             emit(f"pinAt{mk}", f"{100 * p['quote_at_pin'] / tot:.0f}")
             emit(f"pinWrong{mk}", f"{100 * p['quote_not_at_pin'] / tot:.0f}")
 
+emit("pinOutTotal", str(sum(v["pin_out_of_span"] for k, v in pins.items() if k in ALPHA)))
+emit("pinInTotal", f"{sum(v['pin_in_span'] for k, v in pins.items() if k in ALPHA):,}")
 ph = pins.get("human")
 if ph:
     tot = ph["quote_at_pin"] + ph["quote_near_pin"] + ph["quote_not_at_pin"]
@@ -209,6 +213,7 @@ if pr.exists():
             emit2(f"misattr{mk}", str(cnt[(m, "misattributed")]))
             emit2(f"falseAlarm{mk}", str(cnt[(m, "found_in_attributed")]))
             emit2(f"notInCorpus{mk}", str(cnt[(m, "not_in_scotus_corpus")]))
+            emit2(f"genericMatch{mk}", str(cnt[(m, "generic_phrase_match")]))
     emit2("misattrTotal", str(sum(v for k, v in cnt.items() if k[1] == "misattributed")))
     for m, mk in ALPHA.items():
         tot = sum(v for k, v in cnt.items() if k[0] == m)
