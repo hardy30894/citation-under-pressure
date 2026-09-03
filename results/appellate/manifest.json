@@ -36,6 +36,15 @@
   "words": 891
  },
  {
+  "id": "F3d-87-457",
+  "citation": "87 F.3d 457",
+  "circuit": "Eleventh",
+  "year": 1996,
+  "appellant": "FLORIDA LEAGUE OF PROFESSIONAL LOBBYISTS, INC.",
+  "appellee": "William N. MEGGS, as State Attorney for the Second Judicial Circuit of Florida",
+  "words": 629
+ },
+ {
   "id": "F3d-95-375",
   "citation": "95 F.3d 375",
   "circuit": "Fifth",
@@ -43,6 +52,42 @@
   "appellant": "Rosa Ann BARRETT, et al.",
   "appellee": "ATLANTIC RICHFIELD COMPANY, et al.",
   "words": 676
+ },
+ {
+  "id": "F3d-96-66",
+  "citation": "96 F.3d 66",
+  "circuit": "Third",
+  "year": 1996,
+  "appellant": "John SERBIN",
+  "appellee": "BORA CORP., LTD.",
+  "words": 848
+ },
+ {
+  "id": "F3d-108-1186",
+  "citation": "108 F.3d 1186",
+  "circuit": "Tenth",
+  "year": 1997,
+  "appellant": "UNIT DRILLING COMPANY",
+  "appellee": "ENRON OIL &amp; GAS COMPANY",
+  "words": 858
+ },
+ {
+  "id": "F3d-108-970",
+  "citation": "108 F.3d 970",
+  "circuit": "Eighth",
+  "year": 1997,
+  "appellant": "SIEBEN, doing business as Plaza Motors Company, Inc.",
+  "appellee": "Judith A. FELTMANN",
+  "words": 744
+ },
+ {
+  "id": "F3d-122-159",
+  "citation": "122 F.3d 159",
+  "circuit": "Third",
+  "year": 1997,
+  "appellant": "Victor M. ROUSSOS",
+  "appellee": "Frederick MENIFEE, Warden",
+  "words": 750
  },
  {
   "id": "F3d-133-322",
@@ -72,15 +117,6 @@
   "words": 865
  },
  {
-  "id": "F3d-169-1322",
-  "citation": "169 F.3d 1322",
-  "circuit": "Eleventh",
-  "year": 1999,
-  "appellant": "John BURTON; Felix Burton, et al., Defendants, Counter-Claimants, Appellees",
-  "appellee": "Nicolas CHARLES; Charite Asseigne, et al., Plaintiffs, Counter-Defendants, Appellants",
-  "words": 898
- },
- {
   "id": "F3d-246-633",
   "citation": "246 F.3d 633",
   "circuit": "Sixth",
@@ -88,6 +124,78 @@
   "appellant": "Kenneth R. SMOOT",
   "appellee": "UNITED TRANSPORTATION UNION; CSX Transportation, Inc.",
   "words": 816
+ },
+ {
+  "id": "F3d-251-789",
+  "citation": "251 F.3d 789",
+  "circuit": "Ninth",
+  "year": 2001,
+  "appellant": "Evelyn GONZALEZ-CABALLERO",
+  "appellee": "Ramon Eduardo MENA",
+  "words": 878
+ },
+ {
+  "id": "F3d-273-509",
+  "citation": "273 F.3d 509",
+  "circuit": "Second",
+  "year": 2001,
+  "appellant": "GOLDEN PACIFIC BANCORP",
+  "appellee": "FEDERAL DEPOSIT INSURANCE CORPORATION",
+  "words": 820
+ },
+ {
+  "id": "F3d-288-124",
+  "citation": "288 F.3d 124",
+  "circuit": "Fourth",
+  "year": 2002,
+  "appellant": "Joseph BRYANT, Sr.",
+  "appellee": "BELL ATLANTIC MARYLAND, INCORPORATED; Bell Atlantic Network Services, Incorporated",
+  "words": 845
+ },
+ {
+  "id": "F3d-288-713",
+  "citation": "288 F.3d 713",
+  "circuit": "Fifth",
+  "year": 2002,
+  "appellant": "Granville RIDDLE",
+  "appellee": "Janie COCKRELL, Director, Texas Department of Criminal Justice, Institutional Division",
+  "words": 833
+ },
+ {
+  "id": "F3d-353-1323",
+  "citation": "353 F.3d 1323",
+  "circuit": "Eleventh",
+  "year": 2003,
+  "appellant": "Mirza Shamim Ahmed BEG",
+  "appellee": "ISLAMIC REPUBLIC OF PAKISTAN, Pakistan Army, The Government of Punjab",
+  "words": 315
+ },
+ {
+  "id": "F3d-353-588",
+  "citation": "353 F.3d 588",
+  "circuit": "Eighth",
+  "year": 2003,
+  "appellant": "Dennis EPPS",
+  "appellee": "THE CITY OF PINE LAWN",
+  "words": 727
+ },
+ {
+  "id": "F3d-381-1132",
+  "citation": "381 F.3d 1132",
+  "circuit": "Federal",
+  "year": 2004,
+  "appellant": "TUTHILL RANCH, INC.",
+  "appellee": "UNITED STATES",
+  "words": 854
+ },
+ {
+  "id": "F3d-394-1294",
+  "citation": "394 F.3d 1294",
+  "circuit": "Ninth",
+  "year": 2005,
+  "appellant": "Ralph H. DAVIS; Evelyn Davis, Personal Representative",
+  "appellee": "COMMISSIONER OF INTERNAL REVENUE",
+  "words": 865
  },
  {
   "id": "F3d-472-471",
@@ -99,6 +207,33 @@
   "words": 833
  },
  {
+  "id": "F3d-480-597",
+  "citation": "480 F.3d 597",
+  "circuit": "First",
+  "year": 2007,
+  "appellant": "Belen NIEVES-CASTA\u00d1O",
+  "appellee": "UNITED STATES of America",
+  "words": 451
+ },
+ {
+  "id": "F3d-521-117",
+  "citation": "521 F.3d 117",
+  "circuit": "First",
+  "year": 2008,
+  "appellant": "Michael SOARES",
+  "appellee": "UNITED STATES of America",
+  "words": 795
+ },
+ {
+  "id": "F3d-522-1299",
+  "citation": "522 F.3d 1299",
+  "circuit": "Federal",
+  "year": 2008,
+  "appellant": "POWEROASIS, INC. and PowerOasis Networks, LLC",
+  "appellee": "T-MOBILE USA, INC.",
+  "words": 849
+ },
+ {
   "id": "F3d-559-842",
   "citation": "559 F.3d 842",
   "circuit": "Eighth",
@@ -106,6 +241,15 @@
   "appellant": "YER SONG MOUA; Manisy Moua; John Doe; Mary Row",
   "appellee": "RAND CORPORATION",
   "words": 821
+ },
+ {
+  "id": "F3d-580-503",
+  "citation": "580 F.3d 503",
+  "circuit": "Seventh",
+  "year": 2009,
+  "appellant": "James R. WINBUSH, Jr.",
+  "appellee": "UNITED STATES of America",
+  "words": 808
  },
  {
   "id": "F3d-582-500",
@@ -117,6 +261,15 @@
   "words": 850
  },
  {
+  "id": "F3d-588-411",
+  "citation": "588 F.3d 411",
+  "circuit": "Seventh",
+  "year": 2009,
+  "appellant": "Xiang Hui YE",
+  "appellee": "UNITED STATES of America",
+  "words": 768
+ },
+ {
   "id": "F3d-598-50",
   "citation": "598 F.3d 50",
   "circuit": "Second",
@@ -126,13 +279,13 @@
   "words": 897
  },
  {
-  "id": "F3d-609-917",
-  "citation": "609 F.3d 917",
-  "circuit": "Eighth",
+  "id": "F3d-600-310",
+  "citation": "600 F.3d 310",
+  "circuit": "Fourth",
   "year": 2010,
-  "appellant": "AMERICAN AIRLINES, INC.",
-  "appellee": "Catherine RAY, individually and on behalf of all others similarly situated",
-  "words": 821
+  "appellant": "In re Lisa M. KIRKLAND, Debtor. Educational Credit Management Corporation",
+  "appellee": "Lisa M. Kirkland",
+  "words": 896
  },
  {
   "id": "F3d-633-522",
@@ -162,6 +315,15 @@
   "words": 876
  },
  {
+  "id": "F3d-670-665",
+  "citation": "670 F.3d 665",
+  "circuit": "Sixth",
+  "year": 2012,
+  "appellant": "Floyd PERKINS",
+  "appellee": "G. McQUIGGIN",
+  "words": 864
+ },
+ {
   "id": "F3d-678-1300",
   "citation": "678 F.3d 1300",
   "circuit": "Federal",
@@ -178,6 +340,33 @@
   "appellant": "Shane C. HOLLMER and Lee E. Cleveland",
   "appellee": "Eliyahou HARARI and Sanjay Mehrotra",
   "words": 759
+ },
+ {
+  "id": "F3d-682-463",
+  "citation": "682 F.3d 463",
+  "circuit": "Sixth",
+  "year": 2012,
+  "appellant": "Harold WASEK",
+  "appellee": "ARROW ENERGY SERVICES, INC.",
+  "words": 861
+ },
+ {
+  "id": "F3d-749-1250",
+  "citation": "749 F.3d 1250",
+  "circuit": "Tenth",
+  "year": 2014,
+  "appellant": "Stanley Eugene HILL",
+  "appellee": "UNITED STATES of America",
+  "words": 769
+ },
+ {
+  "id": "F3d-760-198",
+  "citation": "760 F.3d 198",
+  "circuit": "Second",
+  "year": 2014,
+  "appellant": "Cindy MOLL",
+  "appellee": "TELESECTOR RESOURCES GROUP, INC., dba Verizon Services Group, aka Verizon New York Inc.",
+  "words": 861
  },
  {
   "id": "F3d-772-63",
@@ -198,6 +387,15 @@
   "words": 851
  },
  {
+  "id": "F3d-807-635",
+  "citation": "807 F.3d 635",
+  "circuit": "Fifth",
+  "year": 2015,
+  "appellant": "DISH NETWORK, L.L.C.",
+  "appellee": "Armando YBARRA",
+  "words": 618
+ },
+ {
   "id": "F3d-842-299",
   "citation": "842 F.3d 299",
   "circuit": "Fourth",
@@ -205,6 +403,24 @@
   "appellant": "Richard A. PRESSL; Theresa Pressl",
   "appellee": "APPALACHIAN POWER COMPANY",
   "words": 706
+ },
+ {
+  "id": "F3d-866-962",
+  "citation": "866 F.3d 962",
+  "circuit": "Eighth",
+  "year": 2017,
+  "appellant": "Rita FOSTER; Brian Kline; Michael Snyder",
+  "appellee": "BNSF RAILWAY COMPANY, a Delaware Corporation",
+  "words": 790
+ },
+ {
+  "id": "F3d-923-938",
+  "citation": "923 F.3d 938",
+  "circuit": "Eleventh",
+  "year": 2019,
+  "appellant": "Homero F. MERUELO",
+  "appellee": "COMMISSIONER OF INTERNAL REVENUE",
+  "words": 845
  },
  {
   "id": "F3d-928-311",

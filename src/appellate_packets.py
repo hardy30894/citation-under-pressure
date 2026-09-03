@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Second task: federal courts of appeals.
 
-Builds 24 appellate matter packets from published F.3d opinions in the
+Builds 48 appellate matter packets from published F.3d opinions in the
 local Caselaw Access Project cache. The packet is the opinion's own
 statement of the case and facts, cut where the court's analysis begins
 and scrubbed of outcome sentences, so the drafter sees the posture and
@@ -9,7 +9,7 @@ the record but not the holding. Party roles and the circuit come from
 the CAP head matter (the parties line names the appellant). Selection
 is deterministic: opinions decided 1995 to 2019, 15,000 to 60,000
 characters, a clean appellant, a packet of 250 to 900 words with no
-outcome language left after scrubbing, at most two per circuit, seeded
+outcome language left after scrubbing, at most four per circuit, seeded
 shuffle. Writes results/appellate/packets/<id>.json and a manifest."""
 
 import hashlib
@@ -26,8 +26,8 @@ sys.path.insert(0, str(HERE / "src"))
 from local_text import CACHE_DB  # noqa: E402
 
 OUT = HERE / "results" / "appellate" / "packets"
-N = 24
-PER_CIRCUIT = 2
+N = 48
+PER_CIRCUIT = 4
 
 ANALYSIS = re.compile(
     r"^(II\.|III\.|DISCUSSION|ANALYSIS|Discussion|Analysis|STANDARD OF REVIEW)\b|"
@@ -155,6 +155,12 @@ def main():
     print(f"{len(cands)} usable candidates", flush=True)
     rng = random.Random(20260903)
     rng.shuffle(cands)
+    # the first build (24 matters, two per circuit) was run before the
+    # set was extended to 48; its matters are kept in front so that the
+    # extension adds to them instead of replacing them
+    first = OUT.parent / "manifest_first24.json"
+    keep = {m["id"] for m in json.loads(first.read_text())} if first.exists() else set()
+    cands.sort(key=lambda c: c["id"] not in keep)
     by = defaultdict(int)
     chosen = []
     us = 0
