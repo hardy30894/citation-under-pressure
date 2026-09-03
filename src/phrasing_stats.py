@@ -61,7 +61,7 @@ def main():
     de = [abs(full[m][c]["existence_rate"] - v["exist"]) for k, v in cb.items()
           for m, c in [k.split(":")] if v["exist"] is not None]
     out = {
-        "max_strict_diff_ab": round(max(ds), 3), "max_exist_diff_ab": round(max(de), 3),
+        "max_strict_diff_ab": round(max(ds), 4), "max_exist_diff_ab": round(max(de), 4),
         "holm_b": hb, "holm_pooled": hp,
         "survivors_a": surv_a, "survivors_b": surv_b, "survivors_pooled": surv_p,
         "a_replicated_in_b": sorted(set(surv_a) & set(surv_b)),

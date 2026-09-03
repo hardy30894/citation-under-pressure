@@ -1,6 +1,6 @@
 {
- "max_strict_diff_ab": 0.108,
- "max_exist_diff_ab": 0.195,
+ "max_strict_diff_ab": 0.1082,
+ "max_exist_diff_ab": 0.1946,
  "holm_b": {
   "quote:deepseek:combo": 0.0,
   "quote:deepseek:temporal": 0.0022,
@@ -185,145 +185,145 @@
   "quote:mistralsmall:temporal"
  ],
  "cells_b": {
-  "qwen30b:combo": {
-   "exist": 0.6916,
-   "strict": 0.0597
-  },
-  "qwen30b:stakes": {
-   "exist": 0.9064,
-   "strict": 0.1909
-  },
-  "qwen30b:temporal": {
-   "exist": 0.6458,
-   "strict": 0.0343
-  },
-  "qwen30b:quota": {
-   "exist": 0.8531,
-   "strict": 0.1488
-  },
-  "qwen30b:baseline": {
-   "exist": 0.8819,
-   "strict": 0.1703
-  },
-  "gpt54mini:combo": {
-   "exist": 0.9475,
-   "strict": 0.1868
-  },
-  "gpt54mini:stakes": {
-   "exist": 0.9811,
-   "strict": 0.4271
-  },
-  "gpt54mini:temporal": {
-   "exist": 0.9395,
-   "strict": 0.2807
-  },
-  "gpt54mini:quota": {
-   "exist": 0.96,
-   "strict": 0.4024
-  },
-  "gpt54mini:baseline": {
-   "exist": 0.9735,
-   "strict": 0.4821
-  },
-  "mistralsmall:combo": {
-   "exist": 0.8625,
-   "strict": 0.1125
-  },
-  "mistralsmall:stakes": {
-   "exist": 0.894,
-   "strict": 0.1975
-  },
   "mistralsmall:temporal": {
    "exist": 0.8994,
    "strict": 0.1342
-  },
-  "mistralsmall:quota": {
-   "exist": 0.9148,
-   "strict": 0.2204
   },
   "mistralsmall:baseline": {
    "exist": 0.8939,
    "strict": 0.2928
   },
-  "llama4mav:combo": {
-   "exist": 0.9192,
-   "strict": 0.1987
+  "mistralsmall:combo": {
+   "exist": 0.8625,
+   "strict": 0.1125
   },
-  "llama4mav:stakes": {
-   "exist": 0.9595,
-   "strict": 0.383
+  "mistralsmall:quota": {
+   "exist": 0.9148,
+   "strict": 0.2204
   },
-  "llama4mav:temporal": {
-   "exist": 0.9563,
-   "strict": 0.2474
-  },
-  "llama4mav:quota": {
-   "exist": 0.9653,
-   "strict": 0.3675
-  },
-  "llama4mav:baseline": {
-   "exist": 0.9765,
-   "strict": 0.3737
-  },
-  "sonnet:combo": {
-   "exist": 0.9955,
-   "strict": 0.4232
-  },
-  "sonnet:stakes": {
-   "exist": 0.9941,
-   "strict": 0.3504
-  },
-  "sonnet:temporal": {
-   "exist": 0.9913,
-   "strict": 0.3551
-  },
-  "sonnet:quota": {
-   "exist": 0.9891,
-   "strict": 0.3294
-  },
-  "sonnet:baseline": {
-   "exist": 0.9907,
-   "strict": 0.3544
-  },
-  "deepseek:combo": {
-   "exist": 0.9669,
-   "strict": 0.1524
-  },
-  "deepseek:stakes": {
-   "exist": 0.9534,
-   "strict": 0.324
+  "mistralsmall:stakes": {
+   "exist": 0.894,
+   "strict": 0.1975
   },
   "deepseek:temporal": {
    "exist": 0.9591,
    "strict": 0.178
   },
-  "deepseek:quota": {
-   "exist": 0.9718,
-   "strict": 0.258
-  },
   "deepseek:baseline": {
    "exist": 0.9778,
    "strict": 0.3664
   },
-  "grok43:combo": {
-   "exist": 0.9955,
-   "strict": 0.1843
+  "deepseek:combo": {
+   "exist": 0.9669,
+   "strict": 0.1524
   },
-  "grok43:stakes": {
-   "exist": 0.987,
-   "strict": 0.4363
+  "deepseek:quota": {
+   "exist": 0.9718,
+   "strict": 0.258
+  },
+  "deepseek:stakes": {
+   "exist": 0.9534,
+   "strict": 0.324
   },
   "grok43:temporal": {
    "exist": 0.9912,
    "strict": 0.3459
   },
+  "grok43:baseline": {
+   "exist": 0.9853,
+   "strict": 0.4085
+  },
+  "grok43:combo": {
+   "exist": 0.9955,
+   "strict": 0.1843
+  },
   "grok43:quota": {
    "exist": 0.9869,
    "strict": 0.454
   },
-  "grok43:baseline": {
-   "exist": 0.9853,
-   "strict": 0.4085
+  "grok43:stakes": {
+   "exist": 0.987,
+   "strict": 0.4363
+  },
+  "qwen30b:temporal": {
+   "exist": 0.6458,
+   "strict": 0.0343
+  },
+  "qwen30b:baseline": {
+   "exist": 0.8819,
+   "strict": 0.1703
+  },
+  "qwen30b:combo": {
+   "exist": 0.6916,
+   "strict": 0.0597
+  },
+  "qwen30b:quota": {
+   "exist": 0.8531,
+   "strict": 0.1488
+  },
+  "qwen30b:stakes": {
+   "exist": 0.9064,
+   "strict": 0.1909
+  },
+  "sonnet:temporal": {
+   "exist": 0.9913,
+   "strict": 0.3551
+  },
+  "sonnet:baseline": {
+   "exist": 0.9907,
+   "strict": 0.3544
+  },
+  "sonnet:combo": {
+   "exist": 0.9955,
+   "strict": 0.4232
+  },
+  "sonnet:quota": {
+   "exist": 0.9891,
+   "strict": 0.3294
+  },
+  "sonnet:stakes": {
+   "exist": 0.9941,
+   "strict": 0.3504
+  },
+  "llama4mav:temporal": {
+   "exist": 0.9563,
+   "strict": 0.2474
+  },
+  "llama4mav:baseline": {
+   "exist": 0.9765,
+   "strict": 0.3737
+  },
+  "llama4mav:combo": {
+   "exist": 0.9192,
+   "strict": 0.1987
+  },
+  "llama4mav:quota": {
+   "exist": 0.9653,
+   "strict": 0.3675
+  },
+  "llama4mav:stakes": {
+   "exist": 0.9595,
+   "strict": 0.383
+  },
+  "gpt54mini:temporal": {
+   "exist": 0.9395,
+   "strict": 0.2807
+  },
+  "gpt54mini:baseline": {
+   "exist": 0.9735,
+   "strict": 0.4821
+  },
+  "gpt54mini:combo": {
+   "exist": 0.9475,
+   "strict": 0.1868
+  },
+  "gpt54mini:quota": {
+   "exist": 0.96,
+   "strict": 0.4024
+  },
+  "gpt54mini:stakes": {
+   "exist": 0.9811,
+   "strict": 0.4271
   }
  },
  "gee_b": {
