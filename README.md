@@ -293,18 +293,23 @@ remaining inaccurate quotations are paraphrase of the cited case inside
 quotation marks. Retrieval nearly removes the existence failure and
 leaves the residual class in place.
 
-A second task, 24 published federal appellate decisions (two from each
-of twelve circuits, packets built from the deciding court's own
-statement of the case with the analysis withheld and outcome sentences
-scrubbed), shows that fabrication at a neutral prompt is far more
-common outside the Supreme Court: baseline citation existence is 0.57
-for the 30B model, 0.72 for Mistral Small, 0.90 to 0.94 for the four
-models in between, and 0.99 for Sonnet 5 alone. Thirty percent of
-citations to the federal reporters do not resolve against six percent
-of citations to the U.S. Reports, and the models cite the U.S. Reports
-for half to three quarters of their authorities even in a circuit
-appeal. Pooled over both tasks, the pressure contrasts that survive on
-the Supreme Court matters survive here too.
+A second task, 48 published federal appellate decisions (four from
+each of the First through Eleventh and Federal Circuits, packets built
+from the deciding court's own statement of the case with the analysis
+withheld and outcome sentences scrubbed), run under all five
+conditions on all seven models, shows that fabrication at a neutral
+prompt is more common outside the Supreme Court: baseline citation
+existence is 0.65 for the 30B model, 0.72 for Mistral Small, 0.91 to
+0.96 for the four models in between, and 0.99 for Sonnet 5 alone.
+Twenty-two percent of citations to the federal reporters do not
+resolve against four percent of citations to the U.S. Reports, and at
+baseline the models cite the U.S. Reports for 37 to 58 percent of their
+authorities in a circuit appeal. Within the task, Llama-4's existence
+falls under the date restriction and Sonnet 5's quotation accuracy
+rises under the combined condition and under the sanctions warning
+alone (0.32 to 0.43), without any shift toward older cases; pooled over
+both tasks, six of the eight Supreme Court survivors survive, joined by
+four more falls and Sonnet 5's two rises.
 
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
