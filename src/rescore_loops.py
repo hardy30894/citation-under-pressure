@@ -76,8 +76,10 @@ def main():
         out[model] = rows
         m = lambda xs: round(sum(x for x in xs if x is not None) /
                              max(1, len([x for x in xs if x is not None])), 3)
-        for arm in ("true", "scrambled"):
+        for arm in ("true", "scrambled", "none"):
             sub = [r for r in rows if r["arm"] == arm]
+            if not sub:
+                continue
             print(f"{model:10s} {arm:9s} n={len(sub)} "
                   f"exist {m([r['r0']['exist'] for r in sub])}->"
                   f"{m([r['final']['exist'] for r in sub])} "

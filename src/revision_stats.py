@@ -121,10 +121,19 @@ out["human_near_miss_share"] = round(near / (acc + near + inac), 4)
 
 # ---- 4. Loop held-out counts -----------------------------------------------
 loops = json.loads((R / "rescore_loops.json").read_text())
+
+
+def _mean(xs):
+    xs = [x for x in xs if x is not None]
+    return sum(xs) / len(xs) if xs else float("nan")
+
+
 loop_counts = {}
 for model, rows in loops.items():
-    for arm in ("true", "scrambled"):
+    for arm in ("true", "scrambled", "none"):
         sub = [r for r in rows if r["arm"] == arm]
+        if not sub:
+            continue
         loop_counts[f"{model}:{arm}"] = {
             "cites_r0": sum(r["r0"]["n_cites"] for r in sub),
             "cites_final": sum(r["final"]["n_cites"] for r in sub),
@@ -132,13 +141,58 @@ for model, rows in loops.items():
             "quotes_scored_final": sum(r["final"]["n_quotes_scored"] for r in sub),
             "accurate_r0": sum(r["r0"]["acc"] for r in sub),
             "accurate_final": sum(r["final"]["acc"] for r in sub),
+            "exist_r0": round(_mean([r["r0"]["exist"] for r in sub]), 3),
+            "exist_final": round(_mean([r["final"]["exist"] for r in sub]), 3),
         }
 out["loop_counts"] = loop_counts
+
+# ---- 4b. Loop inference: paired by matter, true vs scrambled and true vs
+# none, on the final strict rate and on the change in scored quotations.
+from scipy.stats import wilcoxon  # noqa: E402
+import random  # noqa: E402
+loop_tests = {}
+for model, rows in loops.items():
+    by = {}
+    for r in rows:
+        by.setdefault(r["matter"], {})[r["arm"]] = r
+    for other in ("scrambled", "none"):
+        pairs = [(v["true"], v[other]) for v in by.values()
+                 if "true" in v and other in v
+                 and v["true"]["final"]["strict"] is not None
+                 and v[other]["final"]["strict"] is not None]
+        if len(pairs) < 6:
+            continue
+        d = [a["final"]["strict"] - b["final"]["strict"] for a, b in pairs]
+        rng = random.Random(0)
+        boots = sorted(
+            sum(rng.choice(d) for _ in d) / len(d) for _ in range(2000))
+        try:
+            p = float(wilcoxon(d).pvalue) if any(d) else 1.0
+        except ValueError:
+            p = 1.0
+        loop_tests[f"{model}:true_vs_{other}"] = {
+            "n_pairs": len(pairs), "mean_diff": round(sum(d) / len(d), 3),
+            "ci_low": round(boots[50], 3), "ci_high": round(boots[1949], 3),
+            "wilcoxon_p": round(p, 4),
+        }
+out["loop_tests"] = loop_tests
 
 # ---- 5. counts ---------------------------------------------------------------
 n_models = len([p for p in R.glob("full_*") if len(list((p / "drafts").glob("*.txt"))) >= 240])
 out["n_pressured_drafts"] = 48 * 4 * n_models
 out["n_all_drafts"] = 48 * 5 * n_models
+cit = [r for r in records if r["kind"] == "citation"]
+out["n_citation_records"] = len(cit)
+out["unverifiable_share_pct"] = round(
+    100 * sum(r["verdict"] == "unresolvable" for r in cit) / len(cit), 2)
+full = json.loads((R / "rescore_full.json").read_text())
+s = full["sonnet"]
+out["sonnet_temporal_checked"] = s["temporal"]["tchecked"] + s["combo"]["tchecked"]
+out["sonnet_temporal_viol"] = s["temporal"]["viol"] + s["combo"]["viol"]
+gl = R / "full_glm47flash" / "drafts"
+have = Counter(p.stem.rsplit("_", 1)[1] for p in gl.glob("*.txt"))
+out["glm_missing"] = {c: 48 - have.get(c, 0)
+                      for c in ("baseline", "quota", "temporal", "stakes", "combo")}
 
 (R / "revision_stats.json").write_text(json.dumps(out, indent=1))
 print("significant after Holm:", out["significant_after_holm"])

@@ -41,8 +41,10 @@ for m, mk in ALPHA.items():
         emit(f"strict{mk}{ck}", fmt3(cell["strict_rate"]))
         if cell["tchecked"]:
             emit(f"viol{mk}{ck}", f"{100 * cell['viol'] / cell['tchecked']:.0f}")
-    for arm, ak in (("true", "True"), ("scrambled", "Scr")):
+    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None")):
         sub = [r for r in loops[m] if r["arm"] == arm]
+        if not sub:
+            continue
         f0 = [r["r0"]["strict"] for r in sub if r["r0"]["strict"] is not None]
         f1 = [r["final"]["strict"] for r in sub if r["final"]["strict"] is not None]
         emit(f"loop{mk}{ak}Start", fmt3(sum(f0) / len(f0)))
@@ -55,6 +57,8 @@ for m, mk in ALPHA.items():
             g = gee.get(f"{kind}:{m}:{c}")
             if g:
                 emit(f"or{kk}{mk}{ck}", f"{g['OR']:.2f}")
+                if "ci_low" in g:
+                    emit(f"ci{kk}{mk}{ck}", f"{g['ci_low']:.2f} to {g['ci_high']:.2f}")
                 emit(f"p{kk}{mk}{ck}", f"{g['p']:.4f}" if g["p"] >= 0.0001 else "<0.0001")
                 emit(f"sig{kk}{mk}{ck}", "*" if g["p"] < 0.05 else "")
     p = pins.get(m)
@@ -119,6 +123,25 @@ if rs_path.exists():
             emit2(f"lqAcc{mk}{ak}Final", str(v["accurate_final"]))
             emit2(f"lCites{mk}{ak}Start", str(v["cites_r0"]))
             emit2(f"lCites{mk}{ak}Final", str(v["cites_final"]))
+            if v.get("exist_r0") == v.get("exist_r0"):
+                emit2(f"lExist{mk}{ak}Start", fmt3(v["exist_r0"]))
+                emit2(f"lExist{mk}{ak}Final", fmt3(v["exist_final"]))
+    for key, v in rs.get("loop_tests", {}).items():
+        m, contrast = key.split(":")
+        mk = ALPHA.get(m)
+        ck = {"true_vs_scrambled": "Scr", "true_vs_none": "None"}[contrast]
+        if mk:
+            emit2(f"ldiff{mk}{ck}", f"{v['mean_diff']:.2f}")
+            emit2(f"lci{mk}{ck}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
+            emit2(f"lp{mk}{ck}", f"{v['wilcoxon_p']:.3f}" if v["wilcoxon_p"] >= 0.001 else f"{v['wilcoxon_p']:.4f}")
+            emit2(f"ln{mk}{ck}", str(v["n_pairs"]))
+    emit2("unverifiablePct", f"{rs['unverifiable_share_pct']:.1f}")
+    emit2("nCitationRecords", f"{rs['n_citation_records']:,}")
+    emit2("sonnetTempChecked", str(rs["sonnet_temporal_checked"]))
+    emit2("sonnetTempViol", str(rs["sonnet_temporal_viol"]))
+    gm = rs["glm_missing"]
+    emit2("glmMissing", str(sum(gm.values())))
+    emit2("glmMissingCombo", str(gm["combo"]))
     for key, v in rs["memorization"].items():
         m, c = key.split(":")
         mk = ALPHA.get(m)
@@ -175,6 +198,38 @@ if pr.exists():
             emit2(f"falseAlarm{mk}", str(cnt[(m, "found_in_attributed")]))
             emit2(f"notInCorpus{mk}", str(cnt[(m, "not_in_scotus_corpus")]))
     emit2("misattrTotal", str(sum(v for k, v in cnt.items() if k[1] == "misattributed")))
+    for m, mk in ALPHA.items():
+        tot = sum(v for k, v in cnt.items() if k[0] == m)
+        if tot:
+            emit2(f"inaccTotal{mk}", str(tot))
+            emit2(f"falseAlarmPct{mk}", f"{100 * cnt[(m, 'found_in_attributed')] / tot:.1f}")
+
+lt = R / "loop_transitions.json"
+if lt.exists():
+    t = json.loads(lt.read_text())
+    for m, mk in ALPHA.items():
+        if m not in t:
+            continue
+        c = t[m]
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None")):
+            for v0, vk in (("flagged", "Flag"), ("accurate", "Acc")):
+                kept_acc = c.get(f"{arm}:{v0}:kept:accurate", 0) + c.get(f"{arm}:{v0}:edited:accurate", 0)
+                kept_flag = c.get(f"{arm}:{v0}:kept:flagged", 0) + c.get(f"{arm}:{v0}:edited:flagged", 0)
+                emit2(f"tr{ak}{vk}ToAcc{mk}", str(kept_acc))
+                emit2(f"tr{ak}{vk}ToFlag{mk}", str(kept_flag))
+                emit2(f"tr{ak}{vk}Dequoted{mk}", str(c.get(f"{arm}:{v0}:dequoted", 0)))
+                emit2(f"tr{ak}{vk}Deleted{mk}", str(c.get(f"{arm}:{v0}:deleted", 0)))
+            emit2(f"tr{ak}AddedAcc{mk}", str(c.get(f"{arm}:added:accurate", 0)))
+            emit2(f"tr{ak}AddedFlag{mk}", str(c.get(f"{arm}:added:flagged", 0)))
+            fl = [c.get(f"{arm}:flagged:{k}", 0) for k in
+                  ("kept:flagged", "edited:flagged", "kept:accurate", "edited:accurate", "dequoted", "deleted")]
+            ac = [c.get(f"{arm}:accurate:{k}", 0) for k in
+                  ("kept:accurate", "edited:accurate", "kept:flagged", "edited:flagged", "dequoted", "deleted")]
+            if arm == "true":
+                emit2(f"trFlagRZero{mk}", str(sum(fl)))
+                emit2(f"trAccRZero{mk}", str(sum(ac)))
+            emit2(f"tr{ak}AccRemoved{mk}", str(ac[2] + ac[3] + ac[4] + ac[5]))
+            emit2(f"tr{ak}FlagRemoved{mk}", str(fl[4] + fl[5]))
 
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")

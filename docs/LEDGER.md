@@ -107,3 +107,27 @@ before or after seeing the relevant data. Nothing is deleted.
   repair and deletion can be separated from what revision alone does.
   One DeepSeek lane died on an empty completion; loop_arm.py now drops the
   episode instead of the lane, and the five missing episodes were rerun.
+- 2026-09-02 (second review round, applied): a reviewer pass on the
+  revised paper found the false-feedback paragraph repeating the
+  denominator error (inaccurate counts fell under false feedback, so the
+  models deleted correct quotations rather than rewriting them), four
+  text-versus-table mismatches, and no inference in Experiment 2. Added:
+  src/gee.py (the GEE fit was previously an unsaved inline script; it now
+  reproduces stats_gee.json exactly and adds 95 percent intervals);
+  src/loop_transitions.py, a per-quotation trace from round 0 to the
+  final draft (corrected, dequoted, deleted, added) for all three arms;
+  matter-paired Wilcoxon and bootstrap comparisons of final strict
+  accuracy, true feedback against each control. Findings: Sonnet 5
+  corrected 4 of 89 flagged quotations and deleted or dequoted 85; under
+  false feedback it removed 56 of 68 correct ones. Revision without
+  feedback lifts Sonnet 5 to 0.595 and GPT-5.4-mini to 0.543; true
+  feedback adds 0.36 for Sonnet 5 (p = 0.0003) and nothing
+  distinguishable for GPT-5.4-mini (0.12, interval includes zero). The
+  Sonnet combined contrast is now labeled a pre-registered null result,
+  not exploratory. Liu et al. open-weight pincite recall corrected to 19
+  to 51 percent (Qwen3.6-27B reaches 50.9). GLM missing drafts are 33
+  (28 combined), not 30. Loop rescoring drifted by a few quotations
+  (Qwen 182 to 186 scored at round 0) because the local text cache grew
+  between runs; all macros regenerated together. Body fits exactly ten
+  pages; the phrasing-robustness paragraph moved into Limitations and
+  the language-model-judges paragraph into Section 6 to make room.

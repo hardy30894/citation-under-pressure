@@ -225,7 +225,7 @@ number of official-looking warnings aimed at items that are correct.
 
 | model | scored r0 to final | accurate r0 to final | strict, true feedback | strict, scrambled | clean drafts |
 |---|---|---|---|---|---|
-| Qwen3-30B | 182 to 181 | 16 to 16 | 0.103 to 0.112 | 0.103 to 0.097 | 0 of 24 |
+| Qwen3-30B | 186 to 188 | 16 to 16 | 0.099 to 0.107 | 0.099 to 0.093 | 0 of 24 |
 | Mistral Small | 145 to 133 | 15 to 17 | 0.208 to 0.264 | 0.208 to 0.122 | 9 of 24 |
 | DeepSeek V4 Flash | 211 to 47 | 28 to 19 | 0.181 to 0.645 | 0.181 to 0.153 | 21 of 24 |
 | Sonnet 5 | 157 to 73 | 68 to 70 | 0.471 to 0.974 | 0.471 to 0.266 | 23 of 24 |
@@ -244,8 +244,14 @@ lower accuracy for four of six models, most for Sonnet 5 and
 GPT-5.4-mini, which follow feedback best. The practical reading: use
 the checker as a gate on output rather than as feedback, and measure a
 probabilistic detector's false-positive rate before wiring it into a
-loop. A no-feedback control arm (same rounds, no checker content) was
-run after the pre-registered analysis and is in `results/loop_*`.
+loop. A no-feedback control arm (same rounds, no checker content) shows
+that revision alone lifts Sonnet 5 only to 0.595 and GPT-5.4-mini to
+0.543; true feedback adds a further 0.36 for Sonnet 5 (matter-paired,
+p = 0.0003) but nothing distinguishable for GPT-5.4-mini. A
+per-quotation trace (`results/loop_transitions.json`) shows the
+mechanism directly: of Sonnet 5's 89 flagged quotations, 4 were
+corrected, 13 lost their quotation marks, and 72 were deleted; under
+false feedback it removed 56 of its 68 correct quotations.
 
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
@@ -260,8 +266,8 @@ Three residual failure modes, each measured deterministically:
 These are the errors an existence check cannot see, and the page-level
 measurement covers, on public data, the error class on which published
 detection agents have the lowest recall: the best published detector
-misses nearly half of wrong pincites (52.8% recall), and every
-open-weight detector misses roughly three quarters.
+misses nearly half of wrong pincites (52.8% recall), and open-weight
+detectors reach 19 to 51%.
 
 ### Finding 4. The one judgment call defeated every jury
 

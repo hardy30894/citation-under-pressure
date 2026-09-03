@@ -40,7 +40,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.7))
+    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.3))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -69,12 +69,15 @@ def fig1():
 
 def fig2():
     data = json.loads((HERE / "results/rescore_loops.json").read_text())
-    fig, axes = plt.subplots(1, 2, figsize=(7.0, 2.7), sharey=True)
+    fig, axes = plt.subplots(1, 3, figsize=(7.4, 2.2), sharey=True)
     xs = [0, 1]
     for ax, arm, title in ((axes[0], "true", "true feedback"),
-                           (axes[1], "scrambled", "false feedback")):
+                           (axes[1], "scrambled", "false feedback"),
+                           (axes[2], "none", "no feedback")):
         for mi, (model, rows) in enumerate(data.items()):
             sub = [r for r in rows if r["arm"] == arm]
+            if not sub:
+                continue
             m0 = [r["r0"]["strict"] for r in sub
                   if r["r0"]["strict"] is not None]
             m1 = [r["final"]["strict"] for r in sub
