@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""Second task, federal courts of appeals (results/app_<model>/, 24
+matters, baseline and combined). Per model and condition: citation
+existence, strict quotation accuracy, refusals, and the share of
+citations to the U.S. Reports against the federal reporters. A
+citation-level logistic GEE per model, clustered by matter, for the
+combined-versus-baseline contrast on both outcomes, Holm-corrected over
+the 14 tests; and the same contrast pooled over both tasks with a task
+effect. Reads records_app.jsonl (from records_dump.py --tag app) and
+records.jsonl. Writes results/appellate_stats.json."""
+
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+import statsmodels.api as sm
+import statsmodels.formula.api as smf
+
+HERE = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(HERE / "src"))
+R = HERE / "results"
+from pilot import cite_details  # noqa: E402
+
+
+def rates(df):
+    out = {}
+    for (m, c), g in df.groupby(["model", "condition"]):
+        cit = g[g.kind == "citation"]
+        ex = int((cit.verdict == "exists").sum())
+        nf = int((cit.verdict == "not_found").sum())
+        q = g[(g.kind == "quote") & g.verdict.isin(["accurate", "near_miss", "inaccurate"])]
+        out[f"{m}:{c}"] = {"exist": round(ex / (ex + nf), 4) if ex + nf else None,
+                           "not_found": nf, "adjudicable": ex + nf,
+                           "strict": round(float((q.verdict == "accurate").mean()), 4) if len(q) else None,
+                           "quotes_scored": int(len(q))}
+    return out
+
+
+def combo_gee(df, extra=""):
+    out = {}
+    for model in sorted(df.model.unique()):
+        for kind in ("citation", "quote"):
+            sub = df[(df.model == model) & (df.kind == kind)].copy()
+            if kind == "citation":
+                sub = sub[sub.verdict.isin(["exists", "not_found"])]
+                sub["y"] = (sub.verdict == "exists").astype(int)
+            else:
+                sub = sub[sub.verdict.isin(["accurate", "near_miss", "inaccurate"])]
+                sub["y"] = (sub.verdict == "accurate").astype(int)
+            sub["combo"] = (sub.condition == "combo").astype(int)
+            key = f"{kind}:{model}:combo"
+            if sub.y.nunique() < 2:
+                out[key] = {"OR": None, "p": None}
+                continue
+            try:
+                res = smf.gee("y ~ combo" + extra, groups="matter", data=sub,
+                              family=sm.families.Binomial(),
+                              cov_struct=sm.cov_struct.Exchangeable()).fit()
+                b, se = res.params["combo"], res.bse["combo"]
+                out[key] = {"OR": round(float(np.exp(b)), 3),
+                            "ci_low": round(float(np.exp(b - 1.96 * se)), 3),
+                            "ci_high": round(float(np.exp(b + 1.96 * se)), 3),
+                            "p": float(res.pvalues["combo"]), "n": int(len(sub))}
+            except Exception as e:
+                out[key] = {"OR": None, "p": None, "note": str(e)[:80]}
+    tests = sorted([(k, v) for k, v in out.items() if v["p"] is not None], key=lambda kv: kv[1]["p"])
+    m = len(tests)
+    for i, (k, v) in enumerate(tests):
+        v["holm_p"] = round(min(1.0, v["p"] * (m - i)), 4)
+        v["p"] = round(v["p"], 5)
+    return out
+
+
+def reporter_mix():
+    """Share of citations to U.S. Reports and to F.2d/F.3d/F. Supp. in the
+    appellate drafts, plus refusals (drafts under 100 words)."""
+    out = {}
+    for d in sorted(R.glob("app_*")):
+        if not d.is_dir():
+            continue
+        model = d.name.replace("app_", "")
+        c = Counter()
+        refusals = 0
+        n = 0
+        for p in (d / "drafts").glob("*.txt"):
+            t = p.read_text()
+            n += 1
+            if len(t.split()) < 100:
+                refusals += 1
+            for x in cite_details(t):
+                rep = (x["reporter"] or "").replace(" ", "").replace(".", "")
+                if rep == "US":
+                    c["us"] += 1
+                elif rep in ("F2d", "F3d", "FSupp", "FSupp2d", "FSupp3d", "F"):
+                    c["federal"] += 1
+                elif rep:
+                    c["other"] += 1
+        tot = sum(c.values())
+        out[model] = {"drafts": n, "short_drafts": refusals,
+                      "us_share": round(c["us"] / tot, 3) if tot else None,
+                      "federal_share": round(c["federal"] / tot, 3) if tot else None,
+                      "citations": tot}
+    return out
+
+
+def main():
+    app = pd.DataFrame(json.loads(l) for l in open(R / "records_app.jsonl"))
+    app["task"] = "appellate"
+    sc = pd.DataFrame(json.loads(l) for l in open(R / "records.jsonl"))
+    sc = sc[sc.condition.isin(["baseline", "combo"])].copy()
+    sc["task"] = "scotus"
+    both = pd.concat([sc, app], ignore_index=True)
+    out = {"rates": rates(app), "gee": combo_gee(app),
+           "gee_pooled_tasks": combo_gee(both, " + C(task)"),
+           "reporter_mix": reporter_mix()}
+    # baseline task comparison per model: existence and strict, scotus vs appellate
+    scr = rates(sc)
+    out["baseline_vs_scotus"] = {
+        m: {"scotus_exist": scr[f"{m}:baseline"]["exist"], "app_exist": out["rates"][f"{m}:baseline"]["exist"],
+            "scotus_strict": scr[f"{m}:baseline"]["strict"], "app_strict": out["rates"][f"{m}:baseline"]["strict"]}
+        for m in sorted(app.model.unique()) if f"{m}:baseline" in scr}
+    (R / "appellate_stats.json").write_text(json.dumps(out, indent=1))
+    for k, v in sorted(out["rates"].items()):
+        print(f"{k:24s} exist {v['exist']} ({v['not_found']}/{v['adjudicable']})  strict {v['strict']} ({v['quotes_scored']})")
+    for k, v in out["gee"].items():
+        if v.get("holm_p") is not None:
+            print(f"  {k:28s} OR {v['OR']} holm {v['holm_p']}{' *' if v['holm_p'] < 0.05 else ''}")
+    print("reporter mix:", {m: (v["us_share"], v["federal_share"], v["short_drafts"]) for m, v in out["reporter_mix"].items()})
+
+
+if __name__ == "__main__":
+    main()

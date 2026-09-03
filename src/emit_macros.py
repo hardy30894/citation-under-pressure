@@ -347,6 +347,44 @@ if gs.exists():
     cs = [k for k, v in g["gee"].items() if k.startswith("citation:") and v.get("holm_p") is not None and v["holm_p"] < 0.05]
     emit2("gCiteSurvivors", str(len(cs)))
 
+ap = R / "appellate_stats.json"
+if ap.exists():
+    a = json.loads(ap.read_text())
+    for m, mk in ALPHA.items():
+        for c, ck in (("baseline", "Base"), ("combo", "Combo")):
+            v = a["rates"].get(f"{m}:{c}")
+            if v:
+                emit2(f"aExist{mk}{ck}", fmt3(v["exist"]))
+                emit2(f"aStrict{mk}{ck}", fmt3(v["strict"]))
+                emit2(f"aNotFound{mk}{ck}", str(v["not_found"]))
+                emit2(f"aAdj{mk}{ck}", str(v["adjudicable"]))
+        for kind, kk in (("citation", "Cite"), ("quote", "Quote")):
+            g = a["gee"].get(f"{kind}:{m}:combo", {})
+            if g.get("OR") is not None:
+                emit2(f"aOr{kk}{mk}", f"{g['OR']:.2f}")
+                emit2(f"aHolm{kk}{mk}", f"{g['holm_p']:.3f}")
+            g2 = a["gee_pooled_tasks"].get(f"{kind}:{m}:combo", {})
+            if g2.get("OR") is not None:
+                emit2(f"aPooledOr{kk}{mk}", f"{g2['OR']:.2f}")
+                emit2(f"aPooledHolm{kk}{mk}", f"{g2['holm_p']:.3f}" if g2["holm_p"] >= 0.001 else "$<$0.001")
+        rm = a["reporter_mix"].get(m)
+        if rm and rm["us_share"] is not None:
+            emit2(f"aUsShare{mk}", f"{100 * rm['us_share']:.0f}")
+    ex = [a["rates"][f"{m}:baseline"]["exist"] for m in ALPHA if f"{m}:baseline" in a["rates"]]
+    emit2("aExistBaseMin", fmt3(min(ex)))
+    emit2("aExistBaseMax", fmt3(max(ex)))
+    us = [a["reporter_mix"][m]["us_share"] for m in ALPHA if m in a["reporter_mix"]]
+    emit2("aUsShareMin", f"{100 * min(us):.0f}")
+    emit2("aUsShareMax", f"{100 * max(us):.0f}")
+    emit2("aShortDrafts", str(sum(v["short_drafts"] for v in a["reporter_mix"].values())))
+    lower = sum(1 for m in ALPHA if f"{m}:baseline" in a["rates"] and
+                a["rates"][f"{m}:baseline"]["exist"] < a["baseline_vs_scotus"][m]["scotus_exist"])
+    emit2("aLowerThanScotus", str(lower))
+    qs = [k for k, v in a["gee_pooled_tasks"].items() if k.startswith("quote:") and v.get("holm_p") is not None and v["holm_p"] < 0.05 and v["OR"] < 1]
+    emit2("aPooledQuoteFalls", str(len(qs)))
+    surv = [k for k, v in a["gee"].items() if v.get("holm_p") is not None and v["holm_p"] < 0.05]
+    emit2("aSurvivors", str(len(surv)))
+
 lt = R / "loop_transitions.json"
 if lt.exists():
     t = json.loads(lt.read_text())

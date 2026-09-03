@@ -1,0 +1,33 @@
+## ARGUMENT
+
+### I. The warrant was invalid because the affidavit failed to establish a nexus between the suspected offenses and Joubert’s parents’ home.
+
+The Fourth Amendment requires probable cause to believe evidence of a crime will be found in the place to be searched. *Illinois v. Gates*, 462 U.S. 213, 238–39 (1983); *United States v. Ribeiro*, 397 F.3d 43, 48 (1st Cir. 2005). A magistrate may draw reasonable inferences, but there must still be some factual basis connecting the items sought to the location searched. *United States v. Feliz*, 182 F.3d 82, 86–87 (1st Cir. 1999); *United States v. Dixon*, 787 F.3d 55, 59–60 (1st Cir. 2015).
+
+That nexus was missing here. The affidavit recounted allegations that Joubert had molested children and had once torn apart a computer tower when he became worried about the investigation. But the affidavit did not establish that evidence of the charged offenses would be located at his parents’ home. The key facts were stale, generalized, and inferential. See *United States v. Grant*, 218 F.3d 72, 76–77 (1st Cir. 2000) (requiring more than “boilerplate” assertions and general criminal propensity); *United States v. Charest*, 602 F.2d 1015, 1017–18 (1st Cir. 1979).
+
+The Government’s best argument is that suspects of child exploitation often keep images or records. But this Court has rejected warrants supported only by a “likelihood” that offenders may retain evidence absent case-specific facts tying the items to the premises. *United States v. Ribeiro*, 397 F.3d at 50–51. The affidavit’s statement that persons who molest children “often maintain possession” of related records was a generic profile, not evidence of where Joubert kept anything. See *United States v. Roman*, 942 F.3d 43, 51–52 (1st Cir. 2019). Nor did SJ’s account supply the necessary nexus. He did not see Joubert place any incriminating items in the house, and he did not see Joubert discard the computer components elsewhere. A warrant cannot rest on what an officer “believes” may be present without facts showing why. *United States v. Tiem Trinh*, 665 F.3d 1, 13–14 (1st Cir. 2011).
+
+Because the warrant lacked probable cause, suppression was required. *Mapp v. Ohio*, 367 U.S. 643, 655 (1961). The seized evidence—including the most important VHS recording—should have been excluded.
+
+### II. The district court abused its discretion by admitting uncharged child-molestation testimony.
+
+Rule 404(b) bars evidence of other acts offered to prove propensity, and even admissible evidence may be excluded under Rule 403 if its probative value is substantially outweighed by unfair prejudice. Fed. R. Evid. 404(b), 403; *Huddleston v. United States*, 485 U.S. 681, 687–88 (1988); *United States v. Gilbert*, 181 F.3d 152, 157–58 (1st Cir. 1999).
+
+Here, the court admitted testimony about uncharged molestation allegations involving other children. That evidence invited the jury to conclude that Joubert was a bad person and likely committed the charged crimes because he had done similar things before. That is precisely the inference Rule 404(b) forbids. *United States v. Varoudakis*, 233 F.3d 113, 122–23 (1st Cir. 2000); *United States v. Landry*, 631 F.3d 596, 601–02 (1st Cir. 2011). The evidence was also highly inflammatory. Testimony that Joubert was a child molester in other contexts created a substantial risk that the jury convicted on emotion rather than proof beyond a reasonable doubt. *United States v. Rodriguez-Estrada*, 877 F.2d 153, 156–57 (1st Cir. 1989).
+
+The Government may contend the evidence showed intent, motive, or plan. But where the charged conduct itself already established sexual exploitation and possession of child pornography, additional molestation allegations were cumulative on intent and unnecessary to prove any disputed element. *United States v. Varoudakis*, 233 F.3d at 122; *United States v. Hardy*, 228 F.3d 745, 748–49 (6th Cir. 2000). The district court’s admission of this testimony exceeded the permissible bounds of Rule 404(b) and was not harmless, given the strength the Government derived from portraying Joubert as a serial predator. *United States v. Taylor*, 522 F.3d 731, 735–36 (7th Cir. 2008).
+
+### III. Congress exceeded its Commerce Clause power as applied to Joubert’s conduct.
+
+Although courts have upheld 18 U.S.C. §§ 2251 and 2252A in many applications, those decisions do not foreclose an as-applied Commerce Clause challenge where the Government fails to show a substantial relation to interstate commerce. *United States v. Lopez*, 514 U.S. 549, 567–68 (1995); *United States v. Morrison*, 529 U.S. 598, 617–18 (2000). The Commerce Clause does not authorize federal criminalization of wholly intrastate, noncommercial conduct absent a sufficient jurisdictional nexus. *United States v. Rodia*, 194 F.3d 465, 470–72 (3d Cir. 1999); *United States v. Corp*, 236 F.3d 325, 334–35 (6th Cir. 2001).
+
+Joubert’s conduct, as charged and proven, was local and private. The Government relied on the fact that cameras, VHS tapes, or computer components may once have moved in interstate commerce, but that is not enough under *Lopez* and *Morrison*. See *United States v. Alderman*, 565 F.3d 641, 645–46 (9th Cir. 2009). If the mere prior interstate movement of a device sufficed, Congress could reach nearly any purely local possession offense. *United States v. Jones*, 529 U.S. 848, 857–58 (2000). That result would erase any meaningful limit on federal power.
+
+### IV. The 480-month sentence was substantively unreasonable.
+
+A sentence must be “sufficient, but not greater than necessary” to comply with 18 U.S.C. § 3553(a). *Gall v. United States*, 552 U.S. 38, 50 (2007); *Kimbrough v. United States*, 552 U.S. 85, 101 (2007). Substantive reasonableness review asks whether the sentencing court gave proper weight to the statutory factors and imposed a sentence within the range of defensible outcomes. *United States v. Martin*, 520 F.3d 87, 96–97 (1st Cir. 2008).
+
+A 480-month sentence is greater than necessary here. The court overemphasized the advisory Guidelines while giving insufficient weight to Joubert’s age, the noncommercial character of the offense, and the fact that the sentence is, in practical terms, a life sentence. *United States v. Rivera-González*, 776 F.3d 45, 51–52 (1st Cir. 2015); *United States v. Prosperi*, 686 F.3d 32, 43–45 (1st Cir. 2012). The court also failed to meaningfully account for the overlap between the conduct underlying the convictions and the uncharged allegations that so heavily influenced the proceeding. *United States v. Politano*, 522 F.3d 69, 73–74 (1st Cir. 2008).
+
+Because the sentence was substantively excessive, it should be vacated and remanded for resentencing.

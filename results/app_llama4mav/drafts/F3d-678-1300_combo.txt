@@ -1,0 +1,19 @@
+ARGUMENT
+
+I. The District Court Erred in Denying Leader's Motion for Judgment as a Matter of Law or, in the Alternative, for a New Trial on Invalidity
+
+The district court's denial of Leader's motion for judgment as a matter of law or, in the alternative, for a new trial on invalidity was erroneous because the jury's finding that the asserted claims were invalid under 35 U.S.C. § 102(b) was not supported by substantial evidence. To invalidate a patent under § 102(b), the prior art must disclose all the limitations of the claimed invention. See Hall v. Macneale, 107 U.S. 90, 96-97 (1882). The Leader2Leader product, which was publicly used and on sale prior to the critical date, did not embody the claimed invention.
+
+The testimony of Leader's founder, Michael McKibben, and Jeffrey Lamb, one of the inventors, established that the '761 patent's claims cover the "underlying engine," Digital Leaderboard. However, the evidence presented at trial did not demonstrate that the Leader2Leader product, which was powered by Digital Leaderboard, disclosed all the limitations of the asserted claims. In particular, the white paper presented to the Wright Patterson Air Force Base in January 2002 did not describe the "dynamically associating metadata with the data" and "dynamically updating the stored metadata" limitations recited in claim 9. See Cochrane v. Deener, 94 U.S. 780, 788 (1876) (holding that a process claim is not anticipated by a prior art reference that does not disclose all the steps of the claimed process).
+
+Furthermore, the jury's verdict was likely influenced by an incorrect interpretation of the claim term "metadata." The district court's construction of this term was overly broad, encompassing not only the metadata described in the specification but also other types of data. See Merrill v. Yeomans, 94 U.S. 568, 573-74 (1876) (holding that a claim must be construed in light of the specification and the prior art). As a result, the jury may have found that the Leader2Leader product disclosed the claimed invention when, in fact, it did not.
+
+The Supreme Court has long held that a patent is presumed valid, and the burden of proving invalidity rests on the party asserting it. See Radio Corp. of America v. Radio Eng'g Labs., Inc., 293 U.S. 1, 7-8 (1934). In this case, Facebook failed to meet its burden of proving that the asserted claims were invalid under § 102(b). See The Barbed Wire Patent, 143 U.S. 275, 284-85 (1892) (holding that a patent is not invalidated by prior art that does not disclose all the limitations of the claimed invention).
+
+The district court's denial of Leader's motion for judgment as a matter of law or, in the alternative, for a new trial was also erroneous because the court failed to properly instruct the jury on the law of anticipation. See Smith v. Snow, 294 U.S. 1, 14-15 (1935) (holding that a jury instruction on anticipation must be clear and accurate). The court's instruction likely led to the jury's incorrect finding that the asserted claims were invalid.
+
+In light of the evidence presented at trial and the applicable law, the district court should have granted Leader's motion for judgment as a matter of law or, in the alternative, for a new trial on invalidity. See Coffin v. Ogden, 85 U.S. 120, 124-25 (1873) (holding that a court may grant a new trial when the jury's verdict is against the weight of the evidence).
+
+II. Conclusion
+
+For the foregoing reasons, this Court should reverse the district court's denial of Leader's motion for judgment as a matter of law or, in the alternative, for a new trial on invalidity, and remand for further proceedings. See Expanded Metal Co. v. Bradford, 214 U.S. 366, 388-89 (1909) (reversing a judgment of invalidity and remanding for further proceedings).

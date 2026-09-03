@@ -1,0 +1,25 @@
+## ARGUMENT
+
+The district court erred by instructing the jury to disregard testimony about subsequent remedial measures that was properly admitted for impeachment, and by denying Wood’s motion for a new trial. This Court reviews evidentiary rulings for abuse of discretion, *General Elec. Co. v. Joiner*, 522 U.S. 136, 141 (1997), but reviews the legal interpretation of the Federal Rules of Evidence de novo, *United States v. Brown*, 415 F.3d 1257, 1264 (11th Cir. 2005). The denial of a new trial is also reviewed for abuse of discretion. *Montgomery v. Noga*, 168 F.3d 1282, 1295 (11th Cir. 1999).
+
+### I. Rule 407 Does Not Bar Evidence of Subsequent Remedial Measures in Strict Products Liability Cases
+
+This Court has not decided whether Rule 407 applies to strict products liability actions. The plain language of the Rule as it existed at the time of trial permitted exclusion only when the evidence was offered “to prove negligence or culpable conduct.” Fed. R. Evid. 407 (1993). Strict liability focuses on the condition of the product, not the manufacturer’s conduct. *See, e.g., Herndon v. Seven Bar Flying Serv., Inc.*, 716 F.2d 1322, 1331 (10th Cir. 1983) (holding Rule 407 inapplicable to strict liability because its policy of encouraging repairs “has little relevance” in a regime that looks to the product’s defectiveness, not the defendant’s fault). The Advisory Committee Notes to the 1997 amendment—which extended the Rule to strict liability by adding “product defect”—confirm that before the amendment “the rule did not expressly apply to . . . strict liability cases.” *See* Fed. R. Evid. 407 advisory committee’s note to 1997 amendment.
+
+Because the accident occurred in 1989 and trial took place before the 1997 amendment, the district court should have followed the plain meaning of the Rule. *See Grenada Steel Indus. v. Alabama Oxygen Co.*, 699 F.2d 1285, 1289 (11th Cir. 1983) (holding, before Rule 407 was adopted by the Eleventh Circuit, that evidence of post-accident design changes was admissible in a strict liability action). The district court thus erred by initially excluding the evidence under Rule 407.
+
+### II. Even If Rule 407 Applied, Morbark Openly Invited the Impeachment
+
+At trial, Morbark repeatedly implied that the wood chipper had not been changed. Counsel stated in opening that the Army Corps of Engineers ordered “thirty machines *just like the one that is involved in this case*.” R4-141-22. On cross-examination, he asked Infinger whether the city “still ha[s] that Morbark chipper machine,” eliciting a “yes.” *Id.* at 44. These statements created a false impression that the original design remained unchanged and was therefore safe. The district court correctly ruled that Morbark “opened the door” to impeachment. *Id.* at 56.
+
+Where a party injects a misleading inference, the opposing party may rebut with evidence of subsequent remedial measures. *See, e.g., Tuer v. McDonald*, 701 A.2d 1101, 1104–05 (Md. 1997) (recognizing the “opening the door” exception to Rule 407). The district court’s initial decision to allow the impeachment was sound. Yet the court later instructed the jury to disregard the very testimony it had permitted. This contradictory ruling unduly prejudiced Wood because it deprived the jury of critical evidence showing that Morbark itself lengthened the chute after the accident—directly contradicting Morbark’s implication that the seventeen-inch chute was optimal.
+
+### III. The District Court Abused Its Discretion by Admonishing the Jury to Disregard the Impeachment Evidence
+
+After correctly allowing the testimony, the district court sua sponte gave a curative instruction striking the evidence and admonishing the jury to disregard it. That instruction was not a proper exercise of discretion. Once Morbark opened the door, Wood was entitled to present the impeachment evidence to counter the misleading impression. *See United States v. Reed*, 700 F.2d 638, 642 (11th Cir. 1983) (party may introduce otherwise inadmissible evidence to rebut a misleading impression created by opposing party). The court’s belated retraction undermined Wood’s theory that the short chute was defective and that Morbark’s subsequent longer design confirmed the defect’s feasibility of correction.
+
+The error was not harmless. The impeachment evidence was central to Wood’s case. Without it, the jury was left with Morbark’s unchallenged suggestion that the seventeen-inch chute was the standard still in use. The denial of a new trial therefore constituted an abuse of discretion.
+
+### CONCLUSION
+
+For these reasons, this Court should reverse the district court’s judgment and remand for a new trial at which the jury may consider the subsequent remedial measure evidence.

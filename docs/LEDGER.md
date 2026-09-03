@@ -255,3 +255,25 @@ before or after seeing the relevant data. Nothing is deleted.
   seven baseline cells (Llama-4 baseline fell 0.402 to 0.381);
   "removes" softened to "nearly removes" (74 not found remain in 5,605,
   against 341 in 5,856 closed-book).
+- 2026-09-03 (second task, federal courts of appeals; after the
+  pre-registered analysis): src/appellate_packets.py builds 24 matters
+  from published F.3d opinions in the local Caselaw Access Project
+  cache (1995 to 2019, at most two per circuit, at most a quarter with
+  the United States as a party): the packet is the opinion's statement
+  of the case and facts, cut at the first analysis marker and scrubbed
+  of outcome sentences, with a second scrub pass after a "we further
+  instruct" leak was found in the first build; party roles and circuit
+  from the CAP head matter. Drafts argue for the named appellant under
+  baseline and combined on all seven models (results/app_*, 336 drafts).
+  Findings (src/appellate_stats.py): baseline existence 0.565 (Qwen),
+  0.716 (Mistral), 0.900 (DeepSeek), 0.910 (GPT), 0.936 (Llama, Grok),
+  0.993 (Sonnet), lower than on the Supreme Court matters for six of
+  seven models; the models cite the U.S. Reports for 49 to 76 percent
+  of authorities even in a circuit appeal; at 24 matters only Sonnet's
+  quotation rise survives Holm (OR 2.02, p 0.016); pooled over both
+  tasks with a task effect, Qwen's existence fall and the quotation
+  falls of Qwen, Llama, and DeepSeek survive, as does Sonnet's rise
+  (OR 1.59, p 0.009). No refusals. Sanity check: the index holds
+  262,886 F.3d and 506,638 F.2d citations and Sonnet's appellate drafts
+  had 2 not-found in 368, so the lower existence of the other models is
+  fabrication, not coverage.

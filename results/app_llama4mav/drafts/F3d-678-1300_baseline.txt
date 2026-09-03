@@ -1,0 +1,15 @@
+ARGUMENT
+
+I. THE DISTRICT COURT ERRED IN DENYING LEADER'S MOTION FOR JUDGMENT AS A MATTER OF LAW OR, IN THE ALTERNATIVE, FOR A NEW TRIAL ON INVALIDITY UNDER 35 U.S.C. § 102(B)
+
+The district court's denial of Leader's motion for judgment as a matter of law or, in the alternative, for a new trial on invalidity under 35 U.S.C. § 102(b) was erroneous because the jury's verdict was not supported by substantial evidence. To invalidate a patent claim under § 102(b), the accused infringer must prove by clear and convincing evidence that the invention was "on sale" or "publicly used" more than one year prior to the patent's filing date. See Pfaff v. Wells Electronics, Inc., 525 U.S. 55, 67 (1998). Here, the critical date is December 10, 2002.
+
+The evidence presented at trial demonstrated that Leader2Leader®, powered by the Digital Leaderboard® system, was "on sale" and "publicly used" before December 10, 2002. However, the jury's finding that the Leader2Leader® product embodied the asserted claims of the '761 patent was not supported by substantial evidence. The testimony of Leader's founder, Michael McKibben, and the white paper presented to the Wright Patterson Air Force Base in January 2002, demonstrate that Leader2Leader® was a commercial product that was "operational now with low user volumes" and had been "[f]ully developed." J.A. 27204, 27207. However, the evidence does not establish that Leader2Leader® embodied the specific limitations of the asserted claims.
+
+The Federal Circuit has held that to invalidate a patent claim under § 102(b), the prior art must contain each and every limitation of the claimed invention. See Finnigan Corp. v. International Trade Comm'n, 180 F.3d 1354, 1365 (Fed. Cir. 1999). Here, the white paper and testimony regarding Leader2Leader® do not demonstrate that the product contained the specific limitations of the asserted claims, such as "dynamically associating metadata with the data" and "tracking movement of the user from the user environment... to a second user environment." '761 patent, col.21 ll.38-58 (claim 9). The lack of evidence establishing that Leader2Leader® embodied the asserted claims renders the jury's verdict unsupported by substantial evidence.
+
+Furthermore, the district court's instruction to the jury on the § 102(b) invalidity defense was not erroneous. The court instructed the jury that to find the asserted claims invalid, they must find that Leader2Leader® embodied each and every limitation of the claimed invention. See J.A. 25585-86. The jury's verdict was therefore based on a proper understanding of the law.
+
+In light of the lack of substantial evidence supporting the jury's verdict, the district court erred in denying Leader's motion for judgment as a matter of law or, in the alternative, for a new trial on invalidity under 35 U.S.C. § 102(b). This Court should reverse the district court's denial and remand for further proceedings.
+
+See Group One, Ltd. v. Hallmark Cards, Inc., 254 F.3d 1041, 1045-46 (Fed. Cir. 2001) (reversing district court's denial of judgment as a matter of law where jury's verdict was not supported by substantial evidence).

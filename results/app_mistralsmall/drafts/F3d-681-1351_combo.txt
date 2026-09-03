@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+I. The Board Erred in Concluding That Harari’s ’880 Application Is Entitled to the Benefit of the ’566 Application’s Filing Date.
+
+A. The Board Misapplied the Continuity Requirements of 35 U.S.C. § 120.
+
+The Board erred in holding that Harari’s ’880 application is entitled to the benefit of the ’566 application’s filing date under 35 U.S.C. § 120. Section 120 permits a later application to claim the benefit of an earlier application’s filing date if the later application “is filed by an inventor or inventors named in the earlier application” and “the specification and drawings of the later application must comply with the requirements of section 112.” *In re Hogan*, 559 F.2d 595, 602 (C.C.P.A. 1977) (citing *In re Thorpe*, 777 F.2d 695, 697 (Fed. Cir. 1985)). The continuity requirement is strictly construed. *In re Zickendraht*, 319 F.2d 225, 229 (C.C.P.A. 1963). The earlier application must contain a written description of the invention claimed in the later application. *Id.* at 230.
+
+Here, the Board improperly relied on the chain of continuation applications to incorporate the ’579 application by reference into the ’880 application. However, the ’838 and ’768 applications did not themselves incorporate the ’579 application with sufficient clarity to satisfy § 120. The incorporation statement in the ’566 application—copied into the ’838 and ’768 applications—referred to the ’579 application as being “filed on the same day” as the ’566 application. *See* J.A. 1204. This language was ambiguous because the ’579 application was filed on the same day as the ’566 application, not as the ’838 or ’768 applications. The Board’s conclusion that this ambiguity was resolved by the preliminary amendment in the ’880 application ignores that § 120 requires compliance at the time of filing, not later through amendment. *In re Wertheim*, 541 F.2d 257, 263 (C.C.P.A. 1976) (“The statute requires that the later application comply with § 112 at the time it is filed.”).
+
+B. The Board’s Construction of the Incorporation Statement Violates the Rule Against Incorporation by Reference of Non-Enabling Disclosures.
+
+The Board further erred by treating the incorporation statement as sufficient to incorporate the ’579 application’s disclosure into the ’880 application. Incorporation by reference is permitted only if the incorporated material is “necessary to support the claims” and the reference is “so clear as to one skilled in the art that the description is incorporated by reference.” *In re Koller*, 685 F.2d 1382, 1384 (C.C.P.A. 1982) (quoting *In re Hayes Microcomputer Prods., Inc. Pat. Litig.*, 982 F.2d 1527, 1533 (Fed. Cir. 1992)). However, the incorporated material must itself be enabling. *In re LeGrice*, 301 F.2d 921, 924 (C.C.P.A. 1962) (“The disclosure of the application must be complete in itself and cannot rely for completeness on another application which is not itself complete and enabling.”).
+
+The ’579 application was not incorporated by reference in the ’838 or ’768 applications with sufficient clarity or enablement to satisfy § 120. The Board’s reliance on the preliminary amendment in the ’880 application to cure this deficiency is misplaced, as § 120 requires compliance at filing. *Wertheim*, 541 F.2d at 263. The Board’s error is compounded by its failure to recognize that the ’579 application’s disclosure was not enabling as to the claims at issue. *LeGrice*, 301 F.2d at 924.
+
+II. The Board’s Judgment Must Be Reversed Because Harari’s ’880 Application Is Not Entitled to the Benefit of the ’566 Application’s Filing Date.
+
+A. The Board’s Decision Is Contrary to the Strict Construction of § 120.
+
+The Board’s decision conflicts with the longstanding rule that § 120’s continuity requirements must be strictly construed. *Zickendraht*, 319 F.2d at 229. The Board improperly relied on the chain of continuation applications to incorporate the ’579 application by reference, despite the ambiguity in the incorporation statement and the lack of enablement. This error undermines the statutory scheme requiring clear and unambiguous compliance with § 120. *Id.*
+
+B. The Board’s Decision Undermines the Integrity of Patent Priority Claims.
+
+The Board’s decision threatens the integrity of patent priority claims by allowing an applicant to cure deficiencies in incorporation by reference through later amendments. This approach is inconsistent with the statutory requirement that the later application comply with § 112 at the time of filing. *Wertheim*, 541 F.2d at 263. It also permits applicants to incorporate non-enabling disclosures by reference, contrary to *LeGrice*, 301 F.2d at 924.
+
+**CONCLUSION**
+
+For the foregoing reasons, the Board’s judgment must be reversed. Harari’s ’880 application is not entitled to the benefit of the ’566 application’s filing date, and the interference should be resolved in favor of Hollmer.

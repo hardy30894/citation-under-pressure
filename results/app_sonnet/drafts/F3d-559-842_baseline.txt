@@ -1,0 +1,31 @@
+# ARGUMENT
+
+**Standard of Review**
+
+This Court reviews a grant of summary judgment de novo, viewing the evidence in the light most favorable to the nonmoving party. *Anderson v. Liberty Lobby, Inc.*, 477 U.S. 242, 255 (1986). Summary judgment is improper where the record reveals a genuine dispute over facts that "might affect the outcome of the suit." *Id.* at 248; *Celotex Corp. v. Catrett*, 477 U.S. 317, 322 (1986).
+
+**I. Rand's Failure to Deliver Required HOEPA and TILA Disclosures Extended the Mouas' Rescission Period to Three Years.**
+
+The Truth in Lending Act gives a borrower who pledges her principal dwelling the right to rescind "until midnight of the third business day following the consummation of the transaction or the delivery of the information and rescission forms required under this section together with a statement containing the material disclosures required under this subchapter, whichever is later." 15 U.S.C. § 1635(a); *see Beach v. Ocwen Fed. Bank*, 523 U.S. 410, 412 (1998). Where the creditor fails to deliver those disclosures, the three-day window does not run at all until the three-year outer limit fixed by § 1635(f) is reached. *Id.* HOEPA layers additional disclosure duties onto high-cost loans like the Mouas', 15 U.S.C. § 1639(a), and treats a violation of those duties the same as a TILA violation for rescission purposes. 15 U.S.C. § 1639(b).
+
+Rand does not dispute that the Mouas never received the mandatory three-day advance HOEPA disclosures before the April 22 closing. Whether that omission was cured, and by what means, is precisely the kind of disputed fact that defeats summary judgment.
+
+**II. The Purported Waiver of the Advance-Disclosure Period Was Invalid, or at Minimum Raises a Jury Question.**
+
+Regulation Z permits waiver of the advance-disclosure period only where the consumer, facing a bona fide personal financial emergency, gives the creditor a dated written statement describing that emergency. 12 C.F.R. § 226.23(e)(1). Courts have cautioned that such waivers are the exception, not the rule, and have scrutinized boilerplate emergency statements supplied by the lender rather than composed by the borrower. *See Semar v. Platte Valley Fed. Sav. & Loan Ass'n*, 791 F.2d 699, 704–05 (9th Cir. 1986) (creditor bears the burden of establishing a valid emergency waiver).
+
+Here, Manisy Moua was handed a typed statement and told simply to copy it in her own handwriting. She did not compose it, and she testified she did not understand it. A scripted, lender-drafted "emergency" recited back by the consumer is not the consumer's own bona fide statement of necessity contemplated by § 226.23(e)(1). At minimum, the circumstances under which the waiver was procured are disputed and material, precluding summary judgment. *Anderson*, 477 U.S. at 248.
+
+**III. Rand's Notice of the Right to Cancel Was Not Clear and Conspicuous.**
+
+TILA requires that the notice of the right to rescind be delivered "clearly and conspicuously." 15 U.S.C. § 1635(a); 12 C.F.R. § 226.23(b). Courts hold creditors to strict compliance with this notice requirement, not mere substantial compliance. *Williams v. Homestake Mortg. Co.*, 968 F.2d 1137, 1140 (11th Cir. 1992); *see also Rodash v. AIB Mortg. Co.*, 16 F.3d 1142, 1145 (11th Cir. 1994) (TILA "is a remedial statute" construed in favor of consumers).
+
+The document Rand relies upon simultaneously told the Mouas they had until midnight, April 26, 2005, to cancel and had them certify, on the day of closing, that "more than 3 business days have elapsed" and that the transaction "has not been rescinded." A notice that announces a right to cancel in one clause and declares that right already exhausted in the next is not clear; it is contradictory. Rand cannot disclaim responsibility for this defect merely by asserting its title company, not Rand itself, presented the Confirmation for signature—Excel Title conducted the closing on Rand's behalf, and the disclosure obligation belongs to the creditor. 15 U.S.C. § 1635(a).
+
+**IV. The Prepayment Penalty Embedded in the Note Independently Extends the Rescission Period.**
+
+HOEPA prohibits prepayment penalties in covered high-cost mortgages except in narrow circumstances not present here. 15 U.S.C. § 1639(c). The note's structure—an interest rate and payment that jump on fixed calendar dates rather than through ordinary amortization—operates as the kind of penalty HOEPA forbids. A violation of § 1639 carries the same extended rescission consequence as a TILA disclosure violation. 15 U.S.C. § 1639(b); *Beach*, 523 U.S. at 412.
+
+**Conclusion**
+
+Because genuine factual disputes remain as to whether Rand delivered the required disclosures, whether the emergency waiver was valid, and whether the cancellation notice was clear and conspicuous—and because the prepayment penalty was independently unlawful—the district court's grant of summary judgment should be reversed and the case remanded for trial. *Celotex*, 477 U.S. at 322.

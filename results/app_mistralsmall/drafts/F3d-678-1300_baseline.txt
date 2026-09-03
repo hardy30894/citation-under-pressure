@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+**I. THE DISTRICT COURT ERRED IN FINDING THE ASSERTED CLAIMS INVALID UNDER 35 U.S.C. § 102(b)**
+
+A. **The Leader2Leader® Product Did Not Anticipate the Asserted Claims**
+
+To establish anticipation under § 102(b), a product must be “identical in all material respects” to the claimed invention. *Net MoneyIN, Inc. v. VeriSign, Inc.*, 545 F.3d 1359, 1369 (Fed. Cir. 2008). The district court erred in concluding that Leader2Leader® anticipated the asserted claims because it failed to require that the product perform all the claimed functions.
+
+The asserted claims require, inter alia, “dynamically associating metadata” with data and “dynamically updating the stored metadata” when a user moves between environments. ’761 patent, col.21 ll.38-58. The record evidence shows that Leader2Leader® lacked this functionality. McKibben testified that Leader2Leader® did not “dynamically update” metadata as claimed, and the district court’s contrary finding was based on an erroneous construction of “metadata.” *See Leader Techs., Inc. v. Facebook, Inc.*, 770 F.Supp.2d 686, 717 (D. Del. 2011).
+
+Moreover, the district court improperly relied on Leader’s white paper to find anticipation. A product must be “on sale” or “in public use” in the form it is claimed. *Pfaff v. Wells Elecs., Inc.*, 525 U.S. 55, 67 (1998). The white paper described a proposed system, not the Leader2Leader® product itself. The district court’s reliance on it was error.
+
+B. **The Leader2Leader® Product Was Not “On Sale” or “In Public Use” Prior to December 10, 2002**
+
+The on-sale bar applies only if the invention was “the subject of a commercial offer for sale” and “ready for patenting.” *Pfaff*, 525 U.S. at 67. The district court erred in finding that Leader’s January 2002 white paper constituted an invalidating offer for sale.
+
+First, the white paper was not an offer to sell the claimed invention. It described a proposed system and offered software licenses, but it did not identify the specific claims of the ’761 patent. *See id.* at 67-68 (requiring the invention to be the subject of the sale).
+
+Second, the Leader2Leader® product was not “ready for patenting” before December 10, 2002. The record shows that the product lacked the claimed metadata functionality. *See id.* at 67 (requiring the invention to be “sufficiently definite and tested to warrant the conclusion that it would work for its intended purpose”).
+
+The district court also erred in finding that Leader2Leader® was in “public use.” Public use requires that the invention be “in the public domain and ready for use.” *In re Hall*, 781 F.2d 897, 899 (Fed. Cir. 1986). The record shows that Leader2Leader® was demonstrated only to potential customers under confidentiality agreements. *See id.* (holding that demonstrations under confidentiality do not constitute public use).
+
+**II. THE DISTRICT COURT ERRED IN DENYING LEADER’S MOTION FOR JUDGMENT AS A MATTER OF LAW**
+
+A party is entitled to judgment as a matter of law if the evidence permits only one reasonable conclusion. *Reeves v. Sanderson Plumbing Prods., Inc.*, 530 U.S. 133, 150 (2000). Here, the evidence showed that Leader2Leader® did not anticipate the asserted claims, and no reasonable jury could have found otherwise.
+
+The district court’s denial of Leader’s motion was based on an erroneous construction of “metadata” and an improper reliance on the white paper. These errors deprived Leader of a fair trial. *See A.C. Aukerman Co. v. R.L. Chaides Constr. Co.*, 960 F.2d 1020, 1038 (Fed. Cir. 1992) (en banc) (holding that a party is entitled to JMOL if the evidence is legally insufficient).
+
+**CONCLUSION**
+
+For the foregoing reasons, the Court should reverse the district court’s judgment and remand for further proceedings consistent with this brief.

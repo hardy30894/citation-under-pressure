@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Concluding That the Mouas’ Waiver of the Three-Day Advance Disclosure Period Was Effective.**
+
+The Truth in Lending Act (TILA), 15 U.S.C. § 1635(a), and its implementing Regulation Z, 12 C.F.R. § 226.23, require lenders to provide borrowers with a three-day advance disclosure period before consummating a high-cost mortgage under the Home Ownership and Equity Protection Act (HOEPA), 15 U.S.C. § 1639(b). The failure to provide this advance disclosure extends the borrower’s right to rescind from three days to three years. *See Keiran v. Home Capital, Inc.,* 720 F.3d 721, 726 (8th Cir. 2013) (citing *McIntosh v. Irwin Union Bank & Trust Co.,* 215 F.3d 963, 966 (8th Cir. 2000)).
+
+Rand contends the Mouas waived the three-day advance disclosure period based on a purported financial emergency. However, TILA strictly limits waivers to "bona fide personal financial emergencies," and even then, the lender must provide the disclosures *at the time of the waiver* and obtain the borrower’s written acknowledgment. 15 U.S.C. § 1635(e); *see also 12 C.F.R. § 226.23(e)(2)*. Here, Rand failed to provide the required disclosures at the time of the waiver, and the Mouas’ handwritten statement—purportedly waiving the three-day period—was obtained *after* the closing, not before. *Cf. In re Smith,* 378 B.R. 518, 525 (Bankr. D. Minn. 2007) (finding no valid waiver where disclosures were not provided at the time of the waiver request).
+
+Moreover, the Mouas’ handwritten statement does not satisfy TILA’s waiver requirements. The statement merely requests a waiver of the three-day review period without acknowledging receipt of the required disclosures or the consequences of the waiver. *See 12 C.F.R. § 226.23(e)(2)(i)-(ii)*. The Eighth Circuit has held that a waiver must be "knowing and voluntary," *McIntosh,* 215 F.3d at 966, and the Mouas’ lack of understanding of the statement—evidenced by their confusion at the closing—undermines any claim of voluntariness. *See also Keiran,* 720 F.3d at 726 (finding no valid waiver where borrowers were not fully informed of their rights).
+
+**II. The District Court Erred in Concluding That the Mouas’ Right to Rescind Had Lapsed.**
+
+Rand argues that the Mouas’ right to rescind lapsed because they signed the "Confirmation" portion of the Notice of Right to Cancel (Notice) before the three-day rescission period expired. However, the Notice itself states that the Confirmation section may be signed *only after* the three-day period has elapsed. *See 12 C.F.R. § 226.23(a)(3)* (requiring the Confirmation to be signed "after the three-business-day period has expired"). The Mouas’ simultaneous signing of the Receipt and Confirmation sections—both dated April 22, 2005—demonstrates that the Confirmation was not validly executed. *Cf. In re Smith,* 378 B.R. at 526 (finding that a Confirmation signed before the expiration of the rescission period was invalid).
+
+Furthermore, the Mouas’ right to rescind was not waived by their signing of the Confirmation. TILA provides that a borrower’s failure to deliver a rescission notice within the three-year period does not affect their right to rescind if the lender failed to provide the required disclosures. *See 15 U.S.C. § 1635(f)*; *Keiran,* 720 F.3d at 726. Here, Rand’s failure to provide the three-day advance disclosures under HOEPA extended the rescission period to three years. *See id.*
+
+**III. The District Court Erred in Concluding That the Prepayment Penalty Did Not Violate HOEPA.**
+
+HOEPA prohibits lenders from including prepayment penalties in high-cost mortgages unless certain conditions are met. *See 15 U.S.C. § 1639(b)(2)*. The Mouas’ loan included a prepayment penalty, which Rand contends was permissible because the loan was not a "high-cost mortgage" under HOEPA. However, the loan’s terms—including an annual percentage rate (APR) exceeding 8% above the yield on Treasury securities—triggered HOEPA’s protections. *See 15 U.S.C. § 1602(aa)(1)(A)*. The inclusion of the prepayment penalty, therefore, violated HOEPA, further extending the Mouas’ right to rescind. *See 15 U.S.C. § 1635(f)*.
+
+**Conclusion**
+
+For the foregoing reasons, the district court erred in granting summary judgment in favor of Rand. The Mouas’ right to rescind was not waived, and their right to rescind extends to three years under TILA and HOEPA. The judgment should be reversed, and the case remanded for further proceedings consistent with this opinion.

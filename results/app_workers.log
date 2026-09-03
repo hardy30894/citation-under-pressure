@@ -1,0 +1,1746 @@
+F3d-63-1267 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=5 cost=$0.0025
+F3d-63-1267 combo     cites= 16 exist=0.8125 unres=0.0 quotes=3 cost=$0.0066
+F3d-633-522 baseline  cites=  6 exist=0.1667 unres=0.0 quotes=1 cost=$0.0106
+F3d-633-522 combo     cites=  7 exist=0.8571 unres=0.0 quotes=8 cost=$0.0141
+F3d-639-1239 baseline  cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$0.0169
+F3d-639-1239 combo     cites= 11 exist=0.6364 unres=0.0 quotes=2 cost=$0.0210
+F3d-647-883 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.0242
+F3d-647-883 combo     cites=  7 exist=1.0 unres=0.0 quotes=5 cost=$0.0280
+F3d-678-1300 baseline  cites=  6 exist=1.0 unres=0.0 quotes=4 cost=$0.0316
+F3d-678-1300 combo     cites= 10 exist=0.8 unres=0.0 quotes=8 cost=$0.0353
+F3d-681-1351 baseline  cites= 10 exist=0.8 unres=0.0 quotes=9 cost=$0.0382
+F3d-681-1351 combo     cites=  7 exist=0.7143 unres=0.0 quotes=6 cost=$0.0411
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 58,
+    "cite_verdicts": {
+      "exists": 46,
+      "not_found": 12
+    },
+    "existence_rate_pooled": 0.793,
+    "quote_verdicts": {
+      "inaccurate": 14,
+      "near_miss": 7,
+      "unverifiable": 10,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 38,
+      "out_of_range": 3,
+      "no_pin": 7,
+      "case_unknown": 9,
+      "in_range_unbounded": 1
+    },
+    "temporal": {
+      "checked": 58,
+      "violated": 14
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 38,
+    "cite_verdicts": {
+      "exists": 29,
+      "not_found": 9
+    },
+    "existence_rate_pooled": 0.763,
+    "quote_verdicts": {
+      "near_miss": 3,
+      "inaccurate": 3,
+      "unverifiable": 16,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "case_unknown": 7,
+      "no_pin": 4,
+      "out_of_range": 1,
+      "in_range_unbounded": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $0.0411
+F3d-70-1201 baseline  cites=  3 exist=0.3333 unres=0.0 quotes=2 cost=$0.0009
+F3d-70-1201 combo     cites=  6 exist=0.5 unres=0.0 quotes=0 cost=$0.0056
+F3d-772-63 baseline  cites=  8 exist=0.75 unres=0.0 quotes=2 cost=$0.0094
+F3d-772-63 combo     cites= 11 exist=0.6364 unres=0.0 quotes=1 cost=$0.0132
+F3d-778-247 baseline  cites=  9 exist=0.6667 unres=0.0 quotes=0 cost=$0.0159
+F3d-778-247 combo     cites= 16 exist=0.625 unres=0.0 quotes=4 cost=$0.0202
+F3d-842-299 baseline  cites=  6 exist=0.6667 unres=0.0 quotes=1 cost=$0.0233
+F3d-842-299 combo     cites=  8 exist=0.375 unres=0.0 quotes=2 cost=$0.0272
+F3d-928-311 baseline  cites=  5 exist=0.6 unres=0.0 quotes=1 cost=$0.0307
+F3d-928-311 combo     cites=  8 exist=0.125 unres=0.0 quotes=1 cost=$0.0333
+F3d-95-375 baseline  cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$0.0392
+F3d-95-375 combo     cites=  9 exist=0.8889 unres=0.0 quotes=5 cost=$0.0427
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 35,
+    "cite_verdicts": {
+      "not_found": 11,
+      "exists": 24
+    },
+    "existence_rate_pooled": 0.686,
+    "quote_verdicts": {
+      "unverifiable": 3,
+      "accurate": 3,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "case_unknown": 11,
+      "in_range": 19,
+      "no_pin": 5
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 58,
+    "cite_verdicts": {
+      "not_found": 26,
+      "exists": 32
+    },
+    "existence_rate_pooled": 0.552,
+    "quote_verdicts": {
+      "unverifiable": 6,
+      "inaccurate": 5,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "case_unknown": 19,
+      "out_of_range": 1,
+      "in_range": 25,
+      "no_pin": 13
+    },
+    "temporal": {
+      "checked": 58,
+      "violated": 18
+    }
+  }
+}
+total cost $0.0427
+F3d-133-322 baseline  cites=  7 exist=0.5714 unres=0.0 quotes=6 cost=$0.0018
+F3d-133-322 combo     cites=  9 exist=0.7778 unres=0.0 quotes=4 cost=$0.0049
+F3d-134-948 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$0.0085
+F3d-134-948 combo     cites=  9 exist=1.0 unres=0.0 quotes=8 cost=$0.0114
+F3d-159-480 baseline  cites= 13 exist=0.8462 unres=0.0 quotes=2 cost=$0.0182
+F3d-159-480 combo     cites= 10 exist=1.0 unres=0.0 quotes=0 cost=$0.0218
+F3d-169-1322 baseline  cites=  7 exist=0.7143 unres=0.0 quotes=4 cost=$0.0256
+F3d-169-1322 combo     cites=  6 exist=1.0 unres=0.0 quotes=7 cost=$0.0289
+F3d-246-633 baseline  cites=  7 exist=0.5714 unres=0.0 quotes=0 cost=$0.0325
+F3d-246-633 combo     cites= 10 exist=0.8 unres=0.0 quotes=0 cost=$0.0361
+F3d-472-471 baseline  cites=  5 exist=0.8 unres=0.0 quotes=4 cost=$0.0400
+F3d-472-471 combo     cites=  9 exist=0.7778 unres=0.0 quotes=3 cost=$0.0436
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 53,
+    "cite_verdicts": {
+      "exists": 47,
+      "not_found": 6
+    },
+    "existence_rate_pooled": 0.887,
+    "quote_verdicts": {
+      "inaccurate": 10,
+      "near_miss": 7,
+      "accurate": 3,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 22,
+      "in_range": 27,
+      "case_unknown": 4
+    },
+    "temporal": {
+      "checked": 53,
+      "violated": 18
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 46,
+    "cite_verdicts": {
+      "exists": 35,
+      "not_found": 11
+    },
+    "existence_rate_pooled": 0.761,
+    "quote_verdicts": {
+      "inaccurate": 4,
+      "unverifiable": 9,
+      "accurate": 2,
+      "near_miss": 3
+    },
+    "pin_verdicts": {
+      "in_range": 29,
+      "case_unknown": 11,
+      "no_pin": 3,
+      "in_range_unbounded": 1,
+      "out_of_range": 2
+    },
+    "temporal": {}
+  }
+}
+total cost $0.0436
+F3d-63-1267 baseline  cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.0254
+F3d-63-1267 combo     cites= 11 exist=0.9091 unres=0.0 quotes=1 cost=$0.0429
+F3d-633-522 baseline  cites=  9 exist=0.8889 unres=0.0 quotes=3 cost=$0.0723
+F3d-633-522 combo     cites=  0 exist=None unres=None quotes=0 cost=$0.0741
+F3d-639-1239 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$0.0998
+F3d-639-1239 combo     cites=  8 exist=1.0 unres=0.0 quotes=2 cost=$0.1212
+F3d-647-883 baseline  cites=  4 exist=0.75 unres=0.0 quotes=1 cost=$0.1363
+F3d-647-883 combo     cites= 13 exist=1.0 unres=0.0 quotes=2 cost=$0.1630
+F3d-678-1300 baseline  cites= 13 exist=1.0 unres=0.0 quotes=8 cost=$0.1888
+F3d-678-1300 combo     cites= 12 exist=0.8333 unres=0.0 quotes=3 cost=$0.2108
+F3d-681-1351 baseline  cites= 11 exist=0.9091 unres=0.0 quotes=2 cost=$0.2401
+F3d-681-1351 combo     cites= 12 exist=0.9167 unres=0.0 quotes=6 cost=$0.2647
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 1,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 52,
+      "not_found": 4
+    },
+    "existence_rate_pooled": 0.929,
+    "quote_verdicts": {
+      "accurate": 1,
+      "inaccurate": 6,
+      "unverifiable": 7
+    },
+    "pin_verdicts": {
+      "in_range": 39,
+      "no_pin": 11,
+      "out_of_range": 3,
+      "case_unknown": 3
+    },
+    "temporal": {
+      "checked": 56,
+      "violated": 7
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 53,
+    "cite_verdicts": {
+      "exists": 50,
+      "not_found": 3
+    },
+    "existence_rate_pooled": 0.943,
+    "quote_verdicts": {
+      "accurate": 2,
+      "near_miss": 2,
+      "unverifiable": 12,
+      "inaccurate": 3
+    },
+    "pin_verdicts": {
+      "in_range": 42,
+      "case_unknown": 3,
+      "no_pin": 5,
+      "out_of_range": 3
+    },
+    "temporal": {}
+  }
+}
+total cost $0.2647
+F3d-70-1201 baseline  cites=  9 exist=0.8889 unres=0.0 quotes=2 cost=$0.0062
+F3d-70-1201 combo     cites= 14 exist=0.8571 unres=0.0 quotes=1 cost=$0.0304
+F3d-772-63 baseline  cites= 37 exist=0.7838 unres=0.0 quotes=2 cost=$0.0577
+F3d-772-63 combo     cites= 19 exist=0.8947 unres=0.0 quotes=1 cost=$0.0872
+F3d-778-247 baseline  cites= 28 exist=0.9643 unres=0.0 quotes=2 cost=$0.1212
+F3d-778-247 combo     cites= 16 exist=0.9375 unres=0.0 quotes=1 cost=$0.1502
+F3d-842-299 baseline  cites= 13 exist=1.0 unres=0.0 quotes=2 cost=$0.1756
+F3d-842-299 combo     cites= 10 exist=0.9 unres=0.0 quotes=1 cost=$0.2007
+F3d-928-311 baseline  cites= 12 exist=1.0 unres=0.0 quotes=0 cost=$0.2173
+F3d-928-311 combo     cites=  0 exist=None unres=None quotes=0 cost=$0.2261
+F3d-95-375 baseline  cites= 13 exist=1.0 unres=0.0 quotes=1 cost=$0.2467
+F3d-95-375 combo     cites= 40 exist=0.925 unres=0.0 quotes=2 cost=$0.2725
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 112,
+    "cite_verdicts": {
+      "exists": 102,
+      "not_found": 10
+    },
+    "existence_rate_pooled": 0.911,
+    "quote_verdicts": {
+      "unverifiable": 5,
+      "inaccurate": 2,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 60,
+      "in_range": 48,
+      "case_unknown": 2,
+      "out_of_range": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 1,
+    "citations_total": 99,
+    "cite_verdicts": {
+      "exists": 90,
+      "not_found": 9
+    },
+    "existence_rate_pooled": 0.909,
+    "quote_verdicts": {
+      "unverifiable": 3,
+      "near_miss": 1,
+      "accurate": 1,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "no_pin": 56,
+      "in_range": 38,
+      "out_of_range": 2,
+      "case_unknown": 3
+    },
+    "temporal": {
+      "checked": 99,
+      "violated": 0
+    }
+  }
+}
+total cost $0.2725
+F3d-51-328 baseline  cites=  7 exist=0.4286 unres=0.0 quotes=2 cost=$0.0035
+F3d-51-328 combo     cites= 15 exist=0.6 unres=0.0 quotes=1 cost=$0.0077
+F3d-53-733 baseline  cites= 11 exist=0.8182 unres=0.0 quotes=7 cost=$0.0123
+F3d-53-733 combo     cites=  6 exist=1.0 unres=0.0 quotes=0 cost=$0.0147
+F3d-559-842 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=0 cost=$0.0191
+F3d-559-842 combo     cites=  6 exist=0.5 unres=0.0 quotes=1 cost=$0.0225
+F3d-582-500 baseline  cites=  4 exist=0.75 unres=0.0 quotes=1 cost=$0.0265
+F3d-582-500 combo     cites=  6 exist=0.8333 unres=0.0 quotes=3 cost=$0.0298
+F3d-598-50 baseline  cites= 10 exist=0.7 unres=0.0 quotes=4 cost=$0.0345
+F3d-598-50 combo     cites=  9 exist=0.2222 unres=0.0 quotes=1 cost=$0.0382
+F3d-609-917 baseline  cites=  8 exist=0.5 unres=0.0 quotes=3 cost=$0.0420
+F3d-609-917 combo     cites= 11 exist=0.9091 unres=0.0 quotes=2 cost=$0.0446
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 43,
+    "cite_verdicts": {
+      "exists": 28,
+      "not_found": 15
+    },
+    "existence_rate_pooled": 0.651,
+    "quote_verdicts": {
+      "unverifiable": 9,
+      "accurate": 2,
+      "inaccurate": 4,
+      "near_miss": 2
+    },
+    "pin_verdicts": {
+      "in_range": 24,
+      "case_unknown": 14,
+      "no_pin": 4,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 53,
+    "cite_verdicts": {
+      "exists": 35,
+      "not_found": 18
+    },
+    "existence_rate_pooled": 0.66,
+    "quote_verdicts": {
+      "inaccurate": 5,
+      "near_miss": 2,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 33,
+      "case_unknown": 16,
+      "no_pin": 3,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 53,
+      "violated": 24
+    }
+  }
+}
+total cost $0.0446
+F3d-133-322 baseline  cites=  6 exist=1.0 unres=0.0 quotes=0 cost=$0.0125
+F3d-133-322 combo     cites= 14 exist=1.0 unres=0.0 quotes=1 cost=$0.0491
+F3d-134-948 baseline  cites= 13 exist=1.0 unres=0.0 quotes=2 cost=$0.0807
+F3d-134-948 combo     cites= 16 exist=1.0 unres=0.0 quotes=3 cost=$0.1060
+F3d-159-480 baseline  cites= 20 exist=0.95 unres=0.0 quotes=1 cost=$0.1363
+F3d-159-480 combo     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$0.1563
+F3d-169-1322 baseline  cites=  8 exist=0.625 unres=0.0 quotes=2 cost=$0.1820
+F3d-169-1322 combo     cites= 14 exist=0.9286 unres=0.0 quotes=0 cost=$0.2052
+F3d-246-633 baseline  cites= 12 exist=1.0 unres=0.0 quotes=0 cost=$0.2240
+F3d-246-633 combo     cites= 10 exist=1.0 unres=0.0 quotes=0 cost=$0.2534
+F3d-472-471 baseline  cites=  6 exist=1.0 unres=0.0 quotes=1 cost=$0.2794
+F3d-472-471 combo     cites= 13 exist=0.7692 unres=0.0 quotes=0 cost=$0.2931
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 65,
+    "cite_verdicts": {
+      "exists": 61,
+      "not_found": 4
+    },
+    "existence_rate_pooled": 0.938,
+    "quote_verdicts": {
+      "accurate": 5,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 59,
+      "case_unknown": 4,
+      "no_pin": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 76,
+    "cite_verdicts": {
+      "exists": 72,
+      "not_found": 4
+    },
+    "existence_rate_pooled": 0.947,
+    "quote_verdicts": {
+      "near_miss": 2,
+      "accurate": 3
+    },
+    "pin_verdicts": {
+      "in_range": 44,
+      "out_of_range": 1,
+      "no_pin": 30,
+      "case_unknown": 1
+    },
+    "temporal": {
+      "checked": 76,
+      "violated": 5
+    }
+  }
+}
+total cost $0.2931
+F3d-51-328 baseline  cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$0.0190
+F3d-51-328 combo     cites= 15 exist=1.0 unres=0.0 quotes=2 cost=$0.0363
+F3d-53-733 baseline  cites= 22 exist=0.9091 unres=0.0 quotes=1 cost=$0.0654
+F3d-53-733 combo     cites= 26 exist=0.8846 unres=0.0 quotes=1 cost=$0.0939
+F3d-559-842 baseline  cites= 18 exist=0.8333 unres=0.0 quotes=2 cost=$0.1289
+F3d-559-842 combo     cites= 18 exist=0.8889 unres=0.0 quotes=0 cost=$0.1425
+F3d-582-500 baseline  cites=  9 exist=1.0 unres=0.0 quotes=6 cost=$0.1695
+F3d-582-500 combo     cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$0.1948
+F3d-598-50 baseline  cites= 21 exist=0.8571 unres=0.0 quotes=9 cost=$0.2335
+F3d-598-50 combo     cites= 20 exist=0.85 unres=0.0 quotes=0 cost=$0.2592
+F3d-609-917 baseline  cites= 12 exist=0.6667 unres=0.0 quotes=4 cost=$0.2870
+F3d-609-917 combo     cites= 28 exist=0.7143 unres=0.0 quotes=2 cost=$0.3008
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 118,
+    "cite_verdicts": {
+      "exists": 102,
+      "not_found": 16
+    },
+    "existence_rate_pooled": 0.864,
+    "quote_verdicts": {
+      "inaccurate": 2,
+      "near_miss": 2,
+      "unverifiable": 3,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "no_pin": 66,
+      "in_range": 39,
+      "out_of_range": 5,
+      "case_unknown": 7,
+      "in_range_unbounded": 1
+    },
+    "temporal": {
+      "checked": 118,
+      "violated": 7
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 93,
+    "cite_verdicts": {
+      "exists": 81,
+      "not_found": 12
+    },
+    "existence_rate_pooled": 0.871,
+    "quote_verdicts": {
+      "inaccurate": 3,
+      "near_miss": 6,
+      "accurate": 5,
+      "unverifiable": 11
+    },
+    "pin_verdicts": {
+      "in_range": 65,
+      "case_unknown": 9,
+      "out_of_range": 4,
+      "no_pin": 15
+    },
+    "temporal": {}
+  }
+}
+total cost $0.3008
+F3d-63-1267 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.0037
+F3d-63-1267 combo     cites= 10 exist=1.0 unres=0.0 quotes=4 cost=$0.0253
+F3d-633-522 baseline  cites=  6 exist=1.0 unres=0.1667 quotes=1 cost=$0.0500
+F3d-633-522 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.0707
+F3d-639-1239 baseline  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$0.0879
+F3d-639-1239 combo     cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$0.1143
+F3d-647-883 baseline  cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$0.1373
+F3d-647-883 combo     cites=  9 exist=1.0 unres=0.0 quotes=7 cost=$0.1583
+F3d-678-1300 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.1751
+F3d-678-1300 combo     cites= 10 exist=0.9 unres=0.0 quotes=3 cost=$0.1974
+F3d-681-1351 baseline  cites=  6 exist=0.6667 unres=0.0 quotes=2 cost=$0.2135
+F3d-681-1351 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.2409
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 28,
+      "unresolvable": 1,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.933,
+    "quote_verdicts": {
+      "near_miss": 4,
+      "accurate": 4,
+      "inaccurate": 1,
+      "unverifiable": 9
+    },
+    "pin_verdicts": {
+      "in_range": 23,
+      "no_pin": 5,
+      "case_unknown": 3
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 58,
+    "cite_verdicts": {
+      "exists": 57,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.983,
+    "quote_verdicts": {
+      "accurate": 3,
+      "inaccurate": 7,
+      "near_miss": 5,
+      "unverifiable": 5
+    },
+    "pin_verdicts": {
+      "in_range": 57,
+      "case_unknown": 1
+    },
+    "temporal": {
+      "checked": 58,
+      "violated": 0
+    }
+  }
+}
+total cost $0.2409
+F3d-133-322 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.0144
+F3d-133-322 combo     cites= 10 exist=0.9 unres=0.0 quotes=2 cost=$0.0394
+F3d-134-948 baseline  cites=  6 exist=0.8333 unres=0.0 quotes=2 cost=$0.0651
+F3d-134-948 combo     cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.0941
+F3d-159-480 baseline  cites=  1 exist=1.0 unres=0.0 quotes=2 cost=$0.1030
+F3d-159-480 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.1255
+F3d-169-1322 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.1468
+F3d-169-1322 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.1694
+F3d-246-633 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.1913
+F3d-246-633 combo     cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$0.2083
+F3d-472-471 baseline  cites=  5 exist=1.0 unres=0.0 quotes=1 cost=$0.2256
+F3d-472-471 combo     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$0.2514
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 54,
+    "cite_verdicts": {
+      "exists": 53,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.981,
+    "quote_verdicts": {
+      "inaccurate": 2,
+      "unverifiable": 1,
+      "near_miss": 1,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 52,
+      "case_unknown": 1,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 54,
+      "violated": 0
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 23,
+    "cite_verdicts": {
+      "exists": 22,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.957,
+    "quote_verdicts": {
+      "near_miss": 3,
+      "accurate": 6,
+      "unverifiable": 6,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 18,
+      "no_pin": 4,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $0.2514
+F3d-70-1201 baseline  cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$0.0089
+F3d-70-1201 combo     cites= 15 exist=0.6667 unres=0.0 quotes=0 cost=$0.0316
+F3d-772-63 baseline  cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$0.0550
+F3d-772-63 combo     cites=  8 exist=0.75 unres=0.0 quotes=0 cost=$0.0777
+F3d-778-247 baseline  cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$0.0993
+F3d-778-247 combo     cites= 10 exist=1.0 unres=0.0 quotes=0 cost=$0.1204
+F3d-842-299 baseline  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$0.1418
+F3d-842-299 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.1638
+F3d-928-311 baseline  cites=  3 exist=1.0 unres=0.0 quotes=4 cost=$0.1800
+F3d-928-311 combo     cites= 10 exist=1.0 unres=0.0 quotes=9 cost=$0.2208
+F3d-95-375 baseline  cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$0.2409
+F3d-95-375 combo     cites=  9 exist=1.0 unres=0.0 quotes=9 cost=$0.2573
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 29,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.935,
+    "quote_verdicts": {
+      "unverifiable": 5,
+      "accurate": 6,
+      "inaccurate": 3
+    },
+    "pin_verdicts": {
+      "in_range": 27,
+      "case_unknown": 2,
+      "no_pin": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 61,
+    "cite_verdicts": {
+      "exists": 54,
+      "not_found": 7
+    },
+    "existence_rate_pooled": 0.885,
+    "quote_verdicts": {
+      "inaccurate": 7,
+      "accurate": 5,
+      "near_miss": 4,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 33,
+      "in_range": 25,
+      "out_of_range": 3
+    },
+    "temporal": {
+      "checked": 61,
+      "violated": 0
+    }
+  }
+}
+total cost $0.2573
+F3d-63-1267 baseline  cites= 10 exist=0.7 unres=0.0 quotes=10 cost=$0.0009
+F3d-63-1267 combo     cites=  7 exist=0.7143 unres=0.0 quotes=4 cost=$0.0016
+F3d-633-522 baseline  cites=  6 exist=0.75 unres=0.3333 quotes=5 cost=$0.0026
+F3d-633-522 combo     cites= 12 exist=0.75 unres=0.0 quotes=10 cost=$0.0039
+F3d-639-1239 baseline  cites= 14 exist=0.9286 unres=0.0 quotes=4 cost=$0.0052
+F3d-639-1239 combo     cites=  7 exist=0.5714 unres=0.0 quotes=6 cost=$0.0062
+F3d-647-883 baseline  cites=  4 exist=0.75 unres=0.0 quotes=2 cost=$0.0072
+F3d-647-883 combo     cites=  9 exist=0.1111 unres=0.0 quotes=2 cost=$0.0082
+F3d-678-1300 baseline  cites=  8 exist=0.25 unres=0.0 quotes=3 cost=$0.0092
+F3d-678-1300 combo     cites=  9 exist=0.6667 unres=0.0 quotes=8 cost=$0.0109
+F3d-681-1351 baseline  cites=  0 exist=None unres=None quotes=0 cost=$0.0119
+F3d-681-1351 combo     cites=  3 exist=0.0 unres=0.0 quotes=0 cost=$0.0125
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 1,
+    "citations_total": 42,
+    "cite_verdicts": {
+      "not_found": 12,
+      "exists": 28,
+      "unresolvable": 2
+    },
+    "existence_rate_pooled": 0.7,
+    "quote_verdicts": {
+      "inaccurate": 19,
+      "unverifiable": 4,
+      "near_miss": 1
+    },
+    "pin_verdicts": {
+      "case_unknown": 14,
+      "in_range": 17,
+      "out_of_range": 2,
+      "no_pin": 9
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 47,
+    "cite_verdicts": {
+      "exists": 25,
+      "not_found": 22
+    },
+    "existence_rate_pooled": 0.532,
+    "quote_verdicts": {
+      "inaccurate": 14,
+      "near_miss": 4,
+      "unverifiable": 12
+    },
+    "pin_verdicts": {
+      "in_range": 9,
+      "no_pin": 24,
+      "out_of_range": 5,
+      "case_unknown": 9
+    },
+    "temporal": {
+      "checked": 47,
+      "violated": 3
+    }
+  }
+}
+total cost $0.0125
+F3d-51-328 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=4 cost=$0.0196
+F3d-51-328 combo     cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.0455
+F3d-53-733 baseline  cites=  5 exist=0.8 unres=0.0 quotes=0 cost=$0.0595
+F3d-53-733 combo     cites= 10 exist=1.0 unres=0.0 quotes=0 cost=$0.0835
+F3d-559-842 baseline  cites=  2 exist=1.0 unres=0.0 quotes=2 cost=$0.1087
+F3d-559-842 combo     cites=  8 exist=0.75 unres=0.0 quotes=0 cost=$0.1317
+F3d-582-500 baseline  cites=  6 exist=1.0 unres=0.1667 quotes=6 cost=$0.1523
+F3d-582-500 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.1864
+F3d-598-50 baseline  cites=  7 exist=1.0 unres=0.0 quotes=7 cost=$0.2024
+F3d-598-50 combo     cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.2314
+F3d-609-917 baseline  cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$0.2453
+F3d-609-917 combo     cites=  9 exist=1.0 unres=0.0 quotes=2 cost=$0.2622
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 26,
+    "cite_verdicts": {
+      "exists": 23,
+      "not_found": 2,
+      "unresolvable": 1
+    },
+    "existence_rate_pooled": 0.92,
+    "quote_verdicts": {
+      "unverifiable": 13,
+      "accurate": 4,
+      "inaccurate": 4,
+      "near_miss": 1
+    },
+    "pin_verdicts": {
+      "in_range": 21,
+      "out_of_range": 1,
+      "case_unknown": 3,
+      "no_pin": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 52,
+    "cite_verdicts": {
+      "exists": 50,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.962,
+    "quote_verdicts": {
+      "near_miss": 1,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 41,
+      "case_unknown": 2,
+      "no_pin": 8,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 52,
+      "violated": 0
+    }
+  }
+}
+total cost $0.2622
+F3d-70-1201 baseline  cites=  3 exist=0.0 unres=0.0 quotes=0 cost=$0.0003
+F3d-70-1201 combo     cites= 10 exist=0.7 unres=0.0 quotes=5 cost=$0.0019
+F3d-772-63 baseline  cites=  4 exist=0.5 unres=0.0 quotes=1 cost=$0.0029
+F3d-772-63 combo     cites=  5 exist=0.4 unres=0.0 quotes=2 cost=$0.0045
+F3d-778-247 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=7 cost=$0.0055
+F3d-778-247 combo     cites= 12 exist=0.6667 unres=0.0 quotes=5 cost=$0.0065
+F3d-842-299 baseline  cites=  8 exist=0.5 unres=0.0 quotes=5 cost=$0.0075
+F3d-842-299 combo     cites=  9 exist=0.5556 unres=0.0 quotes=3 cost=$0.0085
+F3d-928-311 baseline  cites=  4 exist=0.25 unres=0.0 quotes=1 cost=$0.0099
+F3d-928-311 combo     cites=  4 exist=0.75 unres=0.0 quotes=7 cost=$0.0102
+F3d-95-375 baseline  cites=  8 exist=0.5 unres=0.0 quotes=2 cost=$0.0122
+F3d-95-375 combo     cites= 11 exist=1.0 unres=0.0 quotes=9 cost=$0.0129
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 34,
+    "cite_verdicts": {
+      "not_found": 17,
+      "exists": 17
+    },
+    "existence_rate_pooled": 0.5,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "inaccurate": 9,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "case_unknown": 17,
+      "in_range": 16,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 51,
+    "cite_verdicts": {
+      "exists": 36,
+      "not_found": 15
+    },
+    "existence_rate_pooled": 0.706,
+    "quote_verdicts": {
+      "inaccurate": 26,
+      "near_miss": 2,
+      "unverifiable": 3
+    },
+    "pin_verdicts": {
+      "no_pin": 11,
+      "case_unknown": 12,
+      "in_range": 27,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 51,
+      "violated": 0
+    }
+  }
+}
+total cost $0.0129
+F3d-51-328 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=3 cost=$0.0032
+F3d-51-328 combo     cites=  6 exist=0.8333 unres=0.0 quotes=5 cost=$0.0048
+F3d-53-733 baseline  cites=  9 exist=0.5556 unres=0.0 quotes=8 cost=$0.0058
+F3d-53-733 combo     cites= 12 exist=0.4167 unres=0.0 quotes=6 cost=$0.0068
+F3d-559-842 baseline  cites=  2 exist=0.0 unres=0.0 quotes=0 cost=$0.0078
+F3d-559-842 combo     cites= 10 exist=0.2 unres=0.0 quotes=2 cost=$0.0088
+F3d-582-500 baseline  cites=  5 exist=0.2 unres=0.0 quotes=0 cost=$0.0105
+F3d-582-500 combo     cites=  8 exist=0.375 unres=0.0 quotes=5 cost=$0.0115
+F3d-598-50 baseline  cites=  7 exist=0.7143 unres=0.0 quotes=10 cost=$0.0136
+F3d-598-50 combo     cites= 12 exist=0.1667 unres=0.0 quotes=5 cost=$0.0142
+F3d-609-917 baseline  cites=  7 exist=0.1667 unres=0.1429 quotes=1 cost=$0.0152
+F3d-609-917 combo     cites= 14 exist=0.2857 unres=0.0 quotes=8 cost=$0.0156
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 33,
+    "cite_verdicts": {
+      "exists": 14,
+      "not_found": 18,
+      "unresolvable": 1
+    },
+    "existence_rate_pooled": 0.438,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "inaccurate": 13,
+      "accurate": 1,
+      "unverifiable": 3
+    },
+    "pin_verdicts": {
+      "in_range": 14,
+      "case_unknown": 18,
+      "no_pin": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 62,
+    "cite_verdicts": {
+      "exists": 21,
+      "not_found": 41
+    },
+    "existence_rate_pooled": 0.339,
+    "quote_verdicts": {
+      "near_miss": 3,
+      "inaccurate": 9,
+      "unverifiable": 19
+    },
+    "pin_verdicts": {
+      "in_range": 16,
+      "case_unknown": 38,
+      "out_of_range": 5,
+      "no_pin": 3
+    },
+    "temporal": {
+      "checked": 62,
+      "violated": 1
+    }
+  }
+}
+total cost $0.0156
+F3d-133-322 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.0006
+F3d-133-322 combo     cites=  3 exist=0.3333 unres=0.0 quotes=2 cost=$0.0012
+F3d-134-948 baseline  cites=  7 exist=0.7143 unres=0.0 quotes=7 cost=$0.0022
+F3d-134-948 combo     cites=  9 exist=0.1111 unres=0.0 quotes=1 cost=$0.0035
+F3d-159-480 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=0 cost=$0.0041
+F3d-159-480 combo     cites=  8 exist=0.625 unres=0.0 quotes=4 cost=$0.0095
+F3d-169-1322 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.0112
+F3d-169-1322 combo     cites=  9 exist=0.8889 unres=0.0 quotes=7 cost=$0.0132
+F3d-246-633 baseline  cites=  8 exist=0.5 unres=0.0 quotes=6 cost=$0.0139
+F3d-246-633 combo     cites=  6 exist=0.6667 unres=0.0 quotes=2 cost=$0.0146
+F3d-472-471 baseline  cites=  8 exist=0.25 unres=0.0 quotes=0 cost=$0.0149
+F3d-472-471 combo     cites= 10 exist=0.2 unres=0.0 quotes=3 cost=$0.0159
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 45,
+    "cite_verdicts": {
+      "exists": 21,
+      "not_found": 24
+    },
+    "existence_rate_pooled": 0.467,
+    "quote_verdicts": {
+      "near_miss": 7,
+      "accurate": 1,
+      "inaccurate": 9,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 12,
+      "case_unknown": 21,
+      "no_pin": 9,
+      "in_range_unbounded": 1,
+      "out_of_range": 2
+    },
+    "temporal": {
+      "checked": 45,
+      "violated": 4
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 32,
+    "cite_verdicts": {
+      "exists": 19,
+      "not_found": 13
+    },
+    "existence_rate_pooled": 0.594,
+    "quote_verdicts": {
+      "inaccurate": 9,
+      "near_miss": 7,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 17,
+      "case_unknown": 12,
+      "no_pin": 3
+    },
+    "temporal": {}
+  }
+}
+total cost $0.0159
+F3d-63-1267 baseline  cites=  6 exist=1.0 unres=0.0 quotes=6 cost=$0.0014
+F3d-63-1267 combo     cites= 11 exist=1.0 unres=0.0 quotes=2 cost=$0.0045
+F3d-633-522 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=2 cost=$0.0056
+F3d-633-522 combo     cites=  8 exist=0.75 unres=0.0 quotes=5 cost=$0.0069
+F3d-639-1239 baseline  cites=  7 exist=1.0 unres=0.0 quotes=7 cost=$0.0078
+F3d-639-1239 combo     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$0.0091
+F3d-647-883 baseline  cites=  8 exist=0.625 unres=0.0 quotes=9 cost=$0.0095
+F3d-647-883 combo     cites= 16 exist=0.8125 unres=0.0 quotes=1 cost=$0.0117
+F3d-678-1300 baseline  cites=  6 exist=0.8333 unres=0.0 quotes=0 cost=$0.0155
+F3d-678-1300 combo     cites= 12 exist=1.0 unres=0.0 quotes=13 cost=$0.0192
+F3d-681-1351 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.0235
+F3d-681-1351 combo     cites= 10 exist=0.9 unres=0.0 quotes=12 cost=$0.0270
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 37,
+    "cite_verdicts": {
+      "exists": 32,
+      "not_found": 5
+    },
+    "existence_rate_pooled": 0.865,
+    "quote_verdicts": {
+      "inaccurate": 8,
+      "near_miss": 5,
+      "unverifiable": 12,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "no_pin": 5,
+      "out_of_range": 1,
+      "case_unknown": 4,
+      "in_range_unbounded": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 65,
+    "cite_verdicts": {
+      "exists": 59,
+      "not_found": 6
+    },
+    "existence_rate_pooled": 0.908,
+    "quote_verdicts": {
+      "inaccurate": 7,
+      "accurate": 2,
+      "unverifiable": 22,
+      "near_miss": 3
+    },
+    "pin_verdicts": {
+      "in_range": 55,
+      "out_of_range": 3,
+      "case_unknown": 6,
+      "in_range_unbounded": 1
+    },
+    "temporal": {
+      "checked": 65,
+      "violated": 3
+    }
+  }
+}
+total cost $0.027
+F3d-70-1201 baseline  cites=  3 exist=1.0 unres=0.0 quotes=1 cost=$0.0024
+F3d-70-1201 combo     cites= 13 exist=0.4615 unres=0.0 quotes=2 cost=$0.0057
+F3d-772-63 baseline  cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$0.0100
+F3d-772-63 combo     cites= 11 exist=0.8182 unres=0.0 quotes=0 cost=$0.0122
+F3d-778-247 baseline  cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.0140
+F3d-778-247 combo     cites= 13 exist=1.0 unres=0.0 quotes=0 cost=$0.0160
+F3d-842-299 baseline  cites=  6 exist=0.6667 unres=0.0 quotes=3 cost=$0.0179
+F3d-842-299 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.0194
+F3d-928-311 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.0227
+F3d-928-311 combo     cites= 10 exist=0.9 unres=0.0 quotes=4 cost=$0.0277
+F3d-95-375 baseline  cites=  6 exist=1.0 unres=0.0 quotes=0 cost=$0.0341
+F3d-95-375 combo     cites= 11 exist=1.0 unres=0.0 quotes=9 cost=$0.0365
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 33,
+    "cite_verdicts": {
+      "exists": 30,
+      "not_found": 3
+    },
+    "existence_rate_pooled": 0.909,
+    "quote_verdicts": {
+      "unverifiable": 7,
+      "inaccurate": 5,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 29,
+      "case_unknown": 1,
+      "no_pin": 3
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 67,
+    "cite_verdicts": {
+      "not_found": 10,
+      "exists": 57
+    },
+    "existence_rate_pooled": 0.851,
+    "quote_verdicts": {
+      "unverifiable": 5,
+      "near_miss": 4,
+      "inaccurate": 6
+    },
+    "pin_verdicts": {
+      "case_unknown": 9,
+      "in_range": 41,
+      "no_pin": 15,
+      "in_range_unbounded": 1,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 67,
+      "violated": 1
+    }
+  }
+}
+total cost $0.0365
+F3d-51-328 baseline  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$0.0016
+F3d-51-328 combo     cites=  9 exist=0.7778 unres=0.0 quotes=1 cost=$0.0046
+F3d-53-733 baseline  cites=  6 exist=0.8333 unres=0.0 quotes=0 cost=$0.0082
+F3d-53-733 combo     cites=  9 exist=0.8889 unres=0.0 quotes=0 cost=$0.0092
+F3d-559-842 baseline  cites=  4 exist=1.0 unres=0.0 quotes=0 cost=$0.0111
+F3d-559-842 combo     cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.0205
+F3d-582-500 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.0235
+F3d-582-500 combo     cites= 13 exist=0.9231 unres=0.0 quotes=4 cost=$0.0247
+F3d-598-50 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.0268
+F3d-598-50 combo     cites= 10 exist=0.7 unres=0.0 quotes=5 cost=$0.0300
+F3d-609-917 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=3 cost=$0.0349
+F3d-609-917 combo     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$0.0426
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 30,
+    "cite_verdicts": {
+      "exists": 28,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.933,
+    "quote_verdicts": {
+      "unverifiable": 9,
+      "inaccurate": 1,
+      "near_miss": 1,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "out_of_range": 2,
+      "case_unknown": 2,
+      "no_pin": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 60,
+    "cite_verdicts": {
+      "exists": 53,
+      "not_found": 7
+    },
+    "existence_rate_pooled": 0.883,
+    "quote_verdicts": {
+      "unverifiable": 4,
+      "inaccurate": 6,
+      "near_miss": 2,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 20,
+      "in_range": 33,
+      "case_unknown": 5,
+      "out_of_range": 2
+    },
+    "temporal": {
+      "checked": 60,
+      "violated": 3
+    }
+  }
+}
+total cost $0.0426
+F3d-70-1201 baseline  cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$0.0466
+F3d-70-1201 combo     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$0.2094
+F3d-772-63 baseline  cites=  7 exist=1.0 unres=0.0 quotes=6 cost=$0.3100
+F3d-772-63 combo     cites= 12 exist=1.0 unres=0.0 quotes=4 cost=$0.6938
+F3d-778-247 baseline  cites= 10 exist=1.0 unres=0.0 quotes=1 cost=$0.7202
+F3d-778-247 combo     cites= 11 exist=1.0 unres=0.0 quotes=11 cost=$0.9875
+F3d-842-299 baseline  cites=  7 exist=1.0 unres=0.0 quotes=6 cost=$1.0683
+F3d-842-299 combo     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$1.2662
+F3d-928-311 baseline  cites=  5 exist=1.0 unres=0.0 quotes=12 cost=$1.3553
+F3d-928-311 combo     cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$1.7428
+F3d-95-375 baseline  cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$1.8536
+F3d-95-375 combo     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$2.1472
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 60,
+    "cite_verdicts": {
+      "exists": 60
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 13,
+      "unverifiable": 4,
+      "accurate": 13,
+      "near_miss": 5
+    },
+    "pin_verdicts": {
+      "in_range": 36,
+      "no_pin": 22,
+      "out_of_range": 2
+    },
+    "temporal": {
+      "checked": 60,
+      "violated": 0
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 39,
+    "cite_verdicts": {
+      "exists": 39
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 19,
+      "accurate": 4,
+      "inaccurate": 6,
+      "near_miss": 2
+    },
+    "pin_verdicts": {
+      "in_range": 34,
+      "no_pin": 5
+    },
+    "temporal": {}
+  }
+}
+total cost $2.1472
+F3d-63-1267 baseline  cites=  4 exist=1.0 unres=0.0 quotes=0 cost=$0.0064
+F3d-63-1267 combo     cites= 10 exist=1.0 unres=0.0 quotes=3 cost=$0.0130
+F3d-633-522 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=1 cost=$0.0186
+F3d-633-522 combo     cites= 11 exist=0.8182 unres=0.0 quotes=2 cost=$0.0216
+F3d-639-1239 baseline  cites=  5 exist=1.0 unres=0.0 quotes=1 cost=$0.0286
+F3d-639-1239 combo     cites= 19 exist=0.9474 unres=0.0 quotes=3 cost=$0.0312
+F3d-647-883 baseline  cites=  2 exist=1.0 unres=0.0 quotes=0 cost=$0.0321
+F3d-647-883 combo     cites= 24 exist=0.8333 unres=0.0 quotes=4 cost=$0.0333
+F3d-678-1300 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.0398
+F3d-678-1300 combo     cites=  8 exist=1.0 unres=0.0 quotes=2 cost=$0.0408
+F3d-681-1351 baseline  cites=  3 exist=0.6667 unres=0.0 quotes=1 cost=$0.0417
+F3d-681-1351 combo     cites=  9 exist=0.8889 unres=0.0 quotes=7 cost=$0.0442
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 20,
+    "cite_verdicts": {
+      "exists": 18,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.9,
+    "quote_verdicts": {
+      "accurate": 1,
+      "unverifiable": 3,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 14,
+      "case_unknown": 2,
+      "no_pin": 4
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 81,
+    "cite_verdicts": {
+      "exists": 73,
+      "not_found": 8
+    },
+    "existence_rate_pooled": 0.901,
+    "quote_verdicts": {
+      "inaccurate": 8,
+      "unverifiable": 11,
+      "near_miss": 2
+    },
+    "pin_verdicts": {
+      "in_range": 40,
+      "out_of_range": 3,
+      "no_pin": 35,
+      "case_unknown": 3
+    },
+    "temporal": {
+      "checked": 81,
+      "violated": 2
+    }
+  }
+}
+total cost $0.0442
+F3d-133-322 baseline  cites=  2 exist=1.0 unres=0.0 quotes=3 cost=$0.0208
+F3d-133-322 combo     cites=  9 exist=1.0 unres=0.0 quotes=10 cost=$0.2714
+F3d-134-948 baseline  cites=  8 exist=1.0 unres=0.0 quotes=10 cost=$0.4264
+F3d-134-948 combo     cites=  9 exist=1.0 unres=0.0 quotes=7 cost=$0.6227
+F3d-159-480 baseline  cites= 11 exist=1.0 unres=0.0 quotes=10 cost=$0.8361
+F3d-159-480 combo     cites= 10 exist=1.0 unres=0.0 quotes=8 cost=$1.0366
+F3d-169-1322 baseline  cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$1.3315
+F3d-169-1322 combo     cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$1.4540
+F3d-246-633 baseline  cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$1.5845
+F3d-246-633 combo     cites=  9 exist=1.0 unres=0.0 quotes=11 cost=$1.9076
+F3d-472-471 baseline  cites=  6 exist=1.0 unres=0.0 quotes=3 cost=$1.9499
+F3d-472-471 combo     cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$2.2888
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 52,
+    "cite_verdicts": {
+      "exists": 52
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 13,
+      "near_miss": 4,
+      "accurate": 26,
+      "unverifiable": 4
+    },
+    "pin_verdicts": {
+      "in_range": 37,
+      "no_pin": 15
+    },
+    "temporal": {
+      "checked": 52,
+      "violated": 0
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 40,
+    "cite_verdicts": {
+      "exists": 40
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "unverifiable": 6,
+      "accurate": 17,
+      "inaccurate": 6
+    },
+    "pin_verdicts": {
+      "in_range": 36,
+      "no_pin": 4
+    },
+    "temporal": {}
+  }
+}
+total cost $2.2888
+F3d-63-1267 baseline  cites=  9 exist=1.0 unres=0.0 quotes=8 cost=$0.0979
+F3d-63-1267 combo     cites= 10 exist=1.0 unres=0.0 quotes=10 cost=$0.3818
+F3d-633-522 baseline  cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$0.5233
+F3d-633-522 combo     cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$0.7907
+F3d-639-1239 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.8596
+F3d-639-1239 combo     cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$1.1427
+F3d-647-883 baseline  cites=  5 exist=0.8 unres=0.0 quotes=6 cost=$1.3985
+F3d-647-883 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$1.6523
+F3d-678-1300 baseline  cites=  6 exist=1.0 unres=0.0 quotes=2 cost=$1.7708
+F3d-678-1300 combo     cites= 10 exist=0.9 unres=0.0 quotes=3 cost=$2.0219
+F3d-681-1351 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$2.1876
+F3d-681-1351 combo     cites=  7 exist=1.0 unres=0.0 quotes=8 cost=$2.3559
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 33,
+    "cite_verdicts": {
+      "exists": 32,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.97,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "inaccurate": 6,
+      "accurate": 4,
+      "unverifiable": 13
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "no_pin": 8
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 52,
+    "cite_verdicts": {
+      "exists": 51,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.981,
+    "quote_verdicts": {
+      "accurate": 10,
+      "near_miss": 3,
+      "inaccurate": 12,
+      "unverifiable": 10
+    },
+    "pin_verdicts": {
+      "in_range": 21,
+      "no_pin": 30,
+      "case_unknown": 1
+    },
+    "temporal": {
+      "checked": 52,
+      "violated": 1
+    }
+  }
+}
+total cost $2.3559
+F3d-133-322 baseline  cites=  3 exist=1.0 unres=0.0 quotes=0 cost=$0.0008
+F3d-133-322 combo     cites= 10 exist=0.5 unres=0.0 quotes=8 cost=$0.0024
+F3d-134-948 baseline  cites=  7 exist=1.0 unres=0.0 quotes=8 cost=$0.0028
+F3d-134-948 combo     cites=  9 exist=1.0 unres=0.0 quotes=5 cost=$0.0050
+F3d-159-480 baseline  cites= 10 exist=0.9 unres=0.0 quotes=5 cost=$0.0120
+F3d-159-480 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.0173
+F3d-169-1322 baseline  cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$0.0182
+F3d-169-1322 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.0261
+F3d-246-633 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$0.0275
+F3d-246-633 combo     cites= 11 exist=1.0 unres=0.0 quotes=0 cost=$0.0316
+F3d-472-471 baseline  cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$0.0321
+F3d-472-471 combo     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$0.0331
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 51,
+      "not_found": 5
+    },
+    "existence_rate_pooled": 0.911,
+    "quote_verdicts": {
+      "near_miss": 4,
+      "unverifiable": 6,
+      "inaccurate": 4,
+      "accurate": 6
+    },
+    "pin_verdicts": {
+      "in_range": 49,
+      "case_unknown": 5,
+      "no_pin": 1,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 56,
+      "violated": 0
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 37,
+    "cite_verdicts": {
+      "exists": 35,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.946,
+    "quote_verdicts": {
+      "inaccurate": 2,
+      "near_miss": 3,
+      "accurate": 3,
+      "unverifiable": 10
+    },
+    "pin_verdicts": {
+      "in_range": 33,
+      "case_unknown": 2,
+      "no_pin": 1,
+      "in_range_unbounded": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $0.0331
+F3d-133-322 baseline  cites=  2 exist=1.0 unres=0.0 quotes=1 cost=$0.0009
+F3d-133-322 combo     cites= 10 exist=0.4 unres=0.0 quotes=2 cost=$0.0035
+F3d-134-948 baseline  cites=  7 exist=1.0 unres=0.0 quotes=4 cost=$0.0073
+F3d-134-948 combo     cites= 12 exist=1.0 unres=0.0 quotes=2 cost=$0.0151
+F3d-159-480 baseline  cites=  5 exist=1.0 unres=0.0 quotes=0 cost=$0.0171
+F3d-159-480 combo     cites= 13 exist=1.0 unres=0.0 quotes=1 cost=$0.0259
+F3d-169-1322 baseline  cites=  3 exist=1.0 unres=0.0 quotes=0 cost=$0.0374
+F3d-169-1322 combo     cites= 12 exist=0.9167 unres=0.0 quotes=6 cost=$0.0390
+F3d-246-633 baseline  cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$0.0433
+F3d-246-633 combo     cites= 11 exist=1.0 unres=0.0 quotes=8 cost=$0.0452
+F3d-472-471 baseline  cites=  5 exist=1.0 unres=0.0 quotes=5 cost=$0.0461
+F3d-472-471 combo     cites= 18 exist=0.2222 unres=0.0 quotes=0 cost=$0.0480
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 27,
+    "cite_verdicts": {
+      "exists": 27
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 7,
+      "inaccurate": 2,
+      "near_miss": 2,
+      "accurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "in_range_unbounded": 1,
+      "no_pin": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 76,
+    "cite_verdicts": {
+      "exists": 55,
+      "not_found": 21
+    },
+    "existence_rate_pooled": 0.724,
+    "quote_verdicts": {
+      "inaccurate": 7,
+      "unverifiable": 8,
+      "accurate": 1,
+      "near_miss": 3
+    },
+    "pin_verdicts": {
+      "in_range": 20,
+      "out_of_range": 3,
+      "no_pin": 47,
+      "case_unknown": 6
+    },
+    "temporal": {
+      "checked": 76,
+      "violated": 1
+    }
+  }
+}
+total cost $0.048
+F3d-51-328 baseline  cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$0.1509
+F3d-51-328 combo     cites=  8 exist=1.0 unres=0.0 quotes=7 cost=$0.5012
+F3d-53-733 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.5655
+F3d-53-733 combo     cites= 10 exist=1.0 unres=0.0 quotes=4 cost=$0.9344
+F3d-559-842 baseline  cites=  6 exist=1.0 unres=0.0 quotes=4 cost=$1.2286
+F3d-559-842 combo     cites=  8 exist=1.0 unres=0.0 quotes=12 cost=$1.5507
+F3d-582-500 baseline  cites=  6 exist=1.0 unres=0.0 quotes=6 cost=$1.8203
+F3d-582-500 combo     cites=  9 exist=1.0 unres=0.0 quotes=6 cost=$2.0904
+F3d-598-50 baseline  cites=  9 exist=1.0 unres=0.0 quotes=11 cost=$2.2260
+F3d-598-50 combo     cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$2.4429
+F3d-609-917 baseline  cites=  7 exist=1.0 unres=0.0 quotes=7 cost=$2.4821
+F3d-609-917 combo     cites= 10 exist=1.0 unres=0.0 quotes=4 cost=$2.5552
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 39,
+    "cite_verdicts": {
+      "exists": 39
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 17,
+      "inaccurate": 8,
+      "accurate": 9,
+      "near_miss": 2
+    },
+    "pin_verdicts": {
+      "in_range": 30,
+      "no_pin": 8,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 53,
+    "cite_verdicts": {
+      "exists": 53
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 6,
+      "accurate": 21,
+      "inaccurate": 11,
+      "unverifiable": 3
+    },
+    "pin_verdicts": {
+      "in_range": 36,
+      "no_pin": 17
+    },
+    "temporal": {
+      "checked": 53,
+      "violated": 1
+    }
+  }
+}
+total cost $2.5552
+F3d-70-1201 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=2 cost=$0.0004
+F3d-70-1201 combo     cites=  7 exist=0.7143 unres=0.0 quotes=0 cost=$0.0059
+F3d-772-63 baseline  cites=  7 exist=1.0 unres=0.0 quotes=7 cost=$0.0072
+F3d-772-63 combo     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$0.0107
+F3d-778-247 baseline  cites= 10 exist=1.0 unres=0.0 quotes=7 cost=$0.0114
+F3d-778-247 combo     cites= 16 exist=1.0 unres=0.0 quotes=0 cost=$0.0149
+F3d-842-299 baseline  cites=  6 exist=1.0 unres=0.0 quotes=1 cost=$0.0177
+F3d-842-299 combo     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$0.0258
+F3d-928-311 baseline  cites=  7 exist=0.5714 unres=0.0 quotes=3 cost=$0.0333
+F3d-928-311 combo     cites=  9 exist=0.8889 unres=0.0 quotes=4 cost=$0.0350
+F3d-95-375 baseline  cites= 17 exist=1.0 unres=0.0 quotes=5 cost=$0.0358
+F3d-95-375 combo     cites= 13 exist=1.0 unres=0.0 quotes=5 cost=$0.0396
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 54,
+    "cite_verdicts": {
+      "exists": 50,
+      "not_found": 4
+    },
+    "existence_rate_pooled": 0.926,
+    "quote_verdicts": {
+      "unverifiable": 12,
+      "near_miss": 6,
+      "inaccurate": 5,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "in_range": 37,
+      "case_unknown": 4,
+      "no_pin": 12,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 63,
+    "cite_verdicts": {
+      "exists": 60,
+      "not_found": 3
+    },
+    "existence_rate_pooled": 0.952,
+    "quote_verdicts": {
+      "accurate": 4,
+      "inaccurate": 8,
+      "near_miss": 1,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 51,
+      "case_unknown": 3,
+      "out_of_range": 5,
+      "no_pin": 4
+    },
+    "temporal": {
+      "checked": 63,
+      "violated": 2
+    }
+  }
+}
+total cost $0.0396
+F3d-51-328 baseline  cites=  4 exist=1.0 unres=0.0 quotes=0 cost=$0.0011
+F3d-51-328 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.0033
+F3d-53-733 baseline  cites=  8 exist=0.625 unres=0.0 quotes=2 cost=$0.0040
+F3d-53-733 combo     cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$0.0146
+F3d-559-842 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=3 cost=$0.0163
+F3d-559-842 combo     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$0.0231
+F3d-582-500 baseline  cites=  5 exist=1.0 unres=0.0 quotes=5 cost=$0.0272
+F3d-582-500 combo     cites= 11 exist=1.0 unres=0.0 quotes=1 cost=$0.0292
+F3d-598-50 baseline  cites= 11 exist=0.8182 unres=0.0 quotes=2 cost=$0.0302
+empty completion draft:F3d-598-50:combo (attempt 1)
+F3d-598-50 combo     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$0.0409
+F3d-609-917 baseline  cites=  7 exist=1.0 unres=0.0 quotes=10 cost=$0.0411
+F3d-609-917 combo     cites= 16 exist=0.5625 unres=0.0 quotes=2 cost=$0.0414
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 42,
+    "cite_verdicts": {
+      "exists": 36,
+      "not_found": 6
+    },
+    "existence_rate_pooled": 0.857,
+    "quote_verdicts": {
+      "accurate": 3,
+      "unverifiable": 12,
+      "inaccurate": 6,
+      "near_miss": 1
+    },
+    "pin_verdicts": {
+      "in_range": 34,
+      "out_of_range": 2,
+      "no_pin": 3,
+      "case_unknown": 3
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 64,
+    "cite_verdicts": {
+      "exists": 57,
+      "not_found": 7
+    },
+    "existence_rate_pooled": 0.891,
+    "quote_verdicts": {
+      "inaccurate": 7,
+      "accurate": 3,
+      "near_miss": 4,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 50,
+      "no_pin": 6,
+      "case_unknown": 7,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 64,
+      "violated": 9
+    }
+  }
+}
+total cost $0.0414
