@@ -88,7 +88,7 @@ control shows that false flags lower accuracy for four of the six
 models, most for the ones best at following feedback. What survives at
 frontier scale is mostly real law in the wrong place: 55 percent of the
 strongest model's inaccurate quotations are paraphrases of the correct
-case inside quotation marks, and 463 quotations across the six models
+case inside quotation marks, and 563 quotations across the six models
 are verbatim passages of real opinions attributed to the wrong case.
 
 ## What the paper tests
@@ -251,7 +251,22 @@ p = 0.0003) but nothing distinguishable for GPT-5.4-mini. A
 per-quotation trace (`results/loop_transitions.json`) shows the
 mechanism directly: of Sonnet 5's 89 flagged quotations, 4 were
 corrected, 13 lost their quotation marks, and 72 were deleted; under
-false feedback it removed 56 of its 68 correct quotations.
+false feedback it removed 56 of its 68 correct quotations. A fourth
+arm in which each feedback line is true or false with equal
+probability (verifier precision about one half) gives the
+dose-response: Sonnet 5 removed 17 correct quotations under a precise
+verifier, 38 under the half-true one, 56 under an all-false one, and
+18 with no feedback at all, and the half-true verifier left it within
+seven points of no feedback (0.664 against 0.595). Verifier precision
+is therefore a deployment requirement.
+
+A replication of the baseline and combined drafts for twelve matters
+(fresh cache, same prompts, all six models) produced one identical
+draft in 144. Existence rates agreed within 0.03 and the one
+significant existence contrast kept its sign; strict quotation rates
+on twelve matters moved by a median of 0.07 and up to 0.33, so the
+quotation claims the paper relies on are the within-model contrasts
+that survive Holm correction, never a single cell.
 
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
@@ -260,8 +275,8 @@ Three residual failure modes, each measured deterministically:
 | failure mode | measurement | headline number |
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 55% of Sonnet 5's inaccurate quotes are paraphrases of the correct case |
-| right words, wrong case | corpus search for each quote's true source | 463 quotes across the six models are real opinion passages bound to the wrong authority |
-| right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 77% of the time (Sonnet 5), 42 to 64% for the rest |
+| right words, wrong case | corpus search for each quote's true source | 563 quotes across the six models are real opinion passages bound to the wrong authority |
+| right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 77% of the time (Sonnet 5), 42 to 64% for the rest, 89% for human briefs |
 
 These are the errors an existence check cannot see, and the page-level
 measurement covers, on public data, the error class on which published

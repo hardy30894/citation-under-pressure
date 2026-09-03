@@ -54,16 +54,20 @@ def window(s, n=8):
     return " ".join(w[mid - n // 2: mid - n // 2 + n])
 
 
-def classify(q0, finals, final_norm):
+def classify(q0, finals, final_norm, used):
+    """Each final quotation may be claimed by one round-0 quotation only,
+    so that kept + corrected + added equals the final accurate count."""
     n0 = normalize(q0["quote"])
-    for q1 in finals:
-        if normalize(q1["quote"]) == n0:
+    for i, q1 in enumerate(finals):
+        if i not in used and normalize(q1["quote"]) == n0:
+            used.add(i)
             return "kept", q1["verdict"]
     t0 = toks(q0["quote"])
-    for q1 in finals:
-        if q1["citation"] == q0["citation"] and t0:
+    for i, q1 in enumerate(finals):
+        if i not in used and q1["citation"] == q0["citation"] and t0:
             j = len(t0 & toks(q1["quote"])) / len(t0 | toks(q1["quote"]))
             if j >= 0.5:
+                used.add(i)
                 return "edited", q1["verdict"]
     if len(n0.split()) >= 5 and window(q0["quote"]) in final_norm:
         return "dequoted", None
@@ -88,19 +92,17 @@ def main():
             q0s = scored_quotes(r0, checker, store)
             q1s = scored_quotes(final, checker, store) if revs else q0s
             final_norm = normalize(final)
-            matched = set()
+            used = set()
             for q in q0s:
-                fate, v1 = classify(q, q1s, final_norm)
+                fate, v1 = classify(q, q1s, final_norm, used)
                 v0 = "accurate" if q["verdict"] == "accurate" else "flagged"
                 key = f"{arm}:{v0}:{fate}"
                 if v1 is not None:
                     key += f":{'accurate' if v1 == 'accurate' else 'flagged'}"
                 cnt[key] += 1
-                if fate in ("kept", "edited"):
-                    matched.add(normalize(q["quote"]))
             if revs:
-                for q in q1s:
-                    if normalize(q["quote"]) not in matched:
+                for i, q in enumerate(q1s):
+                    if i not in used:
                         cnt[f"{arm}:added:{'accurate' if q['verdict'] == 'accurate' else 'flagged'}"] += 1
         out[model] = dict(sorted(cnt.items()))
         print(model, {k: v for k, v in out[model].items() if k.startswith("true:flagged")})

@@ -168,3 +168,18 @@ before or after seeing the relevant data. Nothing is deleted.
   Also: round-0 clean drafts counted (12 of 144 combined drafts would
   pass a gate unrevised). Spend for the three additions about $5; project
   total about $57.
+- 2026-09-02 (third lens pass, 30 items applied): two pipeline fixes
+  behind the prose. The per-quotation trace could claim one final
+  quotation for two round-0 quotations; each final quotation is now
+  matched once, and the trace reconciles exactly with the loop scorer
+  (Sonnet 5 final accurate 70 = 51 kept + 4 corrected + 15 added).
+  The provenance search had used the bare opinion store while every
+  other scorer used the local-first chain, so its inaccurate population
+  (617 for Sonnet 5) differed from the decomposition's (746); it now
+  uses the chain and both report 746. Misattributions across the six
+  models are 563 (was 463), Sonnet 5 false alarms 9 of 746 (1.2 percent).
+  The replication sentence now says which existence contrasts kept sign
+  (Qwen's, the only significant one; DeepSeek's and GPT's, both within
+  0.05 of zero, flipped). "Strongest model" replaced by a defined term,
+  the top of the range (Sonnet 5 and GPT-5.4-mini, highest baseline
+  existence). Rule 11's scope now cites FRCP Rule 1.

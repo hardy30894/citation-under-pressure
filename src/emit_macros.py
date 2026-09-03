@@ -231,7 +231,8 @@ if rp.exists():
         ident.append(r["identical_drafts"])
     emit2("repMaxExistDiff", fmt3(max(diffs_e)))
     emit2("repMaxStrictDiff", fmt3(max(diffs_s)))
-    emit2("repMedianStrictDiff", fmt3(sorted(diffs_s)[len(diffs_s) // 2]))
+    import statistics as _st
+    emit2("repMedianStrictDiff", fmt3(_st.median(diffs_s)))
     emit2("repIdentical", str(sum(int(x.split("/")[0]) for x in ident)))
     emit2("repDrafts", str(sum(int(x.split("/")[1]) for x in ident)))
     emit2("repModels", str(len(ident)))

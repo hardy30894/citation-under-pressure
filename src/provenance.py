@@ -30,6 +30,7 @@ from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
 from checker.quote_checker import OpinionTextStore, normalize, fragments  # noqa
 import quotecheck2 as q2  # noqa
 from rescore_pilots import eyecite_pass  # noqa
+from local_text import ChainTextStore  # noqa
 
 # full-run drafts (the paper's corpus); pilot dirs retired
 PILOTS = {
@@ -105,7 +106,9 @@ def main():
 
     index = SqliteIndex(DB)
     checker = CitationChecker(index)
-    store = OpinionTextStore(DB, cl_token=None, fetch_budget=0)
+    # the same local-first text chain every other scorer uses, so the
+    # inaccurate population here matches the decomposition's
+    store = ChainTextStore(OpinionTextStore(DB, cl_token=None, fetch_budget=0))
 
     out_lines = ["# Provenance of inaccurate quotes\n"]
     tally = {}
