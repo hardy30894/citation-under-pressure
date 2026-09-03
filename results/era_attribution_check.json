@@ -1,0 +1,110 @@
+{
+ "era": {
+  "qwen30b": {
+   "post1970_acc": 41,
+   "post1970_scored": 247,
+   "pre1970_acc": 8,
+   "pre1970_scored": 33,
+   "pre1970_strict": 0.242,
+   "post1970_strict": 0.166
+  },
+  "mistralsmall": {
+   "post1970_acc": 42,
+   "post1970_scored": 207,
+   "pre1970_acc": 7,
+   "pre1970_scored": 30,
+   "pre1970_strict": 0.233,
+   "post1970_strict": 0.203
+  },
+  "deepseek": {
+   "post1970_acc": 89,
+   "post1970_scored": 309,
+   "pre1970_acc": 14,
+   "pre1970_scored": 57,
+   "pre1970_strict": 0.246,
+   "post1970_strict": 0.288
+  },
+  "grok43": {
+   "post1970_acc": 65,
+   "post1970_scored": 196,
+   "pre1970_acc": 12,
+   "pre1970_scored": 40,
+   "pre1970_strict": 0.3,
+   "post1970_strict": 0.332
+  },
+  "sonnet": {
+   "post1970_acc": 115,
+   "post1970_scored": 353,
+   "pre1970_acc": 26,
+   "pre1970_scored": 70,
+   "pre1970_strict": 0.371,
+   "post1970_strict": 0.326
+  },
+  "llama4mav": {
+   "post1970_acc": 36,
+   "post1970_scored": 86,
+   "pre1970_acc": 5,
+   "pre1970_scored": 16,
+   "pre1970_strict": 0.312,
+   "post1970_strict": 0.419
+  },
+  "gpt54mini": {
+   "post1970_acc": 75,
+   "post1970_scored": 164,
+   "pre1970_acc": 11,
+   "pre1970_scored": 23,
+   "pre1970_strict": 0.478,
+   "post1970_strict": 0.457
+  },
+  "pooled": {
+   "post1970_acc": 463,
+   "post1970_scored": 1562,
+   "pre1970_acc": 83,
+   "pre1970_scored": 269,
+   "pre1970_strict": 0.309,
+   "post1970_strict": 0.296
+  }
+ },
+ "attribution": {
+  "deepseek": {
+   "misattributed": 144,
+   "true_source_cited_in_draft": 35,
+   "share": 0.243
+  },
+  "gpt54mini": {
+   "misattributed": 79,
+   "true_source_cited_in_draft": 25,
+   "share": 0.316
+  },
+  "grok43": {
+   "misattributed": 63,
+   "true_source_cited_in_draft": 16,
+   "share": 0.254
+  },
+  "llama4mav": {
+   "misattributed": 30,
+   "true_source_cited_in_draft": 4,
+   "share": 0.133
+  },
+  "mistralsmall": {
+   "misattributed": 106,
+   "true_source_cited_in_draft": 29,
+   "share": 0.274
+  },
+  "qwen30b": {
+   "misattributed": 77,
+   "true_source_cited_in_draft": 2,
+   "share": 0.026
+  },
+  "sonnet": {
+   "misattributed": 127,
+   "true_source_cited_in_draft": 40,
+   "share": 0.315
+  },
+  "pooled": {
+   "misattributed": 626,
+   "true_source_cited_in_draft": 151,
+   "share": 0.241
+  }
+ }
+}

@@ -240,6 +240,8 @@ if rp.exists():
         sign_stable += len(signs) == 1
     emit2("repMaxExistSd", fmt3(max(sd_e)))
     emit2("repMaxStrictSd", fmt3(max(sd_s)))
+    emit2("repMaxExistRange", fmt3(max(rep[m][c]["exist_range"] for m in ALPHA if m in rep for c in ("baseline", "combo"))))
+    emit2("repMaxStrictRange", fmt3(max(rep[m][c]["strict_range"] for m in ALPHA if m in rep for c in ("baseline", "combo"))))
     emit2("repIdentical", str(ident))
     emit2("repDrafts", str(n))
     emit2("repModels", str(len([m for m in ALPHA if m in rep])))
@@ -411,6 +413,16 @@ if ap.exists():
     surv = [k for k, v in a["gee"].items() if v.get("holm_p") is not None and v["holm_p"] < 0.05]
     emit2("aSurvivors", str(len(surv)))
 
+ea = R / "era_attribution_check.json"
+if ea.exists():
+    e = json.loads(ea.read_text())
+    emit2("eraPreStrict", fmt3(e["era"]["pooled"]["pre1970_strict"]))
+    emit2("eraPostStrict", fmt3(e["era"]["pooled"]["post1970_strict"]))
+    emit2("eraPreN", str(e["era"]["pooled"]["pre1970_scored"]))
+    emit2("eraPostN", f"{e['era']['pooled']['post1970_scored']:,}")
+    emit2("misattrSameDraft", str(e["attribution"]["pooled"]["true_source_cited_in_draft"]))
+    emit2("misattrSameDraftPct", f"{100 * e['attribution']['pooled']['share']:.0f}")
+
 lt = R / "loop_transitions.json"
 if lt.exists():
     t = json.loads(lt.read_text())
@@ -424,6 +436,8 @@ if lt.exists():
                 kept_flag = c.get(f"{arm}:{v0}:kept:flagged", 0) + c.get(f"{arm}:{v0}:edited:flagged", 0)
                 emit2(f"tr{ak}{vk}ToAcc{mk}", str(kept_acc))
                 emit2(f"tr{ak}{vk}ToFlag{mk}", str(kept_flag))
+                if v0 == "flagged":
+                    emit2(f"tr{ak}FlagLeft{mk}", str(kept_flag))
                 emit2(f"tr{ak}{vk}Dequoted{mk}", str(c.get(f"{arm}:{v0}:dequoted", 0)))
                 emit2(f"tr{ak}{vk}Deleted{mk}", str(c.get(f"{arm}:{v0}:deleted", 0)))
             emit2(f"tr{ak}AddedAcc{mk}", str(c.get(f"{arm}:added:accurate", 0)))

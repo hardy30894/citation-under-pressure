@@ -1244,6 +1244,8 @@
 \newcommand{\repSdStrictGrokCombo}{0.059}
 \newcommand{\repMaxExistSd}{0.050}
 \newcommand{\repMaxStrictSd}{0.059}
+\newcommand{\repMaxExistRange}{0.088}
+\newcommand{\repMaxStrictRange}{0.111}
 \newcommand{\repIdentical}{22}
 \newcommand{\repDrafts}{672}
 \newcommand{\repModels}{7}
@@ -2020,8 +2022,15 @@
 \newcommand{\aLowerThanScotus}{6}
 \newcommand{\aPooledQuoteFalls}{7}
 \newcommand{\aSurvivors}{3}
+\newcommand{\eraPreStrict}{0.309}
+\newcommand{\eraPostStrict}{0.296}
+\newcommand{\eraPreN}{269}
+\newcommand{\eraPostN}{1,562}
+\newcommand{\misattrSameDraft}{151}
+\newcommand{\misattrSameDraftPct}{24}
 \newcommand{\trTrueFlagToAccQwen}{0}
 \newcommand{\trTrueFlagToFlagQwen}{129}
+\newcommand{\trTrueFlagLeftQwen}{129}
 \newcommand{\trTrueFlagDequotedQwen}{11}
 \newcommand{\trTrueFlagDeletedQwen}{30}
 \newcommand{\trTrueAccToAccQwen}{16}
@@ -2036,6 +2045,7 @@
 \newcommand{\trTrueFlagRemovedQwen}{41}
 \newcommand{\trScrFlagToAccQwen}{0}
 \newcommand{\trScrFlagToFlagQwen}{143}
+\newcommand{\trScrFlagLeftQwen}{143}
 \newcommand{\trScrFlagDequotedQwen}{9}
 \newcommand{\trScrFlagDeletedQwen}{18}
 \newcommand{\trScrAccToAccQwen}{12}
@@ -2048,6 +2058,7 @@
 \newcommand{\trScrFlagRemovedQwen}{27}
 \newcommand{\trNoneFlagToAccQwen}{0}
 \newcommand{\trNoneFlagToFlagQwen}{164}
+\newcommand{\trNoneFlagLeftQwen}{164}
 \newcommand{\trNoneFlagDequotedQwen}{3}
 \newcommand{\trNoneFlagDeletedQwen}{3}
 \newcommand{\trNoneAccToAccQwen}{14}
@@ -2060,6 +2071,7 @@
 \newcommand{\trNoneFlagRemovedQwen}{6}
 \newcommand{\trHalfFlagToAccQwen}{1}
 \newcommand{\trHalfFlagToFlagQwen}{136}
+\newcommand{\trHalfFlagLeftQwen}{136}
 \newcommand{\trHalfFlagDequotedQwen}{10}
 \newcommand{\trHalfFlagDeletedQwen}{23}
 \newcommand{\trHalfAccToAccQwen}{14}
@@ -2072,6 +2084,7 @@
 \newcommand{\trHalfFlagRemovedQwen}{33}
 \newcommand{\trQuarterFlagToAccQwen}{0}
 \newcommand{\trQuarterFlagToFlagQwen}{127}
+\newcommand{\trQuarterFlagLeftQwen}{127}
 \newcommand{\trQuarterFlagDequotedQwen}{8}
 \newcommand{\trQuarterFlagDeletedQwen}{35}
 \newcommand{\trQuarterAccToAccQwen}{12}
@@ -2084,6 +2097,7 @@
 \newcommand{\trQuarterFlagRemovedQwen}{43}
 \newcommand{\trThreeqFlagToAccQwen}{0}
 \newcommand{\trThreeqFlagToFlagQwen}{145}
+\newcommand{\trThreeqFlagLeftQwen}{145}
 \newcommand{\trThreeqFlagDequotedQwen}{5}
 \newcommand{\trThreeqFlagDeletedQwen}{20}
 \newcommand{\trThreeqAccToAccQwen}{13}
@@ -2096,6 +2110,7 @@
 \newcommand{\trThreeqFlagRemovedQwen}{25}
 \newcommand{\trTrueFlagToAccMistral}{0}
 \newcommand{\trTrueFlagToFlagMistral}{79}
+\newcommand{\trTrueFlagLeftMistral}{79}
 \newcommand{\trTrueFlagDequotedMistral}{12}
 \newcommand{\trTrueFlagDeletedMistral}{39}
 \newcommand{\trTrueAccToAccMistral}{13}
@@ -2110,6 +2125,7 @@
 \newcommand{\trTrueFlagRemovedMistral}{51}
 \newcommand{\trScrFlagToAccMistral}{3}
 \newcommand{\trScrFlagToFlagMistral}{112}
+\newcommand{\trScrFlagLeftMistral}{112}
 \newcommand{\trScrFlagDequotedMistral}{7}
 \newcommand{\trScrFlagDeletedMistral}{8}
 \newcommand{\trScrAccToAccMistral}{7}
@@ -2122,6 +2138,7 @@
 \newcommand{\trScrFlagRemovedMistral}{15}
 \newcommand{\trNoneFlagToAccMistral}{3}
 \newcommand{\trNoneFlagToFlagMistral}{100}
+\newcommand{\trNoneFlagLeftMistral}{100}
 \newcommand{\trNoneFlagDequotedMistral}{5}
 \newcommand{\trNoneFlagDeletedMistral}{22}
 \newcommand{\trNoneAccToAccMistral}{13}
@@ -2134,6 +2151,7 @@
 \newcommand{\trNoneFlagRemovedMistral}{27}
 \newcommand{\trHalfFlagToAccMistral}{2}
 \newcommand{\trHalfFlagToFlagMistral}{71}
+\newcommand{\trHalfFlagLeftMistral}{71}
 \newcommand{\trHalfFlagDequotedMistral}{16}
 \newcommand{\trHalfFlagDeletedMistral}{41}
 \newcommand{\trHalfAccToAccMistral}{8}
@@ -2146,6 +2164,7 @@
 \newcommand{\trHalfFlagRemovedMistral}{57}
 \newcommand{\trQuarterFlagToAccMistral}{0}
 \newcommand{\trQuarterFlagToFlagMistral}{67}
+\newcommand{\trQuarterFlagLeftMistral}{67}
 \newcommand{\trQuarterFlagDequotedMistral}{16}
 \newcommand{\trQuarterFlagDeletedMistral}{47}
 \newcommand{\trQuarterAccToAccMistral}{7}
@@ -2158,6 +2177,7 @@
 \newcommand{\trQuarterFlagRemovedMistral}{63}
 \newcommand{\trThreeqFlagToAccMistral}{2}
 \newcommand{\trThreeqFlagToFlagMistral}{71}
+\newcommand{\trThreeqFlagLeftMistral}{71}
 \newcommand{\trThreeqFlagDequotedMistral}{16}
 \newcommand{\trThreeqFlagDeletedMistral}{41}
 \newcommand{\trThreeqAccToAccMistral}{9}
@@ -2170,6 +2190,7 @@
 \newcommand{\trThreeqFlagRemovedMistral}{57}
 \newcommand{\trTrueFlagToAccLlama}{0}
 \newcommand{\trTrueFlagToFlagLlama}{16}
+\newcommand{\trTrueFlagLeftLlama}{16}
 \newcommand{\trTrueFlagDequotedLlama}{9}
 \newcommand{\trTrueFlagDeletedLlama}{28}
 \newcommand{\trTrueAccToAccLlama}{6}
@@ -2184,6 +2205,7 @@
 \newcommand{\trTrueFlagRemovedLlama}{37}
 \newcommand{\trScrFlagToAccLlama}{0}
 \newcommand{\trScrFlagToFlagLlama}{29}
+\newcommand{\trScrFlagLeftLlama}{29}
 \newcommand{\trScrFlagDequotedLlama}{8}
 \newcommand{\trScrFlagDeletedLlama}{16}
 \newcommand{\trScrAccToAccLlama}{5}
@@ -2196,6 +2218,7 @@
 \newcommand{\trScrFlagRemovedLlama}{24}
 \newcommand{\trNoneFlagToAccLlama}{0}
 \newcommand{\trNoneFlagToFlagLlama}{22}
+\newcommand{\trNoneFlagLeftLlama}{22}
 \newcommand{\trNoneFlagDequotedLlama}{8}
 \newcommand{\trNoneFlagDeletedLlama}{23}
 \newcommand{\trNoneAccToAccLlama}{3}
@@ -2208,6 +2231,7 @@
 \newcommand{\trNoneFlagRemovedLlama}{31}
 \newcommand{\trHalfFlagToAccLlama}{0}
 \newcommand{\trHalfFlagToFlagLlama}{5}
+\newcommand{\trHalfFlagLeftLlama}{5}
 \newcommand{\trHalfFlagDequotedLlama}{13}
 \newcommand{\trHalfFlagDeletedLlama}{35}
 \newcommand{\trHalfAccToAccLlama}{1}
@@ -2220,6 +2244,7 @@
 \newcommand{\trHalfFlagRemovedLlama}{48}
 \newcommand{\trQuarterFlagToAccLlama}{0}
 \newcommand{\trQuarterFlagToFlagLlama}{13}
+\newcommand{\trQuarterFlagLeftLlama}{13}
 \newcommand{\trQuarterFlagDequotedLlama}{11}
 \newcommand{\trQuarterFlagDeletedLlama}{29}
 \newcommand{\trQuarterAccToAccLlama}{2}
@@ -2232,6 +2257,7 @@
 \newcommand{\trQuarterFlagRemovedLlama}{40}
 \newcommand{\trThreeqFlagToAccLlama}{0}
 \newcommand{\trThreeqFlagToFlagLlama}{2}
+\newcommand{\trThreeqFlagLeftLlama}{2}
 \newcommand{\trThreeqFlagDequotedLlama}{9}
 \newcommand{\trThreeqFlagDeletedLlama}{42}
 \newcommand{\trThreeqAccToAccLlama}{3}
@@ -2244,6 +2270,7 @@
 \newcommand{\trThreeqFlagRemovedLlama}{51}
 \newcommand{\trTrueFlagToAccDeepseek}{0}
 \newcommand{\trTrueFlagToFlagDeepseek}{15}
+\newcommand{\trTrueFlagLeftDeepseek}{15}
 \newcommand{\trTrueFlagDequotedDeepseek}{67}
 \newcommand{\trTrueFlagDeletedDeepseek}{101}
 \newcommand{\trTrueAccToAccDeepseek}{16}
@@ -2258,6 +2285,7 @@
 \newcommand{\trTrueFlagRemovedDeepseek}{168}
 \newcommand{\trScrFlagToAccDeepseek}{0}
 \newcommand{\trScrFlagToFlagDeepseek}{63}
+\newcommand{\trScrFlagLeftDeepseek}{63}
 \newcommand{\trScrFlagDequotedDeepseek}{21}
 \newcommand{\trScrFlagDeletedDeepseek}{99}
 \newcommand{\trScrAccToAccDeepseek}{4}
@@ -2270,6 +2298,7 @@
 \newcommand{\trScrFlagRemovedDeepseek}{120}
 \newcommand{\trNoneFlagToAccDeepseek}{4}
 \newcommand{\trNoneFlagToFlagDeepseek}{124}
+\newcommand{\trNoneFlagLeftDeepseek}{124}
 \newcommand{\trNoneFlagDequotedDeepseek}{8}
 \newcommand{\trNoneFlagDeletedDeepseek}{47}
 \newcommand{\trNoneAccToAccDeepseek}{17}
@@ -2282,6 +2311,7 @@
 \newcommand{\trNoneFlagRemovedDeepseek}{55}
 \newcommand{\trHalfFlagToAccDeepseek}{0}
 \newcommand{\trHalfFlagToFlagDeepseek}{18}
+\newcommand{\trHalfFlagLeftDeepseek}{18}
 \newcommand{\trHalfFlagDequotedDeepseek}{61}
 \newcommand{\trHalfFlagDeletedDeepseek}{104}
 \newcommand{\trHalfAccToAccDeepseek}{7}
@@ -2294,6 +2324,7 @@
 \newcommand{\trHalfFlagRemovedDeepseek}{165}
 \newcommand{\trQuarterFlagToAccDeepseek}{1}
 \newcommand{\trQuarterFlagToFlagDeepseek}{52}
+\newcommand{\trQuarterFlagLeftDeepseek}{52}
 \newcommand{\trQuarterFlagDequotedDeepseek}{42}
 \newcommand{\trQuarterFlagDeletedDeepseek}{88}
 \newcommand{\trQuarterAccToAccDeepseek}{11}
@@ -2306,6 +2337,7 @@
 \newcommand{\trQuarterFlagRemovedDeepseek}{130}
 \newcommand{\trThreeqFlagToAccDeepseek}{4}
 \newcommand{\trThreeqFlagToFlagDeepseek}{18}
+\newcommand{\trThreeqFlagLeftDeepseek}{18}
 \newcommand{\trThreeqFlagDequotedDeepseek}{62}
 \newcommand{\trThreeqFlagDeletedDeepseek}{99}
 \newcommand{\trThreeqAccToAccDeepseek}{15}
@@ -2318,6 +2350,7 @@
 \newcommand{\trThreeqFlagRemovedDeepseek}{161}
 \newcommand{\trTrueFlagToAccGpt}{2}
 \newcommand{\trTrueFlagToFlagGpt}{9}
+\newcommand{\trTrueFlagLeftGpt}{9}
 \newcommand{\trTrueFlagDequotedGpt}{5}
 \newcommand{\trTrueFlagDeletedGpt}{21}
 \newcommand{\trTrueAccToAccGpt}{26}
@@ -2332,6 +2365,7 @@
 \newcommand{\trTrueFlagRemovedGpt}{26}
 \newcommand{\trScrFlagToAccGpt}{0}
 \newcommand{\trScrFlagToFlagGpt}{23}
+\newcommand{\trScrFlagLeftGpt}{23}
 \newcommand{\trScrFlagDequotedGpt}{6}
 \newcommand{\trScrFlagDeletedGpt}{8}
 \newcommand{\trScrAccToAccGpt}{13}
@@ -2344,6 +2378,7 @@
 \newcommand{\trScrFlagRemovedGpt}{14}
 \newcommand{\trNoneFlagToAccGpt}{0}
 \newcommand{\trNoneFlagToFlagGpt}{7}
+\newcommand{\trNoneFlagLeftGpt}{7}
 \newcommand{\trNoneFlagDequotedGpt}{4}
 \newcommand{\trNoneFlagDeletedGpt}{26}
 \newcommand{\trNoneAccToAccGpt}{19}
@@ -2356,6 +2391,7 @@
 \newcommand{\trNoneFlagRemovedGpt}{30}
 \newcommand{\trHalfFlagToAccGpt}{1}
 \newcommand{\trHalfFlagToFlagGpt}{5}
+\newcommand{\trHalfFlagLeftGpt}{5}
 \newcommand{\trHalfFlagDequotedGpt}{4}
 \newcommand{\trHalfFlagDeletedGpt}{27}
 \newcommand{\trHalfAccToAccGpt}{21}
@@ -2368,6 +2404,7 @@
 \newcommand{\trHalfFlagRemovedGpt}{31}
 \newcommand{\trQuarterFlagToAccGpt}{1}
 \newcommand{\trQuarterFlagToFlagGpt}{11}
+\newcommand{\trQuarterFlagLeftGpt}{11}
 \newcommand{\trQuarterFlagDequotedGpt}{4}
 \newcommand{\trQuarterFlagDeletedGpt}{21}
 \newcommand{\trQuarterAccToAccGpt}{16}
@@ -2380,6 +2417,7 @@
 \newcommand{\trQuarterFlagRemovedGpt}{25}
 \newcommand{\trThreeqFlagToAccGpt}{1}
 \newcommand{\trThreeqFlagToFlagGpt}{1}
+\newcommand{\trThreeqFlagLeftGpt}{1}
 \newcommand{\trThreeqFlagDequotedGpt}{2}
 \newcommand{\trThreeqFlagDeletedGpt}{33}
 \newcommand{\trThreeqAccToAccGpt}{24}
@@ -2392,6 +2430,7 @@
 \newcommand{\trThreeqFlagRemovedGpt}{35}
 \newcommand{\trTrueFlagToAccSonnet}{4}
 \newcommand{\trTrueFlagToFlagSonnet}{0}
+\newcommand{\trTrueFlagLeftSonnet}{0}
 \newcommand{\trTrueFlagDequotedSonnet}{13}
 \newcommand{\trTrueFlagDeletedSonnet}{72}
 \newcommand{\trTrueAccToAccSonnet}{51}
@@ -2406,6 +2445,7 @@
 \newcommand{\trTrueFlagRemovedSonnet}{85}
 \newcommand{\trScrFlagToAccSonnet}{0}
 \newcommand{\trScrFlagToFlagSonnet}{15}
+\newcommand{\trScrFlagLeftSonnet}{15}
 \newcommand{\trScrFlagDequotedSonnet}{9}
 \newcommand{\trScrFlagDeletedSonnet}{65}
 \newcommand{\trScrAccToAccSonnet}{12}
@@ -2418,6 +2458,7 @@
 \newcommand{\trScrFlagRemovedSonnet}{74}
 \newcommand{\trNoneFlagToAccSonnet}{6}
 \newcommand{\trNoneFlagToFlagSonnet}{33}
+\newcommand{\trNoneFlagLeftSonnet}{33}
 \newcommand{\trNoneFlagDequotedSonnet}{5}
 \newcommand{\trNoneFlagDeletedSonnet}{45}
 \newcommand{\trNoneAccToAccSonnet}{50}
@@ -2430,6 +2471,7 @@
 \newcommand{\trNoneFlagRemovedSonnet}{50}
 \newcommand{\trHalfFlagToAccSonnet}{1}
 \newcommand{\trHalfFlagToFlagSonnet}{5}
+\newcommand{\trHalfFlagLeftSonnet}{5}
 \newcommand{\trHalfFlagDequotedSonnet}{10}
 \newcommand{\trHalfFlagDeletedSonnet}{73}
 \newcommand{\trHalfAccToAccSonnet}{30}
@@ -2442,6 +2484,7 @@
 \newcommand{\trHalfFlagRemovedSonnet}{83}
 \newcommand{\trQuarterFlagToAccSonnet}{3}
 \newcommand{\trQuarterFlagToFlagSonnet}{9}
+\newcommand{\trQuarterFlagLeftSonnet}{9}
 \newcommand{\trQuarterFlagDequotedSonnet}{10}
 \newcommand{\trQuarterFlagDeletedSonnet}{67}
 \newcommand{\trQuarterAccToAccSonnet}{15}
@@ -2454,6 +2497,7 @@
 \newcommand{\trQuarterFlagRemovedSonnet}{77}
 \newcommand{\trThreeqFlagToAccSonnet}{1}
 \newcommand{\trThreeqFlagToFlagSonnet}{1}
+\newcommand{\trThreeqFlagLeftSonnet}{1}
 \newcommand{\trThreeqFlagDequotedSonnet}{13}
 \newcommand{\trThreeqFlagDeletedSonnet}{74}
 \newcommand{\trThreeqAccToAccSonnet}{44}
@@ -2466,6 +2510,7 @@
 \newcommand{\trThreeqFlagRemovedSonnet}{87}
 \newcommand{\trTrueFlagToAccGrok}{0}
 \newcommand{\trTrueFlagToFlagGrok}{0}
+\newcommand{\trTrueFlagLeftGrok}{0}
 \newcommand{\trTrueFlagDequotedGrok}{27}
 \newcommand{\trTrueFlagDeletedGrok}{19}
 \newcommand{\trTrueAccToAccGrok}{10}
@@ -2480,6 +2525,7 @@
 \newcommand{\trTrueFlagRemovedGrok}{46}
 \newcommand{\trScrFlagToAccGrok}{1}
 \newcommand{\trScrFlagToFlagGrok}{15}
+\newcommand{\trScrFlagLeftGrok}{15}
 \newcommand{\trScrFlagDequotedGrok}{14}
 \newcommand{\trScrFlagDeletedGrok}{16}
 \newcommand{\trScrAccToAccGrok}{3}
@@ -2492,6 +2538,7 @@
 \newcommand{\trScrFlagRemovedGrok}{30}
 \newcommand{\trNoneFlagToAccGrok}{0}
 \newcommand{\trNoneFlagToFlagGrok}{31}
+\newcommand{\trNoneFlagLeftGrok}{31}
 \newcommand{\trNoneFlagDequotedGrok}{3}
 \newcommand{\trNoneFlagDeletedGrok}{12}
 \newcommand{\trNoneAccToAccGrok}{8}
@@ -2504,6 +2551,7 @@
 \newcommand{\trNoneFlagRemovedGrok}{15}
 \newcommand{\trHalfFlagToAccGrok}{0}
 \newcommand{\trHalfFlagToFlagGrok}{2}
+\newcommand{\trHalfFlagLeftGrok}{2}
 \newcommand{\trHalfFlagDequotedGrok}{23}
 \newcommand{\trHalfFlagDeletedGrok}{21}
 \newcommand{\trHalfAccToAccGrok}{6}
@@ -2516,6 +2564,7 @@
 \newcommand{\trHalfFlagRemovedGrok}{44}
 \newcommand{\trQuarterFlagToAccGrok}{0}
 \newcommand{\trQuarterFlagToFlagGrok}{7}
+\newcommand{\trQuarterFlagLeftGrok}{7}
 \newcommand{\trQuarterFlagDequotedGrok}{19}
 \newcommand{\trQuarterFlagDeletedGrok}{20}
 \newcommand{\trQuarterAccToAccGrok}{6}
@@ -2528,6 +2577,7 @@
 \newcommand{\trQuarterFlagRemovedGrok}{39}
 \newcommand{\trThreeqFlagToAccGrok}{0}
 \newcommand{\trThreeqFlagToFlagGrok}{0}
+\newcommand{\trThreeqFlagLeftGrok}{0}
 \newcommand{\trThreeqFlagDequotedGrok}{21}
 \newcommand{\trThreeqFlagDeletedGrok}{25}
 \newcommand{\trThreeqAccToAccGrok}{6}

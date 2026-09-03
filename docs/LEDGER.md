@@ -333,3 +333,21 @@ before or after seeing the relevant data. Nothing is deleted.
   matches close Sonnet's provenance partition; the temporal-violation
   sentence uses temporal-only counts; several colon reveals and a
   comma splice removed. Body ends three quarters down page 10.
+- 2026-09-03 (second reviewer's list, review_papers/CUP_v5_self_review.txt
+  from a parallel session, applied where still relevant): Zhao et al.'s
+  conditions restated correctly in the introduction (year window,
+  survey-style breadth, non-disclosure; the sanctions warning is ours);
+  Table 2 gained a "left" column so flagged rows sum to n; the
+  replication sentence reports standard deviations and ranges (0.088
+  existence, 0.111 strict); the temporal-condition OCR confound is
+  tested within baseline (src/era_check.py: strict accuracy 0.309 for
+  quotations from pre-1970 opinions against 0.296 for later ones, so
+  the fall under the temporal clause is not an artifact of scanned
+  text); the misattribution count is stated as a ceiling (in 151 of 626
+  the true source is also cited in the same draft, so attribution
+  errors are possible); the appellate shortfall carries the coverage
+  check (263,000 F.3d and 507,000 F.2d citations indexed, Sonnet 5 at
+  0.993); the deletion finding is scoped to closed-book revision with
+  a grounded loop left for future work; the Discussion names the
+  lenient standard as the one a deployer should enforce. The release
+  link works only once the repository is public, which is Hardy's step.
