@@ -240,3 +240,6 @@
 {"ts": 1788397544.3464441, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r1:1999-051:half", "in_tokens": 5741, "out_tokens": 6147, "est_cost": 0.072952, "latency_ms": 63230}
 {"ts": 1788397574.5286798, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r2:1999-051:half", "in_tokens": 8025, "out_tokens": 3169, "est_cost": 0.04774, "latency_ms": 30131}
 {"ts": 1788397644.032542, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r3:1999-051:half", "in_tokens": 10327, "out_tokens": 7360, "est_cost": 0.094254, "latency_ms": 69458}
+{"ts": 1788403418.94318, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r1:1992-086:quarter", "in_tokens": 9239, "out_tokens": 2735, "est_cost": 0.045828, "latency_ms": 29277}
+{"ts": 1788403457.2171168, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r2:1992-086:quarter", "in_tokens": 11353, "out_tokens": 3660, "est_cost": 0.059306, "latency_ms": 38021}
+{"ts": 1788403476.359487, "client": "loop-sonnet", "model": "anthropic/claude-sonnet-5", "tag": "r1:1997-033:quarter", "in_tokens": 7050, "out_tokens": 8786, "est_cost": 0.10196, "latency_ms": 86679}

@@ -280,3 +280,13 @@
 {"ts": 1788397667.318193, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r2:2005-087:half", "in_tokens": 4618, "out_tokens": 1400, "est_cost": 0.000493, "latency_ms": 14405}
 {"ts": 1788397700.0983129, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r3:2013-058:half", "in_tokens": 9167, "out_tokens": 1400, "est_cost": 0.000712, "latency_ms": 35093}
 {"ts": 1788397705.726099, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r3:2005-087:half", "in_tokens": 6471, "out_tokens": 1400, "est_cost": 0.000582, "latency_ms": 38349}
+{"ts": 1788403400.1845179, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r1:1992-086:quarter", "in_tokens": 7169, "out_tokens": 1392, "est_cost": 0.000614, "latency_ms": 10448}
+{"ts": 1788403403.748058, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r1:1992-109:quarter", "in_tokens": 7623, "out_tokens": 1400, "est_cost": 0.000637, "latency_ms": 14116}
+{"ts": 1788403417.4089239, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r2:1992-086:quarter", "in_tokens": 9310, "out_tokens": 1334, "est_cost": 0.000706, "latency_ms": 17133}
+{"ts": 1788403419.109161, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r2:1992-109:quarter", "in_tokens": 9561, "out_tokens": 1400, "est_cost": 0.000731, "latency_ms": 15288}
+{"ts": 1788403421.731693, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r1:1997-033:quarter", "in_tokens": 5000, "out_tokens": 1400, "est_cost": 0.000511, "latency_ms": 32023}
+{"ts": 1788403435.379067, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r3:1992-109:quarter", "in_tokens": 11480, "out_tokens": 1400, "est_cost": 0.000823, "latency_ms": 16050}
+{"ts": 1788403437.481136, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r3:1992-086:quarter", "in_tokens": 11370, "out_tokens": 1333, "est_cost": 0.000805, "latency_ms": 19998}
+{"ts": 1788403456.2903569, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r2:1997-033:quarter", "in_tokens": 6895, "out_tokens": 1400, "est_cost": 0.000602, "latency_ms": 34406}
+{"ts": 1788403456.689367, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r1:1992-086:threequarter", "in_tokens": 7221, "out_tokens": 1400, "est_cost": 0.000618, "latency_ms": 19025}
+{"ts": 1788403474.56119, "client": "loop-qwen30b", "model": "qwen/qwen3-30b-a3b-instruct-2507", "tag": "r3:1997-033:quarter", "in_tokens": 8807, "out_tokens": 1400, "est_cost": 0.000694, "latency_ms": 18201}

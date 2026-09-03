@@ -91,23 +91,24 @@ def feedback_lines(recs, qres, arm, rng):
     if arm == "true" or not true_lines:
         return true_lines
     # scrambled: same count, templates aimed at VERIFIED items;
-    # half: each line true or scrambled with equal probability, so the
-    # verifier's precision is about one half
+    # quarter / half / threequarter: each line kept with that probability
+    # and otherwise scrambled, so the verifier's precision is about that
     ok_cites = [r["citation"] for r in recs if r["verdict"] == "exists"]
     ok_quotes = [
         (r["quote"][:60], r["citation"])
         for r in qres if r["verdict"] == "accurate" and r["citation"]
     ]
     lines = []
+    keep = {"half": 0.5, "quarter": 0.25, "threequarter": 0.75}.get(arm)
     for true_line in true_lines:
-        if arm == "half" and rng.random() < 0.5:
+        if keep is not None and rng.random() < keep:
             lines.append(true_line)
         elif ok_quotes and rng.random() < 0.5:
             qt, c = rng.choice(ok_quotes)
             lines.append(FB_QUOTE.format(q=qt, c=c))
         elif ok_cites:
             lines.append(FB_CITE.format(c=rng.choice(ok_cites)))
-        elif arm == "half":
+        elif keep is not None:
             lines.append(true_line)
     return lines
 

@@ -114,3 +114,11 @@
 {"ts": 1788401572.370604, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:2005-087:half", "in_tokens": 1545, "out_tokens": 1786, "est_cost": 0.006127, "latency_ms": 10470}
 {"ts": 1788401581.332454, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r2:2005-087:half", "in_tokens": 2077, "out_tokens": 1564, "est_cost": 0.006237, "latency_ms": 8943}
 {"ts": 1788401588.458845, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r3:2005-087:half", "in_tokens": 2617, "out_tokens": 1288, "est_cost": 0.00555, "latency_ms": 7110}
+{"ts": 1788403406.6706371, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:1997-046:quarter", "in_tokens": 5671, "out_tokens": 1311, "est_cost": 0.005125, "latency_ms": 16875}
+{"ts": 1788403410.943232, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:1992-086:quarter", "in_tokens": 5546, "out_tokens": 1630, "est_cost": 0.005295, "latency_ms": 21312}
+{"ts": 1788403419.242514, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:1997-033:quarter", "in_tokens": 3693, "out_tokens": 2429, "est_cost": 0.006993, "latency_ms": 29751}
+{"ts": 1788403424.510583, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:1997-046:threequarter", "in_tokens": 5675, "out_tokens": 1432, "est_cost": 0.004827, "latency_ms": 17776}
+{"ts": 1788403436.481625, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r2:1992-086:quarter", "in_tokens": 6300, "out_tokens": 2047, "est_cost": 0.007213, "latency_ms": 25474}
+{"ts": 1788403451.872834, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r3:1992-086:quarter", "in_tokens": 7052, "out_tokens": 1202, "est_cost": 0.005234, "latency_ms": 15052}
+{"ts": 1788403453.086913, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r1:2015-055:quarter", "in_tokens": 6046, "out_tokens": 1770, "est_cost": 0.005733, "latency_ms": 28444}
+{"ts": 1788403460.2717671, "client": "loop-grok43", "model": "x-ai/grok-4.3", "tag": "r2:1997-033:quarter", "in_tokens": 4313, "out_tokens": 3794, "est_cost": 0.011046, "latency_ms": 40911}
