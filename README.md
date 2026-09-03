@@ -256,22 +256,30 @@ p = 0.0003) but nothing distinguishable for GPT-5.4-mini. A
 per-quotation trace (`results/loop_transitions.json`) shows the
 mechanism directly: of Sonnet 5's 89 flagged quotations, 4 were
 corrected, 13 lost their quotation marks, and 72 were deleted; under
-false feedback it removed 56 of its 68 correct quotations. A fourth
-arm in which each feedback line is true or false with equal
-probability (verifier precision about one half) gives the
-dose-response: Sonnet 5 removed 17 correct quotations under a precise
-verifier, 38 under the half-true one, 56 under an all-false one, and
-18 with no feedback at all, and the half-true verifier left it within
-seven points of no feedback (0.664 against 0.595). Verifier precision
-is therefore a deployment requirement.
+false feedback it removed 56 of its 68 correct quotations. Mixed
+arms in which each feedback line is true with probability 0.25, 0.5,
+or 0.75 give the dose-response: Sonnet 5 removed 17, 24, 38, 53, and
+56 of its 68 correct quotations as verifier precision fell from 1 to
+0 (18 with no feedback at all), and its final accuracy fell 0.974,
+0.855, 0.664, 0.508, 0.266 with it; a verifier right half the time
+left it within seven points of no feedback. Verifier precision is
+therefore a deployment requirement.
 
-A replication of the baseline and combined drafts for twelve matters
-(fresh cache, same prompts, the six original models) produced one identical
-draft in 144. Existence rates agreed within 0.03 and the one
-significant existence contrast kept its sign; strict quotation rates
-on twelve matters moved by a median of 0.07 and up to 0.33, so the
-quotation claims the paper relies on are the within-model contrasts
-that survive Holm correction, never a single cell.
+Two robustness campaigns back the single-run table. Three independent
+generations of the baseline and combined drafts on all 48 matters and
+all seven models (672 drafts per run): cell-level standard deviations
+are at most 0.05 for existence and 0.06 for strict accuracy, the
+combined-versus-baseline quotation contrast kept its sign in every run
+for every model, and pooling the three runs with a run effect the
+combined fall in quotation accuracy survives Holm correction for six
+of seven models (odds ratios 0.33 to 0.50), Sonnet 5 excepted. A second
+prompt template for every condition on all 48 matters and all seven
+models: twelve contrasts survive under it alone, and pooling both
+templates with a template effect, all eight single-run survivors
+survive and the combined fall survives for six of seven models (odds
+ratios 0.32 to 0.46). Cell rates differ between templates by at most
+11 points of strict accuracy, so single cells are template-specific
+and the within-model contrasts are what the paper relies on.
 
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
