@@ -61,6 +61,8 @@ def clean_party(s):
 def parties(line):
     """Return (appellant, appellee) from a CAP parties line, or None."""
     line = re.sub(r"\s+", " ", line)
+    if "Cross-Appell" in line:
+        return None  # cross-appeals have no single appellant
     m = re.match(r"(.+?),\s*([\w /-]*Appellants?)[,.]?\s+v\.\s+(.+?),\s*([\w /-]*Appellees?)[.,]?\s*$", line)
     if m:
         return clean_party(m.group(1)), clean_party(m.group(3))

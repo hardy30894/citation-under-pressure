@@ -331,51 +331,80 @@
   "deepseek": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 418,
    "us_share": 0.615,
    "federal_share": 0.316,
-   "citations": 418
+   "us_not_found": 5,
+   "federal_not_found": 28,
+   "other_not_found": 5
   },
   "gpt54mini": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 672,
    "us_share": 0.592,
    "federal_share": 0.26,
-   "citations": 672
+   "us_not_found": 19,
+   "federal_not_found": 19,
+   "other_not_found": 24
   },
   "grok43": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 336,
    "us_share": 0.756,
    "federal_share": 0.167,
-   "citations": 336
+   "us_not_found": 3,
+   "federal_not_found": 5,
+   "other_not_found": 10
   },
   "llama4mav": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 394,
    "us_share": 0.571,
    "federal_share": 0.363,
-   "citations": 394
+   "us_not_found": 5,
+   "federal_not_found": 36,
+   "other_not_found": 12
   },
   "mistralsmall": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 384,
    "us_share": 0.487,
    "federal_share": 0.422,
-   "citations": 384
+   "us_not_found": 8,
+   "federal_not_found": 80,
+   "other_not_found": 20
   },
   "qwen30b": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 346,
    "us_share": 0.546,
    "federal_share": 0.396,
-   "citations": 346
+   "us_not_found": 61,
+   "federal_not_found": 96,
+   "other_not_found": 5
   },
   "sonnet": {
    "drafts": 48,
    "short_drafts": 0,
+   "citations": 368,
    "us_share": 0.734,
    "federal_share": 0.182,
-   "citations": 368
+   "us_not_found": 2,
+   "federal_not_found": 0,
+   "other_not_found": 0
+  },
+  "_pooled": {
+   "us": 1780,
+   "federal": 872,
+   "other": 266,
+   "us_nf": 103,
+   "federal_nf": 264,
+   "other_nf": 76
   }
  },
  "baseline_vs_scotus": {

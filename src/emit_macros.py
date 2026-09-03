@@ -370,13 +370,20 @@ if ap.exists():
         rm = a["reporter_mix"].get(m)
         if rm and rm["us_share"] is not None:
             emit2(f"aUsShare{mk}", f"{100 * rm['us_share']:.0f}")
+    pl = a["reporter_mix"].get("_pooled")
+    if pl:
+        emit2("aNfFederalPct", f"{100 * pl['federal_nf'] / pl['federal']:.0f}")
+        emit2("aNfUsPct", f"{100 * pl['us_nf'] / pl['us']:.0f}")
+        emit2("aNfOtherShare", f"{100 * pl['other_nf'] / (pl['us_nf'] + pl['federal_nf'] + pl['other_nf']):.0f}")
+        emit2("aNfFederal", str(pl["federal_nf"]))
+        emit2("aFederalCites", f"{pl['federal']:,}")
     ex = [a["rates"][f"{m}:baseline"]["exist"] for m in ALPHA if f"{m}:baseline" in a["rates"]]
     emit2("aExistBaseMin", fmt3(min(ex)))
     emit2("aExistBaseMax", fmt3(max(ex)))
-    us = [a["reporter_mix"][m]["us_share"] for m in ALPHA if m in a["reporter_mix"]]
+    us = [a["reporter_mix"][m]["us_share"] for m in ALPHA if m in a["reporter_mix"] and a["reporter_mix"][m]["us_share"] is not None]
     emit2("aUsShareMin", f"{100 * min(us):.0f}")
     emit2("aUsShareMax", f"{100 * max(us):.0f}")
-    emit2("aShortDrafts", str(sum(v["short_drafts"] for v in a["reporter_mix"].values())))
+    emit2("aShortDrafts", str(sum(v["short_drafts"] for k, v in a["reporter_mix"].items() if not k.startswith("_"))))
     lower = sum(1 for m in ALPHA if f"{m}:baseline" in a["rates"] and
                 a["rates"][f"{m}:baseline"]["exist"] < a["baseline_vs_scotus"][m]["scotus_exist"])
     emit2("aLowerThanScotus", str(lower))

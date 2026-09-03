@@ -75,10 +75,18 @@ def combo_gee(df, extra=""):
     return out
 
 
+FEDERAL = ("F2d", "F3d", "FSupp", "FSupp2d", "FSupp3d", "F")
+
+
 def reporter_mix():
     """Share of citations to U.S. Reports and to F.2d/F.3d/F. Supp. in the
-    appellate drafts, plus refusals (drafts under 100 words)."""
+    appellate drafts, the not-found rate by reporter group from the
+    checker, and refusals (drafts under 100 words)."""
+    from checker.citation_checker import CitationChecker, SqliteIndex
+    from pilot import DB
+    checker = CitationChecker(SqliteIndex(DB))
     out = {}
+    pooled = Counter()
     for d in sorted(R.glob("app_*")):
         if not d.is_dir():
             continue
@@ -91,19 +99,21 @@ def reporter_mix():
             n += 1
             if len(t.split()) < 100:
                 refusals += 1
-            for x in cite_details(t):
-                rep = (x["reporter"] or "").replace(" ", "").replace(".", "")
-                if rep == "US":
-                    c["us"] += 1
-                elif rep in ("F2d", "F3d", "FSupp", "FSupp2d", "FSupp3d", "F"):
-                    c["federal"] += 1
-                elif rep:
-                    c["other"] += 1
-        tot = sum(c.values())
-        out[model] = {"drafts": n, "short_drafts": refusals,
+            recs, _ = checker.check_text(t)
+            for r in recs:
+                rep = (r.get("reporter") or "").replace(" ", "").replace(".", "")
+                grp = "us" if rep == "US" else ("federal" if rep in FEDERAL else "other")
+                c[grp] += 1
+                if r["verdict"] == "not_found":
+                    c[grp + "_nf"] += 1
+        pooled.update(c)
+        tot = c["us"] + c["federal"] + c["other"]
+        out[model] = {"drafts": n, "short_drafts": refusals, "citations": tot,
                       "us_share": round(c["us"] / tot, 3) if tot else None,
                       "federal_share": round(c["federal"] / tot, 3) if tot else None,
-                      "citations": tot}
+                      "us_not_found": c["us_nf"], "federal_not_found": c["federal_nf"],
+                      "other_not_found": c["other_nf"]}
+    out["_pooled"] = {k: pooled[k] for k in ("us", "federal", "other", "us_nf", "federal_nf", "other_nf")}
     return out
 
 
@@ -129,7 +139,8 @@ def main():
     for k, v in out["gee"].items():
         if v.get("holm_p") is not None:
             print(f"  {k:28s} OR {v['OR']} holm {v['holm_p']}{' *' if v['holm_p'] < 0.05 else ''}")
-    print("reporter mix:", {m: (v["us_share"], v["federal_share"], v["short_drafts"]) for m, v in out["reporter_mix"].items()})
+    print("reporter mix:", {m: (v.get("us_share"), v.get("federal_share")) for m, v in out["reporter_mix"].items() if not m.startswith("_")})
+    print("pooled not found by reporter:", out["reporter_mix"]["_pooled"])
 
 
 if __name__ == "__main__":
