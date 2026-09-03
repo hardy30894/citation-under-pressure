@@ -293,6 +293,19 @@ remaining inaccurate quotations are paraphrase of the cited case inside
 quotation marks. Retrieval nearly removes the existence failure and
 leaves the residual class in place.
 
+A second task, 24 published federal appellate decisions (two from each
+of twelve circuits, packets built from the deciding court's own
+statement of the case with the analysis withheld and outcome sentences
+scrubbed), shows that fabrication at a neutral prompt is far more
+common outside the Supreme Court: baseline citation existence is 0.57
+for the 30B model, 0.72 for Mistral Small, 0.90 to 0.94 for the four
+models in between, and 0.99 for Sonnet 5 alone. Thirty percent of
+citations to the federal reporters do not resolve against six percent
+of citations to the U.S. Reports, and the models cite the U.S. Reports
+for half to three quarters of their authorities even in a circuit
+appeal. Pooled over both tasks, the pressure contrasts that survive on
+the Supreme Court matters survive here too.
+
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
 Three residual failure modes, each measured deterministically:
