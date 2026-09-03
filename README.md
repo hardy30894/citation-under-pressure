@@ -282,6 +282,25 @@ deleted, and 18 left (strict 0.496 to 0.837); DeepSeek corrected 3 of
 89. The models delete in answer to a flag whether or not they hold the
 source.
 
+Three instrument checks answer the questions a reader will ask of the
+strict standard and the index. Refitting every contrast on the lenient
+outcome (near misses counted as correct; `src/gee.py --lenient`,
+`results/stats_gee_lenient.json`), ten contrasts survive Holm within
+model, the combined-condition fall among them for Qwen3-30B, DeepSeek,
+and Mistral Small (Llama-4's reaches corrected p = 0.055), and Grok 4.3's
+quotation accuracy rises under the stakes clause (OR 1.81, corrected
+p = 0.002), a contrast absent on the strict outcome. The existence and
+pinpoint checks now carry a seeded validation of their own
+(`src/validate_pins.py`, `results/validate_pins.json`): on twenty seeded
+U.S. Reports opinions with planted real, fabricated, and vendor
+citations and a sentence pinned to its own page and to a page three or
+more away, 100 of 100. And resolving the 1,766 citations that the 48
+appellate deciding opinions themselves contain, real by construction
+(`src/index_recall.py`, `results/index_recall.json`), the index misses 3
+of 759 to F.2d, F.3d, and F. Supp. (0.4 percent) and 1 of 227 to the
+U.S. Reports, so the 22 percent not-found rate the models produce on
+those reporters is not coverage.
+
 Two robustness campaigns back the single-run table. Three independent
 generations of the baseline and combined drafts on all 48 matters and
 all seven models (672 drafts per run): cell-level standard deviations

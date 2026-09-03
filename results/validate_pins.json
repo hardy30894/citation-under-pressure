@@ -1,0 +1,152 @@
+{
+ "seeded_cases": 20,
+ "tally": {
+  "existence: fabricated citation | pass": 20,
+  "existence: real citation | pass": 20,
+  "existence: vendor citation | pass": 20,
+  "pin: quote on a different page | pass": 20,
+  "pin: quote on cited page | pass": 20
+ },
+ "cases": [
+  {
+   "citation": "101 U.S. 99",
+   "pin": 101,
+   "far_pin": 104,
+   "real": "107 U.S. 581",
+   "fake": "101 U.S. 9001"
+  },
+  {
+   "citation": "105 U.S. 553",
+   "pin": 558,
+   "far_pin": 555,
+   "real": "103 U.S. 256",
+   "fake": "105 U.S. 9001"
+  },
+  {
+   "citation": "103 U.S. 562",
+   "pin": 572,
+   "far_pin": 569,
+   "real": "102 U.S. 625",
+   "fake": "103 U.S. 9001"
+  },
+  {
+   "citation": "105 U.S. 237",
+   "pin": 238,
+   "far_pin": 241,
+   "real": "101 U.S. 773",
+   "fake": "105 U.S. 9001"
+  },
+  {
+   "citation": "103 U.S. 316",
+   "pin": 318,
+   "far_pin": 321,
+   "real": "107 U.S. 586",
+   "fake": "103 U.S. 9001"
+  },
+  {
+   "citation": "11 U.S. 603",
+   "pin": 617,
+   "far_pin": 614,
+   "real": "100 U.S. 339",
+   "fake": "11 U.S. 9001"
+  },
+  {
+   "citation": "107 U.S. 132",
+   "pin": 140,
+   "far_pin": 137,
+   "real": "101 U.S. 677",
+   "fake": "107 U.S. 9001"
+  },
+  {
+   "citation": "104 U.S. 711",
+   "pin": 712,
+   "far_pin": 715,
+   "real": "100 U.S. 100",
+   "fake": "104 U.S. 9001"
+  },
+  {
+   "citation": "104 U.S. 757",
+   "pin": 761,
+   "far_pin": 758,
+   "real": "103 U.S. 660",
+   "fake": "104 U.S. 9001"
+  },
+  {
+   "citation": "105 U.S. 470",
+   "pin": 471,
+   "far_pin": 474,
+   "real": "109 U.S. 556",
+   "fake": "105 U.S. 9001"
+  },
+  {
+   "citation": "100 U.S. 648",
+   "pin": 653,
+   "far_pin": 650,
+   "real": "10 U.S. 53",
+   "fake": "100 U.S. 9001"
+  },
+  {
+   "citation": "11 U.S. 147",
+   "pin": 150,
+   "far_pin": 147,
+   "real": "106 U.S. 379",
+   "fake": "11 U.S. 9001"
+  },
+  {
+   "citation": "106 U.S. 147",
+   "pin": 151,
+   "far_pin": 148,
+   "real": "109 U.S. 633",
+   "fake": "106 U.S. 9001"
+  },
+  {
+   "citation": "108 U.S. 543",
+   "pin": 544,
+   "far_pin": 547,
+   "real": "101 U.S. 439",
+   "fake": "108 U.S. 9001"
+  },
+  {
+   "citation": "100 U.S. 104",
+   "pin": 107,
+   "far_pin": 104,
+   "real": "109 U.S. 90",
+   "fake": "100 U.S. 9001"
+  },
+  {
+   "citation": "101 U.S. 7",
+   "pin": 9,
+   "far_pin": 12,
+   "real": "101 U.S. 93",
+   "fake": "101 U.S. 9001"
+  },
+  {
+   "citation": "105 U.S. 60",
+   "pin": 72,
+   "far_pin": 69,
+   "real": "106 U.S. 613",
+   "fake": "105 U.S. 9001"
+  },
+  {
+   "citation": "11 U.S. 436",
+   "pin": 440,
+   "far_pin": 437,
+   "real": "105 U.S. 766",
+   "fake": "11 U.S. 9001"
+  },
+  {
+   "citation": "104 U.S. 662",
+   "pin": 666,
+   "far_pin": 663,
+   "real": "109 U.S. 735",
+   "fake": "104 U.S. 9001"
+  },
+  {
+   "citation": "104 U.S. 310",
+   "pin": 315,
+   "far_pin": 312,
+   "real": "105 U.S. 271",
+   "fake": "104 U.S. 9001"
+  }
+ ]
+}

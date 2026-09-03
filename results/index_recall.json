@@ -1,0 +1,127 @@
+{
+ "opinions": 48,
+ "groups": {
+  "us": {
+   "citations": 227,
+   "not_found": 1,
+   "not_found_share": 0.0044
+  },
+  "federal": {
+   "citations": 759,
+   "not_found": 3,
+   "not_found_share": 0.004
+  },
+  "other": {
+   "citations": 780,
+   "not_found": 36,
+   "not_found_share": 0.0462
+  }
+ },
+ "all": {
+  "citations": 1766,
+  "not_found": 40,
+  "not_found_share": 0.0227
+ },
+ "by_reporter": {
+  "F.3d": {
+   "citations": 499,
+   "not_found": 2
+  },
+  "S.Ct.": {
+   "citations": 351,
+   "not_found": 3
+  },
+  "U.S.": {
+   "citations": 227,
+   "not_found": 1
+  },
+  "L.Ed.2d": {
+   "citations": 220,
+   "not_found": 5
+  },
+  "F.2d": {
+   "citations": 212,
+   "not_found": 1
+  },
+  "L.Ed.": {
+   "citations": 31,
+   "not_found": 0
+  },
+  "F.Supp.": {
+   "citations": 27,
+   "not_found": 0
+  },
+  "N.Y.S.2d": {
+   "citations": 24,
+   "not_found": 1
+  },
+  "F.Supp.2d": {
+   "citations": 19,
+   "not_found": 0
+  },
+  "A.D.2d": {
+   "citations": 14,
+   "not_found": 0
+  },
+  "S.W.2d": {
+   "citations": 11,
+   "not_found": 0
+  },
+  "Fed.Appx.": {
+   "citations": 11,
+   "not_found": 11
+  },
+  "F.R.D.": {
+   "citations": 9,
+   "not_found": 1
+  },
+  "N.E.2d": {
+   "citations": 9,
+   "not_found": 0
+  },
+  "S.E.2d": {
+   "citations": 9,
+   "not_found": 0
+  },
+  "N.Y.2d": {
+   "citations": 8,
+   "not_found": 0
+  },
+  "N.W.2d": {
+   "citations": 8,
+   "not_found": 0
+  },
+  "T.C.M.(CCH)": {
+   "citations": 7,
+   "not_found": 7
+  },
+  "S.C.": {
+   "citations": 7,
+   "not_found": 0
+  },
+  "F.App'x": {
+   "citations": 6,
+   "not_found": 3
+  },
+  "Mich.App.": {
+   "citations": 5,
+   "not_found": 0
+  },
+  "A.2d": {
+   "citations": 4,
+   "not_found": 0
+  },
+  "P.2d": {
+   "citations": 4,
+   "not_found": 0
+  },
+  "Cal.Rptr.": {
+   "citations": 4,
+   "not_found": 0
+  },
+  "Cal.App.4th": {
+   "citations": 2,
+   "not_found": 0
+  }
+ }
+}

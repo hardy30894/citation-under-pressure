@@ -6,6 +6,17 @@
    "new": 2,
    "new_exists": 2
   },
+  "empty_final_drafts": {
+   "true": 9,
+   "scrambled": 3,
+   "half": 7,
+   "threequarter": 6,
+   "quarter": 2
+  },
+  "r0_flags": {
+   "inaccurate": 121,
+   "near_miss": 62
+  },
   "final_lenient": {
    "true": 0.752,
    "threequarter": 0.78,
@@ -31,6 +42,18 @@
    "new_exists": 5,
    "new_other": 2
   },
+  "empty_final_drafts": {
+   "true": 6,
+   "scrambled": 3,
+   "none": 10,
+   "half": 7,
+   "quarter": 7,
+   "threequarter": 7
+  },
+  "r0_flags": {
+   "inaccurate": 22,
+   "near_miss": 15
+  },
   "final_lenient": {
    "true": 0.774,
    "threequarter": 0.926,
@@ -55,6 +78,18 @@
    "nf_r0": 1,
    "nf_removed": 1
   },
+  "empty_final_drafts": {
+   "true": 17,
+   "scrambled": 12,
+   "none": 12,
+   "half": 18,
+   "quarter": 16,
+   "threequarter": 21
+  },
+  "r0_flags": {
+   "near_miss": 26,
+   "inaccurate": 20
+  },
   "final_lenient": {
    "true": 1.0,
    "threequarter": 1.0,
@@ -78,6 +113,18 @@
    "nf_removed": 18,
    "new": 3,
    "new_exists": 3
+  },
+  "empty_final_drafts": {
+   "true": 8,
+   "scrambled": 7,
+   "none": 8,
+   "half": 14,
+   "quarter": 9,
+   "threequarter": 14
+  },
+  "r0_flags": {
+   "near_miss": 18,
+   "inaccurate": 35
   },
   "final_lenient": {
    "true": 0.385,
@@ -105,6 +152,18 @@
    "new_other": 3,
    "nf_kept": 6
   },
+  "empty_final_drafts": {
+   "true": 5,
+   "scrambled": 4,
+   "none": 2,
+   "half": 5,
+   "quarter": 4,
+   "threequarter": 6
+  },
+  "r0_flags": {
+   "near_miss": 35,
+   "inaccurate": 95
+  },
   "final_lenient": {
    "true": 0.479,
    "threequarter": 0.462,
@@ -131,6 +190,18 @@
    "nf_kept": 21,
    "new_exists": 3
   },
+  "empty_final_drafts": {
+   "true": 1,
+   "scrambled": 1,
+   "none": 1,
+   "half": 1,
+   "quarter": 3,
+   "threequarter": 1
+  },
+  "r0_flags": {
+   "near_miss": 54,
+   "inaccurate": 116
+  },
   "final_lenient": {
    "true": 0.411,
    "threequarter": 0.299,
@@ -152,6 +223,17 @@
   "existence_trace": {
    "new": 1,
    "new_exists": 1
+  },
+  "empty_final_drafts": {
+   "scrambled": 1,
+   "true": 1,
+   "half": 1,
+   "quarter": 2,
+   "threequarter": 3
+  },
+  "r0_flags": {
+   "near_miss": 36,
+   "inaccurate": 53
   },
   "final_lenient": {
    "true": 0.983,

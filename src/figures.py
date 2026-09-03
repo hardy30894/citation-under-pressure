@@ -45,7 +45,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.35))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.27))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),

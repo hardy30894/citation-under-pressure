@@ -12,7 +12,9 @@ citations.
 Lenient quotation accuracy by arm: the loop's final strict rate under
 every precision arm, recomputed with near misses counted as correct, so
 that the precision curve can be read under the standard a deployer would
-enforce.
+enforce. Also per arm, the number of final drafts left with no scored
+quotation (they drop out of the rate), and for the true arm the split of
+round-0 flags into inaccurate and near miss.
 
 Reads results/rescore_loops.json for the episode list, scores the drafts
 locally, and writes results/loop_citations.json. --prefix gloop reads the
@@ -58,6 +60,8 @@ def main():
         cnt = Counter()
         lenient = {a: [] for a in ARMS}
         strict = {a: [] for a in ARMS}
+        empty = Counter()
+        flags = Counter()
         for ep in rows:
             matter, arm = ep["matter"], ep["arm"]
             revs = sorted(loop_drafts.glob(f"{matter}_{arm}_r*.txt"),
@@ -70,9 +74,14 @@ def main():
             if scored and arm in lenient:
                 lenient[arm].append(sum(r["verdict"] in ("accurate", "near_miss") for r in scored) / len(scored))
                 strict[arm].append(sum(r["verdict"] == "accurate" for r in scored) / len(scored))
+            elif arm in lenient:
+                empty[arm] += 1
             if arm != "true":
                 continue
             recs0, _ = checker.check_text(r0)
+            for r in q2.check_draft(r0, recs0, eyecite_pass(r0), store):
+                if r["verdict"] in ("inaccurate", "near_miss"):
+                    flags[r["verdict"]] += 1
             c0, c1 = cites(recs0), cites(recs1)
             for c, v in c0.items():
                 if v != "not_found":
@@ -85,6 +94,7 @@ def main():
                     cnt["new_exists" if v == "exists" else "new_other"] += 1
         m = lambda xs: round(sum(xs) / len(xs), 3) if xs else None
         out[model] = {"existence_trace": dict(cnt),
+                      "empty_final_drafts": dict(empty), "r0_flags": dict(flags),
                       "final_lenient": {a: m(v) for a, v in lenient.items() if v},
                       "final_strict": {a: m(v) for a, v in strict.items() if v}}
         print(model, dict(cnt), "lenient", out[model]["final_lenient"])

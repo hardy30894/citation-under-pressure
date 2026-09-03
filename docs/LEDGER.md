@@ -404,3 +404,29 @@ before or after seeing the relevant data. Nothing is deleted.
   the single-run count (three models) beside the pooled six of seven;
   Related Work, Inference, Controls, and Limitations trimmed to keep
   the body on ten pages.
+- 2026-09-03 (external-style review, third pass, instrument items):
+  gee.py --lenient refits every contrast with near misses counted as
+  correct (results/stats_gee_lenient.json): 10 survivors, the combined
+  quotation fall for Qwen, DeepSeek, Mistral (Llama-4 corrected p 0.055),
+  and a Grok 4.3 stakes rise (OR 1.81, corrected p 0.002) absent on
+  strict; reported in Section 4. src/validate_pins.py seeds the
+  existence and pinpoint checks (20 opinions, 100 of 100). src/
+  index_recall.py resolves the 1,766 citations in the 48 appellate
+  deciding opinions (real by construction): 3 of 759 federal-reporter
+  and 1 of 227 U.S. Reports citations not found, replacing the indirect
+  coverage argument in the second-task paragraph. loop_citations.py now
+  also counts final drafts with no scored quotation (47 of 168 true-arm
+  episodes; 17 of Grok 4.3's 24, so its 1.000 rests on seven drafts) and
+  splits round-0 flags into inaccurate and near miss (246 of 708 near
+  misses; 36 of Sonnet 5's 89). Wording: Dahl et al. no longer cited for
+  sanctioned filings; Ortega et al. cited for classification, not
+  prediction; the temporal clause named as a proxy for binding-authority
+  and jurisdiction limits; the matcher's handling of ellipses and
+  bracketed alterations stated; the human excerpts described as
+  OCR-converted and the figure as a floor; the mixed arms' recall
+  confound stated; the 131 out-of-scope quotations stated to have had
+  opinion text; the provenance corpus described as a dump predating the
+  retrieval cache; pinpoint coverage stated (9,129 pins, 73 percent
+  span-checked, 1,162 with a quotation); the intro's pinpoint claim
+  scoped to U.S. Reports authority. The Ethics and Release section is
+  folded into the Conclusion's last sentence to keep ten pages.

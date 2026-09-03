@@ -552,6 +552,73 @@ if cnt3:
     c_, d = cnt3.get(("combo", "not_found"), 0), cnt3.get(("combo", "exists"), 0)
     emit2("sonnetRunsFisherP", f"{fisher_exact([[a, b], [c_, d]])[1]:.2f}")
 
+# index recall on citations real by construction (src/index_recall.py)
+ir = R / "index_recall.json"
+if ir.exists():
+    t = json.loads(ir.read_text())
+    emit2("irCitations", f"{t['all']['citations']:,}")
+    emit2("irOpinions", str(t["opinions"]))
+    for g, gk in (("us", "Us"), ("federal", "Federal"), ("other", "Other")):
+        emit2(f"ir{gk}N", f"{t['groups'][g]['citations']:,}")
+        emit2(f"ir{gk}Nf", str(t["groups"][g]["not_found"]))
+        emit2(f"ir{gk}Pct", f"{100 * t['groups'][g]['not_found_share']:.1f}")
+
+# seeded validation of existence and pinpoint checks (src/validate_pins.py)
+vp = R / "validate_pins.json"
+if vp.exists():
+    t = json.loads(vp.read_text())
+    emit2("valPinsCases", str(t["seeded_cases"]))
+    emit2("valPinsPass", str(sum(t["tally"].values())))
+    emit2("valPinsTotal", str(sum(t["tally"].values()) + sum(v for k, v in t["tally"].items() if "FAIL" in k)))
+
+# pincite coverage: what share of pinpoints the page check could adjudicate
+pc = R / "pincites.json"
+if pc.exists():
+    t = json.loads(pc.read_text())
+    tot = {}
+    for m, v in t.items():
+        if m == "human":
+            continue
+        for k, n in v.items():
+            tot[k] = tot.get(k, 0) + n
+    pins = sum(tot[k] for k in ("non_us", "pin_in_span", "pin_out_of_span", "no_cap_data"))
+    emit2("pinAllPins", f"{pins:,}")
+    emit2("pinSpanChecked", f"{tot['pin_in_span'] + tot['pin_out_of_span']:,}")
+    emit2("pinSpanPct", str(round(100 * (tot["pin_in_span"] + tot["pin_out_of_span"]) / pins)))
+    emit2("pinNonUsPct", str(round(100 * tot["non_us"] / pins)))
+    emit2("pinNoCap", str(tot["no_cap_data"]))
+    emit2("pinWithQuote", f"{tot['quote_at_pin'] + tot['quote_near_pin'] + tot['quote_not_at_pin']:,}")
+
+# lenient-outcome fit (gee.py --lenient), Holm within model
+lg = R / "stats_gee_lenient.json"
+if lg.exists():
+    t = json.loads(lg.read_text())
+    surv = [k for k, v in t.items() if v.get("holm_p", 1) < 0.05]
+    emit2("lenSurv", str(len(surv)))
+    emit2("lenQuoteComboSurv", str(len([k for k in surv if k.startswith("quote") and k.endswith(":combo")])))
+    for m, mk in ALPHA.items():
+        for c, ck in CONDS.items():
+            v = t.get(f"quote:{m}:{c}")
+            if v:
+                emit2(f"lenOrQuote{mk}{ck}", f"{v['OR']:.2f}")
+                emit2(f"lenHolmQuote{mk}{ck}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
+
+# loop bookkeeping: empty final drafts and the near-miss share of flags
+lc = R / "loop_citations.json"
+if lc.exists():
+    t = json.loads(lc.read_text())
+    for m, mk in ALPHA.items():
+        if m not in t:
+            continue
+        e = t[m].get("empty_final_drafts", {})
+        f = t[m].get("r0_flags", {})
+        emit2(f"lcEmptyTrue{mk}", str(e.get("true", 0)))
+        emit2(f"lcNearFlags{mk}", str(f.get("near_miss", 0)))
+        emit2(f"lcInaccFlags{mk}", str(f.get("inaccurate", 0)))
+    emit2("lcEmptyTrueTotal", str(sum(t[m].get("empty_final_drafts", {}).get("true", 0) for m in t)))
+    emit2("lcNearFlagsTotal", str(sum(t[m].get("r0_flags", {}).get("near_miss", 0) for m in t)))
+    emit2("lcFlagsTotal", str(sum(sum(t[m].get("r0_flags", {}).values()) for m in t)))
+
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")
 print(f"+{len(extra)} revision macros")

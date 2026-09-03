@@ -23,15 +23,17 @@ R = HERE / "results"
 CONDS = ["quota", "temporal", "stakes", "combo"]
 
 
-def fit(df, model, kind, template=False):
-    """template=True pools two phrasings and adds a template fixed effect."""
+def fit(df, model, kind, template=False, lenient=False):
+    """template=True pools two phrasings and adds a template fixed effect;
+    lenient=True scores a near miss as correct (the lenient outcome)."""
     sub = df[(df.model == model) & (df.kind == kind)].copy()
     if kind == "citation":
         sub = sub[sub.verdict.isin(["exists", "not_found"])]
         sub["y"] = (sub.verdict == "exists").astype(int)
     else:
         sub = sub[sub.verdict.isin(["accurate", "near_miss", "inaccurate"])]
-        sub["y"] = (sub.verdict == "accurate").astype(int)
+        ok = ["accurate", "near_miss"] if lenient else ["accurate"]
+        sub["y"] = sub.verdict.isin(ok).astype(int)
     sub["condition"] = pd.Categorical(
         sub.condition, categories=["baseline"] + CONDS)
     formula = "y ~ C(condition) + C(template)" if template else "y ~ C(condition)"
@@ -53,8 +55,10 @@ def fit(df, model, kind, template=False):
 def main():
     # default: the pre-registered fit on the original phrasing.
     # --records X --out Y fits another record file (the alternative
-    # phrasing); --pooled fits both phrasings with a template effect.
+    # phrasing); --pooled fits both phrasings with a template effect;
+    # --lenient scores near misses as correct and adds Holm within model.
     args = sys.argv[1:]
+    lenient = "--lenient" in args
     rec = args[args.index("--records") + 1] if "--records" in args else "records.jsonl"
     outname = args[args.index("--out") + 1] if "--out" in args else "stats_gee.json"
     df = pd.DataFrame(json.loads(l) for l in open(R / rec))
@@ -67,8 +71,14 @@ def main():
     out = {}
     for model in sorted(df.model.unique()):
         for kind in ("citation", "quote"):
-            for c, v in fit(df, model, kind, template=pooled).items():
+            for c, v in fit(df, model, kind, template=pooled, lenient=lenient).items():
                 out[f"{kind}:{model}:{c}"] = v
+    if lenient:
+        for model in sorted(df.model.unique()):
+            tests = sorted([k for k in out if k.split(":")[1] == model], key=lambda k: out[k]["p"])
+            m = len(tests)
+            for i, k in enumerate(tests):
+                out[k]["holm_p"] = round(min(1.0, out[k]["p"] * (m - i)), 4)
     (R / outname).write_text(json.dumps(out, indent=1))
     for k, v in out.items():
         if v["p"] < 0.05:
