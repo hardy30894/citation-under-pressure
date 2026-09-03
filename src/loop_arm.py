@@ -44,7 +44,8 @@ N_MATTERS = 24
 MAX_ROUNDS = 3
 ARMS = ("true", "scrambled")
 LOOP_BUDGET = {"qwen30b": 4.0, "deepseek": 6.0, "gpt54mini": 12.0,
-               "sonnet": 25.0, "llama4mav": 6.0, "glm47flash": 3.0, "mistralsmall": 6.0}
+               "sonnet": 25.0, "llama4mav": 6.0, "glm47flash": 3.0, "mistralsmall": 6.0,
+               "grok43": 12.0}
 
 FB_CITE = (
     "The citation {c} does not correspond to any real case: it does not "

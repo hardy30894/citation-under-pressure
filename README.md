@@ -59,23 +59,24 @@ the law this repository requires.
 Language models fabricate legal citations, and the failures that reach
 courtrooms have so far been studied mainly after the fact, through
 detection benchmarks and sanctions dockets. We study the production
-side. Six models spanning a capability ladder across six vendors, from 30B
-open-weight to frontier, each drafted merits-brief argument
+side. Seven models spanning a capability ladder across seven vendors, from
+30B open-weight to frontier, each drafted merits-brief argument
 sections for 48 leakage-screened U.S. Supreme Court matters under five
 deployment conditions: an unpressured baseline, a citation quota, a
 restriction to pre-1970 authority, a Rule 11 sanctions warning, and all
-three combined. Every citation in the resulting 1,440 drafts (1,152 of
+three combined. Every citation in the resulting 1,680 drafts (1,344 of
 them under some pressure) was adjudicated deterministically, with no
 LLM judge anywhere in the primary measurements.
 
 Pressure degrades citation integrity from the bottom of the ladder up.
 The 30B model's citation existence falls from 0.924 to 0.773 under
 combined pressure (odds ratio 0.30, corrected p < 0.001), strict
-quotation accuracy falls significantly for three of the six models
+quotation accuracy falls significantly for three of the seven models
 after Holm correction, and the models refused the task three times in
-1,152 pressured drafts. The strongest model is unaffected on both
-measures; an apparent improvement under the sanctions warning does not
-survive correction and is reported as exploratory only.
+1,344 pressured drafts. At the top of the range (Sonnet 5, Grok 4.3,
+GPT-5.4-mini) no contrast survives correction; Sonnet 5's apparent
+improvement under the sanctions warning is reported as a pre-registered
+null result.
 
 A second experiment placed the checker inside the drafting loop. Under
 true feedback the strongest model's strict accuracy rose from 0.471 to
@@ -88,7 +89,7 @@ control shows that false flags lower accuracy for four of the six
 models, most for the ones best at following feedback. What survives at
 frontier scale is mostly real law in the wrong place: 55 percent of the
 strongest model's inaccurate quotations are paraphrases of the correct
-case inside quotation marks, and 563 quotations across the six models
+case inside quotation marks, and 626 quotations across the seven models
 are verbatim passages of real opinions attributed to the wrong case.
 
 ## What the paper tests
@@ -127,9 +128,9 @@ The full pre-registration is [`docs/HYPOTHESES.md`](docs/HYPOTHESES.md)
 48 Supreme Court matters (1990 to 2020), each a leakage-screened packet
 holding the question presented, the facts, and a lower-court opinion
 excerpt, with the Supreme Court's own decision excluded. Each matter is
-argued from an assigned side by six models, one per vendor (Qwen3-30B,
-Mistral Small, Llama-4 Maverick, DeepSeek V4 Flash, GPT-5.4-mini,
-Claude Sonnet 5) at temperature 0, under five
+argued from an assigned side by seven models, one per vendor (Qwen3-30B,
+Mistral Small, Llama-4 Maverick, DeepSeek V4 Flash, Grok 4.3,
+GPT-5.4-mini, Claude Sonnet 5) at temperature 0, under five
 conditions:
 
 | condition | added instruction |
@@ -143,8 +144,8 @@ conditions:
 ```mermaid
 flowchart LR
     P["48 matters<br/>(leakage-screened packets)"] --> C["5 conditions"]
-    C --> M["6 models"]
-    M --> D["1,440 drafts"]
+    C --> M["7 models"]
+    M --> D["1,680 drafts"]
     D --> A["deterministic adjudication<br/>existence, verbatim quotes,<br/>page-level pincites"]
     A --> H1["Experiment 1: pressure effects<br/>(citation-level GEE, clustered by matter)"]
     D -->|combo drafts| L["verifier loop, 3 rounds max<br/>true vs scrambled feedback"]
@@ -197,7 +198,8 @@ model.
 | Qwen3-30B | 0.175 (0.564) | 0.072 (0.320) * | 0.924 | 0.773 * | 20% |
 | Mistral Small | 0.207 (0.608) | 0.136 (0.383) | 0.901 | 0.868 | 35% |
 | DeepSeek V4 Flash | 0.281 (0.631) | 0.120 (0.436) * | 0.972 | 0.959 | 11% |
-| Sonnet 5 | 0.333 (0.622) | 0.427 (0.642) | 0.991 | 0.998 | 1 of 802 |
+| Grok 4.3 | 0.326 (0.644) | 0.246 (0.578) | 0.981 | 0.994 | 2 of 719 |
+| Sonnet 5 | 0.333 (0.622) | 0.427 (0.642) | 0.991 | 0.998 | 1 of 803 |
 | Llama-4 Maverick | 0.402 (0.618) | 0.179 (0.453) * | 0.958 | 0.939 | 10% |
 | GPT-5.4-mini | 0.460 (0.722) | 0.294 (0.571) | 0.981 | 0.962 | 13% |
 
@@ -209,11 +211,11 @@ correction for Qwen, DeepSeek, and Llama. Sonnet 5's numerically higher
 combo rate had an uncorrected p of 0.029 and a corrected p of 0.233, so
 the paper reports it as exploratory and offers a memorization
 alternative (the temporal rule shifts its citations toward older,
-better-memorized cases). Compliance with the pre-1970 rule improves
-with capability except for Mistral, which violates it most. Across the
-1,152 pressured drafts there were three refusals; a seventh model,
-GLM-4.7-flash, produced no output on 30 of 240 drafts, 23 of them under
-combined pressure, and is reported as a stall rather than a refusal.
+better-memorized cases). Compliance with the pre-1970 rule is near perfect for Sonnet 5 and
+Grok 4.3 and worst for Mistral, whose other figures are second-lowest.
+Across the 1,344 pressured drafts there were three refusals; an eighth
+model, GLM-4.7-flash, produced no output on 33 of 240 drafts, 28 of them
+under combined pressure, and is reported as a stall rather than a refusal.
 
 ### Finding 2. Capable models satisfy the checker by deleting quotations, and false flags lower accuracy
 
@@ -228,6 +230,7 @@ number of official-looking warnings aimed at items that are correct.
 | Qwen3-30B | 186 to 188 | 16 to 16 | 0.099 to 0.107 | 0.099 to 0.093 | 0 of 24 |
 | Mistral Small | 145 to 133 | 15 to 17 | 0.208 to 0.264 | 0.208 to 0.122 | 9 of 24 |
 | DeepSeek V4 Flash | 211 to 47 | 28 to 19 | 0.181 to 0.645 | 0.181 to 0.153 | 21 of 24 |
+| Grok 4.3 | 61 to 10 | 15 to 10 | 0.207 to 1.000 | 0.207 to 0.208 | 24 of 24 |
 | Sonnet 5 | 157 to 73 | 68 to 70 | 0.471 to 0.974 | 0.471 to 0.266 | 23 of 24 |
 | Llama-4 Maverick | 64 to 29 | 11 to 8 | 0.176 to 0.349 | 0.176 to 0.188 | 21 of 24 |
 | GPT-5.4-mini | 65 to 39 | 28 to 29 | 0.360 to 0.719 | 0.360 to 0.241 | 22 of 24 |
@@ -240,8 +243,10 @@ quotation or its quotation marks far more often than they corrected the
 words, and the 30B model changed nothing. Citation existence was
 repaired for real (citation counts flat, existence up, so nonexistent
 citations were replaced). The scrambled column shows that false flags
-lower accuracy for four of six models, most for Sonnet 5 and
-GPT-5.4-mini, which follow feedback best. The practical reading: use
+lower accuracy for five of seven models, most for Sonnet 5 and
+GPT-5.4-mini, which follow feedback best. Grok 4.3 is the purest case:
+it reached 1.000 with every draft clean by correcting none of its 46
+flagged quotations and removing all of them. The practical reading: use
 the checker as a gate on output rather than as feedback, and measure a
 probabilistic detector's false-positive rate before wiring it into a
 loop. A no-feedback control arm (same rounds, no checker content) shows
@@ -261,7 +266,7 @@ seven points of no feedback (0.664 against 0.595). Verifier precision
 is therefore a deployment requirement.
 
 A replication of the baseline and combined drafts for twelve matters
-(fresh cache, same prompts, all six models) produced one identical
+(fresh cache, same prompts, the six original models) produced one identical
 draft in 144. Existence rates agreed within 0.03 and the one
 significant existence contrast kept its sign; strict quotation rates
 on twelve matters moved by a median of 0.07 and up to 0.33, so the
@@ -275,7 +280,7 @@ Three residual failure modes, each measured deterministically:
 | failure mode | measurement | headline number |
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 55% of Sonnet 5's inaccurate quotes are paraphrases of the correct case |
-| right words, wrong case | corpus search for each quote's true source | 563 quotes across the six models are real opinion passages bound to the wrong authority |
+| right words, wrong case | corpus search for each quote's true source | 626 quotes across the seven models are real opinion passages bound to the wrong authority |
 | right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 77% of the time (Sonnet 5), 42 to 64% for the rest, 89% for human briefs |
 
 These are the errors an existence check cannot see, and the page-level
@@ -305,7 +310,7 @@ This is the companion repository for the paper (JURIX 2026 submission
 in [`docs/jurix/paper.tex`](docs/jurix/paper.tex); an earlier markdown
 draft is in [`docs/PAPER_DRAFT.md`](docs/PAPER_DRAFT.md)). Everything
 here is the real campaign: the pre-registered design, the instruments,
-all 1,440 drafts and the revision episodes, the statistics, and a
+all 1,680 drafts and the revision episodes, the statistics, and a
 ledger of every analysis decision, including the findings the project
 withdrew itself after its own verification passes.
 

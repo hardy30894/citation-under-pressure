@@ -183,3 +183,18 @@ before or after seeing the relevant data. Nothing is deleted.
   0.05 of zero, flipped). "Strongest model" replaced by a defined term,
   the top of the range (Sonnet 5 and GPT-5.4-mini, highest baseline
   existence). Rule 11's scope now cites FRCP Rule 1.
+- 2026-09-03 (seventh model): Grok 4.3 (xAI, x-ai/grok-4.3 through
+  OpenRouter) added as a second top-of-range model so that the frontier
+  claim does not rest on Sonnet 5 alone. Chosen over Gemini 2.5 Pro on
+  price (xAI output tokens at $2.50 per million against $10); the full
+  factorial cost $2.08 and the four loop arms $0.79. Results: existence
+  0.981 to 0.994 in every condition, strict quotation accuracy 0.326 at
+  baseline to 0.246 combined with no contrast surviving correction, 2
+  temporal violations in 719 checked citations, no refusals or empty
+  completions. In the loop it is the purest deletion case: 46 flagged
+  quotations, 0 corrected, 27 dequoted, 19 deleted, 24 of 24 drafts clean,
+  final strict accuracy 1.000. Counts throughout the paper are now seven
+  models, 1,680 drafts, 1,344 pressured, 56 contrasts; misattributions
+  626; the top of the range is Sonnet 5, GPT-5.4-mini, and Grok 4.3
+  (highest baseline existence). The replication and paraphrase arms
+  cover the six original models and say so. Project spend about $60.

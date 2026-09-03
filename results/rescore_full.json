@@ -311,8 +311,8 @@
    "not_found": 20,
    "unresolvable": 0,
    "acc": 45,
-   "near": 118,
-   "inacc": 211,
+   "near": 119,
+   "inacc": 210,
    "unver": 20,
    "unpaired": 49,
    "viol": 34,
@@ -1226,8 +1226,8 @@
    "not_found": 17,
    "unresolvable": 0,
    "acc": 56,
-   "near": 89,
-   "inacc": 155,
+   "near": 91,
+   "inacc": 153,
    "unver": 9,
    "unpaired": 86,
    "viol": 40,
@@ -3051,6 +3051,1533 @@
    ],
    "existence_rate": 0.9576,
    "strict_rate": 0.3226
+  }
+ },
+ "grok43": {
+  "baseline": {
+   "drafts": 48,
+   "exists": 252,
+   "not_found": 5,
+   "unresolvable": 1,
+   "acc": 77,
+   "near": 75,
+   "inacc": 84,
+   "unver": 4,
+   "unpaired": 25,
+   "viol": 0,
+   "tchecked": 0,
+   "rows": [
+    {
+     "matter": "1990-075",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1990-114",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.143
+    },
+    {
+     "matter": "1992-086",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "1992-109",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.143
+    },
+    {
+     "matter": "1994-059",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "1997-021",
+     "n_cites": 10,
+     "exist": 0.6,
+     "strict": 0.25
+    },
+    {
+     "matter": "1997-033",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1997-044",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1997-046",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-100",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1998-026",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.75
+    },
+    {
+     "matter": "1998-085",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1999-033",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "1999-051",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2000-071",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.286
+    },
+    {
+     "matter": "2000-087",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "2001-013",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-070",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2003-043",
+     "n_cites": 7,
+     "exist": 0.8571,
+     "strict": 0.6
+    },
+    {
+     "matter": "2005-074",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2005-087",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2009-045",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2010-026",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.444
+    },
+    {
+     "matter": "2010-046",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.222
+    },
+    {
+     "matter": "2010-065",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2011-010",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.375
+    },
+    {
+     "matter": "2011-027",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-006",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2012-029",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2012-031",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2013-058",
+     "n_cites": 1,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2013-068",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.154
+    },
+    {
+     "matter": "2014-024",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2015-007",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2015-038",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2015-055",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.75
+    },
+    {
+     "matter": "2015-066",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.286
+    },
+    {
+     "matter": "2016-001",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2016-063",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2016-067",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2018-070",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2019-024",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-005",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-012",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2020-032",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-058",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2020-060",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-067",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    }
+   ],
+   "existence_rate": 0.9805,
+   "strict_rate": 0.3263
+  },
+  "combo": {
+   "drafts": 48,
+   "exists": 476,
+   "not_found": 3,
+   "unresolvable": 0,
+   "acc": 35,
+   "near": 46,
+   "inacc": 61,
+   "unver": 3,
+   "unpaired": 4,
+   "viol": 2,
+   "tchecked": 479,
+   "rows": [
+    {
+     "matter": "1990-075",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1990-114",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "1992-086",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.833
+    },
+    {
+     "matter": "1992-109",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "1994-059",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1997-021",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-033",
+     "n_cites": 12,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "1997-044",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.571
+    },
+    {
+     "matter": "1997-046",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1997-100",
+     "n_cites": 13,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "1998-026",
+     "n_cites": 12,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "1998-085",
+     "n_cites": 8,
+     "exist": 0.875,
+     "strict": 0.0
+    },
+    {
+     "matter": "1999-033",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1999-051",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2000-071",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "2000-087",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2001-013",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2001-070",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2003-043",
+     "n_cites": 11,
+     "exist": 0.9091,
+     "strict": 0.0
+    },
+    {
+     "matter": "2005-074",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2005-087",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2009-045",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2010-026",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2010-046",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2010-065",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2011-010",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "2011-027",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-006",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2012-029",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-031",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2013-058",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2013-068",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2014-024",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "2015-007",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2015-038",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2015-055",
+     "n_cites": 15,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2015-066",
+     "n_cites": 12,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2016-001",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2016-063",
+     "n_cites": 15,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2016-067",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2018-070",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.286
+    },
+    {
+     "matter": "2019-024",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.143
+    },
+    {
+     "matter": "2020-005",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-012",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-032",
+     "n_cites": 12,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2020-058",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "2020-060",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2020-067",
+     "n_cites": 9,
+     "exist": 0.8889,
+     "strict": 0.0
+    }
+   ],
+   "existence_rate": 0.9937,
+   "strict_rate": 0.2465
+  },
+  "quota": {
+   "drafts": 48,
+   "exists": 449,
+   "not_found": 6,
+   "unresolvable": 0,
+   "acc": 74,
+   "near": 62,
+   "inacc": 55,
+   "unver": 6,
+   "unpaired": 6,
+   "viol": 0,
+   "tchecked": 0,
+   "rows": [
+    {
+     "matter": "1990-075",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1990-114",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1992-086",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1992-109",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "1994-059",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-021",
+     "n_cites": 9,
+     "exist": 0.8889,
+     "strict": 0.5
+    },
+    {
+     "matter": "1997-033",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-044",
+     "n_cites": 10,
+     "exist": 0.9,
+     "strict": 1.0
+    },
+    {
+     "matter": "1997-046",
+     "n_cites": 11,
+     "exist": 0.9091,
+     "strict": 0.5
+    },
+    {
+     "matter": "1997-100",
+     "n_cites": 13,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "1998-026",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1998-085",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1999-033",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1999-051",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2000-071",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.1
+    },
+    {
+     "matter": "2000-087",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-013",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-070",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2003-043",
+     "n_cites": 10,
+     "exist": 0.9,
+     "strict": 0.0
+    },
+    {
+     "matter": "2005-074",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.571
+    },
+    {
+     "matter": "2005-087",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2009-045",
+     "n_cites": 13,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2010-026",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2010-046",
+     "n_cites": 9,
+     "exist": 0.8889,
+     "strict": 0.667
+    },
+    {
+     "matter": "2010-065",
+     "n_cites": 12,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2011-010",
+     "n_cites": 13,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2011-027",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-006",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2012-029",
+     "n_cites": 9,
+     "exist": 0.8889,
+     "strict": null
+    },
+    {
+     "matter": "2012-031",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2013-058",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2013-068",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2014-024",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2015-007",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2015-038",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.556
+    },
+    {
+     "matter": "2015-055",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2015-066",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2016-001",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2016-063",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2016-067",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.571
+    },
+    {
+     "matter": "2018-070",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "2019-024",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2020-005",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2020-012",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "2020-032",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2020-058",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "2020-060",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2020-067",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.5
+    }
+   ],
+   "existence_rate": 0.9868,
+   "strict_rate": 0.3874
+  },
+  "stakes": {
+   "drafts": 48,
+   "exists": 252,
+   "not_found": 3,
+   "unresolvable": 0,
+   "acc": 81,
+   "near": 72,
+   "inacc": 47,
+   "unver": 6,
+   "unpaired": 35,
+   "viol": 0,
+   "tchecked": 0,
+   "rows": [
+    {
+     "matter": "1990-075",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "1990-114",
+     "n_cites": 14,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1992-086",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.1
+    },
+    {
+     "matter": "1992-109",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1994-059",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1997-021",
+     "n_cites": 8,
+     "exist": 0.75,
+     "strict": 0.4
+    },
+    {
+     "matter": "1997-033",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "1997-044",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.75
+    },
+    {
+     "matter": "1997-046",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "1997-100",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "1998-026",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1998-085",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "1999-033",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1999-051",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2000-071",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2000-087",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2001-013",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-070",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2003-043",
+     "n_cites": 5,
+     "exist": 0.8,
+     "strict": 0.0
+    },
+    {
+     "matter": "2005-074",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2005-087",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2009-045",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2010-026",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.583
+    },
+    {
+     "matter": "2010-046",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2010-065",
+     "n_cites": 10,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2011-010",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.714
+    },
+    {
+     "matter": "2011-027",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2012-006",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "2012-029",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.286
+    },
+    {
+     "matter": "2012-031",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2013-058",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2013-068",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.091
+    },
+    {
+     "matter": "2014-024",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2015-007",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2015-038",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2015-055",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2015-066",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2016-001",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2016-063",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2016-067",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2018-070",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2019-024",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-005",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-012",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2020-032",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2020-058",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2020-060",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-067",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.0
+    }
+   ],
+   "existence_rate": 0.9882,
+   "strict_rate": 0.405
+  },
+  "temporal": {
+   "drafts": 48,
+   "exists": 236,
+   "not_found": 4,
+   "unresolvable": 0,
+   "acc": 41,
+   "near": 56,
+   "inacc": 60,
+   "unver": 3,
+   "unpaired": 2,
+   "viol": 0,
+   "tchecked": 240,
+   "rows": [
+    {
+     "matter": "1990-075",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1990-114",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "1992-086",
+     "n_cites": 11,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "1992-109",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1994-059",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-021",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-033",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1997-044",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "1997-046",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.25
+    },
+    {
+     "matter": "1997-100",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1998-026",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.667
+    },
+    {
+     "matter": "1998-085",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "1999-033",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "1999-051",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2000-071",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2000-087",
+     "n_cites": 7,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-013",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2001-070",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2003-043",
+     "n_cites": 3,
+     "exist": 0.6667,
+     "strict": 0.0
+    },
+    {
+     "matter": "2005-074",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2005-087",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2009-045",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2010-026",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2010-046",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2010-065",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2011-010",
+     "n_cites": 2,
+     "exist": 0.5,
+     "strict": 0.0
+    },
+    {
+     "matter": "2011-027",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-006",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2012-029",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.6
+    },
+    {
+     "matter": "2012-031",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2013-058",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2013-068",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.125
+    },
+    {
+     "matter": "2014-024",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.2
+    },
+    {
+     "matter": "2015-007",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2015-038",
+     "n_cites": 8,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2015-055",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2015-066",
+     "n_cites": 9,
+     "exist": 1.0,
+     "strict": null
+    },
+    {
+     "matter": "2016-001",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2016-063",
+     "n_cites": 3,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2016-067",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.0
+    },
+    {
+     "matter": "2018-070",
+     "n_cites": 2,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2019-024",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.167
+    },
+    {
+     "matter": "2020-005",
+     "n_cites": 5,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-012",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.4
+    },
+    {
+     "matter": "2020-032",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 1.0
+    },
+    {
+     "matter": "2020-058",
+     "n_cites": 4,
+     "exist": 1.0,
+     "strict": 0.333
+    },
+    {
+     "matter": "2020-060",
+     "n_cites": 6,
+     "exist": 1.0,
+     "strict": 0.5
+    },
+    {
+     "matter": "2020-067",
+     "n_cites": 7,
+     "exist": 0.7143,
+     "strict": null
+    }
+   ],
+   "existence_rate": 0.9833,
+   "strict_rate": 0.2611
   }
  },
  "llama4mav": {
@@ -6419,9 +7946,9 @@
    "not_found": 90,
    "unresolvable": 0,
    "acc": 28,
-   "near": 96,
-   "inacc": 263,
-   "unver": 148,
+   "near": 98,
+   "inacc": 265,
+   "unver": 144,
    "unpaired": 84,
    "viol": 84,
    "tchecked": 388,
@@ -6544,7 +8071,7 @@
      "matter": "2005-074",
      "n_cites": 10,
      "exist": 0.3,
-     "strict": null
+     "strict": 0.0
     },
     {
      "matter": "2005-087",
@@ -6716,7 +8243,7 @@
     }
    ],
    "existence_rate": 0.7733,
-   "strict_rate": 0.0724
+   "strict_rate": 0.0716
   },
   "quota": {
    "drafts": 48,

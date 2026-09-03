@@ -111,6 +111,62 @@
   "p": 0.02335,
   "n": 824
  },
+ "citation:grok43:quota": {
+  "OR": 1.19,
+  "ci_low": 0.278,
+  "ci_high": 5.099,
+  "p": 0.81482,
+  "n": 1686
+ },
+ "citation:grok43:temporal": {
+  "OR": 0.887,
+  "ci_low": 0.131,
+  "ci_high": 6.008,
+  "p": 0.90214,
+  "n": 1686
+ },
+ "citation:grok43:stakes": {
+  "OR": 1.453,
+  "ci_low": 0.831,
+  "ci_high": 2.54,
+  "p": 0.19039,
+  "n": 1686
+ },
+ "citation:grok43:combo": {
+  "OR": 2.397,
+  "ci_low": 0.396,
+  "ci_high": 14.524,
+  "p": 0.34142,
+  "n": 1686
+ },
+ "quote:grok43:quota": {
+  "OR": 1.361,
+  "ci_low": 0.926,
+  "ci_high": 2.001,
+  "p": 0.11715,
+  "n": 926
+ },
+ "quote:grok43:temporal": {
+  "OR": 0.773,
+  "ci_low": 0.527,
+  "ci_high": 1.134,
+  "p": 0.18776,
+  "n": 926
+ },
+ "quote:grok43:stakes": {
+  "OR": 1.443,
+  "ci_low": 1.001,
+  "ci_high": 2.081,
+  "p": 0.04936,
+  "n": 926
+ },
+ "quote:grok43:combo": {
+  "OR": 0.714,
+  "ci_low": 0.429,
+  "ci_high": 1.189,
+  "p": 0.1953,
+  "n": 926
+ },
  "citation:llama4mav:quota": {
   "OR": 1.539,
   "ci_low": 0.788,
@@ -253,31 +309,31 @@
  },
  "quote:qwen30b:quota": {
   "OR": 0.878,
-  "ci_low": 0.666,
+  "ci_low": 0.665,
   "ci_high": 1.158,
-  "p": 0.35704,
-  "n": 1567
+  "p": 0.35687,
+  "n": 1571
  },
  "quote:qwen30b:temporal": {
   "OR": 0.445,
   "ci_low": 0.265,
   "ci_high": 0.748,
   "p": 0.0022,
-  "n": 1567
+  "n": 1571
  },
  "quote:qwen30b:stakes": {
   "OR": 0.78,
   "ci_low": 0.489,
   "ci_high": 1.243,
-  "p": 0.29604,
-  "n": 1567
+  "p": 0.29588,
+  "n": 1571
  },
  "quote:qwen30b:combo": {
   "OR": 0.35,
-  "ci_low": 0.237,
-  "ci_high": 0.517,
+  "ci_low": 0.238,
+  "ci_high": 0.515,
   "p": 0.0,
-  "n": 1567
+  "n": 1571
  },
  "citation:sonnet:quota": {
   "OR": 0.639,
@@ -311,28 +367,28 @@
   "OR": 0.993,
   "ci_low": 0.76,
   "ci_high": 1.297,
-  "p": 0.95895,
+  "p": 0.95861,
   "n": 1929
  },
  "quote:sonnet:temporal": {
-  "OR": 1.156,
-  "ci_low": 0.836,
-  "ci_high": 1.598,
-  "p": 0.38007,
+  "OR": 1.171,
+  "ci_low": 0.848,
+  "ci_high": 1.618,
+  "p": 0.33857,
   "n": 1929
  },
  "quote:sonnet:stakes": {
-  "OR": 1.28,
+  "OR": 1.281,
   "ci_low": 0.904,
-  "ci_high": 1.814,
-  "p": 0.16478,
+  "ci_high": 1.815,
+  "p": 0.16369,
   "n": 1929
  },
  "quote:sonnet:combo": {
-  "OR": 1.475,
+  "OR": 1.473,
   "ci_low": 1.04,
-  "ci_high": 2.091,
-  "p": 0.02918,
+  "ci_high": 2.088,
+  "p": 0.0294,
   "n": 1929
  }
 }

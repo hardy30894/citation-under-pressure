@@ -30,7 +30,7 @@ LABEL = {
     "qwen30b": "Qwen3-30B", "deepseek": "DeepSeek V4 Flash",
     "gpt54mini": "GPT-5.4-mini", "sonnet": "Sonnet 5",
     "llama4mav": "Llama-4 Maverick", "glm47flash": "GLM-4.7-flash",
-    "mistralsmall": "Mistral Small",
+    "mistralsmall": "Mistral Small", "grok43": "Grok 4.3",
 }
 WIDTH_IN = 12.4 / 2.54  # IOS Press type-area width
 plt.rcParams.update({
@@ -46,7 +46,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.75))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.65))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -74,7 +74,7 @@ def fig1():
 
 def fig2():
     data = json.loads((HERE / "results/rescore_loops.json").read_text())
-    fig, axes = plt.subplots(1, 4, figsize=(WIDTH_IN, 1.5), sharey=True)
+    fig, axes = plt.subplots(1, 4, figsize=(WIDTH_IN, 1.55), sharey=True)
     xs = [0, 1]
     for ax, arm, title in ((axes[0], "true", "true feedback"),
                            (axes[1], "half", "half true"),
@@ -97,8 +97,8 @@ def fig2():
         ax.set_title(title)
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, frameon=False, loc="lower center",
-               ncol=3, bbox_to_anchor=(0.5, -0.03))
-    fig.tight_layout(rect=(0, 0.14, 1, 1))
+               ncol=4, bbox_to_anchor=(0.5, -0.04))
+    fig.tight_layout(rect=(0, 0.24, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig2_repair.{ext}", dpi=200, bbox_inches="tight")
     plt.close(fig)

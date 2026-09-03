@@ -94,6 +94,12 @@ MODELS = {
         price_in_per_m=0.06,
         price_out_per_m=0.40,
     ),
+    "grok43": dict(
+        model="x-ai/grok-4.3",
+        provider_pin=None,
+        price_in_per_m=1.25,
+        price_out_per_m=2.50,
+    ),
 }
 # Reasoning models spend completion budget on hidden reasoning before any
 # visible text; a tight cap yields empty completions (same failure the old
@@ -107,10 +113,11 @@ MAX_TOKENS_BY_MODEL = {
     "llama4mav": 4000,
     "mistralsmall": 4000,
     "glm47flash": 30000,  # reasons itself past 12K on combo prompts
+    "grok43": 12000,
 }
 BUDGET_BY_MODEL = {
     "qwen30b": 2.0, "deepseek": 3.0, "gpt54mini": 12.0, "sonnet": 25.0,
-    "llama4mav": 3.0, "glm47flash": 4.0, "mistralsmall": 3.0,
+    "llama4mav": 3.0, "glm47flash": 4.0, "mistralsmall": 3.0, "grok43": 15.0,
 }
 
 # ---------------------------------------------------------------- conditions

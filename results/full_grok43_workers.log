@@ -1,0 +1,1155 @@
+2012-006 baseline  cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.0170
+2012-006 quota     cites= 11 exist=1.0 unres=0.0 quotes=1 cost=$0.1100
+2012-006 temporal  cites=  5 exist=1.0 unres=0.0 quotes=4 cost=$0.1559
+2012-006 stakes    cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$0.2026
+2012-006 combo     cites= 11 exist=1.0 unres=0.0 quotes=0 cost=$0.2740
+1998-026 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.3295
+1998-026 quota     cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$0.4310
+1998-026 temporal  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.4752
+1998-026 stakes    cites=  2 exist=1.0 unres=0.0 quotes=2 cost=$0.5305
+1998-026 combo     cites= 12 exist=1.0 unres=0.0 quotes=0 cost=$0.6074
+1997-100 baseline  cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$0.6433
+1997-100 quota     cites= 13 exist=1.0 unres=0.0 quotes=5 cost=$0.6752
+1997-100 temporal  cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$0.7586
+1997-100 stakes    cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$0.8186
+1997-100 combo     cites= 13 exist=1.0 unres=0.0 quotes=0 cost=$0.8713
+2000-071 baseline  cites=  6 exist=1.0 unres=0.0 quotes=7 cost=$0.9196
+2000-071 quota     cites= 10 exist=1.0 unres=0.0 quotes=10 cost=$0.9945
+2000-071 temporal  cites=  5 exist=1.0 unres=0.0 quotes=5 cost=$1.0565
+2000-071 stakes    cites=  6 exist=1.0 unres=0.0 quotes=7 cost=$1.0994
+2000-071 combo     cites= 10 exist=1.0 unres=0.0 quotes=12 cost=$1.1995
+2012-029 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$1.2538
+2012-029 quota     cites=  9 exist=0.8889 unres=0.0 quotes=0 cost=$1.3371
+2012-029 temporal  cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$1.4301
+2012-029 stakes    cites=  6 exist=1.0 unres=0.0 quotes=7 cost=$1.4842
+2012-029 combo     cites= 11 exist=1.0 unres=0.0 quotes=0 cost=$1.5276
+1999-051 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$1.6057
+1999-051 quota     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$1.6879
+1999-051 temporal  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$1.7213
+1999-051 stakes    cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$1.7735
+1999-051 combo     cites= 10 exist=1.0 unres=0.0 quotes=1 cost=$1.8236
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 31
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 9,
+      "near_miss": 6,
+      "inaccurate": 5,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 28,
+      "no_pin": 3
+    },
+    "temporal": {}
+  },
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 29,
+    "cite_verdicts": {
+      "exists": 29
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 6,
+      "accurate": 5,
+      "inaccurate": 6
+    },
+    "pin_verdicts": {
+      "no_pin": 7,
+      "in_range": 21,
+      "in_range_unbounded": 1
+    },
+    "temporal": {
+      "checked": 29,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 30,
+    "cite_verdicts": {
+      "exists": 30
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 5,
+      "near_miss": 9,
+      "unverifiable": 2,
+      "inaccurate": 7
+    },
+    "pin_verdicts": {
+      "no_pin": 8,
+      "in_range": 22
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 67,
+    "cite_verdicts": {
+      "exists": 67
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 4,
+      "near_miss": 6,
+      "inaccurate": 3
+    },
+    "pin_verdicts": {
+      "in_range": 65,
+      "in_range_unbounded": 1,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 67,
+      "violated": 1
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 62,
+    "cite_verdicts": {
+      "exists": 61,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.984,
+    "quote_verdicts": {
+      "accurate": 10,
+      "inaccurate": 4,
+      "near_miss": 4,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 49,
+      "no_pin": 11,
+      "case_unknown": 1,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $1.8236
+2015-066 baseline  cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$0.0442
+2015-066 quota     cites= 10 exist=1.0 unres=0.0 quotes=5 cost=$0.0907
+2015-066 temporal  cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$0.1748
+2015-066 stakes    cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$0.2469
+2015-066 combo     cites= 12 exist=1.0 unres=0.0 quotes=4 cost=$0.3146
+2015-038 baseline  cites=  3 exist=1.0 unres=0.0 quotes=4 cost=$0.3886
+2015-038 quota     cites=  6 exist=1.0 unres=0.0 quotes=9 cost=$0.4698
+2015-038 temporal  cites=  8 exist=1.0 unres=0.0 quotes=4 cost=$0.5504
+2015-038 stakes    cites=  3 exist=1.0 unres=0.0 quotes=4 cost=$0.6529
+2015-038 combo     cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$0.7327
+2020-058 baseline  cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$0.7950
+2020-058 quota     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$0.9115
+2020-058 temporal  cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$0.9738
+2020-058 stakes    cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$1.0472
+2020-058 combo     cites= 10 exist=1.0 unres=0.0 quotes=5 cost=$1.1320
+2020-005 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$1.1759
+2020-005 quota     cites= 10 exist=1.0 unres=0.0 quotes=5 cost=$1.2175
+2020-005 temporal  cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$1.2916
+2020-005 stakes    cites=  6 exist=1.0 unres=0.0 quotes=2 cost=$1.3089
+2020-005 combo     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$1.3838
+2018-070 baseline  cites=  4 exist=1.0 unres=0.0 quotes=6 cost=$1.4842
+2018-070 quota     cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$1.5380
+2018-070 temporal  cites=  2 exist=1.0 unres=0.0 quotes=5 cost=$1.5921
+2018-070 stakes    cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$1.6242
+2018-070 combo     cites=  8 exist=1.0 unres=0.0 quotes=7 cost=$1.7015
+2016-067 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$1.7507
+2016-067 quota     cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$1.8341
+2016-067 temporal  cites=  4 exist=1.0 unres=0.0 quotes=0 cost=$1.8602
+2016-067 stakes    cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$1.9041
+2016-067 combo     cites= 10 exist=1.0 unres=0.0 quotes=1 cost=$1.9705
+{
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 32,
+    "cite_verdicts": {
+      "exists": 32
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 2,
+      "inaccurate": 5,
+      "accurate": 3,
+      "near_miss": 5
+    },
+    "pin_verdicts": {
+      "in_range": 26,
+      "no_pin": 4,
+      "out_of_range": 2
+    },
+    "temporal": {
+      "checked": 32,
+      "violated": 0
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 30,
+    "cite_verdicts": {
+      "exists": 30
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 10,
+      "accurate": 6,
+      "near_miss": 4,
+      "unverifiable": 5
+    },
+    "pin_verdicts": {
+      "in_range": 25,
+      "no_pin": 5
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 59,
+    "cite_verdicts": {
+      "exists": 59
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 9,
+      "near_miss": 6,
+      "accurate": 3,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 53,
+      "no_pin": 3,
+      "out_of_range": 3
+    },
+    "temporal": {
+      "checked": 59,
+      "violated": 0
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 51,
+    "cite_verdicts": {
+      "exists": 51
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 13,
+      "near_miss": 9,
+      "inaccurate": 5,
+      "unverifiable": 8
+    },
+    "pin_verdicts": {
+      "in_range": 40,
+      "no_pin": 11
+    },
+    "temporal": {}
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 26,
+    "cite_verdicts": {
+      "exists": 26
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 7,
+      "accurate": 6,
+      "unverifiable": 2,
+      "near_miss": 5
+    },
+    "pin_verdicts": {
+      "no_pin": 5,
+      "in_range": 21
+    },
+    "temporal": {}
+  }
+}
+total cost $1.9705
+2014-024 baseline  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.0442
+2014-024 quota     cites= 11 exist=1.0 unres=0.0 quotes=2 cost=$0.1003
+2014-024 temporal  cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.2120
+2014-024 stakes    cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$0.2558
+2014-024 combo     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$0.3592
+1990-075 baseline  cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$0.4252
+1990-075 quota     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.5160
+1990-075 temporal  cites=  6 exist=1.0 unres=0.0 quotes=4 cost=$0.5818
+1990-075 stakes    cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$0.6352
+1990-075 combo     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$0.7033
+1997-033 baseline  cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$0.7493
+1997-033 quota     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$0.8262
+1997-033 temporal  cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$0.9368
+1997-033 stakes    cites=  5 exist=1.0 unres=0.0 quotes=6 cost=$0.9695
+1997-033 combo     cites= 12 exist=1.0 unres=0.0 quotes=5 cost=$1.0642
+1998-085 baseline  cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$1.1264
+1998-085 quota     cites=  8 exist=1.0 unres=0.0 quotes=9 cost=$1.1669
+1998-085 temporal  cites=  5 exist=1.0 unres=0.0 quotes=4 cost=$1.2082
+1998-085 stakes    cites=  5 exist=1.0 unres=0.0 quotes=6 cost=$1.2635
+1998-085 combo     cites=  8 exist=0.875 unres=0.0 quotes=7 cost=$1.3273
+1997-021 baseline  cites= 10 exist=0.6 unres=0.0 quotes=4 cost=$1.4016
+1997-021 quota     cites=  9 exist=0.8889 unres=0.0 quotes=4 cost=$1.5058
+1997-021 temporal  cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$1.5479
+1997-021 stakes    cites=  8 exist=0.75 unres=0.0 quotes=5 cost=$1.6334
+1997-021 combo     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$1.7061
+2005-087 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$1.7686
+2005-087 quota     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$1.7910
+2005-087 temporal  cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$1.8652
+2005-087 stakes    cites=  6 exist=1.0 unres=0.0 quotes=2 cost=$1.9508
+2005-087 combo     cites=  8 exist=1.0 unres=0.0 quotes=1 cost=$1.9869
+{
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 28,
+    "cite_verdicts": {
+      "exists": 28
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "accurate": 5,
+      "inaccurate": 6
+    },
+    "pin_verdicts": {
+      "in_range": 23,
+      "in_range_unbounded": 1,
+      "no_pin": 4
+    },
+    "temporal": {
+      "checked": 28,
+      "violated": 0
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 55,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.982,
+    "quote_verdicts": {
+      "accurate": 6,
+      "near_miss": 9,
+      "inaccurate": 8
+    },
+    "pin_verdicts": {
+      "in_range": 46,
+      "no_pin": 6,
+      "in_range_unbounded": 1,
+      "out_of_range": 2,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 27,
+      "not_found": 4
+    },
+    "existence_rate_pooled": 0.871,
+    "quote_verdicts": {
+      "inaccurate": 8,
+      "accurate": 4,
+      "near_miss": 7
+    },
+    "pin_verdicts": {
+      "no_pin": 5,
+      "in_range": 24,
+      "case_unknown": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 55,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.982,
+    "quote_verdicts": {
+      "inaccurate": 8,
+      "near_miss": 8,
+      "accurate": 5,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 51,
+      "out_of_range": 1,
+      "no_pin": 3,
+      "case_unknown": 1
+    },
+    "temporal": {
+      "checked": 56,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 35,
+    "cite_verdicts": {
+      "exists": 33,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.943,
+    "quote_verdicts": {
+      "accurate": 6,
+      "near_miss": 12,
+      "inaccurate": 7,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 3,
+      "in_range": 30,
+      "case_unknown": 1,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $1.9869
+2019-024 baseline  cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$0.0809
+2019-024 quota     cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.1847
+2019-024 temporal  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.2935
+2019-024 stakes    cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$0.3491
+2019-024 combo     cites=  8 exist=1.0 unres=0.0 quotes=7 cost=$0.4510
+2011-027 baseline  cites=  5 exist=1.0 unres=0.0 quotes=1 cost=$0.5404
+2011-027 quota     cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$0.5914
+2011-027 temporal  cites=  6 exist=1.0 unres=0.0 quotes=3 cost=$0.6662
+2011-027 stakes    cites=  5 exist=1.0 unres=0.0 quotes=5 cost=$0.6843
+2011-027 combo     cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$0.8046
+2016-001 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.8344
+2016-001 quota     cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$0.9008
+2016-001 temporal  cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$0.9534
+2016-001 stakes    cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$1.0129
+2016-001 combo     cites= 11 exist=1.0 unres=0.0 quotes=2 cost=$1.0797
+2010-065 baseline  cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$1.1177
+2010-065 quota     cites= 12 exist=1.0 unres=0.0 quotes=2 cost=$1.1570
+2010-065 temporal  cites=  3 exist=1.0 unres=0.0 quotes=3 cost=$1.1938
+2010-065 stakes    cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$1.2365
+2010-065 combo     cites= 11 exist=1.0 unres=0.0 quotes=6 cost=$1.3470
+1997-044 baseline  cites=  6 exist=1.0 unres=0.0 quotes=8 cost=$1.3929
+1997-044 quota     cites= 10 exist=0.9 unres=0.0 quotes=1 cost=$1.4660
+1997-044 temporal  cites=  5 exist=1.0 unres=0.0 quotes=5 cost=$1.5573
+1997-044 stakes    cites=  5 exist=1.0 unres=0.0 quotes=4 cost=$1.6718
+1997-044 combo     cites= 10 exist=1.0 unres=0.0 quotes=7 cost=$1.7797
+2001-070 baseline  cites=  7 exist=1.0 unres=0.0 quotes=6 cost=$1.8087
+2001-070 quota     cites=  8 exist=1.0 unres=0.0 quotes=2 cost=$1.8513
+2001-070 temporal  cites=  6 exist=1.0 unres=0.0 quotes=4 cost=$1.9296
+2001-070 stakes    cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$1.9821
+2001-070 combo     cites= 11 exist=1.0 unres=0.0 quotes=0 cost=$2.0152
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 62,
+    "cite_verdicts": {
+      "exists": 62
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 8,
+      "inaccurate": 12,
+      "unverifiable": 3,
+      "near_miss": 2
+    },
+    "pin_verdicts": {
+      "in_range": 60,
+      "out_of_range": 2
+    },
+    "temporal": {
+      "checked": 62,
+      "violated": 1
+    }
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 34,
+    "cite_verdicts": {
+      "exists": 34
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 7,
+      "near_miss": 7,
+      "accurate": 7,
+      "inaccurate": 5
+    },
+    "pin_verdicts": {
+      "in_range": 31,
+      "out_of_range": 2,
+      "no_pin": 1
+    },
+    "temporal": {}
+  },
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 29,
+    "cite_verdicts": {
+      "exists": 29
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 6,
+      "unverifiable": 10,
+      "inaccurate": 3,
+      "near_miss": 6
+    },
+    "pin_verdicts": {
+      "out_of_range": 2,
+      "in_range": 25,
+      "no_pin": 2
+    },
+    "temporal": {
+      "checked": 29,
+      "violated": 0
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 54,
+    "cite_verdicts": {
+      "exists": 53,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.981,
+    "quote_verdicts": {
+      "unverifiable": 7,
+      "inaccurate": 2,
+      "near_miss": 6,
+      "accurate": 2
+    },
+    "pin_verdicts": {
+      "no_pin": 7,
+      "in_range": 46,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 34,
+    "cite_verdicts": {
+      "exists": 34
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "unverifiable": 5,
+      "near_miss": 2,
+      "inaccurate": 8,
+      "accurate": 6
+    },
+    "pin_verdicts": {
+      "no_pin": 7,
+      "in_range": 26,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $2.0152
+1992-109 baseline  cites=  6 exist=1.0 unres=0.0 quotes=7 cost=$0.0087
+1992-109 quota     cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$0.0265
+1992-109 temporal  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$0.1189
+1992-109 stakes    cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$0.1646
+1992-109 combo     cites=  7 exist=1.0 unres=0.0 quotes=3 cost=$0.2264
+2009-045 baseline  cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$0.2935
+2009-045 quota     cites= 13 exist=1.0 unres=0.0 quotes=3 cost=$0.3694
+2009-045 temporal  cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$0.4413
+2009-045 stakes    cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$0.5258
+2009-045 combo     cites=  8 exist=1.0 unres=0.0 quotes=0 cost=$0.7278
+1997-046 baseline  cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$0.7856
+1997-046 quota     cites= 11 exist=0.9091 unres=0.0 quotes=5 cost=$0.8440
+1997-046 temporal  cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$0.8804
+1997-046 stakes    cites=  4 exist=1.0 unres=0.0 quotes=3 cost=$0.9450
+1997-046 combo     cites= 10 exist=1.0 unres=0.0 quotes=2 cost=$1.0037
+2020-032 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$1.0313
+2020-032 quota     cites= 11 exist=1.0 unres=0.0 quotes=0 cost=$1.1092
+2020-032 temporal  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$1.1904
+2020-032 stakes    cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$1.2825
+2020-032 combo     cites= 12 exist=1.0 unres=0.0 quotes=0 cost=$1.3572
+2015-055 baseline  cites=  4 exist=1.0 unres=0.0 quotes=6 cost=$1.4197
+2015-055 quota     cites= 11 exist=1.0 unres=0.0 quotes=6 cost=$1.4951
+2015-055 temporal  cites=  6 exist=1.0 unres=0.0 quotes=2 cost=$1.5679
+2015-055 stakes    cites=  6 exist=1.0 unres=0.0 quotes=5 cost=$1.6515
+2015-055 combo     cites= 15 exist=1.0 unres=0.0 quotes=1 cost=$1.7321
+2013-058 baseline  cites=  1 exist=1.0 unres=0.0 quotes=2 cost=$1.7868
+2013-058 quota     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$1.8417
+2013-058 temporal  cites=  6 exist=1.0 unres=0.0 quotes=0 cost=$1.9208
+2013-058 stakes    cites=  3 exist=1.0 unres=0.0 quotes=4 cost=$1.9736
+2013-058 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$2.0235
+{
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 63,
+    "cite_verdicts": {
+      "exists": 62,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.984,
+    "quote_verdicts": {
+      "accurate": 6,
+      "inaccurate": 8,
+      "near_miss": 3
+    },
+    "pin_verdicts": {
+      "in_range": 52,
+      "out_of_range": 3,
+      "no_pin": 7,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 32,
+    "cite_verdicts": {
+      "exists": 32
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 8,
+      "accurate": 7,
+      "inaccurate": 9,
+      "unverifiable": 1
+    },
+    "pin_verdicts": {
+      "in_range": 23,
+      "no_pin": 8,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 61,
+    "cite_verdicts": {
+      "exists": 61
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 2,
+      "near_miss": 3,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 46,
+      "no_pin": 14,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 61,
+      "violated": 0
+    }
+  },
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 31
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 7,
+      "inaccurate": 6,
+      "near_miss": 1
+    },
+    "pin_verdicts": {
+      "no_pin": 7,
+      "in_range": 24
+    },
+    "temporal": {
+      "checked": 31,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 35,
+    "cite_verdicts": {
+      "exists": 35
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 13,
+      "near_miss": 4,
+      "inaccurate": 1,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 20,
+      "no_pin": 11,
+      "out_of_range": 4
+    },
+    "temporal": {}
+  }
+}
+total cost $2.0235
+2000-087 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.0532
+2000-087 quota     cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$0.1280
+2000-087 temporal  cites=  7 exist=1.0 unres=0.0 quotes=1 cost=$0.1935
+2000-087 stakes    cites=  9 exist=1.0 unres=0.0 quotes=6 cost=$0.3043
+2000-087 combo     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.3794
+2013-068 baseline  cites=  7 exist=1.0 unres=0.0 quotes=13 cost=$0.4164
+2013-068 quota     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$0.4963
+2013-068 temporal  cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$0.5605
+2013-068 stakes    cites=  5 exist=1.0 unres=0.0 quotes=11 cost=$0.6161
+2013-068 combo     cites= 10 exist=1.0 unres=0.0 quotes=1 cost=$0.6935
+2020-060 baseline  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.7679
+2020-060 quota     cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$0.8909
+2020-060 temporal  cites=  6 exist=1.0 unres=0.0 quotes=2 cost=$0.9634
+2020-060 stakes    cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$1.0221
+2020-060 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$1.0913
+2003-043 baseline  cites=  7 exist=0.8571 unres=0.0 quotes=5 cost=$1.1472
+2003-043 quota     cites= 10 exist=0.9 unres=0.0 quotes=4 cost=$1.2274
+2003-043 temporal  cites=  3 exist=0.6667 unres=0.0 quotes=1 cost=$1.3002
+2003-043 stakes    cites=  5 exist=0.8 unres=0.0 quotes=1 cost=$1.3177
+2003-043 combo     cites= 11 exist=0.9091 unres=0.0 quotes=1 cost=$1.4108
+2010-026 baseline  cites=  9 exist=1.0 unres=0.0 quotes=7 cost=$1.4558
+2010-026 quota     cites= 10 exist=1.0 unres=0.0 quotes=10 cost=$1.5775
+2010-026 temporal  cites=  2 exist=1.0 unres=0.0 quotes=2 cost=$1.6625
+2010-026 stakes    cites=  3 exist=1.0 unres=0.0 quotes=6 cost=$1.6966
+2010-026 combo     cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$1.7652
+2015-007 baseline  cites=  7 exist=1.0 unres=0.0 quotes=2 cost=$1.8174
+2015-007 quota     cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$1.8954
+2015-007 temporal  cites=  6 exist=1.0 unres=0.0 quotes=0 cost=$1.9396
+2015-007 stakes    cites= 11 exist=1.0 unres=0.0 quotes=3 cost=$2.0512
+2015-007 combo     cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$2.0682
+{
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 38,
+    "cite_verdicts": {
+      "exists": 37,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.974,
+    "quote_verdicts": {
+      "near_miss": 8,
+      "accurate": 11,
+      "inaccurate": 9,
+      "unverifiable": 9
+    },
+    "pin_verdicts": {
+      "in_range": 24,
+      "no_pin": 13,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 55,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.982,
+    "quote_verdicts": {
+      "near_miss": 7,
+      "accurate": 7,
+      "unverifiable": 11,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 46,
+      "no_pin": 9,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 55,
+    "cite_verdicts": {
+      "exists": 54,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.982,
+    "quote_verdicts": {
+      "near_miss": 6,
+      "accurate": 4,
+      "inaccurate": 6
+    },
+    "pin_verdicts": {
+      "in_range": 53,
+      "case_unknown": 1,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 55,
+      "violated": 0
+    }
+  },
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 32,
+    "cite_verdicts": {
+      "exists": 31,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.969,
+    "quote_verdicts": {
+      "near_miss": 6,
+      "inaccurate": 3,
+      "accurate": 3,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 28,
+      "no_pin": 3,
+      "case_unknown": 1
+    },
+    "temporal": {
+      "checked": 32,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 37,
+    "cite_verdicts": {
+      "exists": 36,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.973,
+    "quote_verdicts": {
+      "accurate": 7,
+      "inaccurate": 5,
+      "near_miss": 9,
+      "unverifiable": 8
+    },
+    "pin_verdicts": {
+      "in_range": 24,
+      "no_pin": 12,
+      "case_unknown": 1
+    },
+    "temporal": {}
+  }
+}
+total cost $2.0682
+2012-031 baseline  cites=  4 exist=1.0 unres=0.0 quotes=6 cost=$0.0713
+2012-031 quota     cites=  9 exist=1.0 unres=0.0 quotes=6 cost=$0.1375
+2012-031 temporal  cites=  4 exist=1.0 unres=0.0 quotes=2 cost=$0.2373
+2012-031 stakes    cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$0.2642
+2012-031 combo     cites=  9 exist=1.0 unres=0.0 quotes=5 cost=$0.3400
+2011-010 baseline  cites=  7 exist=1.0 unres=0.0 quotes=7 cost=$0.4080
+2011-010 quota     cites= 13 exist=1.0 unres=0.0 quotes=5 cost=$0.4869
+2011-010 temporal  cites=  2 exist=0.5 unres=0.0 quotes=2 cost=$0.5719
+2011-010 stakes    cites=  4 exist=1.0 unres=0.0 quotes=4 cost=$0.6352
+2011-010 combo     cites=  9 exist=1.0 unres=0.0 quotes=2 cost=$0.7149
+2005-074 baseline  cites=  2 exist=1.0 unres=0.0 quotes=3 cost=$0.7772
+2005-074 quota     cites=  7 exist=1.0 unres=0.0 quotes=6 cost=$0.8549
+2005-074 temporal  cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$0.9296
+2005-074 stakes    cites=  2 exist=1.0 unres=0.0 quotes=2 cost=$0.9848
+2005-074 combo     cites=  9 exist=1.0 unres=0.0 quotes=2 cost=$1.0797
+2001-013 baseline  cites=  3 exist=1.0 unres=0.0 quotes=2 cost=$1.1385
+2001-013 quota     cites= 10 exist=1.0 unres=0.0 quotes=1 cost=$1.2449
+2001-013 temporal  cites=  3 exist=1.0 unres=0.0 quotes=1 cost=$1.3644
+2001-013 stakes    cites=  3 exist=1.0 unres=0.0 quotes=1 cost=$1.4371
+2001-013 combo     cites=  9 exist=1.0 unres=0.0 quotes=0 cost=$1.5226
+1992-086 baseline  cites=  4 exist=1.0 unres=0.0 quotes=8 cost=$1.6001
+1992-086 quota     cites=  8 exist=1.0 unres=0.0 quotes=3 cost=$1.6421
+1992-086 temporal  cites= 11 exist=1.0 unres=0.0 quotes=1 cost=$1.7156
+1992-086 stakes    cites=  4 exist=1.0 unres=0.0 quotes=8 cost=$1.7550
+1992-086 combo     cites= 10 exist=1.0 unres=0.0 quotes=6 cost=$1.8858
+2010-046 baseline  cites=  5 exist=1.0 unres=0.0 quotes=7 cost=$1.9127
+2010-046 quota     cites=  9 exist=0.8889 unres=0.0 quotes=3 cost=$1.9601
+2010-046 temporal  cites=  5 exist=1.0 unres=0.0 quotes=0 cost=$2.0059
+2010-046 stakes    cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$2.0416
+2010-046 combo     cites= 10 exist=1.0 unres=0.0 quotes=0 cost=$2.0784
+{
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 56
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 8,
+      "accurate": 6,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 56
+    },
+    "temporal": {
+      "checked": 56,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 21,
+    "cite_verdicts": {
+      "exists": 21
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "near_miss": 8,
+      "accurate": 7,
+      "unverifiable": 3,
+      "inaccurate": 5
+    },
+    "pin_verdicts": {
+      "in_range": 15,
+      "no_pin": 6
+    },
+    "temporal": {}
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 25,
+    "cite_verdicts": {
+      "exists": 25
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "inaccurate": 9,
+      "accurate": 9,
+      "near_miss": 12,
+      "unverifiable": 3
+    },
+    "pin_verdicts": {
+      "in_range": 15,
+      "no_pin": 8,
+      "out_of_range": 2
+    },
+    "temporal": {}
+  },
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 28,
+    "cite_verdicts": {
+      "exists": 27,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.964,
+    "quote_verdicts": {
+      "inaccurate": 4,
+      "accurate": 4,
+      "near_miss": 3
+    },
+    "pin_verdicts": {
+      "in_range": 23,
+      "no_pin": 2,
+      "out_of_range": 3
+    },
+    "temporal": {
+      "checked": 28,
+      "violated": 0
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 56,
+    "cite_verdicts": {
+      "exists": 55,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.982,
+    "quote_verdicts": {
+      "near_miss": 5,
+      "accurate": 10,
+      "inaccurate": 9
+    },
+    "pin_verdicts": {
+      "in_range": 43,
+      "no_pin": 10,
+      "out_of_range": 3
+    },
+    "temporal": {}
+  }
+}
+total cost $2.0784
+1999-033 baseline  cites=  8 exist=1.0 unres=0.0 quotes=5 cost=$0.0627
+1999-033 quota     cites= 10 exist=1.0 unres=0.0 quotes=6 cost=$0.1469
+1999-033 temporal  cites=  5 exist=1.0 unres=0.0 quotes=7 cost=$0.2163
+1999-033 stakes    cites=  5 exist=1.0 unres=0.0 quotes=2 cost=$0.3295
+1999-033 combo     cites= 10 exist=1.0 unres=0.0 quotes=6 cost=$0.4080
+1990-114 baseline  cites= 11 exist=1.0 unres=0.0 quotes=7 cost=$0.4597
+1990-114 quota     cites= 10 exist=1.0 unres=0.0 quotes=8 cost=$0.5058
+1990-114 temporal  cites=  8 exist=1.0 unres=0.0 quotes=8 cost=$0.6016
+1990-114 stakes    cites= 14 exist=1.0 unres=0.0 quotes=5 cost=$0.6618
+1990-114 combo     cites= 11 exist=1.0 unres=0.0 quotes=9 cost=$0.7433
+2020-012 baseline  cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$0.8098
+2020-012 quota     cites= 11 exist=1.0 unres=0.0 quotes=4 cost=$0.8611
+2020-012 temporal  cites=  4 exist=1.0 unres=0.0 quotes=5 cost=$0.9807
+2020-012 stakes    cites=  5 exist=1.0 unres=0.0 quotes=3 cost=$1.0472
+2020-012 combo     cites=  9 exist=1.0 unres=0.0 quotes=5 cost=$1.1805
+2020-067 baseline  cites=  8 exist=1.0 unres=0.125 quotes=3 cost=$1.2725
+2020-067 quota     cites=  8 exist=1.0 unres=0.0 quotes=6 cost=$1.3741
+2020-067 temporal  cites=  7 exist=0.7143 unres=0.0 quotes=0 cost=$1.4471
+2020-067 stakes    cites=  6 exist=1.0 unres=0.0 quotes=1 cost=$1.5148
+2020-067 combo     cites=  9 exist=0.8889 unres=0.0 quotes=4 cost=$1.5827
+2016-063 baseline  cites=  2 exist=1.0 unres=0.0 quotes=4 cost=$1.6144
+2016-063 quota     cites=  9 exist=1.0 unres=0.0 quotes=3 cost=$1.6818
+2016-063 temporal  cites=  3 exist=1.0 unres=0.0 quotes=1 cost=$1.7420
+2016-063 stakes    cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$1.8002
+2016-063 combo     cites= 15 exist=1.0 unres=0.0 quotes=0 cost=$1.8756
+1994-059 baseline  cites=  3 exist=1.0 unres=0.0 quotes=5 cost=$1.9477
+1994-059 quota     cites=  9 exist=1.0 unres=0.0 quotes=4 cost=$1.9959
+1994-059 temporal  cites=  4 exist=1.0 unres=0.0 quotes=6 cost=$2.0320
+1994-059 stakes    cites=  4 exist=1.0 unres=0.0 quotes=1 cost=$2.0589
+1994-059 combo     cites=  9 exist=1.0 unres=0.0 quotes=1 cost=$2.0832
+{
+  "temporal": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 31,
+    "cite_verdicts": {
+      "exists": 29,
+      "not_found": 2
+    },
+    "existence_rate_pooled": 0.935,
+    "quote_verdicts": {
+      "inaccurate": 10,
+      "near_miss": 7,
+      "accurate": 8,
+      "unverifiable": 2
+    },
+    "pin_verdicts": {
+      "in_range": 22,
+      "no_pin": 6,
+      "case_unknown": 2,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 31,
+      "violated": 0
+    }
+  },
+  "stakes": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 37,
+    "cite_verdicts": {
+      "exists": 37
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 4,
+      "near_miss": 3,
+      "unverifiable": 9,
+      "inaccurate": 1
+    },
+    "pin_verdicts": {
+      "in_range": 23,
+      "no_pin": 13,
+      "out_of_range": 1
+    },
+    "temporal": {}
+  },
+  "baseline": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 37,
+    "cite_verdicts": {
+      "exists": 36,
+      "unresolvable": 1
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 5,
+      "inaccurate": 10,
+      "near_miss": 5,
+      "unverifiable": 7
+    },
+    "pin_verdicts": {
+      "in_range": 26,
+      "no_pin": 8,
+      "out_of_range": 2
+    },
+    "temporal": {}
+  },
+  "combo": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 63,
+    "cite_verdicts": {
+      "exists": 62,
+      "not_found": 1
+    },
+    "existence_rate_pooled": 0.984,
+    "quote_verdicts": {
+      "unverifiable": 5,
+      "inaccurate": 13,
+      "near_miss": 4,
+      "accurate": 3
+    },
+    "pin_verdicts": {
+      "in_range": 51,
+      "case_unknown": 1,
+      "no_pin": 10,
+      "out_of_range": 1
+    },
+    "temporal": {
+      "checked": 63,
+      "violated": 0
+    }
+  },
+  "quota": {
+    "drafts": 6,
+    "abstained": 0,
+    "citations_total": 57,
+    "cite_verdicts": {
+      "exists": 57
+    },
+    "existence_rate_pooled": 1.0,
+    "quote_verdicts": {
+      "accurate": 7,
+      "inaccurate": 9,
+      "near_miss": 7,
+      "unverifiable": 8
+    },
+    "pin_verdicts": {
+      "in_range": 41,
+      "no_pin": 13,
+      "out_of_range": 3
+    },
+    "temporal": {}
+  }
+}
+total cost $2.0832

@@ -19,7 +19,8 @@ pins = json.loads((R / "pincites.json").read_text())
 decomp = json.loads((R / "notincorpus_decomposition.json").read_text())
 
 ALPHA = {"qwen30b": "Qwen", "mistralsmall": "Mistral", "llama4mav": "Llama",
-         "deepseek": "Deepseek", "gpt54mini": "Gpt", "sonnet": "Sonnet"}
+         "deepseek": "Deepseek", "gpt54mini": "Gpt", "sonnet": "Sonnet",
+         "grok43": "Grok"}
 CONDS = {"baseline": "Base", "quota": "Quota", "temporal": "Temporal",
          "stakes": "Stakes", "combo": "Combo"}
 
@@ -50,6 +51,9 @@ for m, mk in ALPHA.items():
         emit(f"loop{mk}{ak}Start", fmt3(sum(f0) / len(f0)))
         emit(f"loop{mk}{ak}Final", fmt3(sum(f1) / len(f1)))
         emit(f"conv{mk}{ak}", str(sum(r["converged"] for r in sub)))
+    tc = full[m]["temporal"]["tchecked"] + full[m]["combo"]["tchecked"]
+    emit(f"tempChecked{mk}", str(tc))
+    emit(f"tempViol{mk}", str(full[m]["temporal"]["viol"] + full[m]["combo"]["viol"]))
     tr = [r for r in loops[m] if r["arm"] == "true"]
     emit(f"cleanRZero{mk}", str(sum(1 for r in tr if r["converged"] and r["rounds"] == 1)))
     for kind, kk in (("citation", "Cite"), ("quote", "Quote")):

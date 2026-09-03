@@ -1,0 +1,7 @@
+deepseek {'out_of_scope_non_us': 166, 'paraphrase_in_quotes': 431, 'fabricated_language': 196, 'no_text': 0}
+gpt54mini {'out_of_scope_non_us': 47, 'paraphrase_in_quotes': 141, 'fabricated_language': 81, 'no_text': 0}
+grok43 {'out_of_scope_non_us': 47, 'paraphrase_in_quotes': 193, 'fabricated_language': 67, 'no_text': 0}
+llama4mav {'out_of_scope_non_us': 72, 'paraphrase_in_quotes': 98, 'fabricated_language': 58, 'no_text': 0}
+mistralsmall {'out_of_scope_non_us': 159, 'paraphrase_in_quotes': 367, 'fabricated_language': 149, 'no_text': 0}
+qwen30b {'out_of_scope_non_us': 142, 'paraphrase_in_quotes': 476, 'fabricated_language': 213, 'no_text': 0}
+sonnet {'out_of_scope_non_us': 131, 'paraphrase_in_quotes': 413, 'fabricated_language': 202, 'no_text': 0}

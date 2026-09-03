@@ -1,0 +1,80 @@
+deepseek done
+gpt54mini done
+grok43 done
+llama4mav done
+mistralsmall done
+qwen30b done
+sonnet done
+
+deepseek
+  baseline  exist=0.9718 strict=0.2814 (a103/n128/i135/u16) viol=0/0
+  quota     exist=0.9504 strict=0.2659 (a109/n139/i162/u34) viol=0/0
+  temporal  exist=0.9522 strict=0.1867 (a56/n91/i153/u9) viol=40/356
+  stakes    exist=0.9666 strict=0.2695 (a90/n111/i133/u28) viol=0/0
+  combo     exist=0.959 strict=0.1203 (a45/n119/i210/u20) viol=34/488
+
+gpt54mini
+  baseline  exist=0.9808 strict=0.4599 (a86/n49/i52/u12) viol=0/0
+  quota     exist=0.9805 strict=0.454 (a79/n51/i44/u5) viol=0/0
+  temporal  exist=0.9576 strict=0.3226 (a40/n31/i53/u6) viol=68/519
+  stakes    exist=0.9789 strict=0.4225 (a90/n57/i66/u8) viol=0/0
+  combo     exist=0.9621 strict=0.2937 (a37/n35/i54/u3) viol=98/713
+
+grok43
+  baseline  exist=0.9805 strict=0.3263 (a77/n75/i84/u4) viol=0/0
+  quota     exist=0.9868 strict=0.3874 (a74/n62/i55/u6) viol=0/0
+  temporal  exist=0.9833 strict=0.2611 (a41/n56/i60/u3) viol=0/240
+  stakes    exist=0.9882 strict=0.405 (a81/n72/i47/u6) viol=0/0
+  combo     exist=0.9937 strict=0.2465 (a35/n46/i61/u3) viol=2/479
+
+llama4mav
+  baseline  exist=0.9577 strict=0.402 (a41/n22/i39/u8) viol=0/0
+  quota     exist=0.9754 strict=0.3268 (a50/n52/i51/u10) viol=0/0
+  temporal  exist=0.9439 strict=0.1392 (a11/n23/i45/u6) viol=22/213
+  stakes    exist=0.9563 strict=0.3804 (a35/n28/i29/u4) viol=0/0
+  combo     exist=0.9387 strict=0.1795 (a21/n32/i64/u6) viol=48/506
+
+mistralsmall
+  baseline  exist=0.9008 strict=0.2068 (a49/n95/i93/u35) viol=0/0
+  quota     exist=0.9289 strict=0.2612 (a76/n93/i122/u31) viol=0/0
+  temporal  exist=0.8603 strict=0.1166 (a33/n91/i159/u58) viol=141/401
+  stakes    exist=0.9188 strict=0.1673 (a41/n98/i106/u32) viol=0/0
+  combo     exist=0.8676 strict=0.1361 (a43/n78/i195/u55) viol=192/521
+
+qwen30b
+  baseline  exist=0.9243 strict=0.175 (a49/n109/i122/u38) viol=0/0
+  quota     exist=0.8673 strict=0.1648 (a59/n148/i151/u64) viol=0/0
+  temporal  exist=0.8404 strict=0.0808 (a21/n61/i178/u69) viol=60/307
+  stakes    exist=0.8864 strict=0.1454 (a41/n126/i115/u41) viol=0/0
+  combo     exist=0.7733 strict=0.0716 (a28/n98/i265/u144) viol=84/388
+
+sonnet
+  baseline  exist=0.9906 strict=0.3333 (a141/n122/i160/u7) viol=0/0
+  quota     exist=0.9846 strict=0.3326 (a155/n130/i181/u6) viol=0/0
+  temporal  exist=0.9943 strict=0.3739 (a126/n79/i132/u0) viol=0/353
+  stakes    exist=0.991 strict=0.3901 (a149/n75/i158/u8) viol=0/0
+  combo     exist=0.9978 strict=0.4268 (a137/n69/i115/u0) viol=1/450
+deepseek done
+gpt54mini done
+grok43 done
+llama4mav done
+mistralsmall done
+qwen30b done
+sonnet done
+25709 records -> results/records.jsonl
+quote:deepseek:temporal          OR 0.61 [0.40, 0.94] p=0.02513
+quote:deepseek:combo             OR 0.39 [0.27, 0.56] p=0.0
+quote:gpt54mini:temporal         OR 0.55 [0.30, 1.00] p=0.04877
+quote:gpt54mini:combo            OR 0.46 [0.23, 0.90] p=0.02335
+quote:grok43:stakes              OR 1.44 [1.00, 2.08] p=0.04936
+quote:llama4mav:temporal         OR 0.20 [0.10, 0.40] p=1e-05
+quote:llama4mav:combo            OR 0.26 [0.14, 0.50] p=5e-05
+quote:mistralsmall:temporal      OR 0.50 [0.30, 0.83] p=0.00749
+citation:qwen30b:quota           OR 0.56 [0.41, 0.75] p=0.00013
+citation:qwen30b:temporal        OR 0.45 [0.27, 0.74] p=0.00166
+citation:qwen30b:stakes          OR 0.65 [0.44, 0.95] p=0.02546
+citation:qwen30b:combo           OR 0.30 [0.18, 0.51] p=1e-05
+quote:qwen30b:temporal           OR 0.45 [0.27, 0.75] p=0.0022
+quote:qwen30b:combo              OR 0.35 [0.24, 0.52] p=0.0
+citation:sonnet:combo            OR 4.56 [1.12, 18.45] p=0.03358
+quote:sonnet:combo               OR 1.47 [1.04, 2.09] p=0.0294
