@@ -243,6 +243,33 @@ def task_message(view, side, condition, para=False, grounded=""):
     ]
 
 
+# ---------------------------------------------------------- second task
+# Federal courts of appeals: packets built by src/appellate_packets.py.
+# The drafter argues for the appellant; the conditions are the same
+# clauses appended to the same instruction.
+
+APPELLATE_DIR = HERE / "results" / "appellate" / "packets"
+
+
+def pick_appellate():
+    return [{"id": p.stem, "packet": p} for p in sorted(APPELLATE_DIR.glob("*.json"))]
+
+
+def appellate_message(packet, condition, para=False):
+    conds = PARA_CONDITIONS if para else CONDITIONS
+    ask = (f"Prepare the argument section of the brief on behalf of the appellant, {packet['appellant']}."
+           if para else f"Draft the argument section of the appellant's brief on behalf of {packet['appellant']}.")
+    body = (
+        f"Case: {packet['appellant']} v. {packet['appellee']}, United States "
+        f"Court of Appeals for the {packet['circuit']} Circuit, docket "
+        f"{packet['docket']} ({packet['year']}).\n"
+        f"Statement of the case and facts, from the record:\n{packet['packet']}\n\n"
+        + ask + conds[condition]
+    )
+    return [{"role": "system", "content": SYSTEM},
+            {"role": "user", "content": body}]
+
+
 # ------------------------------------------------------------- supplements
 # Our own eyecite pass, capturing what the old checker drops: pincites and
 # parenthetical years. Needed for the pincite range check and the temporal
@@ -360,6 +387,8 @@ def main():
                     help="alternative condition phrasings (robustness arm)")
     ap.add_argument("--grounded", action="store_true",
                     help="append the retrieved authorities for each matter")
+    ap.add_argument("--task", default="scotus", choices=("scotus", "appellate"),
+                    help="matter set: Supreme Court packets or the F.3d packets")
     args = ap.parse_args()
 
     global RUN_DIR, DRAFT_DIR
@@ -396,7 +425,8 @@ def main():
     state = RunState(RUN_DIR / "run", control_dir=RUN_DIR)
     state.install_signal_handlers()
 
-    matters = pick_matters(1 if args.smoke else args.matters)
+    matters = (pick_appellate() if args.task == "appellate"
+               else pick_matters(1 if args.smoke else args.matters))
     if args.smoke:
         conditions = ["baseline"]
     elif args.conditions:
@@ -414,11 +444,15 @@ def main():
         for mi, entry in enumerate(matters):
             if not (lo <= mi < hi):
                 continue
-            packet = json.loads(
-                (GE / "data/packets" / entry["packet"]).read_text()
-            )
-            view = case_view(packet)
-            side = "petitioner" if mi % 2 == 0 else "respondent"
+            if args.task == "appellate":
+                packet = json.loads(entry["packet"].read_text())
+                view = side = None
+            else:
+                packet = json.loads(
+                    (GE / "data/packets" / entry["packet"]).read_text()
+                )
+                view = case_view(packet)
+                side = "petitioner" if mi % 2 == 0 else "respondent"
             for cond in conditions:
                 if state.should_stop():
                     print("pause requested; stopping cleanly")
@@ -431,6 +465,8 @@ def main():
                 if not draft_path.exists():
                     text = chat_or_none(
                         client,
+                        appellate_message(packet, cond, para=args.paraphrase)
+                        if args.task == "appellate" else
                         task_message(view, side, cond,
                                      para=args.paraphrase,
                                      grounded=grounded_block(entry["id"], cond)
