@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+I. **THE SEVENTH CIRCUIT ERRED IN HOLDING THAT AN INHERITED IRA IS NOT “RETIREMENT FUNDS” UNDER § 522(b)(3)(C) AND (d)(12)**
+
+The Seventh Circuit’s decision in *Clark v. Rameker* (In re Clark), 714 F.3d 559 (7th Cir. 2013), conflicts with the plain text and structure of the Bankruptcy Code, misreads the Internal Revenue Code’s treatment of inherited IRAs, and disregards this Court’s precedents on statutory construction. Section 522(b)(3)(C) and (d)(12) exempts “retirement funds to the extent that those funds are in a fund or account that is exempt from taxation under” specified provisions of the Internal Revenue Code, including § 408. The statute contains no temporal or ownership limitation requiring that the funds be the debtor’s retirement savings at the time of bankruptcy. The Seventh Circuit’s contrary conclusion—framed as a policy-driven departure from the statutory text—is unsupported by the Code and should be reversed.
+
+A. **The Bankruptcy Code’s Text Does Not Require That Retirement Funds Be the Debtor’s or Held for the Debtor’s Retirement**
+
+The Seventh Circuit erred by importing a temporal and functional limitation into § 522(b)(3)(C) and (d)(12) that does not appear in the statute. The exemption applies to “retirement funds” held in accounts that are tax-exempt under the enumerated IRS provisions. It does not say “the debtor’s retirement funds” or “funds held for the debtor’s retirement.” The omission of such limiting language is deliberate. *See RadLAX Gateway Hotel, LLC v. Amalgamated Bank*, 566 U.S. 639, 645 (2012) (“[W]here Congress includes particular language in one section of a statute but omits it in another, it is generally presumed that Congress acts intentionally in the disparate inclusion or exclusion.”) (quoting *Russello v. United States*, 464 U.S. 16, 23 (1983)).
+
+The Seventh Circuit’s reliance on the absence of the word “debtor” in § 522(b)(3)(C) and (d)(12) is misplaced. Other exemptions in § 522(b)(3) do use the possessive—e.g., “the debtor’s interest as a tenant by the entirety”—but those provisions are structurally different. They exempt specific types of property interests *held by the debtor* at the time of filing. By contrast, § 522(b)(3)(C) and (d)(12) exempts *funds* that are in accounts meeting IRS tax-exempt criteria, regardless of who holds the account or when the funds were contributed. *See In re Chilton*, 674 F.3d 486, 491 (5th Cir. 2012) (“The text of § 522(b)(3)(C) does not require that the funds be the debtor’s retirement funds or that the funds be held for the debtor’s retirement.”).
+
+B. **The IRS Does Not Treat Inherited IRAs as Non-Retirement Funds**
+
+The Seventh Circuit’s conclusion that inherited IRAs are not “retirement funds” because they must be distributed within five years is inconsistent with the IRS’s treatment of such accounts. The IRS does not recharacterize inherited IRAs as non-retirement assets. Instead, it continues to classify them as IRAs under § 408, subject to special distribution rules. *See* 26 C.F.R. § 1.408-8, Q&A-1(a) (“An inherited IRA is an IRA acquired by reason of the death of the IRA owner and for which the beneficiary is not the surviving spouse of the IRA owner.”). The IRS’s classification confirms that inherited IRAs remain “retirement funds” within the meaning of the Internal Revenue Code, and thus qualify for exemption under § 522(b)(3)(C) and (d)(12).
+
+C. **This Court’s Precedents Support a Broad Reading of Bankruptcy Exemptions**
+
+This Court has repeatedly cautioned against narrowing exemptions through judicial construction. In *Owen v. Owen*, 500 U.S. 305 (1991), the Court rejected an attempt to limit the § 522(d)(10)(E) exemption for “deposits in any depository institution” to funds actually used for retirement. The Court held that the exemption applied to funds *capable* of being used for retirement, regardless of the debtor’s actual intent. *Id.* at 310–11. Similarly, in *Taylor v. Freeland & Kronz*, 503 U.S. 638 (1992), the Court refused to impose a “good faith” requirement on debtors claiming exemptions under § 522, emphasizing that exemptions are to be construed liberally in favor of debtors.
+
+The Seventh Circuit’s policy-driven approach—framed as a concern that inherited IRAs could be used for “current consumption”—ignores this Court’s admonition that exemptions are not to be restricted absent clear statutory language. *See also United States v. Ron Pair Enters., Inc.*, 489 U.S. 235, 241 (1989) (“[W]here the statute’s language is plain, the sole function of the courts—at least where the disposition required by the text is not absurd—is to enforce it according to its terms.”).
+
+D. **The Majority of Circuits Support the Debtor’s Position**
+
+The Seventh Circuit’s decision conflicts with the Fifth and Eighth Circuits, both of which have held that inherited IRAs qualify as exempt retirement funds under § 522(b)(3)(C) and (d)(12). *See Chilton*, 674 F.3d at 491; *In re Nessa*, 426 B.R. 312, 317 (BAP 8th Cir. 2010). These courts correctly recognized that the exemption turns on the *nature* of the account—not the debtor’s use of the funds or the timing of distributions. The Seventh Circuit’s contrary view is an outlier and should be rejected.
+
+II. **THE SEVENTH CIRCUIT’S POLICY CONCERNS ARE INAPPLICABLE TO THE STATUTORY TEXT**
+
+The Seventh Circuit expressed concern that exempting inherited IRAs would allow debtors to shield assets from creditors by bequeathing retirement funds. *Clark*, 714 F.3d at 563. But this concern is not a valid basis for rewriting the statute. As this Court has explained, “no legislation pursues its purposes at all costs.” *Rodriguez v. United States*, 480 U.S. 522, 525–26 (1987). The Bankruptcy Code balances multiple interests, including the encouragement of retirement savings and the protection of creditors. The text of § 522(b)(3)(C) and (d)(12) reflects Congress’s judgment that funds in tax-exempt retirement accounts—regardless of their origin—should be shielded from creditors. The Seventh Circuit’s policy-driven departure from the statutory text undermines that judgment.
+
+**CONCLUSION**
+
+The Seventh Circuit erred in holding that an inherited IRA is not “retirement funds” under § 522(b)(3)(C) and (d)(12). The statute’s plain text, the IRS’s treatment of inherited IRAs, and this Court’s precedents all support the conclusion that such accounts are exempt. The judgment below should be reversed.

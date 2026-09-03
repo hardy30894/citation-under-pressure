@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. The Federal Courts Do Not Have Exclusive Jurisdiction Over State Legal Malpractice Claims That Merely Require Application of Federal Patent Law.**
+
+The question presented is whether a state-law legal malpractice claim that requires a court to apply federal patent law necessarily "arises under" federal patent law for purposes of 28 U.S.C. § 1338(a). It does not. The Supreme Court has long held that "arising under" jurisdiction is not triggered simply because a state-law claim implicates a federal issue. *Grable & Sons Metal Prods., Inc. v. Darue Eng'g & Mfg.*, 545 U.S. 308, 313 (2005). Instead, federal jurisdiction exists only when the federal issue is (1) necessarily raised, (2) actually disputed, (3) substantial, and (4) capable of resolution without disturbing the congressionally approved balance of federal and state judicial responsibilities. *Id.* at 314. Minton's claim fails at least three of these four requirements.
+
+**A. The Federal Patent Issue Is Not "Substantial" in the Context of This State Malpractice Claim.**
+
+The "substantiality" requirement demands that the federal issue be more than merely relevant or even necessary to the state claim. *Grable*, 545 U.S. at 313. A federal issue is substantial only when its resolution is important to the federal system as a whole, not merely to the parties in the particular case. *Gunn v. Minton*, 568 U.S. 251, 260 (2013). Here, the patent issue—whether the experimental use exception would have saved Minton's patent from the on-sale bar—is case-specific and backward-looking. It does not implicate the validity or scope of any subsisting patent right. As the Supreme Court later recognized in this very case, "the federal issue is not substantial" because "the question is whether Minton's patent would have been valid if timely asserted," and "the answer to that question does not matter to the federal system." *Gunn*, 568 U.S. at 261. The resolution of this issue will not affect the rights of any third party or alter the legal landscape for future patent litigants. It is, at bottom, a routine application of settled patent law to a particular set of facts. That is not the stuff of substantial federal questions.
+
+**B. Exercising Federal Jurisdiction Would Disturb the Balance of Federal and State Judicial Responsibilities.**
+
+The fourth *Grable* factor requires courts to consider whether federal jurisdiction would upset the "congressionally approved balance of federal and state judicial responsibilities." *Grable*, 545 U.S. at 314. State courts have traditionally adjudicated legal malpractice claims, even those that require reference to federal law. *See, e.g., Singh v. Duane Morris LLP*, 538 F.3d 384, 390 (5th Cir. 2008) (holding that a legal malpractice claim involving trademark law did not arise under federal law). Allowing every state malpractice claim that touches on patent law to be removed to federal court would flood the federal docket with routine attorney negligence cases, displacing the state courts' historic role in regulating the legal profession. As the Supreme Court observed in *Gunn*, "the federal courts' limited resources must be reserved for those cases that truly implicate federal interests." 568 U.S. at 264. Minton's claim does not.
+
+**C. The Federal Issue Is Not "Actually Disputed" in Any Meaningful Sense.**
+
+Even if the experimental use exception were disputed in the underlying patent litigation, it is not actually disputed in this malpractice case. The question here is not whether the exception applies, but whether Gunn's failure to raise it constituted negligence. That is a state-law question of professional duty and causation, not a federal patent question. *See Christianson v. Colt Indus. Operating Corp.*, 486 U.S. 800, 809 (1988) (federal jurisdiction depends on what "necessarily appears in the plaintiff's well-pleaded complaint," not on anticipated defenses). Minton's complaint alleges attorney negligence, not patent infringement. The patent issue is merely evidentiary, not jurisdictional.
+
+**II. The Federal Circuit's Contrary Precedent Is Inconsistent with Supreme Court Authority.**
+
+The Federal Circuit's decisions in *Air Measurement Technologies, Inc. v. Akin Gump Strauss Hauer & Feld, L.L.P.*, 504 F.3d 1262 (Fed. Cir. 2007), and *Immunocept, LLC v. Fulbright & Jaworski, LLP*, 504 F.3d 1281 (Fed. Cir. 2007), are not binding on this Court and, in any event, misapply *Grable*. Those cases held that any state malpractice claim requiring proof of patent infringement necessarily raises a substantial federal issue. But that approach conflates "necessary" with "substantial" and ignores the federalism concerns at the heart of *Grable*. As the dissent below correctly noted, the Federal Circuit's analysis "fails to follow the test set forth by the Supreme Court." *Minton v. Gunn*, 355 S.W.3d 634, 655 (Tex. 2011) (Willett, J., dissenting). This Court should not follow that flawed precedent.
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the Supreme Court of Texas should be reversed, and the case should be remanded for further proceedings in state court.

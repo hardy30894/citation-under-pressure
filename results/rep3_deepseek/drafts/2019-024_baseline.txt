@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+The Ninth Circuit erred by holding that a plaintiff lacks “actual knowledge of the breach or violation” under 29 U.S.C. § 1113(2) unless he subjectively knew his plan fiduciaries acted imprudently. The statute requires only knowledge of the underlying facts constituting the alleged breach—not knowledge of a legal conclusion. Because Intel disclosed all relevant facts to Sulyma well before October 2012, and Sulyma either accessed those disclosures or cannot deny having done so, his claims are time-barred.
+
+**I. The Statutory Text and Structure Require Knowledge of Facts, Not Legal Significance**
+
+Section 1113(2) bars claims brought more than three years after “the earliest date on which the plaintiff had actual knowledge of the breach or violation.” The phrase “breach or violation” refers to the conduct that contravenes ERISA’s fiduciary duties—here, the act of investing in alternative investments. Congress did not require knowledge that the conduct was unlawful or imprudent. To the contrary, it repealed the parallel constructive-knowledge provision in 1987, leaving only an “actual knowledge” standard. Omnibus Budget Reconciliation Act of 1987, Pub. L. No. 100-203, § 9342(b), 101 Stat. 1330. That repeal underscores that the limitations period begins when the plaintiff actually knows the facts, not when he could have discovered them. *See TRW Inc. v. Andrews*, 534 U.S. 19, 28 (2001) (similar “actual knowledge” standard in FCRA reflects “Congress’s judgment that persons should not be required to sue before they are aware of the facts”).
+
+The Ninth Circuit’s requirement that the plaintiff also know the investments were “imprudent” reads a legal element into the statute. This Court has rejected similar efforts to transform knowledge-of-fact requirements into knowledge-of-law requirements. *See United States v. Kubrick*, 444 U.S. 111, 122 (1979) (under FTCA, “actual knowledge” of injury and its cause sufficient; plaintiff need not know the injury was negligently inflicted). As *Kubrick* explained, “a plaintiff who knows the facts showing that he has been wronged” should not be allowed to “wait[] until he is informed of the legal consequences.” *Id.* at 123–24. The same principle governs here.
+
+**II. The Ninth Circuit’s Rule Conflicts with the Plain Language and Purpose of Section 1113**
+
+The court of appeals held that a plaintiff must have “actual knowledge both that those investments occurred, and that they were imprudent.” Pet. App. 22a. That rule is doubly flawed.
+
+First, the statute does not mention “imprudence.” Section 1104(a)(1) requires fiduciaries to act “with the care, skill, prudence, and diligence” that a prudent person would use. A breach of that duty is the “violation” itself. The plaintiff who knows the fiduciary made a particular investment decision knows the factual predicate of the breach. Whether that decision was ultimately imprudent is a legal conclusion—not a fact. *Cf. Blanton v. Anzalone*, 760 F.2d 989, 991–92 (9th Cir. 1985) (knowledge of “transaction” sufficient; knowledge of illegality not required). The Ninth Circuit’s earlier cases correctly held that “the statute of limitations is triggered by [a claimant’s] knowledge of the transaction that constituted the alleged violation, not by his knowledge of the law.” *Meagher v. Int’l Ass’n of Machinists Pension Plan*, 856 F.2d 1418, 1423 (9th Cir. 1988) (quoting *Blanton*). The panel below departed from that settled rule.
+
+Second, the Ninth Circuit’s rule undermines ERISA’s purpose of “protect[ing] participants’ retirement benefits” by encouraging prompt enforcement. *Varity Corp. v. Howe*, 516 U.S. 489, 497 (1996). If a plaintiff can defeat summary judgment simply by claiming he “did not recall” or “was unaware” that the disclosed investments were imprudent, plan fiduciaries can never rely on the three-year bar. That effectively reads the statute out of existence. *Cf. Phillips v. Alaska Hotel & Restaurant Employees Pension Fund*, 944 F.2d 509, 520 (9th Cir. 1991) (rejecting interpretation that would “essentially read[] the ‘actual knowledge’ standard out of the statute”).
+
+**III. The Record Shows No Genuine Dispute That Sulyma Had Actual Knowledge**
+
+Intel provided Sulyma with Fund Fact Sheets, Qualified Default Investment Alternative notices, Summary Plan Descriptions, and website disclosures—all before October 2012. Those documents explicitly stated that the Funds invested in hedge funds and private equity, described the strategy, and noted the risks. Sulyma accessed some of this information. Pet. App. 15a. Yet he testified only that he was “unaware” and “did not recall” reading the documents. *Id.* at 21a–22a.
+
+That is insufficient to create a factual dispute. “Actual knowledge” may be proved by circumstantial evidence, including the fact that the plaintiff received and accessed the relevant disclosures. *See Martin v. Cox*, 348 F.3d 222, 224 (7th Cir. 2003) (actual knowledge “can be inferred from the circumstances”); *Brock v. Robbins*, 830 F.2d 640, 646 (7th Cir. 1987) (same). A plaintiff cannot evade summary judgment by “simply stat[ing] that he does not remember” when the record shows he was “provided with the information.” *Adams v. Guardian Life Ins. Co.*, 2008 WL 4186210, at *4 (N.D. Cal. Sept. 9, 2008). The Ninth Circuit’s contrary holding improperly shifts the burden to defendants and creates a rule that rewards willful ignorance.
+
+**IV. The Ninth Circuit’s Decision Conflicts with Other Circuits**
+
+Several circuits have held that actual knowledge of the transaction or underlying facts is sufficient. *See, e.g., Martin v. Cox*, 348 F.3d at 224 (7th Cir.) (knowledge of fiduciary’s investment decision triggers § 1113(2)); *Caputo v. Pfizer, Inc.*, 267 F. App’x 29, 32 (2d Cir. 2008) (summary order) (same). The Ninth Circuit’s requirement of knowledge of “imprudence” creates a circuit split that undermines uniformity in ERISA litigation. This Court should resolve the conflict and reject the Ninth Circuit’s standard.
+
+**CONCLUSION**
+
+The judgment of the court of appeals should be reversed.

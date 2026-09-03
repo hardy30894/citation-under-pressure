@@ -1,0 +1,45 @@
+**ARGUMENT**
+
+**I. BOND LACKS STANDING TO ASSERT A TENTH AMENDMENT CHALLENGE TO § 229**
+
+A. The Supreme Court has long held that private parties may not invoke the Tenth Amendment to challenge federal laws regulating state or local matters.
+
+In *Tennessee Electric Power Co. v. Tennessee Valley Authority*, 306 U.S. 118 (1939), private utility companies sought to enjoin the federally chartered Tennessee Valley Authority from selling electrical power in competition with private utilities. The Court rejected the claim, holding that the plaintiffs lacked standing to raise a Tenth Amendment challenge:
+
+> The sale of government property in competition with others is not a violation of the Tenth Amendment. As we have seen[,] there is no objection to the Authority’s operations by the states, and, if this were not so, the [utility companies], absent the states or their officers, have no standing in this suit to raise any question under the [Tenth] [A]mendment.
+
+*Id.* at 144 (emphasis added). The Court’s reasoning was clear: the Tenth Amendment protects the *reserved powers of the states*, not the interests of private parties. *See also* *United States v. Parker*, 362 F.3d 1279, 1284 (10th Cir. 2004) (citing *Tennessee Elec. Power* for the proposition that “private parties lack standing to raise a Tenth Amendment challenge to federal legislation”).
+
+B. The Third Circuit correctly applied this precedent to deny Bond standing.
+
+The Third Circuit recognized that *Tennessee Electric Power* foreclosed Bond’s Tenth Amendment claim. *Bond v. United States*, 681 F.3d 149, 160 (3d Cir. 2012). The court noted that the Supreme Court’s holding in *Tennessee Electric Power* was an “alternative ground” for dismissal—meaning the standing analysis was not dicta but a binding jurisdictional conclusion. *Id.* at 160 (citing *California v. United States*, 438 U.S. 645, 689 n.10 (1978)). The court further observed that the First, Second, Eighth, Ninth, and Tenth Circuits had all followed *Tennessee Electric Power* in denying private parties standing to raise Tenth Amendment claims. *Id.* at 161 (citing *United States v. Hacker*, 565 F.3d 522 (8th Cir. 2009); *Oregon v. Legal Servs. Corp.*, 552 F.3d 965 (9th Cir. 2009); *Brooklyn Legal Servs. Corp. v. Legal Servs. Corp.*, 462 F.3d 219 (2d Cir. 2006); *Medeiros v. Vincent*, 431 F.3d 25 (1st Cir. 2005); *Parker*, 362 F.3d 1279).
+
+C. Bond’s arguments to the contrary are unavailing.
+
+Bond contends that *Tennessee Electric Power*’s standing holding is dicta. *See* Bond Br. at 2. This is incorrect. The Supreme Court dismissed the Tenth Amendment claim *after* analyzing standing, making the holding an alternative ground for dismissal. *See Medeiros*, 431 F.3d at 34. Moreover, the Court’s standing analysis was jurisdictional—it went to the federal courts’ power to hear the case—and thus could not be mere dicta. *See Steel Co. v. Citizens for a Better Env’t*, 523 U.S. 83, 94–95 (1998) (holding that standing is a threshold jurisdictional issue that must be addressed before reaching the merits).
+
+Bond also argues that the Seventh Circuit’s decision in *Gillespie v. City of Indianapolis*, 185 F.3d 693 (7th Cir. 1999), supports her standing. But *Gillespie* is an outlier, and the Third Circuit correctly declined to follow it. *Bond*, 681 F.3d at 161. The weight of authority—and the Supreme Court’s own reasoning in *Tennessee Electric Power*—supports the conclusion that private parties lack standing to raise Tenth Amendment claims.
+
+**II. § 229 IS A VALID EXERCISE OF CONGRESS’S TREATY POWER**
+
+A. Congress acted within its enumerated powers in enacting § 229 to implement the Chemical Weapons Convention.
+
+The Necessary and Proper Clause empowers Congress to “make all Laws which shall be necessary and proper for carrying into Execution” its enumerated powers. U.S. Const. art. I, § 8, cl. 18. The Treaty Power, in turn, authorizes the President, “by and with the Advice and Consent of the Senate,” to make treaties. *Id.* art. II, § 2, cl. 2. In *Missouri v. Holland*, 252 U.S. 416 (1920), the Supreme Court held that Congress may enact legislation to implement a valid treaty, even if that legislation would otherwise exceed its enumerated powers:
+
+> If [a] treaty is valid there can be no dispute about the validity of the statute [implementing it] under Article I, § 8, as a necessary and proper means to execute the powers of the Government.
+
+*Id.* at 432. The Court explained that the Treaty Power is “an independent grant of power to the national government,” and that treaties may address matters “of the sharpest exigency for the national well being” that Congress could not otherwise regulate. *Id.* at 433.
+
+B. The Chemical Weapons Convention is a valid treaty, and § 229 is a necessary and proper means of implementing it.
+
+The Chemical Weapons Convention (CWC) was ratified by the United States in 1997 and entered into force in 1998. *See* 32 I.L.M. 800 (1993). The CWC requires signatory nations to “adopt the necessary measures to implement its obligations,” including enacting penal legislation to prohibit the use of chemical weapons. *Id.* at 810. Congress fulfilled this obligation by enacting the Chemical Weapons Convention Implementation Act of 1998, 22 U.S.C. § 6701, and its penal provision, 18 U.S.C. § 229.
+
+Section 229 criminalizes the knowing use or possession of chemical weapons, as defined by the CWC. *See* 18 U.S.C. § 229(a), (f). This legislation is a necessary and proper means of implementing the CWC, as it ensures compliance with the treaty’s prohibition on chemical weapons. *See Holland*, 252 U.S. at 432. The fact that § 229 may reach conduct traditionally regulated by the states does not render it unconstitutional, for the Treaty Power is not so limited. *Id.* at 433–34.
+
+C. Bond’s reliance on *United States v. Lopez*, 514 U.S. 549 (1995), and *United States v. Morrison*, 529 U.S. 598 (2000), is misplaced.
+
+Bond argues that § 229 exceeds Congress’s enumerated powers because it lacks a jurisdictional nexus to interstate commerce or another enumerated power. *See* Bond Br. at 10–11. But *Lopez* and *Morrison* addressed statutes enacted under the Commerce Clause, not the Treaty Power. The Supreme Court has never suggested that *Lopez* or *Morrison* cabined Congress’s authority under the Treaty Power. To the contrary, the Court in *Holland* expressly distinguished the Treaty Power from other enumerated powers, noting that treaties may address matters “of the sharpest exigency for the national well being” that Congress could not otherwise regulate. 252 U.S. at 433.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should affirm the judgment below. Bond lacks standing to raise a Tenth Amendment challenge to § 229, and § 229 is a valid exercise of Congress’s Treaty Power.

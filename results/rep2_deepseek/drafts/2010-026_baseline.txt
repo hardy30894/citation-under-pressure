@@ -1,0 +1,37 @@
+**ARGUMENT**
+
+**THE NINTH CIRCUIT ERRED BY EXPANDING EXEMPTION 2 BEYOND ITS STATUTORY TEXT AND THIS COURT’S PRECEDENT.**
+
+The Freedom of Information Act (“FOIA”) mandates “a general philosophy of full agency disclosure unless information is exempted under clearly delineated statutory language.” *Dep’t of the Air Force v. Rose*, 425 U.S. 352, 360-61 (1976). FOIA’s nine exemptions are “explicitly exclusive” and “must be narrowly construed.” *U.S. Dep’t of Justice v. Tax Analysts*, 492 U.S. 136, 151 (1989); *Rose*, 425 U.S. at 361. The Navy bears the burden of proving that withheld documents fall within a specific exemption. 5 U.S.C. § 552(a)(4)(B); *U.S. Dep’t of State v. Ray*, 502 U.S. 164, 173 (1991).
+
+Exemption 2 shields matters “related solely to the internal personnel rules and practices of an agency.” 5 U.S.C. § 552(b)(2). The Ninth Circuit erred by holding that the Navy’s Explosive Safety Quantity Distance (“ESQD”) maps—technical documents measuring blast effects of explosions—qualify for this exemption. The court’s adoption of a “predominantly internal” standard, untethered from the statutory text, contravenes this Court’s precedent and the plain meaning of Exemption 2.
+
+**A. The “Predominantly Internal” Standard Lacks Any Basis in the Statute or This Court’s Precedent.**
+
+The Ninth Circuit adopted the D.C. Circuit’s “predominantly internal” test from *Crooker v. Bureau of Alcohol, Tobacco & Firearms*, 670 F.2d 1051 (D.C. Cir. 1981) (en banc), to determine whether documents relate to “internal personnel rules and practices.” But that standard reads the word “personnel” out of the statute. Exemption 2 does not exempt all “internal” agency documents; it exempts only those “related solely to the *personnel* rules and practices of an agency.” 5 U.S.C. § 552(b)(2) (emphasis added). The word “personnel” limits the exemption to matters governing an agency’s employees—such as parking, lunch hours, sick leave, or job training. *See Rose*, 425 U.S. at 363.
+
+This Court has never endorsed a “predominantly internal” standard. In *Hardy v. Bureau of Alcohol, Tobacco & Firearms*, 631 F.2d 653 (9th Cir. 1980), the Court held that “law enforcement materials, the disclosure of which may risk circumvention of agency regulation, are exempt under Exemption 2.” *Id.* at 656. *Hardy* did not hold that *only* law enforcement materials qualify, but it did not expand Exemption 2 to cover any document that is “predominantly internal.” The Ninth Circuit’s reliance on *Maricopa Audubon Society v. United States Forest Service*, 108 F.3d 1082 (9th Cir. 1997), is misplaced. *Maricopa* rejected Exemption 2’s application to goshawk nesting data, holding that such data did not “relate ‘solely,’ or even predominantly, ‘to the internal personnel rules and practices of an agency.’” *Id.* at 1085. That passing reference to “predominantly” did not adopt a new legal standard; it merely described the data’s lack of connection to personnel matters.
+
+The Ninth Circuit’s expansion of Exemption 2 to cover the ESQD maps—which are technical safety documents, not personnel rules—violates the canon that FOIA exemptions “must be narrowly construed.” *Rose*, 425 U.S. at 361.
+
+**B. The ESQD Maps Do Not Relate to “Internal Personnel Rules and Practices.”**
+
+The ESQD maps measure the effects of explosions at Naval Magazine Indian Island. They are used to design storage facilities and minimize risks of chain reactions. These maps are technical planning tools, not rules governing Navy personnel. They do not prescribe how employees should behave, what training they must undergo, or how they should perform their duties. They are, at most, internal *operational* documents—a category Congress did not include in Exemption 2.
+
+This Court has recognized that Exemption 2 covers only “rules and practices regarding mundane employment matters” (Low 2) or materials that “risk circumvention of agency regulation” (High 2). *Hardy*, 631 F.2d at 655-56. But even High 2 materials must relate to “personnel rules and practices.” The ESQD maps do not. They are akin to the goshawk nesting data in *Maricopa*—information about the physical environment, not about agency personnel. *Maricopa*, 108 F.3d at 1085.
+
+The Navy’s own affidavits confirm this. Commander Whitbred stated that the Navy “use[s] these arcs to design, array, and construct ammunition storage facilities, and to organize ammunition operations for risk mitigation and enhanced safety.” That is a safety and operational function, not a personnel function. The Ninth Circuit’s contrary conclusion ignores the statutory text.
+
+**C. The Risk of Circumvention Does Not Transform Non-Personnel Documents into Exemption 2 Materials.**
+
+The Ninth Circuit also held that the ESQD maps qualify for Exemption 2 because their disclosure “would present a risk of circumvention of agency regulation.” But the risk of circumvention is a *necessary* condition for High 2 exemption, not a *sufficient* one. The document must first relate to “internal personnel rules and practices.” *See Morley v. CIA*, 508 F.3d 1108, 1124 (D.C. Cir. 2007). The Ninth Circuit’s approach collapses this two-step inquiry into a single question: whether disclosure would risk circumvention. That is error.
+
+If the risk of circumvention alone sufficed, Exemption 2 would swallow FOIA’s other exemptions, which specifically address national security (Exemption 1), law enforcement (Exemption 7), and other sensitive information. Congress did not intend such a result. *Tax Analysts*, 492 U.S. at 151.
+
+**D. The Navy’s Proper Avenue for Withholding These Documents Is Exemption 1, Not Exemption 2.**
+
+The Navy has not classified the ESQD maps, despite Commander Whitbred’s claim that their disclosure could threaten national security. Exemption 1 specifically exempts classified documents “kept secret in the interest of national defense or foreign policy.” 5 U.S.C. § 552(b)(1). If the Navy truly believes these maps are sensitive, it should classify them—not stretch Exemption 2 beyond its breaking point. As the dissent below observed, the Navy’s failure to classify the maps “strongly suggests” that its reluctance to release them is based on “political difficulties,” not genuine security concerns. *Milner v. U.S. Dep’t of Navy*, 575 F.3d 959, 972 (9th Cir. 2009) (Tallman, J., dissenting).
+
+**CONCLUSION**
+
+The Ninth Circuit’s adoption of the “predominantly internal” standard expands Exemption 2 beyond its statutory text and this Court’s precedent. The ESQD maps are technical safety documents, not personnel rules. The judgment should be reversed.

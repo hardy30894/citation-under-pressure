@@ -1,0 +1,29 @@
+# ARGUMENT
+
+## I. SECTION 289'S "ARTICLE OF MANUFACTURE" DOES NOT MEAN THE ENTIRE END PRODUCT SOLD TO CONSUMERS
+
+Section 289 of the Patent Act permits recovery of an infringer's "total profit" from the sale of "any article of manufacture to which [a patented] design or a colorable imitation thereof has been applied." 35 U.S.C. § 289. The Federal Circuit held that this provision requires disgorgement of Samsung's entire smartphone profits—even though the asserted patents claimed only a rounded-corner front face (D618,677), a bezel (D593,087), and a colorful grid of icons (D604,305), representing a tiny fraction of a smartphone's thousands of components and features.
+
+That construction cannot be reconciled with the statutory text. The term "article of manufacture" is not synonymous with "end product sold to the consumer." This Court has long recognized that a single product may contain multiple "articles of manufacture." In *Application of Zahn*, 617 F.2d 261 (C.C.P.A. 1980), the predecessor to the Federal Circuit confirmed that a design patent may claim less than an entire product, protecting only "a distinct part of a device having no independent existence apart from the whole." The Patent Act itself defines "article of manufacture" broadly to encompass components. As this Court explained in *Deepsouth Packing Co. v. Laitram Corp.*, 406 U.S. 518 (1972), Congress uses "article of manufacture" to refer to discrete manufactured items, not necessarily the complete commercial product ultimately sold.
+
+The ordinary meaning of "article of manufacture" supports componentry. Dictionaries from the time of Section 289's enactment defined "article" as "a particular substance or commodity," a definition equally applicable to a smartphone's screen, its internal chip, or its outer case. Nothing in the statutory text confines "article of manufacture" to the finished product as sold. Indeed, the Patent Act's own utility-patent provisions confirm that "manufacture" includes components: 35 U.S.C. § 101 permits patents on "any new and useful . . . manufacture," and this Court has recognized that such manufactures include components of larger assemblies. *See Diamond v. Chakrabarty*, 447 U.S. 303, 308 (1980) (describing the expansive but not unlimited scope of patentable "manufacture[s]").
+
+## II. THE STATUTORY STRUCTURE AND HISTORY OF SECTION 289 CONFIRM THAT DAMAGES MUST BE TIED TO THE PATENTED COMPONENT
+
+Congress enacted the predecessor to Section 289 in 1887 specifically to overrule this Court's decision in *Dobson v. Dornsife Mfg. Co.*, 118 U.S. 10 (1886), which had refused to award profits for design-patent infringement absent proof that the design—rather than other product features—caused the defendant's profits. The 1887 Act was designed to ease Dobson's causation burden, not to eliminate the requirement that recovery correspond to the design's contribution. Nothing in the legislative history suggests Congress intended to convert every design-patent case—regardless of how minor the patented feature—into a vehicle for entire-product disgorgement.
+
+This reading harmonizes with Section 289's own structural signal: the statute refers to "the article of manufacture to which [the] design... has been applied," 35 U.S.C. § 289 (emphasis added), signifying the specific article bearing the design, not the multicomponent commercial product incorporating it. Congress's use of "applied" reflects the physical fact that a design is applied to a discrete component—a bezel, a screen face, an icon layout—not abstractly infused into an entire multifunction device.
+
+## III. THE PROPER TEST REQUIRES A FACT-SPECIFIC INQUIRY IDENTIFYING THE "ARTICLE OF MANUFACTURE" TO WHICH THE DESIGN WAS APPLIED
+
+The correct approach requires a two-step inquiry: first, identify the "article of manufacture" to which the infringed design has been applied, considering factors such as the scope of the design claimed in the patent, the relative prominence of the design within the product, whether the design is conceptually distinct from the product as a whole, and the physical relationship between the patented design and the rest of the product; second, calculate the infringer's total profit on that identified article.
+
+This framework respects both congressional intent to ease the plaintiff's causation burden after *Dobson* and the statutory text's use of "article of manufacture" as a term distinct from "product." It also aligns with this Court's general reluctance to read patent remedies provisions to produce windfalls disconnected from the value of the patented invention. *Cf. Aro Mfg. Co. v. Convertible Top Replacement Co.*, 365 U.S. 336, 343 (1961) (patent damages should bear a relationship to the patented feature's contribution).
+
+## IV. THE FEDERAL CIRCUIT'S CATEGORICAL RULE PRODUCES ABSURD, UNJUST RESULTS THAT SECTION 289 DOES NOT COMPEL
+
+The court below held categorically that Section 289 forecloses any apportionment once a design patent covers a "component" that is not sold separately to consumers. That rule produces the absurd result that the infringer of a design covering a single icon or a cup-holder shape must disgorge all profits from an entire automobile or smartphone. Nothing in Section 289's text, purpose, or history commands so disproportionate a remedy. Just as this Court has cautioned against constructions of patent statutes that produce disproportionate windfalls untethered to the invention's actual contribution, *see, e.g., Aro Mfg.*, 365 U.S. at 343, the Federal Circuit's rule should be rejected in favor of the multi-factor, article-identifying approach set forth above.
+
+## CONCLUSION
+
+The judgment of the Federal Circuit should be reversed, and the case remanded for application of the proper "article of manufacture" test to determine the appropriate profits award under Section 289.

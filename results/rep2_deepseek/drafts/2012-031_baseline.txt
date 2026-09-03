@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+The district court abused its discretion by certifying a class under Rule 23(b)(3) without requiring adequate admissible evidence that damages could be measured and quantified on a class-wide basis consistent with the plaintiffs’ sole surviving theory of antitrust impact. The court of appeals erred in affirming that certification, deferring to clearly erroneous findings that ignored the fundamental mismatch between the plaintiffs’ damages model and their theory of liability.
+
+**I. The District Court Failed to Conduct the Rigorous Analysis Required by Rule 23**
+
+Rule 23(b)(3) requires that “questions of law or fact common to class members predominate over any questions affecting only individual members.” This predominance inquiry demands a “rigorous analysis” of the evidence, *Wal-Mart Stores, Inc. v. Dukes*, 564 U.S. 338, 350–51 (2011), and “may include a preliminary inquiry into the merits,” *In re Hydrogen Peroxide Antitrust Litig.*, 552 F.3d 305, 317 (3d Cir. 2008). A district court must resolve factual disputes necessary to determine whether the Rule 23 requirements are met, even when those disputes overlap with the merits. *Id.* at 318.
+
+Here, the district court certified a class premised on a single theory of antitrust impact: that Comcast’s clustering deterred overbuilder entry, thereby enabling supra-competitive pricing. *Behrend v. Comcast Corp.*, 264 F.R.D. 150, 154 (E.D. Pa. 2010). Yet the plaintiffs’ damages expert, Dr. James McClave, did not design a model to measure damages flowing from that theory. Instead, his model purported to calculate damages from all forms of anticompetitive conduct—including conduct unrelated to overbuilder deterrence, such as market allocation and customer swapping. The model thus failed to isolate the incremental harm attributable to the only theory the district court deemed capable of class-wide proof.
+
+**II. The Damages Model Did Not Measure Damages Attributable to the Certified Theory**
+
+A class may be certified under Rule 23(b)(3) only if “damages are capable of measurement on a class-wide basis through common proof.” *Comcast Corp. v. Behrend*, 569 U.S. 27, 34 (2013). When a plaintiff’s damages model does not measure damages resulting from the particular theory of liability accepted by the district court, the model cannot support predominance. *Id.* at 35–36.
+
+In *Comcast*, this Court held that the plaintiffs’ model was “unreliable” because it assumed the validity of multiple antitrust theories, only one of which survived certification. *Id.* at 36. The model did not “attribute damages to the overbuilder-deterrence theory alone,” and therefore could not “establish that damages are capable of measurement on a class-wide basis.” *Id.* at 35. The district court’s contrary finding was clearly erroneous because it rested on a model that bore “no rational relationship to the supportive evidentiary data.” *Krasnov v. Dinan*, 465 F.2d 1298, 1302 (3d Cir. 1972).
+
+The court of appeals attempted to distinguish *Comcast* by noting that the district court had “narrowed” the class’s theories to a single one. But that narrowing only underscores the problem: the damages model was never recalibrated to reflect the narrowed theory. The model’s failure to tie damages to the overbuilder-deterrence theory meant that common questions did not predominate, because individual inquiries would be required to determine whether each class member’s injury was caused by the overbuilder-deterrence theory or by other conduct.
+
+**III. The Court of Appeals Applied an Incorrect Standard of Review**
+
+The court of appeals reviewed the district court’s certification decision for abuse of discretion, stating that factual findings could be overturned only if “completely devoid of minimum evidentiary support.” *Behrend v. Comcast Corp.*, 655 F.3d 182, 192 (3d Cir. 2011) (quoting *Krasnov*, 465 F.2d at 1302). But the district court’s finding that the damages model could measure class-wide damages was not merely unsupported—it was legally erroneous. The district court applied the wrong legal standard by failing to require that the model correspond to the theory of liability. An error of law is reviewed *de novo*, *Hydrogen Peroxide*, 552 F.3d at 312, and the court of appeals should have corrected it.
+
+Moreover, the district court’s reliance on Dr. McClave’s model was clearly erroneous because the model did not “measure only those damages attributable to the theory” of overbuilder deterrence. *Comcast*, 569 U.S. at 35. The model’s failure to isolate damages from the certified theory rendered it incapable of proving class-wide impact through common evidence. The court of appeals’ deferential review thus perpetuated a fundamental legal error.
+
+**IV. The District Court’s Certification Cannot Be Salvaged by Deference to Factual Findings**
+
+The court of appeals emphasized that the district court held a four-day evidentiary hearing and considered extensive expert testimony. But no amount of process can cure a damages model that is legally insufficient to establish predominance. As this Court explained in *Wal-Mart*, “the class determination generally involves considerations that are enmeshed in the factual and legal issues comprising the plaintiff’s cause of action.” 564 U.S. at 351 (quoting *Coopers & Lybrand v. Livesay*, 437 U.S. 463, 469 (1978)). When the plaintiffs’ own expert concedes that his model does not isolate damages from the sole theory of liability, the district court cannot certify the class simply by crediting that expert’s testimony. The model must be “consistent with [the] liability case.” *Comcast*, 569 U.S. at 35.
+
+Here, the district court’s finding that the model could measure class-wide damages was “plausible” only if one ignored the model’s failure to tie damages to the overbuilder-deterrence theory. That failure rendered the finding clearly erroneous, and the court of appeals should have reversed.
+
+**CONCLUSION**
+
+For these reasons, the judgment of the court of appeals should be reversed, and the case remanded with instructions to decertify the class.

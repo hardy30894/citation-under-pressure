@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. THE DISTRICT COURT ABUSED ITS DISCRETION BY CERTIFYING A CLASS UNDER RULE 23(B)(3) WHERE RESPONDENTS FAILED TO PRESENT ADMISSIBLE EVIDENCE THAT DAMAGES COULD BE MEASURED ON A CLASS-WIDE BASIS.**
+
+Rule 23(b)(3) requires that “questions of law or fact common to class members predominate over any questions affecting only individual members.” Fed. R. Civ. P. 23(b)(3). To satisfy this standard, a plaintiff must demonstrate that common evidence can prove both liability and damages on a class-wide basis. *Wal-Mart Stores, Inc. v. Dukes*, 564 U.S. 338, 350 (2011). The Third Circuit has emphasized that this inquiry must be rigorous and may require a preliminary inquiry into the merits. *In re Hydrogen Peroxide Antitrust Litig.*, 552 F.3d 305, 318 (3d Cir. 2008). The district court’s certification order in this case fails this standard because it improperly relied on an expert methodology that was neither reliable nor capable of class-wide application.
+
+In *Dukes*, the Supreme Court rejected a class certification where plaintiffs failed to show that discrimination claims could be proven through common evidence. 564 U.S. at 350. The Court cautioned that Rule 23 does not permit certification where “each member would have to provide individual proof” of damages. *Id.* at 351. Similarly, in *Comcast Corp. v. Behrend*, 569 U.S. 27 (2013), the Supreme Court vacated a class certification where the plaintiffs’ damages model failed to measure only the alleged antitrust injury. *Id.* at 34. The Court held that the model was not “capable of class-wide proof” because it included damages unrelated to the alleged harm. *Id.*
+
+Here, the district court erred by accepting Dr. McClave’s damages model, which included inflated estimates of overbuilder entry and supracompetitive prices that were not tied to the alleged anticompetitive conduct. The model assumed that Comcast’s clustering deterred overbuilder competition, but it failed to isolate the damages attributable to that conduct alone. As this Court recognized in *Hydrogen Peroxide*, a damages model must be “consistent with [the] theory of liability” and capable of measuring only the alleged harm. 552 F.3d at 320. Dr. McClave’s model did neither.
+
+The district court compounded this error by failing to conduct a proper Daubert analysis of Dr. McClave’s methodology. *Daubert v. Merrell Dow Pharms., Inc.*, 509 U.S. 579 (1993). The court merely accepted the expert’s conclusions without scrutinizing whether his model was reliable or capable of class-wide application. This was an abuse of discretion. *In re Blood Reagents Antitrust Litig.*, 783 F.3d 183, 190 (3d Cir. 2015) (vacating certification where expert’s methodology was unreliable and not tied to the alleged harm).
+
+**II. THE DISTRICT COURT ERRED BY CERTIFYING A CLASS WHERE RESPONDENTS FAILED TO DEMONSTRATE PREDOMINANCE OF COMMON QUESTIONS.**
+
+Rule 23(b)(3) requires that common questions of law or fact “predominate” over individual issues. Fed. R. Civ. P. 23(b)(3). The Third Circuit has held that this standard is not met where individual damages calculations would overwhelm the litigation. *Hydrogen Peroxide*, 552 F.3d at 319. The district court’s certification order ignored this requirement by certifying a class despite the need for individualized inquiries into damages.
+
+The Supreme Court’s decision in *Comcast* confirms this error. 569 U.S. at 34. There, the Court held that a class could not be certified where the plaintiffs’ damages model failed to measure only the alleged antitrust injury. *Id.* The same flaw infects this case. Dr. McClave’s model included damages unrelated to the alleged harm, rendering it incapable of class-wide proof. The district court’s certification order ignored this flaw and improperly certified a class where individual damages issues would predominate.
+
+**CONCLUSION**
+
+The district court abused its discretion by certifying a class under Rule 23(b)(3) where respondents failed to present admissible evidence that damages could be measured on a class-wide basis. The court’s certification order must be reversed.

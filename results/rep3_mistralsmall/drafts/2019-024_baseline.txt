@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+**I. The Ninth Circuit Correctly Held That Actual Knowledge Under ERISA § 1113(2) Requires Knowledge of Both the Fiduciary Act and Its Imprudence.**
+
+The text of ERISA § 1113(2) provides that an action under § 1104 “may not be commenced more than three years after the earliest date on which the plaintiff had actual knowledge of the breach or violation.” 29 U.S.C. § 1113(2). The Ninth Circuit correctly interpreted this provision to require that a plaintiff have actual knowledge of two things: (1) that the fiduciary engaged in the challenged act or omission, and (2) that the act or omission was imprudent in violation of § 1104. *Sulyma v. Intel Corp. Investment Policy Committee*, 936 F.3d 1044, 1050 (9th Cir. 2019).
+
+This interpretation is consistent with the Supreme Court’s guidance that ERISA’s limitations provisions must be read in light of the statute’s remedial purpose. *Tibble v. Edison Int’l*, 575 U.S. 523, 530 (2015) (“[W]e have often taken the view that ‘[e]xceptions to [a] statute of limitations are to be narrowly construed because statutes of limitations ‘are designed to promote justice by preventing surprises through the revival of claims that have been allowed to slumber for an unreasonable number of years.’” (quoting *Order of R.R. Telegraphers v. Ry. Express Agency*, 321 U.S. 342, 348–349 (1944))). The Ninth Circuit’s construction avoids collapsing the three-year limitations period into a mere notice requirement, which would render the “actual knowledge” standard superfluous. *See Sulyma*, 936 F.3d at 1050.
+
+The Ninth Circuit’s holding is also consistent with this Court’s precedents interpreting § 1113(2). In *Blanton v. Anzalone*, 760 F.2d 989 (9th Cir. 1985), the court held that actual knowledge was triggered by knowledge of the transaction constituting the alleged violation, not knowledge of its legal consequences. *Id.* at 991–92. Similarly, in *Meagher v. Int’l Ass’n of Machinists & Aerospace Workers Pension Plan*, 856 F.2d 1418 (9th Cir. 1988), the court explained that actual knowledge is measured by knowledge of the transaction, not knowledge of its illegality under ERISA. *Id.* at 1423. The Ninth Circuit’s decision in *Sulyma* builds on these precedents by clarifying that actual knowledge under § 1113(2) requires awareness of the imprudent act itself. *Sulyma*, 936 F.3d at 1050.
+
+**II. The Ninth Circuit Properly Rejected Intel’s Argument That Constructive Notice or Access to Disclosures Satisfies the Actual Knowledge Requirement.**
+
+Intel argues that Sulyma’s access to disclosures about the challenged investments—even if he did not read or recall them—should suffice as “actual knowledge” under § 1113(2). This argument misreads the statute and conflicts with the Ninth Circuit’s precedents.
+
+First, the plain text of § 1113(2) requires “actual knowledge,” not constructive knowledge or notice. The Supreme Court has recognized that Congress deliberately removed the constructive knowledge provision from § 1113 in 1987, leaving only the actual knowledge standard. *See Omnibus Budget Reconciliation Act of 1987*, Pub. L. No. 100-203, § 9342(b), 101 Stat. 1330. This Court has emphasized that the actual knowledge requirement is not satisfied by mere access to information. *See Sulyma*, 936 F.3d at 1050.
+
+Second, the Ninth Circuit’s precedents reject the notion that access to disclosures alone triggers the limitations period. In *Waller v. Blue Cross of California*, 32 F.3d 1337 (9th Cir. 1994), the court held that actual knowledge requires more than the plaintiff’s ability to access information; it requires awareness of the underlying breach. *Id.* at 1342. Similarly, in *Phillips v. Alaska Hotel & Restaurant Employees Pension Fund*, 944 F.2d 509 (9th Cir. 1991), the court explained that the limitations period runs from the earliest date on which the plaintiff had actual knowledge of the breach, not from the date the plaintiff could have discovered it. *Id.* at 520–21.
+
+Intel’s reliance on *Ziegler v. Connecticut General Life Insurance Co.*, 916 F.2d 548 (9th Cir. 1990), is misplaced. In *Ziegler*, the plaintiffs were specifically informed by the plan administrator of the challenged transaction, and the court held that this constituted actual knowledge. *Id.* at 552. Here, by contrast, Sulyma testified that he did not recall seeing or understanding the disclosures, and there is no evidence that Intel affirmatively apprised him of the imprudence of the investments. *Sulyma*, 936 F.3d at 1051.
+
+**III. The Ninth Circuit’s Holding Does Not Undermine ERISA’s Purpose or Create Uncertainty for Plan Fiduciaries.**
+
+Intel warns that the Ninth Circuit’s decision will encourage plaintiffs to feign ignorance and frustrate the purpose of ERISA’s limitations provisions. This concern is overstated. The Ninth Circuit’s holding does not immunize plaintiffs who ignore clear disclosures; it merely requires that the limitations period run from the date the plaintiff actually knew of the breach, not the date the plaintiff could have known. *See Sulyma*, 936 F.3d at 1050.
+
+Moreover, the Ninth Circuit’s decision is consistent with ERISA’s remedial purpose. As this Court has recognized, statutes of limitations are designed to prevent stale claims and promote justice by avoiding surprises. *Tibble*, 575 U.S. at 530. The Ninth Circuit’s interpretation ensures that the limitations period does not begin to run until the plaintiff is actually aware of the breach, thereby preventing fiduciaries from exploiting a plaintiff’s ignorance to avoid liability. *See Sulyma*, 936 F.3d at 1050.
+
+**Conclusion**
+
+The Ninth Circuit correctly held that actual knowledge under ERISA § 1113(2) requires knowledge of both the fiduciary act and its imprudence. The decision is consistent with the statute’s text, this Court’s precedents, and ERISA’s remedial purpose. This Court should affirm the judgment below.

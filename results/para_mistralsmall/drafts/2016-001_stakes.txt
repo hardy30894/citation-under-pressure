@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. The Patent Act Limits Damages for Design Patent Infringement to the Portion of the Infringer’s Profits Attributable to the Infringed Design**
+
+The Patent Act provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” 35 U.S.C. § 289 (emphasis added). This Court has long held that § 289’s “total profit” language does not permit a patentee to recover the entire profits from the sale of a multicomponent product when the infringed design applies only to a component. *See* *Dawson v. Hinshaw Music, Inc.*, 905 F.2d 1510, 1512 (Fed. Cir. 1990) (“The statute does not authorize an award of profits from the sale of the entire apparatus where the patented design is embodied in only a part of that apparatus.”); *see also* *Smith v. Whitman Saddle Co.*, 148 U.S. 674, 680 (1893) (limiting damages to the “increase of business” attributable to the infringement).
+
+This Court’s decision in *Apple Inc. v. Samsung Electronics Co.* confirms that damages under § 289 must be apportioned to the infringed design. 786 F.3d 983, 999 (Fed. Cir. 2015) (“[T]he statute does not categorically preclude the award of damages based on less than the entire profits of a multi-component product.”). The Federal Circuit recognized that “the statute does not expressly require an award of total profits,” id., and that apportionment is necessary to avoid overcompensation. *Id.* (“[A] patentee’s recovery may be limited to the profit attributable to the infringing component.”).
+
+**II. Apportionment Is Required to Avoid Improper Windfalls and to Compensate Only for the Value of the Infringed Design**
+
+This Court has repeatedly emphasized that damages must be tied to the value of the patented invention, not the value of the entire product. *See* *General Motors Corp. v. Devex Corp.*, 461 U.S. 648, 655 (1983) (“Damages are to be awarded ‘for the use made of the invention by the infringer.’” (quoting * Seymour v. McCormick*, 57 U.S. 480, 488 (1853))). Allowing a patentee to recover the entire profits from a multicomponent product would confer a windfall by compensating for features that were not infringed. *See* *Grain Processing Corp. v. American Maize-Prods. Co.*, 840 F.2d 902, 907 (Fed. Cir. 1988) (“[D]amages must reflect the value of the patented invention, not the value of the entire product.”).
+
+The Federal Circuit’s decision in *Apple* properly applied this principle by requiring apportionment where the infringed design was only one component of a complex product. 786 F.3d at 999. The court rejected Apple’s argument that it was entitled to the entire profits from Samsung’s smartphones, holding that damages must be limited to the profits attributable to the infringed design. *Id.* This approach ensures that damages are compensatory, not punitive, and aligns with the Patent Act’s goal of making the patentee whole—not overcompensating it. *See* * Aro Mfg. Co. v. Convertible Top Replacement Co.*, 365 U.S. 336, 346 (1961) (“The function of damages is to compensate the patentee for the injury caused by the infringement.”).
+
+**III. The Federal Circuit Erred in Affirming a Damages Award Based on Samsung’s Entire Profits**
+
+The Federal Circuit’s decision in this case conflicts with the Patent Act and this Court’s precedents. The court erroneously affirmed a damages award based on Samsung’s entire profits, despite the fact that the infringed design applied only to a component of the smartphones. *See* *Apple Inc. v. Samsung Elecs. Co.*, 809 F.3d 633, 642 (Fed. Cir. 2015) (affirming damages award without addressing apportionment). This was legal error because § 289 does not permit recovery of profits unrelated to the infringed design.
+
+The Federal Circuit’s failure to require apportionment undermines the statutory scheme and this Court’s precedents. *See* *Devex*, 461 U.S. at 655 (damages must compensate for the use of the invention, not the entire product). The decision below should be reversed because it permits Apple to recover a windfall that exceeds the value of the infringed design.
+
+**IV. The Court Should Clarify That Apportionment Is Mandatory Under § 289**
+
+This Court should grant review to clarify that damages for design patent infringement must be apportioned to the infringed design. The Federal Circuit’s fractured decisions in this case—with multiple dissents and concurrences—demonstrate the need for this Court’s guidance. *See* *Apple Inc. v. Samsung Elecs. Co.*, 809 F.3d at 642 (Prost, C.J., dissenting) (arguing that apportionment is required); *id.* at 645 (Dyk, J., dissenting) (same).
+
+The Patent Act’s text, this Court’s precedents, and fundamental principles of patent damages all require apportionment. The Court should reverse the Federal Circuit’s decision and remand for a damages award limited to the profits attributable to the infringed design.

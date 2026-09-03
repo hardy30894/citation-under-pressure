@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. A PROCEDURALLY DEFAULTED INEFFECTIVE-ASSISTANCE-OF-COUNSEL CLAIM CANNOT SERVE AS “CAUSE” TO EXCUSE THE PROCEDURAL DEFAULT OF ANOTHER FEDERAL HABEAS CLAIM.**
+
+The Antiterrorism and Effective Death Penalty Act of 1996 (AEDPA) and this Court’s precedents require a state prisoner to exhaust all available state remedies before seeking federal habeas relief. *See* 28 U.S.C. § 2254(b)(1)(A). When a state court has clearly and regularly refused to consider a claim on the merits because of a state procedural rule, that claim is procedurally defaulted, and federal review is barred unless the prisoner demonstrates “cause and actual prejudice.” *Wainwright v. Sykes*, 433 U.S. 72, 84 (1977). The Sixth Circuit erred by holding that Carpenter’s procedurally defaulted ineffective-assistance-of-appellate-counsel (IAC) claim could serve as “cause” to excuse the default of his sufficiency-of-the-evidence claim.
+
+**A. “Cause” Must Itself Be Exhausted and Free from Procedural Default.**
+
+This Court has consistently held that “cause” for a procedural default must be an external factor that cannot fairly be attributed to the prisoner. *Coleman v. Thompson*, 501 U.S. 722, 753 (1991). Attorney error can constitute cause only if it rises to the level of a constitutional violation, such as ineffective assistance of counsel under *Strickland v. Washington*, 466 U.S. 668 (1984). *Murray v. Carrier*, 477 U.S. 478, 488 (1986). Critically, *Murray* held that “the exhaustion doctrine . . . applies to claims of ineffective assistance of counsel” raised as cause. *Id.* at 489. If the IAC claim itself was not fairly presented to the state courts, it cannot excuse a default. *Id.*
+
+Here, Carpenter’s IAC claim was procedurally defaulted because he filed his application to reopen his direct appeal untimely under Ohio Rule of Appellate Procedure 26(B). The Ohio Court of Appeals dismissed the application as untimely, and the Ohio Supreme Court affirmed. Under *Coleman*, a state court’s invocation of a procedural bar to reject a claim constitutes an independent and adequate state ground that precludes federal review. *Coleman*, 501 U.S. at 729–30. The Sixth Circuit’s holding that Carpenter could use this defaulted IAC claim as “cause” directly contradicts *Murray* and *Coleman*.
+
+**B. The Sixth Circuit’s Rule Would Evade AEDPA’s Exhaustion Requirement.**
+
+The Sixth Circuit reasoned that an IAC claim could excuse a default “regardless of whether the ineffective-assistance-of-counsel claim had been procedurally defaulted.” That rule is untenable. It would allow a prisoner to bypass state court review of the IAC claim, then use that very claim to resurrect an otherwise defaulted federal claim. This Court has never permitted such an end-run around exhaustion. *See Engle v. Isaac*, 456 U.S. 107, 129 (1982) (holding that a prisoner cannot use a defaulted claim as cause to excuse another default). The purpose of the exhaustion doctrine is to give state courts the first opportunity to correct constitutional violations. *Rose v. Lundy*, 455 U.S. 509, 518 (1982). Allowing a defaulted IAC claim to serve as cause would undermine that purpose and encourage piecemeal litigation.
+
+**C. Carpenter Cannot Show “Actual Prejudice” from the Alleged Default.**
+
+Even if the IAC claim were not defaulted, Carpenter cannot establish “actual prejudice” from counsel’s failure to raise the sufficiency claim on direct appeal. The record shows overwhelming evidence of guilt. Carpenter pleaded guilty to aggravated murder and aggravated robbery. His sufficiency challenge on direct appeal was meritless, as the evidence supported his conviction. *See Jackson v. Virginia*, 443 U.S. 307, 319 (1979) (requiring evidence sufficient for a rational trier of fact to find guilt beyond a reasonable doubt). Because the underlying claim lacks merit, Carpenter cannot show that counsel’s failure to raise it prejudiced him. *Strickland*, 466 U.S. at 694.
+
+**II. THE SIXTH CIRCUIT’S DECISION CONFLICTS WITH THIS COURT’S PRECEDENTS AND MUST BE REVERSED.**
+
+The Sixth Circuit’s holding creates a split with other circuits and conflicts with *Coleman* and *Murray*. In *Coleman*, this Court held that a defaulted IAC claim cannot serve as cause because the IAC claim itself must be exhausted. *Coleman*, 501 U.S. at 755. The Sixth Circuit’s contrary rule would permit prisoners to manufacture cause by defaulting IAC claims in state court, then raising them for the first time in federal habeas. That result is inconsistent with AEDPA’s goal of comity and finality. *See* 28 U.S.C. § 2254(b)(1)(A).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the Sixth Circuit should be reversed. Carpenter’s procedurally defaulted IAC claim cannot excuse the default of his sufficiency claim, and he has failed to show prejudice. The writ of habeas corpus should be denied.

@@ -1,0 +1,33 @@
+Here is the argument section of the merits brief for the petitioner, Edward S. Cohen, in *Cohen v. de la Cruz*.
+
+---
+
+**ARGUMENT**
+
+The plain text of 11 U.S.C. § 523(a)(2)(A) excepts from discharge only those debts “for money, property, services, or an extension, renewal, or refinancing of credit, *to the extent obtained by* … actual fraud.” (emphasis added). This language limits nondischargeability to the value of the actual benefit the debtor fraudulently obtained. Treble damages, attorney’s fees, and costs imposed by state law are not “obtained by” fraud; they are post-hoc statutory penalties that do not represent any property the debtor received from the victim. The Third Circuit erred by expanding § 523(a)(2)(A) to encompass these punitive awards, contradicting the statute’s plain meaning and the fresh-start policy of the Bankruptcy Code.
+
+**I. The plain language of § 523(a)(2)(A) limits nondischargeability to the value actually obtained through fraud.**
+
+When interpreting a statute, courts must “give effect to the plain meaning of the text.” *United States v. Ron Pair Enters., Inc.*, 489 U.S. 235, 242 (1989). The critical phrase is “to the extent obtained by.” This phrase imposes a causation and limitation requirement: the debt must be one *for* money, property, etc., *and* the money or property must have been *obtained by* the fraud. The natural reading is that only the portion of the debt that represents the actual value the debtor fraudulently received is excepted from discharge.
+
+Congress deliberately used the words “to the extent obtained by” to limit the exception. This Court has recognized that “the phrase ‘obtained by’” requires a direct link between the fraud and the property received. *Field v. Mans*, 516 U.S. 59, 68 (1995). Punitive or treble damages do not satisfy that link. A debtor does not “obtain” a treble-damage award from the creditor; the court imposes that award as a matter of law after the fraud is discovered. The debtor never received those multiplied sums. They are a penalty, not a substitute for fraudulently acquired property.
+
+The Third Circuit held that the entire judgment, including treble damages and fees, is nondischargeable because the “debt” arose from the fraudulent conduct. That interpretation reads the limiting phrase “to the extent obtained by” out of the statute. If any debt “arising from” fraud were excepted, then all consequential and punitive damages flowing from the fraud would be nondischargeable. But Congress did not use the broad words “arising from” or “relating to.” It used the narrow phrase “to the extent obtained by.” That textual choice must be respected. *See United States v. Wiltberger*, 18 U.S. (5 Wheat.) 76, 95 (1820) (Marshall, C.J.) (“[W]here there is a clear and precise limitation, it is not to be extended by construction.”).
+
+**II. The “fresh start” policy compels a narrow construction of exceptions to discharge.**
+
+The Bankruptcy Code’s central purpose is to afford the “honest but unfortunate debtor” a fresh start. *Grogan v. Garner*, 498 U.S. 279, 286-87 (1991). Exceptions to discharge are to be strictly construed against the objecting creditor and in favor of the debtor. *Id.* at 287. Punitive damages serve the state’s interest in punishment and deterrence—functions that are secondary to the federal bankruptcy goal of rehabilitation. Allowing a single state to impose punitive awards that survive bankruptcy undermines the uniform federal discharge policy.
+
+The Eleventh Circuit in *In re St. Laurent*, 991 F.2d 672, 678-80 (11th Cir. 1993), relied on the “honest but unfortunate” language to hold punitive damages nondischargeable. That reasoning conflates the debtor’s moral culpability with the statutory text. Congress already addressed culpability by making compensatory damages for fraud nondischargeable. Nothing in the Code indicates that fraud debtors must forfeit the fresh start entirely. To the contrary, the Code’s scheme carefully balances the debtor’s need for a new beginning with the creditor’s right to recover actual losses.
+
+**III. The Third Circuit’s reliance on state-law labeling is misplaced.**
+
+The court below reasoned that because the New Jersey Consumer Fraud Act mandates treble damages, the award was “foreseeable” and thus “obtained by” the debtor’s fraud. But foreseeability does not change the character of the award. State law cannot redefine the federal bankruptcy standard. *See Grogan*, 498 U.S. at 284 (elements of nondischargeability are controlled by federal law). Even if the treble damages are compensatory in purpose under New Jersey law, they are not money “obtained by” the debtor from the creditor. The debtor never received the trebled amount from the tenant; he received only the actual rent overcharge. The bankruptcy court found the overcharge total was $31,382.50. That sum is nondischargeable. The additional $62,765 in treble damages, plus attorney’s fees and costs, are not “money obtained by” fraud and must be discharged.
+
+The Ninth Circuit in *In re Levy*, 951 F.2d 196, 199 (9th Cir. 1991), correctly held that punitive damages awarded in a fraud action are dischargeable because they “do not represent compensation for loss actually incurred by the creditor as a result of the debtor’s fraud.” The Third Circuit rejected *Levy*, but its reasoning cannot be squared with the statutory text. Section 523(a)(2)(A) does not define “debt” to include every judgment arising from a tort; it defines nondischargeable debt as that which was “obtained by” the fraud. A punitive award is not obtained by the debtor; it is imposed by the state.
+
+**IV. Allowing treble damages to survive discharge penalizes the debtor twice.**
+
+The debtor here must already pay the full $31,382.50 in overpaid rent, which is excepted from discharge. That is the amount he “obtained” from the tenants. To also except the treble damages would impose a double penalty: the debtor is already liable for the full actual loss, and then an additional penalty that serves only to punish. The bankruptcy system is designed to discipline the dishonest debtor by denying discharge for the actual loss, but it is not designed to be a tool for state punitive regimes. Congress provided other mechanisms for punishing fraud, such as criminal prosecution and denial of discharge under § 727. Expanding § 523(a)(2)(A) to encompass punitive awards upsets the careful balance Congress struck.
+
+Because the language of § 523(a)(2)(A) is clear and the fresh-start policy supports a narrow reading, the decision of the Court of Appeals should be reversed. The treble damages, attorney’s fees, and costs should be discharged.

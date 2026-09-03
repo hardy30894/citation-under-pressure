@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+**I. The Text and Structure of § 289 Require That Damages Be Limited to the Profits Attributable to the Infringed Design Component**
+
+The plain language of 35 U.S.C. § 289 provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” This Court has long held that statutory damages must be tied to the article of manufacture to which the patented design is applied. *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885). Where, as here, a design patent covers only a component—such as a smartphone’s screen or bezel—the “article of manufacture” for damages purposes is that component, not the entire multi-component product. *See Bush & Lane Piano Co. v. Becker Bros.*, 222 F. 902, 903 (2d Cir. 1915) (holding that damages for design patent infringement are limited to profits from the specific article embodying the design).
+
+The Federal Circuit’s contrary approach—permitting Apple to recover Samsung’s entire profits from smartphones containing infringing components—ignores this fundamental limitation. *See Nike, Inc. v. Wal-Mart Stores, Inc.*, 138 F.3d 1437, 1440 (Fed. Cir. 1998) (explaining that design patent damages must be apportioned to the infringing article). This Court has consistently required that damages be “commensurate with the injury.” *General Motors Corp. v. Devex Corp.*, 461 U.S. 648, 654 (1983). Permitting recovery of profits from non-infringing components violates that principle.
+
+**II. The Federal Circuit’s Decision Conflicts with This Court’s Precedent on Apportionment**
+
+This Court has long recognized that patent damages must be apportioned to reflect the value of the patented invention. *Garretson v. Clark*, 111 U.S. 120, 121 (1884) (requiring plaintiff to “separate and apportion” the defendant’s profits attributable to the patented feature). In *Westinghouse v. Wagner Mfg. Co.*, 225 U.S. 604, 614-15 (1912), this Court held that a patentee may not recover profits from unpatented components merely because they are sold together with the patented article. The same logic applies here: Samsung’s smartphones contain thousands of unpatented components, and Apple cannot recover profits from those components simply because they are sold in the same product.
+
+The Federal Circuit’s decision also conflicts with *Aro Mfg. Co. v. Convertible Top Replacement Co.*, 377 U.S. 476, 507 (1964), which held that damages for patent infringement must be limited to the “invention” itself, not the entire product. Although *Aro* addressed utility patents, its reasoning applies with equal force to design patents. *See also Catalina Lighting, Inc. v. Lamps Plus, Inc.*, 295 F.3d 1277, 1288 (Fed. Cir. 2002) (applying *Aro*’s apportionment principle to design patents).
+
+**III. The Jury’s Award of Samsung’s Entire Profits Violates the “Article of Manufacture” Requirement**
+
+Section 289 limits damages to the “article of manufacture” to which the design is applied. This Court has defined “article of manufacture” as “a thing made by hand or machine.” *Diamond v. Chakrabarty*, 447 U.S. 303, 308 (1980). A smartphone is a complex product comprising many separate articles of manufacture, including the screen, bezel, and housing. The design patents at issue cover only specific components, not the entire phone. *See Egyptian Goddess, Inc. v. Swisa, Inc.*, 543 F.3d 665, 679 (Fed. Cir. 2008) (en banc) (design patent claim is limited to the design as applied to a particular article).
+
+The Federal Circuit’s decision allows Apple to recover profits from components that do not embody the patented design, such as the phone’s internal circuitry and software. This Court has rejected such overbroad recovery. *See Seymour v. McCormick*, 57 U.S. 480, 490 (1853) (holding that patentee may not recover “profits made by the defendant from the sale of other articles” not covered by the patent).
+
+**IV. The Federal Circuit’s Approach Creates Unpredictable and Excessive Damages**
+
+Permitting recovery of entire profits from multi-component products would produce windfall damages that bear no relation to the value of the patented design. This Court has cautioned against “unjust enrichment” in patent damages. *Hilton Davis Chem. Co. v. Warner-Jenkinson Co.*, 520 U.S. 17, 29 (1997). The Federal Circuit’s rule would allow design patentees to recover billions of dollars for minor design features, contrary to the purpose of § 289, which was intended to protect “ornamental” designs, not to confer monopoly profits on unpatented components. *See Smith v. Whitman Saddle Co.*, 148 U.S. 674, 679 (1893) (design patents protect “the appearance of the article,” not its function).
+
+**V. This Court Should Adopt a Component-Based Apportionment Standard**
+
+This Court should hold that when a design patent covers only a component of a multi-component product, damages under § 289 are limited to the profits attributable to that component. This standard is consistent with *Dobson*, 114 U.S. at 444, and *Westinghouse*, 225 U.S. at 614-15, and would provide clear guidance to lower courts. *See also Uniloc USA, Inc. v. Microsoft Corp.*, 632 F.3d 1292, 1318 (Fed. Cir. 2011) (requiring apportionment in utility patent damages). The jury should have been instructed to determine the portion of Samsung’s profits attributable to the infringed design components, not to award Samsung’s entire smartphone profits.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse the Federal Circuit’s decision and remand for a new trial on damages limited to the profits attributable to the infringed design components.

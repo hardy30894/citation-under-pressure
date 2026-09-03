@@ -5,9 +5,8 @@ Figure 1: strict quotation accuracy by condition, one line per model,
 with the human baseline as a reference band. Reads rescore_full.json,
 so it grows automatically when models are added and re-scored.
 
-Figure 2: the revision experiment. Round-0 to final strict accuracy under
-true, false, and no feedback, one panel each, per model. Reads
-rescore_loops.json.
+Figure 2: verifier precision against what revision does, from
+rescore_loops.json and loop_transitions.json.
 
 Both figures are drawn at the IOS Press type-area width (12.4 cm) so
 that the fonts print at their nominal size; IOS requires lettering of at
@@ -73,32 +72,46 @@ def fig1():
 
 
 def fig2():
+    """Verifier precision against what revision does: final strict
+    accuracy and the share of accurate round-0 quotations removed, at
+    precision 0 (all flags false), 0.25, 0.5, 0.75, 1 (all true), with no
+    feedback as the leftmost point."""
     data = json.loads((HERE / "results/rescore_loops.json").read_text())
-    fig, axes = plt.subplots(1, 4, figsize=(WIDTH_IN, 1.55), sharey=True)
-    xs = [0, 1]
-    for ax, arm, title in ((axes[0], "true", "true feedback"),
-                           (axes[1], "half", "half true"),
-                           (axes[2], "scrambled", "false feedback"),
-                           (axes[3], "none", "no feedback")):
-        for mi, (model, rows) in enumerate(data.items()):
+    trans = json.loads((HERE / "results/loop_transitions.json").read_text())
+    arms = [("none", "none"), ("scrambled", "0"), ("quarter", "0.25"),
+            ("half", "0.5"), ("threequarter", "0.75"), ("true", "1")]
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.7))
+    for mi, (model, rows) in enumerate(data.items()):
+        strict, removed = [], []
+        for arm, _ in arms:
             sub = [r for r in rows if r["arm"] == arm]
-            if not sub:
-                continue
-            m0 = [r["r0"]["strict"] for r in sub
-                  if r["r0"]["strict"] is not None]
             m1 = [r["final"]["strict"] for r in sub
                   if r["final"]["strict"] is not None]
-            y = [sum(m0) / len(m0), sum(m1) / len(m1)]
-            ax.plot(xs, y, "-", marker="o", markersize=3, color=f"C{mi}",
-                    linewidth=1.4, label=LABEL.get(model, model))
-        ax.set_xticks(xs)
-        ax.set_xticklabels(["round 0", "final"])
+            strict.append(sum(m1) / len(m1) if m1 else float("nan"))
+            c = trans[model]
+            acc0 = sum(c.get(f"{arm}:accurate:{k}", 0) for k in (
+                "kept:accurate", "edited:accurate", "kept:flagged",
+                "edited:flagged", "dequoted", "deleted"))
+            gone = sum(c.get(f"{arm}:accurate:{k}", 0) for k in (
+                "kept:flagged", "edited:flagged", "dequoted", "deleted"))
+            removed.append(gone / acc0 if acc0 else float("nan"))
+        xs = range(len(arms))
+        axes[0].plot(xs, strict, marker="o", markersize=3, linewidth=1.4,
+                     color=f"C{mi}", label=LABEL.get(model, model))
+        axes[1].plot(xs, removed, marker="o", markersize=3, linewidth=1.4,
+                     color=f"C{mi}")
+    for ax, title in ((axes[0], "final strict quotation accuracy"),
+                      (axes[1], "share of correct quotations removed")):
+        ax.set_xticks(range(len(arms)))
+        ax.set_xticklabels([lab for _, lab in arms])
+        ax.set_xlabel("verifier precision (share of true flags)")
         ax.set_ylim(0, 1.02)
         ax.set_title(title)
+        ax.axvline(0.5, color="gray", linewidth=0.6, linestyle=":")
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, frameon=False, loc="lower center",
                ncol=4, bbox_to_anchor=(0.5, -0.04))
-    fig.tight_layout(rect=(0, 0.24, 1, 1))
+    fig.tight_layout(rect=(0, 0.16, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig2_repair.{ext}", dpi=200, bbox_inches="tight")
     plt.close(fig)

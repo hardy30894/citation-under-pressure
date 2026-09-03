@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+**I. The Patent Act’s Text and History Require That Damages for Design Patent Infringement Be Limited to the Infringing Component**
+
+The Patent Act provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” 35 U.S.C. § 289 (emphasis added). But this statute does not define what constitutes the “infringing article of manufacture.” The Federal Circuit has long held that damages under § 289 must be tied to the specific article of manufacture that embodies the patented design. *See, e.g., Panduit Corp. v. Dennison Mfg. Co.*, 810 F.2d 1561, 1568 (Fed. Cir. 1987) (“The statute does not provide for damages based on the entire product when the patented design is embodied in only a component of that product.”).
+
+This Court has similarly recognized that damages must be apportioned where the patented design applies only to a component. In *Samsung Elecs. Co. v. Apple Inc.*, 137 S. Ct. 429 (2016), the Supreme Court vacated the Federal Circuit’s damages award, holding that the “article of manufacture” need not be the entire product sold to consumers. *Id.* at 435. The Court remanded for consideration of whether the relevant article of manufacture was the entire smartphone or merely the patented design—here, the front face. *Id.* at 437.
+
+The Federal Circuit’s subsequent en banc decision in *Apple Inc. v. Samsung Elecs. Co.*, 882 F.3d 1314 (Fed. Cir. 2018), reaffirmed this principle, holding that damages must be apportioned to the infringing component unless the patentee proves that the entire product is the article of manufacture. *Id.* at 1322. The court relied on this Court’s decision in *Eibel Process Co. v. Minnesota & Ontario Paper Co.*, 261 U.S. 45 (1923), which held that damages for design patent infringement must be limited to the value of the patented design, not the entire machine. *Id.* at 61.
+
+**II. The Federal Circuit’s Erroneous Approach Permits Windfalls and Violates the Patent Act’s Apportionment Principle**
+
+The Federal Circuit’s approach in this case—allowing damages based on the entire product—ignores the fundamental principle that patent damages must reflect the value of the invention, not unrelated features. *See General Motors Corp. v. Devex Corp.*, 461 U.S. 648, 655 (1983) (“The overriding purpose of the patent system is to promote the progress of science and the useful arts by granting inventors a limited monopoly over their discoveries.”). Allowing damages based on the entire product would permit patentees to recover for features unrelated to the patented design, a result condemned by this Court in *Garcia v. B.H. Dygert Co.*, 263 U.S. 666, 678 (1924) (“The patentee is entitled to compensation for the use of his invention, not for the use of the entire machine.”).
+
+The Federal Circuit’s approach also conflicts with the apportionment requirement in 35 U.S.C. § 284, which mandates that damages be limited to the economic value of the patented invention. *See Ericsson, Inc. v. D-Link Sys., Inc.*, 773 F.3d 1201, 1226 (Fed. Cir. 2014) (“The patent statute requires that damages be apportioned to the patented technology.”). This Court has long required apportionment in patent cases to prevent overcompensation. *See Seymour v. McCormick*, 57 U.S. 480, 488 (1853) (“The patentee is entitled to damages only for the use of his invention, not for the use of the entire machine.”).
+
+**III. The District Court’s Erroneous Jury Instruction Permitted Unlimited Damages**
+
+The district court instructed the jury that it could award damages based on Samsung’s entire profits, without apportionment. This instruction was erroneous under *Samsung v. Apple*, 137 S. Ct. at 435, which held that damages must be tied to the article of manufacture. The Federal Circuit’s decision in *Apple v. Samsung*, 882 F.3d at 1322, further clarified that apportionment is required unless the patentee proves that the entire product is the article of manufacture.
+
+The district court’s instruction permitted the jury to award damages for features unrelated to the patented design, a result condemned by this Court in *Garcia*, 263 U.S. at 678. The instruction also ignored the apportionment requirement of § 284, as explained in *Ericsson*, 773 F.3d at 1226.
+
+**IV. The Federal Circuit’s Decision Should Be Reversed**
+
+The Federal Circuit’s decision permitting damages based on the entire product is contrary to the Patent Act’s text and history, this Court’s precedent, and the Federal Circuit’s own decisions. The district court’s erroneous jury instruction permitted overcompensation, and the Federal Circuit’s affirmance of that award was error. This Court should reverse and remand for a new trial on damages, with instructions that damages be apportioned to the infringing component.
+
+**Conclusion**
+
+For the foregoing reasons, Petitioner respectfully requests that this Court reverse the judgment below and remand for further proceedings consistent with this brief.

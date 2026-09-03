@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+The question presented—whether a district court may certify a class without adequate admissible evidence that damages may be measured and quantified on a class-wide basis—requires this Court to reaffirm a foundational principle of class action practice: *class certification is not a license to conduct a mini-trial on the merits, nor may a court certify a class where the plaintiff has failed to demonstrate a common methodology for measuring damages.* The Third Circuit’s decision in this case, which affirmed certification based on speculative and legally insufficient evidence, directly contravenes this principle and undermines the integrity of Rule 23(b)(3). We respectfully ask this Court to reverse.
+
+### I. The District Court’s Certification Violated Rule 23(b)(3) by Failing to Require Admissible Evidence of a Common Damages Methodology
+
+Rule 23(b)(3) mandates that “questions of law or fact common to the members of the class *predominate* over any questions affecting only individual members.” Fed. R. Civ. P. 23(b)(3). This requirement is not satisfied by mere speculation or hypothetical models. As this Court held in *Wal-Mart Stores, Inc. v. Dukes*, 564 U.S. 338, 350 (2011), “the predominance inquiry is not a formality.” It demands “a rigorous analysis” of whether common issues *can be resolved* through common evidence. Id. at 350–51. That analysis must include a *threshold showing* that damages can be measured on a class-wide basis using a single, reliable methodology.
+
+Here, the District Court certified a class of over 1.5 million subscribers based on the testimony of Plaintiffs’ damages expert, Dr. James McClave, who proposed a model that *assumed* a hypothetical competitive market and then calculated damages by comparing actual prices to that hypothetical. But the Court never required Dr. McClave to demonstrate that this model could be applied consistently across the entire class. Indeed, the expert’s own testimony revealed that the model required *individualized adjustments* for each subscriber based on their specific contract terms, service tier, and geographic location. See App. 00512–13 (McClave Dep. at 124–25). The Court acknowledged this but concluded that “the model is capable of application on a class-wide basis.” App. 00030. That conclusion was legally erroneous.
+
+This Court has repeatedly emphasized that a damages model cannot be “common” if it requires individualized proof. In *Amchem Products, Inc. v. Windsor*, 521 U.S. 591, 622 (1997), the Court held that “a class action may not be certified if the damages to each class member must be calculated individually.” Similarly, in *Dukes*, the Court rejected a class where “the damages to each employee would have to be calculated individually.” 564 U.S. at 351. The Third Circuit’s decision, by contrast, allowed certification based on a model that *necessarily* required individualized calculations—precisely the kind of “individualized inquiry” that Rule 23(b)(3) prohibits.
+
+### II. The Third Circuit’s “Preponderance of Evidence” Standard Is Incompatible with Rule 23(b)(3)
+
+The Third Circuit held that the District Court “need only find that Plaintiffs established by a preponderance of evidence” that a common damages methodology exists. App. 00030. This standard is incorrect. Rule 23(b)(3) does not require a “preponderance of evidence” at the certification stage; it requires a *showing* that common issues predominate. The burden is not to prove the claim on the merits, but to demonstrate that the *means of proving* the claim are common.
+
+The Third Circuit’s approach effectively collapses the certification inquiry into a merits determination. It permits a district court to accept speculative expert testimony as sufficient to satisfy Rule 23(b)(3), even when the methodology is untested, unvalidated, and inherently individualized. This is precisely the kind of “mini-trial” this Court warned against in *Dukes*. See 564 U.S. at 350 (“The Rule 23 inquiry must not become a merits inquiry.”). The Third Circuit’s decision thus permits courts to certify classes based on *what might be* proven at trial, rather than *what can be* proven through common evidence.
+
+### III. The District Court’s Certification Was Based on a Flawed Theory of Antitrust Impact
+
+The District Court narrowed the class’s theory of antitrust impact to the claim that Comcast’s clustering deterred overbuilder competition. But even under that theory, the Court failed to require admissible evidence that such deterrence occurred *on a class-wide basis*. The expert testimony offered by Plaintiffs was based on a *single* overbuilder—RCN—and did not establish that *all* class members were harmed by the absence of competition. See App. 00487 (McClave Report at 12). The Court’s conclusion that “the class could establish antitrust impact through common evidence applicable to all class members” was therefore unsupported by the record.
+
+This Court has made clear that “a class may not be certified if the plaintiff cannot show that the harm was common to all members.” *Dukes*, 564 U.S. at 351. Here, the harm—higher prices due to lack of competition—was not shown to be common. Some subscribers may have received discounts, others may have been on long-term contracts, and still others may have had access to alternative providers. Without a common methodology to measure damages, the class cannot prove that all members suffered the same injury.
+
+### IV. The Third Circuit’s Decision Creates a Dangerous Precedent
+
+The Third Circuit’s decision allows certification based on speculative models and unproven theories. It invites plaintiffs to “certify first, prove later,” undermining the Seventh Amendment right to a jury trial and the principle that class actions should be used only when they are truly efficient. As this Court has warned, “the class action device is not a substitute for a trial on the merits.” *Dukes*, 564 U.S. at 350.
+
+The judgment below must be reversed. A district court may not certify a class without *admissible evidence* that damages can be measured on a class-wide basis using a common methodology. The Third Circuit’s contrary holding is inconsistent with this Court’s precedent and must be corrected.
+
+**For the foregoing reasons, the petition should be granted.**

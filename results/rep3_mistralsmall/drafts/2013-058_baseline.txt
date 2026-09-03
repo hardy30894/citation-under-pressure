@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+I. **THE BANKRUPTCY CODE’S RETIREMENT FUNDS EXEMPTION PROTECTS INHERITED IRAS BECAUSE THEY ARE "RETIREMENT FUNDS" UNDER § 522(b)(3)(C) AND (d)(12).**
+
+The Seventh Circuit erred in holding that an inherited IRA is not exempt under the Bankruptcy Code’s retirement funds provision. Section 522(b)(3)(C) and (d)(12) exempts from the bankruptcy estate:
+
+> *"retirement funds to the extent that those funds are in a fund or account that is exempt from taxation under sections 401, 403, 408, 408A, 414, 457, or 501(a) of the Internal Revenue Code."*
+
+26 U.S.C. § 408 (IRAs) is among the listed sections. The statute does not condition the exemption on the funds being the debtor’s retirement savings, nor does it require that the funds remain in the account until the debtor’s retirement. *See* 11 U.S.C. § 522(b)(3)(C), (d)(12). Instead, it exempts funds held in accounts that are tax-exempt under the enumerated sections. *See id.* An inherited IRA is such an account.
+
+The Seventh Circuit’s contrary conclusion rests on a misreading of the statute. It held that inherited IRAs are not "retirement funds" because they must be distributed within five years of the original owner’s death and cannot be used for the beneficiary’s retirement. *Clark v. Rameker*, 714 F.3d 559, 563-64 (7th Cir. 2013). But the Bankruptcy Code does not define "retirement funds," and this Court has cautioned against importing undefined terms with "judicially crafted limitations." *United States v. Nordic Village, Inc.*, 503 U.S. 30, 37 (1992). The Seventh Circuit’s temporal and functional limitations find no support in the statute’s text.
+
+The Fifth and Eighth Circuits have correctly interpreted § 522(b)(3)(C) and (d)(12) to exempt inherited IRAs. *See Chilton v. Moser*, 674 F.3d 486, 491 (5th Cir. 2012); *In re Nessa*, 426 B.R. 312, 317 (BAP 8th Cir. 2010). These courts recognized that the exemption turns on the *nature of the account*, not the *use to which the funds are put by the debtor*. *Chilton*, 674 F.3d at 491 ("The focus is on the character of the account, not the debtor’s use of the funds."). An inherited IRA is an IRA within the meaning of 26 U.S.C. § 408, and thus qualifies for the exemption.
+
+II. **THE SEVENTH CIRCUIT’S POLICY CONCERNS DO NOT JUSTIFY A JUDICIALLY CREATED EXCEPTION TO THE STATUTORY EXEMPTION.**
+
+The Seventh Circuit expressed concern that exempting inherited IRAs would allow debtors to shield funds from creditors, undermining the Bankruptcy Code’s goals. *Clark*, 714 F.3d at 565-66. But this Court has long held that exemptions are to be construed broadly in favor of debtors. *Owen v. Owen*, 500 U.S. 305, 308 (1991) ("Exemptions are to be construed liberally in favor of debtors."). The Seventh Circuit’s policy concerns are better addressed to Congress, not the courts. *See Rodriguez v. United States*, 480 U.S. 522, 525-26 (1987) ("Deciding what competing values will or will not be sacrificed to the achievement of a particular objective is the very essence of legislative choice.").
+
+Moreover, the Seventh Circuit’s concern is overstated. Inherited IRAs are subject to mandatory distributions, which reduce their value as a shelter for creditors. *See* 26 U.S.C. § 401(a)(9)(B). And the Bankruptcy Code already contains safeguards against abuse, such as the "badges of fraud" provisions in § 727(a)(2)-(5). The Seventh Circuit’s holding creates an arbitrary distinction between inherited IRAs and other IRAs, without textual support.
+
+III. **THE SEVENTH CIRCUIT’S ANALOGY TO NON-RETIREMENT ASSETS IS INAPPOSITE.**
+
+The Seventh Circuit compared inherited IRAs to a house inherited from a parent and rented out, arguing that the exemption should depend on the debtor’s use of the asset. *Clark*, 714 F.3d at 566. But this analogy fails because the Bankruptcy Code’s homestead exemption explicitly requires the debtor’s use of the property. *See* 11 U.S.C. § 522(b)(3)(A) (exempting a "dwelling that the debtor or a dependent of the debtor uses as a residence"). In contrast, § 522(b)(3)(C) and (d)(12) contains no such requirement. The Seventh Circuit’s reliance on *Barker* is misplaced, as that case involved a state-law exemption that incorporated federal law, not a federal exemption. *See In re Barker*, 768 F.2d 191, 196 (7th Cir. 1985).
+
+**CONCLUSION**
+
+For the foregoing reasons, the judgment of the Seventh Circuit should be reversed. The Bankruptcy Code’s retirement funds exemption protects inherited IRAs because they are tax-exempt accounts under 26 U.S.C. § 408. The Seventh Circuit’s contrary holding is unsupported by the statute’s text and conflicts with the decisions of other circuits. This Court should reaffirm that exemptions are to be construed liberally in favor of debtors and reverse the Seventh Circuit’s judgment.

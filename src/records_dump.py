@@ -26,13 +26,16 @@ MODELS = tuple(
 
 
 def main():
+    # --tag para dumps the alternative-phrasing drafts to records_para.jsonl
+    tag = sys.argv[sys.argv.index("--tag") + 1] if "--tag" in sys.argv else "full"
+    suffix = "" if tag == "full" else f"_{tag}"
     checker = CitationChecker(SqliteIndex(DB))
     store = ChainTextStore(OpinionTextStore(DB, cl_token=None,
                                             fetch_budget=0))
-    out = open(HERE / "results" / "records.jsonl", "w")
+    out = open(HERE / "results" / f"records{suffix}.jsonl", "w")
     n = 0
     for model in MODELS:
-        for p in sorted((HERE / "results" / f"full_{model}" /
+        for p in sorted((HERE / "results" / f"{tag}_{model}" /
                          "drafts").glob("*.txt")):
             matter, cond = re.match(r"(.+)_([a-z]+)$", p.stem).groups()
             text = p.read_text()
@@ -49,7 +52,7 @@ def main():
                 n += 1
         print(model, "done", flush=True)
     out.close()
-    print(f"{n} records -> results/records.jsonl")
+    print(f"{n} records -> results/records{suffix}.jsonl")
 
 
 if __name__ == "__main__":

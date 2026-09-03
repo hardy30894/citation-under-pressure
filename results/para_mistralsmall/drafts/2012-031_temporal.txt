@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. A district court may not certify a damages class under Rule 23(b)(3) unless it finds, by admissible evidence, that damages are capable of measurement on a class-wide basis.**
+
+The text of Rule 23(b)(3) requires that “the questions of law or fact common to the class members predominate over any questions affecting only individual members.” Fed. R. Civ. P. 23(b)(3). This predominance requirement is not satisfied where damages must be proved individually, for “[q]uestions of individual damage calculations do not predominate” when class-wide proof is impossible. *Eisen v. Carlisle & Jacquelin*, 391 F.2d 555, 565 (2d Cir. 1968), *rev’d on other grounds*, 417 U.S. 156 (1974). Thus, a court must determine at the certification stage whether damages can be proven collectively or only through individualized inquiries. *Id.* at 565–66.
+
+This Court has long held that antitrust damages must be proven with reasonable certainty. *Bigelow v. RKO Radio Pictures, Inc.*, 327 U.S. 251, 264–65 (1946) (“It is settled that proof of damages in an antitrust case is not an absolute prerequisite to recovery, but once liability is established, damages may be presumed and awarded, provided they are not remote or speculative.”). Where damages are not susceptible to class-wide proof, individualized inquiries will predominate, and class certification is improper. *Eisen*, 391 F.2d at 565.
+
+Here, the district court erred by certifying a class without determining whether Respondents’ damages model could actually measure class-wide harm. The court accepted expert testimony that purported to calculate damages, but did not ensure that the methodology was reliable or applicable to all class members. *See id.* at 566 (warning that courts must scrutinize damages models to prevent speculative recovery). Because the court failed to make the required predominance finding, its certification order must be reversed.
+
+**II. The district court’s certification order rests on an impermissible merits inquiry into the validity of Respondents’ antitrust theory.**
+
+Rule 23 does not permit courts to adjudicate the merits of a claim at the certification stage. *Eisen*, 391 F.2d at 560 (“The plaintiff must be prepared to prove that he was injured by the defendants’ acts, but the merits of the claim should not be considered in determining whether the requirements of Rule 23 are met.”). Yet the district court here conducted precisely such an inquiry by evaluating the sufficiency of Respondents’ antitrust theory—specifically, whether Comcast’s conduct deterred overbuilder competition. *See* 264 F.R.D. at 154.
+
+This approach conflicts with the proper role of a certification decision. *Id.* at 560–61 (holding that courts may not weigh conflicting evidence or assess the strength of a claim at certification). The district court’s reliance on expert testimony to validate Respondents’ damages model further demonstrates an improper merits analysis. *Id.* at 566. Because the court exceeded its authority under Rule 23, its certification order must be vacated.
+
+**III. The district court’s predominance finding is unsupported by the record.**
+
+A district court’s certification decision is reviewed for abuse of discretion, but only if it rests on a correct legal standard. *Id.* at 559. Here, the court misapplied Rule 23(b)(3) by certifying a class despite the absence of admissible evidence that damages could be measured class-wide. *See id.* at 565–66. The court’s reliance on Respondents’ expert model—without ensuring its reliability or applicability—was an abuse of discretion. *Id.*
+
+Moreover, the court’s certification of a class based on a single damages theory improperly narrowed the merits inquiry, which is forbidden under *Eisen*. *Id.* at 560. Because the district court’s order rests on legal error and an inadequate evidentiary showing, it must be reversed.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should hold that a district court may not certify a damages class under Rule 23(b)(3) without admissible evidence that damages are measurable on a class-wide basis. The district court’s certification order in this case must be reversed.

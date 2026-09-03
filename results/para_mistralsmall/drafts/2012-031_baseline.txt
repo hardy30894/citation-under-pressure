@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+**I. The District Court Erred in Certifying the Class Because Plaintiffs Failed to Present Admissible Evidence Demonstrating That Damages Could Be Measured on a Class-Wide Basis.**
+
+Rule 23(b)(3) requires that “questions of law or fact common to class members predominate over any questions affecting only individual members.” Fed. R. Civ. P. 23(b)(3). To satisfy this predominance requirement in an antitrust case, plaintiffs must show that damages can be proven on a class-wide basis using common evidence. *Wal-Mart Stores, Inc. v. Dukes*, 564 U.S. 338, 361 (2011) (“[A] class cannot be certified on the premise that [the defendant] will not be entitled to litigate its statutory defenses to individual claims.”); *Comcast Corp. v. Behrend*, 569 U.S. 27, 34 (2013) (“Rule 23(b)(3) requires a showing that common questions ‘predominate’ over individual ones, not merely that common questions exist.”).
+
+Here, the District Court certified the class despite the fact that Plaintiffs’ damages model was not capable of measuring damages on a class-wide basis. The only damages methodology proffered by Plaintiffs’ expert, Dr. James McClave, relied on an inflated estimate of damages that assumed antitrust impact across the entire class. *Behrend v. Comcast Corp.*, 264 F.R.D. 150, 168 (E.D. Pa. 2010). However, Dr. McClave’s model failed to isolate the damages attributable to the specific anticompetitive conduct alleged—Comcast’s “clustering” scheme—and instead lumped together damages from multiple, distinct theories of harm. *Id.* at 170-71. This failure to segregate damages rendered the model incapable of measuring class-wide damages, as required by Rule 23(b)(3).
+
+The Third Circuit’s decision in *In re Hydrogen Peroxide Antitrust Litig.*, 552 F.3d 305 (3d Cir. 2008), makes clear that a damages model must be capable of measuring damages on a class-wide basis to satisfy Rule 23(b)(3). *Id.* at 318 (“[T]he district court must conduct a ‘rigorous analysis’ of the evidence and arguments in making the class certification decision.”). The Supreme Court has since reaffirmed this principle, holding that a damages model that does not measure damages on a class-wide basis cannot satisfy the predominance requirement. *Comcast*, 569 U.S. at 34-35 (“The model [Plaintiffs] offered could not establish damages on a class-wide basis.”).
+
+The District Court’s certification order was therefore an abuse of discretion. It relied on a damages model that was not capable of measuring damages on a class-wide basis, in direct contravention of Rule 23(b)(3) and controlling precedent. *See Anderson v. Bessemer City*, 470 U.S. 564, 573-74 (1985) (holding that a district court’s factual findings must be accepted unless clearly erroneous, but legal errors are reviewed de novo).
+
+**II. The District Court Improperly Conducted a Mini-Trial on the Merits in Violation of Rule 23 and the Seventh Amendment.**
+
+Rule 23 does not permit district courts to conduct a merits inquiry at the class certification stage. *Eisen v. Carlisle & Jacquelin*, 417 U.S. 156, 177 (1974) (“We find nothing in either the language or history of Rule 23 that gives a court any authority to conduct a preliminary inquiry into the merits of a suit in order to determine whether it may be maintained as a class action.”). The Supreme Court has repeatedly cautioned against conflating the merits of a claim with the requirements of Rule 23. *Wal-Mart*, 564 U.S. at 350-51 (“Frequently that ‘rigorous analysis’ will entail some overlap with the merits of the plaintiff’s underlying claim. . . . But . . . [t]he court’s inquiry into the merits is strictly limited to determining whether the Rule 23 prerequisites are satisfied.”).
+
+Here, the District Court conducted a four-day evidentiary hearing, considered 32 expert reports, and examined deposition excerpts to determine whether Plaintiffs could prove antitrust impact and damages on a class-wide basis. *Behrend*, 264 F.R.D. at 154. This amounted to a merits inquiry that exceeded the permissible scope of a Rule 23 analysis. *See id.* at 150 (noting that the District Court’s “rigorous analysis” included an examination of expert testimony and damages methodologies).
+
+The Third Circuit’s decision in *Hydrogen Peroxide* does not authorize such a merits inquiry. 552 F.3d at 318 (“The district court must conduct a ‘rigorous analysis’ of the evidence and arguments in making the class certification decision.”). The Supreme Court has since clarified that this “rigorous analysis” must not devolve into a merits determination. *Comcast*, 569 U.S. at 34 (“The predominance requirement of Rule 23(b)(3) is not satisfied by the mere presence of common questions; the common questions must also be ‘predominant’ over individual ones.”).
+
+The District Court’s certification order was therefore an abuse of discretion. It conducted a merits inquiry that violated Rule 23 and the Seventh Amendment. *See Eisen*, 417 U.S. at 177.
+
+**Conclusion**
+
+For the foregoing reasons, the Court should reverse the judgment of the Court of Appeals and remand with instructions to decertify the class.

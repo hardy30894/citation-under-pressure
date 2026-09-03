@@ -1,0 +1,13 @@
+ARGUMENT
+
+Section 289 of the Patent Act entitles a design-patent holder to the infringer’s “total profit” from the “article of manufacture” to which the patented design is applied. 35 U.S.C. § 289. When the design is applied only to a component, the relevant article is that component, not the entire product sold to consumers. See Bush & Lane Piano Co. v. Becker Bros., 222 F. 902, 904 (2d Cir. 1915) (limiting recovery to profits on the patented case, not the whole piano); Young v. Grand Rapids Refrigerator Co., 268 F. 966, 974 (6th Cir. 1920) (same for refrigerator hardware).
+
+This construction follows from the text. The phrase “article of manufacture” encompasses both finished products and their constituent parts. See 35 U.S.C. § 171(a); see also In re Zahn, 617 F.2d 261, 268 (C.C.P.A. 1980). Congress used the same phrase in the utility-patent statute, where it plainly reaches components. See 35 U.S.C. § 101; Diamond v. Chakrabarty, 447 U.S. 303, 308 (1980).
+
+Historical practice confirms the limitation. Before 1887, design-patent damages were apportioned to the value of the design. See Dobson v. Hartford Carpet Co., 114 U.S. 439, 445 (1885). The 1887 Act, now codified in § 289, eliminated the need to prove the design’s incremental value but did not eliminate apportionment when the design covered only a component. See Nike, Inc. v. Wal-Mart Stores, Inc., 138 F.3d 1437, 1441 (Fed. Cir. 1998); Schnadig Corp. v. Gaines Mfg. Co., 620 F.2d 1166, 1171 (6th Cir. 1980).
+
+The Federal Circuit’s contrary rule—that profits may be awarded on the entire smartphone whenever any component is found to infringe—contradicts these authorities. It also conflicts with the treatment of utility patents, under which damages must be apportioned to the patented feature. See Garretson v. Clark, 111 U.S. 120, 121 (1884); LaserDynamics, Inc. v. Quanta Computer, Inc., 694 F.3d 51, 67 (Fed. Cir. 2012).
+
+Permitting recovery on the entire product would produce absurd results. A design patent on a single button could capture profits on a $700 device containing thousands of unpatented components. Such windfalls exceed the compensatory purpose of patent damages. See Aro Mfg. Co. v. Convertible Top Replacement Co., 377 U.S. 476, 507 (1964).
+
+The judgment below should therefore be reversed and the case remanded for a determination of profits attributable to the patented components alone.

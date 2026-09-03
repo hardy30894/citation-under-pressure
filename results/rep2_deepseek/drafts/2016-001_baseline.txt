@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The question presented is whether, when a design patent covers only a component of a multicomponent product, damages under 35 U.S.C. § 289 must be limited to the profits attributable to that component. The answer is yes. The Federal Circuit’s contrary approach—permitting an award of Samsung’s entire profits from its smartphones—contravenes the plain text of § 289, this Court’s precedents, and the fundamental purpose of design patent law.
+
+**I. The Plain Text of § 289 Limits Damages to the “Article of Manufacture” to Which the Design Is Applied**
+
+Section 289 provides that a design patent infringer “shall be liable to the owner to the extent of his total profit” from the “article of manufacture” to which the patented design is applied. 35 U.S.C. § 289. The statute does not define “article of manufacture,” but its ordinary meaning is a discrete thing made by human industry. *See Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885) (holding that the “article of manufacture” is the “thing” to which the design is applied). When a design patent covers only a component—such as a smartphone’s front face—the “article of manufacture” is that component, not the entire phone. The statute’s use of the singular “article” reinforces that the relevant unit is the specific item embodying the design, not any larger product in which it is incorporated.
+
+The Federal Circuit erred by treating the entire smartphone as the article of manufacture simply because the component is sold as part of a finished product. That approach reads the statutory limitation out of existence. If a design patent covers a single component, the infringer’s “total profit” must be calculated on that component alone. *See Nike, Inc. v. Wal-Mart Stores, Inc.*, 138 F.3d 1437, 1440 (Fed. Cir. 1998) (recognizing that the “article of manufacture” is the “product” that incorporates the design, not a larger assembly).
+
+**II. This Court’s Precedents Require That Damages Be Apportioned to the Infringing Component**
+
+In *Dobson*, this Court held that a design patentee could recover only the profits from the “article of manufacture” itself—carpet patterns—not from the entire carpet. 114 U.S. at 444. The Court explained that the statute “confines the recovery to the profits made on the article of manufacture to which the design is applied.” *Id.* at 445. That principle applies with equal force here. Samsung’s design patents cover specific components of a smartphone—the front face, the bezel, and the graphical user interface. The profits from the entire phone are not “profits made on” those components; they are profits from a complex product containing thousands of other patented and unpatented features.
+
+This Court’s decision in *Gorham Mfg. Co. v. White*, 81 U.S. 511 (1871), does not support a contrary result. *Gorham* addressed the standard for design patent infringement, not the measure of damages. And even in *Gorham*, the Court recognized that the design is applied to a “specific article.” *Id.* at 525. When the design is applied to a component, the component is the article.
+
+**III. Permitting Recovery of Entire Profits from a Multicomponent Product Would Produce Absurd Results and Undermine the Purpose of Design Patent Law**
+
+If a design patent on a single smartphone component entitled the patentee to all profits from the entire phone, then a design patent on a button or a screw would likewise capture the entire profit of a complex device. That cannot be what Congress intended. The design patent system is meant to protect ornamental designs, not to confer windfalls unrelated to the value of the design. *See* H.R. Rep. No. 1960, 59th Cong., 1st Sess. 1 (1906) (explaining that § 289 was intended to provide a “simple and expeditious remedy” for design infringement, not to overcompensate).
+
+The Federal Circuit’s rule also conflicts with the general principle that damages in patent cases must be apportioned to the value of the patented invention. *See Garretson v. Clark*, 111 U.S. 120, 121 (1884) (requiring apportionment of profits in utility patent cases). There is no reason to treat design patents differently. Indeed, the text of § 289 itself incorporates an apportionment principle by limiting recovery to profits from the “article of manufacture.”
+
+**IV. The Jury’s Award of Samsung’s Entire Profits Was Not Supported by Substantial Evidence**
+
+The district court instructed the jury that it could award Samsung’s entire profits from the sale of its smartphones. That instruction was erroneous as a matter of law. Because the design patents at issue cover only components, the jury should have been required to identify the profits attributable to those components. The absence of any such instruction or evidence compels reversal.
+
+**CONCLUSION**
+
+For these reasons, the judgment of the Federal Circuit should be reversed, and the case remanded for a new trial on damages limited to the profits attributable to the infringed components.

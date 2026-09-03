@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+The question presented is whether, when a design patent covers only a component of a multicomponent product, damages under 35 U.S.C. § 289 must be limited to the portion of the infringer’s profits attributable to that component. The answer must be yes. The statutory text, this Court’s precedents, and the purpose of design patent damages all compel apportionment.
+
+**I. The Statutory Text Requires That Damages Be Tied to the “Article of Manufacture” to Which the Design Is Applied**
+
+Section 289 provides that an infringer “shall be liable to the owner to the extent of his total profit” but only “for the making or selling of the article of manufacture to which [the patented] design … has been applied.” 35 U.S.C. § 289. The key phrase is “article of manufacture.” When a design patent covers only a component—such as a smartphone’s screen, bezel, or case—the “article of manufacture” is that component, not the entire phone. This Court has long defined “article of manufacture” as “a thing made by the hand of man.” *Gorham Mfg. Co. v. White*, 81 U.S. 511, 525 (1871). A component is itself a “thing made” and thus an article of manufacture. Nothing in § 289 suggests that the term expands to the entire product merely because the component is incorporated into a larger device.
+
+This Court’s decision in *Dobson v. Hartford Carpet Co.*, 114 U.S. 439 (1885), confirms that damages must be limited to the patented design’s contribution. There, the Court held that a design patent for a carpet pattern did not entitle the patentee to profits from the entire carpet; rather, the patentee could recover only the profits attributable to the design itself. *Id.* at 445. The same principle applies here: the design patent covers a component, so the infringer’s profits must be apportioned to that component.
+
+**II. This Court’s Precedents Require Apportionment of Profits to the Patented Design**
+
+In *Gorham*, the Court explained that the “article of manufacture” is the “thing” that embodies the design. 81 U.S. at 525. When a design is applied to a component, the component is the article. The Court has never held that a design patent on a component entitles the patentee to all profits from a larger product. To the contrary, in *Dobson*, the Court rejected the notion that a design patent on a pattern gave the patentee a claim to the entire carpet’s profits. 114 U.S. at 445. The Court stated that the patentee’s recovery must be “limited to the profits made on the sale of the carpets to which the patented design was applied.” *Id.* (emphasis added). That language directly supports apportionment.
+
+Lower courts have applied this principle consistently. In *Bush & Lane Piano Co. v. Becker Bros.*, 222 F. 902 (2d Cir. 1915), the court held that a design patent on a piano case did not entitle the patentee to profits from the entire piano, but only to profits attributable to the case. *Id.* at 904. The court reasoned that the “article of manufacture” was the case, not the complete piano. *Id.* Similarly, in *Catalina Lighting, Inc. v. Lamps Plus, Inc.*, 295 F.3d 1277 (Fed. Cir. 2002), the Federal Circuit recognized that “the article of manufacture” is the “product that is sold to consumers” but only if the design is applied to that product. *Id.* at 1288. When the design is applied to a component, the component is the article.
+
+**III. The Federal Circuit’s Contrary Interpretation Is Unsupported and Would Produce Absurd Results**
+
+The Federal Circuit affirmed the award of Samsung’s entire profits from its smartphones, even though Apple’s design patents cover only specific components—such as the rounded corners, bezel, and icon grid. That approach reads “article of manufacture” out of the statute. If a design patent on a smartphone screen entitles the patentee to all profits from the phone, then a design patent on a single button would do the same. That cannot be what Congress intended. As this Court has cautioned, “statutory interpretation must be faithful to the text.” *BP America Prod. Co. v. Burton*, 549 U.S. 84, 91 (2006). The text of § 289 ties damages to the “article of manufacture” to which the design is applied, not to any larger product that contains that article.
+
+Moreover, the Federal Circuit’s rule would allow a patentee to recover profits from features wholly unrelated to the patented design—such as the phone’s processor, camera, or battery. That result is inconsistent with the compensatory purpose of design patent damages. See *Dobson*, 114 U.S. at 445 (damages must be “limited to the profits made on the sale of the carpets to which the patented design was applied”). The patentee should recover only the profits that the infringer earned because of the patented design, not profits from unpatented features.
+
+**IV. The Proper Measure of Damages Is the Profits Attributable to the Component**
+
+When a design patent covers only a component, the “total profit” under § 289 must be limited to the profit attributable to that component. This Court has long recognized that apportionment is required in patent damages. See *Westinghouse Elec. & Mfg. Co. v. Wagner Elec. & Mfg. Co.*, 225 U.S. 604, 614 (1912) (apportionment required for utility patent damages). The same principle applies to design patents. The jury or district court can determine the component’s share of the total profit based on evidence of the component’s contribution to the product’s value. That approach is consistent with the statute and with this Court’s precedents.
+
+**CONCLUSION**
+
+For these reasons, the judgment of the Federal Circuit should be reversed, and the case remanded for a determination of damages limited to the profits attributable to the components covered by Apple’s design patents.

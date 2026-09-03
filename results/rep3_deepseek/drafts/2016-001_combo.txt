@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+The question presented requires this Court to determine whether damages for infringement of a design patent covering only a component of a multicomponent product may be limited to the portion of the infringer’s profits attributable to that component. The answer must be yes. This Court’s precedents, predating the 1952 Patent Act, establish that design patent damages cannot sweep more broadly than the scope of the patented design.
+
+**I. The “Article of Manufacture” Must Be the Component to Which the Design is Applied, Not the Entire Product**
+
+The statutory term “article of manufacture” in 35 U.S.C. § 289 must be interpreted consistently with the design’s scope. This Court has long held that a design patent protects only the appearance of the article, not its function. *Gorham Mfg. Co. v. White*, 81 U.S. 511, 527 (1871) (design patent “secures to the author the exclusive right to the application of that design to the article”). When a design is applied only to a component—here, a smartphone’s front face—the “article” is that component, not the entire phone.
+
+In *Dobson v. Hartford Carpet Co.*, 114 U.S. 439 (1885), the patent covered a carpet pattern, but the carpet itself was a separate article. The Court held that the plaintiff could recover profits *only* from the sale of carpets embodying the design, not from the defendant’s overall business. *Id.* at 446-47 (“The profits to be accounted for … are those which arise from the use of the patented design.”). *Accord Dobson v. Dornan*, 118 U.S. 10, 15 (1886) (same). The principle is unmissive: the “article” is the physical embodiment of the design.
+
+**II. Apportionment Is Required to Avoid Overcompensation**
+
+Even where an infringing design appears on a larger product, the plaintiff must separate the profits attributable to the design from those arising from other features. In *Garretson v. Clark*, 111 U.S. 120 (1884), a utility patent case, the Court held that the patentee must “give evidence tending to separate or apportion the defendant’s profits and the patentee’s damages between the patented feature and the unpatented features.” *Id.* at 121. This apportionment rule applies with equal force to design patents. *Cammeyer v. Newton*, 94 U.S. 225, 226 (1876) (“The patentee is not entitled to recover all the profits the infringer makes from the sale of an artice … but only those which result from the use of the patented improvement.”).
+
+The statutory history confirms this. The 1870 Act, predecessor to § 289, allowed recovery of “profits made from the unawful manufacture or sale,” but this Court consistently required apportionment. *See Root v. Railway Co.*, 105 U.S. 189, 209 (1881) (patentee must “distinguish the patented invention from the unpatented parts”). *Bates v. Coe*, 98 U.S. 31, 47 (1878) (“The patentee must show … that he has not included profits which are not the result of the use of the patented invention.”). The 1952 Act’s “total profit” language did not abrogate this requirement; it merely eliminated the separate profits and damages disinction. *See S. Rep. No. 82-1979, at 32 (1952) (explaining that § 289 “makes no change in substantative law”).
+
+**III. The Jury’s Award of Entire-Phone Profits Violates This Principle**
+
+Here, Apple’s design patents cover only three components: the rounded rectangular front face, the bezel, and the grid of icons. The jury awarded Samsung’s *entire* profit from the sale of each phone. This award directly contradicts this Court’s holding in *Smith v. Nichols*, 88 U.S. 112, 119 (1874) (design patent “cannot be extended to things inconcistent with the debt used to represent it”). The design cannot reach the phone’s internal hardware, operating system, or complementary features.
+
+*Dowagiac Mfg. Co. v. Minnesota Moline Plow Co.*, 235 U.S. 641, 646 (1915) (requiring apportionment in design patent infringement). *Westinghouse v. Wagner Mfg. Co.*, 225 U.S. 604, 615-16 (1912) (patentee must separate profits from patented and unpatented elements). The Federal Circuit’s contrary rule unjustly enriches the patentee.
+
+**IV. Conclusion**
+
+Because the design patent does not cover the entire smartphone, damages must be limited to the profits attributable to the infringing component. The judgment should be reserved.

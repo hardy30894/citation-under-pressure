@@ -1919,6 +1919,966 @@
     "n_quotes_scored": 1,
     "acc": 1
    }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.25,
+    "n_quotes_scored": 16,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.267,
+    "n_quotes_scored": 15,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.25,
+    "n_quotes_scored": 16,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 10,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 14,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 10,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.286,
+    "n_quotes_scored": 7,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 10,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.143,
+    "n_quotes_scored": 7,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.143,
+    "n_quotes_scored": 7,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.25,
+    "n_quotes_scored": 8,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.25,
+    "n_quotes_scored": 8,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.25,
+    "n_quotes_scored": 8,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 18,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 18,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.25,
+    "n_quotes_scored": 8,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.111,
+    "n_quotes_scored": 18,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.111,
+    "n_quotes_scored": 18,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.231,
+    "n_quotes_scored": 13,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.231,
+    "n_quotes_scored": 13,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.214,
+    "n_quotes_scored": 14,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.214,
+    "n_quotes_scored": 14,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.308,
+    "n_quotes_scored": 13,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8333,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
   }
  ],
  "gpt54mini": [
@@ -3841,6 +4801,966 @@
     "n_quotes_scored": 1,
     "acc": 0
    }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9474,
+    "n_cites": 19,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 17,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9474,
+    "n_cites": 19,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 25,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 17,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8,
+    "n_cites": 15,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.7143,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 25,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 23,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.8,
+    "n_cites": 15,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 19,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 19,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 19,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 19,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8095,
+    "n_cites": 21,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7368,
+    "n_cites": 19,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8095,
+    "n_cites": 21,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8947,
+    "n_cites": 19,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9375,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9375,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
   }
  ],
  "grok43": [
@@ -5759,6 +7679,966 @@
    "final": {
     "exist": 1.0,
     "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.833,
+    "n_quotes_scored": 6,
+    "acc": 5
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.833,
+    "n_quotes_scored": 6,
+    "acc": 5
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.167,
+    "n_quotes_scored": 12,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.167,
+    "n_quotes_scored": 12,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
     "strict": null,
     "n_quotes_scored": 0,
     "acc": 0
@@ -7685,6 +10565,966 @@
     "n_quotes_scored": 0,
     "acc": 0
    }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.75,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6,
+    "n_cites": 5,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.75,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7273,
+    "n_cites": 11,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.7273,
+    "n_cites": 11,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6429,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.5,
+    "n_cites": 6,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.6429,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 17,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.333,
+    "n_quotes_scored": 6,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6667,
+    "n_cites": 3,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
   }
  ],
  "mistralsmall": [
@@ -9605,6 +13445,966 @@
     "n_cites": 12,
     "strict": 0.0,
     "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.125,
+    "n_quotes_scored": 8,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8462,
+    "n_cites": 13,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9444,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 18,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 19,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.125,
+    "n_quotes_scored": 8,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9444,
+    "n_cites": 18,
+    "strict": 0.0,
+    "n_quotes_scored": 18,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9375,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 18,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9231,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.9231,
+    "n_cites": 13,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6364,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7273,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6364,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7273,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6364,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7647,
+    "n_cites": 17,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8125,
+    "n_cites": 16,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": 0.1,
+    "n_quotes_scored": 10,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 12,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8667,
+    "n_cites": 15,
+    "strict": 0.1,
+    "n_quotes_scored": 10,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.9231,
+    "n_cites": 13,
+    "strict": 0.2,
+    "n_quotes_scored": 10,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7647,
+    "n_cites": 17,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 12,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.2,
+    "n_cites": 5,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.048,
+    "n_quotes_scored": 21,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.1,
+    "n_quotes_scored": 10,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 0.8333,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.048,
+    "n_quotes_scored": 21,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.133,
+    "n_quotes_scored": 15,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.143,
+    "n_quotes_scored": 14,
+    "acc": 2
+   },
+   "final": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.286,
+    "n_quotes_scored": 7,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9333,
+    "n_cites": 15,
+    "strict": 0.143,
+    "n_quotes_scored": 14,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 15,
+    "strict": 0.154,
+    "n_quotes_scored": 13,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.4444,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.4286,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.4444,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.625,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.625,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
     "acc": 0
    }
   }
@@ -11529,6 +16329,966 @@
     "n_quotes_scored": 8,
     "acc": 0
    }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 10,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8182,
+    "n_cites": 11,
+    "strict": 0.067,
+    "n_quotes_scored": 15,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.111,
+    "n_quotes_scored": 9,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.111,
+    "n_quotes_scored": 9,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 9,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.111,
+    "n_quotes_scored": 9,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.111,
+    "n_quotes_scored": 9,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 12,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 12,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.1,
+    "n_quotes_scored": 10,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.9091,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 10,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.077,
+    "n_quotes_scored": 13,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 12,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 3,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.6667,
+    "n_cites": 3,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9167,
+    "n_cites": 12,
+    "strict": 0.1,
+    "n_quotes_scored": 10,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.091,
+    "n_quotes_scored": 11,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 3,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.5,
+    "n_cites": 2,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.0,
+    "n_cites": 18,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.0,
+    "n_cites": 18,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 37,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.571,
+    "n_quotes_scored": 7,
+    "acc": 4
+   },
+   "final": {
+    "exist": 0.75,
+    "n_cites": 8,
+    "strict": 0.429,
+    "n_quotes_scored": 7,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.571,
+    "n_quotes_scored": 7,
+    "acc": 4
+   },
+   "final": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.571,
+    "n_quotes_scored": 7,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 21,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.286,
+    "n_quotes_scored": 7,
+    "acc": 2
+   },
+   "final": {
+    "exist": 0.5,
+    "n_cites": 6,
+    "strict": 0.143,
+    "n_quotes_scored": 7,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9286,
+    "n_cites": 14,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.286,
+    "n_quotes_scored": 7,
+    "acc": 2
+   },
+   "final": {
+    "exist": 0.5,
+    "n_cites": 6,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8182,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.077,
+    "n_quotes_scored": 13,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.875,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.9,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8889,
+    "n_cites": 9,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.062,
+    "n_quotes_scored": 16,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7778,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.5,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6,
+    "n_cites": 5,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.273,
+    "n_quotes_scored": 11,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.273,
+    "n_quotes_scored": 11,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.5,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.75,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 6,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 13,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.0,
+    "n_cites": 31,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.8,
+    "n_cites": 5,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.273,
+    "n_quotes_scored": 11,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.273,
+    "n_quotes_scored": 11,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6667,
+    "n_cites": 12,
+    "strict": 0.0,
+    "n_quotes_scored": 13,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7333,
+    "n_cites": 15,
+    "strict": 0.0,
+    "n_quotes_scored": 11,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.8571,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.75,
+    "n_cites": 4,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.3,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.3,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.3,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.3,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6923,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6923,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.4286,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.6923,
+    "n_cites": 13,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.7273,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 8,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.4286,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 4,
+    "acc": 0
+   },
+   "final": {
+    "exist": 0.6,
+    "n_cites": 5,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7143,
+    "n_cites": 7,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.5714,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 0.7143,
+    "n_cites": 7,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 0.6667,
+    "n_cites": 6,
+    "strict": 0.0,
+    "n_quotes_scored": 5,
+    "acc": 0
+   }
   }
  ],
  "sonnet": [
@@ -13450,6 +19210,966 @@
     "strict": 0.5,
     "n_quotes_scored": 2,
     "acc": 1
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 8,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1992-086",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 8,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.4,
+    "n_quotes_scored": 15,
+    "acc": 6
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.625,
+    "n_quotes_scored": 8,
+    "acc": 5
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 5,
+    "acc": 5
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.3,
+    "n_quotes_scored": 10,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-033",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.4,
+    "n_quotes_scored": 15,
+    "acc": 6
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "quarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2010-046",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.625,
+    "n_quotes_scored": 8,
+    "acc": 5
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 1.0,
+    "n_quotes_scored": 5,
+    "acc": 5
+   }
+  },
+  {
+   "matter": "1998-085",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-006",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1998-026",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "1992-109",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.3,
+    "n_quotes_scored": 10,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 5,
+    "acc": 5
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2009-045",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-021",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.167,
+    "n_quotes_scored": 6,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 8,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-100",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 7,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.222,
+    "n_quotes_scored": 9,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1997-046",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.5,
+    "n_quotes_scored": 8,
+    "acc": 4
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.714,
+    "n_quotes_scored": 7,
+    "acc": 5
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2020-032",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2005-087",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.222,
+    "n_quotes_scored": 9,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 1,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2012-031",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 2,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.778,
+    "n_quotes_scored": 9,
+    "acc": 7
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 10,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.583,
+    "n_quotes_scored": 12,
+    "acc": 7
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": null,
+    "n_quotes_scored": 0,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "2015-055",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.778,
+    "n_quotes_scored": 9,
+    "acc": 7
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 1.0,
+    "n_quotes_scored": 6,
+    "acc": 6
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2011-010",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.6,
+    "n_quotes_scored": 5,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "quarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2005-074",
+   "arm": "threequarter",
+   "rounds": 1,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2000-071",
+   "arm": "threequarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.583,
+    "n_quotes_scored": 12,
+    "acc": 7
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 7,
+    "acc": 7
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.667,
+    "n_quotes_scored": 3,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2012-029",
+   "arm": "threequarter",
+   "rounds": 2,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
+    "acc": 4
+   }
+  },
+  {
+   "matter": "2013-058",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
+    "acc": 1
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "2001-013",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 7,
+    "acc": 0
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.0,
+    "n_quotes_scored": 3,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 9,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 1.0,
+    "n_quotes_scored": 3,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "quarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.2,
+    "n_quotes_scored": 10,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.0,
+    "n_quotes_scored": 2,
+    "acc": 0
+   }
+  },
+  {
+   "matter": "1999-051",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 9,
+    "strict": 0.333,
+    "n_quotes_scored": 9,
+    "acc": 3
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 8,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
+   }
+  },
+  {
+   "matter": "2014-024",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.2,
+    "n_quotes_scored": 10,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 11,
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "quarter",
+   "rounds": 3,
+   "converged": true,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 1.0,
+    "n_quotes_scored": 1,
+    "acc": 1
+   }
+  },
+  {
+   "matter": "1990-075",
+   "arm": "threequarter",
+   "rounds": 4,
+   "converged": false,
+   "r0": {
+    "exist": 1.0,
+    "n_cites": 12,
+    "strict": 0.4,
+    "n_quotes_scored": 5,
+    "acc": 2
+   },
+   "final": {
+    "exist": 1.0,
+    "n_cites": 13,
+    "strict": 0.5,
+    "n_quotes_scored": 4,
+    "acc": 2
    }
   }
  ]

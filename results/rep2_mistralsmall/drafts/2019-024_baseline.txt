@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+I. **THE NINTH CIRCUIT CORRECTLY HELD THAT “ACTUAL KNOWLEDGE” UNDER ERISA § 1113(2) REQUIRES KNOWLEDGE OF BOTH THE ALLEGEDLY IMPRUDENT ACTS AND THEIR IMPRUDENCE.**
+
+The Ninth Circuit’s construction of “actual knowledge” under ERISA § 1113(2) is consistent with the statute’s text, structure, and this Court’s precedents. Section 1113(2) bars an ERISA action “three years after the earliest date on which the plaintiff had actual knowledge of the breach or violation.” 29 U.S.C. § 1113(2). The Ninth Circuit correctly held that this provision requires knowledge of the underlying acts *and* their imprudence. *Sulyma v. Intel Corp. Investment Policy Committee*, 927 F.3d 589, 596 (9th Cir. 2019) (“[A]ctual knowledge of the breach” under § 1113(2) requires knowledge that the defendant acted imprudently.).
+
+This interpretation comports with the statute’s plain meaning. The phrase “actual knowledge of the breach or violation” necessarily encompasses knowledge of the acts constituting the breach *and* their legal significance. *See, e.g., Merriam-Webster, Inc. v. Random House, Inc.*, 35 F.3d 105, 110 (2d Cir. 1994) (noting that “knowledge of a breach” implies awareness of both the act and its wrongfulness). The Ninth Circuit’s approach aligns with this Court’s recognition that ERISA fiduciaries owe a duty of prudence, and that plaintiffs must therefore know not only that fiduciaries acted but also that those actions were imprudent. *See generally Tibble v. Edison Int’l*, 575 U.S. 523, 530 (2015) (discussing the prudent investor standard under § 1104(a)(1)(B)).
+
+The Ninth Circuit’s construction also avoids rendering the “actual knowledge” provision superfluous. Prior to 1987, § 1113 included a constructive knowledge provision, which was repealed to tighten the limitations period. *See Omnibus Budget Reconciliation Act of 1987, Pub. L. No. 100-203, § 9342(b), 101 Stat. 1330*. If “actual knowledge” required only knowledge of the acts themselves, the constructive knowledge provision would have been unnecessary. The Ninth Circuit’s interpretation preserves the distinction between actual and constructive knowledge, ensuring that the limitations period does not begin to run merely because a plaintiff *could have* learned of the breach through disclosure. *See Sulyma*, 927 F.3d at 596.
+
+II. **THE NINTH CIRCUIT CORRECTLY REJECTED INTEL’S ATTEMPT TO EXPAND “ACTUAL KNOWLEDGE” TO INCLUDE MERE AWARENESS OF DISCLOSURES.**
+
+Intel argues that Sulyma’s receipt of disclosures about the investment strategy—even if he did not read or recall them—constitutes “actual knowledge” under § 1113(2). This argument misreads the statute and conflicts with the Ninth Circuit’s precedents. The Ninth Circuit correctly held that “actual knowledge” requires more than passive receipt of information; it requires awareness of the acts and their imprudence. *Sulyma*, 927 F.3d at 596.
+
+This Court has repeatedly emphasized that knowledge must be *actual*, not constructive or imputed. *See, e.g., Merck & Co. v. Reynolds*, 559 U.S. 633, 648 (2010) (discussing the distinction between actual and constructive knowledge in the statute of limitations context). The Ninth Circuit’s approach ensures that § 1113(2) does not bar claims where a plaintiff was unaware of the imprudent acts, even if disclosure was made. *See Sulyma*, 927 F.3d at 596.
+
+Intel’s reliance on *Blanton v. Anzalone*, 760 F.2d 989 (9th Cir. 1985), is misplaced. In *Blanton*, the trustees had actual knowledge of the transaction because they were parties to it. *Id.* at 991. The Ninth Circuit did not hold that mere receipt of disclosure triggers the limitations period. *See id.* Similarly, in *Meagher v. Int’l Ass’n of Machinists & Aerospace Workers Pension Plan*, 856 F.2d 1418 (9th Cir. 1988), the plaintiff received reduced benefit checks, which constituted ongoing violations. *Id.* at 1423. The Ninth Circuit did not suggest that receipt of a disclosure alone suffices. *See id.*
+
+III. **THE NINTH CIRCUIT’S HOLDING DOES NOT IMPOSE AN UNREASONABLE BURDEN ON ERISA FIDUCIARIES.**
+
+Intel warns that the Ninth Circuit’s interpretation will encourage plaintiffs to feign ignorance to avoid the limitations period. This concern is overstated. The Ninth Circuit’s standard requires only that plaintiffs demonstrate a lack of actual knowledge, which can be proven through testimony or other evidence. *See Sulyma*, 927 F.3d at 596. Fiduciaries remain protected by the six-year outer limitations period in § 1113(1) and the three-year period for claims where actual knowledge is established. *See id.*
+
+Moreover, the Ninth Circuit’s approach aligns with ERISA’s remedial purpose. ERISA was enacted to protect plan participants and beneficiaries, and the limitations period should not bar claims where participants were unaware of imprudent acts. *See Massachusetts Mut. Life Ins. Co. v. Russell*, 473 U.S. 134, 147 (1985) (noting ERISA’s protective purpose).
+
+**CONCLUSION**
+
+The Ninth Circuit correctly held that “actual knowledge” under ERISA § 1113(2) requires knowledge of both the allegedly imprudent acts and their imprudence. This interpretation is consistent with the statute’s text, structure, and this Court’s precedents. The judgment below should be affirmed.

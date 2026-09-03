@@ -1,0 +1,33 @@
+# ARGUMENT
+
+## A Violation of Rule 32(a)(2) Does Not Warrant Habeas Relief Where the Defendant Had Actual Knowledge of His Right to Appeal
+
+### I. Collateral Relief Under 28 U.S.C. § 2255 Requires a Showing of Prejudice
+
+This Court has consistently held that not every violation of a procedural rule entitles a defendant to collateral relief. In *United States v. Timmreck*, 441 U.S. 780 (1979), the Court held that a technical violation of Federal Rule of Criminal Procedure 11 did not warrant relief under § 2255 absent a showing that the violation resulted in prejudice, explaining that "collateral relief is not available when all that is shown is a failure to comply with the formal requirements of the Rule." *Id.* at 783-84. The Court emphasized that habeas corpus was never intended to serve as "a substitute for a direct appeal," and that technical violations of procedural rules, without more, do not implicate the "fundamental defect which inherently results in a complete miscarriage of justice" necessary for collateral relief. *Id.* at 783 (quoting *Hill v. United States*, 368 U.S. 424, 428 (1962)).
+
+This principle applies with equal force here. Rule 32(a)(2)'s advisory requirement exists to ensure that defendants know of their appellate rights. Where, as here, the district court found as a matter of fact that Peguero *already knew* of his right to appeal, the purpose of the Rule was fully satisfied notwithstanding the court's failure to recite the advisory on the record.
+
+### II. The Harmless-Error Framework Governs Rule 32(a)(2) Violations
+
+The Third Circuit correctly applied harmless-error analysis to the Rule 32(a)(2) violation. This Court's decision in *Kotteakos v. United States*, 328 U.S. 750 (1946), established that errors not affecting substantial rights must be disregarded, and that the touchstone of harmless-error review is whether the error had a "substantial and injurious effect or influence in determining" the outcome. *Id.* at 776.
+
+Rule 52(a) of the Federal Rules of Criminal Procedure codifies this principle, directing that "any error, defect, irregularity, or variance which does not affect substantial rights shall be disregarded." Fed. R. Crim. P. 52(a). This Court has applied harmless-error principles even to constitutional errors, see *Chapman v. California*, 386 U.S. 18, 22 (1967), and there is no principled basis for exempting non-constitutional procedural violations—such as a Rule 32(a)(2) omission—from this same analysis.
+
+Here, the District Court's factual finding that Peguero knew of his right to appeal establishes precisely the causal disconnect that harmless-error doctrine is designed to identify. The court's failure to recite the advisory could not have "affected" Peguero's substantial rights, because Peguero already possessed the information the advisory was designed to convey.
+
+### III. Peguero's Actual Knowledge Forecloses Any Claim of Prejudice
+
+Petitioner asks this Court to adopt a *per se* rule mandating relief for any Rule 32(a)(2) violation, regardless of the defendant's actual knowledge. This position cannot be reconciled with *Timmreck* or with the settled understanding that procedural rules serve substantive ends rather than existing as ends in themselves.
+
+The purpose of Rule 32(a)(2) is not to create a ritualistic formality but to ensure that criminal defendants are aware of and able to exercise their right to appeal. Where the defendant already possesses this knowledge—as the District Court found here—the rule's protective function has been served. To hold otherwise would elevate form over substance and would require vacatur of sentences even where, as here, the defendant elected, with full knowledge of his rights, not to pursue a timely appeal.
+
+This case is readily distinguishable from circumstances in which a defendant's ignorance of his appellate rights combines with the court's failure to advise him, resulting in the forfeiture of an appeal he would otherwise have taken. In such cases, the causal link between the Rule 32(a)(2) violation and the loss of appellate rights is clear, and relief may be warranted. But where, as here, the defendant knew of his right and made a knowing and voluntary choice not to appeal, the Rule 32(a)(2) violation is causally disconnected from any injury the defendant claims to have suffered.
+
+### IV. A Per Se Rule Would Undermine the Finality Interests Embodied in Habeas Jurisprudence
+
+This Court has long recognized the strong societal interest in the finality of criminal judgments. See *Timmreck*, 441 U.S. at 784 (noting the "profound societal costs" imposed by collateral attacks). A rule mandating automatic relief for Rule 32(a)(2) violations—irrespective of actual prejudice—would invite exactly the kind of technical, formalistic challenges to final judgments that this Court's harmless-error jurisprudence seeks to avoid. Defendants aware of their appellate rights, who made informed decisions not to exercise them, would nonetheless be entitled to reopen final judgments years later based solely on a court reporter's or district judge's clerical omission.
+
+### CONCLUSION
+
+For the foregoing reasons, the judgment of the Court of Appeals should be affirmed.

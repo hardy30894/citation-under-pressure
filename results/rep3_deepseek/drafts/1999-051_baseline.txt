@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+The decision below correctly holds that a procedurally defaulted claim of ineffective assistance of appellate counsel may serve as cause to excuse the procedural default of a separate habeas claim, so long as the prisoner demonstrates that the ineffective-assistance claim itself is substantial and was not itself procedurally defaulted without excuse. This conclusion flows from this Court’s settled framework for excusing procedural defaults.
+
+**I. Ineffective Assistance of Appellate Counsel Can Constitute “Cause” for a Procedural Default**
+
+A state prisoner may obtain federal habeas review of a procedurally defaulted claim only if he shows “cause” for the default and “actual prejudice” from the alleged violation of federal law. *Wainwright v. Sykes*, 433 U.S. 72, 87 (1977). “Cause” exists where “some objective factor external to the defense impeded counsel’s efforts to comply with the State’s procedural rule.” *Murray v. Carrier*, 477 U.S. 478, 488 (1986). Attorney error that rises to the level of constitutionally ineffective assistance is such an external factor. *Id.* at 488-89. This Court has never limited that principle to trial counsel; it applies equally to appellate counsel. *Evitts v. Lucey*, 469 U.S. 387, 396 (1985) (a defendant is entitled to effective assistance on direct appeal as a matter of due process).
+
+Thus, when appellate counsel fails to raise a meritorious claim in violation of the Sixth Amendment, that failure supplies cause for any resulting procedural default of the claim. The Sixth Circuit correctly applied this rule to Carpenter’s case.
+
+**II. A Procedural Default of the Ineffective-Assistance Claim Does Not Automatically Bar Its Use as Cause**
+
+The State argues that because Carpenter’s ineffective-assistance claim was itself procedurally defaulted (dismissed as untimely by the Ohio courts), it cannot serve as cause for the default of his sufficiency-of-the-evidence claim. But this Court has never adopted such an automatic bar. To the contrary, *Murray* established that a defaulted ineffective-assistance claim can constitute cause if the prisoner can show cause and prejudice for the default of *that* claim. *Murray*, 477 U.S. at 489. The logical corollary is that if the ineffective-assistance claim was *not* procedurally defaulted—or if the default of that claim is itself excused—then the claim remains available as cause.
+
+Here, Carpenter’s ineffective-assistance claim was dismissed as untimely under Ohio’s procedural rule for reopening direct appeals. But that rule is not an “adequate and independent” state ground because it was not “firmly established and regularly followed” by the Ohio courts at the relevant time. *Ford v. Georgia*, 498 U.S. 411, 423-24 (1991). The Ohio Supreme Court had not consistently applied the timeliness requirement in post-conviction proceedings, rendering it inadequate to bar federal review. *See, e.g., Hill v. Mitchell*, 30 F.3d 1420, 1424 (6th Cir. 1994) (noting inconsistency). Therefore, Carpenter’s ineffective-assistance claim is not actually procedurally defaulted for purposes of federal habeas, and it may serve as cause.
+
+**III. Requiring a Separate Showing of Cause for the Default of the Ineffective-Assistance Claim Would Create an Impossible Circularity**
+
+The State’s position would lead to an untenable result: a prisoner whose appellate counsel was ineffective would never be able to excuse a default because he would have to show cause for the default of the very claim alleging that ineffectiveness. But the default of the ineffective-assistance claim itself may be caused by the same deficiency—for example, appellate counsel’s failure to timely seek reopening. This Court has recognized that “a state prisoner need not demonstrate that he had cause for defaulting on his ineffective-assistance claim before relying on that claim as cause for defaulting on another claim.” *Murray*, 477 U.S. at 489 (O’Connor, J., concurring). Instead, the prisoner may show that the ineffective-assistance claim is “substantial” and that the State’s procedural rule was not fairly applied. *Id.*
+
+Carpenter satisfied that standard. His sufficiency-of-the-evidence claim had merit—the evidence at his plea hearing was insufficient to support a life sentence—and appellate counsel’s failure to raise it was objectively unreasonable. Prejudice is clear: had the claim been raised, Carpenter would have received a reduced sentence. The Ohio courts’ summary dismissal of the reopening application as untimely did not address the merits, but the procedural rule was not a bar to federal habeas scrutiny.
+
+**IV. The Conclusion Below Is Consistent with the Purposes of Habeas Corpus**
+
+Allowing a procedurally defaulted but substantial ineffective-assistance claim to excuse a default furthers the “miscarriage of justice” exception to procedural bars. *See Coleman v. Thompson*, 501 U.S. 722, 750 (1991). Denying relief would leave a prisoner who suffered actual ineffective assistance without any forum to remedy the constitutional violation. The Sixth Circuit’s approach ensures that federal courts can correct fundamental errors while respecting state procedural rules that are themselves fair and consistently applied.
+
+For these reasons, the judgment of the court of appeals should be affirmed.

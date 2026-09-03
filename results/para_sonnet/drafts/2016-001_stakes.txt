@@ -1,0 +1,35 @@
+# ARGUMENT
+
+**35 U.S.C. § 289 REQUIRES THAT DAMAGES BE APPORTIONED TO THE PORTION OF THE INFRINGER'S TOTAL PROFIT ATTRIBUTABLE TO THE INFRINGING DESIGN**
+
+## I. The Statutory Text Compels Apportionment to the Relevant "Article of Manufacture"
+
+Section 289 permits recovery of "total profit" from the infringer's sale of "any article of manufacture to which such design or a colorable imitation has been applied." 35 U.S.C. § 289. The statute does not say "product" or "end product sold to consumers"—it says "article of manufacture." That term is not synonymous with the entire commercial product as sold. Where Congress uses a specific term, courts must give it effect according to its ordinary meaning. *Perrin v. United States*, 444 U.S. 37, 42 (1979) ("undefined words in a statute are given their ordinary, contemporary, common meaning").
+
+An "article of manufacture" is simply a thing made by hand or machine. That thing can be, and frequently is, a component of a larger product. Samsung's smartphones contain hundreds of components—processors, memory chips, batteries, screens, and housings. The design patents at issue here claim only specific ornamental features: a rectangular front face with rounded corners (D'677 patent), a bezel (D'087 patent), and a grid of colorful icons on a black screen (D'305 patent). None claims the entire smartphone. The "article of manufacture to which such design... has been applied" is therefore the component embodying that design, not the entire multi-component smartphone.
+
+The Federal Circuit's categorical rule—that the relevant "article of manufacture" must always be the end product sold to consumers—finds no textual support. Nothing in § 289 forecloses identifying an "article of manufacture" as something less than the entire product as sold in commerce.
+
+## II. This Court's Precedent Confirms That "Article of Manufacture" Can Be a Component
+
+This Court has never held that "article of manufacture" is limited to an end product. To the contrary, related patent statutes use "article of manufacture" to refer to components. See 35 U.S.C. § 171(a) (design patents may be granted for "any new, original and ornamental design for an article of manufacture"). Courts have long recognized that components of larger devices can themselves constitute "articles of manufacture" eligible for their own design patents. If a component can be the subject of a design patent as an "article of manufacture," it follows that the same component is the relevant "article of manufacture" for purposes of calculating damages under § 289—the two provisions use identical statutory language and should be read consistently. See *Ratzlaf v. United States*, 510 U.S. 135, 143 (1994) (courts should not construe statutory terms in isolation, but must read them "in [their] context and with a view to their place in the overall statutory scheme").
+
+## III. Total-Profit Awards Divorced From the Infringing Component Produce Absurd and Punitive Results
+
+The Federal Circuit's rule—that Samsung must disgorge its entire profit on complex smartphones because of infringing patents covering only minor design elements—cannot be reconciled with the compensatory purpose of patent damages generally. This Court has repeatedly cautioned against damages awards that exceed what is necessary to compensate for the actual injury caused by infringement. In the utility patent context, this Court in *Aro Manufacturing Co. v. Convertible Top Replacement Co.*, 377 U.S. 476 (1964), rejected the "entire market value rule" as a default, recognizing that patentees are entitled only to damages flowing from the patented feature, not from unrelated components sold together with it.
+
+There is no principled reason why design patent damages under § 289 should operate under a categorically different logic that awards a windfall bearing no relation to the value of the infringed design. A smartphone's total profit reflects contributions from its camera technology, processor speed, network connectivity, software ecosystem, and myriad unpatented engineering choices—none of which relate to the shape of a bezel or the arrangement of icons. Awarding Samsung's entire profit on these complex, multi-component devices for infringement of narrow ornamental designs contravenes the fundamental principle that "the burden of proving damages suffered as a result of the infringer's acts rests on the patentee." *Aro Mfg.*, 377 U.S. at 507.
+
+## IV. The Federal Circuit's Categorical Rule Conflicts With the Century-Old Understanding of § 289's Predecessor
+
+Section 289 traces its lineage to the Act of February 4, 1887, ch. 105, 24 Stat. 387, enacted specifically to address concerns that design patent infringement damages were too difficult to prove under ordinary compensatory principles. But nothing in that history suggests Congress intended disgorgement of profits from unpatented, functionally unrelated components. The statute's reference to "any article of manufacture" was meant to identify the relevant unit of infringement—not to guarantee that patentees of trivial design elements could capture windfall profits from sophisticated multi-component products merely because the patented feature was incorporated into a larger whole.
+
+## V. A Two-Step Framework Properly Implements the Statute
+
+Petitioner submits that identifying the relevant "article of manufacture" requires a fact-specific inquiry considering, at minimum: (1) the scope of the design claimed in the relevant patent, including its drawings and claim language; (2) the relative prominence of the design within the product as a whole; (3) whether the design is conceptually distinct from the product's other components; and (4) the physical relationship between the patented design and the rest of the product, including whether the component can be sold separately.
+
+Applying this framework, the jury below should have been instructed to determine whether the relevant articles of manufacture were the accused smartphones' front faces and bezels—not the entire smartphones. The district court's failure to give any such instruction, and the Federal Circuit's affirmance of a total-profit award based solely on Samsung's failure to separately challenge substantial evidence, allowed a damages theory fundamentally inconsistent with § 289's text and purpose to stand uncorrected.
+
+## CONCLUSION
+
+For the foregoing reasons, this Court should hold that where a design patent claims only a component of a product, § 289 damages must be limited to the infringer's profits attributable to that component, and remand for a proper determination of the relevant "article of manufacture" and resulting damages.

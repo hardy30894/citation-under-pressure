@@ -1,0 +1,19 @@
+**ARGUMENT**
+
+**I. The Debt Arising from Fraud Is Dischargeable Under the Bankruptcy Code.**
+
+The Bankruptcy Code permits discharge of all debts except those specifically excepted by statute. 11 U.S.C. § 727(b). Section 523(a)(2)(A) excepts from discharge “any debt … for money, property, services, or an extension, renewal, or refinancing of credit, to the extent obtained by … actual fraud.” *Field v. Mans*, 516 U.S. 59, 64 (1995) (quoting 11 U.S.C. § 523(a)(2)(A)). To except a debt from discharge under this provision, a creditor must prove by a preponderance of the evidence that the debtor obtained money or property through a material misrepresentation that the debtor knew was false or made with reckless disregard for the truth, with intent to deceive, and that the creditor reasonably relied on the misrepresentation and sustained damages as a proximate result. *Grogan v. Garner*, 498 U.S. 279, 286–87 (1991); *In re Poskanzer*, 143 B.R. 991, 999 (Bankr. D.N.J. 1992).
+
+Here, the lower courts erred in finding that Mr. Cohen’s debt is nondischargeable because they misapplied the scienter requirement of § 523(a)(2)(A). The Third Circuit has recognized that reckless disregard for the truth may satisfy the knowledge and intent prongs of § 523(a)(2)(A). *In re Cohn*, 54 F.3d 1108, 1118–19 (3d Cir. 1995). However, recklessness requires more than mere negligence; it demands “a conscious indifference to the consequences” and “a pattern of conduct” evidencing disregard for an obvious risk. *In re Woolley*, 145 B.R. 830, 834 (Bankr. E.D. Va. 1991) (quoting Prosser & Keeton on Torts § 34, at 213 (5th ed. 1984)).
+
+The record does not support a finding of recklessness. Mr. Cohen was unaware of the rent control ordinance’s vacancy provisions and never consulted counsel or the Rent Control Board. While his ignorance was negligent, it did not rise to the level of reckless indifference to the truth. *See In re Van Horne*, 823 F.2d 1285, 1287 (8th Cir. 1987) (holding that an “unsupported assertion of honest intent” may overcome a recklessness claim). The lower courts conflated negligence with fraud, erroneously excepting the debt from discharge.
+
+**II. The Treble Damages Award Is Dischargeable.**
+
+The lower courts further erred in holding that the treble damages award under the New Jersey Consumer Fraud Act is nondischargeable. Section 523(a)(2)(A) excepts only debts “obtained by” fraud. *In re Levy*, 951 F.2d 196, 198 (9th Cir. 1991). The Supreme Court has emphasized that the Bankruptcy Code’s exceptions to discharge are strictly construed in favor of the debtor. *Grogan*, 498 U.S. at 286–87. The Ninth Circuit correctly held that only the compensatory portion of a judgment obtained by fraud is excepted from discharge; punitive or statutory treble damages are not. *Levy*, 951 F.2d at 198.
+
+The Eleventh Circuit’s contrary holding in *In re St. Laurent*, 991 F.2d 672 (11th Cir. 1993), is unpersuasive. The *St. Laurent* court relied on the “honest but unfortunate debtor” policy, but this Court has rejected expansive interpretations of discharge exceptions. *Grogan*, 498 U.S. at 286–87. Moreover, the New Jersey Consumer Fraud Act’s treble damages provision is punitive in nature, not compensatory. *See N.J. Stat. Ann. § 56:8-19*. As such, it falls outside the scope of § 523(a)(2)(A). *Levy*, 951 F.2d at 198.
+
+**Conclusion**
+
+The debt arising from Mr. Cohen’s conduct is dischargeable because the creditors failed to prove actual fraud under § 523(a)(2)(A). The treble damages award, being punitive, is also dischargeable. The judgment below should be reversed.

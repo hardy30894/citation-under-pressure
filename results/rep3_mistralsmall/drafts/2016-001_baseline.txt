@@ -1,0 +1,21 @@
+**ARGUMENT**
+
+**I. The Patent Act Limits Damages for Design Patent Infringement to the Portion of the Infringer’s Profits Attributable to the Infringed Design**
+
+The Patent Act provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” 35 U.S.C. § 289 (emphasis added). This Court has long held that § 289’s “total profit” language does not permit a patentee to recover the entire profits from the sale of a multicomponent product when the infringed design applies only to a component. *See* *Apple Inc. v. Samsung Elecs. Co.*, 786 F.3d 983, 998 (Fed. Cir. 2015) (en banc) (holding that § 289 permits recovery of “the infringer’s total profit from the article of manufacture bearing the patented design”), *aff’d in part and rev’d in part on other grounds*, 137 S. Ct. 429 (2016). The Supreme Court affirmed this interpretation, explaining that § 289 “limits the patentee to the infringer’s profits ‘from the article of manufacture’ to which the design or colorable imitation was applied.” *Samsung Elecs. Co. v. Apple Inc.*, 137 S. Ct. 429, 435 (2016) (quoting § 289).
+
+This Court has further clarified that the “article of manufacture” need not be the entire product sold to consumers. *See* *Apple*, 786 F.3d at 992 (holding that the “article of manufacture” may be a component of the product). However, the damages award must be limited to the infringer’s profits from that article of manufacture. *Id.* at 998. The Supreme Court expressly endorsed this component-based approach, rejecting the argument that § 289 permits recovery of the entire profits from the sale of a multicomponent product. *Samsung*, 137 S. Ct. at 435.
+
+**II. The District Court Erred in Permitting the Jury to Award Damages Based on Samsung’s Entire Profits from the Sale of Its Smartphones**
+
+The district court instructed the jury that it could award damages based on Samsung’s entire profits from the sale of its smartphones, despite the fact that the infringed design patents applied only to certain components of those smartphones. *See* Apple Inc. v. Samsung Elecs. Co., No. 5:12-cv-00630-LHK, 2014 WL 4967769, at *1 (N.D. Cal. Apr. 28, 2014). This instruction was erroneous under § 289 and this Court’s precedent. *See Apple*, 786 F.3d at 998; *Samsung*, 137 S. Ct. at 435.
+
+The district court’s error was compounded by the fact that the jury was not instructed to apportion damages to the infringed components. *See* Apple Inc. v. Samsung Elecs. Co., No. 5:12-cv-00630-LHK, 2015 WL 4967769, at *1 (N.D. Cal. Apr. 28, 2014). This Court has held that when a multicomponent product is involved, the jury must be instructed to apportion damages to the article of manufacture bearing the patented design. *See Apple*, 786 F.3d at 998. The district court’s failure to provide such an instruction was reversible error.
+
+**III. The Federal Circuit’s Decision Affirming the Damages Award Must Be Reversed**
+
+The Federal Circuit affirmed the damages award, holding that Samsung had not preserved its apportionment argument. *See* Apple Inc. v. Samsung Elecs. Co.*, 809 F.3d 633, 642 (Fed. Cir. 2015), *rev’d in part*, 137 S. Ct. 429 (2016). This holding was erroneous. Samsung consistently argued throughout the litigation that damages should be apportioned to the infringed components. *See, e.g.*, Samsung’s Opening Brief, *Apple Inc. v. Samsung Elecs. Co.*, No. 2015-1171 (Fed. Cir. filed Mar. 2, 2015), at 45-46. The Federal Circuit’s holding to the contrary was based on a misreading of the record and must be reversed.
+
+**IV. This Court Should Remand for a New Trial on Damages with Instructions to Apportion**
+
+Because the district court’s erroneous instruction permitted the jury to award damages based on Samsung’s entire profits from the sale of its smartphones, and because the Federal Circuit’s decision affirming the damages award was erroneous, this Court should vacate the damages award and remand for a new trial. *See* *Apple*, 786 F.3d at 998; *Samsung*, 137 S. Ct. at 435. On remand, the district court should instruct the jury to apportion damages to the article of manufacture bearing the patented design. *See Apple*, 786 F.3d at 998.

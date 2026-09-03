@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+**I. The plain text of the FDCPA defines a “debt collector” based on whether the person collects debts owed to another, not on whether the debt was in default when acquired.**
+
+The Fair Debt Collection Practices Act (“FDCPA”) defines a “debt collector” as “any person who uses any instrumentality of interstate commerce or the mails in any business the principal purpose of which is the collection of any debts, or who regularly collects or attempts to collect, directly or indirectly, debts owed or due or asserted to be owed or due another.” 15 U.S.C. § 1692a(6). The statute’s focus is on whether the person collects debts on behalf of others, not on whether the debt was in default when acquired. *See Heintz v. Jenkins*, 514 U.S. 291, 293 (1995) (noting that the definition includes a person “who regularly collects or attempts to collect, directly or indirectly, debts owed [to] . . . another”).
+
+The statutory structure confirms this interpretation. The definition of “debt collector” has two parts: an inclusionary clause and an exclusionary clause. The inclusionary clause requires that a person either have debt collection as its principal business purpose or regularly collect debts “owed or due another.” 15 U.S.C. § 1692a(6). Only after a person satisfies this threshold definition do the exclusions in subsections (A)-(F) become relevant. *See Davidson v. Capital One Bank (USA), N.A.*, 797 F.3d 1309, 1314 (11th Cir. 2015) (“[W]here a person does not fall within subsection (F) or any one of the six statutory exclusions, he is not deemed a ‘debt collector’ as a matter of course.”).
+
+Petitioners’ argument—that the default status of a debt determines whether a purchaser is a debt collector—improperly conflates the inclusionary and exclusionary clauses. The exclusion in § 1692a(6)(F)(iii) provides that a person collecting debts “owed or due another” is not a debt collector if the debt “was not in default at the time it was obtained.” 15 U.S.C. § 1692a(6)(F)(iii). But this exclusion only applies to persons who *already* satisfy the inclusionary definition. It does not create an independent basis for finding that a person is a debt collector. *See Davidson*, 797 F.3d at 1314.
+
+**II. Santander was collecting its own debts, not debts owed to another, and therefore is not a “debt collector.”**
+
+The complaint alleges that Santander purchased the petitioners’ defaulted loans from CitiFinancial Auto on December 1, 2011. After that date, Santander collected on debts it owned, not debts owed to another. The FDCPA generally does not regulate creditors collecting their own debts. *See* 15 U.S.C. § 1692a(4) (defining “creditor” as “any person who offers or extends credit creating a debt or to whom a debt is owed”); *see also Schlegel v. Wells Fargo Bank, NA*, 720 F.3d 1204, 1209 (9th Cir. 2013) (“The statute is not susceptible to the [plaintiffs’] interpretation that ‘owed or due another’ means ‘originally owed or due another.’”).
+
+The phrase “owed or due another” in § 1692a(6) refers to debts as they exist at the time of the collection activity, not at the time the debt was originated. *Davidson*, 797 F.3d at 1318 (“[O]ur inquiry under § 1692a(6) is not whether Capital One regularly collects on debts originally owed or due another and now owed to Capital One; our inquiry is whether Capital One regularly collects on debts owed or due another at the time of collection.”). Because Santander owned the debts when it attempted to collect them, it was collecting for itself, not for another.
+
+**III. Petitioners’ interpretation would create an absurd loophole and conflict with the FDCPA’s purpose.**
+
+Petitioners argue that any entity that purchases defaulted debt becomes a “debt collector” regardless of whether it collects for itself. This interpretation would sweep every purchaser of defaulted debt—including banks, credit unions, and finance companies—into the FDCPA’s regulatory framework, even when they collect only their own debts. Congress did not intend this result. *See* 15 U.S.C. § 1692(e) (stating the FDCPA’s purpose is “to eliminate abusive debt collection practices by debt collectors,” not creditors).
+
+Moreover, petitioners’ interpretation would create an anomaly: an entity that both collects debts for others and collects its own debts would be subject to the FDCPA for all its collection activities, even those it performs for itself. As the Fourth Circuit correctly recognized, “Congress did not intend this.” *Henson v. Santander Consumer USA, Inc.*, 817 F.3d 131, 141 (4th Cir. 2016). The FDCPA regulates conduct, not status. A person is a “debt collector” only when acting as such. *See* 15 U.S.C. § 1692a(6).
+
+**IV. The Fourth Circuit’s decision is consistent with the majority of circuits.**
+
+The Fourth Circuit’s holding aligns with the Eleventh Circuit’s decision in *Davidson*, 797 F.3d at 1318, and the Ninth Circuit’s decision in *Schlegel*, 720 F.3d at 1209. While petitioners rely on *Bridge v. Ocwen Fed. Bank, FSB*, 681 F.3d 355 (6th Cir. 2012), and *Ruth v. Triumph P’ships*, 577 F.3d 790 (7th Cir. 2009), those cases are distinguishable. In *Bridge*, the entity was collecting debts on behalf of another, not for itself. *Bridge*, 681 F.3d at 359. In *Ruth*, the court’s analysis conflated the inclusionary and exclusionary clauses, an approach the Fourth Circuit correctly rejected. *Henson*, 817 F.3d at 138.
+
+**CONCLUSION**
+
+The FDCPA’s plain text, structure, and purpose confirm that a person who purchases defaulted debt and collects it for its own account is a creditor, not a debt collector. The judgment of the Fourth Circuit should be affirmed.

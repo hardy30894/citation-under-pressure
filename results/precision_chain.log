@@ -1,0 +1,67 @@
+deepseek   true      n=24 exist 0.971->1.0 strict 0.181->0.645
+deepseek   scrambled n=24 exist 0.971->0.96 strict 0.181->0.153
+deepseek   none      n=24 exist 0.971->0.969 strict 0.181->0.152
+deepseek   half      n=24 exist 0.971->0.989 strict 0.181->0.325
+deepseek   quarter   n=24 exist 0.971->0.975 strict 0.181->0.247
+deepseek   threequarter n=24 exist 0.971->1.0 strict 0.181->0.644
+gpt54mini  true      n=24 exist 0.959->0.996 strict 0.36->0.719
+gpt54mini  scrambled n=24 exist 0.959->0.937 strict 0.36->0.241
+gpt54mini  none      n=24 exist 0.959->0.975 strict 0.36->0.543
+gpt54mini  half      n=24 exist 0.959->0.984 strict 0.36->0.706
+gpt54mini  quarter   n=24 exist 0.959->0.955 strict 0.36->0.51
+gpt54mini  threequarter n=24 exist 0.959->0.992 strict 0.36->0.897
+grok43     true      n=24 exist 0.995->1.0 strict 0.207->1.0
+grok43     scrambled n=24 exist 0.995->0.995 strict 0.207->0.208
+grok43     none      n=24 exist 0.995->0.995 strict 0.207->0.236
+grok43     half      n=24 exist 0.995->1.0 strict 0.207->0.667
+grok43     quarter   n=24 exist 0.995->1.0 strict 0.207->0.344
+grok43     threequarter n=24 exist 0.995->1.0 strict 0.207->1.0
+llama4mav  true      n=24 exist 0.93->1.0 strict 0.176->0.349
+llama4mav  scrambled n=24 exist 0.93->0.849 strict 0.176->0.188
+llama4mav  none      n=24 exist 0.93->0.943 strict 0.176->0.109
+llama4mav  half      n=24 exist 0.93->0.981 strict 0.176->0.4
+llama4mav  quarter   n=24 exist 0.93->0.929 strict 0.176->0.089
+llama4mav  threequarter n=24 exist 0.93->0.994 strict 0.176->0.45
+mistralsmall true      n=24 exist 0.877->0.961 strict 0.208->0.264
+mistralsmall scrambled n=24 exist 0.877->0.834 strict 0.208->0.122
+mistralsmall none      n=24 exist 0.877->0.883 strict 0.208->0.198
+mistralsmall half      n=24 exist 0.877->0.868 strict 0.208->0.223
+mistralsmall quarter   n=24 exist 0.877->0.815 strict 0.208->0.154
+mistralsmall threequarter n=24 exist 0.877->0.958 strict 0.208->0.225
+qwen30b    true      n=24 exist 0.739->0.822 strict 0.099->0.107
+qwen30b    scrambled n=24 exist 0.739->0.685 strict 0.099->0.093
+qwen30b    none      n=24 exist 0.739->0.751 strict 0.099->0.072
+qwen30b    half      n=24 exist 0.739->0.762 strict 0.099->0.097
+qwen30b    quarter   n=24 exist 0.739->0.709 strict 0.099->0.08
+qwen30b    threequarter n=24 exist 0.739->0.757 strict 0.099->0.061
+sonnet     true      n=24 exist 1.0->1.0 strict 0.471->0.974
+sonnet     scrambled n=24 exist 1.0->1.0 strict 0.471->0.266
+sonnet     none      n=24 exist 1.0->1.0 strict 0.471->0.595
+sonnet     half      n=24 exist 1.0->1.0 strict 0.471->0.664
+sonnet     quarter   n=24 exist 1.0->1.0 strict 0.471->0.508
+sonnet     threequarter n=24 exist 1.0->1.0 strict 0.471->0.855
+significant after Holm: ['citation:qwen30b:combo', 'citation:qwen30b:quota', 'citation:qwen30b:temporal', 'quote:deepseek:combo', 'quote:llama4mav:combo', 'quote:llama4mav:temporal', 'quote:qwen30b:combo', 'quote:qwen30b:temporal']
+memorization (sonnet): {'sonnet:baseline': {'n_cites': 318, 'canonical_share': 0.148, 'median_year': 1986}, 'sonnet:combo': {'n_cites': 450, 'canonical_share': 0.124, 'median_year': 1943}, 'sonnet:quota': {'n_cites': 454, 'canonical_share': 0.11, 'median_year': 1987}, 'sonnet:stakes': {'n_cites': 333, 'canonical_share': 0.162, 'median_year': 1985}, 'sonnet:temporal': {'n_cites': 353, 'canonical_share': 0.147, 'median_year': 1944}}
+human lenient: 0.6799 near-miss share: 0.2734
+qwen30b:true {'cites_r0': 198, 'cites_final': 197, 'quotes_scored_r0': 186, 'quotes_scored_final': 189, 'accurate_r0': 16, 'accurate_final': 16, 'exist_r0': 0.739, 'exist_final': 0.822}
+qwen30b:scrambled {'cites_r0': 198, 'cites_final': 206, 'quotes_scored_r0': 186, 'quotes_scored_final': 166, 'accurate_r0': 16, 'accurate_final': 12, 'exist_r0': 0.739, 'exist_final': 0.685}
+qwen30b:none {'cites_r0': 198, 'cites_final': 195, 'quotes_scored_r0': 186, 'quotes_scored_final': 185, 'accurate_r0': 16, 'accurate_final': 14, 'exist_r0': 0.739, 'exist_final': 0.751}
+qwen30b:half {'cites_r0': 198, 'cites_final': 209, 'quotes_scored_r0': 186, 'quotes_scored_final': 179, 'accurate_r0': 16, 'accurate_final': 16, 'exist_r0': 0.739, 'exist_final': 0.762}
+qwen30b:quarter {'cites_r0': 198, 'cites_final': 253, 'quotes_scored_r0': 186, 'quotes_scored_final': 164, 'accurate_r0': 16, 'accurate_final': 12, 'exist_r0': 0.739, 'exist_final': 0.709}
+qwen30b:threequarter {'cites_r0': 198, 'cites_final': 224, 'quotes_scored_r0': 186, 'quotes_scored_final': 182, 'accurate_r0': 16, 'accurate_final': 13, 'exist_r0': 0.739, 'exist_final': 0.757}
+sonnet:true {'cites_r0': 220, 'cites_final': 220, 'quotes_scored_r0': 157, 'quotes_scored_final': 73, 'accurate_r0': 68, 'accurate_final': 70, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:scrambled {'cites_r0': 220, 'cites_final': 203, 'quotes_scored_r0': 157, 'quotes_scored_final': 69, 'accurate_r0': 68, 'accurate_final': 26, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:none {'cites_r0': 220, 'cites_final': 230, 'quotes_scored_r0': 157, 'quotes_scored_final': 138, 'accurate_r0': 68, 'accurate_final': 74, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:half {'cites_r0': 220, 'cites_final': 216, 'quotes_scored_r0': 157, 'quotes_scored_final': 63, 'accurate_r0': 68, 'accurate_final': 46, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:quarter {'cites_r0': 220, 'cites_final': 213, 'quotes_scored_r0': 157, 'quotes_scored_final': 48, 'accurate_r0': 68, 'accurate_final': 28, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:threequarter {'cites_r0': 220, 'cites_final': 218, 'quotes_scored_r0': 157, 'quotes_scored_final': 76, 'accurate_r0': 68, 'accurate_final': 65, 'exist_r0': 1.0, 'exist_final': 1.0}
+pressured drafts: 1344
+deepseek {'true:flagged:deleted': 101, 'true:flagged:dequoted': 67, 'true:flagged:edited:flagged': 2, 'true:flagged:kept:flagged': 13}
+gpt54mini {'true:flagged:deleted': 21, 'true:flagged:dequoted': 5, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:flagged': 9}
+grok43 {'true:flagged:deleted': 19, 'true:flagged:dequoted': 27}
+llama4mav {'true:flagged:deleted': 28, 'true:flagged:dequoted': 9, 'true:flagged:edited:flagged': 1, 'true:flagged:kept:flagged': 15}
+mistralsmall {'true:flagged:deleted': 39, 'true:flagged:dequoted': 12, 'true:flagged:edited:flagged': 14, 'true:flagged:kept:flagged': 65}
+qwen30b {'true:flagged:deleted': 30, 'true:flagged:dequoted': 11, 'true:flagged:edited:flagged': 7, 'true:flagged:kept:flagged': 122}
+sonnet {'true:flagged:deleted': 72, 'true:flagged:dequoted': 13, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:accurate': 2}
+483 macros -> /Users/hardy30894/Documents/NYU_Research/citation_under_pressure/docs/jurix/numbers.tex
++1267 revision macros

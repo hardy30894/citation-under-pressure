@@ -76,7 +76,7 @@ def main():
         out[model] = rows
         m = lambda xs: round(sum(x for x in xs if x is not None) /
                              max(1, len([x for x in xs if x is not None])), 3)
-        for arm in ("true", "scrambled", "none", "half"):
+        for arm in ("true", "scrambled", "none", "half", "quarter", "threequarter"):
             sub = [r for r in rows if r["arm"] == arm]
             if not sub:
                 continue

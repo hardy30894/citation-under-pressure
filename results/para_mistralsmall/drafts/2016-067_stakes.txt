@@ -1,0 +1,25 @@
+**ARGUMENT**
+
+I. **SANTANDER IS NOT A “DEBT COLLECTOR” UNDER THE FDCPA BECAUSE IT COLLECTS DEBTS OWED TO ITSELF, NOT “ANOTHER.”**
+
+The Fair Debt Collection Practices Act (“FDCPA”) regulates “debt collectors,” not creditors. 15 U.S.C. § 1692a(6). A “debt collector” is defined as a person who “regularly collects or attempts to collect, directly or indirectly, debts owed or due . . . another.” *Id.* (emphasis added). By contrast, a “creditor” is “any person . . . to whom a debt is owed.” 15 U.S.C. § 1692a(4). The Supreme Court has recognized this distinction, holding that the FDCPA’s definitions “draw a clear line between the two.” *Heintz v. Jenkins*, 514 U.S. 291, 294 (1995).
+
+Here, Santander does not qualify as a “debt collector” because it collects debts owed to *itself*, not “another.” When Santander purchased the defaulted loans from CitiFinancial Auto, it became the owner of those debts. *See generally* 15 U.S.C. § 1692a(4) (defining “creditor” as one to whom a debt is owed). Thus, when Santander sought to collect on those debts, it was acting as a creditor, not a debt collector. *See Davidson v. Capital One Bank (USA), N.A.*, 797 F.3d 1309, 1315 (11th Cir. 2015) (“[A] person must regularly collect or attempt to collect debts *for others* in order to qualify as a ‘debt collector’ under the second definition of the term.”) (emphasis added); *Schlegel v. Wells Fargo Bank, N.A.*, 720 F.3d 1204, 1209 (9th Cir. 2013) (“The statute is not susceptible to the [plaintiffs’] interpretation that ‘owed or due another’ means ‘originally owed or due another.’”).
+
+The Fourth Circuit correctly applied this principle in affirming the district court’s dismissal. *Henson v. Santander Consumer USA, Inc.*, 814 F.3d 131, 135 (4th Cir. 2016). The court held that Santander’s status as a creditor—rather than a debt collector—turned on whether it was collecting debts *owed to itself*, not whether the debts were in default when acquired. *Id.* at 136. This interpretation aligns with the statutory text and the FDCPA’s purpose of regulating third-party collectors, not creditors acting on their own behalf. *See S. Rep. No. 95-382, at 3 (1977), reprinted in 1977 U.S.C.C.A.N. 1695, 1698* (“The Committee intends the term ‘debt collector’ . . . to cover all third persons who regularly collect debts *for others*.”).
+
+II. **THE FDCPA’S EXCLUSIONS DO NOT ALTER SANTANDER’S STATUS AS A CREDITOR.**
+
+The FDCPA includes exclusions from the definition of “debt collector,” but none apply here. For example, § 1692a(6)(F)(iii) excludes persons collecting debts “which were not in default at the time it was obtained.” 15 U.S.C. § 1692a(6)(F)(iii). This exclusion was intended to protect loan servicers handling performing loans, not purchasers of defaulted debt. *See S. Rep. No. 95-382, at 3-4*. Because Santander acquired *defaulted* loans, this exclusion does not apply.
+
+Similarly, § 1692a(4) excludes from the definition of “creditor” those who receive an assignment of a debt *solely for the purpose of facilitating collection for another*. 15 U.S.C. § 1692a(4). Santander, however, did not acquire the loans to collect for CitiFinancial Auto—it purchased them outright. Thus, this exclusion is inapplicable. *See Bridge v. Ocwen Fed. Bank, FSB*, 681 F.3d 355, 359 (6th Cir. 2012) (“The exclusion applies only where the debt is acquired *solely* for collection on behalf of another.”).
+
+III. **PETITIONERS’ INTERPRETATION WOULD UNREASONABLY EXPAND THE FDCPA’S SCOPE.**
+
+Petitioners argue that Santander is a “debt collector” because it acquired the loans *after* default. This interpretation would eviscerate the FDCPA’s creditor exemption. If mere *timing* of acquisition—rather than the *nature* of collection—determined FDCPA coverage, every creditor that purchases defaulted debt would become a “debt collector,” regardless of whether it collects for itself. This would contradict the statute’s plain text and congressional intent. *See Heintz*, 514 U.S. at 294 (“The Act regulates debt collectors, not creditors.”).
+
+Moreover, Petitioners’ reading would create absurd results. A bank that originates a loan, later sells it to another entity, and then purchases it back would be subject to the FDCPA when collecting its own debt—despite being a creditor. Such an outcome is unsupported by the statute. *See Davidson*, 797 F.3d at 1318 (“Our inquiry under § 1692a(6) is whether [the entity] regularly collects on debts owed or due *another* at the time of collection.”).
+
+**CONCLUSION**
+
+Santander is not a “debt collector” under the FDCPA because it collects debts owed to itself, not “another.” The Fourth Circuit correctly affirmed the dismissal of Petitioners’ claims. This Court should do the same.

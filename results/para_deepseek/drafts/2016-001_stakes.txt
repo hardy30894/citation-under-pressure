@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+**I. The Text and Structure of § 289 Limit Damages to the Profits Attributable to the Infringed Design Component**
+
+The design patent statute, 35 U.S.C. § 289, provides that a patentee may recover “the total profit” an infringer makes from an “article of manufacture” to which the patented design is applied. The critical question is what constitutes the relevant “article of manufacture” when a design patent covers only a component of a multicomponent product.
+
+This Court has long recognized that the term “article of manufacture” is broad enough to encompass both a finished product and a component thereof. *See Diamond v. Chakrabarty*, 447 U.S. 303, 308 (1980) (noting that “manufacture” includes “the production of articles for use from raw or prepared materials by giving to these materials new forms, qualities, properties, or combinations”). When a design patent is applied only to a component—such as a smartphone’s screen or case—the “article of manufacture” for damages purposes must be that component, not the entire phone.
+
+The statutory context confirms this reading. Section 289 permits recovery of “the total profit” from the “article of manufacture,” not from the entire product in which the component is embedded. If Congress had intended to award all profits from the entire product regardless of the scope of the design patent, it would have said so. *See Smith v. United States*, 508 U.S. 223, 231 (1993) (courts “presume that Congress says what it means and means what it says”).
+
+**II. The Federal Circuit’s Contrary Rule Conflicts with This Court’s Precedent**
+
+The Federal Circuit has held that when a design patent covers a component, the entire product is the relevant “article of manufacture” for damages. *See Apple Inc. v. Samsung Elecs. Co.*, 786 F.3d 983, 1002 (Fed. Cir. 2015) (affirming award of Samsung’s entire profits from smartphone sales based on design patents covering only the phone’s front face, bezel, and graphical user interface). That rule cannot be squared with this Court’s decision in *Dobson v. Hartford Carpet Co.*, 114 U.S. 439 (1885), which held that a design patentee could recover only the profits attributable to the patented design, not the entire product’s profits.
+
+In *Dobson*, the patent covered a design for carpet patterns. The Court rejected the patentee’s attempt to recover all profits from carpet sales, reasoning that the design was “only a part of the manufactured article” and that damages must be limited to the “value of the design itself.” *Id.* at 444. The same logic applies here: Samsung’s design patents cover only discrete components of its smartphones, not the entire device. Awarding Apple all profits from Samsung’s phone sales improperly compensates Apple for features that have nothing to do with the patented designs.
+
+**III. Apportionment Is Required to Avoid Overcompensation and Unjust Enrichment**
+
+The purpose of § 289 is to prevent an infringer from being unjustly enriched by the use of a patented design. *See Catnic Components Ltd. v. Hill & Smith Ltd.*, [1982] R.P.C. 183, 223 (H.L.) (noting that design patent damages are “not intended to be punitive”). But awarding all profits from a multicomponent product when only one component infringes goes far beyond preventing unjust enrichment; it gives the patentee a windfall.
+
+This Court has consistently required apportionment in patent damages to ensure that the patentee recovers only the value attributable to the patented invention. *See Garretson v. Clark*, 111 U.S. 120, 121 (1884) (requiring the patentee to “separate the profits due to the patented invention from those due to other improvements”); *Westinghouse v. Wagner Mfg. Co.*, 225 U.S. 604, 614-15 (1912) (same). There is no reason to depart from this principle in design patent cases. Indeed, the same logic applies: a design patent covering a smartphone’s screen should not entitle the patentee to profits from the phone’s processor, battery, or camera.
+
+**IV. The Federal Circuit’s Rule Undermines Innovation and Competition**
+
+Allowing design patentees to recover all profits from an entire product based on infringement of a single component creates a powerful disincentive for innovation. Competitors will be deterred from incorporating even minor design improvements into their products for fear of catastrophic damages. This Court has warned against such overbroad remedies, noting that they “may have the effect of discouraging innovation and competition.” *eBay Inc. v. Mercexchange, L.L.C.*, 547 U.S. 388, 393 (2006).
+
+The Federal Circuit’s rule also conflicts with the principle that patent damages should be “adequate to compensate for the infringement, but in no event less than a reasonable royalty.” 35 U.S.C. § 284. A reasonable royalty for a design patent covering a component would be a fraction of the product’s total profit. Awarding all profits far exceeds what is necessary to compensate the patentee and punishes the infringer beyond the scope of its wrongdoing.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should hold that when a design patent covers only a component of a multicomponent product, damages under § 289 are limited to the profits attributable to that component. The judgment of the Federal Circuit should be reversed.

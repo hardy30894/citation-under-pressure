@@ -42,7 +42,7 @@ for m, mk in ALPHA.items():
         emit(f"strict{mk}{ck}", fmt3(cell["strict_rate"]))
         if cell["tchecked"]:
             emit(f"viol{mk}{ck}", f"{100 * cell['viol'] / cell['tchecked']:.0f}")
-    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half")):
+    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
         sub = [r for r in loops[m] if r["arm"] == arm]
         if not sub:
             continue
@@ -127,7 +127,7 @@ if rs_path.exists():
     for key, v in rs["loop_counts"].items():
         m, arm = key.split(":")
         mk = ALPHA.get(m)
-        ak = {"true": "True", "scrambled": "Scr", "none": "None", "half": "Half"}.get(arm)
+        ak = {"true": "True", "scrambled": "Scr", "none": "None", "half": "Half", "quarter": "Quarter", "threequarter": "Threeq"}.get(arm)
         if mk and ak:
             emit2(f"lqScored{mk}{ak}Start", str(v["quotes_scored_r0"]))
             emit2(f"lqScored{mk}{ak}Final", str(v["quotes_scored_final"]))
@@ -248,7 +248,7 @@ if lt.exists():
         if m not in t:
             continue
         c = t[m]
-        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half")):
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq")):
             for v0, vk in (("flagged", "Flag"), ("accurate", "Acc")):
                 kept_acc = c.get(f"{arm}:{v0}:kept:accurate", 0) + c.get(f"{arm}:{v0}:edited:accurate", 0)
                 kept_flag = c.get(f"{arm}:{v0}:kept:flagged", 0) + c.get(f"{arm}:{v0}:edited:flagged", 0)

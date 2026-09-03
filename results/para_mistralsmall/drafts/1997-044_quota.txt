@@ -1,0 +1,30 @@
+**ARGUMENT**
+
+I. **Section 523(a)(2)(A) of the Bankruptcy Code Excepts from Discharge Debts Obtained by Actual Fraud, Including Statutory Treble Damages Awards.**
+
+The Third Circuit correctly held that debts arising from fraud—including statutorily mandated treble damages—are nondischargeable under § 523(a)(2)(A) of the Bankruptcy Code. *See In re St. Laurent*, 991 F.2d 672, 678 (11th Cir. 1993) (holding that punitive damages awarded for fraud are nondischargeable under § 523(a)(2)(A) because they constitute a "debt" obtained by fraud). This interpretation is consistent with the Bankruptcy Code’s purpose of preventing dishonest debtors from obtaining a "fresh start" at the expense of their victims. *See Grogan v. Garner*, 498 U.S. 279, 286-87 (1991) ("[T]he Bankruptcy Code’s fresh start policy is available only to the 'honest but unfortunate debtor.'").
+
+The Ninth Circuit’s contrary decision in *In re Levy*, 951 F.2d 194 (9th Cir. 1991), is unpersuasive. The Levy court held that only compensatory damages are nondischargeable under § 523(a)(2)(A), reasoning that punitive damages are not "obtained by" fraud. *Id.* at 198. This reasoning misconstrues the statutory text, which excepts from discharge any debt "to the extent obtained by" fraud. *See* 11 U.S.C. § 523(a)(2)(A). The *St. Laurent* court correctly rejected this narrow construction, emphasizing that the term "debt" in the Bankruptcy Code is broad enough to encompass both compensatory and punitive damages when they arise from fraud. *St. Laurent*, 991 F.2d at 679.
+
+Here, the New Jersey Consumer Fraud Act mandates treble damages for violations of its provisions. *See N.J. Stat. Ann. § 56:8-19.* Because these damages are statutorily prescribed rather than discretionary, they are foreseeable consequences of Cohen’s fraudulent conduct and thus fall within the scope of § 523(a)(2)(A). *See Molzof v. United States*, 502 U.S. 301, 305 (1992) (holding that the meaning of "punitive damages" in federal statutes is a question of federal law).
+
+II. **The Bankruptcy Court Erred in Finding That Cohen’s Conduct Constituted "Actual Fraud" Under § 523(a)(2)(A).**
+
+To except a debt from discharge under § 523(a)(2)(A), a creditor must prove five elements by a preponderance of the evidence:
+(1) the debtor obtained money or property through a material misrepresentation;
+(2) the debtor knew the representation was false or made it with gross recklessness;
+(3) the debtor intended to deceive the creditor;
+(4) the creditor reasonably relied on the misrepresentation; and
+(5) the creditor sustained damages as a proximate result. *See In re Poskanzer*, 143 B.R. 991, 999 (Bankr. D.N.J. 1992).
+
+The Bankruptcy Court erred in finding that Cohen’s conduct satisfied these elements. First, Cohen did not make any affirmative misrepresentation to the tenants. The court’s conclusion that his silence in charging rent above the legal limit constituted an implied misrepresentation is unsupported by precedent. *See In re Woolley*, 145 B.R. 830, 834 (Bankr. E.D. Va. 1991) (requiring an affirmative misrepresentation to establish fraud under § 523(a)(2)(A)).
+
+Second, the court improperly inferred intent to deceive from Cohen’s reckless disregard of the law. While reckless disregard may satisfy the scienter requirement in some contexts, *see In re Cohn*, 54 F.3d 1108, 1118-19 (3d Cir. 1995) (applying reckless disregard to § 523(a)(2)(B)), it cannot substitute for actual fraud where, as here, no misrepresentation was made. *See In re Van Horne*, 823 F.2d 1285, 1287 (8th Cir. 1987) (requiring more than negligence to establish fraud).
+
+III. **The Bankruptcy Court’s Findings Are Not Entitled to Deference.**
+
+The Third Circuit reviews the Bankruptcy Court’s legal conclusions de novo and its factual findings for clear error. *See Universal Minerals, Inc. v. C.A. Hughes & Co.*, 669 F.2d 98, 102 (3d Cir. 1981). The court below erred in treating its ultimate conclusions—such as whether Cohen’s conduct constituted "actual fraud"—as factual findings entitled to deference. *Id.* Because these determinations are legal in nature, they warrant plenary review.
+
+**CONCLUSION**
+
+For the foregoing reasons, this Court should reverse the judgment below and hold that Cohen’s debts, including the treble damages award, are dischargeable under the Bankruptcy Code.

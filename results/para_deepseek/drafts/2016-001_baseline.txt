@@ -1,0 +1,29 @@
+**ARGUMENT**
+
+**I. The Text and Structure of § 289 Require That Damages Be Limited to the Profits Attributable to the Infringing Component**
+
+The design patent damages statute, 35 U.S.C. § 289, provides that a patentee may recover “the total profit” made by an infringer “from the manufacture or sale” of “any article of manufacture to which [the patented] design or colorable imitation has been applied.” The key phrase is “article of manufacture.” Where, as here, the patented design is applied only to a component of a multicomponent product—such as a smartphone’s screen or bezel—the relevant “article of manufacture” is that component, not the entire product.
+
+This Court has long recognized that the term “article of manufacture” is broad enough to encompass both a finished product and a component thereof. *See Diamond v. Chakrabarty*, 447 U.S. 303, 308 (1980) (defining “manufacture” as “the production of articles for use from raw or prepared materials by giving to these materials new forms, qualities, properties, or combinations, whether by hand-labor or by machinery”). Nothing in § 289’s text compels the conclusion that the “article of manufacture” must always be the end product sold to consumers. To the contrary, the statute’s use of the indefinite article “an” signals that the article may be any item to which the design is applied, including a component. *See Warner-Jenkinson Co. v. Hilton Davis Chem. Co.*, 520 U.S. 17, 28 (1997) (noting that “an” is “indefinite” and “does not refer to a particular item”).
+
+The legislative history of § 289 confirms this reading. Congress enacted the predecessor statute to address the unique problem of design patent infringement, where the value of the design often inheres in a specific component rather than the entire product. *See Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885) (noting that design patents protect “new and original” designs for “articles of manufacture”). Limiting damages to the component’s profits effectuates the statute’s purpose of providing a remedy proportional to the infringement.
+
+**II. The Federal Circuit’s Contrary Rule Conflicts with This Court’s Precedent**
+
+The Federal Circuit’s decision below—affirming an award of Samsung’s entire profits from the sale of its smartphones—rests on an erroneous legal premise. The court held that the “article of manufacture” is always the product as sold to consumers, regardless of whether the patented design is applied only to a component. *See Apple Inc. v. Samsung Elecs. Co.*, 786 F.3d 983, 1002 (Fed. Cir. 2015) (per curiam). That rule cannot be squared with this Court’s decisions.
+
+In *Dobson*, this Court held that a design patentee could recover only the profits attributable to the infringing design, not the entire profits from the sale of the product. *Dobson*, 114 U.S. at 444. Although *Dobson* involved a different statutory provision, its reasoning applies with equal force here: the patentee is entitled to the profits “arising from” the infringement, not the profits from the entire product. *Id.* at 445.
+
+Similarly, in *Seymour v. McCormick*, 57 U.S. 480, 490 (1854), this Court held that damages for patent infringement must be “commensurate with the injury sustained.” A rule that automatically awards all profits from a multicomponent product, even when the patented design is limited to a single component, overcompensates the patentee and punishes the infringer beyond the scope of the wrong. *See id.* at 491 (rejecting a rule that would “give the patentee more than his invention is worth”).
+
+**III. The Proper Approach Requires Apportionment**
+
+When a design patent is applied only to a component of a product, the “article of manufacture” for purposes of § 289 is that component. The patentee may recover the infringer’s profits from the sale of that component, but not profits attributable to other, non-infringing components. This approach is consistent with the statute’s text, this Court’s precedent, and the principle that damages should be proportional to the infringement.
+
+The jury in this case was instructed to award Samsung’s entire profits from the sale of its smartphones, without any instruction on apportionment. That instruction was erroneous. The proper measure of damages is the profits attributable to the specific components that embodied Apple’s patented designs—such as the screen, bezel, or other design elements—not the profits from the entire phone.
+
+**IV. The Federal Circuit’s Decision Should Be Reversed**
+
+The Federal Circuit affirmed the district court’s judgment on the ground that Samsung failed to challenge the sufficiency of the evidence supporting the jury’s damages award. *See Apple Inc. v. Samsung Elecs. Co.*, 839 F.3d 1034, 1048 (Fed. Cir. 2016) (en banc). But the error here is legal, not factual. The district court’s jury instruction misstated the law by failing to define “article of manufacture” as the component to which the design was applied. That legal error infected the entire damages determination and requires reversal.
+
+This Court should hold that, when a design patent is applied only to a component of a multicomponent product, the “article of manufacture” under § 289 is that component, and damages must be limited to the profits attributable to that component. The case should be remanded for a new trial on damages consistent with this rule.

@@ -1291,6 +1291,26 @@
    "exist_r0": 0.971,
    "exist_final": 0.989
   },
+  "deepseek:quarter": {
+   "cites_r0": 248,
+   "cites_final": 189,
+   "quotes_scored_r0": 211,
+   "quotes_scored_final": 92,
+   "accurate_r0": 28,
+   "accurate_final": 18,
+   "exist_r0": 0.971,
+   "exist_final": 0.975
+  },
+  "deepseek:threequarter": {
+   "cites_r0": 248,
+   "cites_final": 227,
+   "quotes_scored_r0": 211,
+   "quotes_scored_final": 71,
+   "accurate_r0": 28,
+   "accurate_final": 31,
+   "exist_r0": 0.971,
+   "exist_final": 1.0
+  },
   "gpt54mini:true": {
    "cites_r0": 366,
    "cites_final": 354,
@@ -1331,6 +1351,26 @@
    "exist_r0": 0.959,
    "exist_final": 0.984
   },
+  "gpt54mini:quarter": {
+   "cites_r0": 366,
+   "cites_final": 333,
+   "quotes_scored_r0": 65,
+   "quotes_scored_final": 30,
+   "accurate_r0": 28,
+   "accurate_final": 18,
+   "exist_r0": 0.959,
+   "exist_final": 0.955
+  },
+  "gpt54mini:threequarter": {
+   "cites_r0": 366,
+   "cites_final": 345,
+   "quotes_scored_r0": 65,
+   "quotes_scored_final": 33,
+   "accurate_r0": 28,
+   "accurate_final": 27,
+   "exist_r0": 0.959,
+   "exist_final": 0.992
+  },
   "grok43:true": {
    "cites_r0": 240,
    "cites_final": 242,
@@ -1366,6 +1406,26 @@
    "cites_final": 239,
    "quotes_scored_r0": 61,
    "quotes_scored_final": 8,
+   "accurate_r0": 15,
+   "accurate_final": 6,
+   "exist_r0": 0.995,
+   "exist_final": 1.0
+  },
+  "grok43:quarter": {
+   "cites_r0": 240,
+   "cites_final": 233,
+   "quotes_scored_r0": 61,
+   "quotes_scored_final": 13,
+   "accurate_r0": 15,
+   "accurate_final": 6,
+   "exist_r0": 0.995,
+   "exist_final": 1.0
+  },
+  "grok43:threequarter": {
+   "cites_r0": 240,
+   "cites_final": 241,
+   "quotes_scored_r0": 61,
+   "quotes_scored_final": 6,
    "accurate_r0": 15,
    "accurate_final": 6,
    "exist_r0": 0.995,
@@ -1411,6 +1471,26 @@
    "exist_r0": 0.93,
    "exist_final": 0.981
   },
+  "llama4mav:quarter": {
+   "cites_r0": 270,
+   "cites_final": 205,
+   "quotes_scored_r0": 64,
+   "quotes_scored_final": 20,
+   "accurate_r0": 11,
+   "accurate_final": 2,
+   "exist_r0": 0.93,
+   "exist_final": 0.929
+  },
+  "llama4mav:threequarter": {
+   "cites_r0": 270,
+   "cites_final": 233,
+   "quotes_scored_r0": 64,
+   "quotes_scored_final": 13,
+   "accurate_r0": 11,
+   "accurate_final": 6,
+   "exist_r0": 0.93,
+   "exist_final": 0.994
+  },
   "mistralsmall:true": {
    "cites_r0": 267,
    "cites_final": 261,
@@ -1450,6 +1530,26 @@
    "accurate_final": 13,
    "exist_r0": 0.877,
    "exist_final": 0.868
+  },
+  "mistralsmall:quarter": {
+   "cites_r0": 267,
+   "cites_final": 255,
+   "quotes_scored_r0": 145,
+   "quotes_scored_final": 106,
+   "accurate_r0": 15,
+   "accurate_final": 7,
+   "exist_r0": 0.877,
+   "exist_final": 0.815
+  },
+  "mistralsmall:threequarter": {
+   "cites_r0": 267,
+   "cites_final": 250,
+   "quotes_scored_r0": 145,
+   "quotes_scored_final": 123,
+   "accurate_r0": 15,
+   "accurate_final": 14,
+   "exist_r0": 0.877,
+   "exist_final": 0.958
   },
   "qwen30b:true": {
    "cites_r0": 198,
@@ -1491,6 +1591,26 @@
    "exist_r0": 0.739,
    "exist_final": 0.762
   },
+  "qwen30b:quarter": {
+   "cites_r0": 198,
+   "cites_final": 253,
+   "quotes_scored_r0": 186,
+   "quotes_scored_final": 164,
+   "accurate_r0": 16,
+   "accurate_final": 12,
+   "exist_r0": 0.739,
+   "exist_final": 0.709
+  },
+  "qwen30b:threequarter": {
+   "cites_r0": 198,
+   "cites_final": 224,
+   "quotes_scored_r0": 186,
+   "quotes_scored_final": 182,
+   "accurate_r0": 16,
+   "accurate_final": 13,
+   "exist_r0": 0.739,
+   "exist_final": 0.757
+  },
   "sonnet:true": {
    "cites_r0": 220,
    "cites_final": 220,
@@ -1528,6 +1648,26 @@
    "quotes_scored_final": 63,
    "accurate_r0": 68,
    "accurate_final": 46,
+   "exist_r0": 1.0,
+   "exist_final": 1.0
+  },
+  "sonnet:quarter": {
+   "cites_r0": 220,
+   "cites_final": 213,
+   "quotes_scored_r0": 157,
+   "quotes_scored_final": 48,
+   "accurate_r0": 68,
+   "accurate_final": 28,
+   "exist_r0": 1.0,
+   "exist_final": 1.0
+  },
+  "sonnet:threequarter": {
+   "cites_r0": 220,
+   "cites_final": 218,
+   "quotes_scored_r0": 157,
+   "quotes_scored_final": 76,
+   "accurate_r0": 68,
+   "accurate_final": 65,
    "exist_r0": 1.0,
    "exist_final": 1.0
   }

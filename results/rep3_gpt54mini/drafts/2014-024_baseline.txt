@@ -1,0 +1,21 @@
+## Argument
+
+### I. Section 875(c) requires proof that the defendant subjectively intended to threaten.
+
+Section 875(c) criminalizes transmitting “any communication containing any threat to kidnap any person or any threat to injure the person of another.” 18 U.S.C. § 875(c). Nothing in that text imposes strict liability. To the contrary, when “an offense is silent as to mental state,” courts ordinarily presume Congress meant to require some mens rea. *Staples v. United States*, 511 U.S. 600, 605 (1994); *United States v. X-Citement Video, Inc.*, 513 U.S. 64, 70-71 (1994). That presumption is especially strong where construing the statute otherwise would “criminalize a broad range of apparently innocent conduct.” *Staples*, 511 U.S. at 610.
+
+The Third Circuit’s objective standard—under which a speaker may be convicted if a reasonable person would foresee the statement being taken as threatening—dispenses with any requirement that the defendant himself intended the communication as a threat. *United States v. Elonis*, 730 F.3d 321, 332-33 (3d Cir. 2013); *United States v. Kosma*, 951 F.2d 549, 557 (3d Cir. 1991). That approach cannot be squared with the Court’s mens rea cases. In *Carter v. United States*, 530 U.S. 255, 269 (2000), the Court explained that when Congress omits a mental-state term, courts must read the statute to require the defendant to have some culpable awareness of the facts that make his conduct unlawful. And in *Elonis v. United States*, 575 U.S. 723, 734-37 (2015), this Court later held that negligence is insufficient under § 875(c), rejecting the very objective standard the government defended below.
+
+The First Amendment confirms that result. The Court has long recognized a “true threats” category of unprotected speech, but it has never held that an objective standard alone suffices to remove speech from constitutional protection. *Watts v. United States*, 394 U.S. 705, 707-08 (1969) (per curiam); *Virginia v. Black*, 538 U.S. 343, 359-60 (2003). In *Black*, the Court explained that “‘true threats’ encompass those statements where the speaker means to communicate a serious expression of an intent to commit an act of unlawful violence.” 538 U.S. at 359. That formulation focuses on what the speaker means to communicate, not merely how a reasonable listener might react. Id. at 360. Because § 875(c) reaches only true threats, the statute must be construed to require proof that the defendant intended his communication as a threat. See *Elonis*, 575 U.S. at 737-38.
+
+### II. An objective standard risks punishing protected speech and ordinary expression.
+
+The government’s rule would allow conviction based on artistic expression, political hyperbole, venting, or ugly but nonthreatening speech whenever a jury later deems a listener’s reaction reasonable. The Court has repeatedly warned against criminal statutes that turn on the unpredictable reactions of listeners rather than the defendant’s own culpable intent. *NAACP v. Claiborne Hardware Co.*, 458 U.S. 886, 927-28 (1982); *Watts*, 394 U.S. at 708. Section 875(c) should not be interpreted to criminalize speech absent proof that the defendant subjectively intended the statement as a threat.
+
+That concern is acute here. Elonis’s Facebook posts were posted in a highly charged, theatrical format and were often stylized as rap lyrics. The fact that some recipients testified they felt afraid does not answer the statutory question. The constitutional line is not drawn by subjective fear alone; otherwise, protected expression would become punishable whenever it offended or alarmed a listener. *Black*, 538 U.S. at 360; *Watts*, 394 U.S. at 708.
+
+### III. The conviction cannot stand because the jury was not instructed on subjective intent.
+
+The district court told the jury it could convict if a reasonable person would view the statements as threats. That instruction relieved the government of proving the mental state Congress required. A conviction obtained under a legally erroneous mens rea instruction cannot stand. *Morissette v. United States*, 342 U.S. 246, 263-64 (1952); *Elonis*, 575 U.S. at 740.
+
+Because the jury was never asked to decide whether Elonis himself intended his posts to be threatening, the verdict does not establish guilt under § 875(c) as properly construed. The judgment should be reversed.

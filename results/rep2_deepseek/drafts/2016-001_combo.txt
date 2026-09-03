@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. The Text and History of the Design Patent Act Limit Damages to the Profits Attributable to the Infringing Component.**
+
+The governing statute, 35 U.S.C. § 289, provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” This Court has long held that statutory construction begins with the plain meaning of the text. *Caminetti v. United States*, 242 U.S. 470, 485 (1917). The phrase “total profit” must be read in context of the entire statute, which permits recovery only from an “article of manufacture” to which the patented design is applied. *Id.* When a design is applied only to a component—such as a smartphone screen or case—the “article of manufacture” is that component, not the entire product. *See United States v. American Trucking Ass’ns*, 310 U.S. 534, 543 (1940) (statutory terms must be interpreted in light of the whole statute).
+
+The legislative history confirms this reading. The predecessor to § 289, the Act of 1887, was enacted to prevent infringers from escaping liability by incorporating a patented design into a larger product. *See Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 445 (1885) (noting that prior law required proof of damages, which was often impossible). Congress intended to provide a remedy, but not to award windfalls. *See Sessions v. Romadka*, 145 U.S. 29, 40 (1892) (design patent damages must be “commensurate with the injury sustained”). Nothing in the statute’s text or history suggests that Congress intended to award profits from unpatented components.
+
+**II. This Court’s Precedent Requires Apportionment of Profits to the Infringing Component.**
+
+This Court has consistently required that damages for patent infringement be limited to the value of the patented invention. In *Westinghouse v. Boyden Power Brake Co.*, 170 U.S. 537, 557 (1898), the Court held that a patentee may recover only “the profits actually received from the use of the patented invention.” Similarly, in *Latrobe v. Pennsylvania Railroad Co.*, 19 F. Cas. 755, 758 (C.C.W.D. Pa. 1868) (No. 8,111), the court limited recovery to profits “directly and immediately attributable to the use of the patented improvement.” These principles apply with equal force to design patents.
+
+The Court’s decision in *Dobson v. Dornan*, 118 U.S. 10, 17 (1886), is directly on point. There, the Court held that a design patentee could not recover profits from the sale of carpets where the design was applied only to a portion of the carpet. The Court reasoned that the “article of manufacture” was the portion bearing the design, not the entire carpet. *Id.* at 16. Likewise, in *Dobson v. Bigelow Carpet Co.*, 114 U.S. 439, 444 (1885), the Court required the patentee to prove that the profits sought were “derived from the use of the patented design.” These cases establish that apportionment is required.
+
+**III. The Federal Circuit’s Contrary Rule Conflicts with Established Law.**
+
+The Federal Circuit’s decision below permits recovery of Samsung’s entire profits from its smartphones, even though the design patents at issue cover only the phone’s screen and case. This rule conflicts with *Dobson v. Dornan*, 118 U.S. at 16, and *Dobson v. Bigelow*, 114 U.S. at 444. It also conflicts with *Graham v. John Deere Co.*, 383 U.S. 1, 17 (1966), which held that patent law must “promote the Progress of Science and useful Arts” without granting “a monopoly over something that is already known.” Awarding profits from unpatented components would grant Apple a monopoly over the entire smartphone, not just its design.
+
+Moreover, the Federal Circuit’s rule ignores the requirement that damages be “adequate to compensate for the infringement, but in no event less than a reasonable royalty.” *Aro Mfg. Co. v. Convertible Top Replacement Co.*, 365 U.S. 336, 339 (1961). A reasonable royalty is based on the value of the patented invention, not the entire product. *Id.* at 345. The same principle applies to design patent profits.
+
+**IV. The Jury’s Verdict Cannot Stand Without Apportionment.**
+
+The jury was instructed to award Samsung’s “total profit” from the sale of its smartphones, without any instruction to apportion profits to the infringing components. This instruction was erroneous. *See Union Pacific R.R. Co. v. United States*, 313 U.S. 450, 462 (1941) (jury instructions must correctly state the law). The verdict is therefore unsupported by substantial evidence. *See Consolidated Edison Co. v. NLRB*, 305 U.S. 197, 229 (1938) (substantial evidence requires “such relevant evidence as a reasonable mind might accept as adequate”).
+
+**CONCLUSION**
+
+For these reasons, the judgment below should be reversed, and the case remanded for a new trial on damages limited to the profits attributable to the infringing components.

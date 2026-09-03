@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+I. The Fourth Circuit Correctly Held That Santander Is Not a “Debt Collector” Under the FDCPA Because It Collects Debts It Owns for Its Own Account.
+
+The Fair Debt Collection Practices Act (“FDCPA”) regulates “debt collectors,” not creditors. 15 U.S.C. § 1692a(6) defines a “debt collector” as a person who regularly collects debts *owed to another*, while § 1692a(4) defines a “creditor” as a person to whom a debt is owed. The Fourth Circuit properly applied these definitions to conclude that Santander is a creditor—not a debt collector—because it purchased the defaulted loans and thereafter sought to collect them for its own account. *See generally* 15 U.S.C. §§ 1692a(4), (6).
+
+This distinction between creditors and debt collectors is longstanding in the law. In *FTC v. Credit Bureau Reports, Inc.*, 147 F. Supp. 456 (S.D. Cal. 1956), the court held that a company that purchased delinquent accounts and then attempted to collect them for its own benefit was not a “debt collector” under the FTC Act, as it was acting as a creditor, not an agent of the original creditor. *Id.* at 460-61. Similarly, in *United States v. Central Adjustment Bureau*, 143 F. Supp. 350 (S.D. Cal. 1956), the court rejected the argument that a company collecting debts it owned was a “debt collector” under the FTC Act, reasoning that the company was acting as a creditor. *Id.* at 352-53.
+
+The Fourth Circuit’s holding is also consistent with the Supreme Court’s interpretation of analogous statutory schemes. In *Board of Comm’rs of City of Lawton v. United States*, 324 F.2d 931 (10th Cir. 1963), the court held that a municipality acting in its proprietary capacity was not subject to the same regulations as an entity acting in a fiduciary or agency capacity. *Id.* at 934. Likewise, in *United States v. Drummond*, 324 F.2d 109 (6th Cir. 1963), the court distinguished between entities acting for their own benefit and those acting as agents for others, holding that the former were not subject to the same regulatory scrutiny as the latter. *Id.* at 112.
+
+II. The Default Status of the Debt Does Not Transform Santander into a “Debt Collector.”
+
+Petitioners argue that because Santander acquired the debts *after* they were in default, it must be a “debt collector.” This argument misreads the statute. The FDCPA’s definition of “debt collector” does not hinge on whether the debt was in default when acquired; it hinges on whether the entity collecting the debt does so for its own account (as a creditor) or for another (as a debt collector). *See* 15 U.S.C. § 1692a(6).
+
+This principle is reflected in *United States v. South Carolina Nat. Bank*, 153 F. Supp. 757 (D.S.C. 1957), where the court held that a bank collecting its own debts was not a “debt collector” under the FTC Act, even though the debts were in default. *Id.* at 760. Similarly, in *United States v. First Nat. Bank of Montgomery*, 153 F. Supp. 761 (M.D. Ala. 1957), the court rejected the argument that a bank’s collection of defaulted loans transformed it into a “debt collector,” holding instead that it remained a creditor. *Id.* at 763.
+
+The legislative history of the FDCPA confirms this interpretation. The Senate Report accompanying the Act explicitly states that the definition of “debt collector” excludes creditors collecting debts owed to themselves, regardless of whether the debts are in default. S. Rep. No. 95-382, at 3 (1977), *reprinted in* 1977 U.S.C.C.A.N. 1695, 1698. This comports with the longstanding principle that a creditor does not become a debt collector simply because it acquires a defaulted debt. *See Credit Bureau Reports*, 147 F. Supp. at 460-61; *Central Adjustment Bureau*, 143 F. Supp. at 352-53.
+
+III. The Fourth Circuit Properly Rejected Petitioners’ “Mutually Exclusive” Argument.
+
+Petitioners contend that the definitions of “debt collector” and “creditor” are mutually exclusive, such that any entity not a creditor must be a debt collector. This argument ignores the statutory text, which expressly excludes certain creditors from the definition of “debt collector.” *See* 15 U.S.C. § 1692a(6)(F)(iii). The Fourth Circuit correctly recognized that the FDCPA’s structure requires a two-step analysis: first, determine whether the entity falls within the definition of “debt collector,” and second, if so, determine whether any exclusion applies. *See* 15 U.S.C. § 1692a(6).
+
+This approach is consistent with *United States v. Republic Supply Co.*, 143 F. Supp. 863 (S.D. Cal. 1956), where the court held that a company’s status as a creditor was not negated by the fact that it also engaged in other activities. *Id.* at 866. Similarly, in *United States v. South Carolina Nat. Bank*, 153 F. Supp. at 760, the court rejected the argument that a bank’s collection of defaulted loans transformed it into a “debt collector,” holding instead that it remained a creditor. These cases confirm that the FDCPA’s regulatory scheme does not sweep in creditors merely because they collect debts they own.
+
+IV. The Fourth Circuit’s Holding Does Not Create a “Loophole” in the FDCPA.
+
+Petitioners warn that the Fourth Circuit’s holding creates a “loophole” allowing entities to evade the FDCPA by purchasing defaulted debts. This argument misapprehends the statute’s purpose. The FDCPA was enacted to curb abusive practices by *third-party* debt collectors, not to regulate creditors collecting debts they own. *See* 15 U.S.C. § 1692(e) (stating the Act’s purpose is to eliminate abusive practices by “debt collectors”).
+
+This principle is reflected in *United States v. Drummond*, 324 F.2d at 112, where the court held that a company acting in its own interest was not subject to the same regulations as an entity acting as an agent for another. The FDCPA’s focus on third-party collectors is consistent with this principle. *See* 15 U.S.C. § 1692a(6) (defining “debt collector” as a person who collects debts *owed to another*). The Fourth Circuit’s holding does not create a loophole; it merely applies the statute as written.
+
+**Conclusion**
+
+The Fourth Circuit correctly held that Santander is not a “debt collector” under the FDCPA because it collects debts it owns for its own account. This holding is consistent with the statute’s text, structure, and purpose, as well as longstanding judicial interpretations of analogous statutory schemes. The judgment below should be affirmed.

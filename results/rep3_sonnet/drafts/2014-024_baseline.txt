@@ -1,0 +1,33 @@
+# ARGUMENT
+
+**A CONVICTION UNDER 18 U.S.C. §875(c) REQUIRES PROOF THAT THE DEFENDANT SUBJECTIVELY INTENDED HIS COMMUNICATION TO BE UNDERSTOOD AS A THREAT**
+
+## I. The Text and Structure of §875(c) Require Proof of Mental Culpability
+
+Section 875(c) criminalizes transmission "of any communication containing any threat to kidnap any person or any threat to injure the person of another." The statute is silent on intent, but this Court has long instructed that "silence on th[e] point" of mens rea does not mean Congress intended strict liability. *Morissette v. United States*, 342 U.S. 246, 250 (1952). Rather, courts must "read into the statute" the mental state necessary to "separate wrongful conduct from otherwise innocent conduct." *Carter v. United States*, 530 U.S. 255, 269 (2000) (quoting *X-Citement Video*, 513 U.S. at 72).
+
+This presumption applies with special force where, as here, a statute regulates speech and criminalizes conduct—transmitting words—that is otherwise wholly legal. In *Staples v. United States*, 511 U.S. 600, 618 (1994), this Court held that criminal statutes imposing "harsh penalties" for conduct that might otherwise be innocent require a scienter requirement absent clear congressional intent to dispense with it. A Facebook post is not inherently wrongful; it becomes wrongful only when the speaker intends it as a threat. The Third Circuit's negligence-based "reasonable person" standard collapses this distinction, criminalizing speech based solely on how it is received, without regard to why it was sent.
+
+## II. The First Amendment's "True Threats" Doctrine Requires Subjective Intent
+
+This Court's true-threats jurisprudence confirms that the First Amendment tolerates criminal punishment of threatening speech only when the speaker subjectively means to threaten. In *Virginia v. Black*, 538 U.S. 343, 359 (2003), this Court defined true threats as statements where "the speaker means to communicate a serious expression of an intent to commit an act of unlawful violence." The Court's repeated use of "means to communicate"—not "reasonably could be understood to communicate"—demonstrates that the constitutional exception targets the speaker's state of mind, not merely the listener's reaction.
+
+*Black* did not arise in a vacuum. It built upon *Watts v. United States*, 394 U.S. 705, 708 (1969), which held that a statute criminalizing threats against the President "must be interpreted with the commands of the First Amendment clearly in mind," and that "what is a threat must be distinguished from what is constitutionally protected speech." The petitioner's statement in *Watts*—that if drafted, "the first man I want to get in my sights is L.B.J."—was deemed "political hyperbole" rather than a true threat, precisely because context negated any showing that the speaker meant his words as a genuine expression of intent to harm. *Id.* at 708.
+
+The rationale animating *Black* and *Watts* is that the First Amendment protects a "profound national commitment to the principle that debate on public issues should be uninhibited, robust, and wide-open," *New York Times Co. v. Sullivan*, 376 U.S. 254, 270 (1964), including speech that is "vehement, caustic, and sometimes unpleasantly sharp." *Id.* True threats are excepted from protection not because they cause fear, but because the speaker has forsaken the marketplace of ideas to make a "serious expression" of intent to commit violence. *Black*, 538 U.S. at 359. A reasonable-listener standard, untethered from the speaker's actual intent, risks punishing satire, political hyperbole, rap lyrics, and artistic expression whenever an audience—however unreasonably—takes offense.
+
+## III. This Court's General Intent Jurisprudence Confirms That Negligence Is the Wrong Standard for Criminal Liability
+
+This Court has consistently rejected negligence as a basis for serious criminal liability absent explicit congressional direction. In *Elonis v. United States* itself, the government's own theory would reduce §875(c)—a felony punishable by five years' imprisonment—to a crime of negligent speech. But this Court has cautioned that "the requirement of some mens rea for a crime is firmly embedded" in American law, *Morissette*, 342 U.S. at 252, and has resisted interpreting ambiguous criminal statutes to impose liability for merely negligent conduct where more culpable readings are available. *See Liparota v. United States*, 471 U.S. 419, 425 (1985) (declining to adopt a reading that would "criminalize a broad range of apparently innocent conduct").
+
+The Third Circuit's objective standard asks only whether a reasonable person would foresee that his words would be interpreted as threatening. *United States v. Kosma*, 951 F.2d 549, 557 (3d Cir. 1991). This is, at bottom, a negligence standard—it punishes the defendant not for what he intended, but for failing to appreciate how others might construe his statements. That standard finds no support in *Black*, which spoke in terms of what the speaker "means to communicate," 538 U.S. at 359, not what an audience might reasonably infer.
+
+## IV. Application to the Facts Confirms the Necessity of a Subjective Standard
+
+Petitioner's Facebook posts—cast as rap lyrics, laden with disclaimers, and explicitly invoking "freedom of speech"—present precisely the ambiguity that necessitates inquiry into subjective intent. The Third Circuit itself acknowledged that petitioner's statements took the form of rap lyrics and referenced First Amendment doctrine, yet declined to require any showing that petitioner intended these statements as genuine threats rather than expressive, cathartic, or artistic speech. Under an objective standard, a jury need never consider whether the speaker was engaged in venting, dark humor, or artistic expression—only whether a reasonable observer, stripped of the speaker's own understanding, would perceive a threat.
+
+This approach inverts the protection *Black* and *Watts* were designed to provide. It permits conviction for a felony based solely on audience reaction, even where the defendant never intended to threaten anyone. Such a rule chills vast swaths of protected expression, from rap artists like the members of N.W.A. to political satirists, who must now self-censor rather than risk felony prosecution for words a reasonable listener might—however wrongly—construe as threatening.
+
+## CONCLUSION
+
+The judgment of the Third Circuit should be reversed, and this Court should hold that §875(c) requires proof of the defendant's subjective intent to threaten.

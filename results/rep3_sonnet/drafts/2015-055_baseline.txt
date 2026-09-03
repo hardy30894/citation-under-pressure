@@ -1,0 +1,27 @@
+# ARGUMENT
+
+## THE RULE ANNOUNCED IN JOHNSON v. UNITED STATES APPLIES RETROACTIVELY TO CASES ON COLLATERAL REVIEW
+
+### A. Johnson Announced a New Substantive Rule
+
+This Court's decision in *Johnson v. United States*, 576 U.S. 591 (2015), held that the residual clause of the Armed Career Criminal Act (ACCA) "denies fair notice to defendants and invites arbitrary enforcement by judges," rendering it unconstitutionally vague under the Due Process Clause. *Id.* at 597. That holding is substantive, not procedural, and thus satisfies the *Teague* framework for retroactivity on collateral review.
+
+In *Teague v. Lane*, 489 U.S. 288 (1989), this Court distinguished between new procedural rules, which generally do not apply retroactively, and new substantive rules, which do. A rule is substantive if it "alters the range of conduct or the class of persons that the law punishes." *Schriro v. Summerlin*, 542 U.S. 348, 353 (2004). Substantive rules apply retroactively because "there is a strong likelihood that the defendant faces a punishment that the law cannot impose upon him." *Id.* at 352 (quoting *Bousley v. United States*, 523 U.S. 614, 620 (1998)).
+
+*Johnson* fits squarely within this category. By declaring the residual clause void for vagueness, *Johnson* did not merely alter the procedure by which courts evaluate predicate offenses—it eliminated an entire category of conduct from ACCA's punitive reach. Before *Johnson*, a defendant could be sentenced to a mandatory fifteen-year minimum based on a conviction that "presents a serious potential risk of physical injury to another." 18 U.S.C. § 924(e)(2)(B)(ii). After *Johnson*, that clause is void, meaning the class of persons subject to ACCA's enhanced penalties has been substantively narrowed. This is indistinguishable from the rule this Court found retroactive in *Summerlin*, where the elimination of judicial factfinding for a statutory element "altered the range of conduct" subject to the death penalty. 542 U.S. at 353–54.
+
+This Court's decision in *Bousley* confirms that decisions narrowing the scope of a criminal statute apply retroactively. There, the Court held that a decision interpreting 18 U.S.C. § 924(c)(1) more narrowly than lower courts had previously construed it applied retroactively because "decisions of this Court holding that a substantive federal criminal statute does not reach certain conduct... necessarily carry a significant risk that a defendant stands convicted of 'an act that the law does not make criminal.'" 523 U.S. at 620 (quoting *Davis v. United States*, 417 U.S. 333, 346 (1974)). *Johnson*'s invalidation of the residual clause operates identically: it establishes that certain conduct—however serious in the abstract—cannot lawfully trigger ACCA's fifteen-year mandatory minimum because the statutory language purporting to authorize that punishment is unconstitutionally void.
+
+### B. Johnson Is Not a Procedural Rule Governed by Teague's General Bar
+
+The government may contend that *Johnson* merely announced a new method for evaluating predicate offenses, akin to procedural rules this Court has held nonretroactive, such as *Schriro*'s treatment of jury-trial requirements untethered to substantive liability. That argument fails. Procedural rules "regulate only the manner of determining the defendant's culpability," *Summerlin*, 542 U.S. at 353, but *Johnson* did not regulate how residual-clause determinations are made—it held that no constitutionally adequate method exists. The defect identified in *Johnson* was that the residual clause required courts to assess "a judge-imagined abstraction" through an approach that "produces more unpredictability and arbitrariness than the Due Process Clause tolerates." 576 U.S. at 598. This is a holding about the substantive invalidity of a statutory command, not a procedural instruction about fact-finding mechanics.
+
+### C. Welch's Claim Falls Within Johnson's Retroactive Rule
+
+Welch's Florida "strong arm robbery" conviction was deemed a predicate "violent felony" by the Eleventh Circuit based on the residual clause's "serious potential risk of physical injury" language—the very language *Johnson* invalidated. The Eleventh Circuit expressly relied on precedent applying that risk-based analysis, holding that Florida robbery involved force "capable of causing physical pain or injury to another person," a formulation drawn directly from residual-clause jurisprudence such as *United States v. Chitwood*, 676 F.3d 971 (11th Cir. 2012), and *Sykes v. United States*, 564 U.S. 1 (2011) (subsequently abrogated by *Johnson*).
+
+Because Welch's sentence enhancement depended on the now-void residual clause, he stands convicted under a sentencing regime imposing punishment "the law cannot impose upon him." *Summerlin*, 542 U.S. at 352. Denying him relief would perpetuate precisely the arbitrary and unconstitutional application of ACCA that *Johnson* condemned.
+
+### Conclusion
+
+For the foregoing reasons, this Court should hold that *Johnson*'s rule applies retroactively to cases on collateral review, and that Welch is entitled to resentencing without reliance on the residual clause.

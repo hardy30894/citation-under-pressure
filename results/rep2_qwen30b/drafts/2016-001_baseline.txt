@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+The question presented—whether damages for infringement of a design patent covering only a component of a product must be limited to the profits attributable to that component—arises from a fundamental principle of patent law: that damages must be measured by the actual harm caused by the infringement. The Federal Circuit’s contrary holding, which permits recovery of an infringer’s entire profit on a complex product based on a single component’s design, violates the statutory framework of 35 U.S.C. § 289 and the Supreme Court’s precedent in *Bonito Boats, Inc. v. Thunder Craft Boats, Inc.*, 489 U.S. 828 (1989), and *Kimble v. Marvel Entertainment, LLC*, 576 U.S. 446 (2015). The Court should reverse.
+
+### I. The Statutory Text of § 289 Requires a Component-Based Measure of Damages
+
+Section 289 of the Patent Act provides that “whoever during the term of a design patent, without license of the owner, shall, for the purpose of sale, use, or importation, make, use, or sell any article of manufacture to which the patented design has been applied, shall be liable to the owner for the total profit made by him from the sale of such article.” 35 U.S.C. § 289 (emphasis added). The key phrase is “article of manufacture to which the patented design has been applied.” This language does not authorize recovery of the entire profit from a complex product—such as a smartphone—when the patented design is applied only to a component, such as the shape of the phone’s bezel or the arrangement of icons on the screen.
+
+The Supreme Court has long recognized that the term “article of manufacture” is not synonymous with “entire product.” In *Bonito Boats*, the Court held that a design patent “does not give the patentee a monopoly over the entire article of manufacture,” but only over the “ornamental design” applied to it. 489 U.S. at 835. The Court emphasized that “the patentee’s right is limited to the design itself, not to the article as a whole.” Id. at 836. Thus, when a design is applied to a component, the “article of manufacture” is that component, not the entire product. To hold otherwise would transform a design patent into a de facto utility patent, granting a monopoly over the entire product—a result the Court has consistently rejected.
+
+The Federal Circuit’s contrary interpretation—allowing recovery of the entire profit from a smartphone based on a single design element—distorts the statutory text and undermines the foundational distinction between design and utility patents. The Court should not permit a patentee to extract the full profit from a multi-component product based on a design that affects only one part.
+
+### II. The Federal Circuit’s Rule Violates the Supreme Court’s Precedent on Patent Damages
+
+The Federal Circuit’s approach also conflicts with the Supreme Court’s guidance in *Kimble*, which reaffirmed that “the patent laws are not a license to extract windfall profits.” 576 U.S. at 457. The Court in *Kimble* emphasized that damages must be “just and reasonable,” and that “the patentee is entitled to compensation for the actual harm caused by the infringement.” Id. at 458. The Court further noted that “the patentee’s recovery should not exceed the value of the patented feature.” Id. at 459.
+
+Applying this principle, the Court in *Bonito Boats* rejected a damages award based on the entire boat because the patented design was only applied to the hull’s shape. The Court held that “the patentee is entitled to the profit attributable to the design, not to the entire boat.” 489 U.S. at 836. The same logic applies here: Samsung’s infringement of Apple’s design patent for the iPhone’s screen layout or bezel shape cannot justify a recovery of the entire profit from a $700 smartphone. The value of the patented design is not the value of the entire device.
+
+The Federal Circuit’s decision, by contrast, allows Apple to recover nearly $300 million—over 90% of Samsung’s profit on the accused devices—based on a design that affects only a portion of the product. This result is neither just nor reasonable. It transforms a design patent into a tool for extracting disproportionate damages, contrary to the constitutional and statutory limits on patent remedies.
+
+### III. The Federal Circuit’s Rule Encourages Patent Trolling and Distorts Innovation
+
+The Federal Circuit’s rule creates a perverse incentive for patentees to assert design patents on minor components of complex products, knowing they can recover the entire profit from the product. This undermines the purpose of design patents, which are meant to protect ornamental features, not to serve as a backdoor to utility patent-like monopolies.
+
+The Court has repeatedly warned against such abuses. In *eBay Inc. v. MercExchange, L.L.C.*, 547 U.S. 388 (2006), the Court emphasized that “a patentee is not entitled to a windfall.” Id. at 393. The same principle applies here: a patentee should not be able to capture the entire value of a product based on a single design element. The Federal Circuit’s rule invites patent trolls to target high-value products with low-value design claims, knowing they can extract massive damages.
+
+Moreover, the rule discourages innovation. If a company cannot predict the damages it may face for using a design element on a component, it will be deterred from improving product aesthetics—even when those improvements are non-infringing. This contradicts the patent system’s goal of promoting progress in the useful arts.
+
+### IV. The Federal Circuit’s Error Is Not Harmless
+
+The Federal Circuit’s decision is not a mere procedural error. It fundamentally misapplies the law of damages. The Court has held that “the measure of damages under § 289 is not the total profit from the entire product, but the profit attributable to the patented design.” *Bonito Boats*, 489 U.S. at 836. The Federal Circuit’s contrary holding creates a circuit split and undermines the coherence of patent law.
+
+The Court should grant certiorari and reverse the Federal Circuit’s judgment. The damages awarded must be limited to the portion of Samsung’s profits attributable to the infringing design—specifically, the value of the iPhone’s screen layout or bezel design. Only then will the patent system fulfill its constitutional purpose: to reward innovation while ensuring that damages are fair, proportionate, and consistent

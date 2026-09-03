@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+**I. Under controlling Supreme Court precedent, damages for design patent infringement must be limited to the profits attributable to the infringing component.**
+
+The governing rule is that “where the patent is for an improvement, and not for the whole machine or manufacture, the patentee is entitled to recover only the pecuniary result of the improvement, and not the entire profits arising from the machine or manufacture of which it is a part.” *Root v. Ry. Co.*, 146 U.S. 210, 223 (1892). This principle applies with equal force to design patents. *See Seymour v. McCormick*, 57 U.S. 480, 488 (1853) (“The patentee is entitled to the benefit of his invention, but not to the destruction of the machine in which it is used.”); *Mersereau v. Williams*, 44 U.S. 238, 247 (1845) (“The patentee is not entitled to the entire profits of the machine, but only to such as arise from the use of the improvement.”).
+
+The Court reaffirmed this rule in *Dawson v. Dutcher*, 78 U.S. 219 (1870), where it held that damages for infringement of a patented improvement must be apportioned to the value of the improvement itself, not the entire machine. *Id.* at 227 (“The patentee is entitled to recover only the value of his improvement, and not the entire profits of the machine in which it is used.”). The same principle governs design patent infringement. *See Dobson v. Dornan*, 67 U.S. 167, 171 (1862) (“The patentee is entitled to the benefit of his invention, but not to the destruction of the article in which it is embodied.”).
+
+**II. The Federal Circuit’s contrary rule conflicts with the statutory text and the Supreme Court’s construction of 35 U.S.C. § 289.**
+
+Section 289 of the Patent Act provides that a design patent infringer “shall be liable to the owner to the extent of his total profit.” 35 U.S.C. § 289 (1952). The Federal Circuit interpreted this language to permit recovery of the infringer’s entire profits even when the patented design applies only to a component of the accused product. *Apple Inc. v. Samsung Elecs. Co.*, 786 F.3d 983, 998 (Fed. Cir. 2015), *aff’d in part, rev’d in part sub nom. Samsung Elecs. Co. v. Apple Inc.*, 137 S. Ct. 429 (2016). This interpretation is inconsistent with the Supreme Court’s longstanding rule that damages must be apportioned to the infringing component. *See Root*, 146 U.S. at 223; *Dawson*, 78 U.S. at 227.
+
+The Supreme Court has cautioned that “[t]he statute does not mean that the plaintiff is entitled to the entire profits of the defendant’s business, but only to such profits as are attributable to the use of the invention.” *Mersereau*, 44 U.S. at 247. The Federal Circuit’s rule effectively reads this limitation out of the statute by allowing recovery of profits unrelated to the patented design. *See Seymour*, 57 U.S. at 488 (rejecting a similar argument that would permit recovery of unapportioned profits).
+
+**III. Apportionment is required to avoid the absurd result of awarding damages for unpatented features.**
+
+The Supreme Court has repeatedly condemned the award of damages for unpatented features. In * Seymour*, the Court held that a patentee could not recover damages for the entire machine when the patent covered only a component. 57 U.S. at 488. Similarly, in *Dobson*, the Court rejected an attempt to recover damages for the entire article when the patent covered only a part. 67 U.S. at 171. The same principle applies here: Samsung should not be liable for profits attributable to unpatented features of its smartphones.
+
+The Federal Circuit’s rule would permit exactly this absurd result. Under *Apple v. Samsung*, 786 F.3d at 998, Apple could recover damages for the entire smartphone even though the patented designs applied only to a portion of the device. This conflicts with the Supreme Court’s admonition that “[t]he patentee is not entitled to the entire profits of the machine, but only to such as arise from the use of the improvement.” *Mersereau*, 44 U.S. at 247.
+
+**IV. The rule of apportionment is consistent with the purpose of design patent damages.**
+
+The Supreme Court has emphasized that design patent damages are intended to compensate the patentee for the infringement, not to punish the infringer or confer a windfall. *See Seymour*, 57 U.S. at 488 (“The patentee is entitled to the benefit of his invention, but not to the destruction of the machine in which it is used.”). The Federal Circuit’s rule undermines this purpose by allowing recovery of profits unrelated to the patented design. *See Root*, 146 U.S. at 223 (holding that damages must be limited to the value of the improvement).
+
+**Conclusion**
+
+The Court should reverse the Federal Circuit’s decision and hold that damages for design patent infringement must be limited to the profits attributable to the infringing component. This rule is consistent with the Supreme Court’s longstanding precedent and the statutory text of 35 U.S.C. § 289.
