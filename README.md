@@ -281,6 +281,18 @@ ratios 0.32 to 0.46). Cell rates differ between templates by at most
 11 points of strict accuracy, so single cells are template-specific
 and the within-model contrasts are what the paper relies on.
 
+A grounded arm reran the baseline and combined conditions with ten
+retrieved, verified U.S. Reports authorities in the prompt (TF-IDF over
+25,250 cached opinions, decided before argument, with the best-matching
+passage). Models drew 51 to 83 percent of their citations from the list,
+citations not found fell from 341 in 5,856 to 74 in 5,605, and the 30B
+model's combined-condition existence went from 0.773 to 0.995. Quotation
+accuracy rose in every combined cell, yet no cell exceeded 0.525 even
+with the source passage in the prompt, and 62 percent of Sonnet 5's
+remaining inaccurate quotations are paraphrase of the cited case inside
+quotation marks. Retrieval nearly removes the existence failure and
+leaves the residual class in place.
+
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
 Three residual failure modes, each measured deterministically:
