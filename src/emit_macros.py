@@ -199,7 +199,9 @@ if dc.exists():
             if tot:
                 emit2(f"decompParaPct{mk}", f"{100 * x['paraphrase_in_quotes'] / tot:.0f}")
 
-pr = R / "provenance_report.md"
+pr = R / "provenance_report_cap.md"  # the CAP-cache search when present
+if not pr.exists():
+    pr = R / "provenance_report.md"
 if pr.exists():
     import re as _re
     from collections import Counter as _C
@@ -439,7 +441,9 @@ try:
         emit2(mk, f"{round(n, -3):,}")
 except Exception:
     pass
-pv = R / "provenance_six.log"
+pv = R / "provenance_cap.log"
+if not pv.exists():
+    pv = R / "provenance_six.log"
 if pv.exists():
     import re as _re2
     m_ = _re2.findall(r"(\d+) documents indexed", pv.read_text())
@@ -618,6 +622,27 @@ if lc.exists():
     emit2("lcEmptyTrueTotal", str(sum(t[m].get("empty_final_drafts", {}).get("true", 0) for m in t)))
     emit2("lcNearFlagsTotal", str(sum(t[m].get("r0_flags", {}).get("near_miss", 0) for m in t)))
     emit2("lcFlagsTotal", str(sum(sum(t[m].get("r0_flags", {}).values()) for m in t)))
+
+# alteration-aware standard (src/alteration_aware.py, src/human_alt.py)
+aa = R / "alteration_aware.json"
+if aa.exists():
+    t = json.loads(aa.read_text())
+    emit2("altMaxCellDiff", str(round(100 * t["max_cell_diff"])))
+    emit2("altMeanCellDiff", str(round(100 * t["mean_cell_diff"])))
+    ga = R / "stats_gee_alt.json"
+    if ga.exists():
+        g = json.loads(ga.read_text())
+        emit2("altSurv", str(len([k for k, v in g.items() if v.get("holm_p", 1) < 0.05])))
+ha = R / "human_alt.json"
+if ha.exists():
+    t = json.loads(ha.read_text())
+    c = t["failure_causes"]
+    emit2("humanAltStrict", fmt3(t["alteration_aware"]["strict"]))
+    emit2("humanAltLenient", fmt3(t["alteration_aware"]["lenient"]))
+    emit2("humanFailTotal", str(sum(c.values())))
+    emit2("humanFailAltered", str(c["altered_near_miss"] + c["altered_inaccurate"]))
+    emit2("humanFailNearUnaltered", str(c["unaltered_near_miss"]))
+    emit2("humanFailInaccUnaltered", str(c["unaltered_inaccurate"]))
 
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")

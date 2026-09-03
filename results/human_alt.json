@@ -1,0 +1,33 @@
+{
+ "standard": {
+  "verdicts": {
+   "accurate": 235,
+   "near_miss": 158,
+   "unpaired": 897,
+   "unverifiable": 199,
+   "inaccurate": 185
+  },
+  "scored": 578,
+  "strict": 0.4066,
+  "lenient": 0.6799
+ },
+ "alteration_aware": {
+  "verdicts": {
+   "accurate": 285,
+   "near_miss": 117,
+   "unpaired": 897,
+   "unverifiable": 199,
+   "inaccurate": 174,
+   "no_fragment": 2
+  },
+  "scored": 576,
+  "strict": 0.4948,
+  "lenient": 0.6979
+ },
+ "failure_causes": {
+  "altered_near_miss": 64,
+  "altered_inaccurate": 66,
+  "unaltered_near_miss": 94,
+  "unaltered_inaccurate": 119
+ }
+}

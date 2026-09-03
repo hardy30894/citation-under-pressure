@@ -1,0 +1,33 @@
+loading corpus (few minutes)...
+62049 documents indexed
+{
+  "deepseek:misattributed": 140,
+  "deepseek:generic_phrase_match": 175,
+  "deepseek:not_in_scotus_corpus": 448,
+  "deepseek:found_in_attributed": 30,
+  "gpt54mini:not_in_scotus_corpus": 119,
+  "gpt54mini:misattributed": 80,
+  "gpt54mini:generic_phrase_match": 60,
+  "gpt54mini:found_in_attributed": 10,
+  "grok43:misattributed": 58,
+  "grok43:generic_phrase_match": 67,
+  "grok43:not_in_scotus_corpus": 169,
+  "grok43:found_in_attributed": 13,
+  "llama4mav:generic_phrase_match": 32,
+  "llama4mav:not_in_scotus_corpus": 160,
+  "llama4mav:misattributed": 31,
+  "llama4mav:found_in_attributed": 5,
+  "mistralsmall:misattributed": 112,
+  "mistralsmall:generic_phrase_match": 65,
+  "mistralsmall:not_in_scotus_corpus": 477,
+  "mistralsmall:found_in_attributed": 21,
+  "qwen30b:not_in_scotus_corpus": 670,
+  "qwen30b:misattributed": 76,
+  "qwen30b:generic_phrase_match": 73,
+  "qwen30b:found_in_attributed": 12,
+  "sonnet:not_in_scotus_corpus": 503,
+  "sonnet:misattributed": 123,
+  "sonnet:generic_phrase_match": 97,
+  "sonnet:found_in_attributed": 23
+}
+-> /Users/hardy30894/Documents/NYU_Research/citation_under_pressure/results/provenance_report_cap.md

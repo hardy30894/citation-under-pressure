@@ -430,3 +430,23 @@ before or after seeing the relevant data. Nothing is deleted.
   span-checked, 1,162 with a quotation); the intro's pinpoint claim
   scoped to U.S. Reports authority. The Ethics and Release section is
   folded into the Conclusion's last sentence to keep ten pages.
+- 2026-09-03 (alteration-aware standard): src/alteration_aware.py
+  rescores the full run with bracketed segments read as omissions and
+  alteration parentheticals dropped (records_alt.jsonl,
+  alteration_aware.json, stats_gee_alt.json): cells move at most 5.2
+  points (mean 2.0) and the same 8 contrasts survive Holm. src/
+  human_alt.py: human strict 0.407 to 0.495 under it; of 343 strict
+  failures 130 altered, 94 unaltered near misses, 119 unaltered
+  inaccurate. One sentence added to the human-reference paragraph; the
+  "chiefly bracketed alterations" clause is replaced by the counts.
+- 2026-09-03 (provenance search rerun over the CAP cache):
+  provenance.py --corpus cap indexes all 62,049 cached U.S. Reports
+  opinions with captions from the checker index
+  (results/provenance_report_cap.md, provenance_cap.log; emit_macros and
+  era_check read it when present). Against the 8,392-opinion dump:
+  misattributed 626 to 620, found nowhere 2,573 to 2,546, generic 574 to
+  569, checker false alarms 76 to 114 (Sonnet 5: 9 to 23 of 746, 1.2 to
+  3.1 percent), the cleaner captions reclassifying some misattributions
+  as the checker's own error. With real case names as sources the
+  same-draft check rises from 151 to 294 of 620 (Sonnet 5: 83 of 123).
+  Paper, README, and Discussion false-alarm rate follow the macros.

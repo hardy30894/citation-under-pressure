@@ -89,8 +89,10 @@ control shows that false flags lower accuracy for four of the six
 models, most for the ones best at following feedback. What survives at
 frontier scale is mostly real law in the wrong place: 55 percent of the
 strongest model's inaccurate quotations are paraphrases of the correct
-case inside quotation marks, and 626 quotations across the seven models
-are verbatim passages of real opinions attributed to the wrong case.
+case inside quotation marks, and 620 quotations across the seven models
+are verbatim passages of real opinions attributed to the wrong case (in
+294 of them the true source is cited elsewhere in the same draft, so the
+count is a ceiling).
 
 ## What the paper tests
 
@@ -301,6 +303,20 @@ of 759 to F.2d, F.3d, and F. Supp. (0.4 percent) and 1 of 227 to the
 U.S. Reports, so the 22 percent not-found rate the models produce on
 those reporters is not coverage.
 
+The verbatim standard was also tested against the alterations lawyers
+make legitimately. The matcher already ignores case and punctuation,
+splits on ellipses, and reads a bracketed alteration as its contents;
+`src/alteration_aware.py` goes further and treats every bracketed
+segment as an omission and drops alteration parentheticals inside the
+marks, then rescores the full run (`results/records_alt.jsonl`,
+`results/alteration_aware.json`, `results/stats_gee_alt.json`). Model
+cells move by at most 5 points (mean 2), and the same eight contrasts
+survive Holm correction. On the human reference (`src/human_alt.py`,
+`results/human_alt.json`) the standard lifts lawyers from 0.407 to
+0.495; of their 343 strict failures, 130 carry a bracketed alteration or
+ellipsis, 94 are near misses without one (a corrupted character), and
+119 are inaccurate without one.
+
 Two robustness campaigns back the single-run table. Three independent
 generations of the baseline and combined drafts on all 48 matters and
 all seven models (672 drafts per run): cell-level standard deviations
@@ -354,7 +370,7 @@ Three residual failure modes, each measured deterministically:
 | failure mode | measurement | headline number |
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 55% of Sonnet 5's inaccurate quotes are paraphrases of the correct case |
-| right words, wrong case | corpus search for each quote's true source | 626 quotes across the seven models are real opinion passages bound to the wrong authority |
+| right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 620 quotes across the seven models are real opinion passages bound to the wrong authority; 294 have the true source cited in the same draft; the same search finds 23 of Sonnet 5's 746 inaccurate verdicts (3.1%) to be the checker's own error |
 | right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 77% of the time (Sonnet 5), 42 to 64% for the rest, 89% for human briefs |
 
 These are the errors an existence check cannot see, and the page-level

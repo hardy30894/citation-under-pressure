@@ -86,7 +86,12 @@ def attribution_check(index):
     pat = re.compile(r"- \*\*misattributed\*\* \| (\w+) (\S+) \| cited (.+?) \((.*?)\) \| true source: \[(.*?)\] \|")
     per = defaultdict(lambda: Counter())
     cache = {}
-    for line in open(R / "provenance_report.md"):
+    # the CAP-cache report (provenance.py --corpus cap) when present,
+    # else the original dump's report
+    report = R / "provenance_report_cap.md"
+    if not report.exists():
+        report = R / "provenance_report.md"
+    for line in open(report):
         m = pat.match(line)
         if not m:
             continue

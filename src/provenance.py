@@ -13,6 +13,14 @@ actually contain it. Deterministic classification of the inaccurate bucket:
                            (fabricated, paraphrase, or non-SCOTUS source)
 
 Zero API cost; pure local compute.
+
+--corpus cap searches the Caselaw Access Project cache instead
+(data/cap_text_cache.sqlite, slug "us", every row with text; the same
+volumes the retrieval arm draws on), with each document captioned by the
+case name the checker index holds for its volume and page. Those captions
+are cleaner than the dump's, so the found_in_attributed test (caption
+tokens against the attributed case name) is more reliable there. Writes
+results/provenance_report_cap.md.
 """
 
 import json
@@ -42,6 +50,32 @@ PILOTS = {
 CORPUS = GE / "data/scotus_corpus/original_usdb.txt"
 DB = GE / "data/courtlistener/checker.db"
 SEP = "docsep777pes"
+
+
+def load_corpus_cap():
+    """CAP cache, slug us, captioned from the checker index; falls back to
+    the first 80 characters of the text when the index has no name."""
+    import sqlite3
+    from local_text import CACHE_DB
+    index = SqliteIndex(DB)
+    con = sqlite3.connect(f"file:{CACHE_DB}?mode=ro", uri=True)
+    rows = con.execute(
+        "SELECT volume, page, text FROM cap_texts WHERE slug='us' "
+        "AND text IS NOT NULL AND length(text) > 0").fetchall()
+    captions, norm_docs = [], []
+    for vol, page, text in rows:
+        hit = index.lookup(vol, "U.S.", page)
+        cap = ((hit or {}).get("case_name") or "").strip() or text[:80].strip()
+        captions.append(cap[:90])
+        norm_docs.append(normalize(text))
+    del rows
+    big = (" " + SEP + " ").join(norm_docs)
+    bounds = []
+    pos = 0
+    for nd in norm_docs:
+        bounds.append(pos)
+        pos += len(nd) + len(SEP) + 2
+    return big, bounds, captions
 
 
 def load_corpus():
@@ -100,8 +134,9 @@ def cap_tokens(s):
 
 
 def main():
+    use_cap = "--corpus" in sys.argv and sys.argv[sys.argv.index("--corpus") + 1] == "cap"
     print("loading corpus (few minutes)...", flush=True)
-    big, bounds, captions = load_corpus()
+    big, bounds, captions = load_corpus_cap() if use_cap else load_corpus()
     print(f"{len(captions)} documents indexed", flush=True)
 
     index = SqliteIndex(DB)
@@ -152,7 +187,8 @@ def main():
                     f"{r['citation']} ({att_name[:60]}) | true source: "
                     f"{hits or '—'} | “{fq['quote'][:100]}”"
                 )
-    out = HERE / "results/provenance_report.md"
+    out = HERE / ("results/provenance_report_cap.md" if use_cap
+                  else "results/provenance_report.md")
     out.write_text("\n".join(out_lines))
     print(json.dumps({f"{m}:{c}": n for (m, c), n in tally.items()},
                      indent=2))
