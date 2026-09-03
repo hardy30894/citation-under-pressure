@@ -1,0 +1,31 @@
+**ARGUMENT**
+
+**I. The Patent Act’s Text and History Require Apportionment When a Design Patent Covers Only a Component of a Multi-Component Product**
+
+The governing statute provides that a design patent infringer “shall be liable to the owner to the extent of his total profit,” 35 U.S.C. § 289 (1952), but this remedy is not absolute. Where the patented design is only a component of a larger product, the infringer’s liability is limited to the profits attributable to that component. Westinghouse Elec. & Mfg. Co. v. Wagner Elec. & Mfg. Co., 225 U.S. 604, 615 (1912) (“[W]here the plaintiff’s patent is only a part of the machine and creates only a part of the profits… he is only entitled to recover that part of the net gains.”); Garretson v. Clark, 111 U.S. 120, 121 (1884) (holding that damages must be apportioned where the patented feature does not contribute to the entire value of the product).
+
+This principle is consistent with the historical understanding of design patent damages. In *Dobson v. Dornan*, 118 U.S. 10, 18 (1886), the Court explained that for design patents, “the entire profits or damages on the article containing the design are to be given” only where the design is the whole article. Where the design is merely an ornamentation on a larger product, however, the patentee is entitled only to the value attributable to the design itself. *Id.* at 18–19 (distinguishing between patents for designs as entire articles and those for designs applied to larger products).
+
+**II. Apportionment Is Required to Avoid Unjust Windfalls and to Reflect the Contribution of the Patented Design**
+
+The apportionment rule prevents patentees from recovering damages for features they did not invent or contribute. In *Seymour v. McCormick*, 57 U.S. 480, 488 (1854), the Court rejected the argument that damages for an infringed improvement should be calculated as if the entire machine were patented, holding that such an approach would “amerce” the infringer in excessive damages. The Court emphasized that damages must reflect the actual contribution of the patented feature. *Id.* at 488–89.
+
+Similarly, in *Westinghouse*, the Court held that where a patented feature is only a component of a larger machine, the patentee is entitled only to the profits attributable to that component, not the entire profits of the machine. 225 U.S. at 615. The Court explained that the patentee must “give evidence tending to separate or apportion the defendant’s profits… between the patented feature and the unpatented features,” or show that the entire value of the machine is attributable to the patented feature. *Id.* (quoting Garretson, 111 U.S. at 121).
+
+This rule ensures that damages are proportional to the value of the patented design. *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885) (holding that damages for a design patent must reflect the value contributed by the design, not the entire profits of the product). Where the design is only a minor component, apportionment prevents the patentee from recovering a windfall. *Id.* at 444–45.
+
+**III. The Federal Circuit’s Erroneous Approach Ignores the Contribution-Based Nature of Design Patent Damages**
+
+The Federal Circuit’s decision below erroneously awarded damages based on Samsung’s entire profits, despite the fact that Apple’s design patents covered only specific components of Samsung’s smartphones. This approach contravenes the apportionment rule established in *Westinghouse*, *Garretson*, and *Dobson v. Dornan*. The Federal Circuit’s failure to require apportionment resulted in an award that improperly inflated Apple’s damages by attributing value to unpatented features.
+
+The apportionment rule is particularly critical in cases involving complex, multi-component products like smartphones. Where a design patent covers only a portion of such a product, the patentee must demonstrate the specific contribution of the patented design to the product’s overall value. *Westinghouse*, 225 U.S. at 615. Without such apportionment, the damages award is speculative and punitive, rather than compensatory. *Seymour*, 57 U.S. at 488–89.
+
+**IV. The Supreme Court’s Precedents Confirm That Apportionment Is Mandatory in Design Patent Cases**
+
+The Supreme Court has consistently required apportionment where the patented design is only a component of a larger product. In *Dobson v. Dornan*, the Court held that damages for a design patent must reflect the value contributed by the design, not the entire profits of the product. 118 U.S. at 18–19. Similarly, in *Westinghouse*, the Court reiterated that where the patented feature is only a part of the machine, the patentee is entitled only to the profits attributable to that feature. 225 U.S. at 615.
+
+These cases establish that the damages remedy under § 289 is not a strict liability award of total profits, but rather a compensatory measure limited to the value of the patented design. *Garretson*, 111 U.S. at 121. The Federal Circuit’s refusal to apply apportionment in this case thus misapplies the governing law and warrants reversal.
+
+**CONCLUSION**
+
+The judgment below should be reversed because the Federal Circuit erred in failing to require apportionment of damages to reflect the contribution of the patented design. The Supreme Court’s precedents—*Westinghouse*, *Garretson*, *Dobson v. Dornan*, and *Seymour*—require that damages be limited to the profits attributable to the patented component. The Court should grant the petition for certiorari and reverse the decision below.

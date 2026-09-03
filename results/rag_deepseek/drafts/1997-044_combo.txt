@@ -1,0 +1,27 @@
+**ARGUMENT**
+
+The question presented is whether an individual who commits fraud may discharge not only the sum obtained by fraud but also punitive, treble, and other non-compensatory damages awarded in consequence of that fraud. The plain text of § 523(a)(2)(A) dictates that only the debt “for money, property, services, or an extension, renewal, or refinancing of credit, to the extent obtained by” fraud is excepted from discharge. Treble damages, attorney’s fees, and costs are not “obtained by” fraud; they are imposed by statute as punishment. A discharge in bankruptcy is intended to give the honest debtor a fresh start, not to shield fraudulent conduct from its legally foreseeable punitive consequences.
+
+**I. The Court of Appeals erred in holding that treble damages are nondischargeable under § 523(a)(2)(A).**
+
+The plain language of § 523(a)(2)(A) excepts from discharge only that portion of a debt “to the extent obtained by” actual fraud. The debt is the money, property, or services that the debtor actually received through fraud. As this Court recognized in *Neal v. Clark*, 95 U.S. 704, 709 (1878), “fraud” in the bankruptcy context “means positive fraud, or fraud in fact, involving moral turpitude or intentional wrong.” But the *extent* of the nondischargeable debt is limited to what was “obtained by” that fraud. Treble damages, attorney’s fees, and costs are not obtained by the debtor from the creditor; they are imposed by state law as a penalty. The Ninth Circuit correctly reasoned in *In re Levy* that punitive damages are not a debt “obtained by” fraud—they are a punishment for fraud. Only compensatory damages representing the value actually taken are excepted.
+
+The Court of Appeals adopted the contrary view from *In re St. Laurent*, which reasoned that the term “debt” is broad enough to encompass all damages arising from a fraudulent transaction. But that reasoning ignores the limiting phrase “to the extent obtained by.” The phrase “to the extent obtained by” modifies “any debt,” restricting nondischargeability to the quantum of benefit the debtor actually received. This Court has long held that bankruptcy law must be construed strictly against the exception and liberally in favor of discharge. *Scott v. Ellery*, 142 U.S. 381, 386 (1892). A discharge in bankruptcy “affords [the honest citizen] complete protection.” *Neal*, 95 U.S. at 709.
+
+**II. The fresh-start policy of the Bankruptcy Code requires that only sums actually obtained by fraud be excepted from discharge.**
+
+The Bankruptcy Code is designed to relieve the honest but unfortunate debtor from the burden of hopeless insolvency. *Bruning v. United States*, 376 U.S. 358, 361 (1964). A discharge gives the debtor a “new opportunity in life.” *Bluthenthal v. Jones*, 208 U.S. 64, 66 (1908). That policy would be undermined if punitive damages—which bear no relation to what the debtor obtained—were treated as nondischargeable. As this Court stated in *Miller v. Guasti*, 226 U.S. 170, 172 (1912), a discharge is intended to “relieve the honest debtor from his debts.” Punitive damages are not debts in the ordinary sense; they are civil penalties.
+
+Moreover, the “fresh start” extends only to honest debtors. *Neal*, 95 U.S. at 709. But even a fraudulent debtor is entitled to discharge of debts that are not within the statutory exceptions. The exceptions are enumerated precisely in § 523(a). Courts must enforce them as written. *Chapman v. Forsyth & Limerick*, 43 U.S. 202, 208 (1844) (fiduciary debts not within the act are discharged). Here, § 523(a)(2)(A) does not except punitive damages; it excepts only the “extent obtained by” fraud.
+
+**III. Federal law, not state law, determines the meaning of “debt” and “obtained by.”**
+
+The Court of Appeals correctly recognized that the meaning of “punitive damages” in § 523(a)(2)(A) is a question of federal law. *Missouri State Life Insurance v. Jones*, 290 U.S. 199, 202 (1933). But it erred in concluding that federal law permits nondischargeability of treble damages. Federal law looks to the substance of the debt, not its state-law label. Treble damages are not compensation; they are punishment. *United States v. Johnson*, 319 U.S. 302, 304 (1943) (treble damages under the Emergency Price Control Act designed to enforce compliance). Because punishment is not “obtained by” the debtor from the creditor, it falls outside the exception.
+
+**IV. The text and structure of § 523(a)(2)(A) foreclose the result reached below.**
+
+The statute excepts debts “for money, property, services, or an extension, renewal, or refinancing of credit.” Treble damages are not for money obtained; they are for fraud committed. The phrase “to the extent obtained by” limits the exception to the actual value received. *Miller v. Irving Trust Co.*, 296 U.S. 256, 259 (1935) (bankruptcy provability turns on whether claim is founded on a “debt” as defined by the Act). Punitive damages are not a debt for “money” obtained; they are a separate liability. *Moore v. Bay*, 284 U.S. 4, 5 (1931) (trustee’s rights under § 70 limited to property the bankrupt could have transferred). Similarly, the trustee here can only recover what Cohen obtained—the excessive rents—not the statutory penalty.
+
+**CONCLUSION**
+
+The judgment of the Court of Appeals should be reversed. Only the $31,382.50 in excessive rents obtained by fraud should be excepted from discharge. The treble damages, attorney’s fees, and costs are dischargeable.

@@ -1,0 +1,29 @@
+## Argument
+
+### I. The Seventh Amendment and 35 U.S.C. § 289 Require Damages for Design Patent Infringement to be Limited to the Component that Infringes
+
+The Seventh Amendment and 35 U.S.C. § 289 mandate that damages for design patent infringement be tied to the actual harm caused by the infringement. In this case, the infringed design patent applies only to a component of Samsung's smartphones. Therefore, damages should be limited to the portion of Samsung's profits attributable to that component.
+
+The Supreme Court has long recognized that damages for patent infringement should be commensurate with the value of the infringing feature. In _Seymour v. McCormick_, 57 U.S. 480, 490-91 (1854), the Court held that damages for infringing a patented improvement on a machine should be limited to the value of the improvement, not the entire machine. Similarly, in _Dobson v. Hartford Carpet Co._, 114 U.S. 439, 444-45 (1885), the Court ruled that damages for infringing a design patent for a carpet design should be limited to the value added by the design, not the entire carpet.
+
+The Federal Circuit's decision in _Samsung Electronics Co., Ltd. v. Apple Inc._ disregards these principles by allowing damages to be awarded based on the entire profits from the sale of Samsung's smartphones, rather than just the component that infringed Apple's design patent.
+
+### II. The Entire Market Value Rule Does Not Apply to Design Patents
+
+The entire market value rule is a judicially created doctrine that allows damages to be awarded based on the entire market value of a product when the patented feature is the basis for customer demand. However, this rule does not apply to design patents, which are governed by 35 U.S.C. § 289.
+
+Section 289 provides that damages for design patent infringement shall be limited to the total profits made by the infringer "with respect to the article of manufacture." The plain meaning of this language requires that damages be tied to the specific article that infringes the design patent, not the entire product.
+
+The Supreme Court has recognized that design patents are distinct from utility patents and are governed by different statutory provisions. In _Lehnbeuter v. Holthaus_, 105 U.S. 94, 96-97 (1882), the Court held that design patents are intended to protect the ornamental features of an article, not its functional aspects.
+
+### III. The Jury's Award of Damages was Not Supported by Substantial Evidence
+
+The jury's award of damages was based on Samsung's entire profits from the sale of its smartphones, rather than just the component that infringed Apple's design patent. This award is not supported by substantial evidence and is contrary to the principles of _Sperry Gyroscope Co. v. Arma Engineering Co._, 271 U.S. 232 (1926), and _Westinghouse Electric & Manufacturing Co. v. Wagner Electric & Manufacturing Co._, 225 U.S. 604 (1912).
+
+In _Westinghouse_, the Court held that when a patent is infringed, the infringer is liable for all profits attributable to the infringement, unless they can show that a portion of the profits is attributable to other factors. 225 U.S. at 614-15. In this case, Samsung presented evidence that the infringing design feature was only one aspect of its smartphones, and that other features contributed to their market value.
+
+The Federal Circuit's affirmance of the jury's award disregards this evidence and fails to provide a principled basis for awarding damages based on the entire profits from Samsung's smartphones.
+
+### Conclusion
+
+For the foregoing reasons, the Court should reverse the Federal Circuit's decision and hold that damages for design patent infringement should be limited to the portion of the infringer's profits attributable to the component that infringes. The Seventh Amendment and 35 U.S.C. § 289 require a more nuanced approach to damages, one that takes into account the specific harm caused by the infringement. By affirming the Federal Circuit's decision, the Court would be disregarding the statutory text and the principles of patent law established by the Supreme Court.

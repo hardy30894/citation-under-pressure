@@ -28,6 +28,9 @@ MODELS = tuple(
 
 
 def main():
+    # --tag rag decomposes the grounded drafts (baseline and combined only)
+    tag = sys.argv[sys.argv.index("--tag") + 1] if "--tag" in sys.argv else "full"
+    suffix = "" if tag == "full" else f"_{tag}"
     checker = CitationChecker(SqliteIndex(DB))
     store = ChainTextStore(OpinionTextStore(DB, cl_token=None,
                                             fetch_budget=0))
@@ -35,7 +38,7 @@ def main():
     for model in MODELS:
         tally = {"out_of_scope_non_us": 0, "paraphrase_in_quotes": 0,
                  "fabricated_language": 0, "no_text": 0}
-        for p in sorted((HERE / "results" / f"full_{model}" /
+        for p in sorted((HERE / "results" / f"{tag}_{model}" /
                          "drafts").glob("*.txt")):
             text = p.read_text()
             recs, _ = checker.check_text(text)
@@ -63,7 +66,7 @@ def main():
                     tally["fabricated_language"] += 1
         out[model] = tally
         print(model, tally, flush=True)
-    (HERE / "results/notincorpus_decomposition.json").write_text(
+    (HERE / f"results/notincorpus_decomposition{suffix}.json").write_text(
         json.dumps(out, indent=1))
 
 

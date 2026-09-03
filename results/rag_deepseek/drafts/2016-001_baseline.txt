@@ -1,0 +1,33 @@
+**ARGUMENT**
+
+**The Deciding Question Is One of Statutory Interpretation: The Term “Article of Manufacture” in 35 U.S.C. § 289 Requires Apportionment When the Patented Design Is Merely a Component of a Multi-Component Product.**
+
+The Federal Circuit’s affirmance of an award of Samsung’s entire profits from the sale of its smartphones rests on a singular legal error: the court treated the entire smartphone as the only relevant “article of manufacture” for purposes of 35 U.S.C. § 289, even though the patented designs covered only discrete components—the front face, the back casing, and the graphical user interface. This Court has long held that when a patented feature is only a part of a larger product, the patentee is entitled only to that portion of the infringer’s profits attributable to the patented feature. That principle governs here.
+
+**I. This Court Has Uniformly Required Apportionment of Profits When the Patented Feature Is Not the Entire Product.**
+
+The rule is ancient and settled. In *Seymour v. McCormick*, 57 U.S. 480 (1854), this Court reversed an award of all profits from an entire reaping machine where the plaintiff’s patent covered only an improvement—a seat for the raker. The Court held that a patentee of an improvement “is entitled to recover damages only for the injury sustained by the infringement of his own patent, and not for the injury sustained by the infringement of the other patents.” *Id.* at 488. That rule has been repeated ever since.
+
+In *Westinghouse Electric & Manufacturing Co. v. Wagner Electric & Manufacturing Co.*, 225 U.S. 604, 614–15 (1912), this Court made the apportionment requirement explicit. Where “the plaintiff’s patent is only a part of the machine and creates only a part of the profits,” the plaintiff must “give evidence tending to separate or apportion the defendant’s profits and the patentee’s damages between the patented feature and the unpatented features.” *Id.* (quoting *Garretson v. Clark*, 111 U.S. 120, 121 (1884)). The alternative is available only where “the entire value of the whole machine, as a marketable article, is properly and legally attributable to the patented feature.” *Id.* This is the general law of patent damages, and it is rooted in the common-sense proposition that an infringer’s profits may derive from many features, unpatented and patented alike.
+
+**II. The Design Patent Provisions Do Not Abrogate the Apportionment Requirement; They Codify It.**
+
+Congress enacted 35 U.S.C. § 289 to provide a specific remedy for design patent infringement—the infringer’s “total profit” on the “article of manufacture” to which the patented design was applied. But this statute did not abandon the apportionment principle. Rather, it presupposes that damages are tied to the specific article to which the design is applied, not to any larger product in which that article may be incorporated.
+
+The statutory history confirms this understanding. In *Dobson v. Hartford Carpet Co.*, 114 U.S. 439 (1885), and *Dobson v. Dornan*, 118 U.S. 10 (1886), this Court rejected awards of all profits from carpet sales where the patent covered only the carpet’s design, holding that the patentee was required to prove the value the design itself contributed. Congress responded to those decisions by enacting the predecessor of § 289. But nothing in the statute’s text or purpose suggests that Congress intended to overrule *Seymour* and *Westinghouse* for design patents. Instead, Congress specified that the recovery is the infringer’s profit on the “article of manufacture.” Where the patented design is applied to a component, the relevant article of manufacture is that component—not the entire smartphone into which it is assembled.
+
+This Court’s decision in *Sheldon v. Metro-Goldwyn Pictures Corp.*, 309 U.S. 390 (1940), though arising under the copyright laws, reflects the same principle: the patentee is entitled to “only that part of the profits found to be attributable to the use of the copyrighted material as distinguished from what the infringer himself has supplied.” *Id.* at 400–01. The same logic applies with equal force here. Apple’s patented designs are not the source of all value in Samsung’s smartphones. Those products include processors, cameras, antennas, software, and countless other components that Apple did not design and did not patent. The jury was instructed to award Samsung’s entire profit on the sale of each phone, without any instruction permitting or requiring the jury to isolate the profit attributable to the particular patented designs. That was error.
+
+**III. The Federal Circuit’s Affirmance Cannot Be Reconciled with This Court’s Precedents.**
+
+The Federal Circuit affirmed the damages award because it concluded that Samsung had not preserved its challenge with sufficient specificity. That procedural holding cannot obscure the substantive error. Where a statute is misinterpreted, the appellate court must correct it, regardless of the parties’ framing.
+
+The statute uses the singular “article of manufacture.” It does not say “entire product” or “finished consumer good.” An article of manufacture can be a component. Indeed, the dictionary definition of “article” includes “a particular thing or class of things.” When a patent claims the appearance of a phone’s front face, the article of manufacture to which the design is applied is that front face—not the entire phone.
+
+**IV. The Apportionment Principle Preserves the Proper Balance Between Innovators and Competitors.**
+
+Allowing a design patentee to recover the entire profit on a multi-component product would overcompensate the patentee and unfairly penalize competitors. It would convert the design patent into a monopoly over the entire product, even though the patentee contributed only a single visual feature. This Court has never sanctioned such a windfall. It has always required that damages bear a rational relationship to the value of the patented invention. See *Seymour*, 57 U.S. at 488; *Westinghouse*, 225 U.S. at 614–15.
+
+**Conclusion**
+
+The judgment of the Federal Circuit should be reversed, and the case remanded with instructions to require the district court to permit the jury to apportion Samsung’s profits between the infringed components and the uninfringed aspects of the accused smartphones.

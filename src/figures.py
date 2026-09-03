@@ -45,7 +45,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.65))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.55))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -80,7 +80,7 @@ def fig2():
     trans = json.loads((HERE / "results/loop_transitions.json").read_text())
     arms = [("none", "none"), ("scrambled", "0"), ("quarter", "0.25"),
             ("half", "0.5"), ("threequarter", "0.75"), ("true", "1")]
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.7))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.6))
     for mi, (model, rows) in enumerate(data.items()):
         strict, removed = [], []
         for arm, _ in arms:

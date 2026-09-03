@@ -1,0 +1,44 @@
+{
+ "deepseek": {
+  "out_of_scope_non_us": 30,
+  "paraphrase_in_quotes": 135,
+  "fabricated_language": 102,
+  "no_text": 0
+ },
+ "gpt54mini": {
+  "out_of_scope_non_us": 5,
+  "paraphrase_in_quotes": 83,
+  "fabricated_language": 31,
+  "no_text": 0
+ },
+ "grok43": {
+  "out_of_scope_non_us": 6,
+  "paraphrase_in_quotes": 80,
+  "fabricated_language": 41,
+  "no_text": 0
+ },
+ "llama4mav": {
+  "out_of_scope_non_us": 11,
+  "paraphrase_in_quotes": 51,
+  "fabricated_language": 29,
+  "no_text": 0
+ },
+ "mistralsmall": {
+  "out_of_scope_non_us": 31,
+  "paraphrase_in_quotes": 155,
+  "fabricated_language": 80,
+  "no_text": 0
+ },
+ "qwen30b": {
+  "out_of_scope_non_us": 47,
+  "paraphrase_in_quotes": 212,
+  "fabricated_language": 109,
+  "no_text": 0
+ },
+ "sonnet": {
+  "out_of_scope_non_us": 10,
+  "paraphrase_in_quotes": 136,
+  "fabricated_language": 75,
+  "no_text": 0
+ }
+}

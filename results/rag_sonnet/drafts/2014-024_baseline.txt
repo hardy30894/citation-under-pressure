@@ -1,0 +1,31 @@
+# ARGUMENT
+
+## A CONVICTION UNDER 18 U.S.C. § 875(c) REQUIRES PROOF THAT THE DEFENDANT SUBJECTIVELY INTENDED HIS STATEMENT AS A THREAT
+
+Section 875(c) provides no explicit mental state, but this Court has long insisted that criminal statutes be read to require the defendant's culpable state of mind unless Congress plainly indicates otherwise. The Third Circuit's contrary rule—that a defendant may be convicted based solely on how a "reasonable person" would perceive his words, without regard to what he actually intended—cannot be reconciled with this Court's First Amendment precedent, with the presumption of scienter in criminal statutes, or with the historic function of the mens rea requirement in separating wrongful conduct from protected expression.
+
+### A. This Court's True-Threats Precedent Requires Subjective Intent
+
+The Third Circuit acknowledged that this case turns on whether *Virginia v. Black*, 538 U.S. 343 (2003), displaced the objective "reasonable speaker" standard that circuit had announced in *United States v. Kosma*, 951 F.2d 549, 557 (3d Cir. 1991). Pet. App. 2–3. It should have. In *Black*, this Court defined "true threats" as "statements where the speaker means to communicate a serious expression of an intent to commit an act of unlawful violence." 538 U.S. at 359 (emphasis added). That definition is inescapably subjective: it asks what the speaker *means*, not what a hypothetical reasonable listener would understand. The Court explained that intimidation, the paradigmatic true threat, occurs "where the speaker directs a threat to a person or group of persons with the intent of placing the victim in fear of bodily harm or death." *Id.* Intent to place the victim in fear is again a subjective inquiry into the defendant's own state of mind—not an objective inquiry into how a reasonable observer would receive the statement.
+
+The category of "true threats" is carved out of First Amendment protection precisely because such statements are not really speech in the constitutionally protected sense; they are closer to conduct. But that carve-out cannot be stretched to reach speech that the speaker did not intend as threatening, merely because a listener might mistakenly perceive it that way. An objective standard collapses the distinction between threats and merely careless, unpopular, or misunderstood speech, chilling protected expression in violation of the very principles *Black* sought to preserve.
+
+### B. The Presumption Favoring Scienter Requires Reading a Subjective-Intent Element Into § 875(c)
+
+Even apart from the First Amendment concerns, ordinary principles of statutory construction demand a subjective mens rea. This Court has consistently required that criminal statutes be construed to include a scienter requirement absent clear congressional intent to dispense with it, particularly where the conduct at issue—here, speech—might otherwise be entirely innocent. Section 875(c) criminalizes "transmit[ting] in interstate or foreign commerce any communication containing any threat to injure the person of another." 18 U.S.C. § 875(c). Nothing in that text forecloses a subjective-intent requirement; it is silent as to mens rea altogether. Where Congress has not spoken to the mental state necessary for conviction, this Court fills that gap by presuming Congress intended to require the mental state necessary to separate wrongful from otherwise innocent conduct.
+
+Here, the "wrongful conduct" that § 875(c) targets is the communication of a genuine threat—not the mere production of words that, stripped of context and their author's intent, might frighten a reader. Petitioner Elonis's Facebook posts, cast in the form of rap lyrics referencing songs and artists, illustrate the danger of an objective standard: a jury applying a "reasonable person" test may condemn stylized, exaggerated, or emotionally cathartic expression as criminal simply because some hypothetical reader might take fright, even though the actual speaker never intended or foresaw his words as a threat to be taken literally.
+
+### C. The Third Circuit's "Reasonable Speaker" Standard Cannot Be Squared With *Black*
+
+The court below reasoned that requiring subjective intent "would fail to protect individuals from the fear of violence which the 'true threat' exception was created to prevent." Pet. App. 2. But that policy judgment cannot override this Court's own articulation of the true-threats doctrine in *Black*. The Third Circuit's standard asks only whether "a reasonable speaker would foresee that the statement would be interpreted . . . as a threat," *Kosma*, 951 F.2d at 557—a test focused on the impact on the listener, not the intent of the speaker. That is precisely the inquiry *Black* rejected when it defined true threats by reference to what "the speaker means to communicate." 538 U.S. at 359.
+
+The Third Circuit's approach also proves unworkable in cases like this one, where context is genuinely ambiguous. The panel below was forced to acknowledge that some of Elonis's statements might plausibly be understood as descriptions of past conduct rather than future threats, Pet. App. 27, yet it upheld the conviction by resolving that ambiguity against the defendant based solely on how a reasonable listener might construe the words—without any finding that Elonis himself intended or even recognized his words as threatening.
+
+### D. Practical and Constitutional Considerations Confirm the Need for a Subjective Standard
+
+Requiring subjective intent does not undermine legitimate threat prosecutions; it simply ensures that § 875(c) reaches only that narrow category of speech the First Amendment permits Congress to criminalize. An objective standard risks punishing protected speech—venting, dark humor, artistic expression, or hyperbole—whenever an audience unfamiliar with the speaker's true intent takes offense or fright. The safer, constitutionally sound course, consistent with *Black*, is to require the government to prove that the defendant himself meant his statement as a serious expression of intent to commit violence.
+
+### CONCLUSION
+
+For the foregoing reasons, the judgment of the court of appeals should be reversed.

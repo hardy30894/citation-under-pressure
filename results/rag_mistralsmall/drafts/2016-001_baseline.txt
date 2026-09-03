@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. The Federal Circuit Erred in Permitting Damages Based on Samsung’s Entire Profit Where the Infringed Design Patent Applied Only to a Component of the Accused Products.**
+
+The governing rule is clear: when a design patent is applied to only a component of a multicomponent product, damages must be limited to the profits attributable to that component, not the entire product. *See Westinghouse Elec. & Mfg. Co. v. Wagner Elec. & Mfg. Co.*, 225 U.S. 604, 615 (1912) (“[W]here the plaintiff’s patent is only a part of the machine and creates only a part of the profits… he is only entitled to recover that part of the net gains.”); *see also Garretson v. Clark*, 111 U.S. 120, 121 (1884) (holding that damages must be apportioned where the patented feature does not constitute the whole invention).
+
+The Federal Circuit’s contrary approach—permitting damages based on the entire profit of a multicomponent product—departs from this longstanding precedent. *See Apple Inc. v. Samsung Elec. Co.*, 786 F.3d 983, 1002 (Fed. Cir. 2015) (affirming damages based on entire profits of smartphones despite design patents covering only specific components). This error is compounded by the fact that the infringed design patents in this case—U.S. Design Patent Nos. D’618, D’607, and D’593—cover only particular graphical user interface (GUI) elements, not the entire smartphone. *See* Pet. App. 12a-13a. The Federal Circuit’s refusal to apportion damages contravenes the Supreme Court’s instruction that “the entire value of the whole machine… is not to be considered where the patent covers only a part.” *Westinghouse*, 225 U.S. at 615.
+
+**II. The Supreme Court Has Consistently Required Apportionment in Design Patent Cases.**
+
+The Supreme Court has repeatedly emphasized that damages must be apportioned to the patented feature. In *Dobson v. Dornan*, 118 U.S. 10, 14 (1886), the Court rejected an award of the defendant’s entire profits from carpet sales where the patented design contributed only a portion of the value. Similarly, in *Dobson v. Hartford Carpet Co.*, 114 U.S. 439, 444 (1885), the Court held that damages could not be based on the entire profit of the carpet unless the design was the sole cause of its value. These cases establish that apportionment is mandatory where the patented design is but one feature of a multicomponent product.
+
+The same principle applies here. The infringed GUI elements are but a fraction of the overall value of Samsung’s smartphones. The Federal Circuit’s failure to require apportionment thus misapplies controlling Supreme Court precedent. *See also Sheldon v. Metro-Goldwyn Pictures Corp.*, 309 U.S. 390, 400 (1940) (requiring apportionment in copyright cases where the infringed work is but a part of the defendant’s product).
+
+**III. The Federal Circuit’s Approach Leads to Absurd and Unjust Results.**
+
+Permitting damages based on the entire profit of a multicomponent product where the patent covers only a component would allow patentees to recover windfalls unrelated to the infringed design. *See Lehnbeuter v. Holthaus*, 105 U.S. 94, 96 (1882) (rejecting a similar argument as “unjust and inequitable”). This is particularly problematic where, as here, the patented design is merely ornamental and contributes only a small fraction of the product’s overall value. *See Garretson*, 111 U.S. at 121 (warning against “speculative” damages that “include profits not attributable to the patented feature”).
+
+The Federal Circuit’s approach also conflicts with the statutory text of 35 U.S.C. § 289, which permits recovery of “the total profit” made from the infringement of a design patent. The Supreme Court has cautioned that this provision does not authorize a windfall where the patented design is but a component. *See* *Sperry Gyroscope Co. v. Arma Eng’g Co.*, 271 U.S. 232, 239 (1926) (limiting § 289 to cases where the design is the “whole of the article”).
+
+**IV. The Federal Circuit’s Error Warrants Reversal.**
+
+The Federal Circuit’s refusal to apportion damages where the infringed design patent applies only to a component of the accused product is legally erroneous and inconsistent with Supreme Court precedent. This Court should clarify that damages under § 289 must be limited to the profits attributable to the patented design, not the entire product. *See Westinghouse*, 225 U.S. at 615; *Dobson*, 118 U.S. at 14. The judgment below should be reversed, and the case remanded for a new trial on damages consistent with this principle.

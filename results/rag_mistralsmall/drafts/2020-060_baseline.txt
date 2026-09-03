@@ -1,0 +1,23 @@
+**ARGUMENT**
+
+**I. THE DISTRICT COURT CORRECTLY CONCLUDED THAT GUAM’S SECTION 107 CLAIM IS TIMELY BECAUSE THE 2004 CONSENT DECREE DID NOT TRIGGER SECTION 113(F)(3)(B).**
+
+The D.C. Circuit’s decision misreads CERCLA’s remedial scheme. Section 107(a) permits a party that has incurred response costs to seek full cost recovery from other potentially responsible parties (PRPs), while section 113(f)(3)(B) allows a settling PRP to seek contribution from non-settling PRPs. *See* 42 U.S.C. §§ 9607(a), 9613(f)(3)(B). The two provisions are distinct: section 107 is a direct cause of action for incurred costs, while section 113 is a derivative contribution action available only after a PRP has resolved its liability in a settlement. *See Cooper Indus., Inc. v. Aviall Servs., Inc.*, 543 U.S. 157, 161–62 (2004).
+
+The D.C. Circuit erred in holding that the 2004 Consent Decree “resolved” Guam’s liability under section 113(f)(3)(B). The decree explicitly disclaimed any admission of liability and was entered without adjudication of facts or law. *See* Consent Decree, United States v. Guam, No. 02-00022 (D. Guam), at 3, J.A. 92. Courts have repeatedly held that such disclaimers preclude a finding that liability was resolved for CERCLA purposes. *See, e.g., Florida Power Corp. v. FirstEnergy Corp.*, 810 F.3d 996, 1002 (6th Cir. 2015); *Asarco LLC v. Union Pac. R.R. Co.*, 866 F.3d 1118, 1123 (9th Cir. 2017); *Refined Metals Corp. v. NL Indus., Inc.*, 937 F.3d 923, 931 (9th Cir. 2019). The D.C. Circuit’s contrary conclusion conflicts with these decisions and misapprehends the remedial structure of CERCLA.
+
+Moreover, the Clean Water Act (CWA) claims underlying the Consent Decree did not implicate CERCLA’s liability scheme. The CWA regulates “pollutant discharges,” 33 U.S.C. § 1362(6), while CERCLA covers “hazardous substances,” 42 U.S.C. § 9601(14). The D.C. Circuit conflated the two regimes. *See Meghrig v. KFC W., Inc.*, 516 U.S. 479, 483 (1996) (distinguishing CERCLA from RCRA, which, like the CWA, focuses on ongoing pollution rather than past disposal). The Consent Decree addressed CWA violations—untreated leachate discharges—not CERCLA liability for past disposal of hazardous substances. Thus, it did not trigger section 113(f)(3)(B).
+
+**II. GUAM’S SECTION 107 CLAIM IS NOT BARRED BY THE STATUTE OF LIMITATIONS.**
+
+CERCLA section 107(a) provides a six-year limitations period for cost-recovery actions, running from the date the plaintiff “incurred” response costs. 42 U.S.C. § 9613(g)(2)(B). Guam incurred its response costs when it closed the Ordot Dump in 2011 and began remediation. *See Guam v. United States*, 341 F. Supp. 3d 74, 84 (D.D.C. 2018). The United States’ contrary argument—that Guam’s 2004 settlement with EPA triggered the limitations period—rests on a misreading of section 113(f)(3)(B). That provision does not shorten the limitations period for section 107 claims; it merely creates an alternative contribution remedy for settling PRPs. *See Cooper*, 543 U.S. at 167.
+
+The D.C. Circuit’s reliance on *Hallstrom v. Tillamook County*, 493 U.S. 20 (1989), is misplaced. *Hallstrom* addressed a statutory notice requirement, not a remedial scheme dividing cost recovery and contribution. *Id.* at 25–26. Here, CERCLA’s text and structure clearly separate the two remedies, and the six-year limitations period for section 107 claims remains untouched.
+
+**III. THE D.C. CIRCUIT’S DECISION THREATENS TO UPEND CERCLA’S BALANCED REMEDIAL SCHEME.**
+
+The D.C. Circuit’s holding would incentivize PRPs to delay bringing cost-recovery actions, gambling that a future settlement with EPA might inadvertently trigger a shorter limitations period for contribution. This undermines CERCLA’s purpose: to ensure prompt cleanup and equitable cost allocation. *See United States v. Bestfoods*, 524 U.S. 51, 55 (1998). The decision also conflicts with the Supreme Court’s instruction that courts must apply CERCLA’s remedial provisions as written. *See id.* at 66–67.
+
+**CONCLUSION**
+
+For the foregoing reasons, the Court should reverse the D.C. Circuit’s judgment and reinstate the district court’s decision allowing Guam’s section 107 claim to proceed.

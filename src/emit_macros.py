@@ -253,7 +253,7 @@ if gr.exists():
         kk = "Cite" if kind == "citation" else "Quote"
         emit2(f"runsOr{kk}{mk}", f"{v['OR']:.2f}")
         emit2(f"runsCi{kk}{mk}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
-        emit2(f"runsHolm{kk}{mk}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else f"{v['holm_p']:.4f}")
+        emit2(f"runsHolm{kk}{mk}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
         if v["holm_p"] < 0.05:
             surv[kind].append(m)
     emit2("runsQuoteSurvivors", str(len(surv["quote"])))
@@ -297,6 +297,44 @@ if ph.exists():
     if ors:
         emit2("phrPooledQuoteOrMin", f"{min(ors):.2f}")
         emit2("phrPooledQuoteOrMax", f"{max(ors):.2f}")
+
+gs = R / "grounded_stats.json"
+if gs.exists():
+    g = json.loads(gs.read_text())
+    for m, mk in ALPHA.items():
+        for c, ck in (("baseline", "Base"), ("combo", "Combo")):
+            key = f"{m}:{c}"
+            if key in g["grounded"]:
+                v = g["grounded"][key]
+                emit2(f"gExist{mk}{ck}", fmt3(v["exist"]))
+                emit2(f"gStrict{mk}{ck}", fmt3(v["strict"]))
+                emit2(f"gNotFound{mk}{ck}", str(v["not_found"]))
+        rs = g["retrieved_share"].get(m)
+        if rs and rs["share"] is not None:
+            emit2(f"gRetrieved{mk}", f"{100 * rs['share']:.0f}")
+        dd = g.get("decomposition_grounded", {}).get(m)
+        if dd:
+            tot = dd["paraphrase_in_quotes"] + dd["fabricated_language"] + dd["out_of_scope_non_us"]
+            emit2(f"gInacc{mk}", str(tot))
+            emit2(f"gParaPct{mk}", f"{100 * dd['paraphrase_in_quotes'] / tot:.0f}")
+    shares = [v["share"] for v in g["retrieved_share"].values() if v["share"] is not None]
+    emit2("gRetrievedMin", f"{100 * min(shares):.0f}")
+    emit2("gRetrievedMax", f"{100 * max(shares):.0f}")
+    nf = sum(g["grounded"][k]["not_found"] for k in g["grounded"])
+    adj = sum(g["grounded"][k]["adjudicable"] for k in g["grounded"])
+    emit2("gNotFoundTotal", str(nf))
+    emit2("gAdjudicableTotal", f"{adj:,}")
+    for k, v in g["gee"].items():
+        kind, m, c = k.split(":")
+        mk = ALPHA.get(m)
+        if mk and v.get("OR") is not None:
+            kk = "Cite" if kind == "citation" else "Quote"
+            emit2(f"gOr{kk}{mk}{CONDS[c]}", f"{v['OR']:.1f}" if v["OR"] >= 10 else f"{v['OR']:.2f}")
+            emit2(f"gHolm{kk}{mk}{CONDS[c]}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
+    qs = [k for k, v in g["gee"].items() if k.startswith("quote:") and v.get("holm_p") is not None and v["holm_p"] < 0.05]
+    emit2("gQuoteSurvivors", str(len(qs)))
+    cs = [k for k, v in g["gee"].items() if k.startswith("citation:") and v.get("holm_p") is not None and v["holm_p"] < 0.05]
+    emit2("gCiteSurvivors", str(len(cs)))
 
 lt = R / "loop_transitions.json"
 if lt.exists():

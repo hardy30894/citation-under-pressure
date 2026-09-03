@@ -224,3 +224,23 @@ before or after seeing the relevant data. Nothing is deleted.
   (existence, Qwen temporal), replacing the 40-point figure from the
   twelve-matter check. (4) The deletion-is-rational objection is stated
   and answered in the Discussion. Project spend $93.90 of the $200 cap.
+- 2026-09-03 (grounded arm): a retrieval condition, run after the
+  pre-registered analysis and reported as its own paragraph. For each
+  matter the ten U.S. Reports opinions most similar to the question and
+  facts (TF-IDF over the 62,534 opinions in the local Caselaw Access
+  Project cache; decided before argument, and before 1970 for the
+  combined condition; the argued case excluded by citation and by name)
+  were placed in the prompt with citation, year, and best-matching
+  250-word passage (src/retrieve.py, results/retrieval/), and baseline
+  and combined were rerun on all 48 matters and seven models
+  (results/rag_*, $14.31). Findings (src/grounded_stats.py): models drew
+  51 to 83 percent of citations from the list; citations not found fell
+  to 74 in 5,605; Qwen combined existence 0.773 to 0.995 (OR 54);
+  combined existence no lower than baseline for any model; strict
+  quotation accuracy rose for every model (Qwen combined 0.072 to
+  0.368, Sonnet baseline 0.333 to 0.525) yet stayed at or below 0.53
+  everywhere, and Sonnet's remaining 221 inaccurate quotations are 62
+  percent paraphrase of the cited case (55 closed-book). Retrieval
+  removes the existence failure and leaves the residual class in place;
+  the Discussion's earlier prediction to that effect is now a
+  measurement. Project spend $108.

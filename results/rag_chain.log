@@ -1,0 +1,49 @@
+deepseek done
+gpt54mini done
+grok43 done
+llama4mav done
+mistralsmall done
+qwen30b done
+sonnet done
+10022 records -> results/records_rag.jsonl
+deepseek {'out_of_scope_non_us': 30, 'paraphrase_in_quotes': 135, 'fabricated_language': 102, 'no_text': 0}
+gpt54mini {'out_of_scope_non_us': 5, 'paraphrase_in_quotes': 83, 'fabricated_language': 31, 'no_text': 0}
+grok43 {'out_of_scope_non_us': 6, 'paraphrase_in_quotes': 80, 'fabricated_language': 41, 'no_text': 0}
+llama4mav {'out_of_scope_non_us': 11, 'paraphrase_in_quotes': 51, 'fabricated_language': 29, 'no_text': 0}
+mistralsmall {'out_of_scope_non_us': 31, 'paraphrase_in_quotes': 155, 'fabricated_language': 80, 'no_text': 0}
+qwen30b {'out_of_scope_non_us': 47, 'paraphrase_in_quotes': 212, 'fabricated_language': 109, 'no_text': 0}
+sonnet {'out_of_scope_non_us': 10, 'paraphrase_in_quotes': 136, 'fabricated_language': 75, 'no_text': 0}
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:239: RuntimeWarning: overflow encountered in exp
+  t = np.exp(z)
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
+  return t / (1 + t) ** 2
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:239: RuntimeWarning: overflow encountered in exp
+  t = np.exp(z)
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
+  return t / (1 + t) ** 2
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:239: RuntimeWarning: overflow encountered in exp
+  t = np.exp(z)
+/opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
+  return t / (1 + t) ** 2
+deepseek:baseline        exist 0.9718 -> 0.9883   strict 0.2814 -> 0.3889
+deepseek:combo           exist 0.959 -> 0.9938   strict 0.1203 -> 0.3186
+gpt54mini:baseline       exist 0.9808 -> 0.9858   strict 0.4599 -> 0.5185
+gpt54mini:combo          exist 0.9621 -> 0.9937   strict 0.2937 -> 0.4885
+grok43:baseline          exist 0.9805 -> 0.9871   strict 0.3263 -> 0.4211
+grok43:combo             exist 0.9937 -> 1.0   strict 0.2465 -> 0.4178
+llama4mav:baseline       exist 0.9577 -> 0.9739   strict 0.402 -> 0.381
+llama4mav:combo          exist 0.9387 -> 0.9963   strict 0.1795 -> 0.2268
+mistralsmall:baseline    exist 0.9008 -> 0.9443   strict 0.2068 -> 0.2467
+mistralsmall:combo       exist 0.8676 -> 0.9804   strict 0.1361 -> 0.1742
+qwen30b:baseline         exist 0.9243 -> 0.9544   strict 0.175 -> 0.2312
+qwen30b:combo            exist 0.7733 -> 0.9948   strict 0.0716 -> 0.3683
+sonnet:baseline          exist 0.9906 -> 1.0   strict 0.3333 -> 0.5254
+sonnet:combo             exist 0.9978 -> 1.0   strict 0.4268 -> 0.5144
+  quote:deepseek:combo         OR 3.376 holm 0.0
+  quote:gpt54mini:combo        OR 2.418 holm 0.0325
+  citation:llama4mav:combo     OR 17.141 holm 0.0001
+  citation:mistralsmall:combo  OR 7.44 holm 0.0
+  citation:qwen30b:combo       OR 53.831 holm 0.0
+  quote:qwen30b:combo          OR 7.771 holm 0.0
+  quote:sonnet:baseline        OR 2.173 holm 0.0
+retrieved share: {'chain.log': None, 'deepseek': 0.675, 'gpt54mini': 0.639, 'grok43': 0.828, 'llama4mav': 0.705, 'mistralsmall': 0.509, 'qwen30b': 0.642, 'sonnet': 0.782, 'workers.log': None}
