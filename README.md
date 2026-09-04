@@ -35,6 +35,18 @@ correct items it is computed over.
 > strongest model quotes less; under feedback it deletes what was
 > flagged; in both cases the measured rate rises and the count of
 > correct quotations does not.
+>
+> In the paper's notation, for a draft $d$ with scored quotations $S_d$
+> and $K_d$ accurate ones among them, the observed rate is
+>
+> $$R_d = \frac{K_d}{|S_d|},$$
+>
+> and a model can raise $R_d$ by shrinking $|S_d|$ as well as by raising
+> $K_d$. Under pressure the strongest model quoted less ($|S_d|$ down,
+> $K_d$ flat); under feedback every model deleted what was flagged
+> ($|S_d|$ down, $K_d$ flat or lower). A rising $R_d$ therefore does
+> not imply more correct output, and an evaluation that scores only what
+> a system chooses to emit should report $K_d$ beside $R_d$.
 
 Courts keep sanctioning lawyers for filing briefs with citations that a
 language model invented, and nearly all research on the problem works
@@ -247,9 +259,10 @@ loop.**
 The scrambled column of Table 2 shows that false flags lower accuracy
 for five of seven models, most for Sonnet 5 and Llama-4; under
 all-false feedback Sonnet 5 removed 43 of its 68 correct quotations.
-Mixed arms in which each feedback line is true with probability 0.25,
-0.5, or 0.75 give the dose-response: Sonnet 5 removed 3, 8, 20, 27, and
-43 of its 68 correct quotations as verifier precision fell from 1 to 0
+Mixed arms in which each feedback line is true with probability
+$\pi = 0.25$, $0.5$, or $0.75$ give the dose-response: Sonnet 5 removed
+3, 8, 20, 27, and 43 of its 68 correct quotations as the verifier
+precision $\pi$ fell from 1 to 0
 (21 with no feedback at all), and its final accuracy fell 1.000, 1.000,
 0.956, 0.830, 0.575 with it. A verifier with 50 percent precision
 removed 20 correct quotations, no more than revision with no feedback
@@ -420,6 +433,20 @@ are in [`docs/DESIGN.md`](docs/DESIGN.md).
 
 ### Adjudication
 
+For a draft $d$ let $C_d$ be its citation records, $A_d \subseteq C_d$
+the *adjudicable* ones (labelled exists or not found), $Q_d$ its
+quotations, and $S_d \subseteq Q_d$ the *scored* ones, those the draft
+attributes to a case whose text the checker holds. The outcomes are
+
+$$E_d = \frac{|\{c \in A_d : \text{exists}\}|}{|A_d|}, \qquad
+R_d = \frac{|\{q \in S_d : \text{accurate}\}|}{|S_d|}, \qquad
+K_d = |\{q \in S_d : \text{accurate}\}|,$$
+
+citation existence, strict quotation accuracy, and the count of
+accurate quotations in the draft; the lenient rate $R^{\ell}_d$ counts
+near misses as accurate. A quotation the draft does not attribute is
+outside $S_d$ and so outside $R_d$.
+
 Every citation gets one of three labels, never two: exists, not found,
 or unverifiable, so oracle coverage gaps are never counted as
 fabrication. Existence means the volume, reporter, and page resolve to
@@ -430,11 +457,20 @@ abbreviated names, so the cells near 1.00 do not rest on wrong pages
 landing on real opinions. Pinpoint pages are located against the
 official reporter's page boundaries.
 
-The strict quotation standard is case and punctuation insensitive,
-splits a quotation on ellipses and on bracketed alterations, so that a
+The strict quotation standard splits a quotation $q$ into fragments
+$f_1, \dots, f_n$ at ellipses and bracketed alterations, so that a
 lawful substitution is read as an omission and the words around it must
-match, and drops alteration parentheticals, so the alterations lawyers
-make legitimately pass. The lenient rate, which admits near misses, is
+match, drops alteration parentheticals, and compares the fragments with
+the normalized text $T$ of the opinion the quotation is attributed to
+(case and punctuation insensitive):
+
+$$\text{accurate} \iff \forall j\; f_j \sqsubseteq T, \qquad
+\text{near miss} \iff \min_j \mathrm{cov}(f_j, T) \ge 0.85,$$
+
+where $f_j \sqsubseteq T$ means $f_j$ is a substring of $T$ and
+$\mathrm{cov}(f_j, T)$ is the share of the fragment's words of five or
+more letters that occur in $T$; anything else is inaccurate, so the
+alterations lawyers make legitimately pass and a changed word does not. The lenient rate, which admits near misses, is
 reported beside it as a diagnostic. The literal matcher the strict
 standard replaced, which read a bracketed alteration as its contents,
 is kept as the comparison (`src/alteration_aware.py`): human lawyers
@@ -454,9 +490,15 @@ attributed quotations.
 ### Inference
 
 The primary analysis is a citation-level logistic generalized
-estimating equation per model, clustered by matter, so that the 48
-matters are the independent units and the effective sample is 48, no
-matter how many thousands of citations they hold. Each model has eight contrasts
+estimating equation per model,
+
+$$\operatorname{logit} P(y_{imk} = 1) = \beta_0 + \beta_k,$$
+
+for the existence or accuracy indicator $y_{imk}$ of item $i$ in matter
+$m$ under condition $k$, with exchangeable working correlation within
+matter, so that the 48 matters are the independent units and the
+effective sample is 48, no matter how many thousands of citations they
+hold; the reported odds ratio for condition $k$ is $e^{\beta_k}$. Each model has eight contrasts
 (four conditions, two outcomes); Holm correction is applied within
 model, each model being the family the paper draws conclusions about,
 and an effect is called significant only when it survives correction.
