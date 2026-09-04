@@ -1,0 +1,473 @@
+{
+ "pooled": {
+  "accurate": 2159,
+  "checked": 1661,
+  "majority": 1539,
+  "not_us_reports": 476,
+  "concurrence": 20,
+  "concurrence:unflagged": 16,
+  "separate": 39,
+  "separate_flagged": 6,
+  "not_located": 83,
+  "head-matter": 8,
+  "head-matter:unflagged": 8,
+  "dissent": 11,
+  "dissent:flagged": 2,
+  "dissent:unflagged": 9,
+  "no_archive": 22,
+  "concurrence:flagged": 4
+ },
+ "cells": {
+  "deepseek:baseline": {
+   "majority": 49,
+   "head-matter": 1
+  },
+  "deepseek:quota": {
+   "majority": 73,
+   "concurrence": 3
+  },
+  "deepseek:stakes": {
+   "majority": 56,
+   "dissent": 1
+  },
+  "deepseek:combo": {
+   "concurrence": 1,
+   "majority": 38
+  },
+  "deepseek:temporal": {
+   "majority": 41,
+   "dissent": 2
+  },
+  "gpt54mini:stakes": {
+   "majority": 49
+  },
+  "gpt54mini:baseline": {
+   "majority": 53,
+   "concurrence": 1
+  },
+  "gpt54mini:temporal": {
+   "majority": 29
+  },
+  "gpt54mini:combo": {
+   "majority": 38,
+   "dissent": 1
+  },
+  "gpt54mini:quota": {
+   "majority": 49
+  },
+  "grok43:stakes": {
+   "majority": 47,
+   "concurrence": 2
+  },
+  "grok43:temporal": {
+   "majority": 39,
+   "head-matter": 1,
+   "concurrence": 1,
+   "dissent": 1
+  },
+  "grok43:combo": {
+   "majority": 30,
+   "concurrence": 1,
+   "dissent": 1
+  },
+  "grok43:quota": {
+   "majority": 47,
+   "head-matter": 1,
+   "concurrence": 2
+  },
+  "grok43:baseline": {
+   "majority": 54,
+   "concurrence": 2,
+   "dissent": 2
+  },
+  "llama4mav:combo": {
+   "majority": 11
+  },
+  "llama4mav:temporal": {
+   "majority": 7
+  },
+  "llama4mav:baseline": {
+   "majority": 17
+  },
+  "llama4mav:quota": {
+   "majority": 20
+  },
+  "llama4mav:stakes": {
+   "majority": 16
+  },
+  "mistralsmall:combo": {
+   "majority": 31,
+   "head-matter": 1
+  },
+  "mistralsmall:quota": {
+   "majority": 40
+  },
+  "mistralsmall:temporal": {
+   "majority": 25,
+   "head-matter": 1
+  },
+  "mistralsmall:baseline": {
+   "majority": 33
+  },
+  "mistralsmall:stakes": {
+   "majority": 28
+  },
+  "qwen30b:quota": {
+   "majority": 28
+  },
+  "qwen30b:stakes": {
+   "majority": 13,
+   "dissent": 1
+  },
+  "qwen30b:baseline": {
+   "majority": 18,
+   "dissent": 1
+  },
+  "qwen30b:combo": {
+   "majority": 10
+  },
+  "qwen30b:temporal": {
+   "majority": 12
+  },
+  "sonnet:baseline": {
+   "majority": 93,
+   "head-matter": 1
+  },
+  "sonnet:combo": {
+   "majority": 115,
+   "concurrence": 3
+  },
+  "sonnet:quota": {
+   "majority": 104,
+   "concurrence": 2
+  },
+  "sonnet:stakes": {
+   "majority": 109,
+   "head-matter": 1,
+   "dissent": 1
+  },
+  "sonnet:temporal": {
+   "majority": 117,
+   "head-matter": 1,
+   "concurrence": 2
+  }
+ },
+ "sample": [
+  {
+   "model": "deepseek",
+   "draft": "1992-086_combo",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "have immemorially been held in trust for the use of the public"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1997-046_baseline",
+   "citation": "351 U.S. 12",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "an integral part of the \u2026 system for finally adjudicating the guilt or innocence of a defendant."
+  },
+  {
+   "model": "deepseek",
+   "draft": "1997-046_stakes",
+   "citation": "452 U.S. 458",
+   "part": "dissent",
+   "signalled": true,
+   "quote": "regular and critical component"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1998-085_quota",
+   "citation": "492 U.S. 257",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "reprehensible conduct."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2000-071_temporal",
+   "citation": "330 U.S. 1",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "Congress shall make no law respecting an establishment of religion."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2010-026_quota",
+   "citation": "502 U.S. 164",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "must be narrowly construed."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2015-007_quota",
+   "citation": "408 U.S. 238",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "meaningful basis for distinguishing the few cases in which [death] is imposed from the many cases in which it is not."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2015-055_temporal",
+   "citation": "489 U.S. 288",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "place certain kinds of primary, private individual conduct beyond the power of the criminal law-making authority to pros"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "2005-087_combo",
+   "citation": "328 U.S. 463",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "administration of justice"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "2012-029_baseline",
+   "citation": "486 U.S. 800",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "for patent infringement,"
+  },
+  {
+   "model": "grok43",
+   "draft": "1990-114_temporal",
+   "citation": "17 U.S.(4 Wheat.) 316",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "the powers of the States"
+  },
+  {
+   "model": "grok43",
+   "draft": "1992-086_combo",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "Wherever the title of streets and parks may rest, they have immemorially been held in trust for the use of the public an"
+  },
+  {
+   "model": "grok43",
+   "draft": "1992-086_temporal",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "have immemorially been held in trust for the use of the public and, time out of mind, have been used for purposes of ass"
+  },
+  {
+   "model": "grok43",
+   "draft": "1997-046_quota",
+   "citation": "351 U.S. 12",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "an integral part of the ... system for finally adjudicating the guilt or innocence of a defendant."
+  },
+  {
+   "model": "grok43",
+   "draft": "1999-033_baseline",
+   "citation": "541 U.S. 267",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "judicially manageable standards,"
+  },
+  {
+   "model": "grok43",
+   "draft": "2000-071_baseline",
+   "citation": "515 U.S. 819",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "lend[ing] direct support to"
+  },
+  {
+   "model": "grok43",
+   "draft": "2000-071_quota",
+   "citation": "515 U.S. 819",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "religious viewpoints"
+  },
+  {
+   "model": "grok43",
+   "draft": "2000-071_quota",
+   "citation": "505 U.S. 577",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "religious instruction."
+  },
+  {
+   "model": "grok43",
+   "draft": "2001-070_baseline",
+   "citation": "501 U.S. 957",
+   "part": "concurrence",
+   "signalled": true,
+   "quote": "by objective factors to the maximum possible extent."
+  },
+  {
+   "model": "grok43",
+   "draft": "2013-068_stakes",
+   "citation": "530 U.S. 703",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "leave open ample alternative channels"
+  },
+  {
+   "model": "grok43",
+   "draft": "2014-024_temporal",
+   "citation": "250 U.S. 616",
+   "part": "dissent",
+   "signalled": true,
+   "quote": "the surreptitious publishing of a silly leaflet"
+  },
+  {
+   "model": "grok43",
+   "draft": "2015-007_stakes",
+   "citation": "468 U.S. 447",
+   "part": "concurrence",
+   "signalled": true,
+   "quote": "evolving standards of decency,"
+  },
+  {
+   "model": "grok43",
+   "draft": "2015-066_baseline",
+   "citation": "511 U.S. 738",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "do[] not violate the Sixth Amendment,"
+  },
+  {
+   "model": "grok43",
+   "draft": "2020-012_combo",
+   "citation": "313 U.S. 409",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "in accordance with law"
+  },
+  {
+   "model": "mistralsmall",
+   "draft": "1997-046_combo",
+   "citation": "351 U.S. 12",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "an integral part of the ... system for finally adjudicating the guilt or innocence of a defendant."
+  },
+  {
+   "model": "mistralsmall",
+   "draft": "2010-065_temporal",
+   "citation": "19 U.S.(6 Wheat.) 264",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "It is a maxim not to be disregarded, that general expressions in every opinion are to be taken in connection with the ca"
+  },
+  {
+   "model": "qwen30b",
+   "draft": "2000-071_stakes",
+   "citation": "533 U.S. 98",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "challenge and invitation"
+  },
+  {
+   "model": "qwen30b",
+   "draft": "2001-070_baseline",
+   "citation": "536 U.S. 304",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "the evolving standards of decency."
+  },
+  {
+   "model": "sonnet",
+   "draft": "1992-086_combo",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "have immemorially been held in trust for the use of the public and, time out of mind, have been used for purposes of ass"
+  },
+  {
+   "model": "sonnet",
+   "draft": "1994-059_temporal",
+   "citation": "17 U.S.(4 Wheat.) 316",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "though limited in its powers, is supreme within its sphere of action,"
+  },
+  {
+   "model": "sonnet",
+   "draft": "1997-046_baseline",
+   "citation": "351 U.S. 12",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "an integral part of the \u2026 system for finally adjudicating the guilt or innocence of a defendant."
+  },
+  {
+   "model": "sonnet",
+   "draft": "1997-046_stakes",
+   "citation": "351 U.S. 12",
+   "part": "head-matter",
+   "signalled": false,
+   "quote": "an integral part of the ... system for finally adjudicating the guilt or innocence of a defendant,"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2000-071_combo",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "immemorially . . . for purposes of assembly, communicating thoughts between citizens, and discussing public questions."
+  },
+  {
+   "model": "sonnet",
+   "draft": "2001-070_quota",
+   "citation": "479 U.S. 538",
+   "part": "concurrence",
+   "signalled": true,
+   "quote": "reasoned moral response"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2013-068_combo",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "have immemorially been held in trust for the use of the public"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2013-068_stakes",
+   "citation": "530 U.S. 703",
+   "part": "dissent",
+   "signalled": false,
+   "quote": "The State's interests in protecting access and privacy, and providing the police with clear guidelines, are unrelated to"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2013-068_temporal",
+   "citation": "307 U.S. 496",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "have immemorially been held in trust for the use of the public"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2015-007_quota",
+   "citation": "512 U.S. 967",
+   "part": "concurrence",
+   "signalled": false,
+   "quote": "narrow[s] the class of persons eligible for the death penalty,"
+  },
+  {
+   "model": "sonnet",
+   "draft": "2020-032_temporal",
+   "citation": "297 U.S. 288",
+   "part": "concurrence",
+   "signalled": true,
+   "quote": "a friendly, non-adversary proceeding."
+  }
+ ],
+ "located": 1578,
+ "separate_share": 0.0247,
+ "separate_unflagged": 33,
+ "unflagged_share_of_located": 0.0209
+}

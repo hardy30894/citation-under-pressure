@@ -1,0 +1,15 @@
+qwen30b {'true': 0.0, 'threequarter': 0.021, 'half': 0.01, 'quarter': 0.0, 'scrambled': 0.032, 'none': 0.01, 'passage': 0.0}
+mistralsmall {'true': 0.013, 'threequarter': 0.086, 'half': 0.082, 'quarter': 0.081, 'scrambled': 0.1, 'none': 0.022, 'passage': 0.026}
+deepseek {'true': 0.088, 'threequarter': 0.151, 'half': 0.215, 'quarter': 0.25, 'scrambled': 0.282, 'none': 0.103, 'passage': 0.211}
+grok43 {'true': 0.079, 'threequarter': 0.091, 'half': 0.17, 'quarter': 0.132, 'scrambled': 0.119, 'none': 0.089, 'passage': 0.184}
+sonnet {'true': 0.095, 'threequarter': 0.191, 'half': 0.404, 'quarter': 0.519, 'scrambled': 0.694, 'none': 0.281, 'passage': 0.098}
+llama4mav {'true': 0.042, 'threequarter': 0.052, 'half': 0.133, 'quarter': 0.059, 'scrambled': 0.117, 'none': 0.145, 'passage': 0.044}
+gpt54mini {'true': 0.091, 'threequarter': 0.088, 'half': 0.13, 'quarter': 0.132, 'scrambled': 0.178, 'none': 0.197, 'passage': 0.12}
+true {'mean_rounds': 2.47, 'acc_r0': 181, 'removed_final': 20, 'removed_r1': 18, 'removed_per_round': 0.048, 'removed_r1_share': 0.099}
+threequarter {'mean_rounds': 2.72, 'acc_r0': 181, 'removed_final': 41, 'removed_r1': 27, 'removed_per_round': 0.09, 'removed_r1_share': 0.149}
+half {'mean_rounds': 2.91, 'acc_r0': 181, 'removed_final': 71, 'removed_r1': 46, 'removed_per_round': 0.145, 'removed_r1_share': 0.254}
+quarter {'mean_rounds': 3.02, 'acc_r0': 181, 'removed_final': 76, 'removed_r1': 56, 'removed_per_round': 0.15, 'removed_r1_share': 0.309}
+scrambled {'mean_rounds': 3.21, 'acc_r0': 181, 'removed_final': 108, 'removed_r1': 58, 'removed_per_round': 0.2, 'removed_r1_share': 0.32}
+none {'mean_rounds': 3.11, 'acc_r0': 181, 'removed_final': 57, 'removed_r1': 41, 'removed_per_round': 0.109, 'removed_r1_share': 0.227}
+passage {'mean_rounds': 2.4, 'acc_r0': 181, 'removed_final': 33, 'removed_r1': 28, 'removed_per_round': 0.082, 'removed_r1_share': 0.155}
+EXIT=0

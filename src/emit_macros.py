@@ -1073,6 +1073,77 @@ if es.exists():
         emit2(f"reachedNewStrict{ck}", fmt3(v["strict_new"]))
     emit2("reachedAgainBase", fmt3(t["in_baseline"]["baseline"]["strict_in_baseline"]))
 
+# the date clause after adjusting for the cited opinion's age
+if es.exists():
+    t = json.loads(es.read_text())
+    for tag, key in (("Unadj", "year_unadjusted"), ("Adj", "year_adjusted")):
+        for c, ck in (("temporal", "Temporal"), ("combo", "Combo")):
+            v = t[key][c]
+            emit2(f"yr{tag}Or{ck}", f"{v['OR']:.2f}")
+            emit2(f"yr{tag}Ci{ck}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
+            emit2(f"yr{tag}P{ck}", f"{v['p']:.3f}" if v["p"] >= 0.001 else "$<$0.001")
+    emit2("yrN", f"{t['year_adjusted']['combo']['n']:,}")
+    import math as _m
+    for c, ck in (("temporal", "Temporal"), ("combo", "Combo")):
+        a, b = t["year_unadjusted"][c]["OR"], t["year_adjusted"][c]["OR"]
+        emit2(f"yrShrink{ck}", str(round(100 * (1 - _m.log(b) / _m.log(a)))))
+    for c, ck in (("baseline", "Base"), ("temporal", "Temporal"), ("combo", "Combo")):
+        y = t["stratum_years"]["pre1970"].get(c)
+        if y:
+            emit2(f"stratYear{ck}", str(int(y["median"])))
+    emit2("stratHolmCombo", f"{t['pooled_fits']['combo:pre1970']['holm_p']:.3f}")
+    emit2("stratHolmTemporal", f"{t['pooled_fits']['temporal:pre1970']['holm_p']:.3f}")
+    emit2("stratSurvivors", str(len(t["fits_surviving"])))
+
+# which opinion an accurate quotation came from (src/opinion_part.py)
+op = R / "opinion_part.json"
+if op.exists():
+    t = json.loads(op.read_text())
+    q = t["pooled"]
+    emit2("opLocated", f"{t['located']:,}")
+    emit2("opMajority", f"{q['majority']:,}")
+    emit2("opSeparate", str(q["separate"]))
+    emit2("opConcurrence", str(q.get("concurrence", 0)))
+    emit2("opDissent", str(q.get("dissent", 0)))
+    emit2("opHeadMatter", str(q.get("head-matter", 0)))
+    emit2("opUnflagged", str(t["separate_unflagged"]))
+    emit2("opUnflaggedPct", f"{100 * t['unflagged_share_of_located']:.1f}")
+    emit2("opNotUs", f"{q.get('not_us_reports', 0):,}")
+
+# revision rounds against verifier precision (src/rounds_control.py)
+rc = R / "rounds_control.json"
+if rc.exists():
+    t = json.loads(rc.read_text())["pooled"]
+    for arm, ak in (("true", "True"), ("threequarter", "Threeq"), ("half", "Half"),
+                    ("quarter", "Quarter"), ("scrambled", "Scr"), ("none", "None"),
+                    ("passage", "Passage")):
+        v = t.get(arm)
+        if v:
+            emit2(f"rnd{ak}Rounds", f"{v['mean_rounds']:.2f}")
+            emit2(f"rnd{ak}PerRound", f"{v['removed_per_round']:.3f}")
+            emit2(f"rnd{ak}ROne", str(v["removed_r1"]))
+            emit2(f"rnd{ak}ROnePct", str(round(100 * v["removed_r1_share"])))
+            emit2(f"rnd{ak}Removed", str(v["removed_final"]))
+    emit2("rndAccRZero", str(t["true"]["acc_r0"]))
+
+# block quotations, which carry no quotation marks
+bq = R / "block_quotes.json"
+if bq.exists():
+    t = json.loads(bq.read_text())
+    emit2("blockLines", str(t["block_lines"]))
+    emit2("blockDrafts", str(t["drafts_with_block"]))
+    emit2("blockTotalDrafts", f"{t['drafts']:,}")
+    emit2("blockSonnet", str(t["by_model"].get("sonnet", 0)))
+
+# the human floor with OCR-corrupted near misses credited (src/human_alt.py)
+ha = R / "human_alt.json"
+hbf = R / "human_baseline.json"
+if ha.exists() and hbf.exists():
+    agg = json.loads(hbf.read_text())["aggregates"]["overall"]
+    near = json.loads(ha.read_text())["failure_causes"]["unaltered_near_miss"]
+    emit2("humanFloorCorrected",
+          fmt3((agg["quote_verdicts"]["accurate"] + near) / agg["n_quotes_scored"]))
+
 # the accurate-side audit's upper bound
 if asr.exists():
     t = json.loads(asr.read_text())

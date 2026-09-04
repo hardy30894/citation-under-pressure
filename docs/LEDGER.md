@@ -822,3 +822,67 @@ before or after seeing the relevant data. Nothing is deleted.
   stratified date-clause result is now in the abstract; the loop control
   detail and per-fit qualifiers came out. countModelsWithFall now emits
   a word, so the abstract no longer mixes "three models" with "5 models".
+- 2026-09-05 (review of the 11:45 build, six majors on construct
+  validity): each was tested rather than argued.
+  (1) TRUE and now measured. The stored record holds the Court's
+  opinion, concurrences, dissents, and head matter together, so a
+  quotation from a dissent scores accurate against the case; Jackson's
+  Korematsu dissent is inside that record. A first detector built on
+  textual headings put a quarter of accurate quotations in a separate
+  opinion, but it was wrong: the syllabus announces "filed a dissenting
+  opinion" before the majority begins, so the majority fell after the
+  boundary and Mistretta's "intelligible principle" was misclassified.
+  src/opinion_part.py instead uses the Caselaw Access Project's
+  structural markers (<article class="opinion" data-type=...>): of 1,578
+  accurate quotations it can place, 39 sit outside the Court's opinion
+  (20 concurrence, 11 dissent, 8 syllabus) and 33 of those, 2.1 percent
+  of the total, carry no signal in the draft. Reported in Section 6 as
+  its own residual class. The first, wrong figure was never written into
+  the paper.
+  (2) FALSE for this corpus, and now answered with a measurement:
+  across 1,887 drafts there are 12 markdown block-quoted lines in 9
+  drafts and no indented display paragraphs, none of them Sonnet 5's, so
+  block form is not a route out of the scored set and cannot explain the
+  selection reading (results/block_quotes.json).
+  (3) TRUE and it sharpens the result. The loop stops on a clean draft,
+  so rounds executed rise as precision falls (2.47 true, 2.72, 2.91,
+  3.02, 3.21 false, 3.11 none). src/rounds_control.py re-analyses with
+  rounds held fixed: removals per episode-round run 0.048, 0.090, 0.145,
+  0.150, 0.200 against 0.109 with no feedback, and after exactly one
+  round 10, 15, 25, 31, 32 percent of the 181 accurate quotations are
+  gone against 23 percent. On both bases no feedback sits between
+  precision 0.75 and 0.5, so the old claim that a half-precision
+  verifier merely matches revision alone was too kind: it is worse, and
+  a verifier needs about three in four to beat doing nothing. Abstract,
+  Section 5, Discussion, and Conclusion restated.
+  (4) TRUE in part. The reclassification draws cover the primary fit
+  only. The count outcome is insulated by construction, since
+  reclassifying an inaccurate verdict as unpaired leaves the accurate
+  count untouched, and the paper now says so; the year-adjusted fit is
+  not, and is labelled exploratory. The 78 percent flag precision is
+  stated as a lower bound.
+  (5) TRUE, partly addressed: the text store's coverage is characterised
+  where the scored set is defined; the year distribution of scored
+  against dropped quotations is in results/records_era.jsonl but not in
+  the paper.
+  (6) TRUE and it changed the result. Applying the paper's own Holm rule
+  inside the stratified fit, neither pooled bucket contrast survives
+  (combined Holm 0.099, temporal 0.185) and only two per-model falls do.
+  The bucket does not hold age fixed either: within pre-1970 the arms
+  are twelve years apart in median (1952 baseline against 1940). The
+  analysis is now a continuous year adjustment on all 3,644 dated
+  quotations: combined OR 0.557 to 0.682 (0.530 to 0.879, p 0.003),
+  temporal 0.62 to 0.768 (p 0.035), so about 35 percent of the effect on
+  the log-odds scale is composition and the rest is not. The composition
+  split conditions on a post-treatment choice and is now presented as
+  descriptive. The abstract no longer says the clause damages integrity
+  "chiefly" by composition.
+  Minors: the human floor with OCR-corrupted near misses credited is
+  0.749, now reported, and the Discussion no longer recommends the
+  standard on the ground that the human reference passes it; good-law
+  status named in Limitations; the abstract's "without overtaking
+  removal" was wrong and is replaced (the passage arm's repair overtakes
+  deletion in three of seven). Fitting roughly 2,000 characters of new
+  material inside ten pages cost the grounded arm its own paragraph (now
+  folded into the second-task paragraph) and the grounded-arm audit
+  reading its sentence; both remain in the repository.

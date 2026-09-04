@@ -53,6 +53,9 @@ run appellate_stats $PY src/appellate_stats.py
 run replicate $PY src/replicate.py
 run era_check $PY src/era_check.py
 run contrast_matrix $PY src/contrast_matrix.py
+run era_strata $PY src/era_strata.py
+run opinion_part $PY src/opinion_part.py
+run rounds_control $PY src/rounds_control.py
 # stage 3
 run emit_macros $PY src/emit_macros.py
 run figures $PY src/figures.py

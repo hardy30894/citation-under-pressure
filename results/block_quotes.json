@@ -1,0 +1,17 @@
+{
+ "drafts": 1887,
+ "block_lines": 12,
+ "indented_blocks": 0,
+ "drafts_with_block": 9,
+ "by_model": {
+  "sonnet": 0,
+  "glm47flash": 0,
+  "gpt54mini": 0,
+  "grok43": 0,
+  "mistralsmall": 8,
+  "deepseek": 0,
+  "llama4mav": 0,
+  "qwen30b": 4
+ },
+ "note": "markdown blockquote lines and indented display paragraphs in every full-run draft"
+}

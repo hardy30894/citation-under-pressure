@@ -142,6 +142,14 @@ def main():
             r = fit(dated, m, e)
             for c, v in r.items():
                 out["fits"][f"{m}:{c}:{e}"] = v
+    # the paper's rule: Holm within model over this fit's own tests
+    for m in sorted(dated.model.unique()):
+        tests = sorted([k for k in out["fits"] if k.split(":")[0] == m and "p" in out["fits"][k]],
+                       key=lambda k: out["fits"][k]["p"])
+        for i, k in enumerate(tests):
+            out["fits"][k]["holm_p"] = round(min(1.0, out["fits"][k]["p"] * (len(tests) - i)), 4)
+    out["fits_surviving"] = sorted(k for k, v in out["fits"].items()
+                                   if v.get("holm_p", 1) < 0.05 and v["OR"] < 1)
     # pooled over models, with a model fixed effect
     for e in ("pre1970", "post1970"):
         sub = dated[dated.era == e].copy()
@@ -158,6 +166,48 @@ def main():
                 "ci_low": round(float(np.exp(b - 1.96 * se)), 3),
                 "ci_high": round(float(np.exp(b + 1.96 * se)), 3),
                 "p": round(float(res.pvalues[term]), 5), "n": int(len(sub))}
+    # Holm over the four pooled tests, the same rule the paper states
+    pt = sorted(out["pooled_fits"], key=lambda k: out["pooled_fits"][k]["p"])
+    for i, k in enumerate(pt):
+        out["pooled_fits"][k]["holm_p"] = round(min(1.0, out["pooled_fits"][k]["p"] * (len(pt) - i)), 4)
+    # decision year inside each stratum, since a bucket is not a control
+    for e in ("pre1970", "post1970"):
+        g = dated[dated.era == e]
+        out.setdefault("stratum_years", {})[e] = {
+            c: {"median": float(g[g.condition == c].year.median()),
+                "q1": float(g[g.condition == c].year.quantile(0.25)),
+                "q3": float(g[g.condition == c].year.quantile(0.75))}
+            for c in CONDS if len(g[g.condition == c])}
+    # year as a continuous adjustment rather than a bucket
+    d2 = dated.copy()
+    d2["y"] = (d2.verdict == "accurate").astype(int)
+    d2["condition"] = pd.Categorical(d2.condition, categories=list(CONDS))
+    d2["yr"] = (d2.year - 1900) / 50.0
+    res = smf.gee("y ~ C(condition) + yr + C(model)", groups="matter", data=d2,
+                  family=sm.families.Binomial(),
+                  cov_struct=sm.cov_struct.Exchangeable()).fit()
+    # the same fit without the year term, so the adjustment can be read
+    res0 = smf.gee("y ~ C(condition) + C(model)", groups="matter", data=d2,
+                   family=sm.families.Binomial(),
+                   cov_struct=sm.cov_struct.Exchangeable()).fit()
+    out["year_unadjusted"] = {}
+    for c in CONDS[1:]:
+        term = f"C(condition)[T.{c}]"
+        b, se = res0.params[term], res0.bse[term]
+        out["year_unadjusted"][c] = {
+            "OR": round(float(np.exp(b)), 3),
+            "ci_low": round(float(np.exp(b - 1.96 * se)), 3),
+            "ci_high": round(float(np.exp(b + 1.96 * se)), 3),
+            "p": round(float(res0.pvalues[term]), 5), "n": int(len(d2))}
+    out["year_adjusted"] = {}
+    for c in CONDS[1:]:
+        term = f"C(condition)[T.{c}]"
+        b, se = res.params[term], res.bse[term]
+        out["year_adjusted"][c] = {
+            "OR": round(float(np.exp(b)), 3),
+            "ci_low": round(float(np.exp(b - 1.96 * se)), 3),
+            "ci_high": round(float(np.exp(b + 1.96 * se)), 3),
+            "p": round(float(res.pvalues[term]), 5), "n": int(len(d2))}
     # the authority the model would have reached for anyway
     for c in CONDS:
         g = df[df.condition == c]

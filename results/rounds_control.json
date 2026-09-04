@@ -1,0 +1,503 @@
+{
+ "cells": {
+  "qwen30b:true": {
+   "episodes": 24,
+   "mean_rounds": 4.0,
+   "acc_r0": 12,
+   "removed_final": 0,
+   "removed_r1": 0,
+   "removed_per_round": 0.0,
+   "removed_r1_share": 0.0
+  },
+  "qwen30b:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 4.0,
+   "acc_r0": 12,
+   "removed_final": 2,
+   "removed_r1": 0,
+   "removed_per_round": 0.021,
+   "removed_r1_share": 0.0
+  },
+  "qwen30b:half": {
+   "episodes": 24,
+   "mean_rounds": 4.0,
+   "acc_r0": 12,
+   "removed_final": 1,
+   "removed_r1": 0,
+   "removed_per_round": 0.01,
+   "removed_r1_share": 0.0
+  },
+  "qwen30b:quarter": {
+   "episodes": 24,
+   "mean_rounds": 3.92,
+   "acc_r0": 12,
+   "removed_final": 0,
+   "removed_r1": 0,
+   "removed_per_round": 0.0,
+   "removed_r1_share": 0.0
+  },
+  "qwen30b:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 3.88,
+   "acc_r0": 12,
+   "removed_final": 3,
+   "removed_r1": 1,
+   "removed_per_round": 0.032,
+   "removed_r1_share": 0.083
+  },
+  "qwen30b:none": {
+   "episodes": 24,
+   "mean_rounds": 4.0,
+   "acc_r0": 12,
+   "removed_final": 1,
+   "removed_r1": 1,
+   "removed_per_round": 0.01,
+   "removed_r1_share": 0.083
+  },
+  "qwen30b:passage": {
+   "episodes": 24,
+   "mean_rounds": 4.0,
+   "acc_r0": 12,
+   "removed_final": 0,
+   "removed_r1": 0,
+   "removed_per_round": 0.0,
+   "removed_r1_share": 0.0
+  },
+  "mistralsmall:true": {
+   "episodes": 24,
+   "mean_rounds": 3.29,
+   "acc_r0": 14,
+   "removed_final": 1,
+   "removed_r1": 0,
+   "removed_per_round": 0.013,
+   "removed_r1_share": 0.0
+  },
+  "mistralsmall:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 3.38,
+   "acc_r0": 14,
+   "removed_final": 7,
+   "removed_r1": 3,
+   "removed_per_round": 0.086,
+   "removed_r1_share": 0.214
+  },
+  "mistralsmall:half": {
+   "episodes": 24,
+   "mean_rounds": 3.54,
+   "acc_r0": 14,
+   "removed_final": 7,
+   "removed_r1": 5,
+   "removed_per_round": 0.082,
+   "removed_r1_share": 0.357
+  },
+  "mistralsmall:quarter": {
+   "episodes": 24,
+   "mean_rounds": 3.58,
+   "acc_r0": 14,
+   "removed_final": 7,
+   "removed_r1": 6,
+   "removed_per_round": 0.081,
+   "removed_r1_share": 0.429
+  },
+  "mistralsmall:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 3.75,
+   "acc_r0": 14,
+   "removed_final": 9,
+   "removed_r1": 4,
+   "removed_per_round": 0.1,
+   "removed_r1_share": 0.286
+  },
+  "mistralsmall:none": {
+   "episodes": 24,
+   "mean_rounds": 3.75,
+   "acc_r0": 14,
+   "removed_final": 2,
+   "removed_r1": 0,
+   "removed_per_round": 0.022,
+   "removed_r1_share": 0.0
+  },
+  "mistralsmall:passage": {
+   "episodes": 24,
+   "mean_rounds": 3.17,
+   "acc_r0": 14,
+   "removed_final": 2,
+   "removed_r1": 0,
+   "removed_per_round": 0.026,
+   "removed_r1_share": 0.0
+  },
+  "deepseek:true": {
+   "episodes": 24,
+   "mean_rounds": 2.38,
+   "acc_r0": 31,
+   "removed_final": 5,
+   "removed_r1": 5,
+   "removed_per_round": 0.088,
+   "removed_r1_share": 0.161
+  },
+  "deepseek:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 3.04,
+   "acc_r0": 31,
+   "removed_final": 11,
+   "removed_r1": 6,
+   "removed_per_round": 0.151,
+   "removed_r1_share": 0.194
+  },
+  "deepseek:half": {
+   "episodes": 24,
+   "mean_rounds": 3.29,
+   "acc_r0": 31,
+   "removed_final": 17,
+   "removed_r1": 11,
+   "removed_per_round": 0.215,
+   "removed_r1_share": 0.355
+  },
+  "deepseek:quarter": {
+   "episodes": 24,
+   "mean_rounds": 3.5,
+   "acc_r0": 31,
+   "removed_final": 21,
+   "removed_r1": 11,
+   "removed_per_round": 0.25,
+   "removed_r1_share": 0.355
+  },
+  "deepseek:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 3.54,
+   "acc_r0": 31,
+   "removed_final": 24,
+   "removed_r1": 12,
+   "removed_per_round": 0.282,
+   "removed_r1_share": 0.387
+  },
+  "deepseek:none": {
+   "episodes": 24,
+   "mean_rounds": 3.62,
+   "acc_r0": 31,
+   "removed_final": 9,
+   "removed_r1": 7,
+   "removed_per_round": 0.103,
+   "removed_r1_share": 0.226
+  },
+  "deepseek:passage": {
+   "episodes": 24,
+   "mean_rounds": 2.38,
+   "acc_r0": 31,
+   "removed_final": 12,
+   "removed_r1": 11,
+   "removed_per_round": 0.211,
+   "removed_r1_share": 0.355
+  },
+  "grok43:true": {
+   "episodes": 24,
+   "mean_rounds": 1.58,
+   "acc_r0": 13,
+   "removed_final": 3,
+   "removed_r1": 3,
+   "removed_per_round": 0.079,
+   "removed_r1_share": 0.231
+  },
+  "grok43:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 1.83,
+   "acc_r0": 13,
+   "removed_final": 4,
+   "removed_r1": 4,
+   "removed_per_round": 0.091,
+   "removed_r1_share": 0.308
+  },
+  "grok43:half": {
+   "episodes": 24,
+   "mean_rounds": 1.96,
+   "acc_r0": 13,
+   "removed_final": 8,
+   "removed_r1": 6,
+   "removed_per_round": 0.17,
+   "removed_r1_share": 0.462
+  },
+  "grok43:quarter": {
+   "episodes": 24,
+   "mean_rounds": 2.21,
+   "acc_r0": 13,
+   "removed_final": 7,
+   "removed_r1": 6,
+   "removed_per_round": 0.132,
+   "removed_r1_share": 0.462
+  },
+  "grok43:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 2.46,
+   "acc_r0": 13,
+   "removed_final": 7,
+   "removed_r1": 4,
+   "removed_per_round": 0.119,
+   "removed_r1_share": 0.308
+  },
+  "grok43:none": {
+   "episodes": 24,
+   "mean_rounds": 2.33,
+   "acc_r0": 13,
+   "removed_final": 5,
+   "removed_r1": 5,
+   "removed_per_round": 0.089,
+   "removed_r1_share": 0.385
+  },
+  "grok43:passage": {
+   "episodes": 24,
+   "mean_rounds": 1.58,
+   "acc_r0": 13,
+   "removed_final": 7,
+   "removed_r1": 7,
+   "removed_per_round": 0.184,
+   "removed_r1_share": 0.538
+  },
+  "sonnet:true": {
+   "episodes": 24,
+   "mean_rounds": 1.75,
+   "acc_r0": 69,
+   "removed_final": 4,
+   "removed_r1": 4,
+   "removed_per_round": 0.095,
+   "removed_r1_share": 0.058
+  },
+  "sonnet:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 1.96,
+   "acc_r0": 69,
+   "removed_final": 9,
+   "removed_r1": 7,
+   "removed_per_round": 0.191,
+   "removed_r1_share": 0.101
+  },
+  "sonnet:half": {
+   "episodes": 24,
+   "mean_rounds": 2.17,
+   "acc_r0": 69,
+   "removed_final": 21,
+   "removed_r1": 14,
+   "removed_per_round": 0.404,
+   "removed_r1_share": 0.203
+  },
+  "sonnet:quarter": {
+   "episodes": 24,
+   "mean_rounds": 2.25,
+   "acc_r0": 69,
+   "removed_final": 28,
+   "removed_r1": 21,
+   "removed_per_round": 0.519,
+   "removed_r1_share": 0.304
+  },
+  "sonnet:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 2.58,
+   "acc_r0": 69,
+   "removed_final": 43,
+   "removed_r1": 25,
+   "removed_per_round": 0.694,
+   "removed_r1_share": 0.362
+  },
+  "sonnet:none": {
+   "episodes": 24,
+   "mean_rounds": 2.67,
+   "acc_r0": 69,
+   "removed_final": 18,
+   "removed_r1": 13,
+   "removed_per_round": 0.281,
+   "removed_r1_share": 0.188
+  },
+  "sonnet:passage": {
+   "episodes": 24,
+   "mean_rounds": 1.71,
+   "acc_r0": 69,
+   "removed_final": 4,
+   "removed_r1": 2,
+   "removed_per_round": 0.098,
+   "removed_r1_share": 0.029
+  },
+  "llama4mav:true": {
+   "episodes": 24,
+   "mean_rounds": 2.0,
+   "acc_r0": 11,
+   "removed_final": 2,
+   "removed_r1": 1,
+   "removed_per_round": 0.042,
+   "removed_r1_share": 0.091
+  },
+  "llama4mav:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 2.42,
+   "acc_r0": 11,
+   "removed_final": 3,
+   "removed_r1": 2,
+   "removed_per_round": 0.052,
+   "removed_r1_share": 0.182
+  },
+  "llama4mav:half": {
+   "episodes": 24,
+   "mean_rounds": 2.5,
+   "acc_r0": 11,
+   "removed_final": 8,
+   "removed_r1": 5,
+   "removed_per_round": 0.133,
+   "removed_r1_share": 0.455
+  },
+  "llama4mav:quarter": {
+   "episodes": 24,
+   "mean_rounds": 2.83,
+   "acc_r0": 11,
+   "removed_final": 4,
+   "removed_r1": 4,
+   "removed_per_round": 0.059,
+   "removed_r1_share": 0.364
+  },
+  "llama4mav:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 3.21,
+   "acc_r0": 11,
+   "removed_final": 9,
+   "removed_r1": 6,
+   "removed_per_round": 0.117,
+   "removed_r1_share": 0.545
+  },
+  "llama4mav:none": {
+   "episodes": 24,
+   "mean_rounds": 2.88,
+   "acc_r0": 11,
+   "removed_final": 10,
+   "removed_r1": 3,
+   "removed_per_round": 0.145,
+   "removed_r1_share": 0.273
+  },
+  "llama4mav:passage": {
+   "episodes": 24,
+   "mean_rounds": 1.88,
+   "acc_r0": 11,
+   "removed_final": 2,
+   "removed_r1": 2,
+   "removed_per_round": 0.044,
+   "removed_r1_share": 0.182
+  },
+  "gpt54mini:true": {
+   "episodes": 24,
+   "mean_rounds": 2.29,
+   "acc_r0": 31,
+   "removed_final": 5,
+   "removed_r1": 5,
+   "removed_per_round": 0.091,
+   "removed_r1_share": 0.161
+  },
+  "gpt54mini:threequarter": {
+   "episodes": 24,
+   "mean_rounds": 2.38,
+   "acc_r0": 31,
+   "removed_final": 5,
+   "removed_r1": 5,
+   "removed_per_round": 0.088,
+   "removed_r1_share": 0.161
+  },
+  "gpt54mini:half": {
+   "episodes": 24,
+   "mean_rounds": 2.88,
+   "acc_r0": 31,
+   "removed_final": 9,
+   "removed_r1": 5,
+   "removed_per_round": 0.13,
+   "removed_r1_share": 0.161
+  },
+  "gpt54mini:quarter": {
+   "episodes": 24,
+   "mean_rounds": 2.83,
+   "acc_r0": 31,
+   "removed_final": 9,
+   "removed_r1": 8,
+   "removed_per_round": 0.132,
+   "removed_r1_share": 0.258
+  },
+  "gpt54mini:scrambled": {
+   "episodes": 24,
+   "mean_rounds": 3.04,
+   "acc_r0": 31,
+   "removed_final": 13,
+   "removed_r1": 6,
+   "removed_per_round": 0.178,
+   "removed_r1_share": 0.194
+  },
+  "gpt54mini:none": {
+   "episodes": 24,
+   "mean_rounds": 2.54,
+   "acc_r0": 31,
+   "removed_final": 12,
+   "removed_r1": 12,
+   "removed_per_round": 0.197,
+   "removed_r1_share": 0.387
+  },
+  "gpt54mini:passage": {
+   "episodes": 24,
+   "mean_rounds": 2.08,
+   "acc_r0": 31,
+   "removed_final": 6,
+   "removed_r1": 6,
+   "removed_per_round": 0.12,
+   "removed_r1_share": 0.194
+  }
+ },
+ "pooled": {
+  "true": {
+   "mean_rounds": 2.47,
+   "acc_r0": 181,
+   "removed_final": 20,
+   "removed_r1": 18,
+   "removed_per_round": 0.048,
+   "removed_r1_share": 0.099
+  },
+  "threequarter": {
+   "mean_rounds": 2.72,
+   "acc_r0": 181,
+   "removed_final": 41,
+   "removed_r1": 27,
+   "removed_per_round": 0.09,
+   "removed_r1_share": 0.149
+  },
+  "half": {
+   "mean_rounds": 2.91,
+   "acc_r0": 181,
+   "removed_final": 71,
+   "removed_r1": 46,
+   "removed_per_round": 0.145,
+   "removed_r1_share": 0.254
+  },
+  "quarter": {
+   "mean_rounds": 3.02,
+   "acc_r0": 181,
+   "removed_final": 76,
+   "removed_r1": 56,
+   "removed_per_round": 0.15,
+   "removed_r1_share": 0.309
+  },
+  "scrambled": {
+   "mean_rounds": 3.21,
+   "acc_r0": 181,
+   "removed_final": 108,
+   "removed_r1": 58,
+   "removed_per_round": 0.2,
+   "removed_r1_share": 0.32
+  },
+  "none": {
+   "mean_rounds": 3.11,
+   "acc_r0": 181,
+   "removed_final": 57,
+   "removed_r1": 41,
+   "removed_per_round": 0.109,
+   "removed_r1_share": 0.227
+  },
+  "passage": {
+   "mean_rounds": 2.4,
+   "acc_r0": 181,
+   "removed_final": 33,
+   "removed_r1": 28,
+   "removed_per_round": 0.082,
+   "removed_r1_share": 0.155
+  }
+ }
+}
