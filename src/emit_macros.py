@@ -602,6 +602,15 @@ if pc.exists():
     emit2("pinNonUsPct", str(round(100 * tot["non_us"] / pins)))
     emit2("pinNoCap", str(tot["no_cap_data"]))
     emit2("pinWithQuote", f"{tot['quote_at_pin'] + tot['quote_near_pin'] + tot['quote_not_at_pin']:,}")
+    wq = tot["quote_at_pin"] + tot["quote_near_pin"] + tot["quote_not_at_pin"]
+    emit2("pinNearPct", str(round(100 * tot["quote_near_pin"] / wq)) if wq else "--")
+    emit2("pinNoCapPct", str(round(100 * tot["no_cap_data"] / pins)))
+    try:
+        import sqlite3 as _sq
+        _con = _sq.connect(str(HERE / "data" / "cap_text_cache.sqlite"))
+        emit2("capLastVolume", str(_con.execute("SELECT MAX(CAST(volume AS INTEGER)) FROM cap_texts WHERE slug='us'").fetchone()[0]))
+    except Exception:
+        pass
 
 # lenient-outcome fit (gee.py --lenient), Holm within model
 lg = R / "stats_gee_lenient.json"
@@ -648,8 +657,8 @@ ha = R / "human_alt.json"
 if ha.exists():
     t = json.loads(ha.read_text())
     c = t["failure_causes"]
-    emit2("humanAltStrict", fmt3(t["alteration_aware"]["strict"]))
-    emit2("humanAltLenient", fmt3(t["alteration_aware"]["lenient"]))
+    emit2("humanAltStrict", fmt3(t["literal"]["strict"]))  # literal matcher
+    emit2("humanAltLenient", fmt3(t["literal"]["lenient"]))
     emit2("humanFailTotal", str(sum(c.values())))
     emit2("humanFailAltered", str(c["altered_near_miss"] + c["altered_inaccurate"]))
     emit2("humanFailNearUnaltered", str(c["unaltered_near_miss"]))
@@ -721,6 +730,18 @@ if sr.exists():
     if "wilson95" in t:
         emit2("auditSampleCiLow", str(round(100 * t["wilson95"][0])))
         emit2("auditSampleCiHigh", str(round(100 * t["wilson95"][1])))
+    bc = t.get("by_condition", {})
+    if bc:
+        lo = min(bc.items(), key=lambda kv: kv[1]["share"]); hi = max(bc.items(), key=lambda kv: kv[1]["share"])
+        emit2("auditCondLowName", {"combo": "combined", "quota": "quota", "temporal": "temporal", "stakes": "stakes", "baseline": "baseline"}[lo[0]])
+        emit2("auditCondLowN", f"{lo[1]['checker_side']} of {lo[1]['read']}")
+        emit2("auditCondHighName", {"combo": "combined", "quota": "quota", "temporal": "temporal", "stakes": "stakes", "baseline": "baseline"}[hi[0]])
+        emit2("auditCondHighN", f"{hi[1]['checker_side']} of {hi[1]['read']}")
+        emit2("auditCondBaseN", f"{bc['baseline']['checker_side']} of {bc['baseline']['read']}")
+    acc = t.get("accurate_sample")
+    if acc:
+        emit2("auditAccN", str(acc["n"]))
+        emit2("auditAccChecker", str(acc["checker_side"]))
 
 # why quotations are unpaired (results/unpaired_causes.json, written by the
 # classification in docs/LEDGER.md 2026-09-04)
@@ -738,6 +759,85 @@ if uc.exists():
     pcts = [100 * (t[m]["noncase_marker"] + t[m]["no_citation_in_paragraph"] + t[m]["other"]) / t[m]["all"] for m in ALPHA if m in t]
     emit2("unpairedPctMin", str(round(min(pcts))))
     emit2("unpairedPctMax", str(round(max(pcts))))
+
+# denominators: scored quotations, accurate quotations per draft, and the
+# unpaired share for every model and condition (records.jsonl)
+if rj.exists():
+    cell = {}
+    for l in open(rj):
+        r = json.loads(l)
+        if r["kind"] != "quote":
+            continue
+        d = cell.setdefault((r["model"], r["condition"]), {"scored": 0, "acc": 0, "all": 0, "unpaired": 0})
+        d["all"] += 1
+        d["unpaired"] += r["verdict"] == "unpaired"
+        if r["verdict"] in ("accurate", "near_miss", "inaccurate"):
+            d["scored"] += 1
+            d["acc"] += r["verdict"] == "accurate"
+    umin, umax, smin, smax = 100, 0, 10**9, 0
+    for (m, c), d in cell.items():
+        mk, ck = ALPHA.get(m), CONDS.get(c)
+        if not (mk and ck):
+            continue
+        emit2(f"scored{mk}{ck}", str(d["scored"]))
+        emit2(f"accPerDraft{mk}{ck}", f"{d['acc'] / 48:.2f}")
+        emit2(f"quotesPerDraft{mk}{ck}", f"{d['all'] / 48:.1f}")
+        if d["all"]:
+            u = 100 * d["unpaired"] / d["all"]
+            emit2(f"unpairedPct{mk}{ck}", f"{u:.0f}")
+            umin, umax = min(umin, u), max(umax, u)
+        smin, smax = min(smin, d["scored"]), max(smax, d["scored"])
+    emit2("unpairedCellMin", f"{umin:.0f}")
+    emit2("unpairedCellMax", f"{umax:.0f}")
+    emit2("scoredCellMin", str(smin))
+    emit2("scoredCellMax", str(smax))
+
+# distinct-authority refit (gee.py --distinct)
+gd = R / "stats_gee_distinct.json"
+if gd.exists():
+    t = json.loads(gd.read_text())
+    h0 = json.loads((R / "revision_stats.json").read_text())["holm"]
+    surv0 = {k for k, v in h0.items() if v["holm_p"] < 0.05}
+    surv1 = {k for k, v in t.items() if v.get("holm_p", 1) < 0.05}
+    emit2("distinctSurv", str(len(surv1)))
+    emit2("distinctSame", str(len(surv0 & surv1)))
+    emit2("distinctLost", str(len(surv0 - surv1)))
+    emit2("distinctGained", str(len(surv1 - surv0)))
+
+# loop bookkeeping: surviving drafts, clean with quotations against clean by
+# deletion, and the final rate with dequoted items kept as failures
+rl = R / "rescore_loops.json"
+lt2 = R / "loop_transitions.json"
+if rl.exists() and lt2.exists():
+    rows = json.loads(rl.read_text()); tr = json.loads(lt2.read_text())
+    for m, mk in ALPHA.items():
+        if m not in rows:
+            continue
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
+            sub = [r for r in rows[m] if r["arm"] == arm]
+            if not sub:
+                continue
+            alive = [r for r in sub if r["final"]["n_quotes_scored"]]
+            emit2(f"lcAlive{mk}{ak}", str(len(alive)))
+            emit2(f"cleanQuoted{mk}{ak}", str(sum(1 for r in sub if r["converged"] and r["final"]["n_quotes_scored"])))
+            emit2(f"cleanEmpty{mk}{ak}", str(sum(1 for r in sub if r["converged"] and not r["final"]["n_quotes_scored"])))
+            acc = sum(r["final"]["acc"] for r in sub); sc = sum(r["final"]["n_quotes_scored"] for r in sub)
+            deq = tr.get(m, {}).get(f"{arm}:flagged:dequoted", 0) + tr.get(m, {}).get(f"{arm}:accurate:dequoted", 0)
+            emit2(f"lqDequotedFail{mk}{ak}", fmt3(acc / (sc + deq)) if sc + deq else "--")
+
+# realized precision of the original loop run (src/realized_precision.py)
+rpf = R / "realized_precision.json"
+if rpf.exists():
+    t = json.loads(rpf.read_text())
+    for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
+        ls = [v[arm]["r1"] for k, v in t.items() if k.startswith("loop_v1:") and arm in v]
+        n = sum(x["lines"] for x in ls); tr = sum(x["true"] + x["true_misattributed"] for x in ls)
+        if n:
+            emit2(f"rp{ak}All", f"{tr / n:.2f}")
+        for m, mk in ALPHA.items():
+            v = t.get(f"loop_v1:{m}", {}).get(arm)
+            if v and v["r1"]["precision"] is not None:
+                emit2(f"rp{ak}{mk}", f"{v['r1']['precision']:.2f}")
 
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")

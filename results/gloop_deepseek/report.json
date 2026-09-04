@@ -13,19 +13,9 @@
           "n_quotes": 5,
           "q_accurate": 2,
           "q_near": 1,
-          "q_inacc": 2,
+          "q_inacc": 1,
           "q_unver": 0,
-          "strict": 0.4
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 5,
-          "q_accurate": 2,
-          "q_near": 1,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.4
+          "strict": 0.5
         },
         {
           "n_citations": 10,
@@ -33,23 +23,13 @@
           "n_quotes": 3,
           "q_accurate": 2,
           "q_near": 0,
-          "q_inacc": 1,
+          "q_inacc": 0,
           "q_unver": 0,
-          "strict": 0.667
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 3,
-          "q_accurate": 2,
-          "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 0,
-          "strict": 0.667
+          "strict": 1.0
         }
       ],
-      "converged": false,
-      "cap_exhausted": true,
+      "converged": true,
+      "cap_exhausted": false,
       "dropped": false
     },
     {
@@ -62,45 +42,35 @@
           "n_citations": 12,
           "existence_rate": 1.0,
           "n_quotes": 19,
-          "q_accurate": 3,
-          "q_near": 2,
-          "q_inacc": 4,
-          "q_unver": 8,
-          "strict": 0.333
-        },
-        {
-          "n_citations": 12,
-          "existence_rate": 1.0,
-          "n_quotes": 20,
-          "q_accurate": 5,
-          "q_near": 0,
+          "q_accurate": 7,
+          "q_near": 1,
           "q_inacc": 5,
-          "q_unver": 8,
-          "strict": 0.5
+          "q_unver": 0,
+          "strict": 0.538
         },
         {
           "n_citations": 12,
           "existence_rate": 1.0,
           "n_quotes": 15,
-          "q_accurate": 4,
+          "q_accurate": 7,
           "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 8,
-          "strict": 0.8
+          "q_inacc": 2,
+          "q_unver": 0,
+          "strict": 0.778
         },
         {
           "n_citations": 12,
           "existence_rate": 1.0,
-          "n_quotes": 15,
-          "q_accurate": 4,
+          "n_quotes": 13,
+          "q_accurate": 7,
           "q_near": 0,
-          "q_inacc": 1,
-          "q_unver": 8,
-          "strict": 0.8
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 1.0
         }
       ],
-      "converged": false,
-      "cap_exhausted": true,
+      "converged": true,
+      "cap_exhausted": false,
       "dropped": false
     },
     {
@@ -114,25 +84,25 @@
           "existence_rate": 0.8,
           "n_quotes": 9,
           "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 6,
-          "q_unver": 1,
-          "strict": 0.0
-        },
-        {
-          "n_citations": 9,
-          "existence_rate": 1.0,
-          "n_quotes": 8,
-          "q_accurate": 0,
-          "q_near": 2,
-          "q_inacc": 6,
+          "q_near": 0,
+          "q_inacc": 5,
           "q_unver": 0,
           "strict": 0.0
         },
         {
-          "n_citations": 9,
+          "n_citations": 8,
           "existence_rate": 1.0,
-          "n_quotes": 1,
+          "n_quotes": 7,
+          "q_accurate": 0,
+          "q_near": 0,
+          "q_inacc": 4,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 8,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
           "q_inacc": 1,
@@ -140,18 +110,18 @@
           "strict": 0.0
         },
         {
-          "n_citations": 9,
+          "n_citations": 8,
           "existence_rate": 1.0,
-          "n_quotes": 0,
+          "n_quotes": 4,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 0,
+          "q_inacc": 2,
           "q_unver": 0,
-          "strict": null
+          "strict": 0.0
         }
       ],
-      "converged": true,
-      "cap_exhausted": false,
+      "converged": false,
+      "cap_exhausted": true,
       "dropped": false
     },
     {
@@ -173,12 +143,12 @@
         {
           "n_citations": 8,
           "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 1,
+          "n_quotes": 0,
+          "q_accurate": 0,
           "q_near": 0,
           "q_inacc": 0,
           "q_unver": 0,
-          "strict": 1.0
+          "strict": null
         }
       ],
       "converged": true,
@@ -197,14 +167,14 @@
           "n_quotes": 5,
           "q_accurate": 0,
           "q_near": 2,
-          "q_inacc": 3,
+          "q_inacc": 0,
           "q_unver": 0,
           "strict": 0.0
         },
         {
           "n_citations": 8,
           "existence_rate": 1.0,
-          "n_quotes": 0,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
           "q_inacc": 0,
@@ -227,44 +197,44 @@
           "existence_rate": 1.0,
           "n_quotes": 14,
           "q_accurate": 7,
-          "q_near": 2,
-          "q_inacc": 0,
-          "q_unver": 1,
+          "q_near": 1,
+          "q_inacc": 1,
+          "q_unver": 0,
           "strict": 0.778
         },
         {
           "n_citations": 12,
           "existence_rate": 1.0,
-          "n_quotes": 15,
-          "q_accurate": 6,
-          "q_near": 2,
+          "n_quotes": 13,
+          "q_accurate": 8,
+          "q_near": 0,
           "q_inacc": 1,
-          "q_unver": 1,
-          "strict": 0.667
+          "q_unver": 0,
+          "strict": 0.889
         },
         {
           "n_citations": 12,
           "existence_rate": 1.0,
-          "n_quotes": 13,
-          "q_accurate": 6,
-          "q_near": 1,
-          "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.857
+          "n_quotes": 12,
+          "q_accurate": 7,
+          "q_near": 0,
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.875
         },
         {
           "n_citations": 12,
           "existence_rate": 1.0,
-          "n_quotes": 13,
-          "q_accurate": 6,
-          "q_near": 1,
+          "n_quotes": 11,
+          "q_accurate": 7,
+          "q_near": 0,
           "q_inacc": 0,
-          "q_unver": 1,
-          "strict": 0.857
+          "q_unver": 0,
+          "strict": 1.0
         }
       ],
-      "converged": false,
-      "cap_exhausted": true,
+      "converged": true,
+      "cap_exhausted": false,
       "dropped": false
     },
     {
@@ -279,25 +249,15 @@
           "n_quotes": 3,
           "q_accurate": 1,
           "q_near": 0,
-          "q_inacc": 2,
-          "q_unver": 0,
-          "strict": 0.333
-        },
-        {
-          "n_citations": 10,
-          "existence_rate": 1.0,
-          "n_quotes": 2,
-          "q_accurate": 1,
-          "q_near": 1,
-          "q_inacc": 0,
+          "q_inacc": 1,
           "q_unver": 0,
           "strict": 0.5
         },
         {
           "n_citations": 10,
           "existence_rate": 1.0,
-          "n_quotes": 1,
-          "q_accurate": 1,
+          "n_quotes": 3,
+          "q_accurate": 2,
           "q_near": 0,
           "q_inacc": 0,
           "q_unver": 0,
@@ -319,26 +279,46 @@
           "existence_rate": 1.0,
           "n_quotes": 7,
           "q_accurate": 0,
-          "q_near": 1,
-          "q_inacc": 0,
-          "q_unver": 6,
+          "q_near": 2,
+          "q_inacc": 2,
+          "q_unver": 0,
           "strict": 0.0
         },
         {
           "n_citations": 8,
           "existence_rate": 1.0,
-          "n_quotes": 6,
+          "n_quotes": 8,
+          "q_accurate": 1,
+          "q_near": 1,
+          "q_inacc": 3,
+          "q_unver": 0,
+          "strict": 0.2
+        },
+        {
+          "n_citations": 8,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
+          "q_accurate": 0,
+          "q_near": 1,
+          "q_inacc": 0,
+          "q_unver": 0,
+          "strict": 0.0
+        },
+        {
+          "n_citations": 8,
+          "existence_rate": 1.0,
+          "n_quotes": 3,
           "q_accurate": 0,
           "q_near": 0,
-          "q_inacc": 0,
-          "q_unver": 6,
-          "strict": null
+          "q_inacc": 1,
+          "q_unver": 0,
+          "strict": 0.0
         }
       ],
-      "converged": true,
-      "cap_exhausted": false,
+      "converged": false,
+      "cap_exhausted": true,
       "dropped": false
     }
   ],
-  "cost": 0.0393
+  "cost": 0.0464
 }

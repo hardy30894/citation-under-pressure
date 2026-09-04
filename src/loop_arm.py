@@ -15,7 +15,10 @@ true but not scrambled feedback is using feedback content; substitution
 that appears only under true feedback is steering to the verifier.
 
 Ledger note: loop arm runs on the combo cell only (budget); recorded at
-freeze in LEDGER.md. --grounded reruns the true arm from the grounded
+freeze in LEDGER.md. The loop was rerun on 2026-09-04 after the
+attribution rule was corrected; the original runs are kept under
+results/loop_v1_* and their realized feedback precision is measured by
+src/realized_precision.py. --grounded reruns the true arm from the grounded
 combo drafts with the ten retrieved passages kept in the conversation,
 so the model has source text to correct against (results/gloop_<model>/).
 The passage arm keeps the closed-book drafts but makes each quotation
@@ -41,6 +44,7 @@ from runtime.llm_client import LLMClient, LLMCache, Meter, BudgetStop, \
 from runtime.state import RunState  # noqa: E402
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
 from checker.quote_checker import OpinionTextStore  # noqa: E402
+from local_text import ChainTextStore  # noqa: E402
 from sim.prompts import case_view  # noqa: E402
 from rescore_pilots import eyecite_pass  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
@@ -48,9 +52,9 @@ import quotecheck2 as q2  # noqa: E402
 N_MATTERS = 24
 MAX_ROUNDS = 3
 ARMS = ("true", "scrambled")
-LOOP_BUDGET = {"qwen30b": 4.0, "deepseek": 6.0, "gpt54mini": 12.0,
-               "sonnet": 25.0, "llama4mav": 6.0, "glm47flash": 3.0, "mistralsmall": 6.0,
-               "grok43": 12.0}
+LOOP_BUDGET = {"qwen30b": 6.0, "deepseek": 8.0, "gpt54mini": 14.0,
+               "sonnet": 40.0, "llama4mav": 8.0, "glm47flash": 3.0, "mistralsmall": 8.0,
+               "grok43": 14.0}
 
 FB_CITE = (
     "The citation {c} does not correspond to any real case: it does not "
@@ -196,9 +200,11 @@ def main():
     )
     index = SqliteIndex(DB)
     checker = CitationChecker(index)
-    store = OpinionTextStore(
+    # the same local-first text chain the rescoring uses, so that the flags
+    # the model receives are the flags the tables score
+    store = ChainTextStore(OpinionTextStore(
         DB, cl_token=load_env_key("COURTLISTENER_TOKEN"), fetch_budget=60
-    )
+    ))
     state = RunState(run_dir / "run", control_dir=run_dir)
     state.install_signal_handlers()
 

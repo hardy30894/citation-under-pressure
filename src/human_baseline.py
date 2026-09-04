@@ -18,8 +18,8 @@ import sys
 import time
 import traceback
 
-sys.path.insert(0, "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure/src")
-sys.path.insert(0, "/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution/src")
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(BASE, "src"))
 
 from rescore_pilots import eyecite_pass  # noqa: E402  (also loads local .env)
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa: E402
@@ -27,10 +27,9 @@ from checker.quote_checker import OpinionTextStore  # noqa: E402
 from runtime.llm_client import load_env_key  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
-BASE = "/Users/hardy30894/Documents/NYU_Research/citation_under_pressure"
 DATA_DIR = os.path.join(BASE, "data", "lephantomcite")
 OUT_PATH = os.path.join(BASE, "results", "human_baseline.json")
-DB = "/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution/data/courtlistener/checker.db"
+from pilot import DB  # noqa: E402
 
 QUOTE_VERDICTS = ("accurate", "near_miss", "inaccurate", "unverifiable", "unpaired")
 

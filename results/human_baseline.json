@@ -11,37 +11,37 @@
       "subset": "all_clean",
       "n_excerpts": 482,
       "quote_verdicts": {
-        "accurate": 205,
-        "near_miss": 113,
-        "inaccurate": 98,
+        "accurate": 247,
+        "near_miss": 76,
+        "inaccurate": 93,
         "unverifiable": 160,
         "unpaired": 1064
       },
       "n_quotes_total": 1640,
       "n_quotes_scored": 416,
-      "strict_quote_rate": 0.4928,
+      "strict_quote_rate": 0.5938,
       "citations": {
-        "exists": 822,
-        "not_found": 61,
+        "exists": 845,
+        "not_found": 38,
         "unresolvable": 167
       },
-      "existence_rate": 0.9309
+      "existence_rate": 0.957
     },
     "oracle_resolved_only": {
       "subset": "all_citations_exist",
-      "n_excerpts": 270,
+      "n_excerpts": 288,
       "quote_verdicts": {
-        "accurate": 147,
-        "near_miss": 85,
-        "inaccurate": 72,
-        "unverifiable": 29,
-        "unpaired": 567
+        "accurate": 197,
+        "near_miss": 62,
+        "inaccurate": 69,
+        "unverifiable": 43,
+        "unpaired": 594
       },
-      "n_quotes_total": 900,
-      "n_quotes_scored": 304,
-      "strict_quote_rate": 0.4836,
+      "n_quotes_total": 965,
+      "n_quotes_scored": 328,
+      "strict_quote_rate": 0.6006,
       "citations": {
-        "exists": 584,
+        "exists": 656,
         "not_found": 0,
         "unresolvable": 0
       },
@@ -49,23 +49,23 @@
     },
     "any_citation_resolved": {
       "subset": "any_citation_exists",
-      "n_excerpts": 364,
+      "n_excerpts": 367,
       "quote_verdicts": {
-        "accurate": 205,
-        "near_miss": 113,
-        "inaccurate": 98,
-        "unverifiable": 123,
-        "unpaired": 708
+        "accurate": 247,
+        "near_miss": 76,
+        "inaccurate": 93,
+        "unverifiable": 127,
+        "unpaired": 713
       },
-      "n_quotes_total": 1247,
+      "n_quotes_total": 1256,
       "n_quotes_scored": 416,
-      "strict_quote_rate": 0.4928,
+      "strict_quote_rate": 0.5938,
       "citations": {
-        "exists": 822,
-        "not_found": 51,
-        "unresolvable": 104
+        "exists": 845,
+        "not_found": 31,
+        "unresolvable": 105
       },
-      "existence_rate": 0.9416
+      "existence_rate": 0.9646
     }
   },
   "per_excerpt": [
@@ -211,8 +211,8 @@
       "split": "eval",
       "filename": "deanna-robinson-v-hunt-county-texas_375834794_part33.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 2,
+        "accurate": 1,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
@@ -225,7 +225,7 @@
         {
           "quote": "[t]he First Amendment prohibits the vesting of [ ] unbridled discretion in a government official. ",
           "citation": "505 U.S. 123",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -955,8 +955,8 @@
       "split": "eval",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623033_part13.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 3
@@ -975,7 +975,7 @@
         {
           "quote": "act[ed] in an arbitrary manner, \u2026 fail[ed] to consider judicially-recognized factors limiting its discretion, or \u2026 relie",
           "citation": "673 F.3d 285",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -1118,8 +1118,8 @@
         "unverifiable": 1,
         "unpaired": 0
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
       "quotes": [
@@ -1200,8 +1200,8 @@
         "unverifiable": 2,
         "unpaired": 3
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
       "quotes": [
@@ -1285,7 +1285,7 @@
           "quote": "Under the APA, [this Court] review[s] the district court\u2019s decision de novo, but [the Court] will not overturn the agenc",
           "citation": "661 F.3d 1209",
           "verdict": "near_miss",
-          "coverage": 0.941
+          "coverage": 1.0
         },
         {
           "quote": "a court is not to substitute its judgment for that of the agency. ",
@@ -1573,7 +1573,7 @@
           "quote": "a serious, substantive reconsideration of the [existing] rule,",
           "citation": "901 F.2d 147",
           "verdict": "inaccurate",
-          "coverage": 0.75
+          "coverage": 0.667
         },
         {
           "quote": "create[d] the opportunity for renewed comment and objection. ",
@@ -1841,8 +1841,8 @@
       "split": "eval",
       "filename": "united-states-sugar-corp-v-epa_1275723_part20.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 2,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
@@ -1885,13 +1885,13 @@
         {
           "quote": "even if we were prepared to accord *Chevron* deference \u2026 that document contains no interpretation of [the statute] to wh",
           "citation": "332 F.3d 654",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
           "quote": "consider[] matter in a detailed and reasoned fashion",
           "citation": "744 F.2d 133",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -2105,9 +2105,9 @@
       "split": "eval",
       "filename": "pulse-network-v-visa_431038849_part24.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 3,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
       },
@@ -2125,14 +2125,14 @@
         {
           "quote": "flow[] from that which makes the defendant\u2019s acts unlawful. ",
           "citation": "429 U.S. 477",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
           "quote": "assum[e] an antitrust violation has occurred",
           "citation": "429 U.S. 477",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "When assessing antitrust injury, we assume that the practice at issue is a violation of the antitrust laws. ",
@@ -2211,8 +2211,8 @@
       "split": "eval",
       "filename": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part19.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 1,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
@@ -2237,7 +2237,7 @@
         {
           "quote": "no guide indicating or directing that th[e] particular selection",
           "citation": "379 F.2d 990",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -2337,8 +2337,8 @@
       "split": "eval",
       "filename": "bruce-hauptman-v-cir_650892_part25.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 2,
+        "accurate": 1,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -2369,7 +2369,7 @@
         {
           "quote": "to accept [an offer in compromise] only where it reflects the taxpayer\u2019s \u2018reasonable collection potential. \u2019",
           "citation": "676 F.3d 1129",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -2470,8 +2470,8 @@
       "split": "eval",
       "filename": "loveridge-v-hall_523563_part13.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -2484,8 +2484,8 @@
         {
           "quote": "[t]he Bankruptcy Court below lack[s] the constitutional authority to enter a final judgment on a state law counterclaim ",
           "citation": "180 L. Ed. 2d 475",
-          "verdict": "near_miss",
-          "coverage": 0.941
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "as is, where is, if is,",
@@ -2697,9 +2697,9 @@
       "split": "eval",
       "filename": "united-states-v-eme-homer-city-generation-lp_570156_part31.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 0,
-        "inaccurate": 3,
+        "inaccurate": 2,
         "unverifiable": 0,
         "unpaired": 3
       },
@@ -2730,7 +2730,7 @@
           "quote": "[s]uch ship or vessel\u2019 must, therefore, refer to a ship or vessel so built [or] fitted out",
           "citation": "159 F.3d 1194",
           "verdict": "inaccurate",
-          "coverage": 0.333
+          "coverage": 0.4
         },
         {
           "quote": "If we were to adopt any other construction, we should read the words as if \u2018such\u2019 were struck out, and the clause stood ",
@@ -2741,8 +2741,8 @@
         {
           "quote": "The word \u2018such\u2019 in [7 U.S.C.] 4509(b) . . . necessarily refers back to the \u2018ruling on the petition\u2019 made by the [USDA] p",
           "citation": "159 F.3d 1194",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "[T]he language Congress chose prohibits the financing of \u2018any such action,\u2019 which refers back to the right of a member \u2018",
@@ -2779,8 +2779,8 @@
       "split": "eval",
       "filename": "united-states-sugar-corp-v-epa_1275723_part7.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 4
@@ -2823,7 +2823,7 @@
         {
           "quote": "require[] floors based on the emission level actually *achieved* by the best performers (those with the lowest emission ",
           "citation": "479 F.3d 875",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -3209,8 +3209,8 @@
       "split": "eval",
       "filename": "par-pharmaceutical-inc-v-twi-pharmaceuticals-inc_1442142_part6.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 6
@@ -3259,7 +3259,7 @@
         {
           "quote": "the amount of experimentation one of skill in the art would require to [practice the claimed invention] in view of the [",
           "citation": "325 F.3d 1306",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -3680,8 +3680,8 @@
         "unverifiable": 0,
         "unpaired": 0
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
       "quotes": []
@@ -3759,8 +3759,8 @@
       "split": "eval",
       "filename": "prime-time-international-comp-v-agri_1287237_part37.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 3,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 1,
         "unpaired": 4
@@ -3791,7 +3791,7 @@
         {
           "quote": "unlikely that the [agency] would change its position if the case were remanded to it. ",
           "citation": "707 F.2d 1485",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -4067,7 +4067,7 @@
           "quote": "undertakes no investigating assessment, or evaluation of the accuracy of such [MCMIS] data. ",
           "citation": "809 F.3d 1268",
           "verdict": "inaccurate",
-          "coverage": 0.5
+          "coverage": 0.4
         },
         {
           "quote": "FMCSA considers the state\u2019s determination of the validity of an RDR as the final decision on the RDR. FMCSA will not uni",
@@ -4274,8 +4274,8 @@
         "unverifiable": 0,
         "unpaired": 0
       },
-      "exists": 0,
-      "not_found": 1,
+      "exists": 1,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 1,
       "quotes": []
@@ -4311,7 +4311,7 @@
           "quote": "misdirection, judicial abdication, unreasonableness, or vagueness are present or argued here [by Wallace]. ",
           "citation": "571 F.3d 428",
           "verdict": "inaccurate",
-          "coverage": 0.375
+          "coverage": 0.429
         }
       ]
     },
@@ -4470,8 +4470,8 @@
         "unverifiable": 0,
         "unpaired": 0
       },
-      "exists": 2,
-      "not_found": 1,
+      "exists": 3,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 3,
       "quotes": [
@@ -5105,8 +5105,8 @@
       "split": "eval",
       "filename": "thomas-barnes-v-ronald-zaccari_527641_part9.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -5119,7 +5119,7 @@
         {
           "quote": "Zaccari further stated that Barnes had personally embarrassed [Zaccari].",
           "citation": "757 F. Supp. 2d 1313",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -5189,7 +5189,7 @@
           "quote": "to administer the trust according to its terms; uphold and defend the trust; [and] take steps to collect, protect and pr",
           "citation": "744 F.2d 893",
           "verdict": "inaccurate",
-          "coverage": 0.615
+          "coverage": 0.571
         },
         {
           "quote": "The trustee for charity has powers to sue to recover possession of trust property, to set aside a wrongful conveyance of",
@@ -5292,8 +5292,8 @@
       "split": "eval",
       "filename": "prime-time-international-comp-v-agri_1287237_part5.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -5330,8 +5330,8 @@
         {
           "quote": "USDA\u2019s interpretation of [FETRA] comports with Congressional intent and is entitled to deference. ",
           "citation": "601 F. Supp. 2d 307",
-          "verdict": "near_miss",
-          "coverage": 0.875
+          "verdict": "accurate",
+          "coverage": 1.0
         }
       ]
     },
@@ -5366,7 +5366,7 @@
           "quote": "lest [the exclusionary principle] swallow all of patent law. ",
           "citation": "59 F. Supp. 3d 974",
           "verdict": "inaccurate",
-          "coverage": 0.75
+          "coverage": 0.5
         },
         {
           "quote": "[a]t some level, all inventions embody, use, reflect, rest upon, or apply laws of nature, natural phenomena, or abstract",
@@ -5683,21 +5683,21 @@
       "split": "aux_train",
       "filename": "united-states-v-william-wallace_20518448_part13.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
       },
-      "exists": 5,
-      "not_found": 1,
+      "exists": 6,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 6,
       "quotes": [
         {
           "quote": "are not controlling precedent, ... [but] may be considered persuasive authority. ",
           "citation": "619 F.3d 469",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -6007,8 +6007,8 @@
         "unverifiable": 1,
         "unpaired": 5
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
       "quotes": [
@@ -6362,8 +6362,8 @@
       "split": "aux_train",
       "filename": "be-technology-llc-v-google-inc_1442186_part23.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 2,
         "unverifiable": 0,
         "unpaired": 6
@@ -6394,7 +6394,7 @@
         {
           "quote": "the dependent claim[] completely superfluous. ",
           "citation": "653 F.3d 1296",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -6445,8 +6445,8 @@
       "split": "aux_train",
       "filename": "united-states-v-john-black-iii_368264571_part14.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 3,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -6459,8 +6459,8 @@
         {
           "quote": "no longer entitled to a presumption of innocence or presumptively entitled to [their] freedom",
           "citation": "3 F.3d 1201",
-          "verdict": "near_miss",
-          "coverage": 0.875
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "Neither Salerno nor any other case authorizes detaining someone in jail while awaiting trial . . . based merely on the f",
@@ -6779,8 +6779,8 @@
       "split": "aux_train",
       "filename": "david-harvey-v-leon-mohammed_1289365_part41.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -6793,7 +6793,7 @@
         {
           "quote": "The possibility that a jury might speculate in the [party\u2019s] favor is insufficient to defeat summary judgment. ",
           "citation": "392 F.3d 478",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -6820,8 +6820,8 @@
       "split": "aux_train",
       "filename": "kim-carson-v-bank-of-america-na_663924_part15.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -6846,7 +6846,7 @@
         {
           "quote": "\u2018rest[ ] upon the existence of some specific contractual obligation. \u2019",
           "citation": "690 F. Supp. 2d 1141",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -6855,8 +6855,8 @@
       "split": "aux_train",
       "filename": "united-states-v-joel-esquenazi_525412_part18.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 2,
         "unverifiable": 0,
         "unpaired": 0
@@ -6881,7 +6881,7 @@
         {
           "quote": "rely upon [the] representations by foreign officials as to the validity of their government\u2019s laws",
           "citation": "331 F.3d 1228",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -7384,8 +7384,8 @@
         "unverifiable": 1,
         "unpaired": 1
       },
-      "exists": 4,
-      "not_found": 1,
+      "exists": 5,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 5,
       "quotes": [
@@ -7912,7 +7912,7 @@
           "quote": "with 100% control [of Plaintiffs], Mr. Bailey had authorized the instant lawsuit",
           "citation": "650 F.3d 423",
           "verdict": "inaccurate",
-          "coverage": 0.5
+          "coverage": 0.25
         }
       ]
     },
@@ -8070,7 +8070,7 @@
           "quote": "treat[ed] similar businesses differently",
           "citation": "633 F.2d 1115",
           "verdict": "inaccurate",
-          "coverage": 0.5
+          "coverage": 0.333
         }
       ]
     },
@@ -8802,8 +8802,8 @@
       "split": "aux_train",
       "filename": "james-badame-v-jp-morgan-chase-bank-na_670168_part18.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 4,
         "unpaired": 0
@@ -8816,7 +8816,7 @@
         {
           "quote": "[This Court] must predict how the California Supreme Court would decide the issue, using intermediate appellate court de",
           "citation": "660 F.3d 1146",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -9117,8 +9117,8 @@
       "split": "aux_train",
       "filename": "rohi-v-brewer_426273981_part25.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 5
@@ -9161,7 +9161,7 @@
         {
           "quote": "It is black-letter law that a claim is not barred by res judicata . . . if the court rendering judgment lacked subject-m",
           "citation": "887 F.2d 553",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -9384,9 +9384,9 @@
       "split": "aux_train",
       "filename": "state-natl-bank-of-big-spring-v-jacob-lew_1287675_part26.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 2,
+        "accurate": 2,
+        "near_miss": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 3
       },
@@ -9411,19 +9411,19 @@
           "quote": "present[ed] barriers to entry",
           "citation": "128 F.3d 910",
           "verdict": "inaccurate",
-          "coverage": 0.667
+          "coverage": 0.5
         },
         {
           "quote": "increased costs of doing business imposed on contractors by [applicable] Rule",
           "citation": "128 F.3d 910",
-          "verdict": "near_miss",
-          "coverage": 0.857
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "threaten[ed] an increase in the cost of doing business",
           "citation": "775 F.2d 1141",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "substantially increased compliance costs",
@@ -9730,8 +9730,8 @@
       "split": "aux_train",
       "filename": "rohi-v-brewer_426273981_part33.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 1,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 2,
         "unpaired": 3
@@ -9750,7 +9750,7 @@
         {
           "quote": "In the context of motions to amend pleadings, discretion may be misleading, because [the rule] evinces a bias in favor o",
           "citation": "195 F.3d 765",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -9992,8 +9992,8 @@
         "unverifiable": 1,
         "unpaired": 5
       },
-      "exists": 2,
-      "not_found": 1,
+      "exists": 3,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 3,
       "quotes": [
@@ -10110,8 +10110,8 @@
         "unverifiable": 2,
         "unpaired": 1
       },
-      "exists": 5,
-      "not_found": 1,
+      "exists": 6,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 6,
       "quotes": [
@@ -10221,8 +10221,8 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623033_part14.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 1,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -10247,7 +10247,7 @@
         {
           "quote": "reimbursement claim [was] false or fraudulent. ",
           "citation": "378 F. Supp. 2d 75",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -10268,14 +10268,14 @@
       "split": "aux_train",
       "filename": "united-states-v-carpenter_330309753_part22.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
       },
-      "exists": 4,
-      "not_found": 1,
+      "exists": 5,
+      "not_found": 0,
       "unresolvable": 1,
       "n_citations": 6,
       "quotes": [
@@ -10288,7 +10288,7 @@
         {
           "quote": "any property constituting, or derived from, any proceeds the person obtained, directly or indirectly, as the result of [",
           "citation": "137 S. Ct. 1626",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -10477,8 +10477,8 @@
       "split": "aux_train",
       "filename": "kim-carson-v-bank-of-america-na_663924_part24.pdf",
       "quote_verdicts": {
-        "accurate": 4,
-        "near_miss": 3,
+        "accurate": 6,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -10497,7 +10497,7 @@
         {
           "quote": "[d]amages are not available under section 17203. ",
           "citation": "23 Cal. 4th 163",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -10527,7 +10527,7 @@
         {
           "quote": "Consequently, \u2018a plaintiff must show that the misrepresentation [i.e., the unfair competition] was an immediate cause of",
           "citation": "51 Cal. 4th 310",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -10542,8 +10542,8 @@
         "unverifiable": 2,
         "unpaired": 4
       },
-      "exists": 0,
-      "not_found": 1,
+      "exists": 1,
+      "not_found": 0,
       "unresolvable": 1,
       "n_citations": 2,
       "quotes": [
@@ -10745,8 +10745,8 @@
         "unverifiable": 2,
         "unpaired": 0
       },
-      "exists": 5,
-      "not_found": 2,
+      "exists": 7,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 7,
       "quotes": [
@@ -10991,8 +10991,8 @@
       "split": "aux_train",
       "filename": "united-states-v-hudgens_435907684_part12.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 1,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 3
@@ -11017,8 +11017,8 @@
         {
           "quote": "could not say whether [the deceased] would have lived had he not taken the heroin, but observed that [his] death would h",
           "citation": "571 U.S. 204",
-          "verdict": "near_miss",
-          "coverage": 0.909
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "that the heroin distributed by the Defendant was a contributing cause of ... death. ",
@@ -11393,7 +11393,7 @@
           "quote": "the Plaintiffs will have to demonstrate [to a jury] that a legally recognizable transfer of those rights occurred.\n",
           "citation": "556 F.3d 361",
           "verdict": "inaccurate",
-          "coverage": 0.625
+          "coverage": 0.5
         },
         {
           "quote": "The Department of State considers Diplomatic Note No. 46341 to be an official communication of the Government of Mexico.",
@@ -11419,8 +11419,8 @@
       "split": "aux_train",
       "filename": "j-jordan-v-robert-flexton_22737537_part13.pdf",
       "quote_verdicts": {
-        "accurate": 5,
-        "near_miss": 3,
+        "accurate": 6,
+        "near_miss": 2,
         "inaccurate": 2,
         "unverifiable": 0,
         "unpaired": 0
@@ -11439,7 +11439,7 @@
         {
           "quote": "must contain sufficient factual matter, [if] accepted as true, to \u2018state a claim to relief that is plausible on its face",
           "citation": "556 U.S. 662",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -11512,8 +11512,8 @@
       "split": "aux_train",
       "filename": "united-states-v-christopher-douglas_445174661_part16.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -11526,7 +11526,7 @@
         {
           "quote": "had before it at the sentencing hearing the PSR and [the defendant\u2019s] objections to the PSR, as well as [the defendant\u2019s",
           "citation": "667 F.3d 555",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -11754,8 +11754,8 @@
       "filename": "kim-carson-v-bank-of-america-na_663924_part22.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 0,
-        "inaccurate": 1,
+        "near_miss": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
       },
@@ -11767,8 +11767,8 @@
         {
           "quote": "and thus promised Plaintiffs that their [Connecticut Court] home would not be sold that day. ",
           "citation": "129 Cal. App. 4th 887",
-          "verdict": "inaccurate",
-          "coverage": 0.833
+          "verdict": "near_miss",
+          "coverage": 1.0
         }
       ]
     },
@@ -11782,8 +11782,8 @@
         "unverifiable": 0,
         "unpaired": 0
       },
-      "exists": 15,
-      "not_found": 1,
+      "exists": 16,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 16,
       "quotes": [
@@ -12069,8 +12069,8 @@
       "split": "aux_train",
       "filename": "bradley-petry-v-prosperity-mortgage-company_590643_part35.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 1,
         "unpaired": 2
@@ -12107,7 +12107,7 @@
         {
           "quote": "fail[ure] to look beyond the pleadings to understand the claims, defenses, relevant facts, and applicable substantive la",
           "citation": "675 F.3d 832",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -12584,8 +12584,8 @@
       "split": "aux_train",
       "filename": "company-doe-v-public-citizen_583521_part42.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -12604,7 +12604,7 @@
         {
           "quote": "make [the] decision to seal . . . documents without benefit of [the public\u2019s] arguments for access. ",
           "citation": "743 F.2d 231",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -13274,8 +13274,8 @@
         "unverifiable": 3,
         "unpaired": 2
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 2,
       "n_citations": 4,
       "quotes": [
@@ -13351,8 +13351,8 @@
       "filename": "ivan-iontchev-v-aaa-cab-service-inc_671070_part11.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 0,
+        "near_miss": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -13364,8 +13364,8 @@
         {
           "quote": "[W]hether a person is an independent contractor or employee shall be determined according to the standards of the [FLSA]",
           "citation": "603 F.2d 748",
-          "verdict": "near_miss",
-          "coverage": 0.9
+          "verdict": "inaccurate",
+          "coverage": 0.818
         },
         {
           "quote": "[t]he FLSA requires the Court focus on the *actual working conditions* when deciding how the drivers should be classifie",
@@ -13379,8 +13379,8 @@
       "split": "aux_train",
       "filename": "united-states-v-cristobal-velasquez_386621147_part19.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 3,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -13393,7 +13393,7 @@
         {
           "quote": "for the purpose of . . . maintaining or increasing position in a[ ] [racketeering] enterprise,",
           "citation": "116 F.3d 1066",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -13604,8 +13604,8 @@
         "unverifiable": 2,
         "unpaired": 0
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 2,
       "n_citations": 4,
       "quotes": [
@@ -14789,8 +14789,8 @@
         "unverifiable": 1,
         "unpaired": 1
       },
-      "exists": 3,
-      "not_found": 1,
+      "exists": 4,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 4,
       "quotes": [
@@ -14981,9 +14981,9 @@
       "split": "aux_train",
       "filename": "prime-time-international-comp-v-agri_1287237_part19.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 3,
         "near_miss": 1,
-        "inaccurate": 2,
+        "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 5
       },
@@ -14995,14 +14995,14 @@
         {
           "quote": "FERC posit[ed] a number of different theories to overcome the text of [the statute],",
           "citation": "558 F.3d 521",
-          "verdict": "inaccurate",
-          "coverage": 0.833
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "[i]n the end as in the beginning, the plain language of [the statute] controls. ",
           "citation": "512 U.S. 218",
           "verdict": "inaccurate",
-          "coverage": 0.6
+          "coverage": 0.667
         },
         {
           "quote": "an agency\u2019s interpretation of a statute is not entitled to deference when it goes beyond the meaning that the statute ca",
@@ -15301,7 +15301,7 @@
           "quote": "makes [provision] a working part of the statutory scheme\u2026and avoids gamesmanship in [relevant] process",
           "citation": "529 U.S. 120",
           "verdict": "inaccurate",
-          "coverage": 0.5
+          "coverage": 0.0
         },
         {
           "quote": "as a symmetrical and coherent regulatory scheme",
@@ -15415,8 +15415,8 @@
       "split": "aux_train",
       "filename": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part24.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 2,
+        "accurate": 4,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 1,
         "unpaired": 3
@@ -15453,13 +15453,13 @@
         {
           "quote": "illuminate[ ] the absence of critical description. ",
           "citation": "923 F.3d 1368",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
           "quote": "does not demonstrate that the inventor possessed more than a mere wish or hope that [the claimed invention] would work, ",
           "citation": "923 F.3d 1368",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -15548,8 +15548,8 @@
         "unverifiable": 0,
         "unpaired": 0
       },
-      "exists": 3,
-      "not_found": 1,
+      "exists": 4,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 4,
       "quotes": []
@@ -15939,8 +15939,8 @@
       "split": "aux_train",
       "filename": "physicians-for-social-responsi-v-usepa_663142_part14.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 2,
+        "accurate": 4,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -15971,8 +15971,8 @@
         {
           "quote": "review[s] the record to ensure that agency decisions are founded on a reasoned evaluation of the relevant factors, and m",
           "citation": "558 F.3d 936",
-          "verdict": "near_miss",
-          "coverage": 0.909
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "[w]hether a party has a sufficient stake in an otherwise justiciable controversy to obtain judicial resolution of that c",
@@ -16096,8 +16096,8 @@
         "unverifiable": 1,
         "unpaired": 4
       },
-      "exists": 2,
-      "not_found": 1,
+      "exists": 3,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 3,
       "quotes": [
@@ -16634,8 +16634,8 @@
         "unverifiable": 2,
         "unpaired": 1
       },
-      "exists": 0,
-      "not_found": 1,
+      "exists": 1,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 1,
       "quotes": [
@@ -16949,8 +16949,8 @@
       "split": "aux_train",
       "filename": "united-states-v-thanh-cao_415319041_part56.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -16963,7 +16963,7 @@
         {
           "quote": "[t]hose [defendants] who were not cooperators and were responsible for enormous losses were sentenced to double-digit te",
           "citation": "573 F. Supp. 2d 744",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -17001,9 +17001,9 @@
       "split": "aux_train",
       "filename": "delaware-riverkeeper-network-v-ferc_1284061_part25.pdf",
       "quote_verdicts": {
-        "accurate": 0,
+        "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -17021,8 +17021,8 @@
         {
           "quote": "defer[s] to the scrutiny of others",
           "citation": "35 F.3d 585",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "verdict": "accurate",
+          "coverage": 1.0
         }
       ]
     },
@@ -17364,8 +17364,8 @@
         "unverifiable": 0,
         "unpaired": 2
       },
-      "exists": 2,
-      "not_found": 1,
+      "exists": 3,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 3,
       "quotes": [
@@ -17492,8 +17492,8 @@
       "split": "aux_train",
       "filename": "jermaine-crowder-v-blue-cross-of-california_442832871_part13.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 3,
         "unpaired": 2
@@ -17518,7 +17518,7 @@
         {
           "quote": "Congress enacted [CAFA] to facilitate adjudication of certain class actions in federal court. ",
           "citation": "784 F.3d 625",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -17830,8 +17830,8 @@
         "unverifiable": 0,
         "unpaired": 2
       },
-      "exists": 1,
-      "not_found": 1,
+      "exists": 2,
+      "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
       "quotes": [

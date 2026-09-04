@@ -13,8 +13,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 sys.path.insert(0, str(HERE / "src"))
 
 import os
@@ -32,7 +31,7 @@ from eyecite import get_citations  # noqa: E402
 from eyecite.models import FullCaseCitation  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 
-DB = GE / "data/courtlistener/checker.db"
+from pilot import DB  # noqa: E402
 
 PILOTS = {
     "qwen30b": HERE / "results/pilot/drafts",

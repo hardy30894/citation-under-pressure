@@ -6,8 +6,8 @@
    "unresolvable": 1
   },
   "federal": {
-   "exists": 527,
-   "not_found": 36
+   "exists": 550,
+   "not_found": 13
   },
   "state": {
    "exists": 75,
@@ -81,16 +81,16 @@
   }
  },
  "overall": {
-  "exists": 822,
-  "not_found": 61,
+  "exists": 845,
+  "not_found": 38,
   "unresolvable": 167,
-  "existence_rate": 0.9309
+  "existence_rate": 0.957
  },
  "us_and_federal": {
-  "exists": 682,
-  "not_found": 41,
+  "exists": 705,
+  "not_found": 18,
   "unresolvable": 1,
-  "existence_rate": 0.9433
+  "existence_rate": 0.9751
  },
  "us_only": {
   "exists": 155,
@@ -99,10 +99,10 @@
   "existence_rate": 0.9688
  },
  "federal_only": {
-  "exists": 527,
-  "not_found": 36,
+  "exists": 550,
+  "not_found": 13,
   "unresolvable": 0,
-  "existence_rate": 0.9361
+  "existence_rate": 0.9769
  },
  "state_only": {
   "exists": 75,
@@ -111,14 +111,11 @@
   "existence_rate": 0.8929
  },
  "not_found_by_reporter": {
-  "F. App\u2019x": 13,
   "F.3d": 6,
-  "Fed. Appx.": 5,
   "U.S.": 5,
   "O.S.": 4,
   "S.Ct.": 4,
   "F.2d": 3,
-  "Fed.Appx.": 3,
   "F. Supp. 3d": 2,
   "N.W.2d": 1,
   "F.R.D.": 1,
@@ -129,8 +126,6 @@
   "A.3d": 1,
   "N.E.2d": 1,
   "S.E.2d": 1,
-  "F. App\u2019x.": 1,
-  "Fed. App'x": 1,
   "Pa.": 1,
   "P": 1,
   "CMR": 1,

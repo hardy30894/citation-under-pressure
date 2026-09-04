@@ -2,8 +2,8 @@
 """What the human reference's strict failures are.
 
 Rescores the clean brief excerpts of the human reference
-(src/human_baseline.py) under the alteration-aware matcher of
-src/alteration_aware.py, and sorts every strict failure by its visible
+(src/human_baseline.py) under the literal matcher (the comparison to the
+paper's alteration-aware strict standard), and sorts every strict failure by its visible
 cause: a bracketed alteration or ellipsis inside the quotation marks, a
 near miss without either (the signature of a corrupted character, OCR
 or otherwise), or an inaccurate quotation without either. Writes
@@ -19,7 +19,7 @@ sys.path.insert(0, str(HERE / "src"))
 
 import human_baseline as hb  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
-from alteration_aware import fragments_alt  # noqa: E402
+from checker.quote_checker import fragments as literal_fragments  # noqa: E402
 from rescore_pilots import eyecite_pass  # noqa: E402
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
 from checker.quote_checker import OpinionTextStore  # noqa: E402
@@ -57,9 +57,9 @@ def main():
         if v not in ("near_miss", "inaccurate"):
             continue
         causes[("altered_" if ALTERED.search(q) else "unaltered_") + v] += 1
-    q2.fragments = fragments_alt
+    q2.fragments = literal_fragments
     alt, _ = score(rows, checker, store)
-    out = {"standard": standard, "alteration_aware": alt, "failure_causes": causes}
+    out = {"standard": standard, "literal": alt, "failure_causes": causes}
     (HERE / "results" / "human_alt.json").write_text(json.dumps(out, indent=1))
     print(json.dumps(out, indent=1))
 

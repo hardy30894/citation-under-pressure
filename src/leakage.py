@@ -10,7 +10,7 @@ from collections import Counter
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 sys.path.insert(0, str(HERE / "src"))
 
 import quotecheck2 as q2  # noqa: E402  (for NAME_STOP)

@@ -1,68 +1,68 @@
 {
  "era": {
   "qwen30b": {
-   "post1970_acc": 32,
+   "post1970_acc": 33,
    "post1970_scored": 203,
    "pre1970_acc": 5,
    "pre1970_scored": 27,
    "pre1970_strict": 0.185,
-   "post1970_strict": 0.158
+   "post1970_strict": 0.163
   },
   "mistralsmall": {
-   "post1970_acc": 40,
+   "post1970_acc": 42,
    "post1970_scored": 166,
    "pre1970_acc": 7,
    "pre1970_scored": 21,
    "pre1970_strict": 0.333,
-   "post1970_strict": 0.241
+   "post1970_strict": 0.253
   },
   "deepseek": {
-   "post1970_acc": 79,
+   "post1970_acc": 85,
    "post1970_scored": 219,
-   "pre1970_acc": 10,
+   "pre1970_acc": 11,
    "pre1970_scored": 33,
-   "pre1970_strict": 0.303,
-   "post1970_strict": 0.361
+   "pre1970_strict": 0.333,
+   "post1970_strict": 0.388
   },
   "grok43": {
-   "post1970_acc": 51,
-   "post1970_scored": 131,
-   "pre1970_acc": 8,
+   "post1970_acc": 60,
+   "post1970_scored": 130,
+   "pre1970_acc": 11,
    "pre1970_scored": 26,
-   "pre1970_strict": 0.308,
-   "post1970_strict": 0.389
+   "pre1970_strict": 0.423,
+   "post1970_strict": 0.462
   },
   "sonnet": {
-   "post1970_acc": 98,
+   "post1970_acc": 105,
    "post1970_scored": 207,
-   "pre1970_acc": 29,
+   "pre1970_acc": 31,
    "pre1970_scored": 53,
-   "pre1970_strict": 0.547,
-   "post1970_strict": 0.473
+   "pre1970_strict": 0.585,
+   "post1970_strict": 0.507
   },
   "llama4mav": {
-   "post1970_acc": 24,
+   "post1970_acc": 25,
    "post1970_scored": 41,
-   "pre1970_acc": 4,
+   "pre1970_acc": 5,
    "pre1970_scored": 10,
-   "pre1970_strict": 0.4,
-   "post1970_strict": 0.585
+   "pre1970_strict": 0.5,
+   "post1970_strict": 0.61
   },
   "gpt54mini": {
-   "post1970_acc": 57,
+   "post1970_acc": 61,
    "post1970_scored": 108,
-   "pre1970_acc": 11,
+   "pre1970_acc": 13,
    "pre1970_scored": 19,
-   "pre1970_strict": 0.579,
-   "post1970_strict": 0.528
+   "pre1970_strict": 0.684,
+   "post1970_strict": 0.565
   },
   "pooled": {
-   "post1970_acc": 381,
-   "post1970_scored": 1075,
-   "pre1970_acc": 74,
+   "post1970_acc": 411,
+   "post1970_scored": 1074,
+   "pre1970_acc": 83,
    "pre1970_scored": 189,
-   "pre1970_strict": 0.392,
-   "post1970_strict": 0.354
+   "pre1970_strict": 0.439,
+   "post1970_strict": 0.383
   }
  },
  "attribution": {
@@ -72,9 +72,9 @@
    "share": 0.347
   },
   "gpt54mini": {
-   "misattributed": 31,
+   "misattributed": 30,
    "true_source_cited_in_draft": 18,
-   "share": 0.581
+   "share": 0.6
   },
   "grok43": {
    "misattributed": 35,
@@ -97,14 +97,14 @@
    "share": 0.163
   },
   "sonnet": {
-   "misattributed": 75,
-   "true_source_cited_in_draft": 45,
-   "share": 0.6
+   "misattributed": 72,
+   "true_source_cited_in_draft": 44,
+   "share": 0.611
   },
   "pooled": {
-   "misattributed": 330,
-   "true_source_cited_in_draft": 140,
-   "share": 0.424
+   "misattributed": 326,
+   "true_source_cited_in_draft": 139,
+   "share": 0.426
   }
  }
 }

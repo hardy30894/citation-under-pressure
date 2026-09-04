@@ -17,22 +17,41 @@ Fixes the two artifact classes the Sonnet-probe audit exposed:
 
 Verdict bands are unchanged from the calibrated checker (accurate /
 near_miss at token coverage >= 0.85 / inaccurate / unverifiable), reusing
-its normalize/fragments/contains/token_coverage primitives verbatim.
+its normalize/contains/token_coverage primitives; since 2026-09-05 the
+strict standard reads a bracketed alteration as an omission (fragments
+below), the literal matcher being kept in alteration_aware.py as the
+comparison.
 """
 
 import re
 import sys
 from pathlib import Path
 
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 
 from checker.quote_checker import (  # noqa: E402
     normalize,
-    fragments,
+    fragments as literal_fragments,
     contains,
     token_coverage,
 )
+
+# An alteration parenthetical inside the marks is not part of the quotation
+ALTERATION_PAREN = re.compile(
+    r"\((?:emphasis (?:added|in original|omitted)|citations? omitted|"
+    r"internal quotation marks (?:and citations? )?omitted|cleaned up|"
+    r"footnote omitted|alterations? (?:in original|omitted))\)", re.I)
+
+
+def fragments(quote):
+    """The strict standard's fragments: split on ellipses and on bracketed
+    segments, so that a lawful alteration ("[the defendant]" for "he",
+    "[t]he") is read as an omission and the words around it must match;
+    fragments under 15 normalized characters are dropped, as in the
+    literal matcher this replaces (checker.quote_checker.fragments)."""
+    quote = ALTERATION_PAREN.sub(" ", quote)
+    parts = re.split(r"\.\s?\.\s?\.|…|\[[^\]]*\]", quote)
+    return [normalize(p) for p in parts if len(normalize(p)) >= 15]
 
 SMART_RE = re.compile(r"“([^“”]{20,600})”")
 STRAIGHT_RE = re.compile(r'"([^"\n]{20,600})"')

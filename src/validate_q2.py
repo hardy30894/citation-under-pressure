@@ -32,8 +32,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 sys.path.insert(0, str(HERE / "src"))
 
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
@@ -42,7 +41,7 @@ from eyecite import get_citations  # noqa
 from eyecite.models import FullCaseCitation  # noqa
 import quotecheck2 as q2  # noqa
 
-DB = GE / "data/courtlistener/checker.db"
+from pilot import DB  # noqa: E402
 random.seed(20260831)
 
 

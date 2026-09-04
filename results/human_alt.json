@@ -1,18 +1,6 @@
 {
  "standard": {
   "verdicts": {
-   "accurate": 205,
-   "unpaired": 1064,
-   "near_miss": 113,
-   "unverifiable": 160,
-   "inaccurate": 98
-  },
-  "scored": 416,
-  "strict": 0.4928,
-  "lenient": 0.7644
- },
- "alteration_aware": {
-  "verdicts": {
    "accurate": 247,
    "unpaired": 1064,
    "near_miss": 76,
@@ -23,10 +11,22 @@
   "strict": 0.5938,
   "lenient": 0.7764
  },
+ "literal": {
+  "verdicts": {
+   "accurate": 205,
+   "unpaired": 1064,
+   "near_miss": 113,
+   "unverifiable": 160,
+   "inaccurate": 98
+  },
+  "scored": 416,
+  "strict": 0.4928,
+  "lenient": 0.7644
+ },
  "failure_causes": {
-  "altered_near_miss": 53,
-  "altered_inaccurate": 31,
-  "unaltered_near_miss": 60,
+  "altered_near_miss": 17,
+  "altered_inaccurate": 26,
+  "unaltered_near_miss": 59,
   "unaltered_inaccurate": 67
  }
 }

@@ -52,7 +52,9 @@ def main():
             base = {"model": model, "matter": matter, "condition": cond}
             for r in recs:
                 out.write(json.dumps({**base, "kind": "citation",
-                                      "verdict": r["verdict"]}) + "\n")
+                                      "verdict": r["verdict"],
+                                      "citation": r.get("citation"),
+                                      "reporter": r.get("reporter")}) + "\n")
                 n += 1
             for r in qres:
                 out.write(json.dumps({**base, "kind": "quote",

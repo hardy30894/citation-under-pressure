@@ -1,19 +1,19 @@
 {
  "deepseek": {
-  "out_of_scope_non_us": 16,
-  "paraphrase_in_quotes": 78,
+  "out_of_scope_non_us": 14,
+  "paraphrase_in_quotes": 77,
   "fabricated_language": 48,
   "no_text": 0
  },
  "gpt54mini": {
-  "out_of_scope_non_us": 2,
-  "paraphrase_in_quotes": 26,
+  "out_of_scope_non_us": 1,
+  "paraphrase_in_quotes": 22,
   "fabricated_language": 15,
   "no_text": 0
  },
  "grok43": {
   "out_of_scope_non_us": 3,
-  "paraphrase_in_quotes": 40,
+  "paraphrase_in_quotes": 38,
   "fabricated_language": 14,
   "no_text": 0
  },
@@ -24,20 +24,20 @@
   "no_text": 0
  },
  "mistralsmall": {
-  "out_of_scope_non_us": 16,
-  "paraphrase_in_quotes": 107,
+  "out_of_scope_non_us": 17,
+  "paraphrase_in_quotes": 106,
   "fabricated_language": 42,
   "no_text": 0
  },
  "qwen30b": {
   "out_of_scope_non_us": 22,
-  "paraphrase_in_quotes": 151,
+  "paraphrase_in_quotes": 150,
   "fabricated_language": 75,
   "no_text": 0
  },
  "sonnet": {
   "out_of_scope_non_us": 3,
-  "paraphrase_in_quotes": 46,
+  "paraphrase_in_quotes": 43,
   "fabricated_language": 25,
   "no_text": 0
  }

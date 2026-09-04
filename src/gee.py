@@ -62,6 +62,11 @@ def main():
     rec = args[args.index("--records") + 1] if "--records" in args else "records.jsonl"
     outname = args[args.index("--out") + 1] if "--out" in args else "stats_gee.json"
     df = pd.DataFrame(json.loads(l) for l in open(R / rec))
+    if "--distinct" in args and "citation" in df.columns:
+        # one row per distinct authority per draft: repeated occurrences of
+        # the same citation string are correlated failures, not new ones
+        cit = df[df.kind == "citation"].drop_duplicates(["model", "matter", "condition", "citation"])
+        df = pd.concat([cit, df[df.kind != "citation"]], ignore_index=True)
     df["template"] = "A"
     pooled = "--pooled" in args
     if pooled:

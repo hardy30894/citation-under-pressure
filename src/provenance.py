@@ -30,8 +30,7 @@ from bisect import bisect_right
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 sys.path.insert(0, str(HERE / "src"))
 
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
@@ -47,8 +46,8 @@ PILOTS = {
     if len(list((p / "drafts").glob("*.txt"))) >= 240
 }
 
-CORPUS = GE / "data/scotus_corpus/original_usdb.txt"
-DB = GE / "data/courtlistener/checker.db"
+CORPUS = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution/data/scotus_corpus/original_usdb.txt")  # the old dump; --corpus cap uses the CAP cache
+from pilot import DB  # noqa: E402
 SEP = "docsep777pes"
 
 

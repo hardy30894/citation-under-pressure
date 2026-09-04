@@ -28,7 +28,7 @@ ARGS = ap.parse_args()
 MODELS = tuple(
     p.name.replace(f"{ARGS.prefix}_", "")
     for p in sorted((Path(__file__).resolve().parents[1] / "results").glob(f"{ARGS.prefix}_*"))
-    if (p / "run/events.jsonl").exists())
+    if (p / "run/events.jsonl").exists() and "_v1_" not in p.name)  # loop_v1_*: the original runs
 
 
 def score(text, checker, store):

@@ -15,8 +15,7 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 
 from checker.citation_checker import CitationChecker, SqliteIndex
 from checker.quote_checker import (
@@ -27,7 +26,7 @@ from checker.quote_checker import (
     token_coverage,
 )
 
-DB = GE / "data/courtlistener/checker.db"
+from pilot import DB  # noqa: E402
 DRAFTS = HERE / "results/pilot_sonnet/drafts"
 OUT = HERE / "results/pilot_sonnet/quote_audit.md"
 

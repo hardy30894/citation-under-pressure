@@ -1,0 +1,9 @@
+loop deepseek {'true': 0.726, 'scrambled': 0.005, 'half': 0.389, 'quarter': 0.163, 'threequarter': 0.532, 'passage': 0.726}
+loop gpt54mini {'true': 0.692, 'scrambled': 0.019, 'half': 0.308, 'quarter': 0.173, 'threequarter': 0.538}
+loop grok43 {'true': 0.787, 'scrambled': 0.043, 'half': 0.489, 'quarter': 0.17, 'threequarter': 0.574}
+loop llama4mav {'true': 0.708, 'scrambled': 0.0, 'half': 0.403, 'quarter': 0.153, 'threequarter': 0.569}
+loop mistralsmall {'true': 0.741, 'scrambled': 0.0, 'half': 0.383, 'quarter': 0.204, 'threequarter': 0.549}
+loop qwen30b {'true': 0.804, 'scrambled': 0.0, 'half': 0.425, 'quarter': 0.219, 'threequarter': 0.603}
+loop sonnet {'true': 0.382, 'scrambled': 0.022, 'half': 0.202, 'quarter': 0.101, 'threequarter': 0.315, 'passage': 0.382}
+gloop deepseek {'true': 0.527}
+gloop sonnet {'true': 0.217}

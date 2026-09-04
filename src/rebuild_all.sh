@@ -37,6 +37,7 @@ run gee_lenient $PY src/gee.py --lenient --out stats_gee_lenient.json
 run gee_para $PY src/gee.py --records records_para.jsonl --out stats_gee_para.json
 run gee_pooled $PY src/gee.py --pooled --out stats_gee_pooled.json
 run gee_alt $PY src/gee.py --records records_alt.jsonl --out stats_gee_alt.json
+run gee_distinct $PY src/gee.py --distinct --out stats_gee_distinct.json
 run gee_pooled_runs $PY src/gee_pooled_runs.py
 run loop_transitions $PY src/loop_transitions.py
 run gloop_transitions $PY src/loop_transitions.py --prefix gloop

@@ -5,9 +5,9 @@
    "exists": 344,
    "not_found": 10,
    "unresolvable": 2,
-   "acc": 89,
-   "near": 94,
-   "inacc": 69,
+   "acc": 96,
+   "near": 88,
+   "inacc": 68,
    "unver": 10,
    "unpaired": 184,
    "viol": 0,
@@ -23,7 +23,7 @@
      "matter": "1990-114",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.5
     },
     {
      "matter": "1992-086",
@@ -161,7 +161,7 @@
      "matter": "2010-065",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2011-010",
@@ -191,7 +191,7 @@
      "matter": "2012-031",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.273
+     "strict": 0.455
     },
     {
      "matter": "2013-058",
@@ -251,7 +251,7 @@
      "matter": "2016-067",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.833
     },
     {
      "matter": "2018-070",
@@ -269,7 +269,7 @@
      "matter": "2020-005",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2020-012",
@@ -303,15 +303,15 @@
     }
    ],
    "existence_rate": 0.9718,
-   "strict_rate": 0.3532
+   "strict_rate": 0.381
   },
   "combo": {
    "drafts": 48,
    "exists": 468,
    "not_found": 20,
    "unresolvable": 0,
-   "acc": 37,
-   "near": 101,
+   "acc": 40,
+   "near": 98,
    "inacc": 143,
    "unver": 19,
    "unpaired": 137,
@@ -382,7 +382,7 @@
      "matter": "1998-026",
      "n_cites": 10,
      "exist": 0.9,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "1998-085",
@@ -466,13 +466,13 @@
      "matter": "2010-065",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.125
     },
     {
      "matter": "2011-010",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.286
     },
     {
      "matter": "2011-027",
@@ -608,16 +608,16 @@
     }
    ],
    "existence_rate": 0.959,
-   "strict_rate": 0.1317
+   "strict_rate": 0.1423
   },
   "quota": {
    "drafts": 48,
    "exists": 479,
    "not_found": 25,
    "unresolvable": 2,
-   "acc": 97,
-   "near": 111,
-   "inacc": 80,
+   "acc": 108,
+   "near": 101,
+   "inacc": 79,
    "unver": 25,
    "unpaired": 162,
    "viol": 0,
@@ -681,7 +681,7 @@
      "matter": "1997-100",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.25
     },
     {
      "matter": "1998-026",
@@ -717,7 +717,7 @@
      "matter": "2000-087",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2001-013",
@@ -747,7 +747,7 @@
      "matter": "2005-087",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2009-045",
@@ -771,13 +771,13 @@
      "matter": "2010-065",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.214
+     "strict": 0.286
     },
     {
      "matter": "2011-010",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2011-027",
@@ -825,7 +825,7 @@
      "matter": "2015-007",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.429
+     "strict": 0.571
     },
     {
      "matter": "2015-038",
@@ -843,7 +843,7 @@
      "matter": "2015-066",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2016-001",
@@ -861,7 +861,7 @@
      "matter": "2016-067",
      "n_cites": 9,
      "exist": 0.8889,
-     "strict": 0.6
+     "strict": 0.8
     },
     {
      "matter": "2018-070",
@@ -879,13 +879,13 @@
      "matter": "2020-005",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.571
+     "strict": 0.643
     },
     {
      "matter": "2020-012",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.667
     },
     {
      "matter": "2020-032",
@@ -913,16 +913,16 @@
     }
    ],
    "existence_rate": 0.9504,
-   "strict_rate": 0.3368
+   "strict_rate": 0.375
   },
   "stakes": {
    "drafts": 48,
    "exists": 289,
    "not_found": 10,
    "unresolvable": 0,
-   "acc": 83,
-   "near": 92,
-   "inacc": 68,
+   "acc": 88,
+   "near": 88,
+   "inacc": 67,
    "unver": 12,
    "unpaired": 208,
    "viol": 0,
@@ -944,7 +944,7 @@
      "matter": "1992-086",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.118
+     "strict": 0.176
     },
     {
      "matter": "1992-109",
@@ -962,7 +962,7 @@
      "matter": "1997-021",
      "n_cites": 11,
      "exist": 0.8182,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "1997-033",
@@ -992,7 +992,7 @@
      "matter": "1998-026",
      "n_cites": 3,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.167
     },
     {
      "matter": "1998-085",
@@ -1022,7 +1022,7 @@
      "matter": "2000-087",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.429
+     "strict": 0.571
     },
     {
      "matter": "2001-013",
@@ -1184,7 +1184,7 @@
      "matter": "2020-005",
      "n_cites": 11,
      "exist": 0.8182,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2020-012",
@@ -1218,15 +1218,15 @@
     }
    ],
    "existence_rate": 0.9666,
-   "strict_rate": 0.3416
+   "strict_rate": 0.3621
   },
   "temporal": {
    "drafts": 48,
    "exists": 339,
    "not_found": 17,
    "unresolvable": 0,
-   "acc": 48,
-   "near": 63,
+   "acc": 50,
+   "near": 61,
    "inacc": 95,
    "unver": 6,
    "unpaired": 177,
@@ -1381,7 +1381,7 @@
      "matter": "2010-065",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.5
     },
     {
      "matter": "2011-010",
@@ -1489,7 +1489,7 @@
      "matter": "2020-005",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2020-012",
@@ -1523,7 +1523,7 @@
     }
    ],
    "existence_rate": 0.9522,
-   "strict_rate": 0.233
+   "strict_rate": 0.2427
   }
  },
  "gpt54mini": {
@@ -1532,9 +1532,9 @@
    "exists": 409,
    "not_found": 8,
    "unresolvable": 1,
-   "acc": 68,
-   "near": 33,
-   "inacc": 26,
+   "acc": 74,
+   "near": 30,
+   "inacc": 23,
    "unver": 8,
    "unpaired": 101,
    "viol": 0,
@@ -1658,7 +1658,7 @@
      "matter": "2005-074",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2005-087",
@@ -1688,7 +1688,7 @@
      "matter": "2010-065",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -1754,7 +1754,7 @@
      "matter": "2015-055",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.429
     },
     {
      "matter": "2015-066",
@@ -1802,7 +1802,7 @@
      "matter": "2020-012",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2020-032",
@@ -1830,15 +1830,15 @@
     }
    ],
    "existence_rate": 0.9808,
-   "strict_rate": 0.5354
+   "strict_rate": 0.5827
   },
   "combo": {
    "drafts": 48,
    "exists": 686,
    "not_found": 27,
    "unresolvable": 0,
-   "acc": 37,
-   "near": 24,
+   "acc": 41,
+   "near": 20,
    "inacc": 27,
    "unver": 2,
    "unpaired": 53,
@@ -1903,7 +1903,7 @@
      "matter": "1997-100",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "1998-026",
@@ -1993,7 +1993,7 @@
      "matter": "2010-065",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -2017,7 +2017,7 @@
      "matter": "2012-029",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.6
+     "strict": 0.8
     },
     {
      "matter": "2012-031",
@@ -2131,20 +2131,20 @@
      "matter": "2020-067",
      "n_cites": 17,
      "exist": 0.9412,
-     "strict": 0.4
+     "strict": 0.6
     }
    ],
    "existence_rate": 0.9621,
-   "strict_rate": 0.4205
+   "strict_rate": 0.4659
   },
   "quota": {
    "drafts": 48,
    "exists": 552,
    "not_found": 11,
    "unresolvable": 1,
-   "acc": 65,
-   "near": 34,
-   "inacc": 17,
+   "acc": 68,
+   "near": 32,
+   "inacc": 16,
    "unver": 5,
    "unpaired": 81,
    "viol": 0,
@@ -2298,7 +2298,7 @@
      "matter": "2010-065",
      "n_cites": 18,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -2394,7 +2394,7 @@
      "matter": "2018-070",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.4
     },
     {
      "matter": "2019-024",
@@ -2436,20 +2436,20 @@
      "matter": "2020-067",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.75
     }
    ],
    "existence_rate": 0.9805,
-   "strict_rate": 0.5603
+   "strict_rate": 0.5862
   },
   "stakes": {
    "drafts": 48,
    "exists": 418,
    "not_found": 9,
    "unresolvable": 0,
-   "acc": 69,
-   "near": 36,
-   "inacc": 24,
+   "acc": 73,
+   "near": 34,
+   "inacc": 22,
    "unver": 10,
    "unpaired": 108,
    "viol": 0,
@@ -2591,7 +2591,7 @@
      "matter": "2010-026",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.667
+     "strict": 0.75
     },
     {
      "matter": "2010-046",
@@ -2603,7 +2603,7 @@
      "matter": "2010-065",
      "n_cites": 39,
      "exist": 0.9744,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -2669,7 +2669,7 @@
      "matter": "2015-055",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.273
+     "strict": 0.455
     },
     {
      "matter": "2015-066",
@@ -2745,15 +2745,15 @@
     }
    ],
    "existence_rate": 0.9789,
-   "strict_rate": 0.5349
+   "strict_rate": 0.5659
   },
   "temporal": {
    "drafts": 48,
    "exists": 497,
    "not_found": 22,
    "unresolvable": 0,
-   "acc": 29,
-   "near": 18,
+   "acc": 30,
+   "near": 17,
    "inacc": 27,
    "unver": 2,
    "unpaired": 66,
@@ -2944,7 +2944,7 @@
      "matter": "2013-058",
      "n_cites": 10,
      "exist": 0.9,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2013-068",
@@ -3050,7 +3050,7 @@
     }
    ],
    "existence_rate": 0.9576,
-   "strict_rate": 0.3919
+   "strict_rate": 0.4054
   }
  },
  "grok43": {
@@ -3059,9 +3059,9 @@
    "exists": 252,
    "not_found": 5,
    "unresolvable": 1,
-   "acc": 59,
-   "near": 53,
-   "inacc": 45,
+   "acc": 71,
+   "near": 44,
+   "inacc": 41,
    "unver": 3,
    "unpaired": 105,
    "viol": 0,
@@ -3077,7 +3077,7 @@
      "matter": "1990-114",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "1992-086",
@@ -3125,7 +3125,7 @@
      "matter": "1997-100",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.5
     },
     {
      "matter": "1998-026",
@@ -3215,13 +3215,13 @@
      "matter": "2010-065",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2011-010",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2011-027",
@@ -3239,13 +3239,13 @@
      "matter": "2012-029",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2012-031",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2013-058",
@@ -3287,7 +3287,7 @@
      "matter": "2015-066",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.833
     },
     {
      "matter": "2016-001",
@@ -3311,13 +3311,13 @@
      "matter": "2018-070",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2019-024",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2020-005",
@@ -3353,19 +3353,19 @@
      "matter": "2020-067",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     }
    ],
    "existence_rate": 0.9805,
-   "strict_rate": 0.3758
+   "strict_rate": 0.4551
   },
   "combo": {
    "drafts": 48,
    "exists": 476,
    "not_found": 3,
    "unresolvable": 0,
-   "acc": 34,
-   "near": 43,
+   "acc": 36,
+   "near": 41,
    "inacc": 42,
    "unver": 3,
    "unpaired": 21,
@@ -3520,7 +3520,7 @@
      "matter": "2010-065",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2011-010",
@@ -3622,7 +3622,7 @@
      "matter": "2019-024",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.286
     },
     {
      "matter": "2020-005",
@@ -3662,16 +3662,16 @@
     }
    ],
    "existence_rate": 0.9937,
-   "strict_rate": 0.2857
+   "strict_rate": 0.3025
   },
   "quota": {
    "drafts": 48,
    "exists": 449,
    "not_found": 6,
    "unresolvable": 0,
-   "acc": 62,
-   "near": 44,
-   "inacc": 34,
+   "acc": 70,
+   "near": 37,
+   "inacc": 31,
    "unver": 6,
    "unpaired": 57,
    "viol": 0,
@@ -3735,7 +3735,7 @@
      "matter": "1997-100",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.6
+     "strict": 0.8
     },
     {
      "matter": "1998-026",
@@ -3765,7 +3765,7 @@
      "matter": "2000-071",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.222
     },
     {
      "matter": "2000-087",
@@ -3813,7 +3813,7 @@
      "matter": "2010-026",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.286
+     "strict": 0.429
     },
     {
      "matter": "2010-046",
@@ -3825,7 +3825,7 @@
      "matter": "2010-065",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -3867,7 +3867,7 @@
      "matter": "2013-068",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.667
+     "strict": 1.0
     },
     {
      "matter": "2014-024",
@@ -3891,7 +3891,7 @@
      "matter": "2015-055",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.75
     },
     {
      "matter": "2015-066",
@@ -3915,19 +3915,19 @@
      "matter": "2016-067",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.8
+     "strict": 1.0
     },
     {
      "matter": "2018-070",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.5
     },
     {
      "matter": "2019-024",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.75
+     "strict": 1.0
     },
     {
      "matter": "2020-005",
@@ -3967,16 +3967,16 @@
     }
    ],
    "existence_rate": 0.9868,
-   "strict_rate": 0.4429
+   "strict_rate": 0.5072
   },
   "stakes": {
    "drafts": 48,
    "exists": 252,
    "not_found": 3,
    "unresolvable": 0,
-   "acc": 56,
-   "near": 52,
-   "inacc": 27,
+   "acc": 68,
+   "near": 40,
+   "inacc": 26,
    "unver": 1,
    "unpaired": 105,
    "viol": 0,
@@ -3986,7 +3986,7 @@
      "matter": "1990-075",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.333
     },
     {
      "matter": "1990-114",
@@ -4028,7 +4028,7 @@
      "matter": "1997-044",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "1997-046",
@@ -4100,7 +4100,7 @@
      "matter": "2005-074",
      "n_cites": 2,
      "exist": 1.0,
-     "strict": 0.6
+     "strict": 1.0
     },
     {
      "matter": "2005-087",
@@ -4130,7 +4130,7 @@
      "matter": "2010-065",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -4154,7 +4154,7 @@
      "matter": "2012-029",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.286
+     "strict": 0.429
     },
     {
      "matter": "2012-031",
@@ -4178,13 +4178,13 @@
      "matter": "2014-024",
      "n_cites": 3,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2015-007",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2015-038",
@@ -4196,7 +4196,7 @@
      "matter": "2015-055",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.833
     },
     {
      "matter": "2015-066",
@@ -4226,7 +4226,7 @@
      "matter": "2018-070",
      "n_cites": 3,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2019-024",
@@ -4272,16 +4272,16 @@
     }
    ],
    "existence_rate": 0.9882,
-   "strict_rate": 0.4148
+   "strict_rate": 0.5075
   },
   "temporal": {
    "drafts": 48,
    "exists": 236,
    "not_found": 4,
    "unresolvable": 0,
-   "acc": 41,
-   "near": 41,
-   "inacc": 38,
+   "acc": 43,
+   "near": 40,
+   "inacc": 37,
    "unver": 1,
    "unpaired": 37,
    "viol": 0,
@@ -4363,7 +4363,7 @@
      "matter": "1999-033",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.75
     },
     {
      "matter": "1999-051",
@@ -4435,7 +4435,7 @@
      "matter": "2010-065",
      "n_cites": 3,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.333
     },
     {
      "matter": "2011-010",
@@ -4577,7 +4577,7 @@
     }
    ],
    "existence_rate": 0.9833,
-   "strict_rate": 0.3417
+   "strict_rate": 0.3583
   }
  },
  "llama4mav": {
@@ -4586,9 +4586,9 @@
    "exists": 204,
    "not_found": 9,
    "unresolvable": 1,
-   "acc": 28,
+   "acc": 30,
    "near": 10,
-   "inacc": 13,
+   "inacc": 11,
    "unver": 9,
    "unpaired": 47,
    "viol": 0,
@@ -4598,7 +4598,7 @@
      "matter": "1990-075",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "1990-114",
@@ -4736,7 +4736,7 @@
      "matter": "2010-046",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "2010-065",
@@ -4884,7 +4884,7 @@
     }
    ],
    "existence_rate": 0.9577,
-   "strict_rate": 0.549
+   "strict_rate": 0.5882
   },
   "combo": {
    "drafts": 48,
@@ -4892,8 +4892,8 @@
    "not_found": 31,
    "unresolvable": 1,
    "acc": 14,
-   "near": 21,
-   "inacc": 26,
+   "near": 20,
+   "inacc": 27,
    "unver": 4,
    "unpaired": 39,
    "viol": 48,
@@ -5196,9 +5196,9 @@
    "exists": 516,
    "not_found": 13,
    "unresolvable": 1,
-   "acc": 33,
-   "near": 31,
-   "inacc": 17,
+   "acc": 38,
+   "near": 28,
+   "inacc": 15,
    "unver": 7,
    "unpaired": 51,
    "viol": 0,
@@ -5208,7 +5208,7 @@
      "matter": "1990-075",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "1990-114",
@@ -5352,7 +5352,7 @@
      "matter": "2010-065",
      "n_cites": 24,
      "exist": 1.0,
-     "strict": 0.286
+     "strict": 0.571
     },
     {
      "matter": "2011-010",
@@ -5376,7 +5376,7 @@
      "matter": "2012-029",
      "n_cites": 14,
      "exist": 0.9286,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2012-031",
@@ -5424,7 +5424,7 @@
      "matter": "2015-066",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2016-001",
@@ -5494,16 +5494,16 @@
     }
    ],
    "existence_rate": 0.9754,
-   "strict_rate": 0.4074
+   "strict_rate": 0.4691
   },
   "stakes": {
    "drafts": 48,
    "exists": 197,
    "not_found": 9,
    "unresolvable": 0,
-   "acc": 28,
-   "near": 16,
-   "inacc": 10,
+   "acc": 30,
+   "near": 13,
+   "inacc": 11,
    "unver": 2,
    "unpaired": 33,
    "viol": 0,
@@ -5513,7 +5513,7 @@
      "matter": "1990-075",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 1.0
     },
     {
      "matter": "1990-114",
@@ -5723,7 +5723,7 @@
      "matter": "2015-055",
      "n_cites": 5,
      "exist": 0.8,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2015-066",
@@ -5799,7 +5799,7 @@
     }
    ],
    "existence_rate": 0.9563,
-   "strict_rate": 0.5185
+   "strict_rate": 0.5556
   },
   "temporal": {
    "drafts": 48,
@@ -5807,8 +5807,8 @@
    "not_found": 12,
    "unresolvable": 0,
    "acc": 9,
-   "near": 15,
-   "inacc": 18,
+   "near": 16,
+   "inacc": 17,
    "unver": 4,
    "unpaired": 46,
    "viol": 22,
@@ -6113,9 +6113,9 @@
    "exists": 336,
    "not_found": 37,
    "unresolvable": 5,
-   "acc": 47,
-   "near": 70,
-   "inacc": 70,
+   "acc": 49,
+   "near": 67,
+   "inacc": 71,
    "unver": 16,
    "unpaired": 103,
    "viol": 0,
@@ -6299,7 +6299,7 @@
      "matter": "2012-031",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.286
     },
     {
      "matter": "2013-058",
@@ -6359,7 +6359,7 @@
      "matter": "2016-067",
      "n_cites": 4,
      "exist": 0.75,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2018-070",
@@ -6411,15 +6411,15 @@
     }
    ],
    "existence_rate": 0.9008,
-   "strict_rate": 0.2513
+   "strict_rate": 0.262
   },
   "combo": {
    "drafts": 48,
    "exists": 452,
    "not_found": 69,
    "unresolvable": 0,
-   "acc": 37,
-   "near": 73,
+   "acc": 39,
+   "near": 71,
    "inacc": 138,
    "unver": 34,
    "unpaired": 103,
@@ -6442,7 +6442,7 @@
      "matter": "1992-086",
      "n_cites": 12,
      "exist": 0.9167,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "1992-109",
@@ -6574,7 +6574,7 @@
      "matter": "2010-065",
      "n_cites": 21,
      "exist": 0.8571,
-     "strict": 0.286
+     "strict": 0.429
     },
     {
      "matter": "2011-010",
@@ -6716,16 +6716,16 @@
     }
    ],
    "existence_rate": 0.8676,
-   "strict_rate": 0.1492
+   "strict_rate": 0.1573
   },
   "quota": {
    "drafts": 48,
    "exists": 431,
    "not_found": 33,
    "unresolvable": 1,
-   "acc": 57,
-   "near": 73,
-   "inacc": 71,
+   "acc": 64,
+   "near": 67,
+   "inacc": 70,
    "unver": 19,
    "unpaired": 114,
    "viol": 0,
@@ -6759,7 +6759,7 @@
      "matter": "1994-059",
      "n_cites": 13,
      "exist": 0.8462,
-     "strict": 0.154
+     "strict": 0.231
     },
     {
      "matter": "1997-021",
@@ -6783,7 +6783,7 @@
      "matter": "1997-046",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "1997-100",
@@ -6807,7 +6807,7 @@
      "matter": "1999-033",
      "n_cites": 8,
      "exist": 0.875,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "1999-051",
@@ -6879,7 +6879,7 @@
      "matter": "2010-065",
      "n_cites": 19,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.3
     },
     {
      "matter": "2011-010",
@@ -6969,7 +6969,7 @@
      "matter": "2016-067",
      "n_cites": 5,
      "exist": 0.8,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2018-070",
@@ -6981,7 +6981,7 @@
      "matter": "2019-024",
      "n_cites": 11,
      "exist": 0.9091,
-     "strict": 0.0
+     "strict": 0.2
     },
     {
      "matter": "2020-005",
@@ -6993,7 +6993,7 @@
      "matter": "2020-012",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2020-032",
@@ -7021,16 +7021,16 @@
     }
    ],
    "existence_rate": 0.9289,
-   "strict_rate": 0.2836
+   "strict_rate": 0.3184
   },
   "stakes": {
    "drafts": 48,
    "exists": 362,
    "not_found": 32,
    "unresolvable": 0,
-   "acc": 34,
-   "near": 83,
-   "inacc": 61,
+   "acc": 39,
+   "near": 79,
+   "inacc": 60,
    "unver": 14,
    "unpaired": 112,
    "viol": 0,
@@ -7214,7 +7214,7 @@
      "matter": "2012-031",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.4
     },
     {
      "matter": "2013-058",
@@ -7250,7 +7250,7 @@
      "matter": "2015-055",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "2015-066",
@@ -7274,13 +7274,13 @@
      "matter": "2016-067",
      "n_cites": 6,
      "exist": 0.8333,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2018-070",
      "n_cites": 11,
      "exist": 0.9091,
-     "strict": 0.1
+     "strict": 0.2
     },
     {
      "matter": "2019-024",
@@ -7298,7 +7298,7 @@
      "matter": "2020-012",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.1
+     "strict": 0.2
     },
     {
      "matter": "2020-032",
@@ -7326,16 +7326,16 @@
     }
    ],
    "existence_rate": 0.9188,
-   "strict_rate": 0.191
+   "strict_rate": 0.2191
   },
   "temporal": {
    "drafts": 48,
    "exists": 345,
    "not_found": 56,
    "unresolvable": 0,
-   "acc": 28,
-   "near": 82,
-   "inacc": 101,
+   "acc": 30,
+   "near": 79,
+   "inacc": 102,
    "unver": 47,
    "unpaired": 97,
    "viol": 141,
@@ -7489,13 +7489,13 @@
      "matter": "2010-065",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.429
+     "strict": 0.571
     },
     {
      "matter": "2011-010",
      "n_cites": 13,
      "exist": 0.7692,
-     "strict": 0.0
+     "strict": 0.333
     },
     {
      "matter": "2011-027",
@@ -7631,7 +7631,7 @@
     }
    ],
    "existence_rate": 0.8603,
-   "strict_rate": 0.1327
+   "strict_rate": 0.1422
   }
  },
  "qwen30b": {
@@ -7640,8 +7640,8 @@
    "exists": 342,
    "not_found": 28,
    "unresolvable": 1,
-   "acc": 37,
-   "near": 103,
+   "acc": 38,
+   "near": 102,
    "inacc": 90,
    "unver": 28,
    "unpaired": 218,
@@ -7802,7 +7802,7 @@
      "matter": "2011-010",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.667
+     "strict": 0.833
     },
     {
      "matter": "2011-027",
@@ -7938,7 +7938,7 @@
     }
    ],
    "existence_rate": 0.9243,
-   "strict_rate": 0.1609
+   "strict_rate": 0.1652
   },
   "combo": {
    "drafts": 48,
@@ -8250,8 +8250,8 @@
    "exists": 425,
    "not_found": 65,
    "unresolvable": 4,
-   "acc": 52,
-   "near": 134,
+   "acc": 56,
+   "near": 130,
    "inacc": 98,
    "unver": 66,
    "unpaired": 163,
@@ -8352,7 +8352,7 @@
      "matter": "2000-087",
      "n_cites": 19,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.6
     },
     {
      "matter": "2001-013",
@@ -8430,7 +8430,7 @@
      "matter": "2012-029",
      "n_cites": 15,
      "exist": 0.8667,
-     "strict": 0.0
+     "strict": 0.2
     },
     {
      "matter": "2012-031",
@@ -8496,7 +8496,7 @@
      "matter": "2016-067",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.833
     },
     {
      "matter": "2018-070",
@@ -8548,15 +8548,15 @@
     }
    ],
    "existence_rate": 0.8673,
-   "strict_rate": 0.1831
+   "strict_rate": 0.1972
   },
   "stakes": {
    "drafts": 48,
    "exists": 351,
    "not_found": 45,
    "unresolvable": 3,
-   "acc": 38,
-   "near": 89,
+   "acc": 39,
+   "near": 88,
    "inacc": 83,
    "unver": 29,
    "unpaired": 211,
@@ -8825,7 +8825,7 @@
      "matter": "2020-012",
      "n_cites": 7,
      "exist": 0.8571,
-     "strict": 0.0
+     "strict": 0.2
     },
     {
      "matter": "2020-032",
@@ -8853,7 +8853,7 @@
     }
    ],
    "existence_rate": 0.8864,
-   "strict_rate": 0.181
+   "strict_rate": 0.1857
   },
   "temporal": {
    "drafts": 48,
@@ -9167,9 +9167,9 @@
    "exists": 315,
    "not_found": 3,
    "unresolvable": 0,
-   "acc": 127,
-   "near": 81,
-   "inacc": 52,
+   "acc": 136,
+   "near": 73,
+   "inacc": 51,
    "unver": 10,
    "unpaired": 193,
    "viol": 0,
@@ -9251,7 +9251,7 @@
      "matter": "1999-033",
      "n_cites": 3,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "1999-051",
@@ -9263,13 +9263,13 @@
      "matter": "2000-071",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.286
     },
     {
      "matter": "2000-087",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.5
     },
     {
      "matter": "2001-013",
@@ -9281,7 +9281,7 @@
      "matter": "2001-070",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 0.6
     },
     {
      "matter": "2003-043",
@@ -9365,7 +9365,7 @@
      "matter": "2013-068",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.545
+     "strict": 0.636
     },
     {
      "matter": "2014-024",
@@ -9377,7 +9377,7 @@
      "matter": "2015-007",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.143
+     "strict": 0.429
     },
     {
      "matter": "2015-038",
@@ -9431,13 +9431,13 @@
      "matter": "2020-005",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.571
+     "strict": 0.714
     },
     {
      "matter": "2020-012",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2020-032",
@@ -9465,15 +9465,15 @@
     }
    ],
    "existence_rate": 0.9906,
-   "strict_rate": 0.4885
+   "strict_rate": 0.5231
   },
   "combo": {
    "drafts": 48,
    "exists": 449,
    "not_found": 1,
    "unresolvable": 0,
-   "acc": 119,
-   "near": 41,
+   "acc": 125,
+   "near": 35,
    "inacc": 34,
    "unver": 1,
    "unpaired": 97,
@@ -9532,7 +9532,7 @@
      "matter": "1997-046",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.625
+     "strict": 0.75
     },
     {
      "matter": "1997-100",
@@ -9550,7 +9550,7 @@
      "matter": "1998-085",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "1999-033",
@@ -9628,7 +9628,7 @@
      "matter": "2010-065",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2011-010",
@@ -9652,7 +9652,7 @@
      "matter": "2012-029",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.75
+     "strict": 1.0
     },
     {
      "matter": "2012-031",
@@ -9676,7 +9676,7 @@
      "matter": "2014-024",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.75
     },
     {
      "matter": "2015-007",
@@ -9724,7 +9724,7 @@
      "matter": "2018-070",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2019-024",
@@ -9770,16 +9770,16 @@
     }
    ],
    "existence_rate": 0.9978,
-   "strict_rate": 0.6134
+   "strict_rate": 0.6443
   },
   "quota": {
    "drafts": 48,
    "exists": 447,
    "not_found": 7,
    "unresolvable": 0,
-   "acc": 132,
-   "near": 80,
-   "inacc": 64,
+   "acc": 143,
+   "near": 73,
+   "inacc": 60,
    "unver": 4,
    "unpaired": 158,
    "viol": 0,
@@ -9867,7 +9867,7 @@
      "matter": "1999-051",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "2000-071",
@@ -9903,7 +9903,7 @@
      "matter": "2005-074",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.556
+     "strict": 0.667
     },
     {
      "matter": "2005-087",
@@ -9933,7 +9933,7 @@
      "matter": "2010-065",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 1.0
     },
     {
      "matter": "2011-010",
@@ -9957,13 +9957,13 @@
      "matter": "2012-029",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.857
+     "strict": 1.0
     },
     {
      "matter": "2012-031",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.385
+     "strict": 0.462
     },
     {
      "matter": "2013-058",
@@ -9987,7 +9987,7 @@
      "matter": "2015-007",
      "n_cites": 13,
      "exist": 1.0,
-     "strict": 0.2
+     "strict": 0.3
     },
     {
      "matter": "2015-038",
@@ -10023,7 +10023,7 @@
      "matter": "2016-067",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.6
+     "strict": 0.8
     },
     {
      "matter": "2018-070",
@@ -10041,7 +10041,7 @@
      "matter": "2020-005",
      "n_cites": 11,
      "exist": 1.0,
-     "strict": 0.4
+     "strict": 1.0
     },
     {
      "matter": "2020-012",
@@ -10053,7 +10053,7 @@
      "matter": "2020-032",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.231
+     "strict": 0.308
     },
     {
      "matter": "2020-058",
@@ -10075,16 +10075,16 @@
     }
    ],
    "existence_rate": 0.9846,
-   "strict_rate": 0.4783
+   "strict_rate": 0.5181
   },
   "stakes": {
    "drafts": 48,
    "exists": 330,
    "not_found": 3,
    "unresolvable": 1,
-   "acc": 136,
-   "near": 53,
-   "inacc": 51,
+   "acc": 146,
+   "near": 45,
+   "inacc": 48,
    "unver": 4,
    "unpaired": 172,
    "viol": 0,
@@ -10208,7 +10208,7 @@
      "matter": "2005-074",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2005-087",
@@ -10238,13 +10238,13 @@
      "matter": "2010-065",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.4
     },
     {
      "matter": "2011-010",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "2011-027",
@@ -10262,7 +10262,7 @@
      "matter": "2012-029",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.429
+     "strict": 0.714
     },
     {
      "matter": "2012-031",
@@ -10310,7 +10310,7 @@
      "matter": "2015-066",
      "n_cites": 12,
      "exist": 1.0,
-     "strict": 0.556
+     "strict": 0.667
     },
     {
      "matter": "2016-001",
@@ -10328,7 +10328,7 @@
      "matter": "2016-067",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.333
+     "strict": 0.667
     },
     {
      "matter": "2018-070",
@@ -10352,7 +10352,7 @@
      "matter": "2020-012",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.0
+     "strict": 0.5
     },
     {
      "matter": "2020-032",
@@ -10376,19 +10376,19 @@
      "matter": "2020-067",
      "n_cites": 9,
      "exist": 1.0,
-     "strict": 0.714
+     "strict": 1.0
     }
    ],
    "existence_rate": 0.991,
-   "strict_rate": 0.5667
+   "strict_rate": 0.6109
   },
   "temporal": {
    "drafts": 48,
    "exists": 351,
    "not_found": 2,
    "unresolvable": 0,
-   "acc": 117,
-   "near": 59,
+   "acc": 127,
+   "near": 49,
    "inacc": 57,
    "unver": 0,
    "unpaired": 114,
@@ -10405,7 +10405,7 @@
      "matter": "1990-114",
      "n_cites": 14,
      "exist": 1.0,
-     "strict": 0.714
+     "strict": 0.857
     },
     {
      "matter": "1992-086",
@@ -10459,13 +10459,13 @@
      "matter": "1998-026",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.25
+     "strict": 0.5
     },
     {
      "matter": "1998-085",
      "n_cites": 4,
      "exist": 1.0,
-     "strict": 0.167
+     "strict": 0.333
     },
     {
      "matter": "1999-033",
@@ -10543,7 +10543,7 @@
      "matter": "2010-065",
      "n_cites": 8,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.75
     },
     {
      "matter": "2011-010",
@@ -10555,7 +10555,7 @@
      "matter": "2011-027",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.1
+     "strict": 0.2
     },
     {
      "matter": "2012-006",
@@ -10591,7 +10591,7 @@
      "matter": "2014-024",
      "n_cites": 7,
      "exist": 1.0,
-     "strict": 0.5
+     "strict": 0.667
     },
     {
      "matter": "2015-007",
@@ -10639,7 +10639,7 @@
      "matter": "2018-070",
      "n_cites": 5,
      "exist": 1.0,
-     "strict": 0.375
+     "strict": 0.625
     },
     {
      "matter": "2019-024",
@@ -10651,7 +10651,7 @@
      "matter": "2020-005",
      "n_cites": 6,
      "exist": 1.0,
-     "strict": 0.714
+     "strict": 0.857
     },
     {
      "matter": "2020-012",
@@ -10663,7 +10663,7 @@
      "matter": "2020-032",
      "n_cites": 10,
      "exist": 1.0,
-     "strict": 0.3
+     "strict": 0.4
     },
     {
      "matter": "2020-058",
@@ -10685,7 +10685,7 @@
     }
    ],
    "existence_rate": 0.9943,
-   "strict_rate": 0.5021
+   "strict_rate": 0.5451
   }
  }
 }

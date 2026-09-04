@@ -2,59 +2,59 @@
 
 Seed 20260904 over the inaccurate verdicts not in the first sample.
 
-## 1. gpt54mini 2005-074_temporal | cited 376 U.S. 149 (named) | class: statutory
+## 1. gpt54mini 2005-087_baseline | cited 476 U.S. 683 (parenthetical) | class: neither
 
-context before: ... is impermissibly retroactive. The Court should reverse.  I. Section 241(a)(5) Does Not Apply to Aliens Who Reentered Before Its Effective Date  A statute is presumed to operate prospectively absent “
+context before: ...anity, Arizona’s rule is a permissible evidentiary limitation, not a denial of due process. Id. at 779-80; *Crane v. Kentucky*, 476 U.S. 683, 689-90 (1986) (recognizing that the Constitution permits “
 
-quote: “the legislative intent to the contrary.”
+quote: “reasonable restrictions”
 
-## 2. llama4mav 2015-066_combo | cited 180 U.S. 311 (named) | class: neither
+## 2. mistralsmall 1990-075_stakes | cited 430 U.S. 99 (parenthetical) | class: neither
 
-context before: ...n" (Gryger, 334 U.S. at 732). Similarly, in McDonald v. Massachusetts, 180 U.S. 311 (1901), the Court upheld a recidivist statute that relied on prior convictions to enhance punishment, stating that "
+context before: ...uling orders “are not subject to judicial review.” The Supreme Court has held that such jurisdictional bars do not apply to constitutional challenges. *Califano v. Sanders*, 430 U.S. 99, 109 (1977) (“
 
-quote: “the statute ... imposes a higher punishment for the same offense upon one who has been previously convicted”
+quote: “[C]onstitutional questions are always open for judicial review.”
 
-## 3. qwen30b 2012-031_quota | cited 564 U.S. 338 (named) | class: neither
+## 3. qwen30b 2013-058_stakes | cited 489 U.S. 235 (named) | class: neither
 
-context before: ...pends on individualized inquiries into each class member’s conduct, preferences, or market behavior. In *Dukes*, the Court emphasized that “the predominance inquiry is not a mere formality” and that “
+context before: ...nstead preserved for future use.  The Court has long recognized that the Bankruptcy Code’s exemptions are designed to protect the “basic necessities” of life, including the “means of livelihood” and “
 
-quote: “the class must be capable of being adjudicated in a single proceeding.”
+quote: “the fruits of labor.”
 
-## 4. mistralsmall 2015-038_temporal | cited 339 U.S. 699 (parenthetical) | class: neither
+## 4. mistralsmall 2016-001_baseline | cited 118 U.S. 10 (named) | class: neither
 
-context before: ...ed Lands Act does not divest the federal government of its authority to regulate activities within the boundaries of the National Park System. *United States v. Louisiana*, 339 U.S. 699, 705 (1950) ("
+context before: ...allows patent holders to recover damages far exceeding the value of their patented designs, creating a windfall that Congress did not intend. *See* *Dobson*, 118 U.S. at 14* (limiting damages to the “
 
-quote: “The Submerged Lands Act did not diminish the federal government’s authority to regulate activities within national parks.”
+quote: “increase of business”
 
-## 5. sonnet 2015-007_quota | cited 536 U.S. 304 (named) | class: neither
+## 5. sonnet 2015-066_temporal | cited 224 U.S. 616 (named) | class: neither
 
-context before: ...al judge under a clear-and-convincing evidence standard, a procedural choice squarely within the latitude *Atkins* preserved. *See Bobby v. Bies*, 556 U.S. 825, 831 (2009) (recognizing that *Atkins* "
+context before: ...e in consequence of the situation in which the party has placed himself by his own conduct." *Id.* at 313. *Graham v. West Virginia*, 224 U.S. 616 (1912), reaffirmed that recidivist statutes rest on "
 
-quote: “leaves to the States the task of developing appropriate ways to enforce”
+quote: “the persistency of the offender,”
 
-## 6. mistralsmall 2005-087_combo | cited 176 U.S. 581 (parenthetical) | class: neither
+## 6. mistralsmall 2010-026_combo | cited 425 U.S. 352 (named) | class: packet_material
 
-context before: ...mitation on the use of expert evidence is consistent with the longstanding principle that the States retain broad authority to define crimes and defenses. *Maxwell v. Dow*, 176 U.S. 581, 594 (1900) (“
+context before: ...inth Circuit did not address whether the ESQD arc maps are exempt under FOIA Exemption 7(F), which permits withholding of records or information “compiled for law enforcement purposes” if disclosure “
 
-quote: “The States have power to prescribe the rules of evidence in their courts, and to regulate the mode of ascertaining the truth in judicial proceedings.”
+quote: “could reasonably be expected to endanger the life or physical safety of any individual.”
 
-## 7. mistralsmall 2003-043_temporal | cited 313 U.S. 443 (proximity) | class: neither
+## 7. mistralsmall 2010-026_baseline | cited 492 U.S. 136 (named) | class: packet_material
 
-context before: ... *United States v. A.S. Kreider Co.*, 313 U.S. 443, 445 (1941) ("The assessment is the act of the Commissioner determining the amount of tax due."). The Court further explained that an assessment is "
+context before: ...ions are “explicitly exclusive” and must be “narrowly construed.” *Dep’t of the Air Force v. Rose*, 425 U.S. 352, 360–61 (1976) (quoting S. Rep. No. 813-89, at 3 (1965)). Exemption 2 applies only to “
 
-quote: “the formal recording of the liability in the records of the Commissioner.”
+quote: “internal personnel rules and practices,”
 
-## 8. sonnet 2005-087_stakes | cited 392 U.S. 514 (named) | class: neither
+## 8. sonnet 2012-006_quota | cited 225 U.S. 347 (named) | class: neither
 
-context before: ...tionally infirm.  That conclusion is reinforced by *Jones v. United States*, 463 U.S. 354 (1983), and *Powell v. Texas*, 392 U.S. 514 (1968) (plurality opinion). In *Jones*, the Court emphasized the "
+context before: ...st Prove.  The conspiracy offense is inherently temporal: it exists only so long as the agreement persists. As this Court explained in *Hyde v. United States*, 225 U.S. 347, 369 (1912), a conspiracy "
 
-quote: “substantial discretion”
+quote: “continues until abandoned or until the objects of it have been accomplished.”
 
-## 9. gpt54mini 2016-067_stakes | cited 323 F.3d 534 (parenthetical) | class: neither
+## 9. gpt54mini 2019-024_combo | cited 28 U.S.(3 Pet.) 270 (proximity) | class: neither
 
-context before: ...13, 418 (8th Cir. 2020) (“The FDCPA applies only to debt collectors, not creditors collecting on debts owed to themselves.”); Schlosser v. Fairbanks Capital Corp., 323 F.3d 534, 538 (7th Cir. 2003) (“
+context before: ... ERISA chose a heightened trigger—actual knowledge—precisely to ensure that plaintiffs are not barred by papers they never read or facts they do not recall. Courts may not replace that choice with a “
 
-quote: “The Act does not apply to creditors collecting in their own name and whose principal business is not debt collection.”
+quote: “reasonable opportunity to know”
 
 ## 10. deepseek 1992-086_temporal | cited 345 U.S. 67 (proximity) | class: neither
 
@@ -62,662 +62,662 @@ context before: ...in *Fowler v. Rhode Island*, 345 U.S. 67 (1953), the Court he
 
 quote: “To call the services a ‘religious’ ceremony,”
 
-## 11. mistralsmall 2013-058_combo | cited 8 F. Supp. 454 (parenthetical) | class: neither
+## 11. mistralsmall 2014-024_temporal | cited 395 U.S. 444 (id) | class: neither
+
+context before: ...wide range of protected expression. *See Terminiello*, 337 U.S. at 4–5. The Court has long warned that speech restrictions must be carefully cabined to avoid deterring lawful debate. *See id.* at 6 (“
+
+quote: “[A] function of free speech under our system of government is to invite dispute. It may indeed best serve its high purpose when it induces a condition of unrest, creates dissatisfaction with condition”
+
+## 12. qwen30b 2005-087_quota | cited 509 U.S. 579 (named) | class: neither
+
+context before: ...ourt has repeatedly upheld state rules that limit the use of expert testimony in criminal trials. In *Daubert v. Merrell Dow Pharmaceuticals, Inc.*, 509 U.S. 579, 592 (1993), the Court affirmed that “
+
+quote: “the trial judge acts as a gatekeeper”
+
+## 13. sonnet 2000-087_temporal | cited 332 U.S. 388 (parenthetical) | class: neither
+
+context before: ...text plainly requires when a broader reading would work severe consequences on individual liberty. *See Delgadillo v. Carmichael*, 332 U.S. 388, 391 (1947) (declining to extend a deportation statute "
+
+quote: “beyond its evident scope”
+
+## 14. mistralsmall 2013-058_combo | cited 8 F. Supp. 454 (parenthetical) | class: neither
 
 context before: ...ions are to be liberally construed."); **In re McDonald,** 9 F. Supp. 571, 572 (D. Minn. 1935) ("Exemptions are to be liberally construed."); **In re McDonald,** 8 F. Supp. 454, 455 (D. Minn. 1934) ("
 
 quote: “Exemptions are to be liberally construed.”
 
-## 12. qwen30b 2005-074_baseline | cited 549 U.S. 47 (parenthetical) | class: neither
+## 15. mistralsmall 1999-033_combo | cited 321 U.S. 1 (named) | class: neither
 
-context before: ... his status. But that conclusion is legally flawed. The right to apply for relief is not a mere “expectation”—it is a statutory right. *See* *Lopez v. Gonzales*, 549 U.S. 47, 52 (2006) (holding that “
+context before: ... … practically discriminating against [a] class.” *Id.* at 373–74. The same principle applies where the discrimination is directed at an individual rather than a class. *See Snowden*, 321 U.S. at 8 (“
 
-quote: “the right to apply for relief is a protected interest under the Due Process Clause”
+quote: “[T]he illegality of the discrimination does not depend upon the existence of a class or group which is adversely affected.”
 
-## 13. sonnet 1999-051_baseline | cited 468 U.S. 1 (parenthetical) | class: neither
+## 16. mistralsmall 2015-038_temporal | cited 220 U.S. 523 (parenthetical) | class: neither
 
-context before: ...ce exception is that a habeas petitioner should not be charged with the default of a claim he was legally and practically unable to raise. *See Reed v. Ross*, 468 U.S. 1, 13 (1984) (recognizing that "
+context before: ... The power to regulate conduct within the boundaries of the National Park System is an inherent attribute of federal authority over federal lands. *Light v. United States*, 220 U.S. 523, 537 (1911) ("
 
-quote: “it is asking too much of the same trial counsel who failed to perceive”
+quote: “The Government, having by virtue of ownership, the absolute control of the lands which it holds for public purposes, may within the bounds of the Constitution, exercise the right to make all regulatio”
 
-## 14. sonnet 2020-058_quota | cited 503 U.S. 249 (named) | class: neither
+## 17. deepseek 2010-065_combo | cited 302 U.S. 633 (named) | class: neither
 
-context before: ...s use of deeming language was held to accomplish exactly what it said, without need for extratextual limitation.  This Court's admonition in *BedRoc Ltd. v. United States*, 541 U.S. 176 (2004), that "
+context before: ...e the constitutionality of the act”). The same reasoning applies here.  **III. Bond’s Status as a Criminal Defendant Does Not Confer Standing**  Standing requires a “personal stake” in the outcome—a “
 
-quote: “the preeminent canon of statutory interpretation requires us to 'presume that [the] legislature says in a statute what it means and means in a statute what it says there,'”
+quote: “direct and substantial”
 
-## 15. mistralsmall 2012-029_temporal | cited 299 U.S. 109 (named) | class: neither
+## 18. gpt54mini 2020-012_stakes | cited 516 U.S. 284 (named) | class: neither
 
-context before: ...ral patent scheme. In *Gully v. First National Bank in Meridian*, 299 U.S. 109 (1936), this Court cautioned against allowing state courts to adjudicate claims that implicate federal law, noting that "
+context before: ...its prior precedent does not answer the statutory question; it only explains why the panel felt bound. But precedent cannot foreclose review when it misconstrues the governing statute. The Court has “
 
-quote: “a federal right cannot be left to be declared by state courts.”
+quote: “the responsibility of deciding what a statute means,”
 
-## 16. mistralsmall 1998-026_temporal | cited 328 U.S. 750 (proximity) | class: neither
+## 19. deepseek 2019-024_quota | cited 263 F. Supp. 2d 745 (named) | class: neither
 
-context before: ...was applied in *Kotteakos v. United States*, 328 U.S. 750 (1946), where the Court held that errors that do not affect the fairness of a proceeding are not grounds for reversal. The Court stated that "
+context before: ...tes v. Kubrick*, 444 U.S. 111, 122 (1979). ERISA is no different. In *Martin v. Consultants & Administrators, Inc.*, 506 U.S. 100, 108 (1992), the Court explained that ERISA’s limitations provisions “
 
-quote: “[h]armless error is an error which is trivial, or formal, or merely academic, and was not prejudicial to the substantial rights of the accused.”
+quote: “reflect a congressional decision that the rights of plan participants and beneficiaries are better served by a limitations period that begins to run when the plaintiff has actual knowledge of the brea”
 
-## 17. mistralsmall 2014-024_stakes | cited 418 F.2d 511 (named) | class: packet_material
+## 20. qwen30b 2005-074_baseline | cited 381 U.S. 437 (named) | class: neither
 
-context before: ...at because it was made in the context of a political hyperbole. Id. at 708. The Court’s analysis turned on the defendant’s *subjective intent*: the statement was not a true threat because it was not “
+context before: ...Retroactive**  Even if Congress had intended the statute to apply retroactively, such an application would violate the Due Process Clause of the Fifth Amendment. The Supreme Court has long held that “
 
-quote: “a serious expression of an intention to inflict bodily harm.”
+quote: “a law that imposes a new disability upon persons who have committed acts which, at the time they were done, were lawful, is retroactive in the worst sense.”
 
-## 18. deepseek 2010-046_stakes | cited 563 U.S. 493 (named) | class: statutory
+## 21. qwen30b 1990-114_combo | cited 80 U.S.(13 Wall.) 128 (named) | class: neither
 
-context before: ...in § 3626(a)(3). Here, those conditions were met. The order is not a punitive removal of prisoners but a carefully calibrated remedy to restore constitutional minimums. *See Brown*, 563 U.S. at 535 (“
+context before: ...  Moreover, the Court has consistently held that judges are not mere employees but independent officers of the state. In *Ex parte McCardle*, 74 U.S. (7 Wall.) 506, 514 (1869), the Court stated that “
 
-quote: “The PLRA does not forbid courts from addressing the constitutional violations caused by overcrowding; it only requires that courts do so with rigor.”
+quote: “the judiciary is a coordinate branch of the government,”
 
-## 19. gpt54mini 2019-024_baseline | cited 140 S. Ct. 768 (named) | class: neither
+## 22. sonnet 2012-031_temporal | cited 282 U.S. 555 (named) | class: neither
 
-context before: ...is Court has never held that a plaintiff can have actual knowledge without awareness of the facts constituting the breach. To the contrary, the Court in Intel Corp. Investment Policy Comm. held that “
+context before: ...was drawn from evidence of the actual injury the defendant's proven conduct caused. *Story Parchment Co. v. Paterson Parchment Paper Co.*, 282 U.S. 555, 563 (1931), likewise required that damages be "
 
-quote: “knowledge of the facts or transaction that constituted the alleged violation”
+quote: “traced to some definite cause,”
 
-## 20. deepseek 2018-070_quota | cited 519 U.S. 316 (parenthetical) | class: neither
+## 23. deepseek 2010-026_stakes | cited 898 F.2d 793 (named) | class: neither
 
-context before: .... 1990) (FLSA savings clause applies where states have jurisdiction); *see also Cal. Div. of Labor Standards Enforcement v. Dillingham Constr., N.A., Inc.*, 519 U.S. 316, 330 (1997) (savings clauses “
+context before: ...el to follow. They are akin to engineering blueprints—scientific data that could be used by anyone, not just agency employees.  The D.C. Circuit’s own cases recognize that Exemption 2 does not reach “
 
-quote: “are not a grant of jurisdiction”
+quote: “purely factual, scientific, or technical data.”
 
-## 21. qwen30b 2001-013_combo | cited 309 U.S. 506 (proximity) | class: neither
+## 24. llama4mav 2016-001_stakes | cited 473 U.S. 207 (named) | class: statutory
 
-context before: ...*, 309 U.S. 506 (1940), the Court held that the existence of a federal agency’s regulatory power does not bar the application of other federal statutes designed to protect workers. The Court stated: “
+context before: ...his provision must be read in conjunction with the requirement that damages be apportioned to reflect the value added to the infringing product by the patented design. As the Supreme Court has held, "
 
-quote: “The fact that a particular activity is subject to regulation by one department of the Government does not prevent the application of other laws enacted for the protection of employees.”
+quote: “the statutory measure of damages [for patent infringement] is 'damages adequate to compensate for the infringement.'”
 
-## 22. mistralsmall 2020-060_stakes | cited 50 F.3d 1530 (id) | class: neither
+## 25. qwen30b 2015-038_stakes | cited 231 U.S. 28 (parenthetical) | class: neither
 
-context before: ...ignty over Guam in 1950 insulated it from liability is meritless. CERCLA liability is not tied to sovereignty; it is tied to the act of arranging for disposal. *See id.* at 55 (liability attaches to “
+context before: ... is an activity. The NPS may regulate activities that occur on non-federal land if those activities threaten the purposes of the park system. See *United States v. Sandoval*, 231 U.S. 28, 34 (1913) (“
 
-quote: “those who were involved in the chain of disposal”
+quote: “The power to regulate the use of land within a national park is not limited by the ownership of the land.”
 
-## 23. sonnet 2010-026_temporal | cited 242 U.S. 470 (proximity) | class: both
+## 26. mistralsmall 2013-058_quota | cited 503 U.S. 30 (parenthetical) | class: neither
 
-context before: ... to the internal personnel rules and practices of an agency," and settled canons forbid enlarging that limit through judicial gloss.  Section 552(b)(2) exempts from mandatory disclosure only matters "
+context before: ...nherited IRAs remain tax-exempt). The Seventh Circuit erred by reading an unstated “retirement-use” requirement into the statute. *Cf. United States v. Nordic Village, Inc.*, 503 U.S. 30, 37 (1992) (“
 
-quote: “related solely to the internal personnel rules and practices of an agency.”
+quote: “Statutory exemptions are to be narrowly construed in favor of the government.”
 
-## 24. deepseek 2010-026_combo | cited 448 F.2d 1067 (proximity) | class: packet_material
+## 27. deepseek 1998-085_combo | cited 170 U.S. 133 (named) | class: neither
 
-context before: ... case applies pre-1970 principles), the court distinguished between internal staff manuals and substantive agency policies. The maps are the latter. Even the Navy’s own OP-5 manual describes them as “
+context before: ... 101, 114 (1893). Consistent with these decisions, the Court has defined punitive damages as a remedy for “fraud, malice, or oppression,” *Am. Surety Co. v. Pauly*, 170 U.S. 133, 142 (1898), and for “
 
-quote: “technical drawings and specifications”
+quote: “gross negligence, wantonness, or malice,”
 
-## 25. llama4mav 2012-031_temporal | cited 134 F.2d 929 (named) | class: neither
+## 28. grok43 2020-067_combo | cited 325 U.S. 91 (named) | class: neither
 
-context before: ...ffs' damages model is based on a series of assumptions that may not be applicable to all class members. As the Court noted in City of Chicago v. Allen Bradley Co., 134 F.2d 929, 934 (7th Cir. 1943), "
+context before: ...ror was harmless or, conversely, that it undermined confidence in the verdict. Kotteakos v. United States, 328 U.S. 750, 764-65 (1946), reiterated that the appellate function requires examination of “
 
-quote: “the necessity of determining the amount of damages sustained by each plaintiff... may be so great that it would render a class action unmanageable.”
+quote: “the proceedings in their entirety.”
 
-## 26. qwen30b 2015-007_combo | cited 147 So. 2d 577 (named) | class: neither
+## 29. mistralsmall 2011-010_combo | cited 310 U.S. 554 (parenthetical) | class: neither
 
-context before: ...scheme. In *State v. Broughton*, 147 So. 2d at 580, the court held that “the jury’s recommendation is not binding, but it is a critical part of the sentencing process.” The court further stated that “
+context before: ... directly address the issue, its observation underscores that OCSLA coverage is fundamentally tied to the shelf’s geographic boundaries. *See* *United States v. Dickerson*, 310 U.S. 554, 562 (1940) ("
 
-quote: “the trial judge must consider the jury’s recommendation, but may impose the death penalty if the aggravating circumstances outweigh the mitigating factors.”
+quote: “Judicial exposition of a statute should not be deemed controlling where the scope of the statute is determined by the words employed by Congress.”
 
-## 27. mistralsmall 2012-031_baseline | cited 552 F.3d 305 (named) | class: neither
+## 30. sonnet 2000-071_temporal | cited 385 U.S. 39 (proximity) | class: packet_material
 
-context before: ...ate the effect of Comcast’s alleged anticompetitive conduct on prices. However, as the Third Circuit has recognized, a regression model must be “tied to the theory of liability” and must not rely on “
+context before: ...r of property, has power to preserve the property under its control for the use to which it is lawfully dedicated." *Id.* at 47. Milford's Community Use Policy dedicates its buildings after hours to "
 
-quote: “speculative assumptions.”
+quote: “social, civic and recreational”
 
-## 28. deepseek 1998-085_combo | cited 62 U.S. 202 (proximity) | class: neither
+## 31. mistralsmall 2013-058_quota | cited 503 U.S. 638 (parenthetical) | class: neither
 
-context before: ...s are not available for every intentional tort; they require “wanton or reckless disregard of the rights of others.” *Phila., W. & B.R. Co. v. Quigley*, 62 U.S. 202, 214 (1858). The standard demands “
+context before: ...reditors, even though the funds were intended to provide for retirement. This result is inconsistent with the Bankruptcy Code’s purpose. *See* *Taylor v. Freeland & Kronz*, 503 U.S. 638, 644 (1992) (“
 
-quote: “gross negligence, malice, or wantonness”
+quote: “The Bankruptcy Code is designed to give debtors a fresh start, and the exemptions play a key role in effectuating that purpose.”
 
-## 29. grok43 2019-024_combo | cited 101 U.S. 135 (named) | class: neither
+## 32. deepseek 2019-024_quota | cited 522 U.S. 359 (named) | class: neither
 
-context before: ...elevant facts to a plan participant supplies that knowledge, even if the participant elects not to examine the materials furnished.  Statutes of limitations are “vital to the welfare of society” and “
+context before: ...notice of the allegedly imprudent investments, the statute begins to run. *See also Allentown Mack Sales & Service, Inc. v. NLRB*, 522 U.S. 359, 378 (1998) (“knowledge” can be inferred where a party “
 
-quote: “are found and approved in all systems of enlightened government.”
+quote: “has been exposed to information”
 
-## 30. mistralsmall 2010-046_baseline | cited 563 U.S. 493 (id) | class: neither
+## 33. gpt54mini 2011-027_temporal | cited 283 U.S. 64 (named) | class: packet_material
 
-context before: ...t’s order reducing California’s prison population to 137.5% of design capacity. The Court held that the order was narrowly tailored and necessary to remedy Eighth Amendment violations. *Id.* at 521 (“
+context before: ...he Court’s decisions repeatedly frame title navigability as a historical inquiry fixed at statehood. In United States v. Utah, the Court stated that the question is whether the waters were navigable “
 
-quote: “The need for speedy relief was great, and the efficacy of the remedy was justified.”
+quote: “at the time of statehood,”
 
-## 31. sonnet 1998-085_temporal | cited 147 U.S. 101 (proximity) | class: neither
+## 34. qwen30b 2011-027_combo | cited 332 U.S. 19 (named) | class: neither
 
-context before: ...bed punitive damages as "a punishment for the wrong done" that requires an "aggravation of the injury" beyond the elements of the wrong itself. *Id.* at 108. Because punitive damages exist to punish "
+context before: ...ding documents and records, to establish the river’s navigability.” Id. at 118. This principle was reaffirmed in *United States v. State of California*, 332 U.S. 19 (1947), where the Court held that “
 
-quote: “aggravated misconduct,”
+quote: “historical evidence, including records of commerce and travel, is admissible and appropriate for determining navigability at the time of statehood.”
 
-## 32. mistralsmall 2012-031_quota | cited 552 F.3d 305 (named) | class: both
+## 35. qwen30b 2020-012_temporal | cited 310 U.S. 534 (named) | class: neither
 
-context before: ... law or fact common to class members predominate over any questions affecting only individual members.” Fed. R. Civ. P. 23(b)(3). To satisfy this predominance requirement, a plaintiff must show that “
+context before: ...rmination. The decision is not advisory or tentative; it is a conclusive administrative judgment. In *United States v. American Trucking Ass’ns, Inc.*, 310 U.S. 534, 543 (1940), this Court held that “
 
-quote: “damages are capable of measurement on a class-wide basis.”
+quote: “a decision which terminates the administrative process and leaves no further action to be taken by the agency is final for purposes of judicial review.”
 
-## 33. deepseek 2019-024_quota | cited 263 F. Supp. 2d 745 (named) | class: packet_material
-
-context before: ... the Constructive-Knowledge Provision Confirms That Disclosure of Relevant Information Triggers Limitations**  When Congress enacted ERISA in 1974, it included both an “actual knowledge” prong and a “
-
-quote: “constructive knowledge”
-
-## 34. gpt54mini 2011-010_quota | cited 459 U.S. 297 (named) | class: packet_material
-
-context before: ...l policy preferences. In P.C. Pfeiffer Co. v. Ford, 444 U.S. 69 (1979), the Court construed LHWCA status coverage, but it did so against an undisputed maritime situs and expressly focused on workers “
-
-quote: “engaged in intermediate steps of moving cargo between ship and land transportation.”
-
-## 35. qwen30b 2010-065_stakes | cited 504 U.S. 555 (named) | class: neither
-
-context before: ...nvenience and perceived unfairness in federal prosecution.  This Court has consistently held that standing to challenge a federal statute on constitutional grounds requires a concrete injury that is “
-
-quote: “distinct and palpable,”
-
-## 36. qwen30b 2020-005_stakes | cited 471 U.S. 462 (named) | class: neither
-
-context before: ... they were part of a national distribution system. The plaintiff’s claim does not arise from those sales. The Due Process Clause does not permit jurisdiction based on “a mere possibility of harm” or “
-
-quote: “a speculative connection.”
-
-## 37. deepseek 1997-021_baseline | cited 687 F.2d 863 (named) | class: packet_material
+## 36. deepseek 1997-021_baseline | cited 687 F.2d 863 (named) | class: packet_material
 
 context before: ... skepticism of hearsay and “off-the-cuff” remarks is not a valid basis to ignore this evidence when no contrary testimony was offered. *See Thomas Industries*, 687 F.2d at 868 (reversing Board where “
 
 quote: “overwhelming unrefuted evidence”
 
-## 38. qwen30b 2009-045_combo | cited 333 U.S. 364 (named) | class: neither
+## 37. qwen30b 2010-026_combo | cited 345 U.S. 1 (proximity) | class: neither
 
-context before: ... Id. This rule was not altered by the advent of fee-shifting statutes; rather, it was preserved and applied with even greater rigor. As the Court held in *United States v. United States Gypsum Co.*, “
+context before: ...hol, Tobacco & Firearms*, 670 F.2d 1051 (D.C. Cir. 1981)—is legally unsound because that decision was rendered after 1970, and no pre-1970 case supports such a standard. The Court has long held that “
 
-quote: “the fee must be based on the facts, not on the court’s personal evaluation.”
+quote: “the exemptions are to be narrowly construed,”
 
-## 39. deepseek 2009-045_combo | cited 283 U.S. 738 (named) | class: neither
+## 38. deepseek 2009-045_combo | cited 307 U.S. 161 (named) | class: neither
 
-context before: ...plaintiff who obtains an injunction against a defendant should ordinarily recover attorney’s fees.” The reasonableness standard, as the Court explained, ensures that successful plaintiffs can obtain “
+context before: ...e standard hourly rates used to calculate the fee.” *Id.* at 1290. Such findings are precisely the “specific evidence” required by the equitable tradition. *See Sprague*, 307 U.S. at 167 (discretion “
 
-quote: “effective legal representation.”
+quote: “must be exercised with due regard to all the circumstances”
 
-## 40. qwen30b 2018-070_combo | cited 373 U.S. 734 (named) | class: neither
+## 39. qwen30b 2019-024_stakes | cited 135 S. Ct. 1823 (named) | class: neither
 
-context before: ...ent regime, even where federal law already provides a complete and detailed framework. This would violate the principle established in *Baldwin v. G.A.F. Sales, Inc.*, 373 U.S. 734, 740 (1963), that “
+context before: ...re clear, comprehensive, and accessible. This result is inconsistent with ERISA’s goal of promoting fiduciary accountability and ensuring timely resolution of disputes. As this Court has recognized, “
 
-quote: “where Congress has legislated in a field, state laws that conflict with federal law are invalid.”
+quote: “ERISA’s statutory framework is designed to provide certainty and finality in the administration of employee benefit plans.”
 
-## 41. sonnet 2015-066_stakes | cited 163 U.S. 376 (named) | class: neither
+## 40. sonnet 2020-032_quota | cited 568 U.S. 165 (named) | class: neither
 
-context before: ...ts, including the Sixth Amendment, simply does not govern the internal proceedings of Indian tribes. As this Court held in *Talton v. Mayes*, 163 U.S. 376, 384 (1896), tribal governmental powers are "
+context before: ... (11th Cir. 2000). Because petitioners pleaded no actual injury, and because GGC's revised policy eliminated any prospective threat, the only relief theoretically available—nominal damages—could not "
 
-quote: “not delegated powers granted by express words”
+quote: “benefit the plaintiff”
 
-## 42. sonnet 2020-067_combo | cited 328 U.S. 750 (named) | class: neither
+## 41. llama4mav 1990-075_quota | cited 321 U.S. 414 (named) | class: both
 
-context before: ...record.” *Id.* at 764–65. The Court in *Kotteakos* rejected any suggestion that prejudice could be gauged by tunnel vision on the specific evidence introduced; rather, the reviewing court must weigh “
+context before: ... substances, including the substance's potential for abuse, scientific evidence of its pharmacological effect, and the risk it poses to public health. 21 U.S.C. § 811(c). This guidance satisfies the "
 
-quote: “the effect of the error on the minds of the jurors in the total setting.”
+quote: “intelligible principle”
 
-## 43. grok43 2019-024_combo | cited 327 U.S. 392 (proximity) | class: neither
+## 42. gpt54mini 2020-005_temporal | cited 326 U.S. 310 (proximity) | class: neither
 
-context before: ...d is discovered or could have been discovered by the exercise of reasonable diligence.” Holmberg v. Armbrecht, 327 U.S. 392, 397 (1946). A plaintiff who receives documents disclosing the transaction “
+context before: ...m and the suit is fairly tied to those contacts. International Shoe Co. v. Washington, 326 U.S. 310 (1945). The Court has repeatedly explained that the forum relation must be such that the defendant “
 
-quote: “is presumed to have read”
+quote: “should reasonably anticipate being haled into court there,”
 
-## 44. gpt54mini 2018-070_stakes | cited 464 U.S. 312 (named) | class: both
+## 43. qwen30b 2020-012_baseline | cited 933 F.2d 636 (named) | class: neither
 
-context before: ...f its own force,” and otherwise state law is adopted as surrogate federal law under § 1333(a)(2)(A). 453 U.S. at 480-84. Secretary of the Interior likewise described OCSLA as adopting state law only “
+context before: ...hat this Court must resolve. The Eighth Circuit, in *Sones v. R.R. Retirement Bd.*, 933 F.2d 636 (8th Cir. 1991), also rejected the notion that reopening decisions are unreviewable, emphasizing that “
 
-quote: “as surrogate federal law”
+quote: “the right to reopen is a substantive right under the RRA.”
 
-## 45. qwen30b 2019-024_combo | cited 309 U.S. 506 (named) | class: neither
+## 44. qwen30b 2015-007_stakes | cited 136 S. Ct. 616 (proximity) | class: neither
 
-context before: ...nowledge” is not defined in ERISA, but its meaning is derived from common law. In *United States v. United States Fidelity & Guaranty Co.*, 309 U.S. at 512, the Court held that “actual knowledge” is “
+context before: ...—violated the Sixth Amendment. But that decision was based on the specific facts of the case and the Florida Supreme Court’s prior interpretation of *Ring*. The Court concluded that Florida’s scheme “
 
-quote: “knowledge which a person has,”
+quote: “fails to satisfy the Sixth Amendment’s jury trial guarantee”
 
-## 46. qwen30b 2014-024_combo | cited 279 U.S. 644 (named) | class: neither
+## 45. mistralsmall 2010-046_baseline | cited 562 U.S. 216 (named) | class: neither
 
-context before: ...U.S. 379 (1928), the Court rejected the idea that a speaker could be punished for words he did not intend to threaten. In *United States v. Schwimmer*, 279 U.S. 644 (1929), the Court reiterated that “
+context before: ...e Three-Judge Court Properly Exercised Its Equitable Authority.**  The PLRA does not divest courts of their equitable authority to remedy constitutional violations. *See Swarthout*, 562 U.S. at 219 (“
 
-quote: “the government must prove the speaker’s intent to threaten.”
+quote: “The PLRA does not strip courts of their inherent equitable powers.”
 
-## 47. mistralsmall 2010-026_baseline | cited 569 F.3d 964 (named) | class: packet_material
+## 46. deepseek 1998-085_temporal | cited 115 U.S. 512 (named) | class: neither
 
-context before: ...ctices” under *Rose*. They are operational safety tools used to design and arrange ammunition storage facilities to minimize risk. Commander Whitbred’s declaration confirms that the maps are used to “
+context before: ...ession”). In *Philadelphia, Wilmington & Baltimore R.R. v. Quigley*, 62 U.S. (21 How.) 202, 214 (1858), the Court explained that punitive damages may be awarded only where the defendant’s conduct is “
 
-quote: “design, array, and construct ammunition storage facilities, and to organize ammunition operations for risk mitigation and enhanced safety.”
+quote: “wanton, reckless, or grossly negligent.”
 
-## 48. deepseek 1998-085_temporal | cited 54 U.S.(13 How.) 363 (parenthetical) | class: neither
+## 47. mistralsmall 2015-055_baseline | cited 542 U.S. 348 (parenthetical) | class: neither
 
-context before: ...ages are not available for mere intentional wrongdoing; they require an element of “aggravation” or “outrage.” *Day v. Woodworth*, 54 U.S. (13 How.) 363, 371 (1851) (punitive damages appropriate for “
+context before: ...he legal framework governing the imposition of punishment—it applies retroactively to cases on collateral review. See Schriro v. Summerlin, 542 U.S. 348, 351–52 (2004) (a rule is substantive when it “
 
-quote: “gross fraud, malice, or oppression”
+quote: “narrows the scope of a criminal statute’s ... penalty provisions”
 
-## 49. mistralsmall 2015-007_quota | cited 833 So. 2d 761 (parenthetical) | class: neither
+## 48. gpt54mini 2016-001_combo | cited 114 U.S. 439 (proximity) | class: neither
 
-context before: ...ot run afoul of *Ring*. *See, e.g., Sochor v. Florida*, 504 U.S. 527, 531 (1992) (upholding Florida’s scheme against Sixth Amendment challenge); *Bottoson v. State*, 833 So. 2d 761, 770 (Fla. 2002) ("
+context before: ...eated the defendant’s entire carpet profits as recoverable where the patented design covered only a part of the product. The Court explained that the patentee could not recover more than the profits “
 
-quote: “Florida’s capital sentencing scheme does not violate *Ring* because the jury’s role is advisory.”
+quote: “actually made by the use of the patented design.”
 
-## 50. gpt54mini 2015-055_stakes | cited 542 U.S. 348 (named) | class: neither
+## 49. deepseek 2020-032_combo | cited 394 U.S. 103 (proximity) | class: packet_material
 
-context before: ...a decision “places certain kinds of primary, private individual conduct beyond the power of the criminal law-making authority to proscribe,” the rule is substantive. The same is true when a decision “
+context before: ...ains subject to it, federal courts lack jurisdiction. *Hall v. Beals*, 396 U.S. 45, 48 (1969) (per curiam); *Golden v. Zwickler*, 394 U.S. 103, 108 (1969). Here, Georgia Gwinnett College revised its “
 
-quote: “narrow[s] the scope of a criminal statute.”
+quote: “Freedom of Expression Policy”
 
-## 51. deepseek 2020-012_temporal | cited 370 F.2d 253 (named) | class: neither
+## 50. sonnet 1992-086_quota | cited 460 U.S. 37 (proximity) | class: neither
 
-context before: ...anders*, 430 U.S. 99 (1977), is misplaced. *Sanders* addressed the scope of judicial review under the Administrative Procedure Act, not the Railroad Retirement Act. The APA’s limitation on review of “
+context before: ...ndment scrutiny. *Perry Educ. Ass'n v. Perry Local Educators' Ass'n*, 460 U.S. 37, 44 (1983). Even where a State designates a limited public forum—open only to certain speakers or subjects—the State "
 
-quote: “agency action committed to agency discretion by law,”
+quote: “must respect the lawful boundaries it has itself set”
 
-## 52. qwen30b 2020-067_temporal | cited 327 U.S. 114 (proximity) | class: neither
+## 51. mistralsmall 2015-038_temporal | cited 339 U.S. 699 (parenthetical) | class: neither
 
-context before: ..., 327 U.S. 114 (1946), the Court held that appellate courts may consider the defendant’s criminal history when evaluating the impact of an error on the fairness of the trial. The Court reasoned that “
+context before: ...ed Lands Act does not divest the federal government of its authority to regulate activities within the boundaries of the National Park System. *United States v. Louisiana*, 339 U.S. 699, 705 (1950) ("
 
-quote: “a defendant’s past conduct is relevant to the overall fairness of the proceeding and may bear directly on whether an error affected substantial rights.”
+quote: “The Submerged Lands Act did not diminish the federal government’s authority to regulate activities within national parks.”
 
-## 53. mistralsmall 2015-007_quota | cited 490 U.S. 638 (named) | class: neither
+## 52. qwen30b 1999-033_combo | cited 118 U.S. 356 (proximity) | class: neither
 
-context before: ...erent. Unlike Arizona, Florida does not treat aggravating factors as elements of a greater offense. Instead, Florida law provides that "[t]he jury shall consider the evidence presented at trial" and "
+context before: ... 118 U.S. 356 (1886), this Court held that the Equal Protection Clause is violated when a law is applied in a discriminatory manner, even if the law on its face is neutral. The Court emphasized that “
 
-quote: “determine[] the existence or nonexistence of any mitigating circumstance.”
+quote: “the law, in its letter, may be fair, but if it is applied in a manner which results in discrimination, it is not in accordance with the Constitution.”
 
-## 54. qwen30b 1998-026_temporal | cited 308 U.S. 188 (named) | class: neither
+## 53. qwen30b 1997-044_baseline | cited 347 U.S. 483 (named) | class: both
 
-context before: ...ional bar to finality. The purpose of the rule is to promote informed decision-making, not to impose a rigid, automatic remedy for noncompliance. As this Court held in *United States v. Borden Co.*, “
+context before: ...CAUSE HE DID NOT MAKE A FALSE REPRESENTATION, AND THEREFORE THE ELEMENTS OF FRAUD UNDER THE BANKRUPTCY CODE WERE NOT MET.  Section 523(a)(2)(A) of the Bankruptcy Code excepts from discharge any debt “
 
-quote: “the law does not require a technical compliance with every rule if the substance of justice is not impaired.”
+quote: “for money, property, services, or an extension, renewal, or refinancing of credit, to the extent obtained by... actual fraud.”
 
-## 55. qwen30b 1994-059_quota | cited 144 U.S. 1 (named) | class: neither
+## 54. sonnet 1997-044_quota | cited 95 U.S. 704 (named) | class: neither
 
-context before: ...tion of the federal legislative body.  This Court has long held that the qualifications for federal office are exclusive. In *United States v. Cruikshank*, 92 U.S. 542, 553 (1875), the Court stated: “
+context before: ...esh start are not to be read expansively. As this Court held in Gleason v. Thaw, 236 U.S. 558, 562 (1915), exceptions to discharge "are to be confined to those plainly expressed" in the statute, for "
 
-quote: “The qualifications for the office of Senator and Representative are prescribed by the Constitution, and no other qualifications can be added.”
+quote: “the act should be liberally construed in favor of the debtor.”
 
-## 56. sonnet 1992-086_temporal | cited 340 U.S. 268 (named) | class: packet_material
+## 55. sonnet 2015-055_temporal | cited 388 U.S. 293 (named) | class: neither
 
-context before: ... of family life, child rearing, and community values — the very subject of Lamb's Chapel's proposed film series. It excluded Lamb's Chapel only because the Dobson film series approached that subject "
+context before: ...Must Be Given Retroactive Effect**  This Court's retroactivity jurisprudence has never treated all new constitutional rules alike. In *Linkletter v. Walker*, 381 U.S. 618 (1965), the Court held that "
 
-quote: “from a Christian perspective.”
+quote: “the Constitution neither prohibits nor requires retrospective effect”
 
-## 57. sonnet 2014-024_quota | cited 258 U.S. 250 (proximity) | class: neither
+## 56. deepseek 2011-027_quota | cited 258 U.S. 574 (proximity) | class: neither
 
-context before: ... 'construction of the statute and . . . inference of the intent of Congress.'" *Staples v. United States*, 511 U.S. 600, 605 (1994) (quoting *United States v. Balint*, 258 U.S. 250, 253 (1922)). The "
+context before: ...dence of past commercial use, the physical characteristics of the river, or both. *Oklahoma v. Texas*, 258 U.S. 574, 586-87 (1922). The inquiry is inherently historical and requires consideration of “
 
-quote: “presumption in favor of a scienter requirement should apply to each of the statutory elements that criminalize otherwise innocent conduct.”
+quote: “the evidence of actual use and of the possibilities of use”
 
-## 58. deepseek 2011-027_baseline | cited 295 U.S. 1 (named) | class: neither
+## 57. qwen30b 1999-033_quota | cited 429 U.S. 252 (parenthetical) | class: neither
 
-context before: ...89. *PPL Montana*, 355 Mont. at 453-454, 229 P.3d at 458-459. PPL’s expert, Dr. Emmons, offered competing interpretations, but the trial court as factfinder credited the State’s evidence. This Court “
+context before: ...tion that government must treat individuals with like needs or circumstances in a like manner. *See also* *Village of Arlington Heights v. Metropolitan Housing Dev. Corp.*, 429 U.S. 252, 265 (1977) (“
 
-quote: “accord[s] great deference to the factual findings of the district court concerning navigability.”
+quote: “The Equal Protection Clause requires that persons similarly situated be treated alike.”
 
-## 59. qwen30b 1998-085_combo | cited 333 U.S. 364 (proximity) | class: packet_material
+## 58. grok43 2020-067_baseline | cited 560 U.S. 258 (named) | class: neither
 
-context before: ... award under the Sherman Act, noting that “the law does not require that the conduct be so outrageous as to shock the conscience” in order to justify punitive relief. Id. at 395. The Court held that “
+context before: ...to conclude that an unobjected-to error did not satisfy the fourth prong. Id. at 469-70. Similarly, in United States v. Marcus, 560 U.S. 258 (2010), the Court directed that the fourth-prong analysis “
 
-quote: “reckless indifference”
+quote: “consider the record as a whole,”
 
-## 60. grok43 2018-070_quota | cited 488 U.S. 19 (named) | class: packet_material
+## 59. mistralsmall 1997-046_combo | cited 442 U.S. 1 (named) | class: neither
 
-context before: ...o., 395 U.S. 352, 355 (1969) (holding that OCSLA “define[s] a body of law applicable to the seabed, the subsoil, and the fixed structures” on the OCS). Congress enacted the statute precisely because “
+context before: ...ited States v. Jackson*, 390 U.S. 570 (1968), the Court struck down a federal statute that imposed the death penalty only upon defendants who waived their right to a jury trial, finding that the law “
 
-quote: “federal law standing alone would be inadequate.”
+quote: “needlessly encourage[d]”
 
-## 61. mistralsmall 1997-033_quota | cited 659 F.2d 1341 (parenthetical) | class: neither
+## 60. qwen30b 2019-024_temporal | cited 309 U.S. 506 (named) | class: neither
 
-context before: ...599 (7th Cir. 1981) ("Section 1407 is a procedural statute, authorizing transfer only for pretrial proceedings."); *In re Corrugated Container Antitrust Litig.,* 659 F.2d 1341, 1345 (5th Cir. 1981) ("
+context before: ...owledge that could have been acquired through reasonable diligence. As this Court held in *United States v. United States Fidelity & Guaranty Co.*, 309 U.S. 506, 512 (1940), “actual knowledge” means “
 
-quote: “The statute is explicit: after pretrial proceedings, the Panel 'shall' remand.”
+quote: “knowledge which a person has, not knowledge which he might have had.”
 
-## 62. qwen30b 2018-070_quota | cited 348 U.S. 528 (named) | class: neither
+## 61. qwen30b 2020-012_combo | cited 352 U.S. 59 (named) | class: neither
 
-context before: ...rement superfluous. If state law applies whenever it is “not inconsistent,” then the phrase “to the extent” becomes meaningless. This violates the cardinal principle of statutory interpretation that “
-
-quote: “no clause of a statute should be treated as surplusage.”
-
-## 63. qwen30b 2019-024_temporal | cited 310 U.S. 534 (named) | class: neither
-
-context before: ...rmation was disclosed and accessible—directly contradicts this settled understanding. In *United States v. American Trucking Associations, Inc.*, 310 U.S. 534, 543 (1940), this Court emphasized that “
-
-quote: “a party cannot be allowed to sit back and wait for the discovery of facts which he might have discovered by the exercise of reasonable diligence.”
-
-## 64. qwen30b 2000-087_combo | cited 338 U.S. 537 (named) | class: neither
-
-context before: ... to aliens lawfully present in the United States. As *United States ex rel. Knauff v. Shaughnessy*, 338 U.S. 537, 543 (1950), recognized, “the power to exclude or deport aliens is not absolute,” and “
-
-quote: “the exercise of that power must be consistent with the Constitution.”
-
-## 65. llama4mav 2015-055_baseline | cited 576 U.S. 591 (named) | class: neither
-
-context before: ...ch's case is controlled by the Supreme Court's holding in Teague v. Lane, 489 U.S. 288 (1989), which established that a new rule of constitutional law applies retroactively if it is substantive or a "
-
-quote: “watershed rule of criminal procedure.”
-
-## 66. mistralsmall 2016-001_combo | cited 105 U.S. 189 (named) | class: neither
-
-context before: ...erred by allowing the jury to award damages based on Samsung’s entire profits, rather than the incremental value attributable to the infringed designs. *See* *Root*, 105 U.S. at 206 (damages must be “
-
-quote: “reasonably connected with the wrong”
-
-## 67. mistralsmall 2001-070_stakes | cited 492 U.S. 302 (parenthetical) | class: neither
-
-context before: ...ENT**  The Eighth Amendment’s prohibition of “cruel and unusual punishments” forbids executing persons with intellectual disability. *Penry v. Lynaugh*, 492 U.S. 302, 330 (1989) (plurality opinion) (“
-
-quote: “[T]he Eighth Amendment’s prohibition of cruel and unusual punishments ‘may acquire meaning as public opinion becomes enlightened by a humane justice.’”
-
-## 68. gpt54mini 2011-027_quota | cited 450 U.S. 544 (named) | class: packet_material
-
-context before: ...issouri, Madison, and Clark Fork segments as they existed at Montana’s admission in 1889. That is precisely what the doctrine requires. United States v. Utah, 283 U.S. at 83-84 (courts must consider “
-
-quote: “physical characteristics”
-
-## 69. deepseek 2014-024_quota | cited 720 F.3d 411 (named) | class: statutory
-
-context before: ...sel*, 408 F.3d 622, 633 (9th Cir. 2005) (holding that § 875(c) requires “that the defendant intentionally make a statement that a reasonable person would foresee as a threat” but noting that *Black* “
-
-quote: “may require a higher standard”
-
-## 70. gpt54mini 2016-067_temporal | cited 359 U.S. 385 (proximity) | class: packet_material
-
-context before: ...ited States v. American Trucking Associations, Inc., 310 U.S. 534, 542-44 (1940); FTC v. Mandel Brothers, Inc., 359 U.S. 385, 389 (1959). A purchaser who collects debts it now owns is not collecting “
-
-quote: “debts owed or due ... another.”
-
-## 71. mistralsmall 2018-070_quota | cited 895 F.2d 1043 (parenthetical) | class: neither
-
-context before: ...s”).  The Fifth Circuit has consistently applied the “significant void or gap” test under the OCSLA. *See, e.g., Union Texas Petroleum Corp. v. PLT Eng’g, Inc.*, 895 F.2d 1043, 1047 (5th Cir. 1990) (“
-
-quote: “State law is adopted as federal law only where federal law is silent or contains a significant void or gap.”
-
-## 72. qwen30b 2011-027_baseline | cited 94 U.S. 76 (named) | class: neither
-
-context before: ... held that “the title to the bed of a river, which is navigable at the time of the admission of a state into the Union, passes to the state.” The Court emphasized that the determination must be made “
-
-quote: “according to the condition of the river at the time of statehood,”
-
-## 73. qwen30b 2020-067_baseline | cited 507 U.S. 725 (named) | class: statutory
-
-context before: ...burglary convictions under Ohio law, to assess whether the error was likely to have influenced the outcome. This is precisely the kind of inquiry Rule 52(b) permits. As the Supreme Court has stated, “
-
-quote: “the existence of plain error is not to be determined by a mechanical application of a formula, but by a careful examination of the entire record.”
-
-## 74. deepseek 1998-085_quota | cited 461 U.S. 30 (named) | class: neither
-
-context before: ...otation omitted). Absent egregiousness, such punishment is unwarranted.  **C. The Common Law and Precedent Support an Independent Egregiousness Requirement**  At common law, punitive damages require “
-
-quote: “something more than the mere commission of a tort.”
-
-## 75. mistralsmall 1997-021_combo | cited 309 U.S. 206 (parenthetical) | class: neither
-
-context before: ...Act.  The Board’s polling standard contravenes the Act’s policy favoring employee free choice and the use of elections to test union support. *NLRB v. Waterman S.S. Corp.*, 309 U.S. 206, 226 (1946) (“
-
-quote: “The Board’s function is to provide a method by which the true desires of the employees may be ascertained.”
-
-## 76. sonnet 2015-066_stakes | cited 435 U.S. 313 (named) | class: neither
-
-context before: ... with the Constitution." Tribal courts exercise "the continued exercise of retained tribal sovereignty," *United States v. Wheeler*, 435 U.S. 313, 323-24 (1978), and this Court has cautioned against "
-
-quote: “unnecessarily intrud[ing] on tribal self-government”
-
-## 77. sonnet 2015-038_temporal | cited 350 U.S. 222 (proximity) | class: neither
-
-context before: ...ulate navigable waters in the interest of commerce is a broad one," and title to the streambed does not diminish it. United States v. Twin City Power Co., 350 U.S. 222, 224–25 (1956). This servitude "
-
-quote: “is a right of the public which no State can abolish, and no State can compel the United States to pay for,”
-
-## 78. gpt54mini 2020-067_stakes | cited 535 U.S. 55 (proximity) | class: statutory
-
-context before: ...blind to the rest of the record. In *United States v. Vonn*, the Court held that, in assessing a Rule 11 error under plain-error review, a court of appeals “may consult the whole record” rather than “
-
-quote: “the plea colloquy alone.”
-
-## 79. grok43 1990-114_baseline | cited 404 U.S. 336 (proximity) | class: packet_material
-
-context before: ...intrude upon the States’ traditional authority to set qualifications for their own judges. *United States v. Bass*, 404 U.S. 336, 349 (1971). The statutory text and structure confirm that appointees “
-
-quote: “on the policymaking level”
-
-## 80. grok43 2015-055_combo | cited 372 U.S. 335 (proximity) | class: neither
-
-context before: ...or vague criminal liability have consistently been given retroactive effect. Griffin v. Illinois, 351 U.S. 12, 17 (1956); Gideon v. Wainwright, 372 U.S. 335, 344 (1963). Where the defect is one that “
-
-quote: “goes to the very integrity of the fact-finding process,”
-
-## 81. gpt54mini 2019-024_quota | cited 140 S. Ct. 768 (named) | class: neither
-
-context before: ...ons held that unread disclosures alone establish actual knowledge.  The Ninth Circuit’s approach in this case conflicts with that settled understanding. The court acknowledged that Intel’s materials “
-
-quote: “demonstrate[d] that Sulyma had sufficient information available to him,”
-
-## 82. sonnet 1998-026_temporal | cited 332 U.S. 174 (parenthetical) | class: neither
-
-context before: ...tute for direct appeal, and that habeas relief does not lie for every technical noncompliance with procedural rules. See *Sunal v. Large*, 332 U.S. 174, 178 (1947) (holding that habeas corpus is not "
-
-quote: “the equivalent of an appeal”
-
-## 83. qwen30b 2020-012_combo | cited 344 U.S. 33 (named) | class: neither
-
-context before: ... not a mere procedural ruling—it is a conclusive determination that the prior claim is closed.  Further, in *United States v. L. A. Tucker Truck Lines, Inc.*, 344 U.S. 33 (1952), the Court held that “
+context before: ...s not a mere procedural step; it is a definitive conclusion that the prior claim cannot be reopened.  Finally, in *United States v. Western Pacific R.R. Co.*, 352 U.S. 59 (1956), the Court held that “
 
 quote: “a decision is final when it is one which the law makes conclusive.”
 
-## 84. deepseek 1999-033_combo | cited 113 U.S. 27 (named) | class: neither
+## 62. qwen30b 2001-070_combo | cited 370 U.S. 660 (parenthetical) | class: neither
 
-context before: ... of a single individual.  **I. The Equal Protection Clause Requires Discrimination Against a Class or Group**  From its earliest interpretations, this Court has held that the Equal Protection Clause “
+context before: ...r those whose diminished capacity undermines their ability to understand the consequences of their actions or to conform their conduct to the law. *Robinson v. California*, 370 U.S. 660, 667 (1962) (“
 
-quote: “does not require that all persons be dealt with identically, but it does require that a classification bearing a reasonable relation to the purpose of the legislation be not arbitrary.”
+quote: “The Eighth Amendment’s prohibition of cruel and unusual punishments is not confined to barbarous methods of execution. It includes punishments that are excessive in relation to the offense.”
 
-## 85. mistralsmall 2020-032_quota | cited 529 U.S. 277 (named) | class: neither
+## 63. mistralsmall 1990-075_baseline | cited 546 F.2d 910 (named) | class: statutory
 
-context before: ... predicate” to federal jurisdiction. *Honig v. Doe*, 484 U.S. 305, 317 (1988). When the challenged policy is repealed or materially altered, the dispute becomes moot unless the challenged conduct is “
+context before: ...s subdelegation is improper because § 811(h) does not expressly authorize the Attorney General to delegate his temporary scheduling power. This contention ignores the well-established principle that “
 
-quote: “capable of repetition, yet evading review.”
+quote: “[a] statutory grant of authority to an executive officer includes, by implication, the power to delegate that authority to subordinates.”
 
-## 86. sonnet 2012-031_quota | cited 327 U.S. 251 (named) | class: neither
+## 64. mistralsmall 2018-070_temporal | cited 318 U.S. 363 (parenthetical) | class: neither
 
-context before: ...* violation—not from conduct never adjudicated as unlawful. Similarly, in *Bigelow v. RKO Radio Pictures, Inc.*, 327 U.S. 251, 264 (1946), the Court permitted approximation of damages only where the "
+context before: ... 245, 269 (1962) (“[W]here Congress has not spoken to the question, state law is adopted as the federal rule of decision.”); see also Clearfield Trust Co. v. United States, 318 U.S. 363, 367 (1943) (“
 
-quote: “uncertainty as to the amount rather than the fact of damage”
+quote: “[F]ederal courts may avail themselves of state law as the source of decisional law when Congress has not provided the rule of law.”
 
-## 87. qwen30b 2000-087_combo | cited 346 U.S. 502 (named) | class: neither
+## 65. mistralsmall 2005-087_baseline | cited 502 U.S. 62 (parenthetical) | class: neither
 
-context before: ...nal liberty. In *United States v. Morgan*, 346 U.S. 502, 508 (1954), this Court held that “the power to detain a person is not unlimited, even when the person is an alien.” The Court emphasized that “
+context before: ...2720. The Supreme Court has repeatedly recognized that States may structure their criminal trials to minimize the risk of jury confusion. *See, e.g., Estelle v. McGuire*, 502 U.S. 62, 72 n.4 (1991) (“
 
-quote: “the Constitution protects the individual against arbitrary governmental action,”
+quote: “[J]urors do not need instruction on ‘legal principles’ that are not relevant to the issues they must decide.”
 
-## 88. llama4mav 1997-100_baseline | cited 467 U.S. 203 (named) | class: neither
+## 66. gpt54mini 2012-006_combo | cited 354 U.S. 298 (parenthetical) | class: neither
 
-context before: ...ry making a determination based on that evidence. Similarly, in Rumsey, the Court applied the Double Jeopardy Clause to a capital sentencing proceeding in Arizona, noting that the sentencing hearing "
+context before: ... the government must overcome if it wishes to place the defendant inside the limitations period. See Yates v. United States, 354 U.S. 298, 334-35 (1957) (recognizing that a conspirator who withdraws “
 
-quote: “resembled and, indeed, in all relevant respects for double jeopardy purposes was the same as a trial”
+quote: “ceases to be a party to it”
 
-## 89. qwen30b 1997-033_quota | cited 447 F.2d 122 (parenthetical) | class: neither
+## 67. deepseek 2015-007_baseline | cited 513 U.S. 504 (named) | class: neither
 
-context before: ...tion*, 685 F.2d 810, 820 (3d Cir. 1982) (holding that the Panel’s power “does not extend to trial or final disposition”); *Pfizer, Inc. v. Lord*, 447 F.2d 122, 125 (2d Cir. 1971) (acknowledging that “
+context before: ...y findings on specific aggravators. *Ring*, 536 U.S. at 597 n.4.  Indeed, this Court has consistently upheld Florida’s scheme. In *Spaziano v. Florida*, 468 U.S. 447, 465 (1984), the Court held that “
 
-quote: “the Panel’s authority is limited to pretrial proceedings”
+quote: “the Sixth Amendment does not require that a jury make the specific findings necessary to impose the death penalty.”
 
-## 90. qwen30b 2020-005_baseline | cited 471 U.S. 462 (named) | class: neither
+## 68. gpt54mini 2020-005_combo | cited 355 U.S. 220 (proximity) | class: neither
 
-context before: ...onal limits on jurisdiction.  The Due Process Clause does not permit a state to exercise jurisdiction based on the mere foreseeability of harm in a forum state. *See* *Burger King*, 471 U.S. at 475 (“
+context before: ... to require it to answer there for claims tied to those activities. Id.; McGee v. International Life Insurance Co., 355 U.S. 220, 223 (1957). And the Court has repeatedly emphasized that due process “
 
-quote: “Foreseeability alone is not enough.”
+quote: “rejects the notion that a State may exercise personal jurisdiction over a nonresident defendant solely because the defendant’s business happens to reach there;”
 
-## 91. deepseek 2016-001_baseline | cited 57 U.S. 480 (parenthetical) | class: neither
+## 69. mistralsmall 2020-005_combo | cited 22 Ill. 2d 432 (named) | class: packet_material
 
-context before: ...ose is to compensate the patentee for the value of the design, not to grant a monopoly over the entire product. *See* *Seymour v. McCormick*, 57 U.S. 480, 490 (1853) (explaining that damages must be “
+context before: ...); *Perkins v. Benguet Consol. Mining Co.*, 342 U.S. 437, 447 (1952) (jurisdiction exists where the suit “relates to” the defendant’s forum activities). This Court has repeatedly emphasized that the “
 
-quote: “commensurate with the injury”
+quote: “arise out of or relate to”
 
-## 92. sonnet 1990-114_stakes | cited 427 U.S. 307 (named) | class: packet_material
+## 70. qwen30b 2012-029_combo | cited 310 U.S. 534 (named) | class: neither
 
-context before: ... including judges, therefore need only be rationally related to a legitimate state interest. *Id.* at 314–15.  Missouri's rule easily clears that bar. A mandatory retirement age spares the State the "
+context before: ...hat uniformity and create the very “jurisdictional imbalance” that the Supreme Court has sought to prevent. As the Court stated in *United States v. American Trucking Ass’ns, Inc.*, 310 U.S. at 543, “
 
-quote: “unpleasantness of selectively removing aged ... judges”
+quote: “the federal courts are the proper forum for the adjudication of federal rights.”
 
-## 93. grok43 2012-006_temporal | cited 291 U.S. 82 (proximity) | class: neither
+## 71. sonnet 1990-114_baseline | cited 427 U.S. 307 (named) | class: packet_material
 
-context before: ...eyond a reasonable doubt is longstanding. See Davis v. United States, 160 U.S. 469, 488 (1895) ("the burden of proof... is upon the prosecution"). Shifting that burden would contravene the rule that "
+context before: ...ri's decision to require its judges to retire at seventy is exactly such a decision.  Nothing in the ADEA clearly extends its coverage to state judges. The Eighth Circuit correctly held that because "
 
-quote: “the prosecution must prove every essential element.”
+quote: “the tenure of state judges is a matter of considerable importance to a state, and one that traditionally has been left to each state to regulate,”
 
-## 94. deepseek 2015-066_quota | cited 440 U.S. 367 (proximity) | class: packet_material
+## 72. deepseek 1998-085_temporal | cited 16 U.S.(3 Wheat.) 546 (named) | class: neither
 
-context before: ... term of imprisonment was imposed under *Scott v. Illinois*, 440 U.S. 367 (1979)—may be used to enhance a later sentence. *Nichols*, 511 U.S. at 746–47. The Court emphasized that recidivist statutes “
+context before: ...s because the evidence did not meet this threshold.  ### I. The Common Law Requires Egregious or Outrageous Conduct for Punitive Damages  Punitive damages have long been reserved for conduct that is “
 
-quote: “penaliz[e] only the last offense committed by the defendant.”
+quote: “gross and wanton outrage.”
 
-## 95. deepseek 2009-045_temporal | cited 105 U.S. 527 (named) | class: neither
+## 73. mistralsmall 1997-033_combo | cited 263 U.S. 291 (parenthetical) | class: neither
 
-context before: ...n the exercise of sound judicial discretion,” and that discretion necessarily includes evaluating the quality of counsel’s work and the results achieved. Congress, in enacting fee-shifting statutes, “
+context before: ... parties."). This Court has repeatedly held that a court’s lack of subject-matter jurisdiction renders its judgment void ab initio. *See, e.g., Binderup v. Pathe Exchange*, 263 U.S. 291, 305 (1923) ("
 
-quote: “did not intend to exclude the traditional equitable factors that have long guided courts in awarding fees.”
+quote: “A judgment rendered by a court without jurisdiction is a nullity.”
 
-## 96. qwen30b 2015-055_stakes | cited 564 U.S. 462 (parenthetical) | class: neither
+## 74. sonnet 2020-032_stakes | cited 455 U.S. 283 (named) | class: neither
 
-context before: ...ule that *Teague* permits to be applied retroactively. The Court has repeatedly held that rules that invalidate laws for vagueness are retroactive. See *Stern v. Marshall*, 564 U.S. 462, 494 (2011) (“
+context before: ...continue challenged policies. In *City of Mesquite v. Aladdin's Castle, Inc.*, 455 U.S. 283 (1982), the Court observed that voluntary cessation by a government actor carries a "presumption" that the "
 
-quote: “[A] rule that invalidates a statute for vagueness is a rule of constitutional law that applies retroactively.”
+quote: “actions were taken in good faith,”
 
-## 97. llama4mav 1997-046_quota | cited 81 F.3d 515 (parenthetical) | class: neither
+## 75. sonnet 2016-063_temporal | cited 377 U.S. 426 (named) | class: neither
 
-context before: ...ecutive discretion, and the decision to grant or deny it is not subject to the same due process requirements as a judicial proceeding. See also, Faulder v. Johnson, 81 F.3d 515, 517 (5th Cir. 1996) ("
+context before: ... discrimination, or to supply a private remedy, so as to effectuate rather than frustrate its protective purpose. In *J.I. Case Co. v. Borak*, 377 U.S. 426 (1964), the Court adopted the construction "
 
-quote: “Clemency proceedings are not part of the trial.”
+quote: “consistent with the general purpose”
 
-## 98. deepseek 1997-046_baseline | cited 465 U.S. 420 (parenthetical) | class: neither
+## 76. grok43 1990-114_baseline | cited 404 U.S. 336 (proximity) | class: packet_material
+
+context before: ...ations for their own judges. *United States v. Bass*, 404 U.S. 336, 349 (1971). The statutory text and structure confirm that appointees “on the policymaking level” encompass those who, like judges, “
+
+quote: “exercise the same sort of discretion in decisionmaking”
+
+## 77. grok43 1992-086_combo | cited 340 U.S. 290 (named) | class: neither
+
+context before: ...ose when it induces a condition of unrest, creates dissatisfaction with conditions as they are, or even stirs people to anger.”).  Nor may the State justify the exclusion as mere content regulation. “
+
+quote: “The right to speak … is not confined to any field of human interest.”
+
+## 78. grok43 2016-063_stakes | cited 158 F.3d 597 (named) | class: packet_material
+
+context before: ... and merits dismissals, confirming that the forum for review is determined by the character of the case presented to the Board, not by the Board’s disposition. 568 U.S. at 52-55. Because *Kloeckner* “
+
+quote: “effectively overrules”
+
+## 79. gpt54mini 2020-032_temporal | cited 319 U.S. 41 (named) | class: neither
+
+context before: ...t secures a judgment that the challenged policy was unconstitutional as applied to petitioners. Likewise, *St. Pierre v. United States*, 319 U.S. 41, 42 (1943), teaches that a case is not moot where “
+
+quote: “collateral consequences”
+
+## 80. sonnet 2000-071_combo | cited 333 U.S. 203 (named) | class: packet_material
+
+context before: ..." *Hague v. Committee for Indus. Org.*, 307 U.S. 496, 515 (1939). Milford's building is a facility of limited and specific dedication—to the education of children during the day and, after hours, to "
+
+quote: “social, civic and recreational”
+
+## 81. qwen30b 2020-032_combo | cited 345 U.S. 629 (proximity) | class: neither
+
+context before: ... 345 U.S. 629 (1953). There, the Court held that a claim for nominal damages does not prevent a case from becoming moot when the challenged conduct has ceased. *Id.* at 633. The Court explained that “
+
+quote: “the mere fact that a plaintiff seeks nominal damages does not create a justiciable controversy where none exists.”
+
+## 82. deepseek 1999-033_combo | cited 165 U.S. 150 (proximity) | class: neither
+
+context before: ...s from being singled out as a special subject for discriminating and hostile legislation.” *Gulf, Colorado & Santa Fe Ry. v. Ellis*, 165 U.S. 150, 155 (1897). A plaintiff must show that she has been “
+
+quote: “subjected to an invidious discrimination”
+
+## 83. mistralsmall 2020-058_temporal | cited 353 U.S. 194 (named) | class: neither
+
+context before: ...nores the statutory framework. In *United States v. Witkovich*, 353 U.S. 194 (1957), the Supreme Court rejected a similar attempt to divorce statutory terms from their ordinary meaning, holding that “
+
+quote: “[w]here Congress has defined a term, that definition must be applied.”
+
+## 84. sonnet 2015-007_baseline | cited 406 U.S. 404 (parenthetical) | class: neither
+
+context before: ...ong held that the jury-trial guarantee tolerates non-unanimous verdicts in analogous contexts. *See Apodaca v. Oregon*, 406 U.S. 404, 406 (1972) (plurality) (upholding non-unanimous verdicts because "
+
+quote: “[t]he fact of unanimity... [is not] so fundamental to the essentials of jury trial”
+
+## 85. qwen30b 2001-013_temporal | cited 310 U.S. 534 (proximity) | class: neither
+
+context before: ...0), the Court held that the Federal Motor Carrier Safety Act did not preclude the application of state safety laws unless Congress had clearly intended to occupy the field. The Court emphasized that “
+
+quote: “the mere fact that a federal statute regulates a particular subject does not necessarily exclude the application of state laws.”
+
+## 86. llama4mav 2005-087_combo | cited 225 U.S. 167 (named) | class: neither
+
+context before: ...does not guarantee a defendant the right to present all evidence he desires." 279 U.S. at 269 (citing  Fong Yue Ting v. United States, 149 U.S. 698 (1893)). Similarly, in Jordan, the Court held that "
+
+quote: “the state has the right to regulate the presentation of evidence in its courts.”
+
+## 87. qwen30b 1997-046_baseline | cited 41 L. Ed. 2d 935 (proximity) | class: neither
+
+context before: ...y created by state law, but are “independent of any state procedure.” *Wolff v. McDonnell*, 418 U.S. 539, 558, 94 S.Ct. 2963, 2976, 41 L.Ed.2d 935 (1974). While the Supreme Court has recognized that “
+
+quote: “a State may, in its discretion, grant clemency,”
+
+## 88. qwen30b 2020-012_stakes | cited 464 U.S. 154 (named) | class: neither
+
+context before: ...im is not a procedural formality but a substantive determination with real consequences—precluding the claimant from obtaining benefits that may have been due earlier. As the Supreme Court has held, “
+
+quote: “a decision is final when it terminates the litigation and leaves nothing further to be done by the agency.”
+
+## 89. deepseek 2016-001_combo | cited 94 U.S. 728 (named) | class: neither
+
+context before: ... nexus: the profit must be *from* the design, not from other features of the product. *Blake v. Robertson*, 94 U.S. 728, 733 (1876), applied the same principle, holding that the plaintiff must prove “
+
+quote: “the profits made by the defendant from the use of the patented invention.”
+
+## 90. sonnet 1997-033_baseline | cited 447 F.2d 122 (named) | class: both
+
+context before: ...suant to 28 U.S.C. § 1404(a)." Pet. App. 12. A Panel rule, however, cannot override an unambiguous statutory command. As Judge Kozinski's dissent below recognized, courts confronting this issue have "
+
+quote: “simply disregarded the statutory mandate,”
+
+## 91. grok43 2013-068_stakes | cited 386 F.3d 45 (parenthetical) | class: packet_material
+
+context before: ... Id. at 729. The record confirms that these means have permitted continued communication with patients. See McGuire v. Reilly (McGuire II), 386 F.3d 45, 52 (1st Cir. 2004) (similar restrictions left “
+
+quote: “adequate, if not perfect, alternative means”
+
+## 92. deepseek 2015-066_temporal | cited 118 U.S. 375 (parenthetical) | class: neither
+
+context before: ...mendment grand jury requirement inapplicable to tribal courts). The Sixth Amendment, like the Fifth, “does not apply to Indian tribes.” *United States v. Kagama*, 118 U.S. 375, 381 (1886) (tribes as “
+
+quote: “domestic dependent nations”
+
+## 93. deepseek 2010-026_baseline | cited 898 F.2d 793 (named) | class: packet_material
+
+context before: ...**ARGUMENT**  **THE NINTH CIRCUIT’S “PREDOMINANTLY INTERNAL” STANDARD FOR EXEMPTION 2 VIOLATES THE TEXT, STRUCTURE, AND PURPOSE OF FOIA.**  The Freedom of Information Act mandates “
+
+quote: “a general philosophy of full agency disclosure,”
+
+## 94. qwen30b 2016-001_combo | cited 167 U.S. 224 (named) | class: neither
+
+context before: ... context is a departure from established precedent.  The Federal Circuit’s decision also conflicts with *United States v. American Bell Telephone Co.*, 167 U.S. 224 (1897), where the Court held that “
+
+quote: “the patentee is not entitled to the entire profit from the article, but only to such profit as is attributable to the patented feature.”
+
+## 95. llama4mav 2005-074_baseline | cited 229 F.3d 406 (proximity) | class: neither
+
+context before: ...tached to events completed before the statute's enactment.  The Court has identified several factors to consider when determining whether a statute has an impermissible retroactive effect, including "
+
+quote: “the nature and extent of the change in the law, the degree of connection between the operation of the new law and a relevant past event, and the extent to which the new law upsets settled expectations”
+
+## 96. deepseek 1997-046_baseline | cited 465 U.S. 420 (parenthetical) | class: neither
 
 context before: ... could later be used against Woodard in some hypothetical future proceeding does not render the procedure coercive. *Cf. Minnesota v. Murphy*, 465 U.S. 420, 427 (1984) (no compulsion where defendant “
 
 quote: “could have chosen to remain silent”
 
-## 99. mistralsmall 1999-033_combo | cited 321 U.S. 1 (named) | class: neither
+## 97. mistralsmall 2000-071_combo | cited 397 U.S. 664 (id) | class: neither
 
-context before: ...S ARE IRRELEVANT WHERE THE MOTIVATION WAS ILL WILL.  Where state action is motivated by ill will, the Village’s proffered justifications for its actions are irrelevant. *See Snowden*, 321 U.S. at 8 (“
+context before: ...use because the forum was open to other groups discussing family values. 508 U.S. at 394. Here, by contrast, Milford has never opened its forum to religious worship or instruction. *See id.* at 395 (“
 
-quote: “[T]he illegality of the discrimination does not depend upon the existence of a legitimate justification for the action.”
+quote: “[T]he District’s property was not generally opened to public use by all groups.”
 
-## 100. mistralsmall 2000-071_stakes | cited 473 U.S. 788 (named) | class: neither
+## 98. mistralsmall 2001-013_baseline | cited 720 F.2d 825 (named) | class: neither
 
-context before: ... alike, and Milford permitted numerous secular groups—including the Boy Scouts, Girl Scouts, and 4-H Club—to use its facilities. *See Cornelius*, 473 U.S. at 806 (a policy is viewpoint neutral if it “
+context before: ... is limited to maritime safety, not occupational safety. *See Donovan v. Texaco, Inc.*, 720 F.2d 825, 827 (5th Cir. 1983) (holding that OSHA’s exclusion applies only where another agency’s authority “
 
-quote: “applies to all speech irrespective of content”
+quote: “affects occupational safety or health”
 
-## 101. gpt54mini 1998-085_stakes | cited 388 U.S. 130 (parenthetical) | class: neither
+## 99. gpt54mini 1999-033_combo | cited 368 U.S. 448 (named) | class: neither
 
-context before: ...1), and this Court should give the statutory words the same effect. See *Curtis Publishing Co. v. Butts*, 388 U.S. 130, 158 (1967) (opinion of Harlan, J.) (punitive damages depend on the defendant’s “
+context before: ...d,” not when officials simply err or act irregularly. 321 U.S. at 8. Likewise, *Oyler v. Boles*, 368 U.S. 448, 456 (1962), held that selective enforcement is not unconstitutional absent a showing of “
 
-quote: “knowledge that [it] was acting in violation of law”
+quote: “intentional or purposeful discrimination.”
 
-## 102. qwen30b 2012-029_temporal | cited 337 U.S. 541 (named) | class: packet_material
+## 100. qwen30b 2013-058_combo | cited 308 U.S. 188 (proximity) | class: neither
 
-context before: ...dustrial Loan Corp.*, 337 U.S. 541, 546 (1949). This principle was reaffirmed in *Hartford Fire Ins. Co. v. California*, 509 U.S. 764, 787 (1993), which cited *Cohen* as the leading authority on the “
+context before: ...a trust fund created for the benefit of a beneficiary’s future retirement was exempt from creditors’ claims, even though the beneficiary had not yet reached retirement age. The Court emphasized that “
 
-quote: “well-pleaded complaint”
+quote: “the character of the fund is determined by its purpose at the time of its creation,”
 
-## 103. qwen30b 2001-070_quota | cited 492 U.S. 302 (named) | class: neither
+## 101. qwen30b 2005-074_temporal | cited 345 U.S. 22 (named) | class: neither
 
-context before: ...impaired his ability to appreciate the wrongfulness of his conduct and to conform his behavior to the law. *See *Penry*, 492 U.S. at 330 (plurality opinion) (recognizing that intellectual disability “
+context before: ...the law to prior orders. But the absence of a saving clause does not imply retroactive application. *United States v. American Trucking Ass’ns*, 310 U.S. at 543. The Court has consistently held that “
 
-quote: “may affect the defendant’s capacity to appreciate the wrongfulness of his conduct”
+quote: “the mere fact that a statute is silent as to its retroactive effect does not justify its application to past conduct.”
 
-## 104. deepseek 1992-109_baseline | cited 362 U.S. 402 (named) | class: packet_material
+## 102. deepseek 1992-109_baseline | cited 362 U.S. 402 (named) | class: packet_material
 
 context before: ...court-appointed psychiatrists. Dr. O'Gorman concluded that Moran was "knowledgeable of the charges being made against him," could "assist his attorney, in his own defense, if he so desires," and was "
 
 quote: “fully cognizant of the penalties if convicted.”
 
-## 105. gpt54mini 2015-055_baseline | cited 542 U.S. 348 (named) | class: neither
+## 103. gpt54mini 2015-055_stakes | cited 523 U.S. 614 (proximity) | class: neither
 
-context before: ...e unless another ACCA provision independently applies. **Welch, 578 U.S. at 129-30**.  The government cannot avoid retroactivity by recasting Johnson as procedural. A rule is procedural only when it “
+context before: ...mmerlin*, 542 U.S. 348, 351–52 (2004). A rule is substantive if it “alters the range of conduct or the class of persons that the law punishes.” *Id.* at 353. Substantive rules include decisions that “
 
-quote: “regulate[s] only the manner of determining the defendant’s culpability.”
+quote: “narrow[] the scope of a criminal statute by interpreting its terms,”
 
-## 106. mistralsmall 2019-024_quota | cited 528 U.S. 549 (named) | class: neither
+## 104. mistralsmall 2020-012_stakes | cited 400 U.S. 62 (id) | class: neither
 
-context before: ...2 (holding that actual knowledge of the transaction, not knowledge of its legal impropriety, triggers the limitations period). This distinction is consistent with the Supreme Court’s admonition that “
+context before: ...uest concluded the administrative process and definitively foreclosed his ability to challenge the 2006 denial. See id. (finding finality where agency action “alters the legal landscape” and imposes “
 
-quote: “[t]he statute of limitations does not begin to run until the plaintiff knows or has reason to know of the injury that is the basis of the action.”
+quote: “direct and appreciable legal consequences”
 
-## 107. mistralsmall 2000-071_stakes | cited 508 U.S. 384 (named) | class: packet_material
+## 105. mistralsmall 2001-013_baseline | cited 720 F.2d 825 (named) | class: statutory
 
-context before: ...shable from religious worship. *See id.* at 268 (describing similar activities as “religious worship and discussion”); *Lamb’s Chapel*, 508 U.S. at 395 (noting that prayer and religious teaching are “
+context before: ....01. These regulations do not address occupational hazards unique to industrial operations, such as drilling activities. *See Donovan*, 720 F.2d at 828 (noting that the Coast Guard’s regulations are “
 
-quote: “quintessentially religious”
+quote: “geared to the safety of the vessel and its crew, not to the safety of the workplace environment”
 
-## 108. grok43 1998-085_temporal | cited 54 U.S.(13 How.) 363 (named) | class: neither
+## 106. grok43 2000-071_combo | cited 374 U.S. 203 (named) | class: neither
 
-context before: ... wanton, or where the negligence has been gross.” Lake Shore & Michigan Southern Ry. v. Prentice, 147 U.S. 101, 107 (1893).  These standards trace to the common-law rule that punitive damages punish “
+context before: ... constitutional bounds by declining to furnish a venue for the Club's devotional program. See Engel v. Vitale, 370 U.S. 421, 431 (1962) (holding that government may not "compose official prayers" or "
 
-quote: “a wrongdoer for some act of an aggravated character.”
+quote: “require that those prayers be recited”
 
-## 109. qwen30b 2001-013_stakes | cited 529 U.S. 89 (named) | class: neither
+## 107. qwen30b 2005-074_quota | cited 457 U.S. 537 (proximity) | class: neither
 
-context before: ...oyers could avoid federal safety oversight simply by operating without Coast Guard inspection—precisely the kind of regulatory gap Congress sought to prevent. As the Supreme Court warned in *Locke*, “
+context before: ...etroactive application of a sentencing enhancement because the defendant had been convicted under a statute that did not then contain the enhancement. But the Court emphasized that the defendant had “
 
-quote: “Congress did not intend to allow employers to escape federal safety standards by exploiting gaps in other agencies’ authority.”
+quote: “no legitimate claim of entitlement”
 
-## 110. grok43 2015-038_temporal | cited 167 U.S. 518 (parenthetical) | class: neither
+## 108. grok43 2016-001_baseline | cited 114 U.S. 439 (parenthetical) | class: neither
 
-context before: ...The Property Clause vests Congress with power to make all needful rules respecting federal property. U.S. Const. art. IV, § 3, cl. 2; Camfield v. United States, 167 U.S. 518, 525 (1897) (“
+context before: ...fg. Co. v. White, 81 U.S. (14 Wall.) 511, 525 (1871). The profits remedy is correspondingly limited to the article embodying that design. See Dobson v. Hartford Carpet Co., 114 U.S. 439, 445 (1885) (“
 
-quote: “the power vested in the United States to protect its property”
+quote: “The plaintiff … is entitled to recover … the profit which the defendant made by the use of the design.”
 
-## 111. gpt54mini 2012-006_stakes | cited 225 U.S. 347 (named) | class: neither
+## 109. gpt54mini 2012-031_baseline | cited 552 F.3d 305 (named) | class: statutory
 
-context before: ...11, 118-19. Because withdrawal is an affirmative defense, the burden of persuasion rests on the defendant, not the Government. Id. at 110-11, 118.  That allocation follows the longstanding rule that “
+context before: ...d overbuilder competition—but nevertheless accepted a damages model that did not measure damages attributable solely to that theory. The result conflicts with Rule 23 because the proposed model must “
 
-quote: “the burden of proving withdrawal rests on the defendant.”
+quote: “measure only those damages attributable to”
 
-## 112. sonnet 2011-027_quota | cited 403 U.S. 9 (named) | class: neither
+## 110. sonnet 2013-068_stakes | cited 485 U.S. 312 (named) | class: neither
 
-context before: ...s*. In *Utah v. United States*, 403 U.S. 9 (1971), the Court considered evidence of the Great Salt Lake's condition both before and after statehood in determining title navigability, explaining that "
+context before: ...State's interests in protecting access and privacy, and providing the police with clear guidelines, are unrelated to the content of the demonstrators' speech." 530 U.S. at 725. A state's interest in "
 
-quote: “the question ... is one of fact to be resolved in light of the greatest number of factors bearing on the natural and probable use of the river.”
+quote: “ensuring the public safety and order, in promoting the free flow of traffic on public streets and sidewalks... [is] all content neutral.”
 
-## 113. deepseek 1990-075_combo | cited 332 U.S. 245 (named) | class: neither
+## 111. deepseek 1990-075_combo | cited 332 U.S. 245 (named) | class: neither
 
 context before: ... Court has repeatedly upheld. In *Yakus v. United States*, 321 U.S. 414, 420 (1944), this Court sustained a delegation to the Price Administrator to fix prices that would be “fair and equitable” and “
 
 quote: “effectuate the purposes of this Act.”
 
-## 114. mistralsmall 2015-066_combo | cited 413 U.S. 300 (parenthetical) | class: neither
+## 112. mistralsmall 2016-067_combo | cited 341 U.S. 48 (named) | class: neither
 
-context before: ...nt’s right to counsel is not merely a procedural formality; it is a structural guarantee designed to ensure the reliability of criminal convictions. *United States v. Ash*, 413 U.S. 300, 309 (1973) (“
+context before: ... Supreme Court has repeatedly emphasized that statutory definitions must be read in their entirety. In **United States v. Alcea Band of Tillamooks**, 341 U.S. 48, 54 (1951), the Court explained that “
 
-quote: “The Sixth Amendment right to counsel exists to ensure that criminal trials are conducted fairly and reliably.”
+quote: “[w]here Congress has defined a term, that definition controls the meaning of the term in the statute.”
 
-## 115. sonnet 2012-006_temporal | cited 218 U.S. 601 (named) | class: neither
+## 113. sonnet 2014-024_quota | cited 320 U.S. 277 (proximity) | class: neither
 
-context before: ...rship in it, is inherently a matter of duration. This Court recognized as much in *United States v. Kissel*, 218 U.S. 601 (1910), explaining that a conspiracy "may be a continuing one" that persists "
+context before: ...ermitting the conviction of individuals who lacked any intent to threaten, resting culpability instead on the fortuity of a listener's subjective reaction. As this Court has cautioned, a rule of law "
 
-quote: “until abandoned or accomplished.”
+quote: “requiring proof of a defendant's state of mind”
 
-## 116. mistralsmall 1997-021_combo | cited 314 U.S. 469 (parenthetical) | class: neither
+## 114. mistralsmall 1997-033_quota | cited 659 F.2d 1341 (parenthetical) | class: neither
 
-context before: ...ia of waning union support. The Act does not require employers to prove a union’s loss of majority status with mathematical precision. *NLRB v. Virginia Elec. & Power Co.*, 314 U.S. 469, 479 (1941) (“
+context before: ...599 (7th Cir. 1981) ("Section 1407 is a procedural statute, authorizing transfer only for pretrial proceedings."); *In re Corrugated Container Antitrust Litig.,* 659 F.2d 1341, 1345 (5th Cir. 1981) ("
 
-quote: “The Board is not required to establish its case by evidence which would be admissible in a court of law.”
+quote: “The statute is explicit: after pretrial proceedings, the Panel 'shall' remand.”
 
-## 117. deepseek 1999-051_baseline | cited 433 U.S. 72 (proximity) | class: neither
+## 115. deepseek 1999-051_quota | cited 477 U.S. 365 (parenthetical) | class: neither
 
-context before: ...idence claim. This Court has long held that a habeas petitioner must demonstrate “cause and prejudice” to overcome a procedural default. *Wainwright v. Sykes*, 433 U.S. 72, 87 (1977). Cause requires “
+context before: ...v. Washington*, 466 U.S. 668, 686 (1984), which recognizes effective assistance as a fundamental safeguard of adversarial testing. *See Kimmelman v. Morrison*, 477 U.S. 365, 382 (1986) (holding that “
 
-quote: “some objective factor external to the defense”
+quote: “where a constitutional violation actually caused petitioner’s forfeiture of a state remedy, that violation may serve as cause”
 
-## 118. qwen30b 2005-087_combo | cited 333 U.S. 364 (proximity) | class: neither
+## 116. qwen30b 2010-026_baseline | cited 96 S. Ct. 1592 (proximity) | class: neither
 
-context before: ...t to introduce evidence which would negate an essential element of the crime unless such evidence is offered in support of a defense recognized by the State.” Id. at 395. The Court further held that “
+context before: ...urt emphasized that Exemption 2 “is not a general exemption for all information that might be sensitive or potentially harmful if disclosed,” but rather “a narrow exception” designed to protect only “
 
-quote: “the State may define the elements of the crime and the defenses to it,”
+quote: “the most mundane and routine internal administrative matters.”
 
-## 119. qwen30b 1999-051_baseline | cited 477 U.S. 478 (named) | class: neither
+## 117. qwen30b 2000-071_combo | cited 310 U.S. 296 (named) | class: neither
 
-context before: ...al default. See Wainwright v. Sykes, 433 U.S. 72, 87 (1977) (“[T]he failure of counsel to raise a claim on appeal may constitute cause for a procedural default.”); see also Carrier, 477 U.S. at 488 (“
+context before: ...ups, even those engaged in non-religious activities. In *Cantwell v. Connecticut*, 310 U.S. 296, 303 (1940), the Supreme Court held that “the right to speak and to publish is not absolute,” and that “
 
-quote: “[C]ounsel’s ineffectiveness may constitute cause for a procedural default.”
+quote: “the state may impose reasonable regulations upon the time, place, and manner of expression.”
 
-## 120. llama4mav 2020-032_baseline | cited 868 F.3d 1248 (named) | class: packet_material
+## 118. mistralsmall 1992-086_baseline | cited 515 U.S. 819 (named) | class: packet_material
 
-context before: ..., LLC v. Nike, Inc., 568 U.S. 85 (2013), a case becomes moot when the parties no longer have a legally cognizable interest in the outcome. Id. at 91. Here, Georgia Gwinnett College (GGC) revised its "
+context before: ...mmodating student meetings created a forum generally open to student groups, and thus the university could not exclude religious speech without violating the First Amendment. The Court reasoned that “
 
-quote: “Freedom of Expression Policy”
+quote: “[t]hrough its policy of accommodating their meetings, the University has created a forum generally open for use by student groups,”
+
+## 119. qwen30b 1997-033_quota | cited 685 F.2d 810 (parenthetical) | class: neither
+
+context before: ...C. § 1407(a). The Panel’s authority is strictly limited to pretrial coordination. *See, e.g., In re Fine Paper Antitrust Litigation*, 685 F.2d 810, 820 (3d Cir. 1982) (holding that the Panel’s power “
+
+quote: “does not extend to trial or final disposition”
+
+## 120. deepseek 2005-074_temporal | cited 292 U.S. 443 (named) | class: neither
+
+context before: ...ion would violate the “well-settled” presumption against retroactive legislation. *See United States v. Delaware & Hudson Co.*, 213 U.S. 366, 408 (1909). A statute is impermissibly retroactive if it “
+
+quote: “impairs rights a party possessed when he acted, increases a party’s liability for past conduct, or imposes new duties with respect to transactions already completed.”

@@ -32,33 +32,33 @@
   "holm_p": 1.0
  },
  "quote:deepseek:quota": {
-  "OR": 0.957,
-  "ci_low": 0.598,
-  "ci_high": 1.531,
-  "p": 0.85412,
+  "OR": 0.958,
+  "ci_low": 0.596,
+  "ci_high": 1.537,
+  "p": 0.85736,
   "n": 1270,
-  "holm_p": 0.8541
+  "holm_p": 0.8574
  },
  "quote:deepseek:temporal": {
-  "OR": 0.465,
-  "ci_low": 0.29,
-  "ci_high": 0.746,
-  "p": 0.00149,
+  "OR": 0.456,
+  "ci_low": 0.285,
+  "ci_high": 0.731,
+  "p": 0.0011,
   "n": 1270,
-  "holm_p": 0.0104
+  "holm_p": 0.0077
  },
  "quote:deepseek:stakes": {
-  "OR": 0.948,
-  "ci_low": 0.62,
-  "ci_high": 1.449,
-  "p": 0.80464,
+  "OR": 0.95,
+  "ci_low": 0.628,
+  "ci_high": 1.437,
+  "p": 0.80703,
   "n": 1270,
   "holm_p": 1.0
  },
  "quote:deepseek:combo": {
-  "OR": 0.366,
-  "ci_low": 0.255,
-  "ci_high": 0.526,
+  "OR": 0.359,
+  "ci_low": 0.25,
+  "ci_high": 0.517,
   "p": 0.0,
   "n": 1270,
   "holm_p": 0.0
@@ -93,39 +93,39 @@
   "ci_high": 1.084,
   "p": 0.08354,
   "n": 2639,
-  "holm_p": 0.5848
+  "holm_p": 0.5012
  },
  "quote:gpt54mini:quota": {
-  "OR": 1.472,
-  "ci_low": 0.794,
-  "ci_high": 2.728,
-  "p": 0.21991,
+  "OR": 1.369,
+  "ci_low": 0.659,
+  "ci_high": 2.842,
+  "p": 0.39965,
   "n": 534,
-  "holm_p": 0.8796
+  "holm_p": 1.0
  },
  "quote:gpt54mini:temporal": {
-  "OR": 0.457,
-  "ci_low": 0.233,
-  "ci_high": 0.895,
-  "p": 0.02245,
+  "OR": 0.388,
+  "ci_low": 0.189,
+  "ci_high": 0.798,
+  "p": 0.00999,
   "n": 534,
-  "holm_p": 0.1796
+  "holm_p": 0.0799
  },
  "quote:gpt54mini:stakes": {
-  "OR": 1.11,
-  "ci_low": 0.57,
-  "ci_high": 2.162,
-  "p": 0.75825,
+  "OR": 1.064,
+  "ci_low": 0.515,
+  "ci_high": 2.196,
+  "p": 0.86765,
   "n": 534,
   "holm_p": 1.0
  },
  "quote:gpt54mini:combo": {
-  "OR": 0.562,
-  "ci_low": 0.284,
-  "ci_high": 1.114,
-  "p": 0.09881,
+  "OR": 0.495,
+  "ci_low": 0.228,
+  "ci_high": 1.072,
+  "p": 0.07434,
   "n": 534,
-  "holm_p": 0.5929
+  "holm_p": 0.5204
  },
  "citation:grok43:quota": {
   "OR": 1.19,
@@ -160,36 +160,36 @@
   "holm_p": 1.0
  },
  "quote:grok43:quota": {
-  "OR": 1.257,
-  "ci_low": 0.784,
-  "ci_high": 2.016,
-  "p": 0.34309,
-  "n": 671,
+  "OR": 1.227,
+  "ci_low": 0.736,
+  "ci_high": 2.045,
+  "p": 0.43226,
+  "n": 667,
   "holm_p": 1.0
  },
  "quote:grok43:temporal": {
-  "OR": 0.867,
-  "ci_low": 0.49,
-  "ci_high": 1.533,
-  "p": 0.62331,
-  "n": 671,
+  "OR": 0.798,
+  "ci_low": 0.422,
+  "ci_high": 1.507,
+  "p": 0.48657,
+  "n": 667,
   "holm_p": 1.0
  },
  "quote:grok43:stakes": {
-  "OR": 1.606,
-  "ci_low": 1.023,
-  "ci_high": 2.521,
-  "p": 0.03947,
-  "n": 671,
-  "holm_p": 0.3158
+  "OR": 1.478,
+  "ci_low": 0.862,
+  "ci_high": 2.534,
+  "p": 0.15539,
+  "n": 667,
+  "holm_p": 1.0
  },
  "quote:grok43:combo": {
-  "OR": 0.739,
-  "ci_low": 0.464,
-  "ci_high": 1.179,
-  "p": 0.20507,
-  "n": 671,
-  "holm_p": 1.0
+  "OR": 0.651,
+  "ci_low": 0.385,
+  "ci_high": 1.1,
+  "p": 0.10904,
+  "n": 667,
+  "holm_p": 0.8723
  },
  "citation:llama4mav:quota": {
   "OR": 1.539,
@@ -213,7 +213,7 @@
   "ci_high": 2.355,
   "p": 0.82622,
   "n": 1668,
-  "holm_p": 0.8262
+  "holm_p": 1.0
  },
  "citation:llama4mav:combo": {
   "OR": 0.696,
@@ -224,36 +224,36 @@
   "holm_p": 1.0
  },
  "quote:llama4mav:quota": {
-  "OR": 1.3,
-  "ci_low": 0.545,
-  "ci_high": 3.104,
-  "p": 0.55391,
+  "OR": 1.204,
+  "ci_low": 0.463,
+  "ci_high": 3.131,
+  "p": 0.70298,
   "n": 289,
   "holm_p": 1.0
  },
  "quote:llama4mav:temporal": {
-  "OR": 0.47,
-  "ci_low": 0.192,
-  "ci_high": 1.155,
-  "p": 0.09975,
+  "OR": 0.412,
+  "ci_low": 0.155,
+  "ci_high": 1.092,
+  "p": 0.07454,
   "n": 289,
-  "holm_p": 0.6983
+  "holm_p": 0.5218
  },
  "quote:llama4mav:stakes": {
-  "OR": 1.52,
-  "ci_low": 0.742,
-  "ci_high": 3.115,
-  "p": 0.25263,
+  "OR": 1.083,
+  "ci_low": 0.507,
+  "ci_high": 2.314,
+  "p": 0.83655,
   "n": 289,
-  "holm_p": 1.0
+  "holm_p": 0.8366
  },
  "quote:llama4mav:combo": {
-  "OR": 0.469,
-  "ci_low": 0.205,
-  "ci_high": 1.073,
-  "p": 0.07285,
+  "OR": 0.349,
+  "ci_low": 0.157,
+  "ci_high": 0.775,
+  "p": 0.00969,
   "n": 289,
-  "holm_p": 0.5828
+  "holm_p": 0.0775
  },
  "citation:mistralsmall:quota": {
   "OR": 1.41,
@@ -288,36 +288,36 @@
   "holm_p": 0.6596
  },
  "quote:mistralsmall:quota": {
-  "OR": 1.039,
-  "ci_low": 0.62,
-  "ci_high": 1.743,
-  "p": 0.88362,
+  "OR": 1.082,
+  "ci_low": 0.643,
+  "ci_high": 1.82,
+  "p": 0.76619,
   "n": 1025,
-  "holm_p": 0.8836
+  "holm_p": 0.7662
  },
  "quote:mistralsmall:temporal": {
   "OR": 0.647,
-  "ci_low": 0.384,
-  "ci_high": 1.09,
-  "p": 0.10197,
+  "ci_low": 0.386,
+  "ci_high": 1.086,
+  "p": 0.09931,
   "n": 1025,
-  "holm_p": 0.5099
+  "holm_p": 0.4965
  },
  "quote:mistralsmall:stakes": {
-  "OR": 1.058,
-  "ci_low": 0.704,
-  "ci_high": 1.59,
-  "p": 0.78729,
+  "OR": 1.118,
+  "ci_low": 0.734,
+  "ci_high": 1.702,
+  "p": 0.60443,
   "n": 1025,
   "holm_p": 1.0
  },
  "quote:mistralsmall:combo": {
-  "OR": 0.482,
-  "ci_low": 0.293,
-  "ci_high": 0.792,
-  "p": 0.004,
+  "OR": 0.497,
+  "ci_low": 0.303,
+  "ci_high": 0.817,
+  "p": 0.0058,
   "n": 1025,
-  "holm_p": 0.032
+  "holm_p": 0.0464
  },
  "citation:qwen30b:quota": {
   "OR": 0.556,
@@ -416,35 +416,35 @@
   "holm_p": 0.2686
  },
  "quote:sonnet:quota": {
-  "OR": 0.82,
-  "ci_low": 0.512,
-  "ci_high": 1.314,
-  "p": 0.40887,
-  "n": 1203,
+  "OR": 0.866,
+  "ci_low": 0.538,
+  "ci_high": 1.392,
+  "p": 0.55181,
+  "n": 1202,
   "holm_p": 1.0
  },
  "quote:sonnet:temporal": {
-  "OR": 0.76,
-  "ci_low": 0.419,
-  "ci_high": 1.378,
-  "p": 0.36596,
-  "n": 1203,
+  "OR": 0.739,
+  "ci_low": 0.406,
+  "ci_high": 1.345,
+  "p": 0.32211,
+  "n": 1202,
   "holm_p": 1.0
  },
  "quote:sonnet:stakes": {
-  "OR": 0.909,
-  "ci_low": 0.539,
-  "ci_high": 1.534,
-  "p": 0.72048,
-  "n": 1203,
-  "holm_p": 0.7205
+  "OR": 0.949,
+  "ci_low": 0.548,
+  "ci_high": 1.644,
+  "p": 0.85256,
+  "n": 1202,
+  "holm_p": 0.8526
  },
  "quote:sonnet:combo": {
-  "OR": 1.208,
-  "ci_low": 0.654,
-  "ci_high": 2.233,
-  "p": 0.54599,
-  "n": 1203,
+  "OR": 1.175,
+  "ci_low": 0.628,
+  "ci_high": 2.197,
+  "p": 0.61408,
+  "n": 1202,
   "holm_p": 1.0
  }
 }

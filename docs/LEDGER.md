@@ -565,3 +565,65 @@ before or after seeing the relevant data. Nothing is deleted.
   and the Discussion carry the interval. The Discussion's gate sentence
   now favors the gate over a loop resolving bare flags, since the
   passage arm shows a loop with evidence in the flag does better.
+- 2026-09-04 (the 22:09 review, six majors; the last changes to the
+  instrument and the design). (1) The loop's feedback had been produced
+  by the original attribution rule at run time. src/realized_precision.py
+  replays every feedback line and re-adjudicates it under the corrected
+  rule: pooled over models the arm labelled precision 1 had realized
+  precision 0.71 (Sonnet 5 0.38, Qwen 0.80), the 0.75, 0.5, 0.25, and 0
+  arms 0.54, 0.38, 0.18, and 0.01. The loop is therefore rerun with the
+  corrected checker for all seven arms and all seven models, and the
+  grounded loop for Sonnet 5 and DeepSeek; the original runs are kept as
+  results/loop_v1_* and gloop_v1_*. (2) The strict standard now reads a
+  bracketed alteration as an omission and drops alteration parentheticals
+  (quotecheck2.fragments); the literal matcher is kept in
+  alteration_aware.py as the comparison. Human strict 0.594 (literal
+  0.493); Sonnet 5 0.523 baseline, 0.644 combined; the same eight
+  contrasts survive. (3) Federal Appendix spellings (F. App'x with a
+  curly apostrophe, Fed. Appx.) had failed the index lookup; aliases
+  added in the vendored checker; human existence 0.957 (was 0.931) and 1
+  Federal Appendix citation not found (was 24). (4) Records carry the
+  citation string; gee.py --distinct refits on distinct authorities per
+  draft, same eight survivors; the surviving existence contrasts rest on
+  28 to 90 not-found events per arm. (5) Denominators: scored quotations
+  per cell (42 to 325) in Table 1 and macros for quotations and accurate
+  quotations per draft; Sonnet 5's rate rise is selection (9.6 to 6.1
+  quotations per draft, 2.83 to 2.60 accurate per draft), stated as such
+  in Section 4, the abstract, and the Conclusion; the appellate stakes
+  rise no longer survives correction (Holm 0.084) and is reported as a
+  rate rise surviving only the pooled-task fit. (6) The checker, runtime,
+  prompts, and packets are vendored into the repository; README says
+  what is not committed and how it rebuilds. Audit: checker-side share by
+  condition from the 160 readings (baseline 8 of 28, quota 11 of 30,
+  temporal 6 of 33, stakes 6 of 27, combined 4 of 42), and 40 accurate
+  verdicts read, 0 checker-side. Minor items: Zhao breadth sentence;
+  cache sizes reconciled (25,250 is the retrieval subset of the 62,049
+  cached opinions); paraphrase and found-nowhere counts reconciled;
+  pinpoint scope stated (24 percent non-U.S. Reports, 3 percent after
+  volume 572 or without page marks, 12 percent adjacent); template spread
+  named against effect sizes in Limitations; "50 percent precision" in
+  the abstract; the audit sentence no longer uses "precision".
+- 2026-09-04 (loop rerun with the corrected checker, $15.66): all seven
+  arms for all seven models and the grounded true arm for Sonnet 5 and
+  DeepSeek, 24 matters each, flags now from the corrected quotecheck2
+  over the same local-first text chain the rescoring uses (loop_arm.py
+  uses ChainTextStore). Sonnet 5 under true feedback: 36 flags, 1
+  corrected in place, 2 replaced, 2 dequoted, 31 deleted, 0 left; only 3
+  of 68 accurate quotations removed (21 under no feedback), final 1.000,
+  24 of 24 clean. Precision curve (accurate removed of 68): 3, 8, 20, 27,
+  43 at precision 1, .75, .5, .25, 0 against 21 with none; finals 1.000,
+  1.000, 0.956, 0.830, 0.575 against 0.787. Passage arm: repair rose in
+  six of seven models (Sonnet 12 of 36, Mistral 26 of 96, Qwen 24 of
+  138, DeepSeek 12 of 136, GPT 6 of 22, Llama 3 of 33, Grok 0 of 37),
+  removal still exceeding it everywhere. Paired true vs none: Sonnet
+  +0.21 (0.12 to 0.32, p 0.002), DeepSeek +0.38; GPT, Qwen, Mistral within
+  noise; Llama and Grok too few pairs. Grounded loop: 4 of 23 and 1 of
+  51. 68 of 168 true-arm episodes ended with nothing to score (Grok 19).
+  The original runs are archived as loop_v1_* and gloop_v1_*; Section 5
+  states their realized true-arm precision (0.71 pooled, 0.38 Sonnet 5)
+  from src/realized_precision.py. Section 5, Figure 2, the abstract,
+  Discussion, and Conclusion rewritten to the new trace: "the one setting
+  in which repair exceeded removal" is withdrawn; "a loop should hand the
+  model the passage; even then it removes more than it repairs" stands.
+  The "Compliance and refusals" paragraph is folded into the Table 1
+  caption and the intro's refusal count for the page fit.

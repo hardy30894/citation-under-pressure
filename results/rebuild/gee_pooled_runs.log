@@ -1,14 +1,14 @@
-citation:deepseek:combo      OR 0.75 [0.44, 1.29] p=0.30076 holm=0.3008
-quote:deepseek:combo         OR 0.42 [0.32, 0.57] p=0.0 holm=0.0 *
+citation:deepseek:combo      OR 0.72 [0.41, 1.24] p=0.23571 holm=0.4714
+quote:deepseek:combo         OR 0.39 [0.28, 0.53] p=0.0 holm=0.0 *
 citation:gpt54mini:combo     OR 0.73 [0.46, 1.18] p=0.19931 holm=0.5979
-quote:gpt54mini:combo        OR 0.57 [0.39, 0.82] p=0.00274 holm=0.0164 *
-citation:grok43:combo        OR 2.17 [0.54, 8.76] p=0.27514 holm=0.5503
-quote:grok43:combo           OR 0.41 [0.27, 0.62] p=4e-05 holm=0.0004 *
+quote:gpt54mini:combo        OR 0.53 [0.36, 0.77] p=0.00112 holm=0.0067 *
+citation:grok43:combo        OR 2.17 [0.54, 8.76] p=0.27514 holm=0.2751
+quote:grok43:combo           OR 0.33 [0.21, 0.52] p=0.0 holm=0.0 *
 citation:llama4mav:combo     OR 0.56 [0.33, 0.96] p=0.03534 holm=0.1767
-quote:llama4mav:combo        OR 0.23 [0.12, 0.43] p=0.0 holm=0.0 *
+quote:llama4mav:combo        OR 0.20 [0.12, 0.36] p=0.0 holm=0.0 *
 citation:mistralsmall:combo  OR 0.62 [0.47, 0.81] p=0.00046 holm=0.0036 *
-quote:mistralsmall:combo     OR 0.52 [0.36, 0.74] p=0.00036 holm=0.0033 *
+quote:mistralsmall:combo     OR 0.51 [0.36, 0.71] p=7e-05 holm=0.0006 *
 citation:qwen30b:combo       OR 0.36 [0.26, 0.52] p=0.0 holm=0.0 *
-quote:qwen30b:combo          OR 0.29 [0.19, 0.45] p=0.0 holm=0.0 *
+quote:qwen30b:combo          OR 0.27 [0.17, 0.41] p=0.0 holm=0.0 *
 citation:sonnet:combo        OR 2.01 [1.33, 3.03] p=0.00089 holm=0.0063 *
-quote:sonnet:combo           OR 1.25 [0.95, 1.65] p=0.11342 holm=0.4537
+quote:sonnet:combo           OR 1.24 [0.96, 1.61] p=0.10094 holm=0.4038

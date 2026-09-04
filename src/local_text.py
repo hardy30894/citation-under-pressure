@@ -24,7 +24,7 @@ import zipfile
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
+GE = Path(__file__).resolve().parents[1]  # vendored checker, runtime, sim, packets
 
 CAP_DIR = HERE / "data" / "cap_cache"
 CACHE_DB = HERE / "data" / "cap_text_cache.sqlite"

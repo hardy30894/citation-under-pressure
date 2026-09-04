@@ -1,19 +1,16 @@
 #!/usr/bin/env python3
-"""The strict standard with quotation alterations read as omissions.
+"""The literal standard, as a comparison for the strict one.
 
-The matcher already ignores case and punctuation, splits a quotation on
-ellipses, and reads a bracketed alteration as its contents, so "[t]he
-court" matches "the court". What it does not forgive is a bracketed
-substitution whose words are not in the opinion ("[the defendant]" for
-"he"). This script rescores the full run with a matcher that treats every
-bracketed segment as an omission, splitting the quotation there the way
-it splits on an ellipsis, and drops an alteration parenthetical
-("emphasis added", "citation omitted", "internal quotation marks
-omitted", "cleaned up") wherever one sits inside the quotation marks. The
-result is records_alt.jsonl in the format of records.jsonl, and a
-comparison of the two standards per model and condition. gee.py
---records records_alt.jsonl --out stats_gee_alt.json then fits the
-contrasts on it. Writes results/alteration_aware.json."""
+The strict standard (quotecheck2.fragments) reads a bracketed alteration
+as an omission and drops alteration parentheticals, so lawful quoting
+passes. The literal matcher it replaced (checker.quote_checker.fragments)
+read a bracketed alteration as its contents, so "[the defendant]" for
+"he" failed. This script rescores the full run under the literal matcher
+into records_alt.jsonl (format of records.jsonl) and compares the two
+standards per model and condition; gee.py --records records_alt.jsonl
+--out stats_gee_alt.json fits the contrasts on it. Writes
+results/alteration_aware.json with keys "strict" (the paper's standard)
+and "literal"."""
 
 import json
 import re
@@ -25,27 +22,17 @@ sys.path.insert(0, str(HERE / "src"))
 
 from rescore_pilots import eyecite_pass  # noqa: E402
 from checker.citation_checker import CitationChecker, SqliteIndex  # noqa
-from checker.quote_checker import OpinionTextStore, normalize  # noqa: E402
+from checker.quote_checker import OpinionTextStore, normalize, fragments as literal_fragments  # noqa: E402
 from local_text import ChainTextStore  # noqa: E402
 from pilot import DB  # noqa: E402
 import quotecheck2 as q2  # noqa: E402
 from records_dump import MODELS  # noqa: E402
 
-PAREN = re.compile(r"\((?:emphasis (?:added|in original|omitted)|citations? omitted|"
-                   r"internal quotation marks (?:and citations? )?omitted|cleaned up|"
-                   r"footnote omitted|alterations? (?:in original|omitted))\)", re.I)
-
-
-def fragments_alt(quote):
-    """Split on ellipses and on bracketed segments; keep fragments of at
-    least 15 normalized characters, as the original does."""
-    quote = PAREN.sub(" ", quote)
-    parts = re.split(r"\.\s?\.\s?\.|…|\[[^\]]*\]", quote)
-    return [normalize(p) for p in parts if len(normalize(p)) >= 15]
+fragments_alt = q2.fragments  # the paper's standard, for scripts that import it
 
 
 def main():
-    q2.fragments = fragments_alt
+    q2.fragments = literal_fragments
     checker = CitationChecker(SqliteIndex(DB))
     store = ChainTextStore(OpinionTextStore(DB, cl_token=None, fetch_budget=0))
     out = open(HERE / "results" / "records_alt.jsonl", "w")
@@ -79,9 +66,9 @@ def main():
     for k, t in tally.items():
         s = std.get(k, {"scored": 0, "accurate": 0})
         cmp[k] = {"strict": round(s["accurate"] / s["scored"], 4) if s["scored"] else None,
-                  "alteration_aware": round(t["accurate"] / t["scored"], 4) if t["scored"] else None,
-                  "scored_strict": s["scored"], "scored_alt": t["scored"]}
-    diffs = [abs(v["alteration_aware"] - v["strict"]) for v in cmp.values() if v["strict"] is not None and v["alteration_aware"] is not None]
+                  "literal": round(t["accurate"] / t["scored"], 4) if t["scored"] else None,
+                  "scored_strict": s["scored"], "scored_literal": t["scored"]}
+    diffs = [abs(v["literal"] - v["strict"]) for v in cmp.values() if v["strict"] is not None and v["literal"] is not None]
     summary = {"cells": cmp, "max_cell_diff": round(max(diffs), 4) if diffs else None,
                "mean_cell_diff": round(sum(diffs) / len(diffs), 4) if diffs else None}
     (HERE / "results" / "alteration_aware.json").write_text(json.dumps(summary, indent=1))

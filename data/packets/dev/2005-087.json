@@ -1,0 +1,32 @@
+{
+  "scdb_caseId": "2005-087",
+  "term": 2005,
+  "docket": "05-5966",
+  "parties": {
+    "petitioner": "Eric Michael Clark",
+    "respondent": "Arizona"
+  },
+  "question": "Does a defendant have a Fourteenth Amendment due process right, separate from his insanity plea, to present expert evidence about his mental state to counter the prosecution's evidence of criminal intent?",
+  "facts": "Eric Clark shot and killed a police officer during a traffic stop. At trial in Arizona state court, Clark, a diagnosed paranoid schizophrenic who believed his town had been taken over by aliens, introduced expert evidence about his mental state. He wanted to use this evidence not only to prove that he was insane (a claim on which he bore the burden of proof) but also to show that he could not form the criminal intent that the government was required to prove beyond a reasonable doubt. The trial judge, however, ruled that Arizona law confined the use of the expert evidence to his insanity claim and did not permit him to use it to show he could not form the necessary criminal intent. The court ruled that he had not sufficiently proved his insanity defense, and Clark was convicted and sentenced to 25 years to life in prison. The Arizona Court of Appeals affirmed.",
+  "lower_court_name": "Arizona Supreme Court",
+  "argued_date": "2006-04-19",
+  "lower_court_opinion": {
+    "cluster_id": 28536,
+    "caseName": "Miller v. State of Arizona",
+    "dateFiled": "2002-08-23",
+    "citation": [],
+    "match_confidence": "high",
+    "content_verified": true,
+    "court_class": null,
+    "text_source_field": "local_cluster",
+    "raw_text": "IN THE UNITED STATES COURT OF APPEALS FOR THE FIFTH CIRCUIT No. 01-31188 Conference Calendar FREDERICK LOUIS MILLER, Petitioner-Appellant, versus STATE OF ARIZONA, Respondent-Appellee. -------------------- Appeal from the United States District Court for the Western District of Louisiana USDC No. 01-CV-1088 -------------------- August 21, 2002 Before HIGGINBOTHAM, DAVIS, and PARKER, Circuit Judges. PER CURIAM:* Frederick Louis Miller, federal prisoner # 21578-034, filed a petition for a writ of habeas corpus pursuant to 28 U.S.C. \u00a7 2241. In his petition, Miller sought to test the legality of a proposed extradition order stemming from drug charges in the State of Arizona. The district court dismissed Miller\u2019s petition without prejudice because Miller conceded that he had failed to * Pursuant to 5TH CIR. R. 47.5, the court has determined that this opinion should not be published and is not precedent except under the limited circumstances set forth in 5TH CIR. R. 47.5.4. No. 01-31188 -2- exhaust his state remedies with respect to the proposed extradition order. This court is obligated to address issues of jurisdiction, including mootness, prior to addressing the merits of an appeal. Goldin v. Bartholow, 166 F.3d 710, 714 (5th Cir. 1999). Miller states in his brief that the extradition order was never actually issued and that the State of Arizona dismissed the charges pending against him. Accordingly, Miller\u2019s appeal from the district court\u2019s order dismissing his petition is moot. See McFarland v. Collins, 8 F.3d 256, 257 (5th Cir. 1993). Additionally, Miller has failed to show any error in the district court\u2019s judgment. See, e.g., Moody v. Johnson, 139 F.3d 477, 480 (5th Cir. 1998). APPEAL DISMISSED AS MOOT.",
+    "raw_text_truncated": false
+  },
+  "lower_court_summary": null,
+  "source_urls": [
+    "https://api.oyez.org/cases/2005/05-5966",
+    "https://www.courtlistener.com/api/rest/v4/clusters/28536/"
+  ],
+  "materials_hash": "sha256:5f06e7d92adb327f8f584a2d58779552be5a914bce7f4f58b35e3b3f4c44758b",
+  "leakage_check": "flag"
+}

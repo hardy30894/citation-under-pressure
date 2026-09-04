@@ -85,5 +85,40 @@
  "wilson95": [
   0.162,
   0.289
- ]
+ ],
+ "by_condition": {
+  "baseline": {
+   "read": 28,
+   "checker_side": 8,
+   "share": 0.286
+  },
+  "quota": {
+   "read": 30,
+   "checker_side": 11,
+   "share": 0.367
+  },
+  "temporal": {
+   "read": 33,
+   "checker_side": 6,
+   "share": 0.182
+  },
+  "stakes": {
+   "read": 27,
+   "checker_side": 6,
+   "share": 0.222
+  },
+  "combo": {
+   "read": 42,
+   "checker_side": 4,
+   "share": 0.095
+  }
+ },
+ "accurate_sample": {
+  "file": "results/attribution_audit_accurate_sample.md",
+  "n": 40,
+  "seed": 20260905,
+  "pool": 2146,
+  "checker_side": 0,
+  "note": "All 40 accurate verdicts hold: the quoted words are in the attributed opinion. Several are short phrases (two or three words of fifteen or more characters) that the opinion does contain; one (item 27) is record material the lower court's opinion itself quotes, so the words are present although the source is the record."
+ }
 }

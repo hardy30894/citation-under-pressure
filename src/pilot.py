@@ -21,8 +21,15 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parents[1]
-GE = Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
-sys.path.insert(0, str(GE / "src"))
+# The checker, the request runtime, and the packet prompts are vendored
+# under src/ (checker/, runtime/, sim/) and the 48 packets under
+# data/packets/, so the repository stands alone. The citation index
+# (checker.db, built by src/checker/build_index.py from CourtListener bulk
+# data) is not committed; set CUP_CHECKER_DB to its path, or keep the
+# sibling us_courts_gated_evolution checkout that built it.
+HERE_ROOT = Path(__file__).resolve().parents[1]
+GE = HERE_ROOT if (HERE_ROOT / "data" / "packets").exists() else \
+    Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
 
 import os
 
@@ -47,7 +54,9 @@ from sim.gate import check_side
 from eyecite import get_citations
 from eyecite.models import FullCaseCitation
 
-DB = GE / "data/courtlistener/checker.db"
+DB = Path(os.environ.get("CUP_CHECKER_DB") or (
+    Path("/Users/hardy30894/Documents/NYU_Research/us_courts_gated_evolution")
+    / "data/courtlistener/checker.db"))
 RUN_DIR = HERE / "results" / "pilot"
 DRAFT_DIR = RUN_DIR / "drafts"
 
