@@ -715,7 +715,12 @@ if sr.exists():
     emit2("auditSampleCheckerSide", str(t["checker_side"]))
     emit2("auditSampleModel", str(t["model_side"]))
     emit2("auditSampleN", str(t["n"]))
+    emit2("auditSampleOpen", str(t["ambiguous"]))
+    emit2("auditSampleAlteration", str(t.get("standard_alteration", 0)))
     emit2("auditSampleCheckerSidePct", str(round(100 * t["checker_side"] / t["n"])))
+    if "wilson95" in t:
+        emit2("auditSampleCiLow", str(round(100 * t["wilson95"][0])))
+        emit2("auditSampleCiHigh", str(round(100 * t["wilson95"][1])))
 
 # why quotations are unpaired (results/unpaired_causes.json, written by the
 # classification in docs/LEDGER.md 2026-09-04)

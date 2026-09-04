@@ -556,3 +556,12 @@ before or after seeing the relevant data. Nothing is deleted.
   matters; numeric detail cut from the abstract, the Section 4 prose, and
   the precision-curve sentence. Ten pages, no underfull page but the
   reference page.
+- 2026-09-04 (reader's second note): the hand reading of inaccurate
+  verdicts extended from 40 to 160 (a disjoint 120-item sample, seed
+  20260904, results/attribution_audit_sample2.md, read under the final
+  rule only): 35 checker-side (22 percent, Wilson 95 percent interval
+  16 to 29), 111 model-side, 4 strict-standard failures on a bracketed
+  alteration, 10 open; the second sample alone runs 27 of 120. Section 6
+  and the Discussion carry the interval. The Discussion's gate sentence
+  now favors the gate over a loop resolving bare flags, since the
+  passage arm shows a loop with evidence in the flag does better.

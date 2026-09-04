@@ -153,6 +153,17 @@ def main():
         lines.append(f"context before: ...{s['context']}\n")
         lines.append(f"quote: “{s['quote']}”\n")
     (HERE / "results" / "attribution_audit_sample.md").write_text("\n".join(lines))
+    # a second, disjoint sample of 120 for the larger hand reading
+    rest = [s for s in sample_pool if s not in sample]
+    rng2 = random.Random(20260904)
+    sample2 = rng2.sample(rest, min(120, len(rest)))
+    lines = ["# Attribution audit: 120 further random inaccurate quotations\n",
+             "Seed 20260904 over the inaccurate verdicts not in the first sample.\n"]
+    for i, s in enumerate(sample2, 1):
+        lines.append(f"## {i}. {s['model']} {s['draft']} | cited {s['citation']} ({s['attribution']}) | class: {s['class']}\n")
+        lines.append(f"context before: ...{s['context']}\n")
+        lines.append(f"quote: “{s['quote']}”\n")
+    (HERE / "results" / "attribution_audit_sample2.md").write_text("\n".join(lines))
 
 
 if __name__ == "__main__":

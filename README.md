@@ -182,9 +182,12 @@ from the case named before it, a quotation of a statute was bound to
 the nearest case citation, and a parenthetical quotation inside a string
 cite went to the next case in the string. A hand reading of 40
 inaccurate verdicts drawn at random found about 20 on the checker's
-side under that rule and 8 under the corrected one
-(`results/attribution_audit_sample.md`,
-`results/attribution_sample_reading.json`). The corrected rule
+side under that rule; under the corrected one a reading of 160 (the
+same 40 plus a disjoint 120, `results/attribution_audit_sample.md` and
+`results/attribution_audit_sample2.md`) found 35 on the checker's side,
+22 percent with a 95 percent interval of 16 to 29, 111 the model's, 4
+failing only on a bracketed alteration, and 10 open
+(`results/attribution_sample_reading.json`). The corrected rule
 attributes a quotation to the citation whose parenthetical holds it,
 else the case named in its own sentence, else the citation that follows
 it in that sentence, else the citation an Id. points to, else the last
@@ -419,7 +422,7 @@ Three residual failure modes, each measured deterministically:
 | failure mode | measurement | headline number |
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 68% of Sonnet 5's 258 inaccurate quotes are paraphrases of the correct case |
-| right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 330 quotes across the seven models are real opinion passages bound to the wrong authority; 140 have the true source cited in the same draft; the same search finds 5 of Sonnet 5's 258 inaccurate verdicts (1.9%) to be the checker's own error, and a hand reading of 40 inaccurate verdicts finds 8 on the checker's side |
+| right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 330 quotes across the seven models are real opinion passages bound to the wrong authority; 140 have the true source cited in the same draft; the same search finds 5 of Sonnet 5's 258 inaccurate verdicts (1.9%) to be the checker's own error, and a hand reading of 160 inaccurate verdicts finds 35 on the checker's side (22 percent, interval 16 to 29) |
 | right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 83% of the time (Sonnet 5), 50 to 67% for the rest, 88% for human briefs |
 
 These are the errors an existence check cannot see, and the page-level

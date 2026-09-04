@@ -1,8 +1,8 @@
-deepseek     inacc  793  packet 159  statute  71  both 58  neither  505  | scored  1784 packet-any 518
-gpt54mini    inacc  269  packet  65  statute  26  both 35  neither  143  | scored   824 packet-any 334
-grok43       inacc  307  packet  77  statute  28  both 28  neither  174  | scored   927 packet-any 318
-llama4mav    inacc  228  packet  44  statute  23  both 17  neither  144  | scored   543 packet-any 203
-mistralsmall inacc  675  packet  91  statute  91  both 44  neither  449  | scored  1372 packet-any 337
-qwen30b      inacc  831  packet 134  statute  42  both 26  neither  629  | scored  1571 packet-any 387
-sonnet       inacc  746  packet 122  statute  75  both 31  neither  518  | scored  1929 packet-any 475
-pooled {'inaccurate_total': 3849, 'packet_material': 692, 'statutory': 356, 'both': 239, 'neither': 2562, 'scored_total': 8950, 'packet_material_any_verdict': 2572, 'packet_material_accurate': 1141, 'packet_material_near_miss': 500, 'packet_material_inaccurate': 931, 'share_packet_or_statutory': 0.3344}
+deepseek     inacc  455  packet  65  statute  35  both  6  neither  349  | scored  1270 packet-any 292
+gpt54mini    inacc  121  packet  22  statute  11  both  4  neither   84  | scored   534 packet-any 171
+grok43       inacc  186  packet  44  statute   8  both  4  neither  130  | scored   671 packet-any 186
+llama4mav    inacc   84  packet  12  statute   3  both  4  neither   65  | scored   289 packet-any 110
+mistralsmall inacc  441  packet  53  statute  35  both  5  neither  348  | scored  1025 packet-any 191
+qwen30b      inacc  623  packet  56  statute  16  both  4  neither  547  | scored  1251 packet-any 243
+sonnet       inacc  258  packet  59  statute  12  both  8  neither  179  | scored  1203 packet-any 323
+pooled {'inaccurate_total': 2168, 'packet_material': 311, 'statutory': 120, 'both': 35, 'neither': 1702, 'scored_total': 6243, 'packet_material_any_verdict': 1516, 'packet_material_accurate': 853, 'packet_material_near_miss': 317, 'packet_material_inaccurate': 346, 'artifact_leading_space': 0, 'attribution_named': 1384, 'attribution_proximity': 334, 'share_packet_or_statutory': 0.2149}

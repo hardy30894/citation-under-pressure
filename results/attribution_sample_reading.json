@@ -1,11 +1,89 @@
 {
- "n": 40,
- "checker_side": 8,
- "model_side": 30,
- "ambiguous": 2,
- "sample_file": "results/attribution_audit_sample.md",
- "instrument": "quotecheck2 after the sentence-scoped attribution rule, the non-case markers, and the string-cite parenthetical rule (validate_q2: 240 of 240)",
- "checker_side_items": [5, 12, 17, 18, 22, 29, 32, 33],
- "ambiguous_items": [23, 27],
- "note": "Hand reading of the seeded random sample of inaccurate verdicts written by results/attribution_audit.py. Checker-side means the quoted words are not a case quotation the draft attributes (a policy name, statutory text, a lower court's or record's phrase, an APA phrase) or the checker bound the quotation to a case other than the one the draft names. Earlier readings of the same sample size under the original rule found about 20 of 40 checker-side; under the first correction 16 or 17 of 40; under the parenthetical rule 8 of 40."
+ "n": 160,
+ "checker_side": 35,
+ "model_side": 111,
+ "ambiguous": 10,
+ "standard_alteration": 4,
+ "samples": {
+  "attribution_audit_sample.md": {
+   "n": 40,
+   "checker_side": 8,
+   "model_side": 30,
+   "ambiguous": 2,
+   "standard_alteration": 0,
+   "checker_items": [
+    5,
+    12,
+    17,
+    18,
+    22,
+    29,
+    32,
+    33
+   ],
+   "ambiguous_items": [
+    23,
+    27
+   ]
+  },
+  "attribution_audit_sample2.md": {
+   "n": 120,
+   "checker_side": 27,
+   "model_side": 82,
+   "ambiguous": 8,
+   "standard_alteration": 3,
+   "checker_items": [
+    8,
+    14,
+    23,
+    24,
+    32,
+    33,
+    34,
+    44,
+    47,
+    51,
+    53,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    65,
+    68,
+    70,
+    79,
+    81,
+    92,
+    94,
+    104,
+    113,
+    120
+   ],
+   "ambiguous_items": [
+    1,
+    35,
+    39,
+    48,
+    67,
+    74,
+    95,
+    102
+   ],
+   "standard_items": [
+    5,
+    50,
+    105
+   ]
+  }
+ },
+ "instrument": "quotecheck2 final rule (validate_q2: 240 of 240)",
+ "definitions": "checker_side: the quoted words are not a case quotation the draft attributes (a policy name, statutory or constitutional text, legislative history, a lower court's or the record's words, a party's contention) or the checker bound the quotation to a case other than the one the draft names or the Id. points to. model_side: the draft attributes the quotation to the cited case and the words are not in it (paraphrase, invention, or a real quotation from a different case the draft did not cite). standard_alteration: the words are in the cited opinion and the strict standard fails only on a bracketed alteration. ambiguous: the reader could not decide from 200 characters of context.",
+ "history": "Readings of 40-item samples under earlier rules: about 20 of 40 (original rule), 16 or 17 (first correction), 14, 14 (rounds three and four), 8 (final rule). The 120-item second sample (seed 20260904, disjoint from the first) was read only under the final rule.",
+ "checker_share": 0.219,
+ "wilson95": [
+  0.162,
+  0.289
+ ]
 }
