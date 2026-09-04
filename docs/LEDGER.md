@@ -940,3 +940,12 @@ before or after seeing the relevant data. Nothing is deleted.
   scope says a pincite with no quotation is outside it. Two source
   attributions in two rounds were wrong in the same way, both caught by
   checking the source rather than the memory of it.
+- 2026-09-05 (page fit, honestly): fitting the last two review rounds
+  inside ten pages had reached the point of an \enlargethispage of four
+  baselineskips, which ran page 10 about four lines below the type area
+  of its neighbours. That is a format deviation a production editor
+  would catch, so it is gone: four more lines of prose were tightened
+  and the release link moved from the Conclusion to the author footnote,
+  where a reviewer meets it on page 1 rather than page 10. Every body
+  page now ends on the same baseline (y=124.1) and there is no layout
+  hack in the source.
