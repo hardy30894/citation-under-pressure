@@ -11,15 +11,15 @@
       "subset": "all_clean",
       "n_excerpts": 482,
       "quote_verdicts": {
-        "accurate": 247,
-        "near_miss": 76,
-        "inaccurate": 93,
-        "unverifiable": 160,
-        "unpaired": 1064
+        "accurate": 250,
+        "near_miss": 73,
+        "inaccurate": 87,
+        "unverifiable": 155,
+        "unpaired": 1075
       },
       "n_quotes_total": 1640,
-      "n_quotes_scored": 416,
-      "strict_quote_rate": 0.5938,
+      "n_quotes_scored": 410,
+      "strict_quote_rate": 0.6098,
       "citations": {
         "exists": 845,
         "not_found": 38,
@@ -31,15 +31,15 @@
       "subset": "all_citations_exist",
       "n_excerpts": 288,
       "quote_verdicts": {
-        "accurate": 197,
-        "near_miss": 62,
-        "inaccurate": 69,
-        "unverifiable": 43,
-        "unpaired": 594
+        "accurate": 199,
+        "near_miss": 60,
+        "inaccurate": 64,
+        "unverifiable": 41,
+        "unpaired": 601
       },
       "n_quotes_total": 965,
-      "n_quotes_scored": 328,
-      "strict_quote_rate": 0.6006,
+      "n_quotes_scored": 323,
+      "strict_quote_rate": 0.6161,
       "citations": {
         "exists": 656,
         "not_found": 0,
@@ -51,15 +51,15 @@
       "subset": "any_citation_exists",
       "n_excerpts": 367,
       "quote_verdicts": {
-        "accurate": 247,
-        "near_miss": 76,
-        "inaccurate": 93,
-        "unverifiable": 127,
-        "unpaired": 713
+        "accurate": 250,
+        "near_miss": 73,
+        "inaccurate": 87,
+        "unverifiable": 123,
+        "unpaired": 723
       },
       "n_quotes_total": 1256,
-      "n_quotes_scored": 416,
-      "strict_quote_rate": 0.5938,
+      "n_quotes_scored": 410,
+      "strict_quote_rate": 0.6098,
       "citations": {
         "exists": 845,
         "not_found": 31,
@@ -861,8 +861,8 @@
       "split": "eval",
       "filename": "serra-v-quantum-servicing-corp_518553_part21.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 3
@@ -875,7 +875,7 @@
         {
           "quote": "That being said, the Debtor correctly notes that \"a lender may run afoul of Chapter 93A by knowingly setting up a borrow",
           "citation": "462 B.R. 283",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -1197,8 +1197,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 3
+        "unverifiable": 0,
+        "unpaired": 5
       },
       "exists": 2,
       "not_found": 0,
@@ -1219,14 +1219,14 @@
         },
         {
           "quote": "craniocervical stenosis [with] pressure on the spine near the neck area,",
-          "citation": "380 F. App'x 160",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "a second opinion was necessary because surgery was involved,",
-          "citation": "380 F. App'x 160",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -1554,9 +1554,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 4,
       "not_found": 1,
@@ -1571,9 +1571,9 @@
         },
         {
           "quote": "a serious, substantive reconsideration of the [existing] rule,",
-          "citation": "901 F.2d 147",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "create[d] the opportunity for renewed comment and objection. ",
@@ -2014,9 +2014,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -2031,9 +2031,9 @@
         },
         {
           "quote": "that foie gras comes from diseased, disabled, and dying poultry. ",
-          "citation": "812 F.2d 1",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -5392,8 +5392,8 @@
       "split": "eval",
       "filename": "david-stebbins-v-boone-county-ar_431207655_part25.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 2,
+        "accurate": 3,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -5406,7 +5406,7 @@
         {
           "quote": "The District Court gave no explanation for its refusal to grant this relief. It is so important and customary a provisio",
           "citation": "384 U.S. 563",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -7422,8 +7422,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 5,
-        "unpaired": 2
+        "unverifiable": 4,
+        "unpaired": 3
       },
       "exists": 0,
       "not_found": 0,
@@ -7450,8 +7450,8 @@
         },
         {
           "quote": "[o]n the morning of April 8th, 2010,",
-          "citation": "2011 WL 5006463",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -10221,8 +10221,8 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623033_part14.pdf",
       "quote_verdicts": {
-        "accurate": 4,
-        "near_miss": 0,
+        "accurate": 3,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -10252,9 +10252,9 @@
         },
         {
           "quote": "an inaccurate description of goods or services provided, or a request for reimbursement for goods or services never prov",
-          "citation": "778 F. Supp. 2d 709",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": "647 F.3d 377",
+          "verdict": "near_miss",
+          "coverage": 0.909
         },
         {
           "quote": "it involves a knowingly false certification of compliance with a statute or regulation, when that certification is a pre",
@@ -13352,9 +13352,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -13363,9 +13363,9 @@
       "quotes": [
         {
           "quote": "[W]hether a person is an independent contractor or employee shall be determined according to the standards of the [FLSA]",
-          "citation": "603 F.2d 748",
-          "verdict": "inaccurate",
-          "coverage": 0.818
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[t]he FLSA requires the Court focus on the *actual working conditions* when deciding how the drivers should be classifie",
@@ -13537,8 +13537,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 2
+        "unverifiable": 0,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -13559,8 +13559,8 @@
         },
         {
           "quote": "may find no Section 337 violation in any event. ",
-          "citation": "2013 WL 3831185",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -13633,8 +13633,8 @@
       "split": "aux_train",
       "filename": "shelly-stevens-v-dawn-holler_352045860_part13.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 3,
         "unpaired": 1
@@ -13659,7 +13659,7 @@
         {
           "quote": "deliberate indifference to serious medical needs of prisoners constitutes the \u2018unnecessary and wanton infliction of pain",
           "citation": "429 U.S. 97",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -14257,8 +14257,8 @@
       "split": "aux_train",
       "filename": "par-pharmaceutical-inc-v-twi-pharmaceuticals-inc_1442142_part14.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
@@ -14271,7 +14271,7 @@
         {
           "quote": "That burden of proof never shifts to the patentee to prove validity. \u2018The presumption [of validity] remains intact and [",
           "citation": "480 F.3d 1348",
-          "verdict": "near_miss",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -14306,9 +14306,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 3,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -14317,15 +14317,9 @@
       "quotes": [
         {
           "quote": "unusual circumstances. ",
-          "citation": "216 F.3d 1111",
-          "verdict": "inaccurate",
-          "coverage": 0.5
-        },
-        {
-          "quote": "unusual circumstances",
-          "citation": "216 F.3d 1111",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "unusual circumstances",
@@ -14335,9 +14329,15 @@
         },
         {
           "quote": "unusual circumstances",
-          "citation": "216 F.3d 1111",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
+        },
+        {
+          "quote": "unusual circumstances",
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -14681,7 +14681,7 @@
         },
         {
           "quote": "to consider the facts and circumstances of the case before him,",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "Add. 19",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -15236,8 +15236,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 4,
-        "unpaired": 2
+        "unverifiable": 3,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 2,
@@ -15258,8 +15258,8 @@
         },
         {
           "quote": "permitted as of right",
-          "citation": "2020 WL 618662",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {

@@ -6,6 +6,8 @@
   genuine text, WRONG named cite   pass                 20
   genuine+right cite               pass                 20
   no citation in paragraph: unpaired pass                 20
+  omitted internal citation        pass                 20
+  omitted words, no ellipsis       pass                 20
   paragraph attribution            pass                 20
   signal phrase vs following cite  pass                 20
   statutory quote unpaired         pass                 20

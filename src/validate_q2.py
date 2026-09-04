@@ -27,6 +27,7 @@ citation before it and not the one after.
 
 import random
 import re
+from difflib import SequenceMatcher
 import sqlite3
 import sys
 from pathlib import Path
@@ -64,11 +65,47 @@ def eyecite_pass(text):
 def sample_sentence(text):
     sents = [
         s.strip() for s in re.split(r"(?<=[.;])\s+", text)
-        if 70 <= len(s.strip()) <= 220 and '"' not in s and "“" not in s
+        if 70 <= len(s.strip()) <= 220 and not any(ch in s for ch in '"“”\n')
         and not s.strip().startswith(("(", "["))
     ]
     return random.choice(sents[len(sents) // 4: -len(sents) // 4 or None]) \
         if len(sents) >= 8 else None
+
+
+CITE_IN_SENT = re.compile(
+    r",\s*\d+ U\. ?S\. \d+"
+    r"(?:[, ]+(?:\d+(?:[-\u2013]\d+|&#8212;\d+)?|S\.Ct\.|L\.Ed\.2d|L\.Ed\.|Pet\.|How\.|Wall\.|Cranch|Dall\.))*"
+    r"(?: \(\d{4}\))?")  # a reporter citation inside a sentence, with its parallel cites; the case name stays
+
+
+def sample_cited_sentence(text):
+    """A sentence that carries a U.S. Reports citation inside it, returned
+    with the citation removed (the quoter's "(citation omitted)") and with
+    three words of text removed instead (a misquotation)."""
+    guarded = re.sub(r"\bU\. ?S\.", "U@S@", text)  # abbreviations are not sentence ends
+    guarded = re.sub(r"\b(v|Id|Co|Inc|Cir|No|Mr|Mrs|Dr|St|Ct|Ed|L|S)\.", r"\1@", guarded)
+    for s in re.split(r"(?<=[.;])\s+", guarded):
+        s = s.strip().replace("@", ".")
+        m = CITE_IN_SENT.search(s)
+        if not (80 <= len(s) <= 300) or any(ch in s for ch in '"“”&*\n') or s[0].isdigit() or not m:
+            continue
+        head, tail = s[:m.start()], s[m.end():]
+        if len(head) < 20 or len(tail) < 20:
+            continue
+        omitted = (head + " " + tail).replace("  ", " ").strip()
+        hw, tw = head.split(), tail.split()
+        # drop three words of prose away from the citation's position, so
+        # the gap they leave in the opinion holds no citation and cannot pass
+        if len(hw) >= 8 and all(w.isalpha() and len(w) >= 3 for w in hw[:2]):
+            k = 2
+            gapped = " ".join(hw[:k] + hw[k + 3:] + tw)
+        elif len(tw) >= 8:
+            k = len(tw) - 5
+            gapped = " ".join(hw + tw[:k] + tw[k + 3:])
+        else:
+            continue
+        return omitted, gapped
+    return None, None
 
 
 def corrupt(sentence):
@@ -108,6 +145,9 @@ def main():
         sent2 = sample_sentence(text)
         if not sent or not sent2 or sent == sent2:
             continue
+        omitted, gapped = sample_cited_sentence(text)
+        if not omitted:
+            continue
         n_cases += 1
         if n_cases > 20:
             break
@@ -141,7 +181,10 @@ def main():
             f"{name}, {vol} U.S. {page} (1950). Id. at 5. The Court added that "
             f"“{sent}”\n\n"
             f"See {name}, {vol} U.S. {page}, 9 (1950) (holding that “{sent}”); "
-            f"{wname}, {wvol} U.S. {wpage}, 4 (1951) (same)."
+            f"{wname}, {wvol} U.S. {wpage}, 4 (1951) (same).\n\n"
+            f"The Court explained that “{omitted}” {name}, {vol} U.S. {page}, "
+            f"5 (1950) (citation omitted).\n\n"
+            f"The Court explained that “{gapped}” {name}, {vol} U.S. {page} (1950)."
         )
         recs, _ = checker.check_text(draft)
         res = q2.check_draft(draft, recs, eyecite_pass(draft), store)
@@ -182,6 +225,22 @@ def main():
         pq = [x for x in res if x["quote"].startswith(sent[:40])]
         got = pq[3]["verdict"] if len(pq) > 3 else "NOT_EXTRACTED"
         key = ("string-cite parenthetical", "pass" if got == "accurate" else f"FAIL({got})")
+        tally[key] = tally.get(key, 0) + 1
+        # check_draft keeps 120 characters of each quotation, so the two plants
+        # are located by their position in the draft
+        quotes = q2.extract_quotes(draft)
+        assert len(quotes) == len(res)
+
+        def at(planted):
+            pos = draft.find("\u201c" + planted) + 1
+            return next((r for q, r in zip(quotes, res) if q["start"] == pos), None)
+        om = at(omitted)
+        got = om["verdict"] if om else "NOT_EXTRACTED"
+        key = ("omitted internal citation", "pass" if got == "accurate" else f"FAIL({got})")
+        tally[key] = tally.get(key, 0) + 1
+        gp = at(gapped)
+        got = gp["verdict"] if gp else "NOT_EXTRACTED"
+        key = ("omitted words, no ellipsis", "pass" if got in ("inaccurate", "near_miss") else f"FAIL({got})")
         tally[key] = tally.get(key, 0) + 1
         between = [x for x in res if "and then" in x["quote"]]
         key = ("between-span rejection", "pass" if not between else "FAIL(extracted)")

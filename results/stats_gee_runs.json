@@ -8,11 +8,11 @@
   "holm_p": 0.4714
  },
  "quote:deepseek:combo": {
-  "OR": 0.386,
-  "ci_low": 0.281,
-  "ci_high": 0.531,
+  "OR": 0.39,
+  "ci_low": 0.286,
+  "ci_high": 0.533,
   "p": 0.0,
-  "n": 1536,
+  "n": 1525,
   "holm_p": 0.0
  },
  "citation:gpt54mini:combo": {
@@ -24,12 +24,12 @@
   "holm_p": 0.5979
  },
  "quote:gpt54mini:combo": {
-  "OR": 0.526,
-  "ci_low": 0.357,
-  "ci_high": 0.774,
-  "p": 0.00112,
-  "n": 602,
-  "holm_p": 0.0067
+  "OR": 0.53,
+  "ci_low": 0.36,
+  "ci_high": 0.781,
+  "p": 0.00132,
+  "n": 594,
+  "holm_p": 0.0079
  },
  "citation:grok43:combo": {
   "OR": 2.173,
@@ -40,11 +40,11 @@
   "holm_p": 0.2751
  },
  "quote:grok43:combo": {
-  "OR": 0.332,
-  "ci_low": 0.213,
-  "ci_high": 0.52,
+  "OR": 0.323,
+  "ci_low": 0.206,
+  "ci_high": 0.507,
   "p": 0.0,
-  "n": 795,
+  "n": 787,
   "holm_p": 0.0
  },
  "citation:llama4mav:combo": {
@@ -56,11 +56,11 @@
   "holm_p": 0.1767
  },
  "quote:llama4mav:combo": {
-  "OR": 0.205,
-  "ci_low": 0.117,
-  "ci_high": 0.361,
+  "OR": 0.212,
+  "ci_low": 0.121,
+  "ci_high": 0.37,
   "p": 0.0,
-  "n": 371,
+  "n": 370,
   "holm_p": 0.0
  },
  "citation:mistralsmall:combo": {
@@ -72,12 +72,12 @@
   "holm_p": 0.0036
  },
  "quote:mistralsmall:combo": {
-  "OR": 0.51,
-  "ci_low": 0.365,
+  "OR": 0.516,
+  "ci_low": 0.375,
   "ci_high": 0.711,
-  "p": 7e-05,
-  "n": 1264,
-  "holm_p": 0.0006
+  "p": 5e-05,
+  "n": 1250,
+  "holm_p": 0.0005
  },
  "citation:qwen30b:combo": {
   "OR": 0.365,
@@ -88,11 +88,11 @@
   "holm_p": 0.0
  },
  "quote:qwen30b:combo": {
-  "OR": 0.269,
-  "ci_low": 0.175,
-  "ci_high": 0.413,
+  "OR": 0.241,
+  "ci_low": 0.163,
+  "ci_high": 0.356,
   "p": 0.0,
-  "n": 1666,
+  "n": 1650,
   "holm_p": 0.0
  },
  "citation:sonnet:combo": {
@@ -104,11 +104,11 @@
   "holm_p": 0.0063
  },
  "quote:sonnet:combo": {
-  "OR": 1.243,
-  "ci_low": 0.958,
-  "ci_high": 1.613,
-  "p": 0.10094,
-  "n": 1351,
-  "holm_p": 0.4038
+  "OR": 1.238,
+  "ci_low": 0.966,
+  "ci_high": 1.587,
+  "p": 0.09176,
+  "n": 1344,
+  "holm_p": 0.3671
  }
 }

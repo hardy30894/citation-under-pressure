@@ -1,13 +1,13 @@
 {
  "deepseek": {
-  "out_of_scope_non_us": 14,
-  "paraphrase_in_quotes": 77,
-  "fabricated_language": 48,
+  "out_of_scope_non_us": 13,
+  "paraphrase_in_quotes": 72,
+  "fabricated_language": 45,
   "no_text": 0
  },
  "gpt54mini": {
   "out_of_scope_non_us": 1,
-  "paraphrase_in_quotes": 22,
+  "paraphrase_in_quotes": 20,
   "fabricated_language": 15,
   "no_text": 0
  },
@@ -25,20 +25,20 @@
  },
  "mistralsmall": {
   "out_of_scope_non_us": 17,
-  "paraphrase_in_quotes": 106,
-  "fabricated_language": 42,
+  "paraphrase_in_quotes": 102,
+  "fabricated_language": 41,
   "no_text": 0
  },
  "qwen30b": {
-  "out_of_scope_non_us": 22,
-  "paraphrase_in_quotes": 150,
+  "out_of_scope_non_us": 21,
+  "paraphrase_in_quotes": 148,
   "fabricated_language": 75,
   "no_text": 0
  },
  "sonnet": {
   "out_of_scope_non_us": 3,
-  "paraphrase_in_quotes": 43,
-  "fabricated_language": 25,
+  "paraphrase_in_quotes": 38,
+  "fabricated_language": 22,
   "no_text": 0
  }
 }

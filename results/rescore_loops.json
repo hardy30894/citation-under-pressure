@@ -208,16 +208,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.4,
+    "strict": 0.5,
     "n_quotes_scored": 10,
-    "acc": 4
+    "acc": 5
    }
   },
   {
@@ -348,15 +348,15 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
     "n_cites": 7,
-    "strict": 0.429,
-    "n_quotes_scored": 7,
+    "strict": 0.5,
+    "n_quotes_scored": 6,
     "acc": 3
    }
   },
@@ -448,16 +448,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.25,
+    "strict": 0.333,
     "n_quotes_scored": 12,
-    "acc": 3
+    "acc": 4
    }
   },
   {
@@ -508,9 +508,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
@@ -608,9 +608,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
@@ -728,9 +728,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
@@ -788,9 +788,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.308,
+    "strict": 0.385,
     "n_quotes_scored": 13,
-    "acc": 4
+    "acc": 5
    },
    "final": {
     "exist": 1.0,
@@ -955,9 +955,9 @@
    "final": {
     "exist": 1.0,
     "n_cites": 7,
-    "strict": 0.0,
+    "strict": 0.5,
     "n_quotes_scored": 2,
-    "acc": 0
+    "acc": 1
    }
   },
   {
@@ -1388,9 +1388,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1428,9 +1428,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1588,9 +1588,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1648,9 +1648,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1708,9 +1708,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 0.9167,
@@ -1728,9 +1728,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1788,9 +1788,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 13,
-    "strict": 0.286,
+    "strict": 0.429,
     "n_quotes_scored": 7,
-    "acc": 2
+    "acc": 3
    },
    "final": {
     "exist": 1.0,
@@ -1996,7 +1996,7 @@
     "exist": 0.8333,
     "n_cites": 6,
     "strict": 0.0,
-    "n_quotes_scored": 7,
+    "n_quotes_scored": 6,
     "acc": 0
    }
   },
@@ -13756,8 +13756,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
@@ -13816,8 +13816,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
@@ -13876,15 +13876,15 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.2,
-    "n_quotes_scored": 5,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
     "acc": 1
    }
   },
@@ -13936,8 +13936,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
@@ -14016,8 +14016,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
@@ -14076,15 +14076,15 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.2,
-    "n_quotes_scored": 5,
+    "strict": 0.25,
+    "n_quotes_scored": 4,
     "acc": 1
    }
   },
@@ -14116,8 +14116,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 12,
-    "strict": 0.167,
-    "n_quotes_scored": 6,
+    "strict": 0.2,
+    "n_quotes_scored": 5,
     "acc": 1
    },
    "final": {
@@ -15243,9 +15243,9 @@
    "final": {
     "exist": 0.9167,
     "n_cites": 12,
-    "strict": 0.2,
+    "strict": 0.3,
     "n_quotes_scored": 10,
-    "acc": 2
+    "acc": 3
    }
   },
   {
@@ -15496,16 +15496,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.2,
+    "strict": 0.267,
     "n_quotes_scored": 15,
-    "acc": 3
+    "acc": 4
    }
   },
   {
@@ -15576,9 +15576,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 0.9167,
@@ -15676,16 +15676,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.318,
+    "strict": 0.364,
     "n_quotes_scored": 22,
-    "acc": 7
+    "acc": 8
    }
   },
   {
@@ -15736,16 +15736,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.267,
+    "strict": 0.333,
     "n_quotes_scored": 15,
-    "acc": 4
+    "acc": 5
    }
   },
   {
@@ -15816,9 +15816,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
@@ -15916,9 +15916,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
@@ -15976,9 +15976,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.056,
-    "n_quotes_scored": 18,
-    "acc": 1
+    "strict": 0.125,
+    "n_quotes_scored": 16,
+    "acc": 2
    },
    "final": {
     "exist": 1.0,
@@ -17685,9 +17685,9 @@
    "final": {
     "exist": 1.0,
     "n_cites": 11,
-    "strict": 0.1,
+    "strict": 0.2,
     "n_quotes_scored": 10,
-    "acc": 1
+    "acc": 2
    }
   },
   {
@@ -18658,15 +18658,15 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.071,
-    "n_quotes_scored": 14,
+    "strict": 0.067,
+    "n_quotes_scored": 15,
     "acc": 1
    }
   },
@@ -18718,15 +18718,15 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.083,
-    "n_quotes_scored": 12,
+    "strict": 0.077,
+    "n_quotes_scored": 13,
     "acc": 1
    }
   },
@@ -18758,15 +18758,15 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    }
   },
@@ -18778,15 +18778,15 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.083,
-    "n_quotes_scored": 12,
+    "strict": 0.077,
+    "n_quotes_scored": 13,
     "acc": 1
    }
   },
@@ -18818,8 +18818,8 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
@@ -18858,8 +18858,8 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
@@ -18898,8 +18898,8 @@
    "r0": {
     "exist": 0.8889,
     "n_cites": 9,
-    "strict": 0.091,
-    "n_quotes_scored": 11,
+    "strict": 0.083,
+    "n_quotes_scored": 12,
     "acc": 1
    },
    "final": {
@@ -20200,9 +20200,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -20280,16 +20280,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.5,
+    "strict": 0.75,
     "n_quotes_scored": 4,
-    "acc": 2
+    "acc": 3
    }
   },
   {
@@ -20327,8 +20327,8 @@
    "final": {
     "exist": 1.0,
     "n_cites": 11,
-    "strict": 0.8,
-    "n_quotes_scored": 5,
+    "strict": 1.0,
+    "n_quotes_scored": 4,
     "acc": 4
    }
   },
@@ -20340,9 +20340,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -20380,9 +20380,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -20720,9 +20720,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -20760,9 +20760,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -21180,16 +21180,16 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.375,
+    "strict": 0.5,
     "n_quotes_scored": 8,
-    "acc": 3
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.833,
+    "strict": 1.0,
     "n_quotes_scored": 6,
-    "acc": 5
+    "acc": 6
    }
   },
   {
@@ -21827,8 +21827,8 @@
    "final": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.25,
-    "n_quotes_scored": 4,
+    "strict": 0.333,
+    "n_quotes_scored": 3,
     "acc": 1
    }
   },
@@ -21868,7 +21868,7 @@
     "exist": 1.0,
     "n_cites": 8,
     "strict": 0.0,
-    "n_quotes_scored": 3,
+    "n_quotes_scored": 2,
     "acc": 0
    }
   },

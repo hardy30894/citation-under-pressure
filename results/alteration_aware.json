@@ -1,34 +1,34 @@
 {
  "cells": {
   "deepseek:baseline": {
-   "strict": 0.381,
-   "literal": 0.3532,
-   "scored_strict": 252,
-   "scored_literal": 252
+   "strict": 0.3825,
+   "literal": 0.3546,
+   "scored_strict": 251,
+   "scored_literal": 251
   },
   "deepseek:combo": {
-   "strict": 0.1423,
-   "literal": 0.1317,
+   "strict": 0.1495,
+   "literal": 0.1388,
    "scored_strict": 281,
    "scored_literal": 281
   },
   "deepseek:quota": {
-   "strict": 0.375,
-   "literal": 0.3368,
-   "scored_strict": 288,
-   "scored_literal": 288
+   "strict": 0.3846,
+   "literal": 0.3462,
+   "scored_strict": 286,
+   "scored_literal": 286
   },
   "deepseek:stakes": {
-   "strict": 0.3621,
-   "literal": 0.3416,
-   "scored_strict": 243,
-   "scored_literal": 243
+   "strict": 0.3636,
+   "literal": 0.343,
+   "scored_strict": 242,
+   "scored_literal": 242
   },
   "deepseek:temporal": {
-   "strict": 0.2427,
-   "literal": 0.233,
-   "scored_strict": 206,
-   "scored_literal": 206
+   "strict": 0.25,
+   "literal": 0.2402,
+   "scored_strict": 204,
+   "scored_literal": 204
   },
   "gpt54mini:baseline": {
    "strict": 0.5827,
@@ -43,28 +43,28 @@
    "scored_literal": 88
   },
   "gpt54mini:stakes": {
-   "strict": 0.5659,
-   "literal": 0.5349,
-   "scored_strict": 129,
-   "scored_literal": 129
+   "strict": 0.552,
+   "literal": 0.52,
+   "scored_strict": 125,
+   "scored_literal": 125
   },
   "gpt54mini:temporal": {
-   "strict": 0.4054,
-   "literal": 0.3919,
-   "scored_strict": 74,
-   "scored_literal": 74
+   "strict": 0.4384,
+   "literal": 0.4247,
+   "scored_strict": 73,
+   "scored_literal": 73
   },
   "gpt54mini:quota": {
-   "strict": 0.5862,
-   "literal": 0.5603,
-   "scored_strict": 116,
-   "scored_literal": 116
+   "strict": 0.6053,
+   "literal": 0.5789,
+   "scored_strict": 114,
+   "scored_literal": 114
   },
   "grok43:baseline": {
-   "strict": 0.4551,
-   "literal": 0.3758,
-   "scored_strict": 156,
-   "scored_literal": 157
+   "strict": 0.4803,
+   "literal": 0.3987,
+   "scored_strict": 152,
+   "scored_literal": 153
   },
   "grok43:combo": {
    "strict": 0.3025,
@@ -73,8 +73,8 @@
    "scored_literal": 119
   },
   "grok43:quota": {
-   "strict": 0.5072,
-   "literal": 0.4429,
+   "strict": 0.5145,
+   "literal": 0.45,
    "scored_strict": 138,
    "scored_literal": 140
   },
@@ -85,8 +85,8 @@
    "scored_literal": 135
   },
   "grok43:temporal": {
-   "strict": 0.3583,
-   "literal": 0.3417,
+   "strict": 0.3667,
+   "literal": 0.35,
    "scored_strict": 120,
    "scored_literal": 120
   },
@@ -109,10 +109,10 @@
    "scored_literal": 81
   },
   "llama4mav:stakes": {
-   "strict": 0.5556,
-   "literal": 0.5185,
-   "scored_strict": 54,
-   "scored_literal": 54
+   "strict": 0.5769,
+   "literal": 0.5385,
+   "scored_strict": 52,
+   "scored_literal": 52
   },
   "llama4mav:temporal": {
    "strict": 0.2143,
@@ -121,96 +121,96 @@
    "scored_literal": 42
   },
   "mistralsmall:baseline": {
-   "strict": 0.262,
-   "literal": 0.2513,
-   "scored_strict": 187,
-   "scored_literal": 187
+   "strict": 0.2554,
+   "literal": 0.2446,
+   "scored_strict": 184,
+   "scored_literal": 184
   },
   "mistralsmall:combo": {
-   "strict": 0.1573,
-   "literal": 0.1492,
-   "scored_strict": 248,
-   "scored_literal": 248
+   "strict": 0.1639,
+   "literal": 0.1557,
+   "scored_strict": 244,
+   "scored_literal": 244
   },
   "mistralsmall:quota": {
-   "strict": 0.3184,
-   "literal": 0.2836,
-   "scored_strict": 201,
-   "scored_literal": 201
+   "strict": 0.3147,
+   "literal": 0.2792,
+   "scored_strict": 197,
+   "scored_literal": 197
   },
   "mistralsmall:stakes": {
-   "strict": 0.2191,
-   "literal": 0.191,
-   "scored_strict": 178,
-   "scored_literal": 178
+   "strict": 0.2114,
+   "literal": 0.1829,
+   "scored_strict": 175,
+   "scored_literal": 175
   },
   "mistralsmall:temporal": {
-   "strict": 0.1422,
-   "literal": 0.1327,
-   "scored_strict": 211,
-   "scored_literal": 211
-  },
-  "qwen30b:baseline": {
-   "strict": 0.1652,
-   "literal": 0.1609,
-   "scored_strict": 230,
-   "scored_literal": 230
-  },
-  "qwen30b:combo": {
-   "strict": 0.0615,
-   "literal": 0.0615,
-   "scored_strict": 325,
-   "scored_literal": 325
-  },
-  "qwen30b:quota": {
-   "strict": 0.1972,
-   "literal": 0.1831,
-   "scored_strict": 284,
-   "scored_literal": 284
-  },
-  "qwen30b:stakes": {
-   "strict": 0.1857,
-   "literal": 0.181,
+   "strict": 0.1476,
+   "literal": 0.1381,
    "scored_strict": 210,
    "scored_literal": 210
   },
+  "qwen30b:baseline": {
+   "strict": 0.179,
+   "literal": 0.1747,
+   "scored_strict": 229,
+   "scored_literal": 229
+  },
+  "qwen30b:combo": {
+   "strict": 0.0613,
+   "literal": 0.0613,
+   "scored_strict": 326,
+   "scored_literal": 326
+  },
+  "qwen30b:quota": {
+   "strict": 0.2014,
+   "literal": 0.1871,
+   "scored_strict": 278,
+   "scored_literal": 278
+  },
+  "qwen30b:stakes": {
+   "strict": 0.1827,
+   "literal": 0.1779,
+   "scored_strict": 208,
+   "scored_literal": 208
+  },
   "qwen30b:temporal": {
-   "strict": 0.0891,
-   "literal": 0.0891,
-   "scored_strict": 202,
-   "scored_literal": 202
+   "strict": 0.0896,
+   "literal": 0.0896,
+   "scored_strict": 201,
+   "scored_literal": 201
   },
   "sonnet:baseline": {
-   "strict": 0.5231,
-   "literal": 0.4885,
-   "scored_strict": 260,
-   "scored_literal": 260
+   "strict": 0.5271,
+   "literal": 0.4922,
+   "scored_strict": 258,
+   "scored_literal": 258
   },
   "sonnet:combo": {
-   "strict": 0.6443,
-   "literal": 0.6134,
+   "strict": 0.6495,
+   "literal": 0.6186,
    "scored_strict": 194,
    "scored_literal": 194
   },
   "sonnet:quota": {
-   "strict": 0.5181,
-   "literal": 0.4783,
+   "strict": 0.529,
+   "literal": 0.4891,
    "scored_strict": 276,
    "scored_literal": 276
   },
   "sonnet:stakes": {
-   "strict": 0.6109,
-   "literal": 0.5667,
-   "scored_strict": 239,
-   "scored_literal": 240
+   "strict": 0.6255,
+   "literal": 0.5805,
+   "scored_strict": 235,
+   "scored_literal": 236
   },
   "sonnet:temporal": {
-   "strict": 0.5451,
-   "literal": 0.5021,
-   "scored_strict": 233,
-   "scored_literal": 233
+   "strict": 0.556,
+   "literal": 0.5129,
+   "scored_strict": 232,
+   "scored_literal": 232
   }
  },
  "max_cell_diff": 0.0927,
- "mean_cell_diff": 0.0281
+ "mean_cell_diff": 0.0284
 }

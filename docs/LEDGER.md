@@ -725,3 +725,39 @@ before or after seeing the relevant data. Nothing is deleted.
   K_d beside R_d. The strict-rate formula S_d that an earlier draft
   carried is superseded by this block. Page fit kept by small trims in
   Sections 5 to 9; body ends on page 10.
+- 2026-09-05 (two instrument corrections applied, full rebuild): (a) the
+  name rule matched party tokens as substrings, so "under", from a
+  defendant eyecite parsed as "Under Mooney", matched inside
+  "understanding" and bound a quotation whose sentence names Affronti v.
+  United States to Mooney v. Holohan; tokens now match at word boundaries
+  (quotecheck2.word_find/word_rfind), and that quotation scores accurate
+  against Affronti. (b) A quotation that drops an internal citation
+  without an ellipsis, under a "(citation omitted)" or "(cleaned up)"
+  parenthetical or Bluebook 5.2, failed the strict standard because the
+  fragment spanned the citation; quotecheck2.omitted_citation now passes
+  a fragment that splits at a word boundary into two halves of at least
+  15 characters that the opinion contains in order, at most 300
+  characters apart, when the gap holds a digit or id., ibid., or supra.
+  Two seeded plants cover it (an omitted internal citation must pass;
+  three omitted words of prose must not); validate_q2 is 280 of 280 on
+  fourteen plants. Every result regenerated (src/rebuild_all.sh, 21 min).
+  What moved: strict rates by at most 0.03 (human 0.594 to 0.610); the
+  pre-registered survivor set is still eight, but Mistral Small's
+  temporal quotation fall (p 0.009, Holm above 0.05) left it and
+  Qwen3-30B's temporal quotation fall entered, so the abstract's "four
+  models" is "three" (now macro-driven), the effects holding under both
+  templates are Qwen3-30B's four and DeepSeek's combined fall, and the
+  template-B-only list gains Mistral temporal; lenient refit 7; count
+  outcome 8 contrasts in 5 models (Qwen temporal added); audit
+  sensitivity now 7 of 8 in every draw and Qwen3-30B's temporal
+  quotation fall in 82 percent (44 at the upper bound), stated; pooled
+  tasks 7 of 8 kept with five further falls; Sonnet 5 combined rise
+  uncorrected p 0.025, Holm 0.201, and its stakes rise uncorrected p
+  0.048; loop trace Sonnet 5: 35 flags, 3 repaired, 30 deleted, 4 of 69
+  accurate removed, precision curve 4/9/21/28/43 (at 0.5 exactly the 21
+  of no feedback); Mistral left 44 of 92; passage 13/35. The hand
+  readings (160 closed-book, 40 grounded, 40 accurate) were made under
+  the rule before these corrections; the sample files they refer to are
+  kept as read (restored from git after the rebuild), and the paper says
+  the readings predate the corrections, which can only remove
+  checker-side verdicts. docs/pending_instrument_fixes.patch removed.

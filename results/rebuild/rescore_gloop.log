@@ -1,2 +1,2 @@
-deepseek   true      n=24 exist 0.992->1.0 strict 0.478->0.889
-sonnet     true      n=24 exist 1.0->1.0 strict 0.803->1.0
+deepseek   true      n=24 exist 0.992->1.0 strict 0.501->0.889
+sonnet     true      n=24 exist 1.0->1.0 strict 0.819->1.0

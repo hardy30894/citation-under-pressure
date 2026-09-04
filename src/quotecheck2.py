@@ -183,6 +183,20 @@ def sentence_end(seg):
     return len(seg)
 
 
+def word_find(hay, tok):
+    """First position of tok as a whole word (a party name must not match
+    inside a longer word: "under" in "understanding")."""
+    m = re.search(r"(?<![a-z])" + re.escape(tok) + r"(?![a-z])", hay)
+    return m.start() if m else -1
+
+
+def word_rfind(hay, tok):
+    last = -1
+    for m in re.finditer(r"(?<![a-z])" + re.escape(tok) + r"(?![a-z])", hay):
+        last = m.start()
+    return last
+
+
 def attribute(q, text, cites):
     """Return (cite, how) for one extracted quote.
 
@@ -206,12 +220,12 @@ def attribute(q, text, cites):
     for c in cites:
         prox = abs(c["start"] - q["start"])  # tie-break: the nearer citation
         for t in c["tokens"]:
-            i = before.rfind(t)
+            i = word_rfind(before, t)
             if i >= sent and i >= 0:  # the name must sit in the quote's own sentence
                 d = len(before) - (i + len(t))
                 if best_before is None or (d, prox) < (best_before[0], best_before[2]):
                     best_before = (d, c, prox)
-            j = after.find(t)
+            j = word_find(after, t)
             if j >= 0 and (best_after is None or (j, prox) < (best_after[0], best_after[2])):
                 best_after = (j, c, prox)
     # a quotation inside a parenthetical that opens right after a citation
@@ -256,6 +270,37 @@ def attribute(q, text, cites):
     return None, None
 
 
+CITATION_GAP = re.compile(r"\d|\b(?:id|ibid|supra)\b")
+GAP_MAX = 300
+
+
+def omitted_citation(fragment, text_norm):
+    """A quotation may drop an internal citation without an ellipsis, under
+    a "(citation omitted)" or "(cleaned up)" parenthetical or under
+    Bluebook 5.2, and the fragment then spans material the opinion has and
+    the quotation does not. The fragment passes when it splits at a word
+    boundary into two halves of at least 15 characters that the opinion
+    contains in order, at most GAP_MAX characters apart, and the gap looks
+    like a citation (a digit, or id., ibid., supra)."""
+    words = fragment.split()
+    for k in range(2, len(words) - 1):
+        head, tail = " ".join(words[:k]), " ".join(words[k:])
+        if len(head) < 15:
+            continue
+        if len(tail) < 15:
+            break
+        start = 0
+        while True:
+            i = text_norm.find(head, start)
+            if i < 0:
+                break
+            j = text_norm.find(tail, i + len(head), i + len(head) + GAP_MAX + len(tail))
+            if j >= 0 and CITATION_GAP.search(text_norm[i + len(head):j]):
+                return True
+            start = i + 1
+    return False
+
+
 def verdict_for(q, cite, store):
     if cite is None:
         return "unpaired", None
@@ -276,7 +321,7 @@ def verdict_for(q, cite, store):
         return "no_fragment", None
     text_norm = normalize(opinion)
     nospace = text_norm.replace(" ", "")
-    if all(contains(f, text_norm, nospace) for f in frags):
+    if all(contains(f, text_norm, nospace) or omitted_citation(f, text_norm) for f in frags):
         return "accurate", 1.0
     cov = min(token_coverage(f, text_norm) for f in frags)
     return ("near_miss" if cov >= 0.85 else "inaccurate"), round(cov, 3)

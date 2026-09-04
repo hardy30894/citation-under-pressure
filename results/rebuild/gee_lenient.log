@@ -1,8 +1,8 @@
-quote:deepseek:temporal          OR 0.46 [0.28, 0.73] p=0.0011
-quote:deepseek:combo             OR 0.36 [0.25, 0.52] p=0.0
-quote:gpt54mini:temporal         OR 0.39 [0.19, 0.80] p=0.00999
-quote:llama4mav:combo            OR 0.35 [0.16, 0.78] p=0.00969
-quote:mistralsmall:combo         OR 0.50 [0.30, 0.82] p=0.0058
+quote:deepseek:temporal          OR 0.46 [0.28, 0.75] p=0.00164
+quote:deepseek:combo             OR 0.35 [0.24, 0.52] p=0.0
+quote:gpt54mini:temporal         OR 0.43 [0.20, 0.92] p=0.02966
+quote:llama4mav:combo            OR 0.35 [0.16, 0.77] p=0.00949
+quote:mistralsmall:combo         OR 0.54 [0.32, 0.90] p=0.017
 citation:qwen30b:quota           OR 0.56 [0.41, 0.75] p=0.00013
 citation:qwen30b:temporal        OR 0.45 [0.27, 0.74] p=0.00166
 citation:qwen30b:stakes          OR 0.65 [0.44, 0.95] p=0.02546

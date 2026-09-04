@@ -1,0 +1,8 @@
+deepseek     inacc  130  packet  21  statute  15  both  5  neither   89  | scored   432 packet-any 111
+gpt54mini    inacc   36  packet  14  statute   2  both  2  neither   18  | scored   210 packet-any  67
+grok43       inacc   55  packet  17  statute   3  both  0  neither   35  | scored   255 packet-any  53
+llama4mav    inacc   29  packet   6  statute   0  both  2  neither   21  | scored    86 packet-any  41
+mistralsmall inacc  160  packet  12  statute   8  both  5  neither  135  | scored   373 packet-any  67
+qwen30b      inacc  244  packet  42  statute   6  both  1  neither  195  | scored   658 packet-any 115
+sonnet       inacc   63  packet  25  statute   2  both  2  neither   34  | scored   483 packet-any 104
+pooled {'inaccurate_total': 717, 'packet_material': 137, 'statutory': 36, 'both': 17, 'neither': 527, 'scored_total': 2497, 'packet_material_any_verdict': 558, 'packet_material_accurate': 309, 'packet_material_near_miss': 95, 'packet_material_inaccurate': 154, 'artifact_leading_space': 0, 'attribution_named': 457, 'attribution_proximity': 135, 'share_packet_or_statutory': 0.265}

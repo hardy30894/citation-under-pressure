@@ -10,25 +10,26 @@
   t = np.exp(z)
 /opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
   return t / (1 + t) ** 2
-deepseek:baseline        exist 0.9718 -> 0.9883   strict 0.381 -> 0.5024
-deepseek:combo           exist 0.959 -> 0.9938   strict 0.1423 -> 0.4192
-gpt54mini:baseline       exist 0.9808 -> 0.9858   strict 0.5827 -> 0.6923
-gpt54mini:combo          exist 0.9621 -> 0.9937   strict 0.4659 -> 0.6814
-grok43:baseline          exist 0.9805 -> 0.9871   strict 0.4551 -> 0.5725
+deepseek:baseline        exist 0.9718 -> 0.9883   strict 0.3825 -> 0.519
+deepseek:combo           exist 0.959 -> 0.9938   strict 0.1495 -> 0.4324
+gpt54mini:baseline       exist 0.9808 -> 0.9858   strict 0.5827 -> 0.7374
+gpt54mini:combo          exist 0.9621 -> 0.9937   strict 0.4659 -> 0.6937
+grok43:baseline          exist 0.9805 -> 0.9871   strict 0.4803 -> 0.5802
 grok43:combo             exist 0.9937 -> 1.0   strict 0.3025 -> 0.7339
 llama4mav:baseline       exist 0.9577 -> 0.9739   strict 0.5882 -> 0.6579
 llama4mav:combo          exist 0.9387 -> 0.9963   strict 0.2295 -> 0.3958
-mistralsmall:baseline    exist 0.9008 -> 0.9443   strict 0.262 -> 0.3471
-mistralsmall:combo       exist 0.8676 -> 0.9804   strict 0.1573 -> 0.2286
-qwen30b:baseline         exist 0.9243 -> 0.9544   strict 0.1652 -> 0.2548
-qwen30b:combo            exist 0.7733 -> 0.9948   strict 0.0615 -> 0.4121
-sonnet:baseline          exist 0.9906 -> 1.0   strict 0.5231 -> 0.712
-sonnet:combo             exist 0.9978 -> 1.0   strict 0.6443 -> 0.7277
-  quote:deepseek:combo         OR 4.069 holm 0.0
+mistralsmall:baseline    exist 0.9008 -> 0.9443   strict 0.2554 -> 0.3512
+mistralsmall:combo       exist 0.8676 -> 0.9804   strict 0.1639 -> 0.2341
+qwen30b:baseline         exist 0.9243 -> 0.9544   strict 0.179 -> 0.2605
+qwen30b:combo            exist 0.7733 -> 0.9948   strict 0.0613 -> 0.4232
+sonnet:baseline          exist 0.9906 -> 1.0   strict 0.5271 -> 0.7258
+sonnet:combo             exist 0.9978 -> 1.0   strict 0.6495 -> 0.7532
+  quote:deepseek:combo         OR 4.134 holm 0.0
+  quote:gpt54mini:combo        OR 2.918 holm 0.0231
   quote:grok43:combo           OR 6.222 holm 0.0005
   citation:llama4mav:combo     OR 17.141 holm 0.0001
   citation:mistralsmall:combo  OR 7.44 holm 0.0
   citation:qwen30b:combo       OR 53.831 holm 0.0
-  quote:qwen30b:combo          OR 10.76 holm 0.0
-  quote:sonnet:baseline        OR 2.169 holm 0.0102
+  quote:qwen30b:combo          OR 11.292 holm 0.0
+  quote:sonnet:baseline        OR 2.266 holm 0.0038
 retrieved share: {'chain.log': None, 'deepseek': 0.675, 'gpt54mini': 0.639, 'grok43': 0.828, 'llama4mav': 0.705, 'mistralsmall': 0.509, 'qwen30b': 0.642, 'sonnet': 0.782, 'workers.log': None}

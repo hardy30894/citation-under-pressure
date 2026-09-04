@@ -4,14 +4,14 @@
    "exist": 0.9718,
    "not_found": 10,
    "adjudicable": 354,
-   "strict": 0.381,
-   "quotes_scored": 252
+   "strict": 0.3825,
+   "quotes_scored": 251
   },
   "deepseek:combo": {
    "exist": 0.959,
    "not_found": 20,
    "adjudicable": 488,
-   "strict": 0.1423,
+   "strict": 0.1495,
    "quotes_scored": 281
   },
   "gpt54mini:baseline": {
@@ -32,8 +32,8 @@
    "exist": 0.9805,
    "not_found": 5,
    "adjudicable": 257,
-   "strict": 0.4551,
-   "quotes_scored": 156
+   "strict": 0.4803,
+   "quotes_scored": 152
   },
   "grok43:combo": {
    "exist": 0.9937,
@@ -60,42 +60,42 @@
    "exist": 0.9008,
    "not_found": 37,
    "adjudicable": 373,
-   "strict": 0.262,
-   "quotes_scored": 187
+   "strict": 0.2554,
+   "quotes_scored": 184
   },
   "mistralsmall:combo": {
    "exist": 0.8676,
    "not_found": 69,
    "adjudicable": 521,
-   "strict": 0.1573,
-   "quotes_scored": 248
+   "strict": 0.1639,
+   "quotes_scored": 244
   },
   "qwen30b:baseline": {
    "exist": 0.9243,
    "not_found": 28,
    "adjudicable": 370,
-   "strict": 0.1652,
-   "quotes_scored": 230
+   "strict": 0.179,
+   "quotes_scored": 229
   },
   "qwen30b:combo": {
    "exist": 0.7733,
    "not_found": 90,
    "adjudicable": 397,
-   "strict": 0.0615,
-   "quotes_scored": 325
+   "strict": 0.0613,
+   "quotes_scored": 326
   },
   "sonnet:baseline": {
    "exist": 0.9906,
    "not_found": 3,
    "adjudicable": 318,
-   "strict": 0.5231,
-   "quotes_scored": 260
+   "strict": 0.5271,
+   "quotes_scored": 258
   },
   "sonnet:combo": {
    "exist": 0.9978,
    "not_found": 1,
    "adjudicable": 450,
-   "strict": 0.6443,
+   "strict": 0.6495,
    "quotes_scored": 194
   }
  },
@@ -104,35 +104,35 @@
    "exist": 0.9883,
    "not_found": 4,
    "adjudicable": 341,
-   "strict": 0.5024,
-   "quotes_scored": 211
+   "strict": 0.519,
+   "quotes_scored": 210
   },
   "deepseek:combo": {
    "exist": 0.9938,
    "not_found": 3,
    "adjudicable": 486,
-   "strict": 0.4192,
-   "quotes_scored": 229
+   "strict": 0.4324,
+   "quotes_scored": 222
   },
   "gpt54mini:baseline": {
    "exist": 0.9858,
    "not_found": 6,
    "adjudicable": 422,
-   "strict": 0.6923,
-   "quotes_scored": 104
+   "strict": 0.7374,
+   "quotes_scored": 99
   },
   "gpt54mini:combo": {
    "exist": 0.9937,
    "not_found": 4,
    "adjudicable": 631,
-   "strict": 0.6814,
-   "quotes_scored": 113
+   "strict": 0.6937,
+   "quotes_scored": 111
   },
   "grok43:baseline": {
    "exist": 0.9871,
    "not_found": 3,
    "adjudicable": 232,
-   "strict": 0.5725,
+   "strict": 0.5802,
    "quotes_scored": 131
   },
   "grok43:combo": {
@@ -160,42 +160,42 @@
    "exist": 0.9443,
    "not_found": 20,
    "adjudicable": 359,
-   "strict": 0.3471,
-   "quotes_scored": 170
+   "strict": 0.3512,
+   "quotes_scored": 168
   },
   "mistralsmall:combo": {
    "exist": 0.9804,
    "not_found": 9,
    "adjudicable": 459,
-   "strict": 0.2286,
-   "quotes_scored": 210
+   "strict": 0.2341,
+   "quotes_scored": 205
   },
   "qwen30b:baseline": {
    "exist": 0.9544,
    "not_found": 15,
    "adjudicable": 329,
-   "strict": 0.2548,
-   "quotes_scored": 263
+   "strict": 0.2605,
+   "quotes_scored": 261
   },
   "qwen30b:combo": {
    "exist": 0.9948,
    "not_found": 2,
    "adjudicable": 383,
-   "strict": 0.4121,
-   "quotes_scored": 398
+   "strict": 0.4232,
+   "quotes_scored": 397
   },
   "sonnet:baseline": {
    "exist": 1.0,
    "not_found": 0,
    "adjudicable": 294,
-   "strict": 0.712,
-   "quotes_scored": 250
+   "strict": 0.7258,
+   "quotes_scored": 248
   },
   "sonnet:combo": {
    "exist": 1.0,
    "not_found": 0,
    "adjudicable": 430,
-   "strict": 0.7277,
+   "strict": 0.7532,
    "quotes_scored": 235
   }
  },
@@ -208,23 +208,23 @@
    "holm_p": 1.0
   },
   "quote:deepseek:baseline": {
-   "OR": 1.659,
-   "ci_low": 1.082,
-   "ci_high": 2.543,
-   "p": 0.02035,
-   "holm_p": 0.346
+   "OR": 1.759,
+   "ci_low": 1.151,
+   "ci_high": 2.689,
+   "p": 0.00905,
+   "holm_p": 0.172
   },
   "citation:deepseek:combo": {
    "OR": 6.655,
    "ci_low": 1.601,
    "ci_high": 27.672,
    "p": 0.00913,
-   "holm_p": 0.1735
+   "holm_p": 0.1644
   },
   "quote:deepseek:combo": {
-   "OR": 4.069,
-   "ci_low": 2.481,
-   "ci_high": 6.671,
+   "OR": 4.134,
+   "ci_low": 2.487,
+   "ci_high": 6.872,
    "p": 0.0,
    "holm_p": 0.0
   },
@@ -236,11 +236,11 @@
    "holm_p": 1.0
   },
   "quote:gpt54mini:baseline": {
-   "OR": 1.553,
-   "ci_low": 0.758,
-   "ci_high": 3.183,
-   "p": 0.22902,
-   "holm_p": 1.0
+   "OR": 1.951,
+   "ci_low": 1.075,
+   "ci_high": 3.539,
+   "p": 0.02791,
+   "holm_p": 0.4186
   },
   "citation:gpt54mini:combo": {
    "OR": 6.016,
@@ -250,11 +250,11 @@
    "holm_p": 0.0975
   },
   "quote:gpt54mini:combo": {
-   "OR": 2.648,
-   "ci_low": 1.386,
-   "ci_high": 5.059,
-   "p": 0.00318,
-   "holm_p": 0.0669
+   "OR": 2.918,
+   "ci_low": 1.534,
+   "ci_high": 5.553,
+   "p": 0.0011,
+   "holm_p": 0.0231
   },
   "citation:grok43:baseline": {
    "OR": 1.015,
@@ -264,11 +264,11 @@
    "holm_p": 1.0
   },
   "quote:grok43:baseline": {
-   "OR": 1.603,
-   "ci_low": 1.061,
-   "ci_high": 2.421,
-   "p": 0.02488,
-   "holm_p": 0.398
+   "OR": 1.492,
+   "ci_low": 0.996,
+   "ci_high": 2.235,
+   "p": 0.05208,
+   "holm_p": 0.677
   },
   "citation:grok43:combo": {
    "OR": NaN,
@@ -310,20 +310,20 @@
    "ci_low": 0.932,
    "ci_high": 7.333,
    "p": 0.06783,
-   "holm_p": 0.9496
+   "holm_p": 0.8139
   },
   "citation:mistralsmall:baseline": {
    "OR": 1.757,
    "ci_low": 1.06,
    "ci_high": 2.912,
    "p": 0.02883,
-   "holm_p": 0.4325
+   "holm_p": 0.4037
   },
   "quote:mistralsmall:baseline": {
-   "OR": 1.497,
-   "ci_low": 0.839,
-   "ci_high": 2.668,
-   "p": 0.17188,
+   "OR": 1.587,
+   "ci_low": 0.893,
+   "ci_high": 2.821,
+   "p": 0.11528,
    "holm_p": 1.0
   },
   "citation:mistralsmall:combo": {
@@ -334,10 +334,10 @@
    "holm_p": 0.0
   },
   "quote:mistralsmall:combo": {
-   "OR": 1.595,
-   "ci_low": 0.806,
-   "ci_high": 3.156,
-   "p": 0.17973,
+   "OR": 1.57,
+   "ci_low": 0.82,
+   "ci_high": 3.006,
+   "p": 0.17391,
    "holm_p": 1.0
   },
   "citation:qwen30b:baseline": {
@@ -345,14 +345,14 @@
    "ci_low": 1.123,
    "ci_high": 2.863,
    "p": 0.01445,
-   "holm_p": 0.26
+   "holm_p": 0.2456
   },
   "quote:qwen30b:baseline": {
-   "OR": 1.619,
-   "ci_low": 0.939,
-   "ci_high": 2.79,
-   "p": 0.08288,
-   "holm_p": 0.9946
+   "OR": 1.518,
+   "ci_low": 0.897,
+   "ci_high": 2.569,
+   "p": 0.11996,
+   "holm_p": 1.0
   },
   "citation:qwen30b:combo": {
    "OR": 53.831,
@@ -362,9 +362,9 @@
    "holm_p": 0.0
   },
   "quote:qwen30b:combo": {
-   "OR": 10.76,
-   "ci_low": 5.145,
-   "ci_high": 22.505,
+   "OR": 11.292,
+   "ci_low": 5.394,
+   "ci_high": 23.638,
    "p": 0.0,
    "holm_p": 0.0
   },
@@ -376,11 +376,11 @@
    "holm_p": 1.0
   },
   "quote:sonnet:baseline": {
-   "OR": 2.169,
-   "ci_low": 1.406,
-   "ci_high": 3.346,
-   "p": 0.00046,
-   "holm_p": 0.0102
+   "OR": 2.266,
+   "ci_low": 1.479,
+   "ci_high": 3.471,
+   "p": 0.00017,
+   "holm_p": 0.0038
   },
   "citation:sonnet:combo": {
    "OR": NaN,
@@ -390,11 +390,11 @@
    "holm_p": 1.0
   },
   "quote:sonnet:combo": {
-   "OR": 1.441,
-   "ci_low": 0.973,
-   "ci_high": 2.133,
-   "p": 0.06824,
-   "holm_p": 0.8871
+   "OR": 1.634,
+   "ci_low": 1.096,
+   "ci_high": 2.436,
+   "p": 0.01604,
+   "holm_p": 0.2566
   }
  },
  "retrieved_share": {
@@ -446,14 +446,14 @@
  },
  "decomposition_grounded": {
   "deepseek": {
-   "out_of_scope_non_us": 14,
-   "paraphrase_in_quotes": 77,
-   "fabricated_language": 48,
+   "out_of_scope_non_us": 13,
+   "paraphrase_in_quotes": 72,
+   "fabricated_language": 45,
    "no_text": 0
   },
   "gpt54mini": {
    "out_of_scope_non_us": 1,
-   "paraphrase_in_quotes": 22,
+   "paraphrase_in_quotes": 20,
    "fabricated_language": 15,
    "no_text": 0
   },
@@ -471,20 +471,20 @@
   },
   "mistralsmall": {
    "out_of_scope_non_us": 17,
-   "paraphrase_in_quotes": 106,
-   "fabricated_language": 42,
+   "paraphrase_in_quotes": 102,
+   "fabricated_language": 41,
    "no_text": 0
   },
   "qwen30b": {
-   "out_of_scope_non_us": 22,
-   "paraphrase_in_quotes": 150,
+   "out_of_scope_non_us": 21,
+   "paraphrase_in_quotes": 148,
    "fabricated_language": 75,
    "no_text": 0
   },
   "sonnet": {
    "out_of_scope_non_us": 3,
-   "paraphrase_in_quotes": 43,
-   "fabricated_language": 25,
+   "paraphrase_in_quotes": 38,
+   "fabricated_language": 22,
    "no_text": 0
   }
  }

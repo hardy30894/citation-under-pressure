@@ -1,9 +1,9 @@
-era pooled: {'post1970_acc': 411, 'post1970_scored': 1074, 'pre1970_acc': 83, 'pre1970_scored': 189, 'pre1970_strict': 0.439, 'post1970_strict': 0.383}
-qwen30b 0.185 0.163
-mistralsmall 0.333 0.253
-deepseek 0.333 0.388
-grok43 0.423 0.462
-sonnet 0.585 0.507
+era pooled: {'post1970_acc': 413, 'post1970_scored': 1065, 'pre1970_acc': 84, 'pre1970_scored': 187, 'pre1970_strict': 0.449, 'post1970_strict': 0.388}
+qwen30b 0.192 0.177
+mistralsmall 0.333 0.245
+deepseek 0.333 0.39
+grok43 0.48 0.48
+sonnet 0.585 0.512
 llama4mav 0.5 0.61
 gpt54mini 0.684 0.565
-attribution: {'misattributed': 326, 'true_source_cited_in_draft': 139, 'share': 0.426} {'deepseek': 0.347, 'gpt54mini': 0.6, 'grok43': 0.429, 'llama4mav': 0.182, 'mistralsmall': 0.444, 'qwen30b': 0.163, 'sonnet': 0.611, 'pooled': 0.426}
+attribution: {'misattributed': 317, 'true_source_cited_in_draft': 134, 'share': 0.423} {'deepseek': 0.347, 'gpt54mini': 0.586, 'grok43': 0.429, 'llama4mav': 0.1, 'mistralsmall': 0.456, 'qwen30b': 0.167, 'sonnet': 0.597, 'pooled': 0.423}

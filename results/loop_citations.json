@@ -17,24 +17,24 @@
   },
   "r0_flags": {
    "inaccurate": 82,
-   "near_miss": 54
+   "near_miss": 52
   },
   "final_lenient": {
    "true": 0.983,
    "threequarter": 0.901,
    "half": 0.805,
    "quarter": 0.569,
-   "scrambled": 0.625,
+   "scrambled": 0.633,
    "none": 0.544,
    "passage": 1.0
   },
   "final_strict": {
-   "true": 0.95,
+   "true": 0.958,
    "threequarter": 0.776,
-   "half": 0.445,
+   "half": 0.481,
    "quarter": 0.365,
-   "scrambled": 0.225,
-   "none": 0.313,
+   "scrambled": 0.228,
+   "none": 0.317,
    "passage": 1.0
   }
  },
@@ -175,26 +175,26 @@
    "passage": 9
   },
   "r0_flags": {
-   "inaccurate": 69,
+   "inaccurate": 65,
    "near_miss": 27
   },
   "final_lenient": {
-   "true": 0.639,
-   "threequarter": 0.518,
-   "half": 0.44,
+   "true": 0.643,
+   "threequarter": 0.529,
+   "half": 0.443,
    "quarter": 0.402,
    "scrambled": 0.366,
-   "none": 0.473,
+   "none": 0.481,
    "passage": 0.877
   },
   "final_strict": {
-   "true": 0.35,
-   "threequarter": 0.269,
-   "half": 0.165,
+   "true": 0.354,
+   "threequarter": 0.272,
+   "half": 0.169,
    "quarter": 0.169,
    "scrambled": 0.116,
-   "none": 0.255,
-   "passage": 0.817
+   "none": 0.26,
+   "passage": 0.823
   }
  },
  "qwen30b": {
@@ -216,16 +216,16 @@
    "passage": 1
   },
   "r0_flags": {
-   "near_miss": 40,
+   "near_miss": 41,
    "inaccurate": 98
   },
   "final_lenient": {
-   "true": 0.359,
-   "threequarter": 0.295,
-   "half": 0.358,
+   "true": 0.362,
+   "threequarter": 0.299,
+   "half": 0.361,
    "quarter": 0.35,
-   "scrambled": 0.331,
-   "none": 0.31,
+   "scrambled": 0.334,
+   "none": 0.313,
    "passage": 0.51
   },
   "final_strict": {
@@ -235,7 +235,7 @@
    "quarter": 0.107,
    "scrambled": 0.121,
    "none": 0.076,
-   "passage": 0.29
+   "passage": 0.294
   }
  },
  "sonnet": {
@@ -253,15 +253,15 @@
    "passage": 1
   },
   "r0_flags": {
-   "near_miss": 20,
-   "inaccurate": 16
+   "near_miss": 18,
+   "inaccurate": 17
   },
   "final_lenient": {
    "true": 1.0,
    "threequarter": 1.0,
    "half": 1.0,
    "quarter": 0.955,
-   "scrambled": 0.861,
+   "scrambled": 0.873,
    "none": 0.88,
    "passage": 1.0
   },
@@ -270,9 +270,9 @@
    "threequarter": 1.0,
    "half": 0.956,
    "quarter": 0.83,
-   "scrambled": 0.575,
-   "none": 0.787,
-   "passage": 0.993
+   "scrambled": 0.591,
+   "none": 0.796,
+   "passage": 1.0
   }
  }
 }

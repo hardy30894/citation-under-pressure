@@ -1,44 +1,44 @@
 {
  "era": {
   "qwen30b": {
-   "post1970_acc": 33,
+   "post1970_acc": 36,
    "post1970_scored": 203,
    "pre1970_acc": 5,
-   "pre1970_scored": 27,
-   "pre1970_strict": 0.185,
-   "post1970_strict": 0.163
+   "pre1970_scored": 26,
+   "pre1970_strict": 0.192,
+   "post1970_strict": 0.177
   },
   "mistralsmall": {
-   "post1970_acc": 42,
-   "post1970_scored": 166,
+   "post1970_acc": 40,
+   "post1970_scored": 163,
    "pre1970_acc": 7,
    "pre1970_scored": 21,
    "pre1970_strict": 0.333,
-   "post1970_strict": 0.253
+   "post1970_strict": 0.245
   },
   "deepseek": {
    "post1970_acc": 85,
-   "post1970_scored": 219,
+   "post1970_scored": 218,
    "pre1970_acc": 11,
    "pre1970_scored": 33,
    "pre1970_strict": 0.333,
-   "post1970_strict": 0.388
+   "post1970_strict": 0.39
   },
   "grok43": {
-   "post1970_acc": 60,
-   "post1970_scored": 130,
-   "pre1970_acc": 11,
-   "pre1970_scored": 26,
-   "pre1970_strict": 0.423,
-   "post1970_strict": 0.462
+   "post1970_acc": 61,
+   "post1970_scored": 127,
+   "pre1970_acc": 12,
+   "pre1970_scored": 25,
+   "pre1970_strict": 0.48,
+   "post1970_strict": 0.48
   },
   "sonnet": {
    "post1970_acc": 105,
-   "post1970_scored": 207,
+   "post1970_scored": 205,
    "pre1970_acc": 31,
    "pre1970_scored": 53,
    "pre1970_strict": 0.585,
-   "post1970_strict": 0.507
+   "post1970_strict": 0.512
   },
   "llama4mav": {
    "post1970_acc": 25,
@@ -57,12 +57,12 @@
    "post1970_strict": 0.565
   },
   "pooled": {
-   "post1970_acc": 411,
-   "post1970_scored": 1074,
-   "pre1970_acc": 83,
-   "pre1970_scored": 189,
-   "pre1970_strict": 0.439,
-   "post1970_strict": 0.383
+   "post1970_acc": 413,
+   "post1970_scored": 1065,
+   "pre1970_acc": 84,
+   "pre1970_scored": 187,
+   "pre1970_strict": 0.449,
+   "post1970_strict": 0.388
   }
  },
  "attribution": {
@@ -72,9 +72,9 @@
    "share": 0.347
   },
   "gpt54mini": {
-   "misattributed": 30,
-   "true_source_cited_in_draft": 18,
-   "share": 0.6
+   "misattributed": 29,
+   "true_source_cited_in_draft": 17,
+   "share": 0.586
   },
   "grok43": {
    "misattributed": 35,
@@ -82,29 +82,29 @@
    "share": 0.429
   },
   "llama4mav": {
-   "misattributed": 11,
-   "true_source_cited_in_draft": 2,
-   "share": 0.182
+   "misattributed": 10,
+   "true_source_cited_in_draft": 1,
+   "share": 0.1
   },
   "mistralsmall": {
-   "misattributed": 63,
-   "true_source_cited_in_draft": 28,
-   "share": 0.444
+   "misattributed": 57,
+   "true_source_cited_in_draft": 26,
+   "share": 0.456
   },
   "qwen30b": {
-   "misattributed": 43,
+   "misattributed": 42,
    "true_source_cited_in_draft": 7,
-   "share": 0.163
+   "share": 0.167
   },
   "sonnet": {
    "misattributed": 72,
-   "true_source_cited_in_draft": 44,
-   "share": 0.611
+   "true_source_cited_in_draft": 43,
+   "share": 0.597
   },
   "pooled": {
-   "misattributed": 326,
-   "true_source_cited_in_draft": 139,
-   "share": 0.426
+   "misattributed": 317,
+   "true_source_cited_in_draft": 134,
+   "share": 0.423
   }
  }
 }

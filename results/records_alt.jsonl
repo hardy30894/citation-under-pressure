@@ -211,7 +211,7 @@
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
-{"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -233,7 +233,7 @@
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
-{"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "combo", "kind": "quote", "verdict": "accurate"}
@@ -285,7 +285,7 @@
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
-{"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
@@ -450,7 +450,7 @@
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
-{"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "deepseek", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
@@ -477,7 +477,7 @@
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -617,7 +617,7 @@
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
@@ -1289,7 +1289,7 @@
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
-{"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
@@ -1317,7 +1317,7 @@
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
-{"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
@@ -1498,7 +1498,7 @@
 {"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2001-013", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "deepseek", "matter": "2001-013", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2001-013", "condition": "stakes", "kind": "citation", "verdict": "exists"}
@@ -1969,7 +1969,7 @@
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -2298,7 +2298,7 @@
 {"model": "deepseek", "matter": "2011-010", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2011-010", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2011-010", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
-{"model": "deepseek", "matter": "2011-010", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "2011-010", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2011-010", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2011-010", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2011-010", "condition": "quota", "kind": "citation", "verdict": "exists"}
@@ -2563,7 +2563,7 @@
 {"model": "deepseek", "matter": "2012-029", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2012-029", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2012-029", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
-{"model": "deepseek", "matter": "2012-029", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "deepseek", "matter": "2012-029", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2012-031", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2012-031", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "deepseek", "matter": "2012-031", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -2953,7 +2953,7 @@
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "accurate"}
+{"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2015-007", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
@@ -3360,9 +3360,9 @@
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
-{"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
-{"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
+{"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "2016-001", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -3575,7 +3575,7 @@
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
-{"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "2018-070", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -4440,7 +4440,7 @@
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "gpt54mini", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -4597,7 +4597,7 @@
 {"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1994-059", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "1994-059", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -4656,7 +4656,7 @@
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists"}
@@ -5311,7 +5311,7 @@
 {"model": "gpt54mini", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "gpt54mini", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "gpt54mini", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2000-071", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2000-071", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2000-071", "condition": "stakes", "kind": "citation", "verdict": "exists"}
@@ -6178,7 +6178,7 @@
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
-{"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2011-027", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2011-027", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2011-027", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -6442,7 +6442,7 @@
 {"model": "gpt54mini", "matter": "2012-031", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2012-031", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2012-031", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "gpt54mini", "matter": "2012-031", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "gpt54mini", "matter": "2012-031", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2013-058", "condition": "baseline", "kind": "citation", "verdict": "not_found"}
 {"model": "gpt54mini", "matter": "2013-058", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2013-058", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -6766,7 +6766,7 @@
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2015-038", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -6969,7 +6969,7 @@
 {"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
-{"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "gpt54mini", "matter": "2015-066", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-001", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2016-001", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -7098,7 +7098,7 @@
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -7122,7 +7122,7 @@
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -7986,7 +7986,7 @@
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
-{"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "grok43", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
@@ -8049,7 +8049,7 @@
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "citation", "verdict": "exists"}
-{"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
@@ -8089,7 +8089,7 @@
 {"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1994-059", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "1994-059", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -9090,8 +9090,8 @@
 {"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
-{"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
-{"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
+{"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "2010-026", "condition": "combo", "kind": "citation", "verdict": "exists"}
@@ -9125,7 +9125,7 @@
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -9277,7 +9277,7 @@
 {"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
-{"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "2011-010", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "2011-010", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "2011-010", "condition": "combo", "kind": "citation", "verdict": "exists"}
@@ -10103,7 +10103,7 @@
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "2018-070", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -11282,7 +11282,7 @@
 {"model": "llama4mav", "matter": "2001-013", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2001-013", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2001-013", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "llama4mav", "matter": "2001-013", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
+{"model": "llama4mav", "matter": "2001-013", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "2001-013", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2001-013", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2001-013", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -11564,8 +11564,8 @@
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
+{"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "llama4mav", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -11940,12 +11940,12 @@
 {"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "citation", "verdict": "exists"}
+{"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
-{"model": "llama4mav", "matter": "2012-031", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "citation", "verdict": "exists"}
-{"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2012-031", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -12302,7 +12302,7 @@
 {"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
-{"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "2016-001", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "llama4mav", "matter": "2016-001", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -12914,7 +12914,7 @@
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "citation", "verdict": "exists"}
-{"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
+{"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -12961,7 +12961,7 @@
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "citation", "verdict": "exists"}
-{"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
@@ -13187,7 +13187,7 @@
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -13224,7 +13224,7 @@
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
+{"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -13278,12 +13278,12 @@
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
-{"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
-{"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "accurate"}
+{"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
@@ -13435,7 +13435,7 @@
 {"model": "mistralsmall", "matter": "1997-046", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-046", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-046", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
-{"model": "mistralsmall", "matter": "1997-046", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "1997-046", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-046", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1997-046", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "1997-046", "condition": "quota", "kind": "citation", "verdict": "exists"}
@@ -13844,8 +13844,8 @@
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "citation", "verdict": "exists"}
-{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
-{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
+{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
@@ -13860,7 +13860,7 @@
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
@@ -14467,7 +14467,7 @@
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
@@ -14495,7 +14495,7 @@
 {"model": "mistralsmall", "matter": "2010-026", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
@@ -14517,12 +14517,12 @@
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "citation", "verdict": "not_found"}
@@ -14542,8 +14542,8 @@
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -14562,7 +14562,7 @@
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
-{"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2010-026", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
@@ -15657,7 +15657,7 @@
 {"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2015-055", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
 {"model": "mistralsmall", "matter": "2015-066", "condition": "baseline", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2015-066", "condition": "baseline", "kind": "citation", "verdict": "exists"}
@@ -16457,7 +16457,7 @@
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "citation", "verdict": "not_found"}
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
+{"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
@@ -16836,10 +16836,10 @@
 {"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
+{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1992-086", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -16866,7 +16866,7 @@
 {"model": "qwen30b", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
-{"model": "qwen30b", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1992-109", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
@@ -17001,20 +17001,20 @@
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "citation", "verdict": "exists"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -17083,7 +17083,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
@@ -17173,7 +17173,7 @@
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -17208,12 +17208,12 @@
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "citation", "verdict": "exists"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
@@ -17231,11 +17231,11 @@
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
+{"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-033", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
@@ -17278,7 +17278,7 @@
 {"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "1997-044", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "qwen30b", "matter": "1997-044", "condition": "combo", "kind": "citation", "verdict": "not_found"}
 {"model": "qwen30b", "matter": "1997-044", "condition": "combo", "kind": "citation", "verdict": "exists"}
@@ -17882,7 +17882,7 @@
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
+{"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "2000-071", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
@@ -18612,9 +18612,9 @@
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
+{"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
+{"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -20139,8 +20139,8 @@
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
-{"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
+{"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
+{"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2016-001", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
@@ -20489,7 +20489,7 @@
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
-{"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "2019-024", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
@@ -21274,7 +21274,7 @@
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "accurate"}
-{"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
+{"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1992-086", "condition": "quota", "kind": "quote", "verdict": "accurate"}
@@ -21340,8 +21340,8 @@
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
-{"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "accurate"}
+{"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
@@ -21392,7 +21392,7 @@
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1992-109", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -21450,7 +21450,7 @@
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1994-059", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -21958,7 +21958,7 @@
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "1998-085", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -22195,7 +22195,7 @@
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2000-071", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
@@ -22816,7 +22816,7 @@
 {"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2010-026", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "combo", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2010-026", "condition": "combo", "kind": "citation", "verdict": "exists"}
@@ -22843,7 +22843,7 @@
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
@@ -22871,7 +22871,7 @@
 {"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
-{"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-026", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2010-026", "condition": "temporal", "kind": "citation", "verdict": "exists"}
@@ -22961,7 +22961,7 @@
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2010-046", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -23606,7 +23606,7 @@
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2014-024", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -23801,7 +23801,7 @@
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
+{"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2015-038", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
@@ -24132,7 +24132,7 @@
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
-{"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
+{"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-001", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -24204,16 +24204,16 @@
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
-{"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
+{"model": "sonnet", "matter": "2016-063", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "citation", "verdict": "exists"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "citation", "verdict": "exists"}
-{"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
+{"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2016-063", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -24401,7 +24401,7 @@
 {"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
+{"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "sonnet", "matter": "2019-024", "condition": "stakes", "kind": "quote", "verdict": "unverifiable"}
 {"model": "sonnet", "matter": "2019-024", "condition": "temporal", "kind": "citation", "verdict": "exists"}

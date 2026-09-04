@@ -1,7 +1,7 @@
-deepseek {'nf_r0': 7, 'nf_removed': 7, 'new': 2, 'new_exists': 2} lenient {'true': 0.983, 'threequarter': 0.901, 'half': 0.805, 'quarter': 0.569, 'scrambled': 0.625, 'none': 0.544, 'passage': 1.0}
+deepseek {'nf_r0': 7, 'nf_removed': 7, 'new': 2, 'new_exists': 2} lenient {'true': 0.983, 'threequarter': 0.901, 'half': 0.805, 'quarter': 0.569, 'scrambled': 0.633, 'none': 0.544, 'passage': 1.0}
 gpt54mini {'nf_r0': 15, 'nf_removed': 15, 'new': 10, 'new_exists': 8, 'new_other': 2} lenient {'true': 0.857, 'threequarter': 0.857, 'half': 0.867, 'quarter': 0.846, 'scrambled': 0.726, 'none': 0.821, 'passage': 0.971}
 grok43 {'new': 2, 'new_exists': 2, 'nf_r0': 1, 'nf_removed': 1} lenient {'true': 1.0, 'threequarter': 1.0, 'half': 0.792, 'quarter': 0.594, 'scrambled': 0.775, 'none': 0.838, 'passage': 1.0}
 llama4mav {'nf_r0': 18, 'nf_removed': 18, 'new': 5, 'new_exists': 5} lenient {'true': 1.0, 'threequarter': 1.0, 'half': 0.75, 'quarter': 0.833, 'scrambled': 0.389, 'none': 0.521, 'passage': 1.0}
-mistralsmall {'nf_r0': 32, 'nf_removed': 23, 'new': 21, 'new_exists': 17, 'nf_kept': 9, 'new_other': 4} lenient {'true': 0.639, 'threequarter': 0.518, 'half': 0.44, 'quarter': 0.402, 'scrambled': 0.366, 'none': 0.473, 'passage': 0.877}
-qwen30b {'nf_r0': 40, 'nf_kept': 22, 'nf_removed': 18, 'new': 4, 'new_exists': 2, 'new_other': 2} lenient {'true': 0.359, 'threequarter': 0.295, 'half': 0.358, 'quarter': 0.35, 'scrambled': 0.331, 'none': 0.31, 'passage': 0.51}
-sonnet {'new': 1, 'new_exists': 1} lenient {'true': 1.0, 'threequarter': 1.0, 'half': 1.0, 'quarter': 0.955, 'scrambled': 0.861, 'none': 0.88, 'passage': 1.0}
+mistralsmall {'nf_r0': 32, 'nf_removed': 23, 'new': 21, 'new_exists': 17, 'nf_kept': 9, 'new_other': 4} lenient {'true': 0.643, 'threequarter': 0.529, 'half': 0.443, 'quarter': 0.402, 'scrambled': 0.366, 'none': 0.481, 'passage': 0.877}
+qwen30b {'nf_r0': 40, 'nf_kept': 22, 'nf_removed': 18, 'new': 4, 'new_exists': 2, 'new_other': 2} lenient {'true': 0.362, 'threequarter': 0.299, 'half': 0.361, 'quarter': 0.35, 'scrambled': 0.334, 'none': 0.313, 'passage': 0.51}
+sonnet {'new': 1, 'new_exists': 1} lenient {'true': 1.0, 'threequarter': 1.0, 'half': 1.0, 'quarter': 0.955, 'scrambled': 0.873, 'none': 0.88, 'passage': 1.0}

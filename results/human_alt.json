@@ -1,32 +1,32 @@
 {
  "standard": {
   "verdicts": {
-   "accurate": 247,
-   "unpaired": 1064,
-   "near_miss": 76,
-   "unverifiable": 160,
-   "inaccurate": 93
+   "accurate": 250,
+   "unpaired": 1075,
+   "near_miss": 73,
+   "unverifiable": 155,
+   "inaccurate": 87
   },
-  "scored": 416,
-  "strict": 0.5938,
-  "lenient": 0.7764
+  "scored": 410,
+  "strict": 0.6098,
+  "lenient": 0.7878
  },
  "literal": {
   "verdicts": {
-   "accurate": 205,
-   "unpaired": 1064,
-   "near_miss": 113,
-   "unverifiable": 160,
-   "inaccurate": 98
+   "accurate": 208,
+   "unpaired": 1075,
+   "near_miss": 109,
+   "unverifiable": 155,
+   "inaccurate": 93
   },
-  "scored": 416,
-  "strict": 0.4928,
-  "lenient": 0.7644
+  "scored": 410,
+  "strict": 0.5073,
+  "lenient": 0.7732
  },
  "failure_causes": {
-  "altered_near_miss": 17,
-  "altered_inaccurate": 26,
-  "unaltered_near_miss": 59,
-  "unaltered_inaccurate": 67
+  "altered_near_miss": 16,
+  "altered_inaccurate": 24,
+  "unaltered_near_miss": 57,
+  "unaltered_inaccurate": 63
  }
 }

@@ -148,9 +148,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 8,
-    "strict": 0.429,
-    "n_quotes_scored": 7,
-    "acc": 3
+    "strict": 0.667,
+    "n_quotes_scored": 6,
+    "acc": 4
    },
    "final": {
     "exist": 1.0,
@@ -248,8 +248,8 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 10,
-    "strict": 0.25,
-    "n_quotes_scored": 4,
+    "strict": 0.5,
+    "n_quotes_scored": 2,
     "acc": 1
    },
    "final": {
@@ -670,9 +670,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 11,
-    "strict": 0.667,
+    "strict": 0.889,
     "n_quotes_scored": 9,
-    "acc": 6
+    "acc": 8
    },
    "final": {
     "exist": 1.0,
@@ -850,9 +850,9 @@
    "r0": {
     "exist": 1.0,
     "n_cites": 10,
-    "strict": 0.857,
+    "strict": 1.0,
     "n_quotes_scored": 7,
-    "acc": 6
+    "acc": 7
    },
    "final": {
     "exist": 1.0,
