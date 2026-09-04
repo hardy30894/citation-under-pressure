@@ -102,6 +102,30 @@ def main():
             "removed_per_round": round(sum(c["removed_final"] for c in cs) / rounds, 3),
             "removed_r1_share": round(sum(c["removed_r1"] for c in cs) / sum(c["acc_r0"] for c in cs), 3),
         }
+    # where revision with no feedback falls on the precision axis: the
+    # nominal pi at which a verifier does as much damage as no verifier,
+    # by linear interpolation between the bracketing arms, and the same
+    # point on the realised scale, since a true line is right only as
+    # often as the checker is
+    NOMINAL = {"true": 1.0, "threequarter": 0.75, "half": 0.5, "quarter": 0.25, "scrambled": 0.0}
+    out["crossing"] = {}
+    for basis in ("removed_per_round", "removed_r1_share"):
+        pts = sorted(((NOMINAL[a], out["pooled"][a][basis]) for a in NOMINAL if a in out["pooled"]),
+                     key=lambda t: -t[0])
+        target = out["pooled"]["none"][basis]
+        cross = None
+        for (p1, v1), (p2, v2) in zip(pts, pts[1:]):
+            if (v1 - target) * (v2 - target) <= 0 and v1 != v2:
+                cross = p1 + (target - v1) * (p2 - p1) / (v2 - v1)
+                break
+        out["crossing"][basis] = None if cross is None else round(cross, 3)
+    cs = [v for v in out["crossing"].values() if v is not None]
+    if cs:
+        out["crossing"]["nominal_range"] = [round(min(cs), 2), round(max(cs), 2)]
+        # realised precision of a true line, from the hand reading
+        rp = 0.78
+        out["crossing"]["realised_range"] = [round(min(cs) * rp, 2), round(max(cs) * rp, 2)]
+        out["crossing"]["realised_factor"] = rp
     (R / "rounds_control.json").write_text(json.dumps(out, indent=1))
     for arm in ARMS:
         if arm in out["pooled"]:

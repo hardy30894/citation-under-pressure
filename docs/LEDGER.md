@@ -894,3 +894,49 @@ before or after seeing the relevant data. Nothing is deleted.
   residual class as its own row in the Finding 3 table, the block-quote
   measurement where the scored set is defined, and the corrected human
   floor of 0.749.
+- 2026-09-05 (review of the 12:48 build): two of the six majors were
+  errors in numbers the abstract carried, and both are corrected.
+  (1) The verifier threshold did not follow from its own series. Linear
+  interpolation of the no-feedback point gives nominal 0.664 on the
+  per-round basis and 0.564 after one round, so the bracket is 0.56 to
+  0.66 and "about three times in four" was above all of it; on the
+  realised scale (a true line is right only as often as the checker,
+  0.78) the crossing is 0.44 to 0.52, and since 78 percent is a lower
+  bound these are upper bounds. src/rounds_control.py now computes the
+  interpolation, and the abstract, Section 5, and Discussion state the
+  interval on both scales. The Discussion's comparison with published
+  detectors is restated against it; the ranking of the two agents is
+  unchanged.
+  (2) The abstract broke the paper's own both-templates rule: it said
+  quotation accuracy fell for three models without saying that only two
+  of those replicate, and the count outcome was never run on the second
+  template at all. Both qualifiers are now in the abstract and in
+  Section 4.
+  (3) The opinion-type audit reported 39 of 1,578 without saying what
+  1,578 was a share of; it is 73 percent of the accurate quotations, now
+  stated.
+  (4) The year adjustment conditions on a variable the treatment sets.
+  Decision year is a mediator, not a confounder, so the fit decomposes
+  the effect rather than removing a bias, and odds ratios are not
+  collapsible, so part of the movement is mechanical; both are now
+  stated, the bucketed null is named as the assumption-light alternative
+  that disagrees, and the abstract now quotes the temporal clause's own
+  45 percent rather than the combined 35.
+  (5) Compliance with the date clause runs from 0 to 35 percent with no
+  ordering against effect, so every contrast is intention-to-treat
+  across models receiving different doses; said in Section 3.
+  (6) The nulls are failures to reject on cells as small as 3 against 1,
+  and capability is indexed by baseline existence, an ordering that
+  differs on other axes; both said.
+  Minors: the relevance-panel sentence cited Liu et al. for a 0.75 bar
+  that paper does not contain (the bar was ours, their contribution is
+  the expert labels), now attributed correctly; Zhao et al. call their
+  own pipeline deterministic, so "fuzzy bibliographic matching" is
+  replaced by the resolution-rate contrast, which is the one that
+  survives; block quotations are recounted over the 1,680 drafts of the
+  seven reported models rather than 1,887 including the excluded model;
+  the unpaired shares read as percentages again; the duplicated
+  "separates the two" sentence is gone; a round is defined; the pincite
+  scope says a pincite with no quotation is outside it. Two source
+  attributions in two rounds were wrong in the same way, both caught by
+  checking the source rather than the memory of it.

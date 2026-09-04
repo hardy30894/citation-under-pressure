@@ -1087,6 +1087,7 @@ if es.exists():
     for c, ck in (("temporal", "Temporal"), ("combo", "Combo")):
         a, b = t["year_unadjusted"][c]["OR"], t["year_adjusted"][c]["OR"]
         emit2(f"yrShrink{ck}", str(round(100 * (1 - _m.log(b) / _m.log(a)))))
+        emit2(f"yrRdLow{ck}", f"{(1 - a) * 100:.0f}")
     for c, ck in (("baseline", "Base"), ("temporal", "Temporal"), ("combo", "Combo")):
         y = t["stratum_years"]["pre1970"].get(c)
         if y:
@@ -1109,6 +1110,7 @@ if op.exists():
     emit2("opUnflagged", str(t["separate_unflagged"]))
     emit2("opUnflaggedPct", f"{100 * t['unflagged_share_of_located']:.1f}")
     emit2("opNotUs", f"{q.get('not_us_reports', 0):,}")
+    emit2("opPlacedPct", str(round(100 * t["located"] / q["accurate"])))
 
 # revision rounds against verifier precision (src/rounds_control.py)
 rc = R / "rounds_control.json"
@@ -1125,6 +1127,12 @@ if rc.exists():
             emit2(f"rnd{ak}ROnePct", str(round(100 * v["removed_r1_share"])))
             emit2(f"rnd{ak}Removed", str(v["removed_final"]))
     emit2("rndAccRZero", str(t["true"]["acc_r0"]))
+    cr = json.loads(rc.read_text()).get("crossing", {})
+    if cr.get("nominal_range"):
+        emit2("crossNomLow", f"{cr['nominal_range'][0]:.2f}")
+        emit2("crossNomHigh", f"{cr['nominal_range'][1]:.2f}")
+        emit2("crossRealLow", f"{cr['realised_range'][0]:.2f}")
+        emit2("crossRealHigh", f"{cr['realised_range'][1]:.2f}")
 
 # block quotations, which carry no quotation marks
 bq = R / "block_quotes.json"

@@ -499,5 +499,18 @@
    "removed_per_round": 0.082,
    "removed_r1_share": 0.155
   }
+ },
+ "crossing": {
+  "removed_per_round": 0.664,
+  "removed_r1_share": 0.564,
+  "nominal_range": [
+   0.56,
+   0.66
+  ],
+  "realised_range": [
+   0.44,
+   0.52
+  ],
+  "realised_factor": 0.78
  }
 }
