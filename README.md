@@ -139,9 +139,22 @@ temporal and combined conditions and for DeepSeek under the combined
 condition. Llama-4 shows the
 largest drop, from 0.588 at baseline to 0.230 under combined pressure.
 Once three generations are pooled the combined fall survives for six of
-seven models. The fall is no artifact of scanned text for old opinions:
-within the baseline condition alone, quotations from opinions decided
-before 1970 score 0.449 against 0.388 for later ones.
+seven models. **The date clause damages integrity mostly by changing what gets
+quoted.** Comparing eras inside the baseline cell cannot separate damage
+from composition, because there the old cases are the ones the model
+chose. Stratifying on the cited opinion's decision year
+(`src/era_strata.py`) does. Within pre-1970 opinions, age and scanned
+text held fixed, strict accuracy is 0.449 at baseline (187 quotations),
+0.292 under the temporal clause (936), and 0.232 under the combined one
+(1,140); pooled over models with a model effect the combined fall
+survives (odds ratio 0.54, interval 0.31 to 0.92, p 0.025) and the
+temporal one is marginal (0.59, p 0.062), with three per-model falls at
+p < 0.05 inside the stratum. Within later opinions neither contrast
+moves (0.96 and 1.03). The rest is composition: under the temporal
+clause only 24 percent of scored quotations cite an authority the model
+also cites at baseline, and those score 0.409 against the baseline's
+0.397, while the authority it would not otherwise have reached for
+scores 0.252 (combined: 19 percent, 0.457, 0.194).
 
 ### The rate is conditional on quoting, so the count is tested too
 
@@ -231,7 +244,13 @@ score, 19 of Grok 4.3's 24, so its final 1.000 rests on five drafts.
 Told a quotation was not verbatim, every model but Qwen3-30B, which
 left most flags standing, and Mistral Small, which left nearly half (44
 of 92), removed the quotation or its quotation marks far more often
-than it corrected the words. Counted over all 24 episodes of the arm,
+than it corrected the words. **Dequoting is not deletion**: the words
+stay and the citation stays in 100 of the 103 dequoted quotations, so
+for a passage that is really a paraphrase, dropping the marks is the
+lawyer's correct fix. Counting dequoting as repair, deletion still
+exceeds it for six of seven models under bare flags and four of seven
+under the passage arm; Grok 4.3 is the exception, dequoting 23 of its
+37 flags and deleting 14. Counted over all 24 episodes of the arm,
 the intent-to-treat measure, accurate quotations per draft rose only
 for Mistral Small (0.58 to 0.75) and were flat or lower for the other
 six (Sonnet 5 2.88 to 2.83, Grok 4.3 0.54 to 0.42): the loop raised the
@@ -264,10 +283,17 @@ $\pi = 0.25$, $0.5$, or $0.75$ give the dose-response: Sonnet 5 removed
 4, 9, 21, 28, and 43 of its 69 correct quotations as the verifier
 precision $\pi$ fell from 1 to 0
 (21 with no feedback at all), and its final accuracy fell 1.000, 1.000,
-0.956, 0.830, 0.591 with it. A verifier with 50 percent precision
+0.956, 0.830, 0.591 with it. A verifier with 50 percent nominal precision
 removed 21 correct quotations, exactly what revision with no feedback
 removed (21) and against 4 under a precise one, so the damage beyond
-revision alone appears at 0.25 and 0; under
+revision alone appears at 0.25 and 0. **These labels are nominal**: they
+are the share of feedback lines drawn from the checker, whose own flags
+are right 78 percent of the time, so realised precision is about
+four-fifths of the label and the crossing sits nearer 0.4. The arms also
+replace true lines rather than adding false ones, so recall falls with
+precision. On the accurate side the checker was audited at 0 of 40
+verdicts wrong, an upper bound near 9 percent on the 69 correct
+quotations these counts run over; under
 the lenient verdict (near misses counted as correct) only all-false
 feedback leaves Sonnet 5 below revision alone (0.873 against 0.880).
 **Verifier precision is therefore a deployment requirement.**
@@ -330,15 +356,18 @@ measured deterministically.
 
 | failure mode | measurement | headline number |
 |---|---|---|
-| paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 68% of Sonnet 5's 248 inaccurate quotes (169) are paraphrases of the correct case; 56 match nothing in it and 23 cite authority outside the U.S. Reports |
+| paraphrase wearing quotation marks | inaccurate quotes (verdict `inaccurate`, not the wider set of strict failures) decomposed against the cited case's own text | 68% of Sonnet 5's 248 inaccurate quotes (169) are paraphrases of the correct case; 56 match nothing in it and 23 cite authority outside the U.S. Reports |
 | right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 317 quotes across the seven models (72 of Sonnet 5's) are real opinion passages bound to the wrong authority; 134 have the true source cited in the same draft; the same search finds 6 of Sonnet 5's 248 inaccurate verdicts (2.4%) to be the checker's own error, and a hand reading of 160 inaccurate verdicts, made under the rule before the two corrections of 2026-09-05, finds 35 on the checker's side (22 percent, interval 16 to 29) |
-| right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 83% of the time (Sonnet 5), 51 to 67% for the rest, 88% for human briefs; 12% of the rest sit on an adjacent page |
+| right case, wrong page | quote located against the official reporter's page boundaries, any page a cited range names counting as cited | quote sits on a cited page 85% of the time (Sonnet 5), 52 to 67% for the rest (n = 42 to 262 per model), 90% for human briefs (n = 41); 9% of the rest sit on an adjacent page |
 
 These are the errors an existence check cannot see, and the page-level
 measurement covers, on public data, the error class on which published
-detection agents have the lowest recall: the best published detector
-misses nearly half of wrong pincites (52.8% recall), and open-weight
-detectors reach 19 to 51%.
+detection agents have the lowest recall: the highest-recall published
+detector misses nearly half of wrong pincites (52.8% recall), and
+open-weight detectors reach 19 to 51%. A second agent in the same
+benchmark reaches 76.1% precision against that one's 40.8%, and leads on
+F1, so which detector is "best" depends on the axis, and the two would
+behave very differently inside a revision loop.
 
 > **Takeaway.** At the top of the range the citations exist and the
 > words are real; what fails is the binding of words to case and page.
@@ -562,9 +591,10 @@ failing only on a bracketed alteration, and 10 open
 varies by condition, 8 of 28 at baseline, 11 of 30 under the quota, 6
 of 33 under the temporal clause, 6 of 27 under the stakes clause, and 4
 of 42 under combined pressure, and by model from 14 percent (Llama-4,
-1 of 7) to 27 percent (Qwen3-30B, 12 of 45). These readings were made under the rule before the two corrections of
-2026-09-05 described below, which can only remove checker-side
-verdicts. **Carried into the fit**
+1 of 7) to 27 percent (Qwen3-30B, 12 of 45). These readings are a single unblinded pass with no second rater, over
+samples released with their classifications, and were made under the
+rule before the two corrections of 2026-09-05 described below, which can
+only remove checker-side verdicts. **Carried into the fit**
 (`src/audit_sensitivity.py`: every inaccurate verdict reclassified as
 unpaired with its condition's checker-side probability, 200 draws, the
 eight-test Holm family refit each time), **all eight pre-registered
