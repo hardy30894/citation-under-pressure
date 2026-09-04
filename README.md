@@ -68,7 +68,7 @@ companion and carries the same numbers.
 
 | claim | the one number | where |
 |---|---|---|
-| The failure mode moves with capability | the 30B model's citation existence falls from 0.924 to 0.773 under combined pressure; strict quotation accuracy falls significantly for three of seven models, two of them under both templates; accurate quotations per draft fall significantly for five models, two of them at the top of the range; Sonnet 5's rate rises from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
+| The failure mode moves with capability | the 30B model's citation existence falls from 0.924 to 0.773 under combined pressure; strict quotation accuracy falls significantly for three of seven models, only two of them under both prompt templates; accurate quotations per draft fall significantly for five models, two of them at the top of the range, on the single template that outcome was run on; Sonnet 5's rate rises from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
 | Verification is not repair | under precise flags Sonnet 5 repaired 3 of 35 flagged quotations and deleted 30, reaching a measured 1.000 over what it kept; correct quotations per draft rose for one model of seven; at 50 percent verifier precision it removed 21 of its 69 correct quotations, as many as revision with no feedback (21), and 43 under all-false flags | Finding 2, Figures 2 and 3 |
 | What survives at the top is misattribution | 68 percent of Sonnet 5's inaccurate quotations are paraphrases of the correct case in quotation marks, and 317 quotations across the models are real opinion passages bound to the wrong case | Finding 3 |
 
@@ -142,16 +142,19 @@ Once three generations are pooled the combined fall survives for six of
 seven models. **The date clause both degrades quoting and moves the model onto harder
 authority.** Comparing eras inside the baseline cell cannot separate the
 two, because there the old cases are the ones the model chose. Adjusting
-for the cited opinion's decision year does (`src/era_strata.py`). Pooled
-over models with a model effect on the 3,644 dated scored quotations,
-the combined condition's odds ratio moves from 0.557 to 0.682 (interval
-0.530 to 0.879, p 0.003) once decision year enters the fit, and the
-temporal clause's from 0.62 to 0.768 (p 0.035): the adjustment removes
-about 35 percent of the effect on the log-odds scale and leaves the
-rest. Bucketing into pre- and post-1970 instead is weaker, and it is
-reported that way in the repository: the bucket still leaves the arms
-twelve years apart in median, and inside it neither pooled contrast
-survives Holm correction (combined 0.099). Descriptively, only 24
+for the cited opinion's decision year does (`src/era_strata.py`), with
+one caveat that matters: the clause *sets* that year, so it is a
+mediator rather than a confounder, and the fit decomposes the effect
+rather than removing a bias. Odds ratios are also not collapsible, so
+part of the movement is mechanical. Pooled over models with a model
+effect on the 3,644 dated scored quotations, the temporal clause's odds
+ratio moves from 0.62 to 0.768 (p 0.035) once decision year enters, and
+the combined condition's from 0.557 to 0.682 (0.530 to 0.879, p 0.003),
+removing 45 and 35 percent of the log-odds effect respectively. The
+assumption-light alternative disagrees: bucketing into pre- and
+post-1970 still leaves the arms twelve years apart in median, and inside
+the bucket neither pooled contrast survives Holm correction (combined
+0.099). Descriptively, only 24
 percent of the temporal arm's scored quotations cite an authority the
 model also cites at baseline, and those score 0.409 against the
 baseline's 0.397 while the rest score 0.252 (combined: 19 percent,
@@ -296,11 +299,14 @@ false). **Holding rounds fixed keeps the series and moves the crossing**
 episode-round run 0.048, 0.090, 0.145, 0.150, and 0.200 against 0.109
 with no feedback, and after exactly one round, where every arm has had
 one opportunity, 10, 15, 25, 31, and 32 percent of the 181 accurate
-quotations are gone against 23 percent. On both bases revision with no
-feedback sits between precision 0.75 and 0.5, so a half-precision
-verifier destroys *more* correct work than leaving the model alone, and
-a verifier needs to be right about three times in four before it beats
-doing nothing. On the accurate side the checker was audited at 0 of 40
+quotations are gone against 23 percent. On both bases revision with no feedback sits between
+precision 0.75 and 0.5, interpolating to **0.56 to 0.66 nominal, or 0.44
+to 0.52 realised** once you allow that a "true" line is right only as
+often as the checker is (78 percent). Below that a verifier destroys
+more correct work than leaving the model alone. Because 78 percent is
+itself a lower bound, those crossings are upper bounds, and because the
+arms lower recall along with precision the number bounds a loop of this
+shape rather than precision on its own. On the accurate side the checker was audited at 0 of 40
 verdicts wrong, an upper bound near 9 percent on the 69 correct
 quotations these counts run over; under
 the lenient verdict (near misses counted as correct) only all-false
@@ -367,7 +373,7 @@ measured deterministically.
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes (verdict `inaccurate`, not the wider set of strict failures) decomposed against the cited case's own text | 68% of Sonnet 5's 248 inaccurate quotes (169) are paraphrases of the correct case; 56 match nothing in it and 23 cite authority outside the U.S. Reports |
 | right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 317 quotes across the seven models (72 of Sonnet 5's) are real opinion passages bound to the wrong authority; 134 have the true source cited in the same draft; the same search finds 6 of Sonnet 5's 248 inaccurate verdicts (2.4%) to be the checker's own error, and a hand reading of 160 inaccurate verdicts, made under the rule before the two corrections of 2026-09-05, finds 35 on the checker's side (22 percent, interval 16 to 29) |
-| right case, wrong opinion | which part of the record holds the quotation, from the Caselaw Access Project's structural markers (`src/opinion_part.py`) | of 1,578 accurate quotations it can place, 39 sit outside the Court's own opinion (20 concurrence, 11 dissent, 8 syllabus) and 33 of those, 2.1% of the total, carry nothing in the draft saying so; the archives hold majority, concurrences, dissents, and head matter in one record, so quoting a dissent as the Court passes the verbatim check |
+| right case, wrong opinion | which part of the record holds the quotation, from the Caselaw Access Project's structural markers (`src/opinion_part.py`) | of the 1,578 accurate quotations it can place, 73% of those scored accurate, 39 sit outside the Court's own opinion (20 concurrence, 11 dissent, 8 syllabus) and 33 of those, 2.1% of the placed, carry nothing in the draft saying so; the archives hold majority, concurrences, dissents, and head matter in one record, so quoting a dissent as the Court passes the verbatim check |
 | right case, wrong page | quote located against the official reporter's page boundaries, any page a cited range names counting as cited | quote sits on a cited page 85% of the time (Sonnet 5), 52 to 67% for the rest (n = 42 to 262 per model), 90% for human briefs (n = 41); 9% of the rest sit on an adjacent page |
 
 These are the errors an existence check cannot see, and the page-level
@@ -520,9 +526,10 @@ and the same eight contrasts survive.
 
 Quotations are found by balanced quotation marks, which block quotations
 lack, so a long indented passage would fall outside the scored set. That
-is not a route out of it here: across all 1,887 drafts there are 12
-markdown block-quoted lines in 9 drafts and no indented display
-paragraphs, none of them Sonnet 5's (`results/block_quotes.json`), so
+is not a route out of it here: across the 1,680 drafts of the seven reported
+models there are 12 markdown block-quoted lines in 9 drafts and no
+indented display paragraphs, none of them Sonnet 5's
+(`results/block_quotes.json`), so
 block form cannot account for the strongest model quoting less.
 
 The attribution rule decides which cited case a quotation is tested
@@ -785,7 +792,7 @@ quotation falls, and Sonnet 5's rate rise under the sanctions warning.
 | prior work | what it does | what it could not do, which we measure |
 |---|---|---|
 | LePhantomCite (COLM 2026) | detects injected citation errors in briefs | naturally occurring errors, elicited under realistic pressure; page-level pincite truth |
-| Deployment-constraints study (arXiv:2603.07287) | pressure factorial for scholarly citations | the legal version, with verification that is deterministic where theirs is fuzzy, and formal statistics |
+| Deployment-constraints study (arXiv:2603.07287) | pressure factorial for scholarly citations | the legal version, against a full-text index that leaves 0.2% unresolved where their bibliographic pipeline leaves 36 to 61%, plus formal statistics |
 | LegalCiteBench (arXiv:2605.10186) | closed-book citation recall | quote fidelity anywhere; generation grounded in a verified database (our loop) |
 | RLEF (arXiv:2410.02089) | execution feedback for code | the same protocol where the verifier is a legal citation oracle, plus the false-positive control |
 | LLM-judge critiques (arXiv:2606.19544 among others) | show agreement overstates judge validity | a pre-declared calibration bar, and three documented failures against expert labels |
