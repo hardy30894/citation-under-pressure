@@ -139,22 +139,24 @@ temporal and combined conditions and for DeepSeek under the combined
 condition. Llama-4 shows the
 largest drop, from 0.588 at baseline to 0.230 under combined pressure.
 Once three generations are pooled the combined fall survives for six of
-seven models. **The date clause damages integrity mostly by changing what gets
-quoted.** Comparing eras inside the baseline cell cannot separate damage
-from composition, because there the old cases are the ones the model
-chose. Stratifying on the cited opinion's decision year
-(`src/era_strata.py`) does. Within pre-1970 opinions, age and scanned
-text held fixed, strict accuracy is 0.449 at baseline (187 quotations),
-0.292 under the temporal clause (936), and 0.232 under the combined one
-(1,140); pooled over models with a model effect the combined fall
-survives (odds ratio 0.54, interval 0.31 to 0.92, p 0.025) and the
-temporal one is marginal (0.59, p 0.062), with three per-model falls at
-p < 0.05 inside the stratum. Within later opinions neither contrast
-moves (0.96 and 1.03). The rest is composition: under the temporal
-clause only 24 percent of scored quotations cite an authority the model
-also cites at baseline, and those score 0.409 against the baseline's
-0.397, while the authority it would not otherwise have reached for
-scores 0.252 (combined: 19 percent, 0.457, 0.194).
+seven models. **The date clause both degrades quoting and moves the model onto harder
+authority.** Comparing eras inside the baseline cell cannot separate the
+two, because there the old cases are the ones the model chose. Adjusting
+for the cited opinion's decision year does (`src/era_strata.py`). Pooled
+over models with a model effect on the 3,644 dated scored quotations,
+the combined condition's odds ratio moves from 0.557 to 0.682 (interval
+0.530 to 0.879, p 0.003) once decision year enters the fit, and the
+temporal clause's from 0.62 to 0.768 (p 0.035): the adjustment removes
+about 35 percent of the effect on the log-odds scale and leaves the
+rest. Bucketing into pre- and post-1970 instead is weaker, and it is
+reported that way in the repository: the bucket still leaves the arms
+twelve years apart in median, and inside it neither pooled contrast
+survives Holm correction (combined 0.099). Descriptively, only 24
+percent of the temporal arm's scored quotations cite an authority the
+model also cites at baseline, and those score 0.409 against the
+baseline's 0.397 while the rest score 0.252 (combined: 19 percent,
+0.457, 0.194); that split conditions on a choice the treatment causes,
+so it describes the mechanism rather than testing it.
 
 ### The rate is conditional on quoting, so the count is tested too
 
@@ -283,15 +285,22 @@ $\pi = 0.25$, $0.5$, or $0.75$ give the dose-response: Sonnet 5 removed
 4, 9, 21, 28, and 43 of its 69 correct quotations as the verifier
 precision $\pi$ fell from 1 to 0
 (21 with no feedback at all), and its final accuracy fell 1.000, 1.000,
-0.956, 0.830, 0.591 with it. A verifier with 50 percent nominal precision
-removed 21 correct quotations, exactly what revision with no feedback
-removed (21) and against 4 under a precise one, so the damage beyond
-revision alone appears at 0.25 and 0. **These labels are nominal**: they
-are the share of feedback lines drawn from the checker, whose own flags
-are right 78 percent of the time, so realised precision is about
-four-fifths of the label and the crossing sits nearer 0.4. The arms also
-replace true lines rather than adding false ones, so recall falls with
-precision. On the accurate side the checker was audited at 0 of 40
+0.956, 0.830, 0.591 with it. **These labels are nominal**: they are the share of feedback lines
+drawn from the checker, whose own flags are right 78 percent of the
+time, so realised precision is about four-fifths of the label. The arms
+also replace true lines rather than adding false ones, so recall falls
+with precision, and because the loop stops on a clean draft they differ
+in rounds executed too (2.47 under true feedback against 3.21 under
+false). **Holding rounds fixed keeps the series and moves the crossing**
+(`src/rounds_control.py`): pooled over models, removals per
+episode-round run 0.048, 0.090, 0.145, 0.150, and 0.200 against 0.109
+with no feedback, and after exactly one round, where every arm has had
+one opportunity, 10, 15, 25, 31, and 32 percent of the 181 accurate
+quotations are gone against 23 percent. On both bases revision with no
+feedback sits between precision 0.75 and 0.5, so a half-precision
+verifier destroys *more* correct work than leaving the model alone, and
+a verifier needs to be right about three times in four before it beats
+doing nothing. On the accurate side the checker was audited at 0 of 40
 verdicts wrong, an upper bound near 9 percent on the 69 correct
 quotations these counts run over; under
 the lenient verdict (near misses counted as correct) only all-false
@@ -358,6 +367,7 @@ measured deterministically.
 |---|---|---|
 | paraphrase wearing quotation marks | inaccurate quotes (verdict `inaccurate`, not the wider set of strict failures) decomposed against the cited case's own text | 68% of Sonnet 5's 248 inaccurate quotes (169) are paraphrases of the correct case; 56 match nothing in it and 23 cite authority outside the U.S. Reports |
 | right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 317 quotes across the seven models (72 of Sonnet 5's) are real opinion passages bound to the wrong authority; 134 have the true source cited in the same draft; the same search finds 6 of Sonnet 5's 248 inaccurate verdicts (2.4%) to be the checker's own error, and a hand reading of 160 inaccurate verdicts, made under the rule before the two corrections of 2026-09-05, finds 35 on the checker's side (22 percent, interval 16 to 29) |
+| right case, wrong opinion | which part of the record holds the quotation, from the Caselaw Access Project's structural markers (`src/opinion_part.py`) | of 1,578 accurate quotations it can place, 39 sit outside the Court's own opinion (20 concurrence, 11 dissent, 8 syllabus) and 33 of those, 2.1% of the total, carry nothing in the draft saying so; the archives hold majority, concurrences, dissents, and head matter in one record, so quoting a dissent as the Court passes the verbatim check |
 | right case, wrong page | quote located against the official reporter's page boundaries, any page a cited range names counting as cited | quote sits on a cited page 85% of the time (Sonnet 5), 52 to 67% for the rest (n = 42 to 262 per model), 90% for human briefs (n = 41); 9% of the rest sit on an adjacent page |
 
 These are the errors an existence check cannot see, and the page-level
@@ -508,6 +518,13 @@ is kept as the comparison (`src/alteration_aware.py`): human lawyers
 score 0.507 under it, model cells move by at most 9 points (mean 3),
 and the same eight contrasts survive.
 
+Quotations are found by balanced quotation marks, which block quotations
+lack, so a long indented passage would fall outside the scored set. That
+is not a route out of it here: across all 1,887 drafts there are 12
+markdown block-quoted lines in 9 drafts and no indented display
+paragraphs, none of them Sonnet 5's (`results/block_quotes.json`), so
+block form cannot account for the strongest model quoting less.
+
 The attribution rule decides which cited case a quotation is tested
 against. It attributes a quotation to the citation whose parenthetical
 holds it, else the case named in its own sentence, else the citation
@@ -544,7 +561,10 @@ The same instrument scored 482 clean pre-ChatGPT human appellate briefs
 to anchor every comparison. Human lawyers reach 0.610 strict and 0.788
 lenient quotation accuracy under this standard (410 scored quotations)
 and 0.957 citation existence (0.976 on U.S. Reports and published
-federal reporters). Of the 160 human strict failures that remain under
+federal reporters). Crediting the 57 failures that are near misses
+carrying no alteration, the signature of a corrupted character, lifts
+the floor to 0.749; the rest are unaudited, which is why the figure
+anchors the severity of the standard and is not a comparison. Of the 160 human strict failures that remain under
 the strict standard (`src/human_alt.py`, `results/human_alt.json`), 40
 still carry a bracket or an ellipsis, 57 are near misses without any
 alteration (a corrupted character), and 63 are inaccurate without one.

@@ -886,3 +886,11 @@ before or after seeing the relevant data. Nothing is deleted.
   material inside ten pages cost the grounded arm its own paragraph (now
   folded into the second-task paragraph) and the grounded-arm audit
   reading its sentence; both remain in the repository.
+- 2026-09-05 (README resynced to the 11:45 round): the README had kept
+  the retracted bucket stratification and the too-kind
+  half-precision-equals-no-feedback claim after the paper dropped both.
+  It now carries the continuous year adjustment, the rounds-controlled
+  precision series with the corrected crossing, the separate-opinion
+  residual class as its own row in the Finding 3 table, the block-quote
+  measurement where the scored set is defined, and the corrected human
+  floor of 0.749.
