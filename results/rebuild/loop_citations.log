@@ -1,0 +1,7 @@
+deepseek {'nf_r0': 7, 'nf_removed': 7, 'new': 2, 'new_exists': 2} lenient {'true': 0.782, 'threequarter': 0.792, 'half': 0.557, 'quarter': 0.57, 'scrambled': 0.595, 'none': 0.533, 'passage': 0.953}
+gpt54mini {'nf_r0': 15, 'nf_removed': 15, 'new': 7, 'new_exists': 5, 'new_other': 2} lenient {'true': 0.781, 'threequarter': 0.9, 'half': 0.872, 'quarter': 0.731, 'scrambled': 0.725, 'none': 0.75}
+grok43 {'new': 2, 'new_exists': 2, 'nf_r0': 1, 'nf_removed': 1} lenient {'true': 0.8, 'threequarter': 1.0, 'half': 1.0, 'quarter': 0.75, 'scrambled': 0.711, 'none': 0.823}
+llama4mav {'nf_r0': 18, 'nf_removed': 18, 'new': 3, 'new_exists': 3} lenient {'true': 0.614, 'threequarter': 1.0, 'half': 0.833, 'quarter': 0.625, 'scrambled': 0.629, 'none': 0.517}
+mistralsmall {'nf_r0': 32, 'nf_removed': 26, 'new': 20, 'new_exists': 17, 'new_other': 3, 'nf_kept': 6} lenient {'true': 0.482, 'threequarter': 0.491, 'half': 0.446, 'quarter': 0.436, 'scrambled': 0.356, 'none': 0.372}
+qwen30b {'nf_r0': 40, 'nf_removed': 19, 'new': 4, 'new_other': 1, 'nf_kept': 21, 'new_exists': 3} lenient {'true': 0.398, 'threequarter': 0.291, 'half': 0.326, 'quarter': 0.321, 'scrambled': 0.326, 'none': 0.314}
+sonnet {'new': 1, 'new_exists': 1} lenient {'true': 0.971, 'threequarter': 0.96, 'half': 0.929, 'quarter': 0.958, 'scrambled': 0.855, 'none': 0.884, 'passage': 0.953}

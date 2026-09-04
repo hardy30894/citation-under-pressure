@@ -1,110 +1,110 @@
 {
  "era": {
   "qwen30b": {
-   "post1970_acc": 41,
-   "post1970_scored": 247,
-   "pre1970_acc": 8,
-   "pre1970_scored": 33,
-   "pre1970_strict": 0.242,
-   "post1970_strict": 0.166
+   "post1970_acc": 32,
+   "post1970_scored": 203,
+   "pre1970_acc": 5,
+   "pre1970_scored": 27,
+   "pre1970_strict": 0.185,
+   "post1970_strict": 0.158
   },
   "mistralsmall": {
-   "post1970_acc": 42,
-   "post1970_scored": 207,
+   "post1970_acc": 40,
+   "post1970_scored": 166,
    "pre1970_acc": 7,
-   "pre1970_scored": 30,
-   "pre1970_strict": 0.233,
-   "post1970_strict": 0.203
+   "pre1970_scored": 21,
+   "pre1970_strict": 0.333,
+   "post1970_strict": 0.241
   },
   "deepseek": {
-   "post1970_acc": 89,
-   "post1970_scored": 309,
-   "pre1970_acc": 14,
-   "pre1970_scored": 57,
-   "pre1970_strict": 0.246,
-   "post1970_strict": 0.288
+   "post1970_acc": 79,
+   "post1970_scored": 219,
+   "pre1970_acc": 10,
+   "pre1970_scored": 33,
+   "pre1970_strict": 0.303,
+   "post1970_strict": 0.361
   },
   "grok43": {
-   "post1970_acc": 65,
-   "post1970_scored": 196,
-   "pre1970_acc": 12,
-   "pre1970_scored": 40,
-   "pre1970_strict": 0.3,
-   "post1970_strict": 0.332
+   "post1970_acc": 51,
+   "post1970_scored": 131,
+   "pre1970_acc": 8,
+   "pre1970_scored": 26,
+   "pre1970_strict": 0.308,
+   "post1970_strict": 0.389
   },
   "sonnet": {
-   "post1970_acc": 115,
-   "post1970_scored": 353,
-   "pre1970_acc": 26,
-   "pre1970_scored": 70,
-   "pre1970_strict": 0.371,
-   "post1970_strict": 0.326
+   "post1970_acc": 98,
+   "post1970_scored": 207,
+   "pre1970_acc": 29,
+   "pre1970_scored": 53,
+   "pre1970_strict": 0.547,
+   "post1970_strict": 0.473
   },
   "llama4mav": {
-   "post1970_acc": 36,
-   "post1970_scored": 86,
-   "pre1970_acc": 5,
-   "pre1970_scored": 16,
-   "pre1970_strict": 0.312,
-   "post1970_strict": 0.419
+   "post1970_acc": 24,
+   "post1970_scored": 41,
+   "pre1970_acc": 4,
+   "pre1970_scored": 10,
+   "pre1970_strict": 0.4,
+   "post1970_strict": 0.585
   },
   "gpt54mini": {
-   "post1970_acc": 75,
-   "post1970_scored": 164,
+   "post1970_acc": 57,
+   "post1970_scored": 108,
    "pre1970_acc": 11,
-   "pre1970_scored": 23,
-   "pre1970_strict": 0.478,
-   "post1970_strict": 0.457
+   "pre1970_scored": 19,
+   "pre1970_strict": 0.579,
+   "post1970_strict": 0.528
   },
   "pooled": {
-   "post1970_acc": 463,
-   "post1970_scored": 1562,
-   "pre1970_acc": 83,
-   "pre1970_scored": 269,
-   "pre1970_strict": 0.309,
-   "post1970_strict": 0.296
+   "post1970_acc": 381,
+   "post1970_scored": 1075,
+   "pre1970_acc": 74,
+   "pre1970_scored": 189,
+   "pre1970_strict": 0.392,
+   "post1970_strict": 0.354
   }
  },
  "attribution": {
   "deepseek": {
-   "misattributed": 140,
-   "true_source_cited_in_draft": 59,
-   "share": 0.421
+   "misattributed": 72,
+   "true_source_cited_in_draft": 25,
+   "share": 0.347
   },
   "gpt54mini": {
-   "misattributed": 80,
-   "true_source_cited_in_draft": 50,
-   "share": 0.625
+   "misattributed": 31,
+   "true_source_cited_in_draft": 18,
+   "share": 0.581
   },
   "grok43": {
-   "misattributed": 58,
-   "true_source_cited_in_draft": 19,
-   "share": 0.328
+   "misattributed": 35,
+   "true_source_cited_in_draft": 15,
+   "share": 0.429
   },
   "llama4mav": {
-   "misattributed": 31,
-   "true_source_cited_in_draft": 10,
-   "share": 0.323
+   "misattributed": 11,
+   "true_source_cited_in_draft": 2,
+   "share": 0.182
   },
   "mistralsmall": {
-   "misattributed": 112,
-   "true_source_cited_in_draft": 58,
-   "share": 0.518
+   "misattributed": 63,
+   "true_source_cited_in_draft": 28,
+   "share": 0.444
   },
   "qwen30b": {
-   "misattributed": 76,
-   "true_source_cited_in_draft": 15,
-   "share": 0.197
+   "misattributed": 43,
+   "true_source_cited_in_draft": 7,
+   "share": 0.163
   },
   "sonnet": {
-   "misattributed": 123,
-   "true_source_cited_in_draft": 83,
-   "share": 0.675
+   "misattributed": 75,
+   "true_source_cited_in_draft": 45,
+   "share": 0.6
   },
   "pooled": {
-   "misattributed": 620,
-   "true_source_cited_in_draft": 294,
-   "share": 0.474
+   "misattributed": 330,
+   "true_source_cited_in_draft": 140,
+   "share": 0.424
   }
  }
 }

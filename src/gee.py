@@ -73,7 +73,7 @@ def main():
         for kind in ("citation", "quote"):
             for c, v in fit(df, model, kind, template=pooled, lenient=lenient).items():
                 out[f"{kind}:{model}:{c}"] = v
-    if lenient:
+    if True:  # Holm within model on every fit (revision_stats.py recomputes it for the primary)
         for model in sorted(df.model.unique()):
             tests = sorted([k for k in out if k.split(":")[1] == model], key=lambda k: out[k]["p"])
             m = len(tests)

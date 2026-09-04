@@ -1,0 +1,7 @@
+us        exists   155 not_found    5 unresolvable    1 rate 0.969
+federal   exists   527 not_found   36 unresolvable    0 rate 0.936
+state     exists    75 not_found    9 unresolvable    0 rate 0.893
+other     exists     6 not_found    7 unresolvable  166 rate 0.462
+sct_led   exists    59 not_found    4 unresolvable    0 rate 0.937
+overall {'exists': 822, 'not_found': 61, 'unresolvable': 167, 'existence_rate': 0.9309}
+us+federal {'exists': 682, 'not_found': 41, 'unresolvable': 1, 'existence_rate': 0.9433}

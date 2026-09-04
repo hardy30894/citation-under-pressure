@@ -1,0 +1,8 @@
+deepseek     inacc  793  packet 159  statute  71  both 58  neither  505  | scored  1784 packet-any 518
+gpt54mini    inacc  269  packet  65  statute  26  both 35  neither  143  | scored   824 packet-any 334
+grok43       inacc  307  packet  77  statute  28  both 28  neither  174  | scored   927 packet-any 318
+llama4mav    inacc  228  packet  44  statute  23  both 17  neither  144  | scored   543 packet-any 203
+mistralsmall inacc  675  packet  91  statute  91  both 44  neither  449  | scored  1372 packet-any 337
+qwen30b      inacc  831  packet 134  statute  42  both 26  neither  629  | scored  1571 packet-any 387
+sonnet       inacc  746  packet 122  statute  75  both 31  neither  518  | scored  1929 packet-any 475
+pooled {'inaccurate_total': 3849, 'packet_material': 692, 'statutory': 356, 'both': 239, 'neither': 2562, 'scored_total': 8950, 'packet_material_any_verdict': 2572, 'packet_material_accurate': 1141, 'packet_material_near_miss': 500, 'packet_material_inaccurate': 931, 'share_packet_or_statutory': 0.3344}

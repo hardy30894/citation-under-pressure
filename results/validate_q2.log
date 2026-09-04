@@ -1,0 +1,13 @@
+20 seeded cases
+  Id. to preceding citation        pass                 20
+  artifact rejection               pass                 20
+  between-span rejection           pass                 20
+  fabricated                       pass                 20
+  genuine text, WRONG named cite   pass                 20
+  genuine+right cite               pass                 20
+  no citation in paragraph: unpaired pass                 20
+  paragraph attribution            pass                 20
+  signal phrase vs following cite  pass                 20
+  statutory quote unpaired         pass                 20
+  string-cite parenthetical        pass                 20
+  word-swap corruption             pass                 20

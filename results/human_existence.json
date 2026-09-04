@@ -1,0 +1,141 @@
+{
+ "by_group": {
+  "us": {
+   "exists": 155,
+   "not_found": 5,
+   "unresolvable": 1
+  },
+  "federal": {
+   "exists": 527,
+   "not_found": 36
+  },
+  "state": {
+   "exists": 75,
+   "not_found": 9
+  },
+  "other": {
+   "unresolvable": 166,
+   "not_found": 7,
+   "exists": 6
+  },
+  "sct_led": {
+   "exists": 59,
+   "not_found": 4
+  }
+ },
+ "reporters_by_group": {
+  "us": {
+   "U.S.": 154,
+   "US": 5,
+   "U.S. ": 2
+  },
+  "federal": {
+   "F.3d": 353,
+   "F.2d": 101,
+   "F. Supp. 2d": 36,
+   "F. App\u2019x": 13,
+   "F. Supp. 3d": 10,
+   "F.Supp.2d": 10,
+   "F. 3d": 6,
+   "B.R.": 5,
+   "Fed. Appx.": 5,
+   "F.Supp.": 5,
+   "F.R.D.": 4,
+   "F. Supp.": 3
+  },
+  "state": {
+   "A.2d": 9,
+   "Cal.App.4th": 8,
+   "S.E.2d": 7,
+   "Cal.4th": 7,
+   "Cal.App.3d": 5,
+   "Va.": 5,
+   "A.3d": 4,
+   "P.2d": 4,
+   "N.W.2d": 3,
+   "A.": 3,
+   "Mass.": 2,
+   "P.3d": 2
+  },
+  "other": {
+   "WL": 128,
+   "U.S. Dist. LEXIS": 17,
+   "Add.": 13,
+   "U.S. App. LEXIS": 5,
+   "O.S.": 4,
+   "OK": 3,
+   "Wisc. App. LEXIS": 1,
+   "OK CIV APP": 1,
+   "US Dist LEXIS": 1,
+   "Tex. App. LEXIS": 1,
+   "Va. Cir.": 1,
+   "Pa. Commw.": 1
+  },
+  "sct_led": {
+   "S. Ct.": 30,
+   "S.Ct.": 25,
+   "L.Ed.2d": 5,
+   "S Ct": 1,
+   "L. Ed. 2d": 1,
+   "L.Ed.": 1
+  }
+ },
+ "overall": {
+  "exists": 822,
+  "not_found": 61,
+  "unresolvable": 167,
+  "existence_rate": 0.9309
+ },
+ "us_and_federal": {
+  "exists": 682,
+  "not_found": 41,
+  "unresolvable": 1,
+  "existence_rate": 0.9433
+ },
+ "us_only": {
+  "exists": 155,
+  "not_found": 5,
+  "unresolvable": 1,
+  "existence_rate": 0.9688
+ },
+ "federal_only": {
+  "exists": 527,
+  "not_found": 36,
+  "unresolvable": 0,
+  "existence_rate": 0.9361
+ },
+ "state_only": {
+  "exists": 75,
+  "not_found": 9,
+  "unresolvable": 0,
+  "existence_rate": 0.8929
+ },
+ "not_found_by_reporter": {
+  "F. App\u2019x": 13,
+  "F.3d": 6,
+  "Fed. Appx.": 5,
+  "U.S.": 5,
+  "O.S.": 4,
+  "S.Ct.": 4,
+  "F.2d": 3,
+  "Fed.Appx.": 3,
+  "F. Supp. 3d": 2,
+  "N.W.2d": 1,
+  "F.R.D.": 1,
+  "OK": 1,
+  "Cal.": 1,
+  "A.2d": 1,
+  "Fed. Cl.": 1,
+  "A.3d": 1,
+  "N.E.2d": 1,
+  "S.E.2d": 1,
+  "F. App\u2019x.": 1,
+  "Fed. App'x": 1,
+  "Pa.": 1,
+  "P": 1,
+  "CMR": 1,
+  "C.M.R.": 1,
+  "Cal.App.3d": 1
+ },
+ "n_excerpts": 482
+}

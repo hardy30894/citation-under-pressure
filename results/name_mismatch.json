@@ -1,0 +1,582 @@
+{
+ "deepseek:baseline": {
+  "exists": 346,
+  "checker_flag_false": 31,
+  "name_checked": 312,
+  "name_unchecked": 34,
+  "mismatch": 5
+ },
+ "deepseek:combo": {
+  "exists": 468,
+  "checker_flag_false": 61,
+  "name_checked": 431,
+  "mismatch": 11,
+  "name_unchecked": 37
+ },
+ "deepseek:quota": {
+  "exists": 480,
+  "checker_flag_false": 43,
+  "name_checked": 434,
+  "name_unchecked": 46,
+  "mismatch": 4
+ },
+ "deepseek:stakes": {
+  "exists": 289,
+  "checker_flag_false": 24,
+  "name_checked": 271,
+  "name_unchecked": 18,
+  "mismatch": 4
+ },
+ "deepseek:temporal": {
+  "exists": 339,
+  "checker_flag_false": 35,
+  "name_checked": 307,
+  "name_unchecked": 32,
+  "mismatch": 8
+ },
+ "gpt54mini:baseline": {
+  "exists": 409,
+  "checker_flag_false": 23,
+  "name_checked": 374,
+  "name_unchecked": 35,
+  "mismatch": 2
+ },
+ "gpt54mini:combo": {
+  "exists": 686,
+  "checker_flag_false": 59,
+  "name_unchecked": 72,
+  "name_checked": 614,
+  "mismatch": 12
+ },
+ "gpt54mini:quota": {
+  "exists": 552,
+  "checker_flag_false": 25,
+  "name_checked": 503,
+  "name_unchecked": 49,
+  "mismatch": 5
+ },
+ "gpt54mini:stakes": {
+  "exists": 418,
+  "checker_flag_false": 25,
+  "name_checked": 341,
+  "name_unchecked": 77,
+  "mismatch": 3
+ },
+ "gpt54mini:temporal": {
+  "exists": 497,
+  "checker_flag_false": 44,
+  "name_checked": 442,
+  "name_unchecked": 55,
+  "mismatch": 11
+ },
+ "grok43:baseline": {
+  "exists": 252,
+  "name_checked": 225,
+  "checker_flag_false": 8,
+  "name_unchecked": 27,
+  "mismatch": 1
+ },
+ "grok43:combo": {
+  "exists": 476,
+  "checker_flag_false": 9,
+  "name_unchecked": 28,
+  "name_checked": 448,
+  "mismatch": 3
+ },
+ "grok43:quota": {
+  "exists": 449,
+  "name_checked": 420,
+  "checker_flag_false": 18,
+  "name_unchecked": 29,
+  "mismatch": 2
+ },
+ "grok43:stakes": {
+  "exists": 252,
+  "checker_flag_false": 3,
+  "name_checked": 226,
+  "name_unchecked": 26
+ },
+ "grok43:temporal": {
+  "exists": 236,
+  "checker_flag_false": 3,
+  "name_checked": 222,
+  "name_unchecked": 14,
+  "mismatch": 1
+ },
+ "llama4mav:baseline": {
+  "exists": 204,
+  "name_checked": 180,
+  "checker_flag_false": 4,
+  "name_unchecked": 24
+ },
+ "llama4mav:combo": {
+  "exists": 475,
+  "checker_flag_false": 39,
+  "name_checked": 435,
+  "name_unchecked": 40,
+  "mismatch": 11
+ },
+ "llama4mav:quota": {
+  "exists": 516,
+  "name_checked": 437,
+  "checker_flag_false": 16,
+  "name_unchecked": 79,
+  "mismatch": 3
+ },
+ "llama4mav:stakes": {
+  "exists": 197,
+  "name_checked": 172,
+  "checker_flag_false": 3,
+  "name_unchecked": 25
+ },
+ "llama4mav:temporal": {
+  "exists": 202,
+  "checker_flag_false": 14,
+  "name_checked": 188,
+  "mismatch": 8,
+  "name_unchecked": 14
+ },
+ "mistralsmall:baseline": {
+  "exists": 336,
+  "checker_flag_false": 27,
+  "name_checked": 306,
+  "name_unchecked": 30,
+  "mismatch": 7
+ },
+ "mistralsmall:combo": {
+  "exists": 452,
+  "checker_flag_false": 53,
+  "name_checked": 427,
+  "name_unchecked": 25,
+  "mismatch": 15
+ },
+ "mistralsmall:quota": {
+  "exists": 431,
+  "checker_flag_false": 39,
+  "name_checked": 378,
+  "name_unchecked": 53,
+  "mismatch": 14
+ },
+ "mistralsmall:stakes": {
+  "exists": 362,
+  "checker_flag_false": 34,
+  "name_checked": 322,
+  "name_unchecked": 40,
+  "mismatch": 9
+ },
+ "mistralsmall:temporal": {
+  "exists": 345,
+  "checker_flag_false": 46,
+  "name_checked": 325,
+  "mismatch": 17,
+  "name_unchecked": 20
+ },
+ "qwen30b:baseline": {
+  "exists": 342,
+  "checker_flag_false": 28,
+  "name_unchecked": 119,
+  "name_checked": 223,
+  "mismatch": 7
+ },
+ "qwen30b:combo": {
+  "exists": 307,
+  "checker_flag_false": 42,
+  "name_unchecked": 29,
+  "name_checked": 278,
+  "mismatch": 14
+ },
+ "qwen30b:quota": {
+  "exists": 425,
+  "checker_flag_false": 39,
+  "name_unchecked": 135,
+  "name_checked": 290,
+  "mismatch": 7
+ },
+ "qwen30b:stakes": {
+  "exists": 351,
+  "checker_flag_false": 26,
+  "name_unchecked": 125,
+  "name_checked": 226,
+  "mismatch": 3
+ },
+ "qwen30b:temporal": {
+  "exists": 258,
+  "name_checked": 225,
+  "checker_flag_false": 29,
+  "name_unchecked": 33,
+  "mismatch": 12
+ },
+ "sonnet:baseline": {
+  "exists": 315,
+  "checker_flag_false": 31,
+  "name_checked": 299,
+  "name_unchecked": 16
+ },
+ "sonnet:combo": {
+  "exists": 449,
+  "checker_flag_false": 58,
+  "name_checked": 430,
+  "mismatch": 3,
+  "name_unchecked": 19
+ },
+ "sonnet:quota": {
+  "exists": 447,
+  "checker_flag_false": 45,
+  "name_checked": 418,
+  "mismatch": 2,
+  "name_unchecked": 29
+ },
+ "sonnet:stakes": {
+  "exists": 330,
+  "checker_flag_false": 33,
+  "name_unchecked": 25,
+  "name_checked": 305
+ },
+ "sonnet:temporal": {
+  "exists": 351,
+  "checker_flag_false": 33,
+  "name_checked": 335,
+  "name_unchecked": 16,
+  "mismatch": 1
+ },
+ "_pooled": {
+  "exists": 13244,
+  "checker_flag_false": 1050,
+  "name_checked": 11769,
+  "name_unchecked": 1475,
+  "mismatch": 205
+ },
+ "_per_model": {
+  "deepseek": {
+   "exists": 1922,
+   "checker_flag_false": 194,
+   "name_checked": 1755,
+   "name_unchecked": 167,
+   "mismatch": 32
+  },
+  "gpt54mini": {
+   "exists": 2562,
+   "checker_flag_false": 176,
+   "name_checked": 2274,
+   "name_unchecked": 288,
+   "mismatch": 33
+  },
+  "grok43": {
+   "exists": 1665,
+   "name_checked": 1541,
+   "checker_flag_false": 41,
+   "name_unchecked": 124,
+   "mismatch": 7
+  },
+  "llama4mav": {
+   "exists": 1594,
+   "name_checked": 1412,
+   "checker_flag_false": 76,
+   "name_unchecked": 182,
+   "mismatch": 22
+  },
+  "mistralsmall": {
+   "exists": 1926,
+   "checker_flag_false": 199,
+   "name_checked": 1758,
+   "name_unchecked": 168,
+   "mismatch": 62
+  },
+  "qwen30b": {
+   "exists": 1683,
+   "checker_flag_false": 164,
+   "name_unchecked": 441,
+   "name_checked": 1242,
+   "mismatch": 43
+  },
+  "sonnet": {
+   "exists": 1892,
+   "checker_flag_false": 200,
+   "name_checked": 1787,
+   "name_unchecked": 105,
+   "mismatch": 6
+  }
+ },
+ "_examples": [
+  {
+   "model": "deepseek",
+   "draft": "1992-086_combo",
+   "citation": "307 U.S. 496",
+   "claimed": "See Hague v. CIO",
+   "index": "Haguer v. Committee for Industrial Organization"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1992-086_temporal",
+   "citation": "307 U.S. 496",
+   "claimed": "See Hague v. CIO",
+   "index": "Haguer v. Committee for Industrial Organization"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1992-109_combo",
+   "citation": "350 U.S. 961",
+   "claimed": "See Bishop v. United States",
+   "index": "V. P. Serodino, Inc. v. United States"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1997-033_quota",
+   "citation": "10 F.3d 968",
+   "claimed": "See In re Dow Co v. United States",
+   "index": "United States v. James A. Essig"
+  },
+  {
+   "model": "deepseek",
+   "draft": "1997-044_temporal",
+   "citation": "236 U.S. 605",
+   "claimed": "Gleason v. Thaw",
+   "index": "Norfolk and Western Railway Company v. Conley, Attorney General of the State of West Virginia"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2000-087_combo",
+   "citation": "189 U.S. 86",
+   "claimed": "Yamataya v. Fisher",
+   "index": "The Japanese Immigrant Case"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2001-013_combo",
+   "citation": "350 U.S. 879",
+   "claimed": "Gahagan Construction Corp v. Armao",
+   "index": "Gianfala v. Texas Co."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2003-043_combo",
+   "citation": "121 F.2d 575",
+   "claimed": "Accord United States v. Rosenblum",
+   "index": "Corcoran v. Columbia BroadcastIng System, Inc."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2003-043_stakes",
+   "citation": "299 F.3d 913",
+   "claimed": "United States v. Galletti",
+   "index": "United States v. Timothy Eckerson"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2003-043_temporal",
+   "citation": "289 U.S. 71",
+   "claimed": "See also United States v. Garbutt",
+   "index": "Roberts v. Richland Irrigation District"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2005-074_temporal",
+   "citation": "17 U.S. 122",
+   "claimed": "See Sturges v. Crowninshield",
+   "index": "Bank of Columbia v. Okely"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2005-087_baseline",
+   "citation": "700 N.E.2d 913",
+   "claimed": "See, e.g., State v. Wilcox",
+   "index": "Malicki v. Koci"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_baseline",
+   "citation": "178 F.3d 527",
+   "claimed": "Forshee v. Waterloo Indus., Inc.",
+   "index": "No. 98-1604"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_combo",
+   "citation": "286 F. 775",
+   "claimed": "In McFarland v. Hurley",
+   "index": "Lipscomb v. Hough"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_combo",
+   "citation": "149 F.2d 641",
+   "claimed": "Lavicky v. Woll",
+   "index": "Fogarty v. United States"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_combo",
+   "citation": "58 F.2d 363",
+   "claimed": "Watters v. Watters",
+   "index": "In re Katsujiro Akiyama"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_quota",
+   "citation": "178 F.3d 527",
+   "claimed": "Forshee v. Waterloo Indus., Inc.",
+   "index": "No. 98-1604"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2009-045_stakes",
+   "citation": "178 F.3d 527",
+   "claimed": "Forshee v. Waterloo Indus., Inc.",
+   "index": "No. 98-1604"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2010-026_baseline",
+   "citation": "898 F.2d 793",
+   "claimed": "See Schwaner v. Dept. of Air Force",
+   "index": "The Washington Post Company v. Department of State"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2011-010_combo",
+   "citation": "339 U.S. 992",
+   "claimed": "In Rodgers v. United States",
+   "index": "Smith v. Holt"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2012-006_baseline",
+   "citation": "179 F.2d 338",
+   "claimed": "United States v. Sperling",
+   "index": "Spiritwood Grain Co. v. Northern Pac. Ry. Co."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2013-068_quota",
+   "citation": "391 U.S. 367",
+   "claimed": "See United States v. O\u2019Brien",
+   "index": "United States v. O'Brien"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2013-068_temporal",
+   "citation": "307 U.S. 496",
+   "claimed": "Hague v. CIO",
+   "index": "Haguer v. Committee for Industrial Organization"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2015-038_baseline",
+   "citation": "872 F.3d 883",
+   "claimed": "See Sturgeon v. Frost",
+   "index": "United States v. Jamie Ballard"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2016-001_stakes",
+   "citation": "222 U.S. 1",
+   "claimed": "Bush & Lane Piano Co v. Becker Bros.",
+   "index": "Blinn v. Nelson"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2016-067_combo",
+   "citation": "178 F.2d 924",
+   "claimed": "See also Elder v. National City Bank",
+   "index": "Southern California Retail Druggist Association, Limited v. Retail Clerks Union, Local No. 770, Etc."
+  },
+  {
+   "model": "deepseek",
+   "draft": "2019-024_quota",
+   "citation": "914 F.2d 250",
+   "claimed": "See Maher v. Strachan",
+   "index": "Charles A. Williams, Jr. v. The Virginia National Guard Bureau"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2019-024_temporal",
+   "citation": "291 U.S. 502",
+   "claimed": "Co v. Potter",
+   "index": "Nebbia v. New York"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2019-024_temporal",
+   "citation": "67 F.2d 226",
+   "claimed": "See, e.g., Pocahontas Coal Co v. United States",
+   "index": "United States Tungsten Mines Co. v. Laugharn"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2020-005_stakes",
+   "citation": "2018 MT 185",
+   "claimed": "Meek v. Ford Motor Co.",
+   "index": "State v. Eller"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2020-012_combo",
+   "citation": "316 U.S. 407",
+   "claimed": "Sys v. United States",
+   "index": "Columbia Broadcasting System, Inc. v. United States"
+  },
+  {
+   "model": "deepseek",
+   "draft": "2020-058_temporal",
+   "citation": "317 U.S. 602",
+   "claimed": "See, e.g., United States v. Allen",
+   "index": "Fisher v. Whiton"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1992-086_combo",
+   "citation": "307 U.S. 496",
+   "claimed": "That rule derives from Hague v. CIO",
+   "index": "Haguer v. Committee for Industrial Organization"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1992-086_temporal",
+   "citation": "307 U.S. 496",
+   "claimed": "Hague v. CIO",
+   "index": "Haguer v. Committee for Industrial Organization"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1992-109_combo",
+   "citation": "350 U.S. 961",
+   "claimed": "And Bishop v. United States",
+   "index": "V. P. Serodino, Inc. v. United States"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1994-059_temporal",
+   "citation": "240 Ark. 565",
+   "claimed": "Carter v. State of Arkansas",
+   "index": "Ark. State Highway Comm. v. Rhodes"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1997-021_combo",
+   "citation": "286 U.S. 254",
+   "claimed": "Allen-Bradley Co v. NLRB",
+   "index": "Blakey v. Brinson"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1997-021_temporal",
+   "citation": "379 U.S. 343",
+   "claimed": "See NLRB v. Tennessee Packers, Inc.",
+   "index": "All States Frgt. v. NY, NH & HR CO."
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1997-021_temporal",
+   "citation": "305 U.S. 197",
+   "claimed": "Eastern Associated Coal Corp v. NLRB",
+   "index": "Consolidated Edison Co. v. National Labor Relations Board"
+  },
+  {
+   "model": "gpt54mini",
+   "draft": "1997-033_temporal",
+   "citation": "181 U.S. 131",
+   "claimed": "Bulova Watch Co v. United States",
+   "index": "Werling v. Ingersoll"
+  }
+ ]
+}

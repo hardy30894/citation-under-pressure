@@ -11,15 +11,15 @@
       "subset": "all_clean",
       "n_excerpts": 482,
       "quote_verdicts": {
-        "accurate": 235,
-        "near_miss": 158,
-        "inaccurate": 185,
-        "unverifiable": 199,
-        "unpaired": 897
+        "accurate": 205,
+        "near_miss": 113,
+        "inaccurate": 98,
+        "unverifiable": 160,
+        "unpaired": 1064
       },
-      "n_quotes_total": 1674,
-      "n_quotes_scored": 578,
-      "strict_quote_rate": 0.4066,
+      "n_quotes_total": 1640,
+      "n_quotes_scored": 416,
+      "strict_quote_rate": 0.4928,
       "citations": {
         "exists": 822,
         "not_found": 61,
@@ -31,15 +31,15 @@
       "subset": "all_citations_exist",
       "n_excerpts": 270,
       "quote_verdicts": {
-        "accurate": 177,
-        "near_miss": 125,
-        "inaccurate": 140,
-        "unverifiable": 27,
-        "unpaired": 458
+        "accurate": 147,
+        "near_miss": 85,
+        "inaccurate": 72,
+        "unverifiable": 29,
+        "unpaired": 567
       },
-      "n_quotes_total": 927,
-      "n_quotes_scored": 442,
-      "strict_quote_rate": 0.4005,
+      "n_quotes_total": 900,
+      "n_quotes_scored": 304,
+      "strict_quote_rate": 0.4836,
       "citations": {
         "exists": 584,
         "not_found": 0,
@@ -51,15 +51,15 @@
       "subset": "any_citation_exists",
       "n_excerpts": 364,
       "quote_verdicts": {
-        "accurate": 235,
-        "near_miss": 158,
-        "inaccurate": 185,
-        "unverifiable": 148,
-        "unpaired": 554
+        "accurate": 205,
+        "near_miss": 113,
+        "inaccurate": 98,
+        "unverifiable": 123,
+        "unpaired": 708
       },
-      "n_quotes_total": 1280,
-      "n_quotes_scored": 578,
-      "strict_quote_rate": 0.4066,
+      "n_quotes_total": 1247,
+      "n_quotes_scored": 416,
+      "strict_quote_rate": 0.4928,
       "citations": {
         "exists": 822,
         "not_found": 51,
@@ -89,8 +89,8 @@
       "split": "eval",
       "filename": "fogo-de-chao-holdings-inc-v-dept-of-homeland-security_1288063_part38.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -108,8 +108,8 @@
         },
         {
           "quote": "[W]e need not determine whether the agency\u2019s interpretation is entitled to *Chevron* deference. ",
-          "citation": "853 F. Supp. 2d 86",
-          "verdict": "near_miss",
+          "citation": "718 F.3d 986",
+          "verdict": "accurate",
           "coverage": 1.0
         }
       ]
@@ -211,11 +211,11 @@
       "split": "eval",
       "filename": "deanna-robinson-v-hunt-county-texas_375834794_part33.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 0,
         "near_miss": 2,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 0,
@@ -242,9 +242,9 @@
         },
         {
           "quote": "clearly established right",
-          "citation": "925 F.2d 844",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Neither absolute nor qualified personal immunity extends to suits for injunctive or declaratory relief under 1983. ",
@@ -254,9 +254,9 @@
         },
         {
           "quote": "clearly established right",
-          "citation": "925 F.2d 844",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -267,8 +267,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 0
+        "unverifiable": 1,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -283,8 +283,8 @@
         },
         {
           "quote": "This language [of FAIR] is narrow and does not authorize plenary sentencing. But it allows a district court to at least ",
-          "citation": "2020 U.S. App. LEXIS 28454",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -311,9 +311,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 3,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 6
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -321,58 +321,22 @@
       "n_citations": 1,
       "quotes": [
         {
-          "quote": " the Donnerts on safety issues. Not only is the shared-safety clause itself ambiguous, but so is the conflict between th",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " the Donnerts. This ambiguity was properly submitted to the jury for their determination whether Feld had, in fact, ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " the Donnerts. This is an express obligation contained within the very document drafted by Feld. Because of this ambigui",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
           "quote": "retaliatory personnel action.",
-          "citation": "720 F.3d 505",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "retaliatory personnel action",
-          "citation": "720 F.3d 505",
-          "verdict": "inaccurate",
-          "coverage": 0.667
-        },
-        {
-          "quote": " Fla. Stat. 448.101 (Reproduction 48). A covered ",
-          "citation": "720 F.3d 505",
-          "verdict": "inaccurate",
-          "coverage": 0.5
-        },
-        {
-          "quote": " private company that employs 10 or more persons. *Id.* A covered ",
           "citation": null,
           "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "under the control and direction of an employer for wages ....",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " retaliatory personnel action against an employee because the employee ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "720 F.3d 505",
+          "verdict": "inaccurate",
+          "coverage": 0.4
         }
       ]
     },
@@ -607,11 +571,11 @@
       "split": "eval",
       "filename": "united-states-v-timothy-fredrickson_451480966_part7.pdf",
       "quote_verdicts": {
-        "accurate": 4,
+        "accurate": 2,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 8,
       "not_found": 0,
@@ -632,15 +596,15 @@
         },
         {
           "quote": "any play, motion picture, photograph or dance",
-          "citation": "458 U.S. 747",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "any other visual representation exhibited before an audience. ",
-          "citation": "458 U.S. 747",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -748,8 +712,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 0
+        "unverifiable": 1,
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 0,
@@ -758,8 +722,8 @@
       "quotes": [
         {
           "quote": "Equitable defenses and remedies are intended to \u2018do justice. \u2019",
-          "citation": "2015 WL 1061138",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -830,8 +794,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 1
+        "unverifiable": 2,
+        "unpaired": 2
       },
       "exists": 0,
       "not_found": 0,
@@ -846,8 +810,8 @@
         },
         {
           "quote": "the appropriate agency",
-          "citation": "1989 WL 1178203",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -897,11 +861,11 @@
       "split": "eval",
       "filename": "serra-v-quantum-servicing-corp_518553_part21.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 2,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 0,
@@ -916,9 +880,9 @@
         },
         {
           "quote": "a lender may run afoul of Chapter 93A by knowingly setting up a borrower for default.",
-          "citation": "462 B.R. 283",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "To the extent that the bank may thus have liability as an assignee by virtue of the act, it would extend to \"all affirma",
@@ -928,9 +892,9 @@
         },
         {
           "quote": "all affirmative claims and defenses with respect to the loan",
-          "citation": "462 B.R. 283",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "allowing summary judgment in the bank's favor on those three claims, to the extent that it is based on the bank's status",
@@ -993,9 +957,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -1016,9 +980,9 @@
         },
         {
           "quote": "knowingly presents, or causes to be presented, a false or fraudulent claim for payment or approval",
-          "citation": "673 F.3d 285",
-          "verdict": "inaccurate",
-          "coverage": 0.444
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "knowingly makes, uses, or causes to be made or used, a false record or statement material to a false or fraudulent claim",
@@ -1038,11 +1002,11 @@
       "split": "eval",
       "filename": "state-of-north-dakota-v-epa_59004482_part20.pdf",
       "quote_verdicts": {
-        "accurate": 4,
+        "accurate": 3,
         "near_miss": 0,
         "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 4,
       "not_found": 0,
@@ -1069,21 +1033,21 @@
         },
         {
           "quote": "new source anywhere in the nation,",
-          "citation": "486 F.2d 427",
+          "citation": "486 F.2d 375",
           "verdict": "inaccurate",
           "coverage": 0.667
         },
         {
           "quote": "the least common denominator",
-          "citation": "486 F.2d 427",
+          "citation": "486 F.2d 375",
           "verdict": "inaccurate",
           "coverage": 0.667
         },
         {
           "quote": "adequately demonstrated. ",
-          "citation": "627 F.2d 416",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -1179,9 +1143,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -1196,9 +1160,9 @@
         },
         {
           "quote": "having concluded that [BNSF\u2019s] alternative ATC approach was raised too late,",
-          "citation": "570 F.3d 349",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "not hold this case in abeyance to await the outcome of the rulemaking because that would encourage future litigants to a",
@@ -1214,15 +1178,15 @@
         },
         {
           "quote": "consider whether a methodology similar to BNSF\u2019s alternative ATC",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "570 F.3d 349",
+          "verdict": "inaccurate",
+          "coverage": 0.667
         },
         {
           "quote": "based on BNSF\u2019s proposal",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "570 F.3d 349",
+          "verdict": "inaccurate",
+          "coverage": 0.333
         }
       ]
     },
@@ -1233,8 +1197,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 2
+        "unverifiable": 2,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 1,
@@ -1267,8 +1231,8 @@
         },
         {
           "quote": "continue to follow up with [the] neurologist in reference to [the] medical concern. ",
-          "citation": "380 F. App'x 160",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -1411,9 +1375,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -1428,9 +1392,9 @@
         },
         {
           "quote": "[f]unding sources vary from academic budgets to student activity funds to advertising to dues paid by staff members. ",
-          "citation": "684 F.3d 1332",
-          "verdict": "inaccurate",
-          "coverage": 0.3
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -1469,9 +1433,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 3,
       "not_found": 0,
@@ -1480,9 +1444,9 @@
       "quotes": [
         {
           "quote": "tips marginally in favor of [SCI]. ",
-          "citation": "5 F. Supp. 2d 823",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -1590,9 +1554,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 2,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 4,
       "not_found": 1,
@@ -1613,9 +1577,9 @@
         },
         {
           "quote": "create[d] the opportunity for renewed comment and objection. ",
-          "citation": "516 F.3d 1021",
-          "verdict": "inaccurate",
-          "coverage": 0.8
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -1827,10 +1791,10 @@
       "filename": "pulse-network-v-visa_431038882_part3.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -1839,9 +1803,9 @@
       "quotes": [
         {
           "quote": "assum[e] an antitrust violation has occurred",
-          "citation": "123 F.3d 301",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "formalistic distinctions",
@@ -1877,11 +1841,11 @@
       "split": "eval",
       "filename": "united-states-sugar-corp-v-epa_1275723_part20.pdf",
       "quote_verdicts": {
-        "accurate": 3,
-        "near_miss": 1,
-        "inaccurate": 3,
+        "accurate": 2,
+        "near_miss": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 4
       },
       "exists": 4,
       "not_found": 0,
@@ -1896,21 +1860,21 @@
         },
         {
           "quote": "top two ranked units",
-          "citation": "744 F.2d 133",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "firing biomass with natural gas",
-          "citation": "744 F.2d 133",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "best-performing sources",
-          "citation": "479 F.3d 875",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "EPA cannot circumvent *Cement Kiln*\u2019s holding that section 7412(d)(3) requires floors based on the emission level actual",
@@ -1920,9 +1884,9 @@
         },
         {
           "quote": "even if we were prepared to accord *Chevron* deference \u2026 that document contains no interpretation of [the statute] to wh",
-          "citation": "744 F.2d 133",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": "332 F.3d 654",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "consider[] matter in a detailed and reasoned fashion",
@@ -1942,11 +1906,11 @@
       "split": "eval",
       "filename": "ivan-arnold-v-homeaway-incorporated_22241165_part14.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 8
+        "unpaired": 11
       },
       "exists": 1,
       "not_found": 0,
@@ -1955,21 +1919,21 @@
       "quotes": [
         {
           "quote": "govern[] Arnold\u2019s claims,",
-          "citation": "343 F.3d 719",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "does not purport to encompass all disputes between the parties. ",
-          "citation": "343 F.3d 719",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "is unauthorized in any jurisdiction that does not give effect to all provisions of these Terms, including, without limit",
-          "citation": "343 F.3d 719",
-          "verdict": "inaccurate",
-          "coverage": 0.636
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Terms are governed by the Federal Arbitration Act",
@@ -2029,31 +1993,13 @@
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 1
       },
       "exists": 3,
       "not_found": 0,
       "unresolvable": 0,
       "n_citations": 3,
       "quotes": [
-        {
-          "quote": " were substituted for ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " in order to conform to Rule 2 of the Federal Rules of Civil Procedure. Words ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " which were inserted by the amendatory act April 20, 1940, are omitted. The word ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
         {
           "quote": "citizens of different States.",
           "citation": null,
@@ -2067,8 +2013,8 @@
       "filename": "aldf-v-usda_666667_part13.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 0,
+        "near_miss": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -2079,15 +2025,15 @@
       "quotes": [
         {
           "quote": "The Need to Consider an Agency\u2019s Scientific Conclusion is Not Sufficient Reason to Find an Agency\u2019s Action Unreviewable.",
-          "citation": "812 F.2d 1",
-          "verdict": "near_miss",
-          "coverage": 0.889
-        },
-        {
-          "quote": "that foie gras comes from diseased, disabled, and dying poultry. ",
           "citation": null,
           "verdict": "unpaired",
           "coverage": null
+        },
+        {
+          "quote": "that foie gras comes from diseased, disabled, and dying poultry. ",
+          "citation": "812 F.2d 1",
+          "verdict": "inaccurate",
+          "coverage": 0.0
         }
       ]
     },
@@ -2159,8 +2105,8 @@
       "split": "eval",
       "filename": "pulse-network-v-visa_431038849_part24.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 1,
         "unverifiable": 0,
         "unpaired": 4
@@ -2190,9 +2136,9 @@
         },
         {
           "quote": "When assessing antitrust injury, we assume that the practice at issue is a violation of the antitrust laws. ",
-          "citation": "696 F.3d 254",
-          "verdict": "near_miss",
-          "coverage": 0.875
+          "citation": "711 F.3d 68",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "would have suffered the identical \u2018loss\u2019 \u2026 had the acquired centers instead obtained refinancing or been purchased by \u2018s",
@@ -2224,11 +2170,11 @@
       "split": "eval",
       "filename": "hernandez-favale-v-united-states_426321409_part5.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 0,
@@ -2249,15 +2195,15 @@
         },
         {
           "quote": "was imposed in violation of the Constitution or laws of the United States",
-          "citation": "806 F.3d 653",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "is otherwise subject to collateral attack. ",
-          "citation": "806 F.3d 653",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -2265,9 +2211,9 @@
       "split": "eval",
       "filename": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part19.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 3,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 4
       },
@@ -2284,9 +2230,9 @@
         },
         {
           "quote": "myriads of possibilities",
-          "citation": "323 F.3d 956",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": "379 F.2d 990",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "no guide indicating or directing that th[e] particular selection",
@@ -2393,9 +2339,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 2,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -2410,9 +2356,9 @@
         },
         {
           "quote": "do not contain any legal analysis to support the assertion that [Hauptman\u2019s] LLC entities * * * are his nominees",
-          "citation": "250 F.3d 1198",
-          "verdict": "inaccurate",
-          "coverage": 0.375
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[a] nominee is one who holds bare legal title to property for the benefit of another",
@@ -2537,7 +2483,7 @@
       "quotes": [
         {
           "quote": "[t]he Bankruptcy Court below lack[s] the constitutional authority to enter a final judgment on a state law counterclaim ",
-          "citation": "131 S. Ct. 2594",
+          "citation": "180 L. Ed. 2d 475",
           "verdict": "near_miss",
           "coverage": 0.941
         },
@@ -2595,8 +2541,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 4
+        "unverifiable": 3,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 1,
@@ -2617,8 +2563,8 @@
         },
         {
           "quote": "We, however, are not persuaded that the adjustment of the annual percentage rate, incorrect or not, constituted a breach",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "555 N.W.2d 156",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -2677,8 +2623,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 9
+        "unverifiable": 0,
+        "unpaired": 10
       },
       "exists": 0,
       "not_found": 0,
@@ -2741,8 +2687,8 @@
         },
         {
           "quote": "thorny questions that may require the FDA\u2019s expertise. ",
-          "citation": "2020 WL 6498970",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -2751,11 +2697,11 @@
       "split": "eval",
       "filename": "united-states-v-eme-homer-city-generation-lp_570156_part31.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
-        "inaccurate": 4,
+        "accurate": 1,
+        "near_miss": 0,
+        "inaccurate": 3,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -2764,27 +2710,27 @@
       "quotes": [
         {
           "quote": "the object as already particularized in terms which are not mentioned, and is a descriptive and relative word, referring",
-          "citation": "100 U.S. 508",
-          "verdict": "inaccurate",
-          "coverage": 0.3
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "of the type previously mentioned",
-          "citation": "100 U.S. 508",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "such ship or vessel to sail from any port,",
-          "citation": "25 U.S.(12 Wheat.) 460",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[s]uch ship or vessel\u2019 must, therefore, refer to a ship or vessel so built [or] fitted out",
-          "citation": "25 U.S.(12 Wheat.) 460",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "159 F.3d 1194",
+          "verdict": "inaccurate",
+          "coverage": 0.333
         },
         {
           "quote": "If we were to adopt any other construction, we should read the words as if \u2018such\u2019 were struck out, and the clause stood ",
@@ -2833,11 +2779,11 @@
       "split": "eval",
       "filename": "united-states-sugar-corp-v-epa_1275723_part7.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 3,
-        "inaccurate": 0,
+        "accurate": 0,
+        "near_miss": 1,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 4
       },
       "exists": 3,
       "not_found": 0,
@@ -2852,21 +2798,21 @@
         },
         {
           "quote": "may distinguish among classes, types, and sizes of sources",
-          "citation": "479 F.3d 875",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "233 F.3d 625",
+          "verdict": "inaccurate",
+          "coverage": 0.667
         },
         {
           "quote": "less stringent than the emission control that is achieved in practice by the best controlled similar source. ",
-          "citation": "479 F.3d 875",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "average emission limitation achieved by the best performing 12 percent of sources (for which the Administrator has emiss",
-          "citation": "479 F.3d 875",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the average emission limitation achieved by the best performing 5 sources (for which the Administrator has or could reas",
@@ -2886,11 +2832,11 @@
       "split": "eval",
       "filename": "state-of-alaska-v-department-of-agriculture_1287056_part20.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -2905,15 +2851,15 @@
         },
         {
           "quote": "[i]t is of special importance that landowners know with certainty what their rights are, and the period during which tho",
-          "citation": "524 U.S. 38",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "eliminate[ing] delays in the federal habeas review process. ",
-          "citation": "333 F.3d 273",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -2921,11 +2867,11 @@
       "split": "eval",
       "filename": "roy-daniel-v-isaac-fulwood-jr_1282562_part6.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -2940,9 +2886,9 @@
         },
         {
           "quote": "salient factor scores. ",
-          "citation": "652 A.2d 634",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -2952,9 +2898,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 2,
-        "unverifiable": 1,
-        "unpaired": 0
+        "inaccurate": 0,
+        "unverifiable": 0,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 1,
@@ -2963,21 +2909,21 @@
       "quotes": [
         {
           "quote": "Mutual knowledge of all the relevant facts gathered by both parties is essential to proper litigation.",
-          "citation": "243 F.R.D. 604",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "a short and plain statement of the grounds for the court's jurisdiction",
-          "citation": "329 U.S. 495",
-          "verdict": "inaccurate",
-          "coverage": 0.833
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a demand for the relief sought.",
-          "citation": "329 U.S. 495",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -3023,8 +2969,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 0
+        "unverifiable": 2,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -3045,8 +2991,8 @@
         },
         {
           "quote": "[i]t would be inappropriate \u2026 to resolve [Azurity\u2019s] Lanham Act *claim*",
-          "citation": "2017 WL 10526121",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -3122,11 +3068,11 @@
       "split": "eval",
       "filename": "terrance-fowler-v-superintendent-smithfield-sci_20528112_part6.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -3135,9 +3081,9 @@
       "quotes": [
         {
           "quote": "unreasonable application of",
-          "citation": "428 F.3d 491",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "reasonable probability",
@@ -3154,8 +3100,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 4,
-        "unpaired": 4
+        "unverifiable": 2,
+        "unpaired": 6
       },
       "exists": 1,
       "not_found": 0,
@@ -3164,8 +3110,8 @@
       "quotes": [
         {
           "quote": "the power to bring the subject of the regulation into existence. ",
-          "citation": "132 S. Ct. 2566",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -3176,14 +3122,14 @@
         },
         {
           "quote": "The individual mandate,",
-          "citation": "132 S. Ct. 2566",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "does not regulate existing commercial activity. ",
-          "citation": "132 S. Ct. 2566",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -3200,8 +3146,8 @@
         },
         {
           "quote": "we have never permitted Congress to anticipate that activity itself in order to regulate individuals not currently engag",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "132 S. Ct. 2566",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -3216,8 +3162,8 @@
       "split": "eval",
       "filename": "michael-belleau-v-edward-wall_647305_part17.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 2
@@ -3235,21 +3181,21 @@
         },
         {
           "quote": "Inviolability of privacy in group association may in many circumstances be indispensable to preservation of freedom of a",
-          "citation": "459 U.S. 87",
+          "citation": "357 U.S. 449",
           "verdict": "accurate",
           "coverage": 1.0
         },
         {
           "quote": "Such disclosures can seriously infringe on privacy of association and belief guaranteed by the First Amendment. ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "459 U.S. 87",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "alter the relationship between citizen and government in a way that is inimical to democratic society",
-          "citation": "468 U.S. 609",
-          "verdict": "near_miss",
-          "coverage": 0.875
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "choices to enter and maintain certain intimate human relationships must be secured against undue intrusion by the State ",
@@ -3263,11 +3209,11 @@
       "split": "eval",
       "filename": "par-pharmaceutical-inc-v-twi-pharmaceuticals-inc_1442142_part6.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 2,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 6
       },
       "exists": 3,
       "not_found": 0,
@@ -3306,9 +3252,9 @@
         },
         {
           "quote": "cannot be enough to constitute clear and convincing evidence",
-          "citation": "707 F.3d 1330",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the amount of experimentation one of skill in the art would require to [practice the claimed invention] in view of the [",
@@ -3684,8 +3630,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 4
+        "unverifiable": 0,
+        "unpaired": 5
       },
       "exists": 0,
       "not_found": 0,
@@ -3706,8 +3652,8 @@
         },
         {
           "quote": "such as a library which stores information and makes it available on demand. ",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -3760,11 +3706,11 @@
       "split": "eval",
       "filename": "smith-v-frs_365051146_part28.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 6
       },
       "exists": 1,
       "not_found": 0,
@@ -3803,9 +3749,9 @@
         },
         {
           "quote": "shall not affect the jurisdiction and authority of the appropriate Federal banking agency. ",
-          "citation": "200 F.3d 855",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -3815,9 +3761,9 @@
       "quote_verdicts": {
         "accurate": 2,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 1,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 1,
@@ -3838,9 +3784,9 @@
         },
         {
           "quote": "can think of no better reading of the statute than",
-          "citation": "707 F.2d 1485",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "unlikely that the [agency] would change its position if the case were remanded to it. ",
@@ -3950,9 +3896,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 0,
@@ -3967,9 +3913,9 @@
         },
         {
           "quote": "one or more claims that may be required to practice",
-          "citation": "644 F. Supp. 2d 788",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "prepared to grant a license to an unrestricted number of applicants on a worldwide, non-discriminatory basis and on reas",
@@ -4072,9 +4018,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 7,
+        "inaccurate": 4,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -4089,15 +4035,15 @@
         },
         {
           "quote": "ensur[ing], to the maximum extent practical, all the data is complete, timely and accurate,",
-          "citation": "809 F.3d 1268",
-          "verdict": "inaccurate",
-          "coverage": 0.143
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "prescrib[ing] technical and operational standards to ensure\u2026uniform, timely, and accurate information collection and rep",
-          "citation": "809 F.3d 1268",
-          "verdict": "inaccurate",
-          "coverage": 0.4
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "in assessing an individual operator\u2019s crash and serious safety violation inspection history as a pre-employment conditio",
@@ -4125,9 +4071,9 @@
         },
         {
           "quote": "FMCSA considers the state\u2019s determination of the validity of an RDR as the final decision on the RDR. FMCSA will not uni",
-          "citation": "809 F.3d 1268",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -4375,9 +4321,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 4,
+        "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 0,
@@ -4392,15 +4338,15 @@
         },
         {
           "quote": "for the actual cost of \u2026 [a]ny appraisal, credit report,",
-          "citation": "364 F.3d 574",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "good[s] or service[s].",
-          "citation": "364 F.3d 574",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "(1) Three times the amount of the finder\u2019s fee collected; or (2) The sum of $500. ",
@@ -4433,10 +4379,10 @@
       "filename": "jayvon-wright-v-city-of-wilmington_12180821_part16.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 0,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -4463,9 +4409,9 @@
         },
         {
           "quote": "the Amended Class Action Complaint reveals Plaintiffs to have each suffered a small amount of quantifiable damage, there",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "151 F.3d 402",
+          "verdict": "near_miss",
+          "coverage": 0.889
         },
         {
           "quote": "[a]though the class does seek money damages, [d]efendants' contention that money damages are the predominant form of rel",
@@ -4682,9 +4628,9 @@
         },
         {
           "quote": "[a] petition for review of an informal agency rulemaking would not likely meet that test.",
-          "citation": "130 S. Ct. 2549",
+          "citation": "519 U.S. 347",
           "verdict": "inaccurate",
-          "coverage": 0.714
+          "coverage": 0.429
         }
       ]
     },
@@ -4721,11 +4667,11 @@
       "split": "eval",
       "filename": "gh-daniels-iii-assoc-v-perez_367232312_part8.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 2,
-        "inaccurate": 2,
+        "accurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 7,
       "not_found": 0,
@@ -4733,40 +4679,16 @@
       "n_citations": 7,
       "quotes": [
         {
-          "quote": " its policy. FCC v. Fox Television Stations, Inc., 129 S. Ct. 1800, 1811 (2009) (regulation is valid in part when agency",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " the regulation is better). No such belief is possible when theorizing what ",
-          "citation": "129 S. Ct. 1800",
-          "verdict": "inaccurate",
-          "coverage": 0.6
-        },
-        {
-          "quote": " DHS also contends that express congressional authority was not required to transfer rule-making authority to another ag",
-          "citation": "129 S. Ct. 1800",
-          "verdict": "inaccurate",
-          "coverage": 0.778
-        },
-        {
-          "quote": " the statute, which would have entitled it to no deference, *Gonzales v. Oregon*, 546 U.S. 243, 257 (2006) (no *Chevron*",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
           "quote": "merely \u2026 paraphrase[s] the statutory language",
-          "citation": "546 U.S. 243",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "to assure that agencies will not appropriate to themselves powers Congress has not intended them to exercise.",
-          "citation": "488 U.S. 204",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "It is axiomatic that an administrative agency\u2019s power to promulgate legislative regulations is limited to the authority ",
@@ -4776,9 +4698,9 @@
         },
         {
           "quote": "regulations are issued by an agency pursuant to statutory authority",
-          "citation": "488 U.S. 204",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -4799,9 +4721,9 @@
       "quotes": [
         {
           "quote": "[r]egardless of whether the sentence imposed is inside or outside the Guideline range, the appellate court must review t",
-          "citation": "543 U.S. 220",
+          "citation": "552 U.S. 38",
           "verdict": "near_miss",
-          "coverage": 0.875
+          "coverage": 1.0
         },
         {
           "quote": "The presumption is rebutted only upon a showing that the sentence does not account for a factor that should receive sign",
@@ -4976,8 +4898,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 9,
-        "unpaired": 1
+        "unverifiable": 7,
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -4992,14 +4914,14 @@
         },
         {
           "quote": "[c]ontract under seal,",
-          "citation": "10 A.3d 745",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "any other specialty. ",
-          "citation": "10 A.3d 745",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -5074,10 +4996,10 @@
       "filename": "htc-v-telefonaktiebolaget_224925013_part19.pdf",
       "quote_verdicts": {
         "accurate": 2,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -5092,9 +5014,9 @@
         },
         {
           "quote": "must take care to seek only those damages attributable to the infringing features",
-          "citation": "694 F.3d 51",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "111 U.S. 120",
+          "verdict": "inaccurate",
+          "coverage": 0.8
         },
         {
           "quote": "overreach and encompass components not covered by the patent. ",
@@ -5116,9 +5038,9 @@
         },
         {
           "quote": "Simply agreeing on a standard for two products to interact has value in a network market \u2026. Indeed, in some cases it may",
-          "citation": "809 F.3d 1295",
-          "verdict": "inaccurate",
-          "coverage": 0.625
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -5236,9 +5158,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 9
+        "unpaired": 8
       },
       "exists": 2,
       "not_found": 0,
@@ -5271,9 +5193,9 @@
         },
         {
           "quote": "The trustee for charity has powers to sue to recover possession of trust property, to set aside a wrongful conveyance of",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "744 F.2d 893",
+          "verdict": "inaccurate",
+          "coverage": 0.4
         },
         {
           "quote": "the terms and purposes of the trust",
@@ -5311,11 +5233,11 @@
       "split": "eval",
       "filename": "association-of-flight-attendan-v-michael-huerta_1285577_part17.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 0,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 7
       },
       "exists": 2,
       "not_found": 0,
@@ -5348,21 +5270,21 @@
         },
         {
           "quote": "demonstrate that the agency\u2019s violation of the APA\u2019s notice and comment procedures has resulted in \u2018prejudice,\u2019",
-          "citation": "452 F.3d 930",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "published notice in the Federal Register",
-          "citation": "400 F.3d 29",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "received and considered comments on [its] proposal from, among others, the petitioners",
-          "citation": "400 F.3d 29",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -5371,10 +5293,10 @@
       "filename": "prime-time-international-comp-v-agri_1287237_part5.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 3,
+        "near_miss": 2,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -5389,9 +5311,9 @@
         },
         {
           "quote": "allocated on a pro rata basis among manufacturers . . . based on each manufacturer\u2019s . . . share of gross domestic volum",
-          "citation": "599 F.3d 678",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the volumes of domestic sales shall be measured by \u2013 (A) in the case of cigarettes and cigars, the number of cigarettes ",
@@ -5454,9 +5376,9 @@
         },
         {
           "quote": "[T]oo broad an interpretation of [the \u2018abstract idea\u2019 exception to 101] could eviscerate patent law. For all inventions ",
-          "citation": "772 F.3d 709",
+          "citation": "59 F. Supp. 3d 974",
           "verdict": "near_miss",
-          "coverage": 0.882
+          "coverage": 1.0
         },
         {
           "quote": "[W]e do not purport to state that all claims in all software-based patents will necessarily be directed to an abstract i",
@@ -5470,9 +5392,9 @@
       "split": "eval",
       "filename": "david-stebbins-v-boone-county-ar_431207655_part25.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
-        "inaccurate": 2,
+        "accurate": 2,
+        "near_miss": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -5483,9 +5405,9 @@
       "quotes": [
         {
           "quote": "The District Court gave no explanation for its refusal to grant this relief. It is so important and customary a provisio",
-          "citation": "475 U.S. 673",
-          "verdict": "inaccurate",
-          "coverage": 0.846
+          "citation": "384 U.S. 563",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "In so doing, it offered no explanation why the Chapman harmless-error standard, which we have applied in other Confronta",
@@ -5501,9 +5423,9 @@
         },
         {
           "quote": "at summary judgment this court examines whether there is a genuine issue of material fact; it does not weigh the evidenc",
-          "citation": "134 S. Ct. 1861",
-          "verdict": "inaccurate",
-          "coverage": 0.846
+          "citation": "784 F.3d 1198",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "This is not a rule specific to qualified immunity; it is simply an application of the more general rule that a 'judge's ",
@@ -5518,10 +5440,10 @@
       "filename": "deanna-robinson-v-hunt-county-texas_375834794_part24.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 2,
-        "inaccurate": 1,
+        "near_miss": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 4,
       "not_found": 0,
@@ -5530,9 +5452,9 @@
       "quotes": [
         {
           "quote": "being sued in [their] individual capacity as to monetary damages, and in [their] official capacity as to injunctive and ",
-          "citation": "479 F.2d 335",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "A person's capacity need not be pled except to the extent required to show the jurisdiction of the court. . . The allega",
@@ -5542,9 +5464,9 @@
         },
         {
           "quote": "there is no rule barring a plaintiff from pleading [] alternative theories, and a court may properly evaluate each separ",
-          "citation": "795 F.3d 456",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "1) a policymaker; 2) an official policy; and 3) a violation of constitutional rights whose moving force is the policy or",
@@ -5592,9 +5514,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 2,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 0,
@@ -5621,9 +5543,9 @@
         },
         {
           "quote": "would increase the understanding of the *public at large.*",
-          "citation": "85 F. Supp. 2d 46",
-          "verdict": "inaccurate",
-          "coverage": 0.8
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the information *need not reach a broad cross-section of the population to benefit the \u2018public at large\u2019 for this purpos",
@@ -5672,11 +5594,11 @@
       "split": "aux_train",
       "filename": "htc-v-telefonaktiebolaget_224925031_part10.pdf",
       "quote_verdicts": {
-        "accurate": 4,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 3,
         "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 6
       },
       "exists": 3,
       "not_found": 0,
@@ -5727,9 +5649,9 @@
         },
         {
           "quote": "that a license is not perfectly analogous generally goes to the weight of the evidence, not its admissibility. ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "694 F.3d 51",
+          "verdict": "near_miss",
+          "coverage": 0.857
         },
         {
           "quote": "artificially inflate the jury\u2019s damages calculation. ",
@@ -5739,15 +5661,15 @@
         },
         {
           "quote": "be based not on the entire product, but instead on the",
-          "citation": "694 F.3d 51",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "entire market value rule",
-          "citation": "694 F.3d 51",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "patentee may be awarded damages as a percentage of revenues or profits attributable to the entire [infringing] product",
@@ -6081,9 +6003,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 1,
-        "unpaired": 4
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 1,
@@ -6104,9 +6026,9 @@
         },
         {
           "quote": "arbitrary and irrational. ",
-          "citation": "341 F.3d 338",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Our precedent is clear that otherwise inadmissible evidence may be permitted for the limited purpose of removing any unf",
@@ -6140,41 +6062,6 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
-        "unverifiable": 0,
-        "unpaired": 2
-      },
-      "exists": 2,
-      "not_found": 0,
-      "unresolvable": 0,
-      "n_citations": 2,
-      "quotes": [
-        {
-          "quote": " animal safety. J.A. 641, 7 (c). *See also* J.A. 625, 14 (h) (the Donnerts were obligated to maintain ",
-          "citation": "205 Va. 797",
-          "verdict": "inaccurate",
-          "coverage": 0.0
-        },
-        {
-          "quote": " the Donnerts on safety issues, was an express contractual term, and the jury was free to interpret what it meant to ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " the Donnerts. They were free to interpret that term as consistent with a duty of good faith and fair dealing, or in any",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        }
-      ]
-    },
-    {
-      "split": "aux_train",
-      "filename": "gregory-yount-v-smr-jewell_669154_part35.pdf",
-      "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -6183,17 +6070,33 @@
       "not_found": 0,
       "unresolvable": 0,
       "n_citations": 2,
+      "quotes": []
+    },
+    {
+      "split": "aux_train",
+      "filename": "gregory-yount-v-smr-jewell_669154_part35.pdf",
+      "quote_verdicts": {
+        "accurate": 0,
+        "near_miss": 1,
+        "inaccurate": 0,
+        "unverifiable": 0,
+        "unpaired": 1
+      },
+      "exists": 2,
+      "not_found": 0,
+      "unresolvable": 0,
+      "n_citations": 2,
       "quotes": [
         {
           "quote": "the management of public lands",
-          "citation": "835 F.2d 305",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "withdrawal revocations are themselves major management decisions",
-          "citation": "835 F.2d 305",
-          "verdict": "accurate",
+          "citation": "497 U.S. 871",
+          "verdict": "near_miss",
           "coverage": 1.0
         }
       ]
@@ -6356,13 +6259,13 @@
         },
         {
           "quote": "the attorney general joining as a plaintiff",
-          "citation": "59 A.2d 371",
+          "citation": "1997 WL 839894",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "Jeffery Pine, Attorney General of the State of Rhode Island",
-          "citation": "1994 WL 930887",
+          "citation": "1997 WL 839894",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -6496,9 +6399,9 @@
         },
         {
           "quote": "Patent Owner contends that Foley does not teach a \u2018user profile\u2019 separate from a \u2018user library.\n\u2019",
-          "citation": "653 F.3d 1296",
-          "verdict": "inaccurate",
-          "coverage": 0.375
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "user-specific information relating to an individual using a computer. ",
@@ -6520,9 +6423,9 @@
         },
         {
           "quote": "[S]aid program being operable upon execution to receive from server one of the user profiles and to display a user-selec",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "336 F.3d 1298",
+          "verdict": "inaccurate",
+          "coverage": 0.308
         },
         {
           "quote": "user-specific information relating to an individual using a computer",
@@ -6543,8 +6446,8 @@
       "filename": "united-states-v-john-black-iii_368264571_part14.pdf",
       "quote_verdicts": {
         "accurate": 2,
-        "near_miss": 0,
-        "inaccurate": 1,
+        "near_miss": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
       },
@@ -6555,9 +6458,9 @@
       "quotes": [
         {
           "quote": "no longer entitled to a presumption of innocence or presumptively entitled to [their] freedom",
-          "citation": "107 S. Ct. 2095",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": "3 F.3d 1201",
+          "verdict": "near_miss",
+          "coverage": 0.875
         },
         {
           "quote": "Neither Salerno nor any other case authorizes detaining someone in jail while awaiting trial . . . based merely on the f",
@@ -6778,9 +6681,9 @@
       "filename": "anhing-corporation-v-viet-phu-inc_670536_part33.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 0,
+        "unverifiable": 1,
         "unpaired": 0
       },
       "exists": 2,
@@ -6790,9 +6693,9 @@
       "quotes": [
         {
           "quote": "Denying jurisdictional discovery where further discovery might demonstrate a basis for jurisdiction is an abuse of discr",
-          "citation": "328 F.3d 1122",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "2010 WL 4225880",
+          "verdict": "unverifiable",
+          "coverage": null
         }
       ]
     },
@@ -6800,11 +6703,11 @@
       "split": "aux_train",
       "filename": "state-of-alaska-v-department-of-agriculture_1287056_part15.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 3,
+        "accurate": 0,
+        "near_miss": 2,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 3,
       "not_found": 0,
@@ -6819,9 +6722,9 @@
         },
         {
           "quote": "The action of any person under legal disability or beyond the seas at the time the claim accrues may be commenced within",
-          "citation": "732 F.3d 1030",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "no civil infringement of the copyright in any United States work shall be instituted until preregistration or registrati",
@@ -6837,9 +6740,9 @@
         },
         {
           "quote": "is enough to manifest a different congressional intent",
-          "citation": "498 U.S. 89",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -6847,8 +6750,8 @@
       "split": "aux_train",
       "filename": "producers-of-renewables-united-v-epa_221598526_part14.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
@@ -6860,9 +6763,9 @@
       "quotes": [
         {
           "quote": "must either identify \u2026 record evidence sufficient to support its standing to seek review or, if there is none because st",
-          "citation": "422 U.S. 490",
-          "verdict": "near_miss",
-          "coverage": 0.882
+          "citation": "292 F.3d 895",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "Standing is not \u2018an ingenious academic exercise in the conceivable,\u2019 but \u2026 requires \u2026 a factual showing of perceptible h",
@@ -6878,9 +6781,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -6895,9 +6798,9 @@
         },
         {
           "quote": "[d]ecision against the laminectomy",
-          "citation": "19 F.3d 677",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[A] superseding cause is an act of a third person or other force which by its intervention prevents the actor from being",
@@ -6919,9 +6822,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 5,
       "not_found": 0,
@@ -6930,9 +6833,9 @@
       "quotes": [
         {
           "quote": "breached the covenant of good faith and fair dealing by interfering with the Carsons\u2019 ability to reinstate their loan. ",
-          "citation": "682 F. Supp. 2d 1142",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "to protect the express covenants or promises of [a] contract. ",
@@ -7067,11 +6970,11 @@
       "split": "aux_train",
       "filename": "in-re-usa-v-usdc-casf_415110872_part13.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 3,
         "unverifiable": 0,
-        "unpaired": 6
+        "unpaired": 5
       },
       "exists": 3,
       "not_found": 0,
@@ -7116,9 +7019,9 @@
         },
         {
           "quote": "all documents and materials directly or indirectly considered by agency decision-makers,",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "435 U.S. 519",
+          "verdict": "inaccurate",
+          "coverage": 0.625
         },
         {
           "quote": "withholding evidence unfavorable to its position. ",
@@ -7128,9 +7031,9 @@
         },
         {
           "quote": "not the function of the court to probe the mental processes",
-          "citation": "304 U.S. 1",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": "749 F.2d 788",
+          "verdict": "inaccurate",
+          "coverage": 0.4
         }
       ]
     },
@@ -7185,9 +7088,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -7196,9 +7099,9 @@
       "quotes": [
         {
           "quote": "\u2018liking\u2019 a Facebook page is insufficient speech to merit constitutional protection. ",
-          "citation": "157 F.3d 271",
-          "verdict": "inaccurate",
-          "coverage": 0.714
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "involve[] actual statements. ",
@@ -7336,9 +7239,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 1,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -7347,9 +7250,9 @@
       "quotes": [
         {
           "quote": "[i]nquiry into the deliberative processes of administrators is generally disfavored,",
-          "citation": "418 U.S. 683",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[h]eads of government agencies are not normally subject to deposition. ",
@@ -7359,9 +7262,9 @@
         },
         {
           "quote": "would justify the deposition,",
-          "citation": "600 F.2d 226",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "raises issue that warrant an answer",
@@ -7375,8 +7278,8 @@
       "split": "aux_train",
       "filename": "united-states-v-jessica-medina_665876_part23.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 3,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 1,
         "unpaired": 0
@@ -7394,15 +7297,15 @@
         },
         {
           "quote": "We conclude that a reasonable district court judge could have denied the application because necessity for the wiretap o",
-          "citation": "237 F.2d 1204",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "774 F.2d 1482",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "If an application contains inaccuracies or significant omissions, the court must determine the facts relying on credible",
-          "citation": "861 F.2d 1171",
-          "verdict": "near_miss",
-          "coverage": 0.962
+          "citation": "237 F.2d 1204",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "If these omissions and misstatements had been revealed, a reasonable district court judge could have denied the wiretap ",
@@ -7475,11 +7378,11 @@
       "split": "aux_train",
       "filename": "united-states-v-william-dahl_20527682_part21.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 1,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 4,
       "not_found": 1,
@@ -7494,9 +7397,9 @@
         },
         {
           "quote": "meaningful appellate review,",
-          "citation": "597 F.3d 794",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "affect the fairness, integrity or public reputation of judicial proceedings. ",
@@ -7519,8 +7422,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 4
+        "unverifiable": 5,
+        "unpaired": 2
       },
       "exists": 0,
       "not_found": 0,
@@ -7541,8 +7444,8 @@
         },
         {
           "quote": "granting a personal interview to Plaintiff despite Plaintiff\u2019s multiple requests,",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "2011 WL 5006463",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -7553,8 +7456,8 @@
         },
         {
           "quote": "to set up a personal interview before the paper went to press",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "2011 WL 5006463",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -7715,9 +7618,9 @@
       "split": "aux_train",
       "filename": "realtek-semiconductor-corp-v-lsi-corp_664349_part34.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -7734,9 +7637,9 @@
         },
         {
           "quote": "threatened loss of prospective customers or goodwill certainly supports a finding of the possibility of irreparable harm",
-          "citation": "944 F.2d 597",
-          "verdict": "inaccurate",
-          "coverage": 0.556
+          "citation": "240 F.3d 832",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "defendants do not dispute in their opposition papers to Realtek\u2019s motion for partial summary judgment that Realtek would",
@@ -7751,10 +7654,10 @@
       "filename": "watson-laboratories-inc-v-fda_605827_part13.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 0,
+        "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 1,
@@ -7763,14 +7666,14 @@
       "quotes": [
         {
           "quote": "Where the \u2018intent of Congress is clear \u2026 the court, as well as the agency, must give effect to the unambiguously express",
-          "citation": "467 U.S. 842",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "467 U.S. 837",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "it appears that Congress was referring only to original, and not all, patents when it drafted the court decision trigger",
-          "citation": "467 U.S. 842",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -7869,9 +7772,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 3,
       "not_found": 0,
@@ -7880,9 +7783,9 @@
       "quotes": [
         {
           "quote": "1991 Policy Guideline",
-          "citation": "551 F. Supp. 2d 66",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the USPC expressly stated that it considered the --- \nSee *Sellmon v. Reilly*, 551 F. Supp. 2d 66 (D.D.C. 2008), *aff\u2019d*",
@@ -7892,9 +7795,9 @@
         },
         {
           "quote": "would be rendered meaningless if they did not apply in cases where the rules had not yet been formally changed, but the ",
-          "citation": "616 F.3d 577",
-          "verdict": "inaccurate",
-          "coverage": 0.579
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "had the practical effect of substantially increasing",
@@ -7904,9 +7807,9 @@
         },
         {
           "quote": "risk of lengthier incarceration.",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "551 F. Supp. 2d 66",
+          "verdict": "accurate",
+          "coverage": 1.0
         }
       ]
     },
@@ -7917,8 +7820,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -7927,8 +7830,8 @@
       "quotes": [
         {
           "quote": "sales would [have] been lost regardless of the infringing conduct,",
-          "citation": "2012 WL 1662048",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -7955,9 +7858,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 1,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 3,
       "not_found": 0,
@@ -7966,13 +7869,13 @@
       "quotes": [
         {
           "quote": "is very narrow in its scope: it applies only to mortgage brokers and the fees they charge borrowers.\n",
-          "citation": "174 F. Supp. 2d 400",
-          "verdict": "inaccurate",
-          "coverage": 0.429
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[T]here can be no negligence where there is no duty that is due; for negligence is the breach of some duty that one pers",
-          "citation": "639 A.2d 173",
+          "citation": "54 A. 669",
           "verdict": "unverifiable",
           "coverage": null
         }
@@ -8065,10 +7968,10 @@
       "filename": "best-medical-international-v-eckert-ziegler-nuclitec-gmbh_580065_part30.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 3,
       "not_found": 0,
@@ -8077,9 +7980,9 @@
       "quotes": [
         {
           "quote": "performance of a duty subject to a condition cannot become due unless the condition occurs or its non-occurrence is excu",
-          "citation": "103 B.R. 736",
-          "verdict": "near_miss",
-          "coverage": 0.9
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "to act or work with another or others, to act together or in compliance, to associate with another or others for mutual ",
@@ -8105,11 +8008,11 @@
       "split": "aux_train",
       "filename": "michelle-nemphos-v-nestle-waters-north-america_592033_part16.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 1,
@@ -8124,15 +8027,15 @@
         },
         {
           "quote": "no State or political subdivision of a State may directly or indirectly establish * * * any requirement for a food which",
-          "citation": "552 U.S. 312",
-          "verdict": "inaccurate",
-          "coverage": 0.789
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "in a manner \u2018substantially informed\u2019 ",
-          "citation": "552 U.S. 312",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -8178,8 +8081,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 6,
-        "unpaired": 1
+        "unverifiable": 5,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -8188,19 +8091,19 @@
       "quotes": [
         {
           "quote": "demonstrate that the element of antitrust impact is capable of proof at trial through evidence that is common to the cla",
-          "citation": "568 U.S. __",
+          "citation": "2012 U.S. Dist. LEXIS 174681",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "critically important",
-          "citation": "568 U.S. __",
+          "citation": "2012 U.S. Dist. LEXIS 174681",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "[O]pinion testimony should not be uncritically accepted as establishing a Rule 23 requirement merely because the court h",
-          "citation": "2012 U.S. Dist. LEXIS 174681",
+          "citation": "133 S. Ct. 1184",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -8212,14 +8115,14 @@
         },
         {
           "quote": "just and reasonable inference or speculative.",
-          "citation": "568 U.S. __",
+          "citation": "2012 U.S. Dist. LEXIS 174681",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "particularly difficult",
-          "citation": "568 U.S. __",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -8236,9 +8139,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -8259,9 +8162,9 @@
         },
         {
           "quote": "[i]f there are any proceeds, they are to be forfeited. ",
-          "citation": "841 F.3d 55",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -8272,7 +8175,7 @@
         "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
+        "unverifiable": 1,
         "unpaired": 3
       },
       "exists": 1,
@@ -8306,12 +8209,6 @@
         },
         {
           "quote": "amended Assembly Bill No. 1660 to change one of the remedies from civil \"damages\" of not less than $100 to a civil \"pena",
-          "citation": "70 A.3d 552",
-          "verdict": "unverifiable",
-          "coverage": null
-        },
-        {
-          "quote": " of not less than $100 to a civil ",
           "citation": "70 A.3d 552",
           "verdict": "unverifiable",
           "coverage": null
@@ -8365,9 +8262,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 0,
@@ -8376,9 +8273,9 @@
       "quotes": [
         {
           "quote": "Congress has deprived prisoners and other indigents of a significant procedural right that noninstitutionalized litigant",
-          "citation": "517 U.S. 620",
-          "verdict": "inaccurate",
-          "coverage": 0.625
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -8486,8 +8383,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 6,
-        "unpaired": 3
+        "unverifiable": 1,
+        "unpaired": 8
       },
       "exists": 0,
       "not_found": 0,
@@ -8496,14 +8393,14 @@
       "quotes": [
         {
           "quote": "general statements about . . . past activities are not specific enough",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "taken, and will continue to take, an active role in disseminating information of current interest to the public. ",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -8514,20 +8411,20 @@
         },
         {
           "quote": "pointless specificity.",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "no indication . . . that [this Court] intended in all circumstances to require a detailed game plan for the publication ",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "reject[ed] the [Department of Justice\u2019s] contention that Carney was required to prove that his articles and book would b",
-          "citation": "2007 U.S. Dist. LEXIS 56172",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -8557,8 +8454,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 1
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -8573,8 +8470,8 @@
         },
         {
           "quote": "\u2018insurmountable barrier to filing suit\u2019",
-          "citation": "107 F.3d 227",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -8602,8 +8499,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 1,
-        "unverifiable": 4,
-        "unpaired": 0
+        "unverifiable": 3,
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 0,
@@ -8624,7 +8521,7 @@
         },
         {
           "quote": "substantial relationship",
-          "citation": "2007 WL 1466638",
+          "citation": "2002 WL 32785219",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -8636,8 +8533,8 @@
         },
         {
           "quote": "evidence that Rutherford was involved in efforts to license the Petrel during her representation of Schlumberger. ",
-          "citation": "2002 WL 32785219",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -8648,9 +8545,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -8659,9 +8556,9 @@
       "quotes": [
         {
           "quote": "great difficulty in getting the jurors to agree on what [Question 1] is asking",
-          "citation": "926 F.2d 456",
-          "verdict": "inaccurate",
-          "coverage": 0.286
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[o]ur conclusion is buttressed by the jury\u2019s conduct during its deliberations, evidencing some confusion",
@@ -8737,8 +8634,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 0,
-        "unpaired": 7
+        "unverifiable": 2,
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 0,
@@ -8747,8 +8644,8 @@
       "quotes": [
         {
           "quote": "impinges on expectations of privacy. ",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "132 S. Ct. 945",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -8771,8 +8668,8 @@
         },
         {
           "quote": "reconstruct someone\u2019s specific movements down to the minute, not only around town but also within a particular building.",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "132 S. Ct. 945",
+          "verdict": "unverifiable",
           "coverage": null
         },
         {
@@ -8836,9 +8733,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 7
+        "unpaired": 8
       },
       "exists": 2,
       "not_found": 0,
@@ -8889,9 +8786,9 @@
         },
         {
           "quote": "the use of a specific machine or transformation of an article must impose meaningful limits on the claim\u2019s scope.... ",
-          "citation": "558 F.3d 1359",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "includes every mechanical device or combination of mechanical powers and devices to perform some function and produce a ",
@@ -8954,9 +8851,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 2,
-        "unverifiable": 1,
-        "unpaired": 1
+        "inaccurate": 1,
+        "unverifiable": 0,
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -8971,8 +8868,8 @@
         },
         {
           "quote": "based on considerations of the economic best interests of the public as a whole . . . .",
-          "citation": "2012 WL 1067657",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -8983,9 +8880,9 @@
         },
         {
           "quote": "\u2018books closing\u2019 device. ",
-          "citation": "421 F.3d 1199",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -9036,9 +8933,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 0,
@@ -9053,9 +8950,9 @@
         },
         {
           "quote": "the burden of demonstrating [the evidence\u2019s] applicability. ",
-          "citation": "485 U.S. 681",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -9119,8 +9016,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 3
+        "unverifiable": 0,
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 1,
@@ -9132,24 +9029,6 @@
           "citation": null,
           "verdict": "unpaired",
           "coverage": null
-        },
-        {
-          "quote": " and the like have been omitted and the words ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " substituted in harmony with Rules 2 and 61(c) of the Federal Rules of Civil Procedure. Analogous phrases such as ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " have been clarified by the substitution of the phrase ",
-          "citation": "43 S. Ct. 107",
-          "verdict": "unverifiable",
-          "coverage": null
         }
       ]
     },
@@ -9159,9 +9038,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 1
       },
       "exists": 5,
       "not_found": 0,
@@ -9169,22 +9048,10 @@
       "n_citations": 5,
       "quotes": [
         {
-          "quote": " the Donnerts, the jury could have found that \u2013 surely \u2013 Feld would accurately state the reason for termination. J.A. 56",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
           "quote": "asserting an interpretation contrary to one\u2019s own understanding",
           "citation": null,
           "verdict": "unpaired",
           "coverage": null
-        },
-        {
-          "quote": " and asking the Donnerts to affirm it, the jury could conclude that the defendant did, indeed, make that very representa",
-          "citation": "727 F.2d 1145",
-          "verdict": "inaccurate",
-          "coverage": 0.583
         }
       ]
     },
@@ -9217,9 +9084,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -9240,9 +9107,9 @@
         },
         {
           "quote": "engaged in the business of operating taxi cabs.\n",
-          "citation": "771 F.3d 638",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -9383,10 +9250,10 @@
       "split": "aux_train",
       "filename": "azurity-pharmaceuticals-inc-v-edge-pharma-llc_370602730_part12.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
+        "unverifiable": 2,
         "unpaired": 2
       },
       "exists": 1,
@@ -9396,15 +9263,15 @@
       "quotes": [
         {
           "quote": "[defendant] is a larger company than it actually is",
-          "citation": "2021 WL 3493456",
+          "citation": "2012 WL 503629",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "may be true as a literal matter, but still create an over-all misleading impression through failure to disclose material",
-          "citation": "442 Mass. 381",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": "813 N.E.2d 476",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "commercially available options are not ideal for use in the hospital setting. ",
@@ -9542,9 +9409,9 @@
         },
         {
           "quote": "present[ed] barriers to entry",
-          "citation": "775 F.2d 1141",
+          "citation": "128 F.3d 910",
           "verdict": "inaccurate",
-          "coverage": 0.0
+          "coverage": 0.667
         },
         {
           "quote": "increased costs of doing business imposed on contractors by [applicable] Rule",
@@ -9619,8 +9486,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 1
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -9629,8 +9496,8 @@
       "quotes": [
         {
           "quote": "appropriate comparison here is between the parole regime in effect in 1977 and the one applied by the Commission. ",
-          "citation": "2009 WL 839345",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -9865,9 +9732,9 @@
       "quote_verdicts": {
         "accurate": 3,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 2,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -9912,9 +9779,9 @@
         },
         {
           "quote": "renege[d] on their agreement and omit[ed] the attorney fee award from the gross recovery. ",
-          "citation": "234 F.3d 863",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "facts forming the basis",
@@ -10004,11 +9871,11 @@
       "split": "aux_train",
       "filename": "tap-pilam-coahuiltecan-v-mcdonald_289564506_part7.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -10029,9 +9896,9 @@
         },
         {
           "quote": "second-class citizens",
-          "citation": "7 F. Supp. 2d 1152",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "pervasive discrimination",
@@ -10063,9 +9930,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -10086,9 +9953,9 @@
         },
         {
           "quote": "undercut[] [the] argument that his brain damage somehow explains",
-          "citation": "542 U.S. 274",
-          "verdict": "inaccurate",
-          "coverage": 0.167
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -10240,8 +10107,8 @@
         "accurate": 1,
         "near_miss": 1,
         "inaccurate": 1,
-        "unverifiable": 3,
-        "unpaired": 0
+        "unverifiable": 2,
+        "unpaired": 1
       },
       "exists": 5,
       "not_found": 1,
@@ -10262,8 +10129,8 @@
         },
         {
           "quote": "When the relevance of evidence depends on whether a fact exists, proof must be introduced sufficient to support a findin",
-          "citation": "141 F. App'x 705",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -10354,11 +10221,11 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623033_part14.pdf",
       "quote_verdicts": {
-        "accurate": 4,
+        "accurate": 3,
         "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 7,
       "not_found": 0,
@@ -10367,9 +10234,9 @@
       "quotes": [
         {
           "quote": "the actual submission of a false claim. ",
-          "citation": "382 F.3d 432",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the submission of a false claim is the sine qua non of a False Claims Act violation. ",
@@ -10401,11 +10268,11 @@
       "split": "aux_train",
       "filename": "united-states-v-carpenter_330309753_part22.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 4,
       "not_found": 1,
@@ -10414,9 +10281,9 @@
       "quotes": [
         {
           "quote": "[f]orfeiture pursuant to 853(a)(1) is limited to property the defendant himself actually acquired as the result of the c",
-          "citation": "137 S. Ct. 1626",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "any property constituting, or derived from, any proceeds the person obtained, directly or indirectly, as the result of [",
@@ -10426,8 +10293,8 @@
         },
         {
           "quote": "basis to impute the company's receipts to McLaughlin based on the theory that he benefitted indirectly from the company'",
-          "citation": "565 F. App'x 470",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -10438,9 +10305,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 3
       },
       "exists": 3,
       "not_found": 0,
@@ -10461,9 +10328,9 @@
         },
         {
           "quote": "that there is no \u2018 inherency\u2019 because there is no \u2018inevitability,\u2019 that is, the previously quoted . . . limitation of [t",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "169 F.3d 743",
+          "verdict": "inaccurate",
+          "coverage": 0.714
         },
         {
           "quote": "[t]he evidence of record does not establish that the dose reduction \u2018from 3 to 2 times a day without loss of efficacy\u2019 l",
@@ -10499,11 +10366,11 @@
       "split": "aux_train",
       "filename": "dennly-becker-v-wells-fargo-bank-na_671350_part15.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -10512,9 +10379,9 @@
       "quotes": [
         {
           "quote": "An offer of payment or other performance, duly made, though the title to the thing offered be not transferred to the cre",
-          "citation": "212 Cal. App. 3d 411",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "If the performance of an obligation be prevented by the creditor, the debtor is entitled to all the benefits which he wo",
@@ -10531,8 +10398,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 4
+        "unverifiable": 0,
+        "unpaired": 5
       },
       "exists": 0,
       "not_found": 0,
@@ -10547,8 +10414,8 @@
         },
         {
           "quote": "[t]he author of an original work of authorship consisting of a sound recording initially fixed prior to February 15, 197",
-          "citation": "2014 WL 4725382",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -10575,8 +10442,8 @@
       "split": "aux_train",
       "filename": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part9.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 3,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -10588,9 +10455,9 @@
       "quotes": [
         {
           "quote": "contain a written description of the invention, and of the manner and process of making and using it,",
-          "citation": "525 U.S. 55",
-          "verdict": "near_miss",
-          "coverage": 0.875
+          "citation": "598 F.3d 1336",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "to recognize that the inventor invented what is claimed",
@@ -10672,8 +10539,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 3
+        "unverifiable": 2,
+        "unpaired": 4
       },
       "exists": 0,
       "not_found": 1,
@@ -10694,13 +10561,13 @@
         },
         {
           "quote": "generally applicable",
-          "citation": "559 F. App'x 413",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "invalid or unenforceable as an illusory contract",
-          "citation": "559 F. App'x 413",
+          "citation": "2017 WL 1326241",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -10746,10 +10613,10 @@
       "filename": "james-badame-v-jp-morgan-chase-bank-na_670168_part19.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 1,
-        "inaccurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -10758,9 +10625,9 @@
       "quotes": [
         {
           "quote": "Whether or not moral blame attaches to this Defendant\u2019s specific conduct[,] this factor is insufficient to tip the balan",
-          "citation": "213 Cal. App. 4th 872",
-          "verdict": "near_miss",
-          "coverage": 0.909
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Nymark and the cases cited therein do not purport to state a legal principle that a lender can never be held liable for ",
@@ -10770,9 +10637,9 @@
         },
         {
           "quote": "in the usual course and scope of its loan processing procedures,",
-          "citation": "213 Cal. App. 4th 872",
-          "verdict": "inaccurate",
-          "coverage": 0.6
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -10799,8 +10666,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -10809,8 +10676,8 @@
       "quotes": [
         {
           "quote": "simply never explains to the Court what specific piece of confidential information could lead to what specific harm. ",
-          "citation": "2014 WL 6388402",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -10820,10 +10687,10 @@
       "filename": "mary-ann-sivolella-v-axa-equitable-life-insurance-c_21501692_part14.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 5
       },
       "exists": 4,
       "not_found": 0,
@@ -10862,9 +10729,9 @@
         },
         {
           "quote": "the court must take a more rigorous look",
-          "citation": "545 F.2d 807",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -10872,9 +10739,9 @@
       "split": "aux_train",
       "filename": "john-king-v-united-states-government_9316656_part12.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 2,
         "unpaired": 0
       },
@@ -10891,13 +10758,13 @@
         },
         {
           "quote": "[a]bsent a valid complaint which affords a relator the possibility of ultimately recovering damages, there is no compell",
-          "citation": "495 F.3d 103",
-          "verdict": "inaccurate",
-          "coverage": 0.684
+          "citation": "501 F.3d 493",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "under the FCA a relator may only share in the proceeds of an alternate remedy if he or she has a valid complaint",
-          "citation": "360 F. App'x 407",
+          "citation": "337 F. App'x 379",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -10915,9 +10782,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 6
       },
       "exists": 1,
       "not_found": 0,
@@ -10962,9 +10829,9 @@
         },
         {
           "quote": "the Freemans do not make a due process argument based on lack of notice of the claims process.",
-          "citation": "339 U.S. 306",
-          "verdict": "inaccurate",
-          "coverage": 0.571
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -11025,11 +10892,11 @@
       "split": "aux_train",
       "filename": "prime-time-international-comp-v-agri_1287237_part15.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -11050,9 +10917,9 @@
         },
         {
           "quote": "range of interpretive discretion",
-          "citation": "636 F.3d 650",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "that is the end of the matter. ",
@@ -11097,9 +10964,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -11114,9 +10981,9 @@
         },
         {
           "quote": "in light of the jury\u2019s verdict and the Court\u2019s finding that Ericsson complied with its FRAND assurance to HTC,",
-          "citation": "771 F.3d 883",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -11124,11 +10991,11 @@
       "split": "aux_train",
       "filename": "united-states-v-hudgens_435907684_part12.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 0,
+        "accurate": 3,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 3
       },
       "exists": 7,
       "not_found": 0,
@@ -11149,15 +11016,15 @@
         },
         {
           "quote": "could not say whether [the deceased] would have lived had he not taken the heroin, but observed that [his] death would h",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "571 U.S. 204",
+          "verdict": "near_miss",
+          "coverage": 0.909
         },
         {
           "quote": "that the heroin distributed by the Defendant was a contributing cause of ... death. ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "571 U.S. 204",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "whether the use of heroin was the actual cause of [the decedent\u2019s] death in the sense that 841(b)(1)(C) requires.",
@@ -11202,7 +11069,7 @@
         },
         {
           "quote": "ordinarily are not jurisdictional",
-          "citation": "131 S. Ct. 1197",
+          "citation": "133 S. Ct. 817",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -11225,10 +11092,10 @@
       "filename": "shelly-stevens-v-dawn-holler_352045860_part26.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 4,
+        "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 0,
-        "unpaired": 2
+        "unverifiable": 3,
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 0,
@@ -11237,27 +11104,27 @@
       "quotes": [
         {
           "quote": "Claims under Article 24 of the Maryland Declaration of Rights are assessed under the same standard as a due process clai",
-          "citation": "419 Md. 450",
-          "verdict": "near_miss",
-          "coverage": 0.917
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "are essentially Maryland\u2019s version of *Monell* claims. ",
-          "citation": "419 Md. 450",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "19 A.3d 859",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "Plaintiffs cannot maintain a claim under the Maryland Declaration of Rights",
-          "citation": "419 Md. 450",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "19 A.3d 859",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "to the extent Plaintiffs are simply reasserting their *Monell* claims against [the Individual] Medical Defendants as *Lo",
-          "citation": "419 Md. 450",
-          "verdict": "near_miss",
-          "coverage": 0.929
+          "citation": "19 A.3d 859",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "district court[] may decline to exercise supplemental jurisdiction over a claim . . . if . . . the district court has di",
@@ -11279,9 +11146,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 0,
@@ -11308,9 +11175,9 @@
         },
         {
           "quote": "Aquaculture products are agricultural products . . . .",
-          "citation": "299 F.3d 1007",
-          "verdict": "inaccurate",
-          "coverage": 0.25
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "\u2018rational connection\u2019 between the choices made. ",
@@ -11327,8 +11194,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 0
+        "unverifiable": 2,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -11337,8 +11204,8 @@
       "quotes": [
         {
           "quote": "by the attorneys representing Rohi",
-          "citation": "2010 WL 3791264",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -11360,10 +11227,10 @@
       "filename": "shawn-massey-v-j-ojaniit_588790_part31.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 2,
-        "inaccurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 3,
       "not_found": 0,
@@ -11372,21 +11239,15 @@
       "quotes": [
         {
           "quote": "initiated the proceeding",
-          "citation": "194 N.C. App. 1",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "misled or pressured the prosecution.",
-          "citation": "194 N.C. App. 1",
-          "verdict": "inaccurate",
-          "coverage": 0.333
-        },
-        {
-          "quote": " her attacker was provided to the prosecutor (who in turn produced it in discovery) and was the subject of cross-examina",
-          "citation": "703 F.3d 636",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -11418,10 +11279,10 @@
       "filename": "dynamic-3d-geosolutions-llc-v-schlumberger-limited_1439557_part35.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -11436,9 +11297,9 @@
         },
         {
           "quote": "availability of a legal forum for the adjudication of his rights",
-          "citation": "709 F.2d 1043",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a representative owes duties to the class that require him to exert the utmost diligence on behalf of all of its members",
@@ -11499,11 +11360,11 @@
       "split": "aux_train",
       "filename": "kevin-mccarthy-v-patricia-fuller_238053664_part9.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 1,
         "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 3
       },
       "exists": 3,
       "not_found": 0,
@@ -11530,15 +11391,15 @@
         },
         {
           "quote": "the Plaintiffs will have to demonstrate [to a jury] that a legally recognizable transfer of those rights occurred.\n",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "556 F.3d 361",
+          "verdict": "inaccurate",
+          "coverage": 0.625
         },
         {
           "quote": "The Department of State considers Diplomatic Note No. 46341 to be an official communication of the Government of Mexico.",
-          "citation": "201 F.3d 451",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": "564 F.3d 1155",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "A diplomatic note is an official position of the type which is unlikely to be taken for litigation purposes, and is enti",
@@ -11548,7 +11409,7 @@
         },
         {
           "quote": "the United States of America and its courts accord full faith and credit to the Declaration,",
-          "citation": "201 F.3d 451",
+          "citation": "556 F.3d 361",
           "verdict": "near_miss",
           "coverage": 0.875
         }
@@ -11558,11 +11419,11 @@
       "split": "aux_train",
       "filename": "j-jordan-v-robert-flexton_22737537_part13.pdf",
       "quote_verdicts": {
-        "accurate": 3,
+        "accurate": 5,
         "near_miss": 3,
-        "inaccurate": 3,
+        "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 0
       },
       "exists": 8,
       "not_found": 0,
@@ -11595,15 +11456,15 @@
         },
         {
           "quote": "does not need detailed factual allegations,",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "550 U.S. 544",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "allegations must be enough to raise a right to relief above the speculative level. ",
-          "citation": "566 F.3d 436",
-          "verdict": "inaccurate",
-          "coverage": 0.125
+          "citation": "550 U.S. 544",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "conclusory allegations or legal conclusions masquerading as factual conclusions will not suffice to prevent a motion to ",
@@ -11652,10 +11513,10 @@
       "filename": "united-states-v-christopher-douglas_445174661_part16.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 2,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -11670,9 +11531,9 @@
         },
         {
           "quote": "Alvarado\u2019s mere belief that the mitigating factors presented for the court\u2019s consideration should have been balanced dif",
-          "citation": "691 F.3d 592",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the toughest decision in this matter. ",
@@ -11717,9 +11578,9 @@
         },
         {
           "quote": "[T]itle V does not impose substantive new requirements.\n",
-          "citation": "551 F.3d 1019",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[t]he Administrator shall, and a State may, take such measures, including . . . seeking injunctive relief, as necessary ",
@@ -11747,9 +11608,9 @@
         },
         {
           "quote": "[w]henever such person has violated . . . any other requirement or prohibition of this subchapter",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "551 F.3d 1019",
+          "verdict": "inaccurate",
+          "coverage": 0.667
         }
       ]
     },
@@ -11757,11 +11618,11 @@
       "split": "aux_train",
       "filename": "derek-gubala-v-time-warner-cable-inc_9336562_part8.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 6
+        "unpaired": 7
       },
       "exists": 1,
       "not_found": 0,
@@ -11800,9 +11661,9 @@
         },
         {
           "quote": "list of those who wish to watch the patently offensive channel,",
-          "citation": "518 U.S. 727",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a risk of injury to [one\u2019s] reputation,",
@@ -11818,9 +11679,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 4,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 0,
@@ -11841,9 +11702,9 @@
         },
         {
           "quote": "board of legal advisors. ",
-          "citation": "709 F.3d 791",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "bears a direct and substantial nexus to the interests of absent class members",
@@ -11853,15 +11714,15 @@
         },
         {
           "quote": "offspring of compromise,",
-          "citation": "709 F.3d 791",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[t]his settlement perverts the class action into a device for depriving victims of remedies for wrongs, while enriching ",
-          "citation": "709 F.3d 791",
-          "verdict": "inaccurate",
-          "coverage": 0.438
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -11940,7 +11801,7 @@
         },
         {
           "quote": "enough facts to state a claim to relief that is plausible on its face. ",
-          "citation": "550 U.S. 544",
+          "citation": "127 S. Ct. 1955",
           "verdict": "accurate",
           "coverage": 1.0
         },
@@ -12133,9 +11994,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 7
+        "unpaired": 9
       },
       "exists": 3,
       "not_found": 0,
@@ -12168,9 +12029,9 @@
         },
         {
           "quote": "although the interest calculations were admittedly only slightly overstated, the letters seeking these overstated intere",
-          "citation": "236 F.3d 446",
-          "verdict": "inaccurate",
-          "coverage": 0.478
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "in violation of Minnesota law,",
@@ -12192,9 +12053,9 @@
         },
         {
           "quote": "A debt collector may not be held liable in any action brought under this subchapter if the debt collector shows by a pre",
-          "citation": "728 F.2d 1037",
-          "verdict": "inaccurate",
-          "coverage": 0.429
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "\u2018mistake about the law is not protected by\u2019 the bona fide error defense. ",
@@ -12211,8 +12072,8 @@
         "accurate": 1,
         "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 1
+        "unverifiable": 1,
+        "unpaired": 2
       },
       "exists": 5,
       "not_found": 0,
@@ -12221,8 +12082,8 @@
       "quotes": [
         {
           "quote": "[t]he rationale of Central Bank with respect to aiding and abetting applies equally to civil conspiracy. ",
-          "citation": "2013 U.S. Dist. LEXIS 147193",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -12445,9 +12306,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 2,
-        "unpaired": 2
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 0,
@@ -12468,15 +12329,15 @@
         },
         {
           "quote": "When performance of a duty under a contract is due any non-performance is a breach. ",
-          "citation": "104 F.3d 1321",
-          "verdict": "inaccurate",
-          "coverage": 0.6
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a breach of contract that causes no injury is still a wrong to the other contracting party",
-          "citation": "104 F.3d 1321",
-          "verdict": "inaccurate",
-          "coverage": 0.556
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a breach of contract is a failure, without legal excuse, to perform any promise that forms the whole or part of a contra",
@@ -12504,9 +12365,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -12521,9 +12382,9 @@
         },
         {
           "quote": "designed to burn subcategories",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "734 F.3d 1115",
+          "verdict": "inaccurate",
+          "coverage": 0.5
         },
         {
           "quote": "unit designed to burn solid fuel",
@@ -12543,11 +12404,11 @@
       "split": "aux_train",
       "filename": "mark-abbey-v-united-states_1418349_part23.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 2,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 0,
@@ -12556,8 +12417,8 @@
       "quotes": [
         {
           "quote": "says in a statute what it means and means in a statute what it says. ",
-          "citation": "551 F.3d 1372",
-          "verdict": "near_miss",
+          "citation": "545 U.S. 353",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -12565,18 +12426,6 @@
           "citation": "551 F.3d 1372",
           "verdict": "accurate",
           "coverage": 1.0
-        },
-        {
-          "quote": " to the new PMS, the FAA fixes on the statement in 40122(g)(1) that the PMS ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " of virtually unlimited freedom for the FAA to craft a personnel system subject to ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
         },
         {
           "quote": "greater flexibility.",
@@ -12591,10 +12440,10 @@
       "filename": "prime-time-international-comp-v-agri_1287237_part30.pdf",
       "quote_verdicts": {
         "accurate": 2,
-        "near_miss": 1,
-        "inaccurate": 3,
-        "unverifiable": 0,
-        "unpaired": 2
+        "near_miss": 0,
+        "inaccurate": 1,
+        "unverifiable": 2,
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 1,
@@ -12609,9 +12458,9 @@
         },
         {
           "quote": "share of gross domestic volume",
-          "citation": "510 U.S. 135",
-          "verdict": "inaccurate",
-          "coverage": 0.25
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "A term appearing in several places in a statutory text is generally read the same way each time it appears. ",
@@ -12621,7 +12470,7 @@
         },
         {
           "quote": "share of gross domestic volume. ",
-          "citation": "647 F.3d 1144",
+          "citation": "510 U.S. 135",
           "verdict": "inaccurate",
           "coverage": 0.25
         },
@@ -12633,15 +12482,15 @@
         },
         {
           "quote": "internally inconsistent and inadequately explained",
-          "citation": "647 F.3d 1144",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": "817 F.3d 844",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "arbitrary and capricious and not supported by substantial evidence",
-          "citation": "647 F.3d 1144",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "817 F.3d 844",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "gross domestic volume",
@@ -12738,8 +12587,8 @@
         "accurate": 0,
         "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -12748,8 +12597,8 @@
       "quotes": [
         {
           "quote": "[i]t would be anomalous [for the local rules] to provide an opportunity for interested parties to object a proposed seal",
-          "citation": "1995 U.S. App. LEXIS 4134",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -12760,8 +12609,8 @@
         },
         {
           "quote": "many of the arguments that the Consumer Groups ma[d]e in their Objection to [the] Motion to Seal duplicate[d] arguments",
-          "citation": "1995 U.S. App. LEXIS 4134",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -12788,9 +12637,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 0,
@@ -12811,9 +12660,9 @@
         },
         {
           "quote": "retroactive rulemaking,",
-          "citation": "332 U.S. 194",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -12821,11 +12670,11 @@
       "split": "aux_train",
       "filename": "state-of-texas-v-eeoc_404769197_part13.pdf",
       "quote_verdicts": {
-        "accurate": 0,
-        "near_miss": 2,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 3,
       "not_found": 0,
@@ -12834,8 +12683,8 @@
       "quotes": [
         {
           "quote": "on a motion to dismiss, courts \u2018are not bound to accept as true a legal conclusion couched as a factual allegation\u2019",
-          "citation": "478 U.S. 265",
-          "verdict": "near_miss",
+          "citation": "550 U.S. 544",
+          "verdict": "accurate",
           "coverage": 1.0
         },
         {
@@ -12852,9 +12701,9 @@
         },
         {
           "quote": "ordinarily little question that the action * * * has caused him injury,",
-          "citation": "504 U.S. 555",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -12879,10 +12728,10 @@
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623041_part14.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 2,
+        "near_miss": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 2,
       "not_found": 0,
@@ -12891,9 +12740,9 @@
       "quotes": [
         {
           "quote": "an FCA complaint about the exercise of [a physician\u2019s] judgment [concerning hospice eligibility] must be predicated on t",
-          "citation": "778 F. Supp. 2d 709",
-          "verdict": "near_miss",
-          "coverage": 0.944
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Expressions of opinion are not actionable as fraud. ",
@@ -12903,9 +12752,9 @@
         },
         {
           "quote": "is [a] highly fact-intensive inquiry involving medical testimony after a thorough review of the detailed medical chart o",
-          "citation": "778 F. Supp. 2d 709",
-          "verdict": "inaccurate",
-          "coverage": 0.571
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "is not whether statistical sampling and extrapolation, in and of itself, is appropriate, but whether the statistical sam",
@@ -12983,11 +12832,11 @@
       "split": "aux_train",
       "filename": "david-harvey-v-leon-mohammed_1289365_part8.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -12996,15 +12845,15 @@
       "quotes": [
         {
           "quote": "to be kept free from harm. ",
-          "citation": "459 F. Supp. 483",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[a] program of medical, dental and health related services for class members which provides accessibility, quality and c",
-          "citation": "459 F. Supp. 483",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "consented to the entry of [the 1978 Consent Order] so as to assure protection of the rights of plaintiffs. ",
@@ -13115,9 +12964,9 @@
       "split": "aux_train",
       "filename": "durant-tisdale-v-city-of-philadelphia_12277015_part4.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 0,
-        "inaccurate": 3,
+        "inaccurate": 2,
         "unverifiable": 2,
         "unpaired": 0
       },
@@ -13152,9 +13001,9 @@
         },
         {
           "quote": "No reasonable officer could claim to be unaware of the basic rule, well established by our cases, that, absent consent o",
-          "citation": "750 F.3d 273",
-          "verdict": "inaccurate",
-          "coverage": 0.733
+          "citation": "540 U.S. 551",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "they certainly could not fabricate inculpatory evidence",
@@ -13171,8 +13020,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 0
+        "unverifiable": 0,
+        "unpaired": 1
       },
       "exists": 0,
       "not_found": 0,
@@ -13181,8 +13030,8 @@
       "quotes": [
         {
           "quote": "Stranger-originated life insurance",
-          "citation": "Add. 1",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -13193,9 +13042,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -13204,9 +13053,9 @@
       "quotes": [
         {
           "quote": "the variability of emissions is not solely statistical.\n",
-          "citation": "274 F.3d 536",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "novel interpretation that \u2018average\u2019 means the average of a future 3-run compliance test. ",
@@ -13368,9 +13217,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 5
       },
       "exists": 2,
       "not_found": 0,
@@ -13397,9 +13246,9 @@
         },
         {
           "quote": "draw[n] the reasonable inference that",
-          "citation": "556 U.S. 662",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "In determining whether plaintiffs can prove facts in support of their claim that would entitle them to relief, we may co",
@@ -13409,9 +13258,9 @@
         },
         {
           "quote": "static information model. ",
-          "citation": "228 F.3d 1043",
-          "verdict": "inaccurate",
-          "coverage": 0.333
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -13422,8 +13271,8 @@
         "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 5,
-        "unpaired": 0
+        "unverifiable": 3,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 1,
@@ -13444,25 +13293,25 @@
         },
         {
           "quote": "clinical medical judgments are not automatically excluded from liability",
-          "citation": "2010 WL 5067614",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "FCA liability must be based on an objectively verifiable fact. ",
-          "citation": "2010 WL 5067614",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "clinical diagnoses and characterizations of medical care",
-          "citation": "2010 WL 5067614",
+          "citation": "139 F. App'x 980",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "a physician must use \u2026 clinical judgment to determine hospice eligibility, \u2026 an FCA complaint about the exercise of that",
-          "citation": "2010 WL 5067614",
+          "citation": "139 F. App'x 980",
           "verdict": "unverifiable",
           "coverage": null
         }
@@ -13473,10 +13322,10 @@
       "filename": "michael-dreher-v-experian-information-solutions_21062169_part3.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -13491,9 +13340,9 @@
         },
         {
           "quote": "denial of [information to which the plaintiff was legally entitled] creates a \u2018real\u2019 harm with an adverse effect. ",
-          "citation": "455 U.S. 363",
-          "verdict": "near_miss",
-          "coverage": 0.889
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -13502,8 +13351,8 @@
       "filename": "ivan-iontchev-v-aaa-cab-service-inc_671070_part11.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 0,
-        "inaccurate": 1,
+        "near_miss": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -13514,15 +13363,15 @@
       "quotes": [
         {
           "quote": "[W]hether a person is an independent contractor or employee shall be determined according to the standards of the [FLSA]",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "603 F.2d 748",
+          "verdict": "near_miss",
+          "coverage": 0.9
         },
         {
           "quote": "[t]he FLSA requires the Court focus on the *actual working conditions* when deciding how the drivers should be classifie",
-          "citation": "603 F.2d 748",
-          "verdict": "inaccurate",
-          "coverage": 0.714
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -13543,7 +13392,7 @@
       "quotes": [
         {
           "quote": "for the purpose of . . . maintaining or increasing position in a[ ] [racketeering] enterprise,",
-          "citation": "983 F.2d 369",
+          "citation": "116 F.3d 1066",
           "verdict": "near_miss",
           "coverage": 1.0
         },
@@ -13724,25 +13573,13 @@
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
       "unresolvable": 0,
       "n_citations": 1,
       "quotes": [
-        {
-          "quote": " the PMS document that the FAA created, and that this ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
-        {
-          "quote": " authorized the FAA to deviate from the overtime requirements of the FLSA. This argument requires the Court to believe 1",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
         {
           "quote": "notwithstanding the provisions of title 5 or other Federal personnel laws",
           "citation": null,
@@ -13797,10 +13634,10 @@
       "filename": "shelly-stevens-v-dawn-holler_352045860_part13.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 0,
-        "inaccurate": 1,
-        "unverifiable": 4,
-        "unpaired": 0
+        "near_miss": 1,
+        "inaccurate": 0,
+        "unverifiable": 3,
+        "unpaired": 1
       },
       "exists": 11,
       "not_found": 4,
@@ -13815,15 +13652,15 @@
         },
         {
           "quote": "person, who under color of any statute, ordinance, regulation, custom, or usage of any State or Territory or the Distric",
-          "citation": "883 F.2d 324",
-          "verdict": "inaccurate",
-          "coverage": 0.2
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "deliberate indifference to serious medical needs of prisoners constitutes the \u2018unnecessary and wanton infliction of pain",
-          "citation": "97 S. Ct. 291",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "429 U.S. 97",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "deliberate indifference to a prisoner\u2019s [or detainee\u2019s] serious illness or injury states a cause of action under s[ectio",
@@ -13920,9 +13757,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -13949,9 +13786,9 @@
         },
         {
           "quote": "runs counter to the plain language of the [FFA] and would render a portion of the Act meaningless. ",
-          "citation": "682 F.3d 331",
-          "verdict": "inaccurate",
-          "coverage": 0.571
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "mortgage broker may not charge a finder\u2019s fee in any transaction in which the mortgage broker \u2026 is the lender \u2026. ",
@@ -14098,11 +13935,11 @@
       "split": "aux_train",
       "filename": "intercollegiate-broadcasting-v-crb_440679057_part28.pdf",
       "quote_verdicts": {
-        "accurate": 0,
+        "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 0,
@@ -14111,9 +13948,9 @@
       "quotes": [
         {
           "quote": "requires more than an absence of contrary evidence; it requires substantial evidence to support a decision. ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "574 F.3d 748",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "an assertion that the average operating budget for IBS members is $9,000 does not establish that its members lack the wh",
@@ -14130,8 +13967,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 5,
-        "unpaired": 0
+        "unverifiable": 4,
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 0,
@@ -14158,14 +13995,14 @@
         },
         {
           "quote": "notice of default plainly states that ReconTrust, which recorded the notice of default, acted as an agent for MERS, the ",
-          "citation": "2012 WL 1067550",
+          "citation": "2012 WL 665900",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "mortgagee, trustee, beneficiary, or authorized agent",
-          "citation": "2012 WL 665900",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         }
       ]
@@ -14227,11 +14064,11 @@
       "split": "aux_train",
       "filename": "united-states-v-edwin-moreno-ibarra_1285748_part6.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 4,
-        "inaccurate": 1,
+        "accurate": 0,
+        "near_miss": 3,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 5
       },
       "exists": 7,
       "not_found": 0,
@@ -14240,9 +14077,9 @@
       "quotes": [
         {
           "quote": "States must follow the practice because they believe it is required by international law, not merely because they think ",
-          "citation": "654 F.3d 11",
-          "verdict": "near_miss",
-          "coverage": 0.857
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "Private criminal activity will rarely be considered a violation of international law because private conduct is unlikely",
@@ -14252,15 +14089,15 @@
         },
         {
           "quote": "universal jurisdiction. ",
-          "citation": "700 F.3d 1245",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "define and prescribe punishment for certain offenses recognized by the community of nations as of universal concern . . ",
-          "citation": "700 F.3d 1245",
-          "verdict": "inaccurate",
-          "coverage": 0.8
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "universal jurisdiction",
@@ -14276,13 +14113,13 @@
         },
         {
           "quote": "a defendant who has entered an unconditional guilty plea to violations of the Maritime Drug Law Enforcement Act, 46 U.S.",
-          "citation": "632 F.3d 1203",
+          "citation": "554 F.3d 1329",
           "verdict": "near_miss",
-          "coverage": 0.933
+          "coverage": 1.0
         },
         {
           "quote": "does not waive the right of an accused to challenge the constitutionality of the statute under which he was convicted",
-          "citation": "55 F.3d 557",
+          "citation": "632 F.3d 1203",
           "verdict": "near_miss",
           "coverage": 1.0
         }
@@ -14420,11 +14257,11 @@
       "split": "aux_train",
       "filename": "par-pharmaceutical-inc-v-twi-pharmaceuticals-inc_1442142_part14.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 2,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 4
       },
       "exists": 8,
       "not_found": 0,
@@ -14445,21 +14282,21 @@
         },
         {
           "quote": "rooted in anticipation,",
-          "citation": "666 F.2d 578",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "carefully circumscribed in the context of obviousness. ",
-          "citation": "666 F.2d 578",
-          "verdict": "inaccurate",
-          "coverage": 0.25
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "The mere fact that a certain thing may result from a given set of circumstances is not sufficient",
-          "citation": "666 F.2d 578",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -14469,9 +14306,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 4,
+        "inaccurate": 3,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 1,
       "not_found": 0,
@@ -14492,9 +14329,9 @@
         },
         {
           "quote": "unusual circumstances",
-          "citation": "216 F.3d 1111",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "unusual circumstances",
@@ -14583,9 +14420,9 @@
       "filename": "stephen-mckean-v-nationwide-insurance-co_574140_part27.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
+        "unverifiable": 0,
         "unpaired": 3
       },
       "exists": 5,
@@ -14606,22 +14443,10 @@
           "coverage": null
         },
         {
-          "quote": " and ensure that expert testimony is based on sound methods and valid procedures. As a general rule, ",
-          "citation": "169 P. 602",
-          "verdict": "unverifiable",
-          "coverage": null
-        },
-        {
           "quote": "independent, non-Daubert reasons",
           "citation": null,
           "verdict": "unpaired",
           "coverage": null
-        },
-        {
-          "quote": " then the expert testimony is reliable. {177} To determine whether good grounds are present, the court must examine the ",
-          "citation": "509 U.S. 579",
-          "verdict": "near_miss",
-          "coverage": 0.909
         }
       ]
     },
@@ -14826,31 +14651,31 @@
       "quotes": [
         {
           "quote": "[t]he decision to accept or reject * * * an offer to compromise * * * is in the discretion of the Commissioner",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "Add. 17",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "the Commissioner may reject * * * an offer-in-compromise if acceptance would not be in the best interest of the Governme",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "Add. 18",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "has an egregious history of past noncompliance",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "Add. 19",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "highly unlikely * * * to remain in compliance during the offer period. ",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "Add. 19",
           "verdict": "unverifiable",
           "coverage": null
         },
         {
           "quote": "do[ ] not compel the Commissioner to accept any particular offer,",
-          "citation": "Add. 20",
+          "citation": "Add. 19",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -14862,7 +14687,7 @@
         },
         {
           "quote": "fully developed record[ ]",
-          "citation": "T.C. Memo. 2008-251",
+          "citation": "2008 WL 4820794",
           "verdict": "unverifiable",
           "coverage": null
         }
@@ -14874,9 +14699,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -14891,9 +14716,9 @@
         },
         {
           "quote": "circumstances of [each] respective case.\n",
-          "citation": "671 F.2d 1025",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "factual determination[s]",
@@ -14958,11 +14783,11 @@
       "split": "aux_train",
       "filename": "shelly-stevens-v-dawn-holler_352045860_part15.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 3,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 1,
-        "unpaired": 2
+        "unpaired": 1
       },
       "exists": 3,
       "not_found": 1,
@@ -14989,9 +14814,9 @@
         },
         {
           "quote": "[a] juror could reasonably infer that failing to treat, for two to five days, an inmate who is vomiting blood and experi",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "841 F.3d 219",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "Plaintiff also raised a genuine issue of material fact on the subjective prong of Farmer",
@@ -15092,11 +14917,11 @@
       "split": "aux_train",
       "filename": "united-states-v-carpenter_330309753_part15.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -15105,15 +14930,15 @@
       "quotes": [
         {
           "quote": "an amendment of an existing order under Rule 32.2(e), and thus within the jurisdiction retained by the court,",
-          "citation": "368 F.3d 5",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "was properly a part of the [initial] judgment. ",
-          "citation": "906 F.3d 173",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[W]e have concluded that a district court retains jurisdiction to modify a previously existing forfeiture order even aft",
@@ -15128,10 +14953,10 @@
       "filename": "dianna-johnson-v-government-of-the-dc_1278420_part29.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -15140,15 +14965,15 @@
       "quotes": [
         {
           "quote": "Court Reorganization Act",
-          "citation": "491 U.S. 701",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "exercise exclusive Legislation in all Cases whatsoever",
-          "citation": "491 U.S. 701",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -15156,11 +14981,11 @@
       "split": "aux_train",
       "filename": "prime-time-international-comp-v-agri_1287237_part19.pdf",
       "quote_verdicts": {
-        "accurate": 4,
-        "near_miss": 2,
+        "accurate": 2,
+        "near_miss": 1,
         "inaccurate": 2,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 5
       },
       "exists": 3,
       "not_found": 0,
@@ -15175,9 +15000,9 @@
         },
         {
           "quote": "[i]n the end as in the beginning, the plain language of [the statute] controls. ",
-          "citation": "558 F.3d 521",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "512 U.S. 218",
+          "verdict": "inaccurate",
+          "coverage": 0.6
         },
         {
           "quote": "an agency\u2019s interpretation of a statute is not entitled to deference when it goes beyond the meaning that the statute ca",
@@ -15199,15 +15024,15 @@
         },
         {
           "quote": "low NO{x} burner technology",
-          "citation": "40 F.3d 450",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "unambiguous reference",
-          "citation": "40 F.3d 450",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "comply with the requirements and limits contained in the text of",
@@ -15217,9 +15042,9 @@
         },
         {
           "quote": "[t]he assessment for each class of tobacco product [e.g., cigars] shall be allocated on a pro rata basis among manufactu",
-          "citation": "558 F.3d 521",
-          "verdict": "inaccurate",
-          "coverage": 0.222
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "based on . . . share of gross domestic volume.\n",
@@ -15259,8 +15084,8 @@
         "accurate": 0,
         "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 0
+        "unverifiable": 1,
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 1,
@@ -15269,8 +15094,8 @@
       "quotes": [
         {
           "quote": "false statements that are material in causing the warrant to issue will invalidate it,",
-          "citation": "774 F.3d 1482",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -15367,11 +15192,11 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623024_part3.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -15380,9 +15205,9 @@
       "quotes": [
         {
           "quote": "for the person and for the United States Government. ",
-          "citation": "600 F.3d 319",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the person bringing the action shall have the right to conduct the action. ",
@@ -15411,8 +15236,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 6,
-        "unpaired": 0
+        "unverifiable": 4,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 2,
@@ -15427,8 +15252,8 @@
         },
         {
           "quote": "question of material fact as to whether [plaintiffs] had a reasonable expectation of being able to build a church",
-          "citation": "2020 WL 618662",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -15439,13 +15264,13 @@
         },
         {
           "quote": "the property was not a permitted site for a community facility such as a church. ",
-          "citation": "2020 WL 618662",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "Victory Temple had a reasonable expectation of religious land use.\nThe Mount Oak Road property is zoned R-E and a church",
-          "citation": "2020 WL 618662",
+          "citation": "485 F. Supp. 3d 594",
           "verdict": "unverifiable",
           "coverage": null
         },
@@ -15462,10 +15287,10 @@
       "filename": "natl-assoc-clean-water-agenci-v-epa_1284736_part28.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 1,
-        "inaccurate": 3,
+        "near_miss": 0,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 3
       },
       "exists": 4,
       "not_found": 0,
@@ -15486,21 +15311,21 @@
         },
         {
           "quote": "permit[s] an end-run around",
-          "citation": "529 U.S. 120",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a framework for determining whether a non-hazardous secondary material is or is not a solid waste when burned as a fuel ",
-          "citation": "213 F.3d 724",
-          "verdict": "inaccurate",
-          "coverage": 0.091
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "is limited for purposes of determining [Clean Air Act] 129 applicability. ",
-          "citation": "213 F.3d 724",
-          "verdict": "inaccurate",
-          "coverage": 0.2
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -15590,10 +15415,10 @@
       "split": "aux_train",
       "filename": "basf-plant-science-lp-v-commonwealth-scientific_451923637_part24.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 2,
         "inaccurate": 0,
-        "unverifiable": 2,
+        "unverifiable": 1,
         "unpaired": 3
       },
       "exists": 2,
@@ -15609,8 +15434,8 @@
         },
         {
           "quote": "[T]he purpose of the \u2018written description\u2019 requirement is broader than to merely explain how to \u2018make and use\u2019; the appl",
-          "citation": "107 F.3d 1565",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -15621,9 +15446,9 @@
         },
         {
           "quote": "[I]nventor testimony cannot establish written description support where none exists in the four corners of the specifica",
-          "citation": "923 F.3d 1368",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "illuminate[ ] the absence of critical description. ",
@@ -15639,15 +15464,15 @@
         },
         {
           "quote": "inventor\u2019s . . . own testimony at trial",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "923 F.3d 1368",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "he only had a \u2018general concept\u2019",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
+          "citation": "923 F.3d 1368",
+          "verdict": "accurate",
+          "coverage": 1.0
         }
       ]
     },
@@ -15694,11 +15519,11 @@
       "split": "aux_train",
       "filename": "tap-pilam-coahuiltecan-v-mcdonald_289564506_part5.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 0,
@@ -15707,9 +15532,9 @@
       "quotes": [
         {
           "quote": "policy of limiting permits for the possession of eagle feathers to members of federally recognized tribes",
-          "citation": "764 F.3d 465",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -15763,7 +15588,7 @@
       "filename": "green-v-department-of-education-of-the_379739904_part16.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 6,
+        "near_miss": 2,
         "inaccurate": 2,
         "unverifiable": 0,
         "unpaired": 1
@@ -15775,9 +15600,9 @@
       "quotes": [
         {
           "quote": "the content of speech questioning an administrative response, or lack thereof, to discipline problems in the classroom r",
-          "citation": "489 F. Supp. 2d 209",
-          "verdict": "inaccurate",
-          "coverage": 0.762
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "form and context of Weintraub's statements",
@@ -15799,39 +15624,15 @@
         },
         {
           "quote": "Weintraub's complaint to Goodman and subsequent grievance were protected by the; First Amendment.",
-          "citation": "489 F. Supp. 2d 209",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "126 S. Ct. 1951",
+          "verdict": "inaccurate",
+          "coverage": 0.625
         },
         {
           "quote": "plausibly claim retaliation",
           "citation": "489 F. Supp. 2d 209",
           "verdict": "accurate",
           "coverage": 1.0
-        },
-        {
-          "quote": " Id. at 220. In contrast, the district court concluded that under Garcetti and in light of cases from other circuits app",
-          "citation": "489 F. Supp. 2d 209",
-          "verdict": "near_miss",
-          "coverage": 0.952
-        },
-        {
-          "quote": " Id. at 219-20. The district court, however, believed that ",
-          "citation": "489 F. Supp. 2d 209",
-          "verdict": "near_miss",
-          "coverage": 1.0
-        },
-        {
-          "quote": " the precise issue of ",
-          "citation": "489 F. Supp. 2d 209",
-          "verdict": "near_miss",
-          "coverage": 1.0
-        },
-        {
-          "quote": " Id. at 221-22. The district court noted that the issue was one of first impression in this circuit. ",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
         }
       ]
     },
@@ -16140,9 +15941,9 @@
       "quote_verdicts": {
         "accurate": 3,
         "near_miss": 2,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 6,
       "not_found": 0,
@@ -16151,21 +15952,21 @@
       "quotes": [
         {
           "quote": "apply the general standard of review for agency actions in the Administrative Procedure Act",
-          "citation": "381 F.3d 826",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with the law. ",
-          "citation": "381 F.3d 826",
+          "citation": "671 F.3d 955",
           "verdict": "near_miss",
           "coverage": 1.0
         },
         {
           "quote": "articulate a rational connection between the facts found and the choice made. ",
-          "citation": "405 U.S. 727",
-          "verdict": "inaccurate",
-          "coverage": 0.714
+          "citation": "671 F.3d 955",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "review[s] the record to ensure that agency decisions are founded on a reasoned evaluation of the relevant factors, and m",
@@ -16290,10 +16091,10 @@
       "filename": "yan-dong-v-basf-corporation_591096_part25.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 3,
+        "near_miss": 1,
         "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 1
+        "unverifiable": 1,
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 1,
@@ -16302,8 +16103,8 @@
       "quotes": [
         {
           "quote": "[e]rred in applying a \u2018[p]retext plus\u2019 [s]tandard",
-          "citation": "477 F. App'x 91",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -16320,9 +16121,9 @@
         },
         {
           "quote": "plaintiff must demonstrate that \u2018as between [the discriminatory reason] and the defendant\u2019s explanation, [the discrimina",
-          "citation": "450 U.S. 248",
-          "verdict": "near_miss",
-          "coverage": 0.944
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[h]aving not presented evidence of pretext, defendant is also entitled to summary judgment as [BASF\u2019s] legitimate, non-d",
@@ -16332,9 +16133,9 @@
         },
         {
           "quote": "pretext plus standard",
-          "citation": "509 U.S. 502",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -16372,10 +16173,10 @@
       "filename": "united-states-v-clifton-mclean_20527485_part25.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 0
+        "unpaired": 1
       },
       "exists": 2,
       "not_found": 0,
@@ -16384,9 +16185,9 @@
       "quotes": [
         {
           "quote": "as an element the use, attempted use, or threatened use of physical force against the person or property of another. ",
-          "citation": "559 U.S. 133",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "physical force means violent force. ",
@@ -16435,10 +16236,10 @@
       "split": "aux_train",
       "filename": "in-re-josue-romero-v-provide-commerce-inc_20816343_part14.pdf",
       "quote_verdicts": {
-        "accurate": 0,
+        "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
+        "unverifiable": 1,
         "unpaired": 0
       },
       "exists": 1,
@@ -16448,9 +16249,9 @@
       "quotes": [
         {
           "quote": "The Access to Justice fund is the \u2018next best\u2019 use of the remaining settlement monies in this case, because both class ac",
-          "citation": "1991 U.S. Dist. LEXIS 2553",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "470 F. Supp. 2d 781",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "for those who might not otherwise have access to the legal system",
@@ -16466,9 +16267,9 @@
       "quote_verdicts": {
         "accurate": 1,
         "near_miss": 0,
-        "inaccurate": 2,
+        "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -16483,9 +16284,9 @@
         },
         {
           "quote": "nowhere in the record does [EPA] appear to have taken account of any non-air quality health effects. ",
-          "citation": "353 F.3d 976",
-          "verdict": "inaccurate",
-          "coverage": 0.75
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "result from the required efforts to control the air quality impacts of the underlying manufacturing process. ",
@@ -16659,8 +16460,8 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
-        "unverifiable": 1,
+        "inaccurate": 0,
+        "unverifiable": 2,
         "unpaired": 3
       },
       "exists": 2,
@@ -16682,9 +16483,9 @@
         },
         {
           "quote": "restricted stock units were withheld by Issuer [Dynegy] to pay the taxes applicable to the vesting of 21,645 units of re",
-          "citation": "413 F.3d 503",
-          "verdict": "inaccurate",
-          "coverage": 0.154
+          "citation": "126 S. Ct. 1033",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "[t]hese restricted stock units were withheld by the issuer to pay the taxes applicable to the vesting of 35,093 units of",
@@ -16704,10 +16505,10 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623041_part8.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 1,
+        "accurate": 0,
+        "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 0,
+        "unverifiable": 2,
         "unpaired": 1
       },
       "exists": 2,
@@ -16717,15 +16518,15 @@
       "quotes": [
         {
           "quote": "fail[ed] to allege *directly* that any of the identified",
-          "citation": "707 F.3d 451",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": "134 S. Ct. 1759",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "instead requiring that a court draw an implausible inference linking general statistics to the",
-          "citation": "707 F.3d 451",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": "134 S. Ct. 1759",
+          "verdict": "unverifiable",
+          "coverage": null
         },
         {
           "quote": "false or fraudulent. ",
@@ -16768,11 +16569,11 @@
       "split": "aux_train",
       "filename": "realtek-semiconductor-corp-v-lsi-corp_664349_part18.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 4
+        "unpaired": 7
       },
       "exists": 2,
       "not_found": 0,
@@ -16799,9 +16600,9 @@
         },
         {
           "quote": "significant resources",
-          "citation": "905 F. Supp. 2d 1088",
-          "verdict": "inaccurate",
-          "coverage": 0.5
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "limited exception to the final-judgment rule",
@@ -16811,15 +16612,15 @@
         },
         {
           "quote": "appeal may be taken from \u2026 an order \u2026 refusing a stay of any action",
-          "citation": "556 U.S. 624",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "must be determined by focusing upon the category of order appealed from, rather than upon the strength of the grounds fo",
-          "citation": "556 U.S. 624",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -16863,10 +16664,10 @@
       "filename": "cause-of-action-v-ftc_1288176_part17.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
-        "inaccurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 6
+        "unpaired": 8
       },
       "exists": 1,
       "not_found": 0,
@@ -16899,15 +16700,15 @@
         },
         {
           "quote": "representative of the news media.\n",
-          "citation": "29 F.3d 655",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "ensur[e] that anyone who gathers information to inform the public, including freelance journalist and bloggers, may seek",
-          "citation": "29 F.3d 655",
-          "verdict": "inaccurate",
-          "coverage": 0.571
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "a representative of the news media",
@@ -16928,10 +16729,10 @@
       "filename": "tap-pilam-coahuiltecan-v-mcdonald_289564506_part15.pdf",
       "quote_verdicts": {
         "accurate": 1,
-        "near_miss": 1,
-        "inaccurate": 1,
+        "near_miss": 0,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 3
       },
       "exists": 1,
       "not_found": 0,
@@ -16946,15 +16747,15 @@
         },
         {
           "quote": "religious gerrymander[ ]",
-          "citation": "138 S. Ct. 1719",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "attempt[s] to target [the Tap Pilam] and their religious practices,",
-          "citation": "138 S. Ct. 1719",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "the specific series of events leading to the enactment or official policy in question",
@@ -17066,9 +16867,9 @@
       "split": "aux_train",
       "filename": "united-states-v-william-wallace_20518448_part23.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 2,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 1
       },
@@ -17079,9 +16880,9 @@
       "quotes": [
         {
           "quote": "First, we ask whether the seizure falls within the good-faith exception to the exclusionary rule . . . [i]f the good fai",
-          "citation": "625 F.3d 470",
-          "verdict": "inaccurate",
-          "coverage": 0.818
+          "citation": "625 F.3d 830",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "Principles of judicial restraint and precedent dictate that, in most cases, we should not reach the probable cause issue",
@@ -17101,11 +16902,11 @@
       "split": "aux_train",
       "filename": "monsarrat-v-newman_458449627_part31.pdf",
       "quote_verdicts": {
-        "accurate": 1,
+        "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 5
       },
       "exists": 1,
       "not_found": 0,
@@ -17114,15 +16915,15 @@
       "quotes": [
         {
           "quote": "susceptible of being literary,",
-          "citation": "9 F. Cas. 342",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "whether\u2026[Monsarrat\u2019s post is a] literary composition[,]\u00b9\u00b3\u2026 or details\u2026facts, or [is a] letter[] of business\u2026the general ",
-          "citation": "9 F. Cas. 342",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "[i]n one sense, all letters are literary, for they consist of the thoughts and language of the writer reduced to written",
@@ -17171,8 +16972,8 @@
       "split": "aux_train",
       "filename": "state-of-alaska-v-department-of-agriculture_1287056_part6.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 0,
+        "accurate": 1,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
         "unpaired": 0
@@ -17184,8 +16985,8 @@
       "quotes": [
         {
           "quote": "rebuttable presumption in favor of equitable tolling,",
-          "citation": "560 U.S. 631",
-          "verdict": "accurate",
+          "citation": "498 U.S. 89",
+          "verdict": "near_miss",
           "coverage": 1.0
         },
         {
@@ -17245,11 +17046,11 @@
       "split": "aux_train",
       "filename": "the-redeemed-christian-church-v-prince-georges-county-maryland_384159979_part18.pdf",
       "quote_verdicts": {
-        "accurate": 2,
-        "near_miss": 1,
+        "accurate": 1,
+        "near_miss": 0,
         "inaccurate": 1,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 7
       },
       "exists": 2,
       "not_found": 0,
@@ -17258,19 +17059,19 @@
       "quotes": [
         {
           "quote": "no specific evidence",
-          "citation": "533 U.S. 525",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "speculation or conjecture,",
-          "citation": "533 U.S. 525",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "must demonstrate that the harms it recites are real and that its restriction will in fact alleviate them to a material d",
-          "citation": "533 U.S. 525",
+          "citation": "527 U.S. 173",
           "verdict": "accurate",
           "coverage": 1.0
         },
@@ -17400,10 +17201,10 @@
       "filename": "eon-corp-ip-holdings-llc-v-att-mobility-llc_1424156_part14.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 9
+        "unpaired": 10
       },
       "exists": 1,
       "not_found": 0,
@@ -17412,9 +17213,9 @@
       "quotes": [
         {
           "quote": "EON\u2019s proffered structure is legally insufficient to sustain the term\u2019s validity because a general purpose computer in 1",
-          "citation": "639 F.3d 1303",
-          "verdict": "near_miss",
-          "coverage": 0.95
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "could not be performed by a computer purchased \u2018off-the-shelf. \u2019",
@@ -17559,9 +17360,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
+        "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 1,
@@ -17576,9 +17377,9 @@
         },
         {
           "quote": "[h]aving someone do it for [him].",
-          "citation": "337 F.3d 1179",
-          "verdict": "inaccurate",
-          "coverage": 0.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -17651,10 +17452,10 @@
       "filename": "gabriel-carrera-v-bayer-corp_570682_part3.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 1,
+        "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 3
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -17681,9 +17482,9 @@
         },
         {
           "quote": "clear class definition",
-          "citation": "453 F.3d 179",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -17691,11 +17492,11 @@
       "split": "aux_train",
       "filename": "jermaine-crowder-v-blue-cross-of-california_442832871_part13.pdf",
       "quote_verdicts": {
-        "accurate": 2,
+        "accurate": 1,
         "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 3,
-        "unpaired": 1
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -17704,9 +17505,9 @@
       "quotes": [
         {
           "quote": "no antiremoval presumption attends cases invoking CAFA,",
-          "citation": "135 S. Ct. 547",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "CAFA should be read \u2018with a strong preference that interstate class actions should be heard in a federal court if proper",
@@ -17716,7 +17517,7 @@
         },
         {
           "quote": "Congress enacted [CAFA] to facilitate adjudication of certain class actions in federal court. ",
-          "citation": "135 S. Ct. 547",
+          "citation": "784 F.3d 625",
           "verdict": "near_miss",
           "coverage": 1.0
         },
@@ -17734,14 +17535,14 @@
         },
         {
           "quote": "no other class action",
-          "citation": "2015 WL 3772885",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
           "quote": "by virtue of being filed four minutes later, the *Lima* action should remain in federal court. ",
-          "citation": null,
-          "verdict": "unpaired",
+          "citation": "2013 WL 363140",
+          "verdict": "unverifiable",
           "coverage": null
         }
       ]
@@ -17851,8 +17652,8 @@
         "accurate": 1,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 1
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 2,
       "not_found": 0,
@@ -17867,8 +17668,8 @@
         },
         {
           "quote": "involves use of explosives. ",
-          "citation": " Add. 9",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -17984,9 +17785,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 1,
-        "unverifiable": 1,
-        "unpaired": 2
+        "inaccurate": 0,
+        "unverifiable": 0,
+        "unpaired": 4
       },
       "exists": 1,
       "not_found": 0,
@@ -17995,8 +17796,8 @@
       "quotes": [
         {
           "quote": "arbitrary, capricious, an abuse of discretion, or otherwise not in accordance with law,",
-          "citation": "2021 WL 2673353",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -18013,9 +17814,9 @@
         },
         {
           "quote": "unsupported by substantial evidence. ",
-          "citation": "146 F.3d 808",
-          "verdict": "inaccurate",
-          "coverage": 0.667
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -18026,8 +17827,8 @@
         "accurate": 0,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 1,
-        "unpaired": 1
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 1,
@@ -18036,8 +17837,8 @@
       "quotes": [
         {
           "quote": "even absent the error, his total term of supervised release \u2013 life \u2013 would remain the same. ",
-          "citation": "607 F. App'x 936",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -18052,11 +17853,11 @@
       "split": "aux_train",
       "filename": "judson-witham-v-new-york-state_594020_part8.pdf",
       "quote_verdicts": {
-        "accurate": 1,
-        "near_miss": 3,
+        "accurate": 0,
+        "near_miss": 1,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 2
+        "unpaired": 5
       },
       "exists": 4,
       "not_found": 0,
@@ -18071,9 +17872,9 @@
         },
         {
           "quote": "arises from the same set of operative facts.",
-          "citation": "490 U.S. 545",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "jurisdiction over nonfederal claims between parties litigating other matters properly before the court.",
@@ -18089,15 +17890,15 @@
         },
         {
           "quote": "from a common nucleus of operative fact",
-          "citation": "383 U.S. 715",
-          "verdict": "accurate",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         },
         {
           "quote": "would ordinarily be expected to try them in one judicial proceeding.",
-          "citation": "383 U.S. 715",
-          "verdict": "near_miss",
-          "coverage": 1.0
+          "citation": null,
+          "verdict": "unpaired",
+          "coverage": null
         }
       ]
     },
@@ -18132,19 +17933,13 @@
         "near_miss": 0,
         "inaccurate": 0,
         "unverifiable": 0,
-        "unpaired": 5
+        "unpaired": 4
       },
       "exists": 0,
       "not_found": 0,
       "unresolvable": 0,
       "n_citations": 0,
       "quotes": [
-        {
-          "quote": " (i.e., a federal claim serving as the basis for supplemental jurisdiction), despite that such courts would otherwise la",
-          "citation": null,
-          "verdict": "unpaired",
-          "coverage": null
-        },
         {
           "quote": "United Mine Workers of America v. Gibbs",
           "citation": null,
@@ -18206,9 +18001,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 1,
-        "inaccurate": 0,
-        "unverifiable": 3,
-        "unpaired": 1
+        "inaccurate": 2,
+        "unverifiable": 0,
+        "unpaired": 2
       },
       "exists": 1,
       "not_found": 0,
@@ -18223,8 +18018,8 @@
         },
         {
           "quote": "any new or modified facility . . . \u2018shall apply\u2019",
-          "citation": "2010 WL 4294622",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -18235,15 +18030,15 @@
         },
         {
           "quote": "The context of 52.21(j)(3) shows that the command to apply BACT is not a freestanding requirement. Rather, it is tied sp",
-          "citation": "2010 WL 4294622",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "608 F. Supp. 2d 1120",
+          "verdict": "inaccurate",
+          "coverage": 0.7
         },
         {
           "quote": "proposed modifications, with no caveat continuing the obligation for the operating life of the source if it was not met ",
-          "citation": "2010 WL 4294622",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "608 F. Supp. 2d 1120",
+          "verdict": "inaccurate",
+          "coverage": 0.8
         }
       ]
     }

@@ -1,33 +1,32 @@
 {
  "standard": {
   "verdicts": {
-   "accurate": 235,
-   "near_miss": 158,
-   "unpaired": 897,
-   "unverifiable": 199,
-   "inaccurate": 185
+   "accurate": 205,
+   "unpaired": 1064,
+   "near_miss": 113,
+   "unverifiable": 160,
+   "inaccurate": 98
   },
-  "scored": 578,
-  "strict": 0.4066,
-  "lenient": 0.6799
+  "scored": 416,
+  "strict": 0.4928,
+  "lenient": 0.7644
  },
  "alteration_aware": {
   "verdicts": {
-   "accurate": 285,
-   "near_miss": 117,
-   "unpaired": 897,
-   "unverifiable": 199,
-   "inaccurate": 174,
-   "no_fragment": 2
+   "accurate": 247,
+   "unpaired": 1064,
+   "near_miss": 76,
+   "unverifiable": 160,
+   "inaccurate": 93
   },
-  "scored": 576,
-  "strict": 0.4948,
-  "lenient": 0.6979
+  "scored": 416,
+  "strict": 0.5938,
+  "lenient": 0.7764
  },
  "failure_causes": {
-  "altered_near_miss": 64,
-  "altered_inaccurate": 66,
-  "unaltered_near_miss": 94,
-  "unaltered_inaccurate": 119
+  "altered_near_miss": 53,
+  "altered_inaccurate": 31,
+  "unaltered_near_miss": 60,
+  "unaltered_inaccurate": 67
  }
 }

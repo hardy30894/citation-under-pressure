@@ -137,6 +137,7 @@ if rs_path.exists():
             emit2(f"lqScored{mk}{ak}Final", str(v["quotes_scored_final"]))
             emit2(f"lqAcc{mk}{ak}Start", str(v["accurate_r0"]))
             emit2(f"lqAcc{mk}{ak}Final", str(v["accurate_final"]))
+            emit2(f"lqPooled{mk}{ak}Final", fmt3(v["accurate_final"] / v["quotes_scored_final"]) if v["quotes_scored_final"] else "--")
             emit2(f"lCites{mk}{ak}Start", str(v["cites_r0"]))
             emit2(f"lCites{mk}{ak}Final", str(v["cites_final"]))
             if v.get("exist_r0") == v.get("exist_r0"):
@@ -169,6 +170,7 @@ if rs_path.exists():
             d = raw.get(f"{m}:{c}:citation", {})
             emit2(f"nf{mk}{ck}", str(d.get("not_found", 0)))
             emit2(f"ex{mk}{ck}", str(d.get("exists", 0)))
+            emit2(f"adj{mk}{ck}", str(d.get("exists", 0) + d.get("not_found", 0)))
 
 pp = R / "paraphrase_comparison.json"
 if pp.exists():
@@ -263,7 +265,7 @@ if gr.exists():
         emit2(f"runsOr{kk}{mk}", f"{v['OR']:.2f}")
         emit2(f"runsCi{kk}{mk}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
         emit2(f"runsHolm{kk}{mk}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
-        if v["holm_p"] < 0.05:
+        if v["holm_p"] < 0.05 and v["OR"] < 1:  # falls only; rises are named in the text
             surv[kind].append(m)
     emit2("runsQuoteSurvivors", str(len(surv["quote"])))
     emit2("runsCiteSurvivors", str(len(surv["citation"])))
@@ -282,7 +284,7 @@ if ph.exists():
     emit2("phrAinB", str(len(ps["a_replicated_in_b"])))
     emit2("phrAinPooled", str(len(ps["a_replicated_pooled"])))
     emit2("phrSurvPooled", str(len(ps["survivors_pooled"])))
-    qc = [k for k in ps["survivors_pooled"] if k.startswith("quote:") and k.endswith(":combo")]
+    qc = [k for k in ps["survivors_pooled"] if k.startswith("quote:") and k.endswith(":combo") and ps["gee_pooled"][k]["OR"] < 1]
     emit2("phrPooledQuoteCombo", str(len(qc)))
     ec = [k for k in ps["survivors_pooled"] if k.startswith("citation:")]
     emit2("phrPooledCiteModels", str(len({k.split(":")[1] for k in ec})))
@@ -625,6 +627,7 @@ if lc.exists():
         e = t[m].get("empty_final_drafts", {})
         f = t[m].get("r0_flags", {})
         emit2(f"lcEmptyTrue{mk}", str(e.get("true", 0)))
+        emit2(f"lc{mk}TrueDrafts", str(24 - e.get("true", 0)))
         emit2(f"lcNearFlags{mk}", str(f.get("near_miss", 0)))
         emit2(f"lcInaccFlags{mk}", str(f.get("inaccurate", 0)))
     emit2("lcEmptyTrueTotal", str(sum(t[m].get("empty_final_drafts", {}).get("true", 0) for m in t)))
@@ -651,6 +654,68 @@ if ha.exists():
     emit2("humanFailAltered", str(c["altered_near_miss"] + c["altered_inaccurate"]))
     emit2("humanFailNearUnaltered", str(c["unaltered_near_miss"]))
     emit2("humanFailInaccUnaltered", str(c["unaltered_inaccurate"]))
+
+# name mismatch among resolving citations (src/name_mismatch.py)
+nm = R / "name_mismatch.json"
+if nm.exists():
+    t = json.loads(nm.read_text())
+    emit2("nmChecked", f"{t['_pooled']['name_checked']:,}")
+    emit2("nmMismatch", str(t["_pooled"]["mismatch"]))
+    emit2("nmPct", f"{100 * t['_pooled']['mismatch'] / t['_pooled']['name_checked']:.1f}")
+    for m, mk in ALPHA.items():
+        v = t["_per_model"].get(m)
+        if v:
+            emit2(f"nmMismatch{mk}", str(v.get("mismatch", 0)))
+            emit2(f"nmChecked{mk}", f"{v['name_checked']:,}")
+
+# human existence by reporter group (src/human_existence.py)
+he = R / "human_existence.json"
+if he.exists():
+    t = json.loads(he.read_text())
+    emit2("humanExistUsFed", fmt3(t["us_and_federal"]["existence_rate"]))
+    emit2("humanNfTotal", str(t["overall"]["not_found"]))
+    fa = sum(v for k, v in t["not_found_by_reporter"].items() if "App" in k)
+    emit2("humanNfFedAppx", str(fa))
+    ex = t["us_and_federal"]["exists"]; nf = t["us_and_federal"]["not_found"] - fa
+    emit2("humanExistUsPubFed", fmt3(ex / (ex + nf)))
+
+# attribution audit on real drafts (src/attribution_audit.py)
+aa2 = R / "attribution_audit.json"
+if aa2.exists():
+    t = json.loads(aa2.read_text())["_pooled"]
+    emit2("auditInacc", f"{t['inaccurate_total']:,}")
+    emit2("auditPacketPct", f"{100 * t['packet_material'] / t['inaccurate_total']:.0f}")
+    emit2("auditStatutoryPct", f"{100 * t['statutory'] / t['inaccurate_total']:.0f}")
+    emit2("auditPacketOrStatPct", f"{100 * t['share_packet_or_statutory']:.0f}")
+
+# quotations left unpaired (no case attribution in their own sentence)
+rj = R / "records.jsonl"
+if rj.exists():
+    tot = {}
+    for l in open(rj):
+        r = json.loads(l)
+        if r["kind"] != "quote":
+            continue
+        d = tot.setdefault(r["model"], {"unpaired": 0, "all": 0})
+        d["all"] += 1
+        d["unpaired"] += r["verdict"] == "unpaired"
+    for m, mk in ALPHA.items():
+        if m in tot and tot[m]["all"]:
+            emit2(f"unpairedPct{mk}", f"{100 * tot[m]['unpaired'] / tot[m]['all']:.0f}")
+    a = sum(v["all"] for v in tot.values()); u = sum(v["unpaired"] for v in tot.values())
+    if a:
+        emit2("unpairedPctAll", f"{100 * u / a:.0f}")
+        emit2("unpairedAll", f"{u:,}")
+        emit2("quotesAll", f"{a:,}")
+
+# the hand reading of the audit sample (results/attribution_sample_reading.json)
+sr = R / "attribution_sample_reading.json"
+if sr.exists():
+    t = json.loads(sr.read_text())
+    emit2("auditSampleCheckerSide", str(t["checker_side"]))
+    emit2("auditSampleModel", str(t["model_side"]))
+    emit2("auditSampleN", str(t["n"]))
+    emit2("auditSampleCheckerSidePct", str(round(100 * t["checker_side"] / t["n"])))
 
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")

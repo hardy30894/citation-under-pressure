@@ -5,9 +5,9 @@
   "pin_in_span": 1194,
   "pin_out_of_span": 3,
   "no_cap_data": 25,
-  "quote_at_pin": 142,
-  "quote_near_pin": 42,
-  "quote_not_at_pin": 61
+  "quote_at_pin": 134,
+  "quote_near_pin": 33,
+  "quote_not_at_pin": 38
  },
  "gpt54mini": {
   "no_pin": 908,
@@ -15,9 +15,9 @@
   "pin_in_span": 1403,
   "pin_out_of_span": 3,
   "no_cap_data": 51,
-  "quote_at_pin": 93,
-  "quote_near_pin": 33,
-  "quote_not_at_pin": 56
+  "quote_at_pin": 84,
+  "quote_near_pin": 32,
+  "quote_not_at_pin": 39
  },
  "llama4mav": {
   "no_pin": 882,
@@ -25,9 +25,9 @@
   "pin_in_span": 464,
   "pin_out_of_span": 1,
   "no_cap_data": 1,
-  "quote_at_pin": 35,
-  "quote_near_pin": 5,
-  "quote_not_at_pin": 15
+  "quote_at_pin": 29,
+  "quote_near_pin": 2,
+  "quote_not_at_pin": 12
  },
  "mistralsmall": {
   "no_pin": 533,
@@ -35,9 +35,9 @@
   "pin_in_span": 1046,
   "pin_out_of_span": 12,
   "no_cap_data": 45,
-  "quote_at_pin": 57,
-  "quote_near_pin": 18,
-  "quote_not_at_pin": 62
+  "quote_at_pin": 65,
+  "quote_near_pin": 15,
+  "quote_not_at_pin": 49
  },
  "qwen30b": {
   "no_pin": 904,
@@ -45,9 +45,9 @@
   "pin_in_span": 672,
   "pin_out_of_span": 7,
   "no_cap_data": 97,
-  "quote_at_pin": 46,
-  "quote_near_pin": 5,
-  "quote_not_at_pin": 28
+  "quote_at_pin": 30,
+  "quote_near_pin": 3,
+  "quote_not_at_pin": 15
  },
  "sonnet": {
   "no_pin": 1060,
@@ -55,9 +55,9 @@
   "pin_in_span": 691,
   "pin_out_of_span": 0,
   "no_cap_data": 8,
-  "quote_at_pin": 212,
-  "quote_near_pin": 19,
-  "quote_not_at_pin": 43
+  "quote_at_pin": 219,
+  "quote_near_pin": 12,
+  "quote_not_at_pin": 33
  },
  "human": {
   "no_pin": 314,
@@ -65,7 +65,7 @@
   "pin_in_span": 110,
   "pin_out_of_span": 0,
   "no_cap_data": 4,
-  "quote_at_pin": 40,
+  "quote_at_pin": 36,
   "quote_near_pin": 2,
   "quote_not_at_pin": 3
  },
@@ -75,8 +75,8 @@
   "pin_in_span": 1174,
   "pin_out_of_span": 0,
   "no_cap_data": 21,
-  "quote_at_pin": 119,
-  "quote_near_pin": 25,
-  "quote_not_at_pin": 46
+  "quote_at_pin": 106,
+  "quote_near_pin": 23,
+  "quote_not_at_pin": 33
  }
 }

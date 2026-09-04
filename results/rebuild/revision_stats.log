@@ -1,0 +1,19 @@
+/opt/anaconda3/lib/python3.12/site-packages/scipy/stats/_wilcoxon.py:199: UserWarning: Sample size too small for normal approximation.
+  temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
+significant after Holm: ['citation:qwen30b:combo', 'citation:qwen30b:quota', 'citation:qwen30b:temporal', 'quote:deepseek:combo', 'quote:llama4mav:combo', 'quote:llama4mav:temporal', 'quote:mistralsmall:temporal', 'quote:qwen30b:combo']
+memorization (sonnet): {'sonnet:baseline': {'n_cites': 318, 'canonical_share': 0.148, 'median_year': 1986}, 'sonnet:combo': {'n_cites': 450, 'canonical_share': 0.124, 'median_year': 1943}, 'sonnet:quota': {'n_cites': 454, 'canonical_share': 0.11, 'median_year': 1987}, 'sonnet:stakes': {'n_cites': 333, 'canonical_share': 0.162, 'median_year': 1985}, 'sonnet:temporal': {'n_cites': 353, 'canonical_share': 0.147, 'median_year': 1944}}
+human lenient: 0.7644 near-miss share: 0.2716
+qwen30b:true {'cites_r0': 198, 'cites_final': 197, 'quotes_scored_r0': 150, 'quotes_scored_final': 152, 'accurate_r0': 12, 'accurate_final': 12, 'exist_r0': 0.739, 'exist_final': 0.822}
+qwen30b:scrambled {'cites_r0': 198, 'cites_final': 206, 'quotes_scored_r0': 150, 'quotes_scored_final': 133, 'accurate_r0': 12, 'accurate_final': 8, 'exist_r0': 0.739, 'exist_final': 0.685}
+qwen30b:none {'cites_r0': 198, 'cites_final': 195, 'quotes_scored_r0': 150, 'quotes_scored_final': 154, 'accurate_r0': 12, 'accurate_final': 11, 'exist_r0': 0.739, 'exist_final': 0.751}
+qwen30b:half {'cites_r0': 198, 'cites_final': 209, 'quotes_scored_r0': 150, 'quotes_scored_final': 148, 'accurate_r0': 12, 'accurate_final': 11, 'exist_r0': 0.739, 'exist_final': 0.762}
+qwen30b:quarter {'cites_r0': 198, 'cites_final': 253, 'quotes_scored_r0': 150, 'quotes_scored_final': 140, 'accurate_r0': 12, 'accurate_final': 9, 'exist_r0': 0.739, 'exist_final': 0.709}
+qwen30b:threequarter {'cites_r0': 198, 'cites_final': 224, 'quotes_scored_r0': 150, 'quotes_scored_final': 154, 'accurate_r0': 12, 'accurate_final': 10, 'exist_r0': 0.739, 'exist_final': 0.757}
+sonnet:true {'cites_r0': 220, 'cites_final': 220, 'quotes_scored_r0': 104, 'quotes_scored_final': 63, 'accurate_r0': 64, 'accurate_final': 59, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:scrambled {'cites_r0': 220, 'cites_final': 203, 'quotes_scored_r0': 104, 'quotes_scored_final': 45, 'accurate_r0': 64, 'accurate_final': 25, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:none {'cites_r0': 220, 'cites_final': 230, 'quotes_scored_r0': 104, 'quotes_scored_final': 104, 'accurate_r0': 64, 'accurate_final': 67, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:half {'cites_r0': 220, 'cites_final': 216, 'quotes_scored_r0': 104, 'quotes_scored_final': 53, 'accurate_r0': 64, 'accurate_final': 46, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:quarter {'cites_r0': 220, 'cites_final': 213, 'quotes_scored_r0': 104, 'quotes_scored_final': 36, 'accurate_r0': 64, 'accurate_final': 29, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:threequarter {'cites_r0': 220, 'cites_final': 218, 'quotes_scored_r0': 104, 'quotes_scored_final': 62, 'accurate_r0': 64, 'accurate_final': 57, 'exist_r0': 1.0, 'exist_final': 1.0}
+sonnet:passage {'cites_r0': 220, 'cites_final': 219, 'quotes_scored_r0': 104, 'quotes_scored_final': 92, 'accurate_r0': 64, 'accurate_final': 85, 'exist_r0': 1.0, 'exist_final': 1.0}
+pressured drafts: 1344

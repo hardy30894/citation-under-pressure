@@ -71,27 +71,31 @@ LLM judge anywhere in the primary measurements.
 Pressure degrades citation integrity from the bottom of the ladder up.
 The 30B model's citation existence falls from 0.924 to 0.773 under
 combined pressure (odds ratio 0.30, corrected p < 0.001), strict
-quotation accuracy falls significantly for three of the seven models
-after Holm correction, and the models refused the task three times in
-1,344 pressured drafts. At the top of the range (Sonnet 5, Grok 4.3,
-GPT-5.4-mini) no contrast survives correction; Sonnet 5's apparent
-improvement under the sanctions warning is reported as a pre-registered
-null result.
+quotation accuracy falls significantly for four of the seven models
+after Holm correction (Qwen3-30B, DeepSeek, Llama-4, Mistral Small) and
+for six of seven once three generations are pooled, and the models
+refused the task three times in 1,344 pressured drafts. Sonnet 5 is the
+exception: its accuracy is numerically higher under every pressure
+condition (0.488 at baseline, 0.613 under combined pressure, uncorrected
+p 0.03, corrected 0.25), and on the appellate task the sanctions warning
+alone raises it after correction.
 
 A second experiment placed the checker inside the drafting loop. Under
-true feedback the strongest model's strict accuracy rose from 0.471 to
-0.974, and the counts show why: its scored quotations fell from 157 to
-73 while its accurate quotations went from 68 to 70. The model
+true feedback the strongest model's strict accuracy rose from 0.688 to
+0.942, and the counts show why: its scored quotations fell from 104 to
+63 while its accurate quotations went from 64 to 59. The model
 satisfied the checker by deleting or de-quoting the flagged passages,
 and the same pattern holds for GPT-5.4-mini and DeepSeek. Nonexistent
-citations, by contrast, were genuinely replaced. A scrambled-feedback
-control shows that false flags lower accuracy for four of the six
+citations rose in existence by the same route, removal. A flag that
+carries the closest passage of the cited opinion is the one setting in
+which Sonnet 5 repaired more than it removed. A scrambled-feedback
+control shows that false flags lower accuracy for four of the seven
 models, most for the ones best at following feedback. What survives at
-frontier scale is mostly real law in the wrong place: 55 percent of the
+frontier scale is mostly real law in the wrong place: 68 percent of the
 strongest model's inaccurate quotations are paraphrases of the correct
-case inside quotation marks, and 620 quotations across the seven models
+case inside quotation marks, and 330 quotations across the seven models
 are verbatim passages of real opinions attributed to the wrong case (in
-294 of them the true source is cited elsewhere in the same draft, so the
+140 of them the true source is cited elsewhere in the same draft, so the
 count is a ceiling).
 
 ## What the paper tests
@@ -159,13 +163,36 @@ Every citation gets one of three labels, never two: exists, not found,
 or unverifiable, so oracle coverage gaps are never counted as
 fabrication. Inference is a citation-level logistic GEE clustered by
 matter, with Holm correction over the eight contrasts within each
-model. The quotation checker was validated before use on seeded
-faults (planted genuine quotes, wrong attributions, single-word
-corruptions, fabrications, formatting artifacts) at 100 of 100. The
+model. The quotation checker was validated before the campaign on
+seeded faults (planted genuine quotes, wrong attributions, single-word
+corruptions, fabrications, formatting artifacts) at 100 of 100, and
+again after the audit described below at 240 of 240. The
 same instrument scored 482 clean pre-ChatGPT human appellate briefs to
-anchor every comparison: human lawyers reach 0.407 strict and 0.680
-lenient quotation accuracy under this standard (578 scored quotations). Architecture detail and diagrams are in
+anchor every comparison: human lawyers reach 0.493 strict and 0.764
+lenient quotation accuracy under this standard (416 scored quotations).
+Architecture detail and diagrams are in
 [`docs/DESIGN.md`](docs/DESIGN.md).
+
+The attribution step, which decides which cited case a quotation is
+tested against, was audited on real drafts and corrected on 2026-09-04.
+Under the original rule a case named after a quotation could take it
+from the case named before it, a quotation of a statute was bound to
+the nearest case citation, and a parenthetical quotation inside a string
+cite went to the next case in the string. A hand reading of 40
+inaccurate verdicts drawn at random found about 20 on the checker's
+side under that rule and 8 under the corrected one
+(`results/attribution_audit_sample.md`,
+`results/attribution_sample_reading.json`). The corrected rule
+attributes a quotation to the citation whose parenthetical holds it,
+else the case named in its own sentence, else the citation that follows
+it in that sentence, else the citation an Id. points to, else the last
+citation in the paragraph; a quotation introduced by a statute, rule,
+the record, or a lower court, or with no citation in its paragraph, is
+left unpaired, which is 37 percent of the 10,846 quotations in the full
+run. The seeded validation (`src/validate_q2.py`) now plants twelve
+kinds of item per draft, six of them attribution traps, and scores 240
+of 240. Every number in this README and the paper is from the corrected
+rule.
 
 ## Results
 
@@ -182,7 +209,7 @@ flowchart LR
         S["small: citations fabricated,<br/>quotations collapse, almost never a refusal"]
     end
     P --> L
-    V -->|"replaces bad citations;<br/>deletes flagged quotes"| F
+    V -->|"removes bad citations;<br/>deletes flagged quotes"| F
     V -->|"same, less completely"| M
     V -.->|"changes nothing"| S
 ```
@@ -191,30 +218,33 @@ flowchart LR
 
 **Table 1.** Baseline versus the combined-pressure condition. Strict
 quotation accuracy is the verbatim standard, on which human lawyers
-score 0.407 (lenient rate in parentheses; humans 0.680). An asterisk
+score 0.493 (lenient rate in parentheses; humans 0.764). An asterisk
 marks a contrast that is significant after Holm correction within
 model.
 
-| model | quotes: baseline | quotes: combo | citations exist: baseline | citations exist: combo | temporal violations |
+| model | quotes: baseline | quotes: combo | citations exist: baseline | citations exist: combo | temporal violations (temporal condition) |
 |---|---|---|---|---|---|
-| Qwen3-30B | 0.175 (0.564) | 0.072 (0.320) * | 0.924 | 0.773 * | 20% |
-| Mistral Small | 0.207 (0.608) | 0.136 (0.383) | 0.901 | 0.868 | 35% |
-| DeepSeek V4 Flash | 0.281 (0.631) | 0.120 (0.436) * | 0.972 | 0.959 | 11% |
-| Grok 4.3 | 0.326 (0.644) | 0.246 (0.578) | 0.981 | 0.994 | 2 of 719 |
-| Sonnet 5 | 0.333 (0.622) | 0.427 (0.642) | 0.991 | 0.998 | 1 of 803 |
-| Llama-4 Maverick | 0.402 (0.618) | 0.179 (0.453) * | 0.958 | 0.939 | 10% |
-| GPT-5.4-mini | 0.460 (0.722) | 0.294 (0.571) | 0.981 | 0.962 | 13% |
+| Qwen3-30B | 0.161 (0.609) | 0.061 (0.320) * | 0.924 | 0.773 * | 20% |
+| Mistral Small | 0.251 (0.626) | 0.149 (0.444) | 0.901 | 0.868 | 35% |
+| DeepSeek V4 Flash | 0.353 (0.726) | 0.132 (0.491) * | 0.972 | 0.959 | 11% |
+| Grok 4.3 | 0.376 (0.713) | 0.286 (0.647) | 0.981 | 0.994 | 0 of 240 |
+| Sonnet 5 | 0.488 (0.800) | 0.613 (0.825) | 0.991 | 0.998 | 0 of 353 |
+| GPT-5.4-mini | 0.535 (0.795) | 0.420 (0.693) | 0.981 | 0.962 | 13% |
+| Llama-4 Maverick | 0.549 (0.745) | 0.230 (0.574) * | 0.958 | 0.939 | 10% |
 
 How to read it: rows are ordered by baseline strict accuracy; going
 from the baseline column to the combo column is what pressure does.
 Only the 30B model's citation existence moves. Strict quotation
 accuracy falls for every model but Sonnet 5, and the fall survives
-correction for Qwen, DeepSeek, and Llama. Sonnet 5's numerically higher
-combo rate had an uncorrected p of 0.029 and a corrected p of 0.233, so
-the paper reports it as exploratory and offers a memorization
-alternative (the temporal rule shifts its citations toward older,
-better-memorized cases). Compliance with the pre-1970 rule is near perfect for Sonnet 5 and
-Grok 4.3 and worst for Mistral, whose other figures are second-lowest.
+correction for Llama-4 under the temporal and combined conditions, for
+Qwen and DeepSeek under the combined condition, and for Mistral Small
+under the temporal clause. Sonnet 5's numerically higher combo rate had
+an uncorrected p of 0.031 and a corrected p of 0.252, so the paper
+reports it as a consistent direction with an open cause and names the
+memorization alternative (the temporal rule shifts its citations toward
+older, better-memorized cases, median decision year 1943 against 1986).
+Compliance with the pre-1970 rule is perfect for Sonnet 5 and Grok 4.3
+and worst for Mistral, whose other figures are second-lowest.
 Across the 1,344 pressured drafts there were three refusals; an eighth
 model, GLM-4.7-flash, produced no output on 33 of 240 drafts, 28 of them
 under combined pressure, and is reported as a stall rather than a refusal.
@@ -229,46 +259,49 @@ number of official-looking warnings aimed at items that are correct.
 
 | model | scored r0 to final | accurate r0 to final | strict, true feedback | strict, scrambled | clean drafts |
 |---|---|---|---|---|---|
-| Qwen3-30B | 186 to 188 | 16 to 16 | 0.099 to 0.107 | 0.099 to 0.093 | 0 of 24 |
-| Mistral Small | 145 to 133 | 15 to 17 | 0.208 to 0.264 | 0.208 to 0.122 | 9 of 24 |
-| DeepSeek V4 Flash | 211 to 47 | 28 to 19 | 0.181 to 0.645 | 0.181 to 0.153 | 21 of 24 |
-| Grok 4.3 | 61 to 10 | 15 to 10 | 0.207 to 1.000 | 0.207 to 0.208 | 24 of 24 |
-| Sonnet 5 | 157 to 73 | 68 to 70 | 0.471 to 0.974 | 0.471 to 0.266 | 23 of 24 |
-| Llama-4 Maverick | 64 to 29 | 11 to 8 | 0.176 to 0.349 | 0.176 to 0.188 | 21 of 24 |
-| GPT-5.4-mini | 65 to 39 | 28 to 29 | 0.360 to 0.719 | 0.360 to 0.241 | 22 of 24 |
+| Qwen3-30B | 150 to 152 | 12 to 12 | 0.089 to 0.096 | 0.089 to 0.082 | 0 of 24 |
+| Mistral Small | 109 to 87 | 12 to 14 | 0.224 to 0.279 | 0.224 to 0.109 | 9 of 24 |
+| DeepSeek V4 Flash | 165 to 45 | 27 to 16 | 0.278 to 0.623 | 0.278 to 0.283 | 21 of 24 |
+| Grok 4.3 | 50 to 8 | 13 to 7 | 0.234 to 0.800 | 0.234 to 0.278 | 24 of 24 |
+| Sonnet 5 | 104 to 63 | 64 to 59 | 0.688 to 0.942 | 0.688 to 0.452 | 23 of 24 |
+| Llama-4 Maverick | 44 to 17 | 11 to 6 | 0.273 to 0.477 | 0.273 to 0.318 | 21 of 24 |
+| GPT-5.4-mini | 53 to 32 | 29 to 25 | 0.505 to 0.698 | 0.505 to 0.410 | 22 of 24 |
 
 Read the strict column alone and this looks like repair rising with
-capability. Read the counts and it is deletion: Sonnet 5 ended with two
-more accurate quotations than it started with and 84 fewer scored ones.
+capability. Read the counts and it is deletion: Sonnet 5 ended with five
+fewer accurate quotations than it started with and 41 fewer scored ones
+(the strict rate is a mean over drafts with a quotation left to score;
+60 of the 168 true-feedback episodes ended with none, 19 of Grok 4.3's
+24, so its final rate rests on five drafts).
 Told a quotation was not verbatim, the capable models removed the
 quotation or its quotation marks far more often than they corrected the
-words, and the 30B model changed nothing. Citation existence was
-repaired for real (citation counts flat, existence up, so nonexistent
-citations were replaced). The scrambled column shows that false flags
-lower accuracy for five of seven models, most for Sonnet 5 and
-GPT-5.4-mini, which follow feedback best. Grok 4.3 is the purest case:
-it reached 1.000 with every draft clean by correcting none of its 46
-flagged quotations and removing all of them. The practical reading: use
+words, and the 30B model changed nothing. The scrambled column shows
+that false flags lower accuracy for four of seven models, most for
+Sonnet 5 and GPT-5.4-mini, which follow feedback best. Grok 4.3 is the
+purest case: every one of its 24 episodes ended clean, and of its 37
+flagged quotations it corrected none, dequoted 21, and deleted 15. The
+practical reading: use
 the checker as a gate on output rather than as feedback, and measure a
 probabilistic detector's false-positive rate before wiring it into a
 loop. A no-feedback control arm (same rounds, no checker content) shows
-that revision alone lifts Sonnet 5 only to 0.595 and GPT-5.4-mini to
-0.543; true feedback adds a further 0.36 for Sonnet 5 (matter-paired,
-p = 0.0003) but nothing distinguishable for GPT-5.4-mini. A
+that revision alone lifts Sonnet 5 only to 0.691 and GPT-5.4-mini to
+0.667; true feedback adds a further 0.23 for Sonnet 5 (matter-paired,
+p = 0.010) but nothing distinguishable for GPT-5.4-mini (0.01). A
 per-quotation trace (`results/loop_transitions.json`) shows the
-mechanism directly: of Sonnet 5's 89 flagged quotations, 4 were
-corrected in place and 8 replaced by a new accurate quotation from the
-same case, 13 lost their quotation marks, and 64 were deleted; under
-false feedback it removed 56 of its 68 correct quotations. Mixed
-arms in which each feedback line is true with probability 0.25, 0.5,
-or 0.75 give the dose-response: Sonnet 5 removed 17, 24, 38, 53, and
-56 of its 68 correct quotations as verifier precision fell from 1 to
-0 (18 with no feedback at all), and its final accuracy fell 0.974,
-0.855, 0.664, 0.508, 0.266 with it; a verifier right half the time
-left it within seven points of no feedback, and under the lenient
-verdict (near misses counted as correct) a verifier right half the
-time or less leaves Sonnet 5 below revision alone. Verifier precision
-is therefore a deployment requirement.
+mechanism directly: of Sonnet 5's 40 flagged quotations, 3 were
+corrected in place and 5 replaced by a new accurate quotation from the
+same case, 4 lost their quotation marks, 26 were deleted, and 2 were
+left; under false feedback it removed 54 of its 64 correct quotations.
+Mixed arms in which each feedback line is true with probability 0.25,
+0.5, or 0.75 give the dose-response: Sonnet 5 removed 21, 26, 37, 48,
+and 54 of its 64 correct quotations as verifier precision fell from 1
+to 0 (19 with no feedback at all), and its final accuracy fell 0.942,
+0.943, 0.830, 0.801, 0.452 with it; a verifier right half the time
+removed twice the correct quotations that revision with no feedback
+did, and under the lenient verdict (near misses counted as correct)
+only all-false feedback leaves Sonnet 5 below revision alone (0.855
+against 0.884). Verifier precision is therefore a deployment
+requirement.
 
 Two further accountings close the loop's books
 (`results/loop_citations.json`, `results/gloop_transitions.json`).
@@ -281,26 +314,25 @@ the true-feedback loop was rerun from the grounded combined-condition
 drafts of Sonnet 5 and DeepSeek with the verbatim excerpts of the ten
 retrieved authorities kept in the prompt (`src/loop_arm.py --grounded`):
 repair (in place or by a replacement quotation on the same citation)
-moved from 12 to 17 of Sonnet 5's 92 flags and from 2 to 6 of DeepSeek's
-89, with removal still the majority response. A passage arm then put
-the evidence in the flag itself: each quotation line carried the closest
-passage of the cited opinion, found by the same window search the
-retrieval arm uses (`--arms passage`). Repair tripled, to 36 of 89 for
-Sonnet 5 (9 in place, 27 replaced) and 22 of 183 for DeepSeek against 2,
-with final strict rates of 0.944 and 0.877 over more surviving
-quotations (110 scored against 73 for Sonnet 5); yet 52 of Sonnet 5's
-flags and 159 of DeepSeek's still ended in deletion or dequoting. A loop
-should hand the model the passage; even then it deletes most of what is
-flagged.
+stayed at 3 of Sonnet 5's 29 flags and 5 of DeepSeek's 55, against 8 of
+40 and 1 of 138 closed-book, with removal still the majority response.
+A passage arm then put the evidence in the flag itself: each quotation
+line carried the closest passage of the cited opinion, found by the same
+window search the retrieval arm uses (`--arms passage`). Repair more
+than doubled, to 21 of 40 for Sonnet 5 (5 in place, 16 replaced by the
+supplied passage) against 16 deleted or dequoted, the one setting in
+which it repaired more than it removed, and to 14 of 138 for DeepSeek,
+which still removed 122; final strict rates were 0.920 and 0.909 over
+more surviving quotations (92 scored against 63 for Sonnet 5). A loop
+should hand the model the passage; below the top of the range it
+deletes most of what is flagged even then.
 
 Three instrument checks answer the questions a reader will ask of the
 strict standard and the index. Refitting every contrast on the lenient
 outcome (near misses counted as correct; `src/gee.py --lenient`,
-`results/stats_gee_lenient.json`), ten contrasts survive Holm within
+`results/stats_gee_lenient.json`), eight contrasts survive Holm within
 model, the combined-condition fall among them for Qwen3-30B, DeepSeek,
-and Mistral Small (Llama-4's reaches corrected p = 0.055), and Grok 4.3's
-quotation accuracy rises under the stakes clause (OR 1.81, corrected
-p = 0.002), a contrast absent on the strict outcome. The existence and
+and Mistral Small (Llama-4's reaches corrected p = 0.58). The existence and
 pinpoint checks now carry a seeded validation of their own
 (`src/validate_pins.py`, `results/validate_pins.json`): on twenty seeded
 U.S. Reports opinions with planted real, fabricated, and vendor
@@ -319,28 +351,29 @@ splits on ellipses, and reads a bracketed alteration as its contents;
 segment as an omission and drops alteration parentheticals inside the
 marks, then rescores the full run (`results/records_alt.jsonl`,
 `results/alteration_aware.json`, `results/stats_gee_alt.json`). Model
-cells move by at most 5 points (mean 2), and the same eight contrasts
+cells move by at most 9 points (mean 3), and the same eight contrasts
 survive Holm correction. On the human reference (`src/human_alt.py`,
-`results/human_alt.json`) the standard lifts lawyers from 0.407 to
-0.495; of their 343 strict failures, 130 carry a bracketed alteration or
-ellipsis, 94 are near misses without one (a corrupted character), and
-119 are inaccurate without one.
+`results/human_alt.json`) the standard lifts lawyers from 0.493 to
+0.594; of their 211 strict failures, 84 carry a bracketed alteration or
+ellipsis, 60 are near misses without one (a corrupted character), and
+67 are inaccurate without one.
 
 Two robustness campaigns back the single-run table. Three independent
 generations of the baseline and combined drafts on all 48 matters and
 all seven models (672 drafts per run): cell-level standard deviations
-are at most 0.05 for existence and 0.06 for strict accuracy, the
+are at most 0.050 for existence and 0.056 for strict accuracy, the
 combined-versus-baseline quotation contrast kept its sign in every run
 for every model, and pooling the three runs with a run effect the
 combined fall in quotation accuracy survives Holm correction for six
-of seven models (odds ratios 0.33 to 0.50), Sonnet 5 excepted. A second
+of seven models (odds ratios 0.23 to 0.57), Sonnet 5 excepted. A second
 prompt template for every condition on all 48 matters and all seven
-models: twelve contrasts survive under it alone, and pooling both
-templates with a template effect, all eight single-run survivors
-survive and the combined fall survives for six of seven models (odds
-ratios 0.32 to 0.46). Cell rates differ between templates by at most
-11 points of strict accuracy, so single cells are template-specific
-and the within-model contrasts are what the paper relies on.
+models: nine contrasts survive under it alone, five of them among the
+eight single-run survivors, and pooling both templates with a template
+effect, all eight single-run survivors survive and the combined fall
+survives for five of seven models (odds ratios 0.29 to 0.51). Cell
+rates differ between templates by at most 13 points of strict accuracy,
+so single cells are template-specific and the within-model contrasts
+are what the paper relies on.
 
 A grounded arm reran the baseline and combined conditions with ten
 retrieved, verified U.S. Reports authorities in the prompt (TF-IDF over
@@ -348,8 +381,8 @@ retrieved, verified U.S. Reports authorities in the prompt (TF-IDF over
 passage). Models drew 51 to 83 percent of their citations from the list,
 citations not found fell from 341 in 5,856 to 74 in 5,605, and the 30B
 model's combined-condition existence went from 0.773 to 0.995. Quotation
-accuracy rose in every combined cell, yet no cell exceeded 0.525 even
-with the source passage in the prompt, and 62 percent of Sonnet 5's
+accuracy rose in every combined cell, yet no cell exceeded 0.718 even
+with the source passage in the prompt, and 62 percent of Sonnet 5's 74
 remaining inaccurate quotations are paraphrase of the cited case inside
 quotation marks. Retrieval nearly removes the existence failure and
 leaves the residual class in place.
@@ -363,14 +396,17 @@ prompt is more common outside the Supreme Court: baseline citation
 existence is 0.65 for the 30B model, 0.72 for Mistral Small, 0.91 to
 0.96 for the four models in between, and 0.99 for Sonnet 5 alone.
 Twenty-two percent of citations to the federal reporters do not
-resolve against four percent of citations to the U.S. Reports, and at
+resolve against four percent of citations to the U.S. Reports (the
+index misses 0.4 percent of the federal-reporter citations in the
+deciding opinions themselves, so the gap is not coverage), and at
 baseline the models cite the U.S. Reports for 37 to 58 percent of their
 authorities in a circuit appeal. Within the task, Llama-4's existence
-falls under the date restriction and Sonnet 5's quotation accuracy
-rises under the combined condition and under the sanctions warning
-alone (0.32 to 0.43), without any shift toward older cases; pooled over
-both tasks, six of the eight Supreme Court survivors survive, joined by
-four more falls and Sonnet 5's two rises.
+falls under the date restriction (0.945 to 0.857) and Sonnet 5's
+quotation accuracy rises under the sanctions warning alone (0.436 to
+0.597, odds ratio 1.88, corrected p 0.019), without any shift toward
+older cases; pooled over both tasks, six of the eight Supreme Court
+survivors survive, joined by four more falls and Sonnet 5's rise under
+the sanctions warning.
 
 ### Finding 3. What survives at frontier scale is misattribution, not invention
 
@@ -378,9 +414,9 @@ Three residual failure modes, each measured deterministically:
 
 | failure mode | measurement | headline number |
 |---|---|---|
-| paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 55% of Sonnet 5's inaccurate quotes are paraphrases of the correct case |
-| right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 620 quotes across the seven models are real opinion passages bound to the wrong authority; 294 have the true source cited in the same draft; the same search finds 23 of Sonnet 5's 746 inaccurate verdicts (3.1%) to be the checker's own error |
-| right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 77% of the time (Sonnet 5), 42 to 64% for the rest, 89% for human briefs |
+| paraphrase wearing quotation marks | inaccurate quotes decomposed against the cited case's own text | 68% of Sonnet 5's 258 inaccurate quotes are paraphrases of the correct case |
+| right words, wrong case | search of the 62,049 cached U.S. Reports opinions for each quote's true source (`src/provenance.py --corpus cap`) | 330 quotes across the seven models are real opinion passages bound to the wrong authority; 140 have the true source cited in the same draft; the same search finds 5 of Sonnet 5's 258 inaccurate verdicts (1.9%) to be the checker's own error, and a hand reading of 40 inaccurate verdicts finds 8 on the checker's side |
+| right case, wrong page | quote located against the official reporter's page boundaries | quote sits on the cited page 83% of the time (Sonnet 5), 50 to 67% for the rest, 88% for human briefs |
 
 These are the errors an existence check cannot see, and the page-level
 measurement covers, on public data, the error class on which published
@@ -429,11 +465,13 @@ withdrew itself after its own verification passes.
       rescore_loops.json       definitive Experiment 2 tables
       loop_citations.json      existence trace and lenient rates by arm
       gloop_<model>/           grounded true-feedback loop (Sonnet 5, DeepSeek)
-      provenance_report.md     per-quote true-source classification
+      provenance_report_cap.md per-quote true-source classification
+      attribution_audit.json   audit of every inaccurate verdict on real drafts
+      validate_q2.log          seeded validation of the quotation checker, 240 of 240
       pincites.json            page-level pincite verification
       human_baseline.json      the human yardstick
       revision_stats.json      Holm correction, raw counts, loop counts
-      records.jsonl            23,002 citation-level records
+      records.jsonl            24,886 citation-level records
 
 ## Reproducing
 

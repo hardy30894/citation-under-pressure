@@ -39,12 +39,46 @@ STRAIGHT_RE = re.compile(r'"([^"\n]{20,600})"')
 NOT_A_QUOTE = re.compile(r"\n\s*\n|(^|\n)\s*#|\*\*|__")
 # a span opening with a dash/closing punctuation is the tail of a quote the
 # model split across a citation ("... text—" cite "—more text"): not a quote
-SPLIT_ARTIFACT = re.compile(r"^\s*[—–)\].,;:]")
+# a span that opens or closes with whitespace is the text BETWEEN two
+# quotations (a closing mark paired with the next opening mark), not a quote
+SPLIT_ARTIFACT = re.compile(r"^\s*[—–)\].,;:]|^\s|\s$")
 
+# words that occur in case names and in ordinary legal prose; a match on
+# one of these says nothing about which case a quotation belongs to
 NAME_STOP = {
     "united", "states", "state", "people", "commonwealth", "city",
-    "county", "board", "school", "court", "company", "corp",
+    "county", "board", "school", "court", "company", "corp", "corporation",
+    "judicial", "circuit", "district", "rules", "federal", "national",
+    "american", "department", "secretary", "commissioner", "attorney",
+    "general", "government", "association", "trust", "bank", "insurance",
+    "railroad", "railway", "education", "public", "service", "services",
+    "administration", "agency", "office", "director", "officer", "council",
+    "commission", "committee", "union", "america", "labor", "health",
+    "human", "election", "elections", "welfare", "housing", "authority",
+    "transportation", "industries", "products", "power", "light", "water",
+    "sons", "brothers", "trustees", "estate", "citizens", "society",
 }
+# among names at the same distance the citation nearest the quotation wins
+STATUTE_BEFORE = 60  # a statute marker this close introduces the quotation
+# a quotation introduced by a statute, rule, or Congress ("28 U.S.C. §
+# 1407(a) provides that ...", "the Act defines ...", "Congress said ...")
+# quotes non-case material; with no case name nearer in its signal phrase
+# it is left unpaired instead of bound to whatever case citation is nearest
+STATUTE_RE = re.compile(
+    r"(u\.?s\.?c\.?|c\.?f\.?r\.?|§|fed\. ?r\.|\brule \d|\bstat\.|\bsection \d|\bact\b|"
+    r"\bstatute\b|\bcode\b|\bcongress\b|\bthe phrase\b|\bthe term\b|\bprovision\b|"
+    r"\bsubsection\b|\bregulation\b|s\. ?rep\.|h\. ?r\. ?rep\.|\bamendment\b|"
+    r"\bconstitution\b|\bclause\b|\b(first|second|third|fourth|fifth|sixth|seventh|eighth|"
+    r"ninth|tenth|eleventh|d\.c\.|federal) circuit\b|\bdistrict court\b|\bcourt of appeals\b|"
+    r"\bthe panel\b|\bthe court below\b|\bthe district\b|\bthe board\b|\bthe agency\b|"
+    r"\b(government|petitioners?|respondents?|appellants?|appellees?|plaintiffs?|defendants?|"
+    r"the state) (contend|argue|assert|maintain|claim|urge|submit)s?\b|\bcong\. rec\.|"
+    r"\b(alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|"
+    r"georgia|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|"
+    r"massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nevada|new hampshire|"
+    r"new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|"
+    r"pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|"
+    r"washington|west virginia|wisconsin|wyoming|state) supreme court\b)", re.I)
 CTX_BEFORE = 350
 CTX_AFTER = 120
 PAIR_WINDOW = 260
@@ -78,37 +112,128 @@ def name_tokens(*names):
     return toks
 
 
+CLAIMED_RE = re.compile(r"([A-Z][\w.&'’,-]*(?: [A-Z&][\w.&'’,-]*){0,6}) v\. ([A-Z][\w.&'’,-]*(?: [A-Z&][\w.&'’,-]*){0,6})")
+
+
+def claimed_name(text, start, window=120):
+    """The last "A v. B" the draft writes within `window` characters before
+    a citation, markdown emphasis stripped; (A, B) or ()."""
+    seg = re.sub(r"[*_]", "", text[max(0, start - window):start])
+    m = None
+    for m in CLAIMED_RE.finditer(seg):
+        pass
+    return (m.group(1), m.group(2)) if m else ()
+
+
+ABBREV = {"v", "u.s", "id", "co", "inc", "cir", "ct", "no", "rep", "app", "stat",
+          "corp", "bd", "f", "l.ed", "s.ct", "j", "st", "ry", "r.r", "ass'n", "dep't",
+          "mfg", "bros", "ltd", "jr", "sr", "mr", "mrs", "ms", "dr", "ins", "assn",
+          "supp", "cal", "n.y", "mass", "pa", "tex", "ill", "va", "u.s.c", "c.f.r",
+          "e.g", "i.e", "cf", "sec", "art", "amend", "ed", "vol", "ch", "pp", "p"}
+
+
+def is_abbrev(word):
+    w = word.lower().rstrip(".")
+    return w in ABBREV or len(w) <= 1 or re.fullmatch(r"(?:[a-z]\.)+[a-z]?", w) is not None
+
+
+def sentence_start(seg):
+    """Position in `seg` (text ending at the quotation) where the
+    quotation's own sentence begins: the last period followed by a space and
+    a capital, ignoring the abbreviations of legal citation. 0 if none."""
+    pos = 0
+    for m in re.finditer(r"\.\s+(?=[A-Z\u201c\"*(\[])", seg):
+        word = re.split(r"[\s(,;]", seg[:m.start()].rstrip())[-1]
+        if is_abbrev(word):
+            continue
+        pos = m.end()
+    return pos
+
+
+def sentence_end(seg):
+    """Length of the part of `seg` (text after the quotation) that belongs
+    to the quotation's own sentence: up to the first real period boundary
+    or line break."""
+    for m in re.finditer(r"\.\s+(?=[A-Z\u201c\"*(\[])|\n", seg):
+        if m.group(0) == "\n":
+            return m.start()
+        word = re.split(r"[\s(,;]", seg[:m.start()].rstrip())[-1]
+        if is_abbrev(word):
+            continue
+        return m.start()
+    return len(seg)
+
+
 def attribute(q, text, cites):
     """Return (cite, how) for one extracted quote.
 
-    Named attribution is distance-based: the case name nearest the quote
-    wins, measuring backwards through the signal phrase and forwards only
-    to the end of the quote's own line, because a name in the NEXT sentence must
-    not steal the quote (the bug the seeded validation caught)."""
+    A quotation belongs to the case named in its own sentence before it (the
+    signal phrase), else to the citation that follows it directly, else,
+    when its sentence carries "Id.", to the nearest preceding citation. A
+    quotation introduced by a statute, rule, or lower court is not a case
+    quotation and is left unpaired; so is one whose sentence names nothing,
+    since the checker then has nothing to test it against. Names in a later
+    sentence never take a quotation (the seeded validation's original
+    catch), and a citation introduced by "see" or "cf." after the quotation
+    is further authority, not its source."""
     qend = q["start"] + len(q["quote"])
-    before = text[max(0, q["start"] - CTX_BEFORE): q["start"]].lower()
-    after = text[qend: qend + CTX_AFTER].split("\n")[0].lower()
-    best = None
+    raw_before = text[max(0, q["start"] - CTX_BEFORE): q["start"]]
+    sent = sentence_start(raw_before)
+    before = raw_before.lower()
+    raw_after = text[qend: qend + PAIR_WINDOW]
+    tail = sentence_end(raw_after)  # the quotation's own sentence, after it
+    after = raw_after[:min(tail, CTX_AFTER)].lower()
+    best_before = best_after = None
     for c in cites:
+        prox = abs(c["start"] - q["start"])  # tie-break: the nearer citation
         for t in c["tokens"]:
             i = before.rfind(t)
-            if i >= 0:
+            if i >= sent and i >= 0:  # the name must sit in the quote's own sentence
                 d = len(before) - (i + len(t))
-                if best is None or d < best[0]:
-                    best = (d, c)
+                if best_before is None or (d, prox) < (best_before[0], best_before[2]):
+                    best_before = (d, c, prox)
             j = after.find(t)
-            if j >= 0 and (best is None or j < best[0]):
-                best = (j, c)
-    if best:
-        return best[1], "named"
-    after = [c for c in cites if 0 <= c["start"] - qend <= PAIR_WINDOW]
-    if after:
-        return min(after, key=lambda c: c["start"]), "proximity"
-    before = [
-        c for c in cites if 0 <= q["start"] - c["start"] <= PAIR_WINDOW + 40
-    ]
-    if before:
-        return max(before, key=lambda c: c["start"]), "proximity"
+            if j >= 0 and (best_after is None or (j, prox) < (best_after[0], best_after[2])):
+                best_after = (j, c, prox)
+    # a quotation inside a parenthetical that opens right after a citation
+    # ("Case, 1 U.S. 2, 3 (1990) (holding that “...”)") belongs to that
+    # citation, whatever follows it in a string cite
+    for c in sorted(cites, key=lambda c: -c["start"]):
+        if 0 < q["start"] - c["start"] <= 160:
+            gap = text[c["start"]: q["start"]]
+            if gap.count("(") > gap.count(")") and re.search(r"\(\s*[\w\s,.;:'’-]{0,60}[\u201c\"]?$", gap):
+                return c, "parenthetical"
+            break
+    intro = after.lstrip("\u201d\" .,;:)\n").lstrip()
+    further = intro.startswith(("see", "cf.", "accord", "compare", "but see", "e.g."))
+    # a name, or a citation, in the rest of the quotation's own sentence is
+    # its citation
+    after_c = [c for c in cites if 0 <= c["start"] - qend <= tail]
+    direct_after = bool(best_after or after_c) and not further
+    own = before[sent:]
+    stat = None
+    for m in STATUTE_RE.finditer(own):
+        stat = len(own) - m.end()  # distance to the quote
+    if stat is not None and (best_before is None or best_before[0] > stat) and not direct_after:
+        return None, None
+    if best_before and not direct_after:
+        return best_before[1], "named"
+    if best_after and not further:
+        return best_after[1], "named"
+    if after_c and not (further and best_before):
+        return min(after_c, key=lambda c: c["start"]), "proximity"
+    # "Id." in the quotation's sentence points at the last citation before it
+    if re.search(r"\bid\.", own):
+        prev = [c for c in cites if c["start"] < q["start"]]
+        if prev:
+            return max(prev, key=lambda c: c["start"]), "id"
+    # else the nearest preceding citation in the same paragraph, as a reader
+    # attributes "The Court explained that ..." to the case under discussion
+    para = text.rfind("\n", 0, q["start"]) + 1
+    before_c = [c for c in cites if para <= c["start"] < q["start"]
+                and q["start"] - c["start"] <= PAIR_WINDOW + 40]
+    if before_c:
+        return max(before_c, key=lambda c: c["start"]), "proximity"
     return None, None
 
 
@@ -155,7 +280,12 @@ def check_draft(text, citation_records, eyecite_pass, store):
             {
                 "citation": e["citation"],
                 "start": e["start"],
-                "tokens": name_tokens(e.get("plaintiff"), e.get("defendant")),
+                # eyecite's party metadata stops at a markdown asterisk and
+                # keeps one word a side, so the case name the draft itself
+                # writes before the citation ("*Board of Education v.
+                # Doe*, 123 U.S. 4") supplies tokens too
+                "tokens": name_tokens(e.get("plaintiff"), e.get("defendant"),
+                                      *claimed_name(text, e["start"])),
                 "cluster_id": rec.get("cluster_id"),
                 "volume": rec.get("volume") or e.get("volume"),
                 "reporter": rec.get("reporter") or e.get("reporter"),

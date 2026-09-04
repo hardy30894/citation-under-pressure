@@ -45,7 +45,7 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.27))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.4))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
@@ -55,16 +55,22 @@ def fig1():
             ax.plot(range(len(CONDS)), ys, marker="o", markersize=3,
                     linewidth=1.4, label=LABEL.get(model, model))
         ax.set_xticks(range(len(CONDS)))
-        ax.set_xticklabels(CONDS, rotation=20)
-        ax.set_ylim(0.7 if key == "existence_rate" else 0, 1.02)
+        ax.set_xticklabels(["base", "quota", "temporal", "stakes", "combined"])
+        if key == "existence_rate":
+            ax.set_ylim(0.7, 1.02)
+            ax.set_yticks([0.7, 0.8, 0.9, 1.0])
+        else:
+            ax.set_ylim(0, 1.02)
+            ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+        ax.grid(axis="y", linewidth=0.3, alpha=0.5)
         ax.set_title(title)
         if key == "strict_rate":
             ax.axhline(h, color="gray", linewidth=0.8, linestyle=":",
-                       label=f"human lawyers ({h:.2f})")
+                       label=f"human lawyers, floor ({h:.2f})")
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, frameon=False, loc="lower center",
-               ncol=4, bbox_to_anchor=(0.5, -0.03))
-    fig.tight_layout(rect=(0, 0.12, 1, 1))
+               ncol=4, bbox_to_anchor=(0.5, -0.02))
+    fig.tight_layout(rect=(0, 0.14, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig1_pressure.{ext}", dpi=200,
                     bbox_inches="tight")
@@ -80,7 +86,7 @@ def fig2():
     trans = json.loads((HERE / "results/loop_transitions.json").read_text())
     arms = [("none", "none"), ("scrambled", "0"), ("quarter", "0.25"),
             ("half", "0.5"), ("threequarter", "0.75"), ("true", "1")]
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.08))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.4))
     for mi, (model, rows) in enumerate(data.items()):
         strict, removed = [], []
         for arm, _ in arms:
@@ -106,12 +112,14 @@ def fig2():
         ax.set_xticklabels([lab for _, lab in arms])
         ax.set_xlabel("verifier precision (share of true flags)")
         ax.set_ylim(0, 1.02)
+        ax.set_yticks([0, 0.25, 0.5, 0.75, 1.0])
+        ax.grid(axis="y", linewidth=0.3, alpha=0.5)
         ax.set_title(title)
         ax.axvline(0.5, color="gray", linewidth=0.6, linestyle=":")
     handles, labels = axes[0].get_legend_handles_labels()
     fig.legend(handles, labels, frameon=False, loc="lower center",
-               ncol=4, bbox_to_anchor=(0.5, -0.04))
-    fig.tight_layout(rect=(0, 0.16, 1, 1))
+               ncol=4, bbox_to_anchor=(0.5, -0.02))
+    fig.tight_layout(rect=(0, 0.15, 1, 1))
     for ext in ("pdf", "png"):
         fig.savefig(OUT / f"fig2_repair.{ext}", dpi=200, bbox_inches="tight")
     plt.close(fig)

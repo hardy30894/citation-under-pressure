@@ -1,162 +1,282 @@
 {
- "qwen30b:quota:exist": [
-  -0.0677,
-  -0.1099,
-  -0.029
- ],
- "qwen30b:quota:strict": [
-  -0.0264,
-  -0.0845,
-  0.0316
- ],
- "qwen30b:temporal:exist": [
-  -0.1062,
-  -0.1773,
-  -0.0415
- ],
- "qwen30b:temporal:strict": [
-  -0.0831,
-  -0.1608,
-  -0.0002
- ],
- "qwen30b:stakes:exist": [
-  -0.0559,
-  -0.1094,
-  -0.0054
- ],
- "qwen30b:stakes:strict": [
-  -0.0435,
-  -0.1128,
-  0.0344
- ],
- "qwen30b:combo:exist": [
-  -0.1502,
-  -0.2308,
-  -0.0759
- ],
- "qwen30b:combo:strict": [
-  -0.1159,
-  -0.1822,
-  -0.0498
- ],
  "deepseek:quota:exist": [
   -0.0154,
-  -0.0381,
-  0.0096
+  -0.039,
+  0.0108
  ],
  "deepseek:quota:strict": [
-  -0.0481,
-  -0.117,
-  0.0171
+  -0.0058,
+  -0.1195,
+  0.1163
  ],
  "deepseek:temporal:exist": [
   -0.0181,
-  -0.0586,
-  0.0163
+  -0.0567,
+  0.0173
  ],
  "deepseek:temporal:strict": [
-  -0.0918,
-  -0.1738,
-  -0.0077
+  -0.1142,
+  -0.237,
+  0.0115
  ],
  "deepseek:stakes:exist": [
   0.0007,
   -0.0347,
-  0.0328
+  0.0315
  ],
  "deepseek:stakes:strict": [
-  0.0047,
-  -0.0786,
-  0.094
+  0.0209,
+  -0.0959,
+  0.1391
  ],
  "deepseek:combo:exist": [
   -0.0069,
-  -0.0355,
-  0.0245
+  -0.0357,
+  0.0244
  ],
  "deepseek:combo:strict": [
-  -0.1388,
-  -0.2129,
-  -0.0655
+  -0.1679,
+  -0.2669,
+  -0.0634
  ],
  "gpt54mini:quota:exist": [
   0.0029,
   -0.016,
-  0.0228
+  0.0217
  ],
  "gpt54mini:quota:strict": [
-  -0.0151,
-  -0.137,
-  0.0988
+  0.0065,
+  -0.1273,
+  0.147
  ],
  "gpt54mini:temporal:exist": [
   -0.0196,
-  -0.0535,
-  0.0079
+  -0.0515,
+  0.0073
  ],
  "gpt54mini:temporal:strict": [
-  -0.1238,
-  -0.2566,
-  0.0134
+  -0.1156,
+  -0.2924,
+  0.0593
  ],
  "gpt54mini:stakes:exist": [
   0.0003,
-  -0.0175,
-  0.0192
+  -0.0177,
+  0.0209
  ],
  "gpt54mini:stakes:strict": [
-  -0.0294,
-  -0.1332,
-  0.071
+  0.0104,
+  -0.135,
+  0.1592
  ],
  "gpt54mini:combo:exist": [
   -0.0168,
-  -0.0356,
-  0.0021
+  -0.0365,
+  0.002
  ],
  "gpt54mini:combo:strict": [
-  -0.1722,
-  -0.3161,
-  -0.0312
+  -0.1055,
+  -0.266,
+  0.0549
+ ],
+ "grok43:quota:exist": [
+  -0.0017,
+  -0.0149,
+  0.0141
+ ],
+ "grok43:quota:strict": [
+  0.0605,
+  -0.0602,
+  0.1788
+ ],
+ "grok43:temporal:exist": [
+  -0.012,
+  -0.0428,
+  0.0167
+ ],
+ "grok43:temporal:strict": [
+  -0.0019,
+  -0.1424,
+  0.1395
+ ],
+ "grok43:stakes:exist": [
+  0.0019,
+  -0.0036,
+  0.0094
+ ],
+ "grok43:stakes:strict": [
+  0.0762,
+  -0.0307,
+  0.1865
+ ],
+ "grok43:combo:exist": [
+  0.0045,
+  -0.0098,
+  0.0259
+ ],
+ "grok43:combo:strict": [
+  -0.1257,
+  -0.2687,
+  0.0229
+ ],
+ "llama4mav:quota:exist": [
+  0.0118,
+  -0.0094,
+  0.0352
+ ],
+ "llama4mav:quota:strict": [
+  -0.1141,
+  -0.3224,
+  0.0871
+ ],
+ "llama4mav:temporal:exist": [
+  -0.0024,
+  -0.0395,
+  0.0307
+ ],
+ "llama4mav:temporal:strict": [
+  -0.3317,
+  -0.5338,
+  -0.1126
+ ],
+ "llama4mav:stakes:exist": [
+  -0.002,
+  -0.0457,
+  0.0378
+ ],
+ "llama4mav:stakes:strict": [
+  -0.0472,
+  -0.2204,
+  0.121
+ ],
+ "llama4mav:combo:exist": [
+  -0.0216,
+  -0.0608,
+  0.0144
+ ],
+ "llama4mav:combo:strict": [
+  -0.2628,
+  -0.4494,
+  -0.0577
+ ],
+ "mistralsmall:quota:exist": [
+  0.0222,
+  -0.0144,
+  0.0602
+ ],
+ "mistralsmall:quota:strict": [
+  -0.019,
+  -0.1452,
+  0.0985
+ ],
+ "mistralsmall:temporal:exist": [
+  -0.0434,
+  -0.0971,
+  0.0068
+ ],
+ "mistralsmall:temporal:strict": [
+  -0.1996,
+  -0.3126,
+  -0.0748
+ ],
+ "mistralsmall:stakes:exist": [
+  0.0124,
+  -0.0347,
+  0.0617
+ ],
+ "mistralsmall:stakes:strict": [
+  -0.0912,
+  -0.2265,
+  0.0491
+ ],
+ "mistralsmall:combo:exist": [
+  -0.0339,
+  -0.078,
+  0.0132
+ ],
+ "mistralsmall:combo:strict": [
+  -0.0991,
+  -0.2306,
+  0.03
+ ],
+ "qwen30b:quota:exist": [
+  -0.0677,
+  -0.1123,
+  -0.0267
+ ],
+ "qwen30b:quota:strict": [
+  0.0155,
+  -0.083,
+  0.1113
+ ],
+ "qwen30b:temporal:exist": [
+  -0.1062,
+  -0.1825,
+  -0.0367
+ ],
+ "qwen30b:temporal:strict": [
+  -0.0569,
+  -0.1433,
+  0.0315
+ ],
+ "qwen30b:stakes:exist": [
+  -0.0559,
+  -0.1101,
+  -0.0055
+ ],
+ "qwen30b:stakes:strict": [
+  -0.0218,
+  -0.1128,
+  0.0579
+ ],
+ "qwen30b:combo:exist": [
+  -0.1502,
+  -0.2325,
+  -0.0739
+ ],
+ "qwen30b:combo:strict": [
+  -0.1208,
+  -0.2145,
+  -0.0408
  ],
  "sonnet:quota:exist": [
   -0.0061,
-  -0.0166,
-  0.003
+  -0.0158,
+  0.0033
  ],
  "sonnet:quota:strict": [
-  0.008,
-  -0.058,
-  0.0715
+  -0.0199,
+  -0.1127,
+  0.0699
  ],
  "sonnet:temporal:exist": [
   0.0039,
   0.0,
-  0.0094
+  0.0093
  ],
  "sonnet:temporal:strict": [
-  0.0191,
-  -0.0577,
-  0.0908
+  -0.0012,
+  -0.0903,
+  0.0922
  ],
  "sonnet:stakes:exist": [
   0.0024,
   -0.0024,
-  0.0088
+  0.0081
  ],
  "sonnet:stakes:strict": [
-  0.0783,
-  -0.0159,
-  0.1611
+  0.0399,
+  -0.0757,
+  0.1469
  ],
  "sonnet:combo:exist": [
   0.0066,
   0.0,
-  0.015
+  0.0146
  ],
  "sonnet:combo:strict": [
-  0.1022,
-  0.0181,
-  0.1903
+  0.1236,
+  0.0032,
+  0.2418
  ]
 }

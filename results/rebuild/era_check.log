@@ -1,0 +1,9 @@
+era pooled: {'post1970_acc': 381, 'post1970_scored': 1075, 'pre1970_acc': 74, 'pre1970_scored': 189, 'pre1970_strict': 0.392, 'post1970_strict': 0.354}
+qwen30b 0.185 0.158
+mistralsmall 0.333 0.241
+deepseek 0.303 0.361
+grok43 0.308 0.389
+sonnet 0.547 0.473
+llama4mav 0.4 0.585
+gpt54mini 0.579 0.528
+attribution: {'misattributed': 330, 'true_source_cited_in_draft': 140, 'share': 0.424} {'deepseek': 0.347, 'gpt54mini': 0.581, 'grok43': 0.429, 'llama4mav': 0.182, 'mistralsmall': 0.444, 'qwen30b': 0.163, 'sonnet': 0.6, 'pooled': 0.424}

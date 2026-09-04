@@ -8,11 +8,11 @@
   "holm_p": 0.3008
  },
  "quote:deepseek:combo": {
-  "OR": 0.399,
-  "ci_low": 0.302,
-  "ci_high": 0.527,
+  "OR": 0.423,
+  "ci_low": 0.316,
+  "ci_high": 0.568,
   "p": 0.0,
-  "n": 2108,
+  "n": 1536,
   "holm_p": 0.0
  },
  "citation:gpt54mini:combo": {
@@ -24,12 +24,12 @@
   "holm_p": 0.5979
  },
  "quote:gpt54mini:combo": {
-  "OR": 0.405,
-  "ci_low": 0.27,
-  "ci_high": 0.608,
-  "p": 1e-05,
-  "n": 917,
-  "holm_p": 0.0001
+  "OR": 0.567,
+  "ci_low": 0.391,
+  "ci_high": 0.822,
+  "p": 0.00274,
+  "n": 603,
+  "holm_p": 0.0164
  },
  "citation:grok43:combo": {
   "OR": 2.173,
@@ -40,12 +40,12 @@
   "holm_p": 0.5503
  },
  "quote:grok43:combo": {
-  "OR": 0.365,
-  "ci_low": 0.249,
-  "ci_high": 0.535,
-  "p": 0.0,
-  "n": 1099,
-  "holm_p": 0.0
+  "OR": 0.41,
+  "ci_low": 0.268,
+  "ci_high": 0.625,
+  "p": 4e-05,
+  "n": 796,
+  "holm_p": 0.0004
  },
  "citation:llama4mav:combo": {
   "OR": 0.564,
@@ -53,15 +53,15 @@
   "ci_high": 0.961,
   "p": 0.03534,
   "n": 2315,
-  "holm_p": 0.1414
+  "holm_p": 0.1767
  },
  "quote:llama4mav:combo": {
-  "OR": 0.325,
-  "ci_low": 0.188,
-  "ci_high": 0.562,
-  "p": 6e-05,
-  "n": 669,
-  "holm_p": 0.0005
+  "OR": 0.231,
+  "ci_low": 0.124,
+  "ci_high": 0.431,
+  "p": 0.0,
+  "n": 371,
+  "holm_p": 0.0
  },
  "citation:mistralsmall:combo": {
   "OR": 0.618,
@@ -69,15 +69,15 @@
   "ci_high": 0.809,
   "p": 0.00046,
   "n": 2660,
-  "holm_p": 0.0032
+  "holm_p": 0.0036
  },
  "quote:mistralsmall:combo": {
-  "OR": 0.5,
-  "ci_low": 0.343,
-  "ci_high": 0.729,
-  "p": 0.00032,
-  "n": 1656,
-  "holm_p": 0.0026
+  "OR": 0.52,
+  "ci_low": 0.363,
+  "ci_high": 0.745,
+  "p": 0.00036,
+  "n": 1265,
+  "holm_p": 0.0033
  },
  "citation:qwen30b:combo": {
   "OR": 0.365,
@@ -88,11 +88,11 @@
   "holm_p": 0.0
  },
  "quote:qwen30b:combo": {
-  "OR": 0.343,
-  "ci_low": 0.244,
-  "ci_high": 0.483,
+  "OR": 0.292,
+  "ci_low": 0.189,
+  "ci_high": 0.451,
   "p": 0.0,
-  "n": 2062,
+  "n": 1666,
   "holm_p": 0.0
  },
  "citation:sonnet:combo": {
@@ -101,14 +101,14 @@
   "ci_high": 3.03,
   "p": 0.00089,
   "n": 2299,
-  "holm_p": 0.0054
+  "holm_p": 0.0063
  },
  "quote:sonnet:combo": {
-  "OR": 1.331,
-  "ci_low": 1.07,
-  "ci_high": 1.656,
-  "p": 0.01026,
-  "n": 2250,
-  "holm_p": 0.0513
+  "OR": 1.249,
+  "ci_low": 0.948,
+  "ci_high": 1.646,
+  "p": 0.11342,
+  "n": 1353,
+  "holm_p": 0.4537
  }
 }

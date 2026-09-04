@@ -1,0 +1,11 @@
+{
+ "n": 40,
+ "checker_side": 8,
+ "model_side": 30,
+ "ambiguous": 2,
+ "sample_file": "results/attribution_audit_sample.md",
+ "instrument": "quotecheck2 after the sentence-scoped attribution rule, the non-case markers, and the string-cite parenthetical rule (validate_q2: 240 of 240)",
+ "checker_side_items": [5, 12, 17, 18, 22, 29, 32, 33],
+ "ambiguous_items": [23, 27],
+ "note": "Hand reading of the seeded random sample of inaccurate verdicts written by results/attribution_audit.py. Checker-side means the quoted words are not a case quotation the draft attributes (a policy name, statutory text, a lower court's or record's phrase, an APA phrase) or the checker bound the quotation to a case other than the one the draft names. Earlier readings of the same sample size under the original rule found about 20 of 40 checker-side; under the first correction 16 or 17 of 40; under the parenthetical rule 8 of 40."
+}

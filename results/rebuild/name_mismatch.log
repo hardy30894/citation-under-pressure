@@ -1,0 +1,43 @@
+deepseek done
+gpt54mini done
+grok43 done
+llama4mav done
+mistralsmall done
+qwen30b done
+sonnet done
+deepseek:baseline        exists   346 checked   312 unchecked   34 mismatch    5
+deepseek:combo           exists   468 checked   431 unchecked   37 mismatch   11
+deepseek:quota           exists   480 checked   434 unchecked   46 mismatch    4
+deepseek:stakes          exists   289 checked   271 unchecked   18 mismatch    4
+deepseek:temporal        exists   339 checked   307 unchecked   32 mismatch    8
+gpt54mini:baseline       exists   409 checked   374 unchecked   35 mismatch    2
+gpt54mini:combo          exists   686 checked   614 unchecked   72 mismatch   12
+gpt54mini:quota          exists   552 checked   503 unchecked   49 mismatch    5
+gpt54mini:stakes         exists   418 checked   341 unchecked   77 mismatch    3
+gpt54mini:temporal       exists   497 checked   442 unchecked   55 mismatch   11
+grok43:baseline          exists   252 checked   225 unchecked   27 mismatch    1
+grok43:combo             exists   476 checked   448 unchecked   28 mismatch    3
+grok43:quota             exists   449 checked   420 unchecked   29 mismatch    2
+grok43:stakes            exists   252 checked   226 unchecked   26 mismatch    0
+grok43:temporal          exists   236 checked   222 unchecked   14 mismatch    1
+llama4mav:baseline       exists   204 checked   180 unchecked   24 mismatch    0
+llama4mav:combo          exists   475 checked   435 unchecked   40 mismatch   11
+llama4mav:quota          exists   516 checked   437 unchecked   79 mismatch    3
+llama4mav:stakes         exists   197 checked   172 unchecked   25 mismatch    0
+llama4mav:temporal       exists   202 checked   188 unchecked   14 mismatch    8
+mistralsmall:baseline    exists   336 checked   306 unchecked   30 mismatch    7
+mistralsmall:combo       exists   452 checked   427 unchecked   25 mismatch   15
+mistralsmall:quota       exists   431 checked   378 unchecked   53 mismatch   14
+mistralsmall:stakes      exists   362 checked   322 unchecked   40 mismatch    9
+mistralsmall:temporal    exists   345 checked   325 unchecked   20 mismatch   17
+qwen30b:baseline         exists   342 checked   223 unchecked  119 mismatch    7
+qwen30b:combo            exists   307 checked   278 unchecked   29 mismatch   14
+qwen30b:quota            exists   425 checked   290 unchecked  135 mismatch    7
+qwen30b:stakes           exists   351 checked   226 unchecked  125 mismatch    3
+qwen30b:temporal         exists   258 checked   225 unchecked   33 mismatch   12
+sonnet:baseline          exists   315 checked   299 unchecked   16 mismatch    0
+sonnet:combo             exists   449 checked   430 unchecked   19 mismatch    3
+sonnet:quota             exists   447 checked   418 unchecked   29 mismatch    2
+sonnet:stakes            exists   330 checked   305 unchecked   25 mismatch    0
+sonnet:temporal          exists   351 checked   335 unchecked   16 mismatch    1
+pooled {'exists': 13244, 'checker_flag_false': 1050, 'name_checked': 11769, 'name_unchecked': 1475, 'mismatch': 205}

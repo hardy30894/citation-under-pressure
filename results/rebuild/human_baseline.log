@@ -1,0 +1,66 @@
+clean brief-derived excerpts: 482
+[25/482] 2s fetch_budget_left=0
+[50/482] 4s fetch_budget_left=0
+[75/482] 7s fetch_budget_left=0
+[100/482] 8s fetch_budget_left=0
+[125/482] 10s fetch_budget_left=0
+[150/482] 12s fetch_budget_left=0
+[175/482] 13s fetch_budget_left=0
+[200/482] 15s fetch_budget_left=0
+[225/482] 16s fetch_budget_left=0
+[250/482] 17s fetch_budget_left=0
+[275/482] 19s fetch_budget_left=0
+[300/482] 21s fetch_budget_left=0
+[325/482] 23s fetch_budget_left=0
+[350/482] 24s fetch_budget_left=0
+[375/482] 26s fetch_budget_left=0
+[400/482] 28s fetch_budget_left=0
+[425/482] 29s fetch_budget_left=0
+[450/482] 30s fetch_budget_left=0
+[475/482] 33s fetch_budget_left=0
+{
+  "n_clean_excerpts": 482,
+  "n_scored": 482,
+  "n_crashed": 0
+}
+{
+  "subset": "all_clean",
+  "n_excerpts": 482,
+  "quote_verdicts": {
+    "accurate": 205,
+    "near_miss": 113,
+    "inaccurate": 98,
+    "unverifiable": 160,
+    "unpaired": 1064
+  },
+  "n_quotes_total": 1640,
+  "n_quotes_scored": 416,
+  "strict_quote_rate": 0.4928,
+  "citations": {
+    "exists": 822,
+    "not_found": 61,
+    "unresolvable": 167
+  },
+  "existence_rate": 0.9309
+}
+{
+  "subset": "all_citations_exist",
+  "n_excerpts": 270,
+  "quote_verdicts": {
+    "accurate": 147,
+    "near_miss": 85,
+    "inaccurate": 72,
+    "unverifiable": 29,
+    "unpaired": 567
+  },
+  "n_quotes_total": 900,
+  "n_quotes_scored": 304,
+  "strict_quote_rate": 0.4836,
+  "citations": {
+    "exists": 584,
+    "not_found": 0,
+    "unresolvable": 0
+  },
+  "existence_rate": 1.0
+}
+wrote /Users/hardy30894/Documents/NYU_Research/citation_under_pressure/results/human_baseline.json

@@ -1,0 +1,56 @@
+deepseek   quota     exist  -0.015 [-0.039, +0.011]  
+deepseek   quota     strict -0.006 [-0.119, +0.116]  
+deepseek   temporal  exist  -0.018 [-0.057, +0.017]  
+deepseek   temporal  strict -0.114 [-0.237, +0.011]  
+deepseek   stakes    exist  +0.001 [-0.035, +0.032]  
+deepseek   stakes    strict +0.021 [-0.096, +0.139]  
+deepseek   combo     exist  -0.007 [-0.036, +0.024]  
+deepseek   combo     strict -0.168 [-0.267, -0.063] *
+gpt54mini  quota     exist  +0.003 [-0.016, +0.022]  
+gpt54mini  quota     strict +0.006 [-0.127, +0.147]  
+gpt54mini  temporal  exist  -0.020 [-0.051, +0.007]  
+gpt54mini  temporal  strict -0.116 [-0.292, +0.059]  
+gpt54mini  stakes    exist  +0.000 [-0.018, +0.021]  
+gpt54mini  stakes    strict +0.010 [-0.135, +0.159]  
+gpt54mini  combo     exist  -0.017 [-0.036, +0.002]  
+gpt54mini  combo     strict -0.105 [-0.266, +0.055]  
+grok43     quota     exist  -0.002 [-0.015, +0.014]  
+grok43     quota     strict +0.060 [-0.060, +0.179]  
+grok43     temporal  exist  -0.012 [-0.043, +0.017]  
+grok43     temporal  strict -0.002 [-0.142, +0.140]  
+grok43     stakes    exist  +0.002 [-0.004, +0.009]  
+grok43     stakes    strict +0.076 [-0.031, +0.186]  
+grok43     combo     exist  +0.004 [-0.010, +0.026]  
+grok43     combo     strict -0.126 [-0.269, +0.023]  
+llama4mav  quota     exist  +0.012 [-0.009, +0.035]  
+llama4mav  quota     strict -0.114 [-0.322, +0.087]  
+llama4mav  temporal  exist  -0.002 [-0.040, +0.031]  
+llama4mav  temporal  strict -0.332 [-0.534, -0.113] *
+llama4mav  stakes    exist  -0.002 [-0.046, +0.038]  
+llama4mav  stakes    strict -0.047 [-0.220, +0.121]  
+llama4mav  combo     exist  -0.022 [-0.061, +0.014]  
+llama4mav  combo     strict -0.263 [-0.449, -0.058] *
+mistralsmall quota     exist  +0.022 [-0.014, +0.060]  
+mistralsmall quota     strict -0.019 [-0.145, +0.099]  
+mistralsmall temporal  exist  -0.043 [-0.097, +0.007]  
+mistralsmall temporal  strict -0.200 [-0.313, -0.075] *
+mistralsmall stakes    exist  +0.012 [-0.035, +0.062]  
+mistralsmall stakes    strict -0.091 [-0.227, +0.049]  
+mistralsmall combo     exist  -0.034 [-0.078, +0.013]  
+mistralsmall combo     strict -0.099 [-0.231, +0.030]  
+qwen30b    quota     exist  -0.068 [-0.112, -0.027] *
+qwen30b    quota     strict +0.015 [-0.083, +0.111]  
+qwen30b    temporal  exist  -0.106 [-0.182, -0.037] *
+qwen30b    temporal  strict -0.057 [-0.143, +0.032]  
+qwen30b    stakes    exist  -0.056 [-0.110, -0.005] *
+qwen30b    stakes    strict -0.022 [-0.113, +0.058]  
+qwen30b    combo     exist  -0.150 [-0.233, -0.074] *
+qwen30b    combo     strict -0.121 [-0.214, -0.041] *
+sonnet     quota     exist  -0.006 [-0.016, +0.003]  
+sonnet     quota     strict -0.020 [-0.113, +0.070]  
+sonnet     temporal  exist  +0.004 [+0.000, +0.009]  
+sonnet     temporal  strict -0.001 [-0.090, +0.092]  
+sonnet     stakes    exist  +0.002 [-0.002, +0.008]  
+sonnet     stakes    strict +0.040 [-0.076, +0.147]  
+sonnet     combo     exist  +0.007 [+0.000, +0.015]  
+sonnet     combo     strict +0.124 [+0.003, +0.242] *

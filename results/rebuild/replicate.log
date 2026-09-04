@@ -1,0 +1,7 @@
+deepseek exist sd 0.006 0.012 strict sd 0.031 0.056 strict contrasts [-0.221, -0.216, -0.139]
+gpt54mini exist sd 0.013 0.006 strict sd 0.008 0.053 strict contrasts [-0.115, -0.172, -0.069]
+grok43 exist sd 0.004 0.009 strict sd 0.048 0.055 strict contrasts [-0.09, -0.221, -0.288]
+llama4mav exist sd 0.005 0.006 strict sd 0.03 0.015 strict contrasts [-0.319, -0.314, -0.377]
+mistralsmall exist sd 0.012 0.007 strict sd 0.005 0.024 strict contrasts [-0.102, -0.114, -0.077]
+qwen30b exist sd 0.023 0.05 strict sd 0.019 0.006 strict contrasts [-0.099, -0.138, -0.098]
+sonnet exist sd 0.002 0.003 strict sd 0.033 0.029 strict contrasts [0.125, 0.013, 0.022]

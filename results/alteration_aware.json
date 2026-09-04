@@ -1,216 +1,216 @@
 {
  "cells": {
   "deepseek:baseline": {
-   "strict": 0.2814,
-   "alteration_aware": 0.3033,
-   "scored_strict": 366,
-   "scored_alt": 366
+   "strict": 0.3532,
+   "alteration_aware": 0.381,
+   "scored_strict": 252,
+   "scored_alt": 252
   },
   "deepseek:combo": {
-   "strict": 0.1203,
-   "alteration_aware": 0.131,
-   "scored_strict": 374,
-   "scored_alt": 374
+   "strict": 0.1317,
+   "alteration_aware": 0.1423,
+   "scored_strict": 281,
+   "scored_alt": 281
   },
   "deepseek:quota": {
-   "strict": 0.2659,
-   "alteration_aware": 0.2976,
-   "scored_strict": 410,
-   "scored_alt": 410
+   "strict": 0.3368,
+   "alteration_aware": 0.375,
+   "scored_strict": 288,
+   "scored_alt": 288
   },
   "deepseek:stakes": {
-   "strict": 0.2695,
-   "alteration_aware": 0.2874,
-   "scored_strict": 334,
-   "scored_alt": 334
+   "strict": 0.3416,
+   "alteration_aware": 0.3621,
+   "scored_strict": 243,
+   "scored_alt": 243
   },
   "deepseek:temporal": {
-   "strict": 0.1867,
-   "alteration_aware": 0.2,
-   "scored_strict": 300,
-   "scored_alt": 300
+   "strict": 0.233,
+   "alteration_aware": 0.2427,
+   "scored_strict": 206,
+   "scored_alt": 206
   },
   "gpt54mini:baseline": {
-   "strict": 0.4599,
-   "alteration_aware": 0.492,
+   "strict": 0.5354,
+   "alteration_aware": 0.5827,
+   "scored_strict": 127,
+   "scored_alt": 127
+  },
+  "gpt54mini:combo": {
+   "strict": 0.4205,
+   "alteration_aware": 0.4659,
+   "scored_strict": 88,
+   "scored_alt": 88
+  },
+  "gpt54mini:stakes": {
+   "strict": 0.5349,
+   "alteration_aware": 0.5659,
+   "scored_strict": 129,
+   "scored_alt": 129
+  },
+  "gpt54mini:temporal": {
+   "strict": 0.3919,
+   "alteration_aware": 0.4054,
+   "scored_strict": 74,
+   "scored_alt": 74
+  },
+  "gpt54mini:quota": {
+   "strict": 0.5603,
+   "alteration_aware": 0.5862,
+   "scored_strict": 116,
+   "scored_alt": 116
+  },
+  "grok43:baseline": {
+   "strict": 0.3758,
+   "alteration_aware": 0.4551,
+   "scored_strict": 157,
+   "scored_alt": 156
+  },
+  "grok43:combo": {
+   "strict": 0.2857,
+   "alteration_aware": 0.3025,
+   "scored_strict": 119,
+   "scored_alt": 119
+  },
+  "grok43:quota": {
+   "strict": 0.4429,
+   "alteration_aware": 0.5072,
+   "scored_strict": 140,
+   "scored_alt": 138
+  },
+  "grok43:stakes": {
+   "strict": 0.4148,
+   "alteration_aware": 0.5075,
+   "scored_strict": 135,
+   "scored_alt": 134
+  },
+  "grok43:temporal": {
+   "strict": 0.3417,
+   "alteration_aware": 0.3583,
+   "scored_strict": 120,
+   "scored_alt": 120
+  },
+  "llama4mav:baseline": {
+   "strict": 0.549,
+   "alteration_aware": 0.5882,
+   "scored_strict": 51,
+   "scored_alt": 51
+  },
+  "llama4mav:combo": {
+   "strict": 0.2295,
+   "alteration_aware": 0.2295,
+   "scored_strict": 61,
+   "scored_alt": 61
+  },
+  "llama4mav:quota": {
+   "strict": 0.4074,
+   "alteration_aware": 0.4691,
+   "scored_strict": 81,
+   "scored_alt": 81
+  },
+  "llama4mav:stakes": {
+   "strict": 0.5185,
+   "alteration_aware": 0.5556,
+   "scored_strict": 54,
+   "scored_alt": 54
+  },
+  "llama4mav:temporal": {
+   "strict": 0.2143,
+   "alteration_aware": 0.2143,
+   "scored_strict": 42,
+   "scored_alt": 42
+  },
+  "mistralsmall:baseline": {
+   "strict": 0.2513,
+   "alteration_aware": 0.262,
    "scored_strict": 187,
    "scored_alt": 187
   },
-  "gpt54mini:combo": {
-   "strict": 0.2937,
-   "alteration_aware": 0.3254,
-   "scored_strict": 126,
-   "scored_alt": 126
-  },
-  "gpt54mini:quota": {
-   "strict": 0.454,
-   "alteration_aware": 0.477,
-   "scored_strict": 174,
-   "scored_alt": 174
-  },
-  "gpt54mini:stakes": {
-   "strict": 0.4225,
-   "alteration_aware": 0.4413,
-   "scored_strict": 213,
-   "scored_alt": 213
-  },
-  "gpt54mini:temporal": {
-   "strict": 0.3226,
-   "alteration_aware": 0.3387,
-   "scored_strict": 124,
-   "scored_alt": 124
-  },
-  "grok43:baseline": {
-   "strict": 0.3263,
-   "alteration_aware": 0.3787,
-   "scored_strict": 236,
-   "scored_alt": 235
-  },
-  "grok43:combo": {
-   "strict": 0.2465,
-   "alteration_aware": 0.2587,
-   "scored_strict": 142,
-   "scored_alt": 143
-  },
-  "grok43:quota": {
-   "strict": 0.3874,
-   "alteration_aware": 0.4339,
-   "scored_strict": 191,
-   "scored_alt": 189
-  },
-  "grok43:stakes": {
-   "strict": 0.405,
-   "alteration_aware": 0.4573,
-   "scored_strict": 200,
-   "scored_alt": 199
-  },
-  "grok43:temporal": {
-   "strict": 0.2675,
-   "alteration_aware": 0.2866,
-   "scored_strict": 157,
-   "scored_alt": 157
-  },
-  "llama4mav:baseline": {
-   "strict": 0.402,
-   "alteration_aware": 0.4118,
-   "scored_strict": 102,
-   "scored_alt": 102
-  },
-  "llama4mav:combo": {
-   "strict": 0.1795,
-   "alteration_aware": 0.188,
-   "scored_strict": 117,
-   "scored_alt": 117
-  },
-  "llama4mav:quota": {
-   "strict": 0.3268,
-   "alteration_aware": 0.3595,
-   "scored_strict": 153,
-   "scored_alt": 153
-  },
-  "llama4mav:stakes": {
-   "strict": 0.3804,
-   "alteration_aware": 0.4022,
-   "scored_strict": 92,
-   "scored_alt": 92
-  },
-  "llama4mav:temporal": {
-   "strict": 0.1392,
-   "alteration_aware": 0.1646,
-   "scored_strict": 79,
-   "scored_alt": 79
-  },
-  "mistralsmall:baseline": {
-   "strict": 0.2068,
-   "alteration_aware": 0.211,
-   "scored_strict": 237,
-   "scored_alt": 237
-  },
   "mistralsmall:combo": {
-   "strict": 0.1361,
-   "alteration_aware": 0.1392,
-   "scored_strict": 316,
-   "scored_alt": 316
+   "strict": 0.1492,
+   "alteration_aware": 0.1573,
+   "scored_strict": 248,
+   "scored_alt": 248
   },
   "mistralsmall:quota": {
-   "strict": 0.2612,
-   "alteration_aware": 0.2784,
-   "scored_strict": 291,
-   "scored_alt": 291
+   "strict": 0.2836,
+   "alteration_aware": 0.3184,
+   "scored_strict": 201,
+   "scored_alt": 201
   },
   "mistralsmall:stakes": {
-   "strict": 0.1673,
-   "alteration_aware": 0.1918,
-   "scored_strict": 245,
-   "scored_alt": 245
+   "strict": 0.191,
+   "alteration_aware": 0.2191,
+   "scored_strict": 178,
+   "scored_alt": 178
   },
   "mistralsmall:temporal": {
-   "strict": 0.1166,
-   "alteration_aware": 0.1206,
-   "scored_strict": 283,
-   "scored_alt": 282
+   "strict": 0.1327,
+   "alteration_aware": 0.1422,
+   "scored_strict": 211,
+   "scored_alt": 211
   },
   "qwen30b:baseline": {
-   "strict": 0.175,
-   "alteration_aware": 0.1821,
-   "scored_strict": 280,
-   "scored_alt": 280
+   "strict": 0.1609,
+   "alteration_aware": 0.1652,
+   "scored_strict": 230,
+   "scored_alt": 230
   },
   "qwen30b:combo": {
-   "strict": 0.0716,
-   "alteration_aware": 0.0742,
-   "scored_strict": 391,
-   "scored_alt": 391
+   "strict": 0.0615,
+   "alteration_aware": 0.0615,
+   "scored_strict": 325,
+   "scored_alt": 325
   },
   "qwen30b:quota": {
-   "strict": 0.1648,
-   "alteration_aware": 0.1704,
-   "scored_strict": 358,
-   "scored_alt": 358
+   "strict": 0.1831,
+   "alteration_aware": 0.1972,
+   "scored_strict": 284,
+   "scored_alt": 284
   },
   "qwen30b:stakes": {
-   "strict": 0.1454,
-   "alteration_aware": 0.1489,
-   "scored_strict": 282,
-   "scored_alt": 282
+   "strict": 0.181,
+   "alteration_aware": 0.1857,
+   "scored_strict": 210,
+   "scored_alt": 210
   },
   "qwen30b:temporal": {
-   "strict": 0.0808,
-   "alteration_aware": 0.0846,
+   "strict": 0.0891,
+   "alteration_aware": 0.0891,
+   "scored_strict": 202,
+   "scored_alt": 202
+  },
+  "sonnet:baseline": {
+   "strict": 0.4885,
+   "alteration_aware": 0.5231,
    "scored_strict": 260,
    "scored_alt": 260
   },
-  "sonnet:baseline": {
-   "strict": 0.3333,
-   "alteration_aware": 0.3617,
-   "scored_strict": 423,
-   "scored_alt": 423
-  },
   "sonnet:combo": {
-   "strict": 0.4268,
-   "alteration_aware": 0.4486,
-   "scored_strict": 321,
-   "scored_alt": 321
+   "strict": 0.6134,
+   "alteration_aware": 0.6443,
+   "scored_strict": 194,
+   "scored_alt": 194
   },
   "sonnet:quota": {
-   "strict": 0.3326,
-   "alteration_aware": 0.3605,
-   "scored_strict": 466,
-   "scored_alt": 466
+   "strict": 0.4783,
+   "alteration_aware": 0.5181,
+   "scored_strict": 276,
+   "scored_alt": 276
   },
   "sonnet:stakes": {
-   "strict": 0.3901,
-   "alteration_aware": 0.4079,
-   "scored_strict": 382,
-   "scored_alt": 380
+   "strict": 0.5667,
+   "alteration_aware": 0.6109,
+   "scored_strict": 240,
+   "scored_alt": 239
   },
   "sonnet:temporal": {
-   "strict": 0.3769,
-   "alteration_aware": 0.4125,
-   "scored_strict": 337,
-   "scored_alt": 337
+   "strict": 0.5021,
+   "alteration_aware": 0.5451,
+   "scored_strict": 233,
+   "scored_alt": 233
   }
  },
- "max_cell_diff": 0.0524,
- "mean_cell_diff": 0.0201
+ "max_cell_diff": 0.0927,
+ "mean_cell_diff": 0.0281
 }

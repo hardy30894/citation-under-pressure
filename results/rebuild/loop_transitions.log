@@ -1,0 +1,7 @@
+deepseek {'true:flagged:deleted': 75, 'true:flagged:dequoted': 46, 'true:flagged:edited:flagged': 3, 'true:flagged:kept:flagged': 13, 'true:flagged:replaced': 1}
+gpt54mini {'true:flagged:deleted': 16, 'true:flagged:dequoted': 1, 'true:flagged:edited:accurate': 1, 'true:flagged:kept:flagged': 6}
+grok43 {'true:flagged:deleted': 15, 'true:flagged:dequoted': 21, 'true:flagged:kept:flagged': 1}
+llama4mav {'true:flagged:deleted': 21, 'true:flagged:dequoted': 3, 'true:flagged:edited:flagged': 1, 'true:flagged:kept:flagged': 8}
+mistralsmall {'true:flagged:deleted': 28, 'true:flagged:dequoted': 14, 'true:flagged:edited:flagged': 8, 'true:flagged:kept:accurate': 2, 'true:flagged:kept:flagged': 43, 'true:flagged:replaced': 2}
+qwen30b {'true:flagged:deleted': 22, 'true:flagged:dequoted': 9, 'true:flagged:edited:flagged': 7, 'true:flagged:kept:flagged': 100}
+sonnet {'true:flagged:deleted': 26, 'true:flagged:dequoted': 4, 'true:flagged:edited:accurate': 2, 'true:flagged:kept:accurate': 1, 'true:flagged:kept:flagged': 2, 'true:flagged:replaced': 5}
