@@ -949,3 +949,36 @@ before or after seeing the relevant data. Nothing is deleted.
   where a reviewer meets it on page 1 rather than page 10. Every body
   page now ends on the same baseline (y=124.1) and there is no layout
   hack in the source.
+- 2026-09-05 (review of the 18:52 build; twelve of fifteen prior
+  comments confirmed fixed, presentation raised to 4). Four of the new
+  items were real and three of those were self-inflicted by the
+  compression of the previous rounds.
+  (1) The paper contradicted itself on its own error bound: Section 5
+  called 78 percent an upper bound and Section 8 a lower one. Lower is
+  right, since both later corrections removed only checker-side
+  verdicts, so the realised crossing of 0.44 to 0.52 is a lower bound
+  too. Section 5 corrected.
+  (2) The abstract said the date clause moves the model onto unfamiliar
+  authority while Section 3 said it moves citations toward
+  well-memorized opinions. The data say unfamiliar (24 percent of the
+  temporal arm's quotations cite authority the model also uses at
+  baseline). Section 3 now records that as an expectation the results
+  overturn, which is what it is, and Section 4's memorisation aside is
+  rewritten to match.
+  (3) The 78 percent was measured on inaccurate verdicts only, while the
+  flag set is inaccurate or near miss and no near-miss flag was audited.
+  Said in Section 5 and Limitations.
+  (4) The Discussion's removal claim was true of the flags a model acted
+  on and misleading for Qwen3-30B, which acted on 23 of 139 and left 116
+  standing. Scoped, with the counts given, and the Conclusion now says a
+  model acting on the flags satisfies them by removal.
+  Not addressed: the arithmetic alternative to the count outcome
+  (citations rise in a fixed word budget while scored quotations fall),
+  the abstract's residual mediation claim against the null bucketed
+  check, and an interval on the crossing. These are recorded here rather
+  than fixed.
+  Page fit: ten pages hold with \enlargethispage{2\baselineskip} before
+  the Conclusion, so page 10 runs two lines below its neighbours. That
+  is a deliberate and documented deviation, taken after cutting four
+  further lines of prose failed to close the gap; the earlier
+  four-baselineskip version was rejected as too large.

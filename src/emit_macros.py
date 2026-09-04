@@ -1047,6 +1047,11 @@ if lt2.exists():
         for m, mk in ALPHA.items():
             emit2(f"trDeq{mk}{ak}", str(t[m].get(f"{arm}:flagged:dequoted", 0)))
             emit2(f"trDel{mk}{ak}", str(t[m].get(f"{arm}:flagged:deleted", 0)))
+            left = sum(t[m].get(f"{arm}:flagged:{k}", 0) for k in ("kept:flagged", "edited:flagged"))
+            acted = sum(t[m].get(f"{arm}:flagged:{k}", 0) for k in
+                        ("kept:accurate", "edited:accurate", "replaced", "dequoted", "deleted"))
+            emit2(f"trActed{mk}{ak}", str(acted))
+            emit2(f"trLeft{mk}{ak}", str(left))
 
 # the date clause: damage or composition (src/era_strata.py)
 es = R / "era_strata.json"
