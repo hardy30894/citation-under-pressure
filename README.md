@@ -68,17 +68,19 @@ three combined. Every citation in the resulting 1,680 drafts (1,344 of
 them under some pressure) was adjudicated deterministically, with no
 LLM judge anywhere in the primary measurements.
 
-Pressure degrades citation integrity from the bottom of the ladder up.
-The 30B model's citation existence falls from 0.924 to 0.773 under
-combined pressure (odds ratio 0.30, corrected p < 0.001), strict
-quotation accuracy falls significantly for four of the seven models
-after Holm correction (Qwen3-30B, DeepSeek, Llama-4, Mistral Small) and
-for six of seven once three generations are pooled, and the models
-refused the task three times in 1,344 pressured drafts. Sonnet 5 is the
-exception: its accuracy is numerically higher under every pressure
-condition (0.488 at baseline, 0.613 under combined pressure, uncorrected
-p 0.03, corrected 0.25), and on the appellate task the sanctions warning
-alone raises it after correction.
+The effects are specific to the model and the constraint, and the
+failure mode moves with capability. The 30B model's citation existence
+falls from 0.924 to 0.773 under combined pressure (odds ratio 0.30,
+corrected p < 0.001); strict quotation accuracy falls significantly for
+four of the seven models after Holm correction (Qwen3-30B, DeepSeek,
+Llama-4, Mistral Small) and for six of seven once three generations are
+pooled; the models refused the task three times in 1,344 pressured
+drafts. Sonnet 5 does not degrade: its accuracy is numerically higher
+under the temporal, stakes, and combined conditions (0.488 at baseline,
+0.613 under combined pressure, uncorrected p 0.03, corrected 0.25), on
+the appellate task the sanctions warning alone raises it after
+correction, and its residual errors are paraphrase presented as
+quotation, real language from the wrong case, and wrong pages.
 
 A second experiment placed the checker inside the drafting loop. Under
 true feedback the strongest model's strict accuracy rose from 0.688 to

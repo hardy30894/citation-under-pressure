@@ -545,3 +545,14 @@ before or after seeing the relevant data. Nothing is deleted.
   mismatch and era-check sentences. Page 2 keeps a tolerated underfull
   (badness 5,681) from a paragraph the class will not split under its
   widow rule.
+- 2026-09-04 (reader's review, six items): the Conclusion and abstract
+  lead with the failure mode moving with capability (existence at 30B,
+  verbatim quotation in the middle, paraphrase, misattribution, and
+  wrong pages at the top) and scope every effect to the model and the
+  constraint; strict accuracy is defined over attributed quotations in
+  Terms and the Table 1 caption; "quotes above the human floor" replaced
+  by the two rates; Holm within model justified as the family the paper
+  draws conclusions about, with the effective sample named as 48
+  matters; numeric detail cut from the abstract, the Section 4 prose, and
+  the precision-curve sentence. Ten pages, no underfull page but the
+  reference page.
