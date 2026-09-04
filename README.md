@@ -464,13 +464,15 @@ match, drops alteration parentheticals, and compares the fragments with
 the normalized text $T$ of the opinion the quotation is attributed to
 (case and punctuation insensitive):
 
-$$\text{accurate} \iff \forall j\; f_j \sqsubseteq T, \qquad
-\text{near miss} \iff \min_j \mathrm{cov}(f_j, T) \ge 0.85,$$
+the quotation is *accurate* when every $f_j$ is a substring of $T$,
+and otherwise a *near miss* when
 
-where $f_j \sqsubseteq T$ means $f_j$ is a substring of $T$ and
-$\mathrm{cov}(f_j, T)$ is the share of the fragment's words of five or
-more letters that occur in $T$; anything else is inaccurate, so the
-alterations lawyers make legitimately pass and a changed word does not. The lenient rate, which admits near misses, is
+$$\min_j \mathrm{cov}(f_j, T) \ge 0.85,$$
+
+where $\mathrm{cov}(f_j, T)$ is the share of the fragment's words of
+five or more letters that occur in $T$; anything else is inaccurate, so
+the alterations lawyers make legitimately pass and a changed word does
+not. The lenient rate, which admits near misses, is
 reported beside it as a diagnostic. The literal matcher the strict
 standard replaced, which read a bracketed alteration as its contents,
 is kept as the comparison (`src/alteration_aware.py`): human lawyers
@@ -492,7 +494,7 @@ attributed quotations.
 The primary analysis is a citation-level logistic generalized
 estimating equation per model,
 
-$$\operatorname{logit} P(y_{imk} = 1) = \beta_0 + \beta_k,$$
+$$\mathrm{logit}\, P(y_{imk} = 1) = \beta_0 + \beta_k,$$
 
 for the existence or accuracy indicator $y_{imk}$ of item $i$ in matter
 $m$ under condition $k$, with exchangeable working correlation within
