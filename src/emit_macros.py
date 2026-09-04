@@ -901,6 +901,8 @@ if rv.exists():
                 emit2(f"pairDiff{mk}{ck}", f"{v['mean_diff']:+.2f}")
                 emit2(f"pairP{mk}{ck}", f"{v['wilcoxon_p']:.3f}" if v["wilcoxon_p"] >= 0.001 else "$<$0.001")
 
+WORDS_ = ["zero", "one", "two", "three", "four", "five", "six", "seven"]
+
 # the count outcome (src/count_outcome.py): accurate quotations per draft
 # tested against baseline, Wilcoxon paired by matter, Holm within model
 co = R / "count_outcome.json"
@@ -908,7 +910,7 @@ if co.exists():
     t = json.loads(co.read_text())
     surv = [k for k, v in t["tests"].items() if v["holm_p"] < 0.05]
     emit2("countSurvivors", str(len(surv)))
-    emit2("countModelsWithFall", str(len({k.split(":")[0] for k in surv})))
+    emit2("countModelsWithFall", WORDS_[len({k.split(":")[0] for k in surv})])
     emit2("countFallsTemporal", str(sum(1 for k in surv if k.endswith(":temporal"))))
     emit2("countFallsCombo", str(sum(1 for k in surv if k.endswith(":combo"))))
     for k, v in t["tests"].items():

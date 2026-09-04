@@ -813,3 +813,12 @@ before or after seeing the relevant data. Nothing is deleted.
   the lines separate in greyscale. Page fit took about 3,000 characters
   out of the intro, related work, method, and discussion; the release
   link is Hardy's to fix.
+- 2026-09-05 (abstract rewritten): the previous abstract was a results
+  list with no through-line and never stated the paper's claim. Rewritten
+  with a spine, problem, design, the two experiments, and closing on the
+  point the Discussion makes: a rate computed over what a model chooses
+  to expose to a check can rise while the correct output behind it does
+  not, so an evaluation should report the count beside the rate. The
+  stratified date-clause result is now in the abstract; the loop control
+  detail and per-fit qualifiers came out. countModelsWithFall now emits
+  a word, so the abstract no longer mixes "three models" with "5 models".
