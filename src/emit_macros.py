@@ -717,6 +717,23 @@ if sr.exists():
     emit2("auditSampleN", str(t["n"]))
     emit2("auditSampleCheckerSidePct", str(round(100 * t["checker_side"] / t["n"])))
 
+# why quotations are unpaired (results/unpaired_causes.json, written by the
+# classification in docs/LEDGER.md 2026-09-04)
+uc = R / "unpaired_causes.json"
+if uc.exists():
+    t = json.loads(uc.read_text())
+    tot = {"all": 0, "noncase_marker": 0, "no_citation_in_paragraph": 0, "other": 0}
+    for m in ALPHA:
+        for k in tot:
+            tot[k] += t.get(m, {}).get(k, 0)
+    if tot["all"]:
+        emit2("unpairedNoncasePct", str(round(100 * tot["noncase_marker"] / tot["all"])))
+        emit2("unpairedNoCitePct", str(round(100 * tot["no_citation_in_paragraph"] / tot["all"])))
+        emit2("unpairedFarPct", str(round(100 * tot["other"] / tot["all"])))
+    pcts = [100 * (t[m]["noncase_marker"] + t[m]["no_citation_in_paragraph"] + t[m]["other"]) / t[m]["all"] for m in ALPHA if m in t]
+    emit2("unpairedPctMin", str(round(min(pcts))))
+    emit2("unpairedPctMax", str(round(max(pcts))))
+
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")
 print(f"+{len(extra)} revision macros")

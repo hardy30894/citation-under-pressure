@@ -1,0 +1,51 @@
+{
+ "deepseek": {
+  "all": 2211,
+  "noncase_marker": 570,
+  "no_citation_in_paragraph": 254,
+  "other": 44
+ },
+ "glm47flash": {
+  "all": 527,
+  "noncase_marker": 151,
+  "other": 16,
+  "no_citation_in_paragraph": 86
+ },
+ "gpt54mini": {
+  "all": 970,
+  "noncase_marker": 269,
+  "no_citation_in_paragraph": 126,
+  "other": 14
+ },
+ "grok43": {
+  "all": 1010,
+  "noncase_marker": 226,
+  "no_citation_in_paragraph": 89,
+  "other": 10
+ },
+ "grok43_workers.log": {},
+ "llama4mav": {
+  "all": 531,
+  "no_citation_in_paragraph": 74,
+  "noncase_marker": 139,
+  "other": 3
+ },
+ "mistralsmall": {
+  "all": 1684,
+  "noncase_marker": 384,
+  "no_citation_in_paragraph": 123,
+  "other": 22
+ },
+ "qwen30b": {
+  "all": 2483,
+  "noncase_marker": 537,
+  "no_citation_in_paragraph": 276,
+  "other": 103
+ },
+ "sonnet": {
+  "all": 1957,
+  "noncase_marker": 491,
+  "no_citation_in_paragraph": 159,
+  "other": 84
+ }
+}

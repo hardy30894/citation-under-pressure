@@ -536,3 +536,12 @@ before or after seeing the relevant data. Nothing is deleted.
   inaccurate of which 5 the checker's (1.9 percent), 140 of 330 with the
   true source in the same draft. The "Relevance" paragraph is folded into
   Limitations and the Conclusion shortened for the page fit.
+- 2026-09-04 (last items): unpaired quotations classified by cause
+  (results/unpaired_causes.json: of 10,846 quotations, 24 percent are
+  introduced by non-case material, 10 percent stand in a paragraph that
+  cites nothing, 3 percent have a citation too far back; per-model share
+  31 to 42 percent); one sentence in Section 3. Limitations names the
+  post hoc correction of the attribution rule. README gains the name
+  mismatch and era-check sentences. Page 2 keeps a tolerated underfull
+  (badness 5,681) from a paragraph the class will not split under its
+  widow rule.

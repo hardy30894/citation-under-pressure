@@ -344,6 +344,8 @@ of 759 to F.2d, F.3d, and F. Supp. (0.4 percent) and 1 of 227 to the
 U.S. Reports, so the 22 percent not-found rate the models produce on
 those reporters is not coverage.
 
+Two further checks sit in Section 3 and Section 4 of the paper. Existence means the volume, reporter, and page resolve to an indexed opinion; the case name is compared separately (`src/name_mismatch.py`), and 205 of 11,769 resolving citations (1.7 percent) carry a name the index does not match, a ceiling that includes abbreviated names, so the cells near 1.00 do not rest on wrong pages landing on real opinions. And the temporal fall is not an artifact of scanned text: within the baseline condition alone, strict accuracy for quotations from opinions decided before 1970 is 0.392 against 0.354 for later ones (`src/era_check.py`).
+
 The verbatim standard was also tested against the alterations lawyers
 make legitimately. The matcher already ignores case and punctuation,
 splits on ellipses, and reads a bracketed alteration as its contents;
