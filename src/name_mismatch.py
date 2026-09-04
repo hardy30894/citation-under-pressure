@@ -20,7 +20,11 @@ condition: citations that resolve, those with a name check, and
 mismatches (the checker's raw flag is kept beside it for the record). A
 mismatch is a real volume and page carrying a different case name, the
 kind of error a wrong page number produces. Writes
-results/name_mismatch.json."""
+results/name_mismatch.json, and results/records_nm.jsonl, a copy of
+records.jsonl in which every mismatched occurrence is relabelled
+not_found, for the sensitivity fit (gee.py --records records_nm.jsonl
+--out stats_gee_nm.json) that counts a mismatch as a citation that does
+not exist."""
 
 import json
 import re
@@ -69,6 +73,7 @@ def main():
     index = SqliteIndex(DB)
     out = defaultdict(lambda: Counter())
     examples = []
+    mism = Counter()  # (model, matter, cond, citation) -> mismatched occurrences
     for model in MODELS:
         for p in sorted((HERE / "results" / f"full_{model}" / "drafts").glob("*.txt")):
             matter, cond = re.match(r"(.+)_([a-z]+)$", p.stem).groups()
@@ -98,6 +103,7 @@ def main():
                 c["name_checked"] += 1
                 if not (ctoks & itoks):
                     c["mismatch"] += 1
+                    mism[(model, matter, cond, str(cite.corrected_citation()))] += 1
                     if len(examples) < 40:
                         examples.append({"model": model, "draft": p.stem, "citation": str(cite.corrected_citation()),
                                          "claimed": claimed, "index": hit.get("case_name")})
@@ -113,6 +119,20 @@ def main():
     res["_per_model"] = {m: dict(v) for m, v in per_model.items()}
     res["_examples"] = examples
     (HERE / "results" / "name_mismatch.json").write_text(json.dumps(res, indent=1))
+    left = Counter(mism)
+    relabelled = 0
+    with open(HERE / "results" / "records_nm.jsonl", "w") as f:
+        for l in open(HERE / "results" / "records.jsonl"):
+            r = json.loads(l)
+            key = (r["model"], r["matter"], r["condition"], r.get("citation"))
+            if r["kind"] == "citation" and r["verdict"] == "exists" and left[key] > 0:
+                left[key] -= 1
+                r["verdict"] = "not_found"
+                relabelled += 1
+            f.write(json.dumps(r) + "\n")
+    res["_relabelled"] = relabelled
+    (HERE / "results" / "name_mismatch.json").write_text(json.dumps(res, indent=1))
+    print("relabelled", relabelled, "of", sum(mism.values()))
     for k in sorted(out):
         v = out[k]
         print(f"{k:24s} exists {v['exists']:5d} checked {v['name_checked']:5d} "

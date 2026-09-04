@@ -85,7 +85,7 @@ def fig4():
     ax2.set_ylim(0, 1.0); ax2.set_ylabel("strict quotation accuracy")
     h1, l1 = ax1.get_legend_handles_labels(); h2, l2 = ax2.get_legend_handles_labels()
     ax1.legend(h1 + h2, l1 + l2, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=3, fontsize=8)
-    ax1.set_title("Sonnet 5: the rate rises because it quotes less")
+    ax1.set_title("Sonnet 5: the rate rises while it quotes less")
     for ax in (ax1, ax2):
         ax.spines["top"].set_visible(False)
     fig.tight_layout()

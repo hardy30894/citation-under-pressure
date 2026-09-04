@@ -646,3 +646,68 @@ before or after seeing the relevant data. Nothing is deleted.
   the three findings each in subsections that state the claim and carry
   the figure that supports it, then Method, How the instrument was
   checked, Robustness, prior work, repository guide; every number kept.
+- 2026-09-05 (review of the 01:31 build, six majors and seven minors,
+  applied without a rebuild): (1) the audit's error is now carried into
+  the contrasts: src/audit_sensitivity.py reclassifies every inaccurate
+  verdict as unpaired with its condition's checker-side probability, 200
+  draws, eight-test Holm family refit each draw; all eight pre-registered
+  survivors survive in every draw at the observed shares and in at least
+  99 percent of draws at each condition's Wilson upper bound
+  (results/audit_sensitivity.json). The reading is reported by condition
+  including baseline (8 of 28) and by model (14 to 27 percent), and a
+  further 40-item reading of the grounded arm (seed 20260906,
+  results/attribution_audit_grounded_sample.md) found 14 of 40 on the
+  checker's side (35 percent, 22 to 50): 6 statutory or policy text, 4
+  lower-court words, 4 wrong bindings. The rerun loop's flags are the
+  corrected rule's verdicts, so their audited precision on quotation
+  flags (78 percent, 71 to 84) is stated and Figure 2's precision axis
+  is called nominal. (2) Accurate quotations per draft is tested as an
+  outcome for every model (src/count_outcome.py, post hoc, Wilcoxon paired
+  by matter, Holm within model): seven contrasts in four models survive,
+  DeepSeek, Llama-4, GPT-5.4-mini, and Grok 4.3, the last two with no
+  surviving rate contrast; Sonnet 5's count is flat (p 0.53) while its
+  inaccurate count falls 2.58 to 1.44, which is the evidence for
+  selection, now stated as the leading explanation, not a fact. The
+  existence arithmetic is reconciled: 13,241 of 14,040 records resolve,
+  774 not found; 11,769 is the name-checked subset. (3) One family rule
+  is stated (Holm within model over each fit's own tests), every other
+  fit is labelled exploratory, the five effects that hold under both
+  templates are named, the seven template-B-only survivors are named,
+  Llama-4's "largest drop" is qualified as not replicating, and the
+  abstract marks the four as pre-registered, three under both templates,
+  and the six of seven as exploratory. results/contrast_matrix.{csv,md}
+  (src/contrast_matrix.py) gives all 56 contrasts under eleven fits.
+  (4) Table 2 splits Clean into with-quotations / emptied, gives the
+  pooled round-0 rate beside the pooled final, and every paired test
+  carries its n; the intent-to-treat count (accurate quotations per draft
+  over all 24 episodes) rises for Mistral Small alone; "Mistral Small left
+  most flags standing" corrected to 45 of 96. (5) The human line in
+  Figure 1 is labelled a severity floor, not a comparison, and the Llama-4
+  sentence no longer sets its rate beside it; the pinpoint scope
+  (quotation-bearing pinpoints on U.S. Reports authority, quotations
+  found in the cited case, ranges read at the first page, straddling
+  quotations placed by the longest fragment) is stated in the abstract,
+  introduction, and Section 3; the strict standard's remaining gap, an
+  internal citation omitted without an ellipsis, is stated. (6) The
+  precision result is stated against the no-feedback arm (20 at 0.5 is
+  what revision alone removes, 21); "where the checker belongs" and the
+  strict-standard advice are labelled recommendations from arms with no
+  person in them. Minors: temporal clause direction (toward memorized
+  authority, the gentler direction) and Rule 11 governing neither forum;
+  the 3 percent unpaired remainder; tables reordered so Llama-4 (0.588)
+  follows GPT-5.4-mini (0.583); the two partitions of Sonnet 5's 250 are
+  stated as two partitions by different questions; "window search" is
+  now "best-matching passage"; name mismatches reported by model and
+  condition with a sensitivity fit counting them as not found
+  (src/name_mismatch.py writes results/records_nm.jsonl; stats_gee_nm.json
+  keeps the three Qwen survivors, adds Mistral temporal at Holm 0.041,
+  removes Sonnet 5's uncorrected combined rise, OR 1.07); the grounded
+  odds ratio carries its interval and p; the Liu et al. precision is
+  derived from their reported recall and F1 (84.4 and 55.0, precision
+  near 41 percent). Two instrument faults found by the grounded reading
+  are staged, not applied: a party token matched inside a longer word
+  ("under" in "understanding") and the omitted-internal-citation gap;
+  docs/pending_instrument_fixes.patch carries both with two new seeded
+  plants, and applying it requires the full rebuild. Page fit: abstract
+  and several paragraphs tightened, tables set in scriptsize, figures at
+  1.1 in; body ends on page 10, references begin on page 11.

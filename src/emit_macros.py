@@ -154,6 +154,13 @@ if rs_path.exists():
             emit2(f"ln{mk}{ck}", str(v["n_pairs"]))
     emit2("unverifiablePct", f"{rs['unverifiable_share_pct']:.1f}")
     emit2("nCitationRecords", f"{rs['n_citation_records']:,}")
+    vc = {}
+    for l in open(R / "records.jsonl"):
+        r = json.loads(l)
+        if r["kind"] == "citation":
+            vc[r["verdict"]] = vc.get(r["verdict"], 0) + 1
+    emit2("nResolving", f"{vc.get('exists', 0):,}")
+    emit2("nNotFoundAll", str(vc.get("not_found", 0)))
     emit2("sonnetTempChecked", str(rs["sonnet_temporal_checked"]))
     emit2("sonnetTempViol", str(rs["sonnet_temporal_viol"]))
     gm = rs["glm_missing"]
@@ -838,6 +845,160 @@ if rpf.exists():
             v = t.get(f"loop_v1:{m}", {}).get(arm)
             if v and v["r1"]["precision"] is not None:
                 emit2(f"rp{ak}{mk}", f"{v['r1']['precision']:.2f}")
+
+# grounded odds ratios with their intervals and p values
+if gs.exists():
+    g = json.loads(gs.read_text())
+    for k, v in g["gee"].items():
+        kind, m, c = k.split(":")
+        mk = ALPHA.get(m)
+        if mk and v.get("OR") is not None:
+            kk = "Cite" if kind == "citation" else "Quote"
+            emit2(f"gCiLow{kk}{mk}{CONDS[c]}", f"{v['ci_low']:.1f}" if v["ci_low"] >= 10 else f"{v['ci_low']:.2f}")
+            emit2(f"gCiHigh{kk}{mk}{CONDS[c]}", f"{v['ci_high']:.1f}" if v["ci_high"] >= 10 else f"{v['ci_high']:.2f}")
+            emit2(f"gP{kk}{mk}{CONDS[c]}", f"{v['p']:.3f}" if v["p"] >= 0.001 else "$<$0.001")
+
+# intent-to-treat loop counts: accurate quotations per draft over every
+# episode of an arm, round 0 and final, and the pooled round-0 rate
+if rl.exists():
+    rows = json.loads(rl.read_text())
+    for m, mk in ALPHA.items():
+        if m not in rows:
+            continue
+        for arm, ak in (("true", "True"), ("scrambled", "Scr"), ("none", "None"), ("half", "Half"), ("quarter", "Quarter"), ("threequarter", "Threeq"), ("passage", "Passage")):
+            sub = [r for r in rows[m] if r["arm"] == arm]
+            if not sub:
+                continue
+            a0 = sum(r["r0"]["acc"] for r in sub); a1 = sum(r["final"]["acc"] for r in sub)
+            s0 = sum(r["r0"]["n_quotes_scored"] for r in sub)
+            emit2(f"itt{mk}{ak}Start", f"{a0 / len(sub):.2f}")
+            emit2(f"itt{mk}{ak}Final", f"{a1 / len(sub):.2f}")
+            emit2(f"lqPooled{mk}{ak}Start", fmt3(a0 / s0) if s0 else "--")
+    tr_ = [r for m in ALPHA if m in rows for r in rows[m] if r["arm"] == "true"]
+    up = sum(1 for m in ALPHA if m in rows and sum(r["final"]["acc"] for r in rows[m] if r["arm"] == "true") > sum(r["r0"]["acc"] for r in rows[m] if r["arm"] == "true"))
+    emit2("ittTrueRisers", str(up))
+    emit2("ittTrueStartAll", f"{sum(r['r0']['acc'] for r in tr_) / len(tr_):.2f}")
+    emit2("ittTrueFinalAll", f"{sum(r['final']['acc'] for r in tr_) / len(tr_):.2f}")
+
+# paired-test n for the loop comparisons
+rv = R / "revision_stats.json"
+if rv.exists():
+    t = json.loads(rv.read_text()).get("loop_tests", {})
+    for k, v in t.items():
+        m, cmp = k.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            ck = {"true_vs_scrambled": "Scr", "true_vs_none": "None", "true_vs_half": "Half"}.get(cmp)
+            if ck:
+                emit2(f"pairN{mk}{ck}", str(v["n_pairs"]))
+                emit2(f"pairDiff{mk}{ck}", f"{v['mean_diff']:+.2f}")
+                emit2(f"pairP{mk}{ck}", f"{v['wilcoxon_p']:.3f}" if v["wilcoxon_p"] >= 0.001 else "$<$0.001")
+
+# the count outcome (src/count_outcome.py): accurate quotations per draft
+# tested against baseline, Wilcoxon paired by matter, Holm within model
+co = R / "count_outcome.json"
+if co.exists():
+    t = json.loads(co.read_text())
+    surv = [k for k, v in t["tests"].items() if v["holm_p"] < 0.05]
+    emit2("countSurvivors", str(len(surv)))
+    emit2("countModelsWithFall", str(len({k.split(":")[0] for k in surv})))
+    emit2("countFallsTemporal", str(sum(1 for k in surv if k.endswith(":temporal"))))
+    emit2("countFallsCombo", str(sum(1 for k in surv if k.endswith(":combo"))))
+    for k, v in t["tests"].items():
+        m, c = k.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            emit2(f"countHolm{mk}{CONDS[c]}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
+            emit2(f"countP{mk}{CONDS[c]}", f"{v['p']:.3f}" if v["p"] >= 0.001 else "$<$0.001")
+    for k, v in t["cells"].items():
+        m, c = k.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            emit2(f"inaccPerDraft{mk}{CONDS[c]}", f"{v['inacc_per_draft']:.2f}")
+            emit2(f"pairedShare{mk}{CONDS[c]}", f"{100 * v['paired_share']:.0f}")
+    ps_ = [v["paired_share"] for v in t["cells"].values()]
+    emit2("pairedShareMin", f"{100 * min(ps_):.0f}"); emit2("pairedShareMax", f"{100 * max(ps_):.0f}")
+    # models whose accurate count falls from baseline to combined, and by how much
+    drops = [(m, t["cells"][f"{m}:baseline"]["acc_per_draft"], t["cells"][f"{m}:combo"]["acc_per_draft"]) for m in ALPHA]
+    emit2("countComboFallers", str(sum(1 for m, a, b in drops if b < a)))
+
+# audit by model and the grounded-arm reading (results/attribution_sample_reading.json)
+asr = R / "attribution_sample_reading.json"
+if asr.exists():
+    t = json.loads(asr.read_text())
+    bm = t.get("by_model", {})
+    for m, mk in ALPHA.items():
+        if m in bm:
+            emit2(f"auditModel{mk}N", f"{bm[m][0]} of {bm[m][1]}")
+    if bm:
+        shares = {m: v[0] / v[1] for m, v in bm.items()}
+        emit2("auditModelLowPct", str(round(100 * min(shares.values()))))
+        emit2("auditModelHighPct", str(round(100 * max(shares.values()))))
+    gr = t.get("grounded")
+    if gr:
+        emit2("auditGroundedN", str(gr["n"]))
+        emit2("auditGroundedChecker", str(gr["checker_side"]))
+        emit2("auditGroundedPct", str(round(100 * gr["checker_side"] / gr["n"])))
+        emit2("auditGroundedCiLow", str(round(100 * gr["wilson95"][0])))
+        emit2("auditGroundedCiHigh", str(round(100 * gr["wilson95"][1])))
+        emit2("auditGroundedOpen", str(gr["ambiguous"]))
+        cz = gr["checker_causes"]
+        emit2("auditGroundedStatutory", str(len(cz["statutory_constitutional_or_policy_text"])))
+        emit2("auditGroundedLower", str(len(cz["lower_court_or_record_words"])))
+        emit2("auditGroundedWrongCase", str(len(cz["bound_to_wrong_case"])))
+    # the corrected rule's flags are what the rerun loop fed back; the hand
+    # reading gives their precision on quotation flags
+    emit2("auditRulePrecisionPct", str(round(100 * (1 - t["checker_side"] / t["n"]))))
+    emit2("auditRulePrecisionCiLow", str(round(100 * (1 - t["wilson95"][1]))))
+    emit2("auditRulePrecisionCiHigh", str(round(100 * (1 - t["wilson95"][0]))))
+
+# carrying the audited error into the contrasts (src/audit_sensitivity.py)
+asf = R / "audit_sensitivity.json"
+if asf.exists():
+    t = json.loads(asf.read_text())
+    emit2("sensDraws", str(t["n_draws"]))
+    for name, key in (("observed", "Obs"), ("upper", "Upper")):
+        v = t["variants"][name]
+        prim = [k for k, x in v.items() if x["primary_holm_p"] < 0.05]
+        emit2(f"sens{key}AlwaysKept", str(sum(1 for k in prim if v[k]["survival"] >= 0.995)))
+        emit2(f"sens{key}MinSurvival", str(int(100 * min(v[k]["survival"] for k in prim))))
+        gained = [k for k, x in v.items() if x["primary_holm_p"] >= 0.05 and x["survival"] >= 0.5]
+        emit2(f"sens{key}Gained", str(len(gained)))
+    emit2("sensPrimaryN", str(len([k for k, x in t["variants"]["observed"].items() if x["primary_holm_p"] < 0.05])))
+
+# name mismatches by condition and the sensitivity fit that counts them
+# as not found (results/records_nm.jsonl, stats_gee_nm.json)
+nmf = R / "name_mismatch.json"
+nmg = R / "stats_gee_nm.json"
+if nmf.exists():
+    t = json.loads(nmf.read_text())
+    byc = {}
+    for k, v in t.items():
+        if ":" in k:
+            c = k.split(":")[1]
+            byc.setdefault(c, [0, 0]); byc[c][0] += v.get("mismatch", 0); byc[c][1] += v["name_checked"]
+    for c, ck in CONDS.items():
+        if c in byc:
+            emit2(f"nmPct{ck}", f"{100 * byc[c][0] / byc[c][1]:.1f}")
+    pm = t.get("_per_model", {})
+    for m, mk in ALPHA.items():
+        if m in pm:
+            emit2(f"nmPct{mk}", f"{100 * pm[m].get('mismatch', 0) / pm[m]['name_checked']:.1f}")
+    emit2("nmRelabelled", str(t.get("_relabelled", 0)))
+if nmg.exists():
+    t = json.loads(nmg.read_text())
+    prim = {k for k, v in gee.items() if k.startswith("citation:") and v["holm_p"] < 0.05}
+    nms = {k for k, v in t.items() if k.startswith("citation:") and v["holm_p"] < 0.05}
+    emit2("nmSurvKept", str(len(prim & nms)))
+    emit2("nmSurvLost", str(len(prim - nms)))
+    emit2("nmSurvGained", str(len(nms - prim)))
+    for k in sorted(nms - prim):
+        _, m, c = k.split(":")
+        emit2(f"nmGain{ALPHA[m]}{CONDS[c]}Holm", f"{t[k]['holm_p']:.3f}")
+        emit2(f"nmGain{ALPHA[m]}{CONDS[c]}Or", f"{t[k]['OR']:.2f}")
+    v = t.get("citation:sonnet:combo")
+    if v:
+        emit2("nmSonnetComboOr", f"{v['OR']:.2f}"); emit2("nmSonnetComboP", f"{v['p']:.2f}")
 
 with open(OUT, "a") as fh:
     fh.write("\n".join(extra) + "\n")

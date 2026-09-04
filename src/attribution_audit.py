@@ -16,7 +16,12 @@ packet material over all scored quotations, whatever the verdict.
 
 Writes results/attribution_audit.json and a 40-item random sample of
 inaccurate quotations with draft context to
-results/attribution_audit_sample.md for a human spot-check."""
+results/attribution_audit_sample.md for a human spot-check. With
+--grounded the same pass runs over the grounded arm (results/rag_*),
+where the model was shown the passages it cites, and writes a 40-item
+sample of its inaccurate verdicts to
+results/attribution_audit_grounded_sample.md; that sample is the
+cleanest test of the checker, since the words were in the prompt."""
 
 import json
 import random
@@ -79,11 +84,13 @@ def main():
     for entry in pick_matters(48):
         p = packet_text(entry)
         packets[entry["id"]] = (p, p.replace(" ", ""))
+    grounded = "--grounded" in sys.argv
+    prefix = "rag" if grounded else "full"
     out = {}
     sample_pool = []
     for model in MODELS:
         c = Counter()
-        for path in sorted((HERE / "results" / f"full_{model}" / "drafts").glob("*.txt")):
+        for path in sorted((HERE / "results" / f"{prefix}_{model}" / "drafts").glob("*.txt")):
             matter, cond = re.match(r"(.+)_([a-z]+)$", path.stem).groups()
             if matter not in packets:
                 continue
@@ -141,6 +148,20 @@ def main():
     n = pooled["inaccurate_total"]
     pooled["share_packet_or_statutory"] = round((pooled["packet_material"] + pooled["statutory"] + pooled["both"]) / n, 4) if n else None
     out["_pooled"] = pooled
+    if grounded:
+        (HERE / "results" / "attribution_audit_grounded.json").write_text(json.dumps(out, indent=1))
+        print("pooled", pooled)
+        rng = random.Random(20260906)
+        sample = rng.sample(sample_pool, min(40, len(sample_pool)))
+        lines = ["# Attribution audit, grounded arm: 40 random inaccurate quotations\n",
+                 "Seed 20260906 over every inaccurate verdict in the grounded arm (results/rag_*),",
+                 "where the prompt carried the best-matching passage of every cited opinion.\n"]
+        for i, s in enumerate(sample, 1):
+            lines.append(f"## {i}. {s['model']} {s['draft']} | cited {s['citation']} ({s['attribution']}) | class: {s['class']}\n")
+            lines.append(f"context before: ...{s['context']}\n")
+            lines.append(f"quote: “{s['quote']}”\n")
+        (HERE / "results" / "attribution_audit_grounded_sample.md").write_text("\n".join(lines))
+        return
     (HERE / "results" / "attribution_audit.json").write_text(json.dumps(out, indent=1))
     print("pooled", pooled)
     rng = random.Random(20260831)

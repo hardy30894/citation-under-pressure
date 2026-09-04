@@ -26,6 +26,7 @@ wait
 run alteration_aware $PY src/alteration_aware.py &
 run human_alt $PY src/human_alt.py &
 run attribution_audit $PY src/attribution_audit.py &
+run attribution_audit_grounded $PY src/attribution_audit.py --grounded &
 run human_existence $PY src/human_existence.py &
 run name_mismatch $PY src/name_mismatch.py &
 run validate_q2 $PY src/validate_q2.py &
@@ -38,6 +39,9 @@ run gee_para $PY src/gee.py --records records_para.jsonl --out stats_gee_para.js
 run gee_pooled $PY src/gee.py --pooled --out stats_gee_pooled.json
 run gee_alt $PY src/gee.py --records records_alt.jsonl --out stats_gee_alt.json
 run gee_distinct $PY src/gee.py --distinct --out stats_gee_distinct.json
+run gee_nm $PY src/gee.py --records records_nm.jsonl --out stats_gee_nm.json
+run count_outcome $PY src/count_outcome.py
+run audit_sensitivity $PY src/audit_sensitivity.py
 run gee_pooled_runs $PY src/gee_pooled_runs.py
 run loop_transitions $PY src/loop_transitions.py
 run gloop_transitions $PY src/loop_transitions.py --prefix gloop
@@ -48,6 +52,7 @@ run grounded_stats $PY src/grounded_stats.py
 run appellate_stats $PY src/appellate_stats.py
 run replicate $PY src/replicate.py
 run era_check $PY src/era_check.py
+run contrast_matrix $PY src/contrast_matrix.py
 # stage 3
 run emit_macros $PY src/emit_macros.py
 run figures $PY src/figures.py

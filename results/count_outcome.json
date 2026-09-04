@@ -1,0 +1,615 @@
+{
+ "cells": {
+  "deepseek:baseline": {
+   "quotes": 446,
+   "scored": 252,
+   "accurate": 96,
+   "inaccurate": 156,
+   "quotes_per_draft": 9.29,
+   "paired_share": 0.565,
+   "acc_per_draft": 2.0,
+   "inacc_per_draft": 3.25,
+   "rate": 0.381
+  },
+  "deepseek:quota": {
+   "quotes": 475,
+   "scored": 288,
+   "accurate": 108,
+   "inaccurate": 180,
+   "quotes_per_draft": 9.9,
+   "paired_share": 0.606,
+   "acc_per_draft": 2.25,
+   "inacc_per_draft": 3.75,
+   "rate": 0.375
+  },
+  "deepseek:temporal": {
+   "quotes": 390,
+   "scored": 206,
+   "accurate": 50,
+   "inaccurate": 156,
+   "quotes_per_draft": 8.12,
+   "paired_share": 0.528,
+   "acc_per_draft": 1.04,
+   "inacc_per_draft": 3.25,
+   "rate": 0.243
+  },
+  "deepseek:stakes": {
+   "quotes": 463,
+   "scored": 243,
+   "accurate": 88,
+   "inaccurate": 155,
+   "quotes_per_draft": 9.65,
+   "paired_share": 0.525,
+   "acc_per_draft": 1.83,
+   "inacc_per_draft": 3.23,
+   "rate": 0.362
+  },
+  "deepseek:combo": {
+   "quotes": 437,
+   "scored": 281,
+   "accurate": 40,
+   "inaccurate": 241,
+   "quotes_per_draft": 9.1,
+   "paired_share": 0.643,
+   "acc_per_draft": 0.83,
+   "inacc_per_draft": 5.02,
+   "rate": 0.142
+  },
+  "gpt54mini:baseline": {
+   "quotes": 236,
+   "scored": 127,
+   "accurate": 74,
+   "inaccurate": 53,
+   "quotes_per_draft": 4.92,
+   "paired_share": 0.538,
+   "acc_per_draft": 1.54,
+   "inacc_per_draft": 1.1,
+   "rate": 0.583
+  },
+  "gpt54mini:quota": {
+   "quotes": 202,
+   "scored": 116,
+   "accurate": 68,
+   "inaccurate": 48,
+   "quotes_per_draft": 4.21,
+   "paired_share": 0.574,
+   "acc_per_draft": 1.42,
+   "inacc_per_draft": 1.0,
+   "rate": 0.586
+  },
+  "gpt54mini:temporal": {
+   "quotes": 142,
+   "scored": 74,
+   "accurate": 30,
+   "inaccurate": 44,
+   "quotes_per_draft": 2.96,
+   "paired_share": 0.521,
+   "acc_per_draft": 0.62,
+   "inacc_per_draft": 0.92,
+   "rate": 0.405
+  },
+  "gpt54mini:stakes": {
+   "quotes": 247,
+   "scored": 129,
+   "accurate": 73,
+   "inaccurate": 56,
+   "quotes_per_draft": 5.15,
+   "paired_share": 0.522,
+   "acc_per_draft": 1.52,
+   "inacc_per_draft": 1.17,
+   "rate": 0.566
+  },
+  "gpt54mini:combo": {
+   "quotes": 143,
+   "scored": 88,
+   "accurate": 41,
+   "inaccurate": 47,
+   "quotes_per_draft": 2.98,
+   "paired_share": 0.615,
+   "acc_per_draft": 0.85,
+   "inacc_per_draft": 0.98,
+   "rate": 0.466
+  },
+  "grok43:baseline": {
+   "quotes": 265,
+   "scored": 156,
+   "accurate": 71,
+   "inaccurate": 85,
+   "quotes_per_draft": 5.52,
+   "paired_share": 0.589,
+   "acc_per_draft": 1.48,
+   "inacc_per_draft": 1.77,
+   "rate": 0.455
+  },
+  "grok43:quota": {
+   "quotes": 203,
+   "scored": 138,
+   "accurate": 70,
+   "inaccurate": 68,
+   "quotes_per_draft": 4.23,
+   "paired_share": 0.68,
+   "acc_per_draft": 1.46,
+   "inacc_per_draft": 1.42,
+   "rate": 0.507
+  },
+  "grok43:temporal": {
+   "quotes": 158,
+   "scored": 120,
+   "accurate": 43,
+   "inaccurate": 77,
+   "quotes_per_draft": 3.29,
+   "paired_share": 0.759,
+   "acc_per_draft": 0.9,
+   "inacc_per_draft": 1.6,
+   "rate": 0.358
+  },
+  "grok43:stakes": {
+   "quotes": 241,
+   "scored": 134,
+   "accurate": 68,
+   "inaccurate": 66,
+   "quotes_per_draft": 5.02,
+   "paired_share": 0.556,
+   "acc_per_draft": 1.42,
+   "inacc_per_draft": 1.38,
+   "rate": 0.507
+  },
+  "grok43:combo": {
+   "quotes": 143,
+   "scored": 119,
+   "accurate": 36,
+   "inaccurate": 83,
+   "quotes_per_draft": 2.98,
+   "paired_share": 0.832,
+   "acc_per_draft": 0.75,
+   "inacc_per_draft": 1.73,
+   "rate": 0.303
+  },
+  "llama4mav:baseline": {
+   "quotes": 107,
+   "scored": 51,
+   "accurate": 30,
+   "inaccurate": 21,
+   "quotes_per_draft": 2.23,
+   "paired_share": 0.477,
+   "acc_per_draft": 0.62,
+   "inacc_per_draft": 0.44,
+   "rate": 0.588
+  },
+  "llama4mav:quota": {
+   "quotes": 139,
+   "scored": 81,
+   "accurate": 38,
+   "inaccurate": 43,
+   "quotes_per_draft": 2.9,
+   "paired_share": 0.583,
+   "acc_per_draft": 0.79,
+   "inacc_per_draft": 0.9,
+   "rate": 0.469
+  },
+  "llama4mav:temporal": {
+   "quotes": 92,
+   "scored": 42,
+   "accurate": 9,
+   "inaccurate": 33,
+   "quotes_per_draft": 1.92,
+   "paired_share": 0.457,
+   "acc_per_draft": 0.19,
+   "inacc_per_draft": 0.69,
+   "rate": 0.214
+  },
+  "llama4mav:stakes": {
+   "quotes": 89,
+   "scored": 54,
+   "accurate": 30,
+   "inaccurate": 24,
+   "quotes_per_draft": 1.85,
+   "paired_share": 0.607,
+   "acc_per_draft": 0.62,
+   "inacc_per_draft": 0.5,
+   "rate": 0.556
+  },
+  "llama4mav:combo": {
+   "quotes": 104,
+   "scored": 61,
+   "accurate": 14,
+   "inaccurate": 47,
+   "quotes_per_draft": 2.17,
+   "paired_share": 0.587,
+   "acc_per_draft": 0.29,
+   "inacc_per_draft": 0.98,
+   "rate": 0.23
+  },
+  "mistralsmall:baseline": {
+   "quotes": 306,
+   "scored": 187,
+   "accurate": 49,
+   "inaccurate": 138,
+   "quotes_per_draft": 6.38,
+   "paired_share": 0.611,
+   "acc_per_draft": 1.02,
+   "inacc_per_draft": 2.88,
+   "rate": 0.262
+  },
+  "mistralsmall:quota": {
+   "quotes": 334,
+   "scored": 201,
+   "accurate": 64,
+   "inaccurate": 137,
+   "quotes_per_draft": 6.96,
+   "paired_share": 0.602,
+   "acc_per_draft": 1.33,
+   "inacc_per_draft": 2.85,
+   "rate": 0.318
+  },
+  "mistralsmall:temporal": {
+   "quotes": 355,
+   "scored": 211,
+   "accurate": 30,
+   "inaccurate": 181,
+   "quotes_per_draft": 7.4,
+   "paired_share": 0.594,
+   "acc_per_draft": 0.62,
+   "inacc_per_draft": 3.77,
+   "rate": 0.142
+  },
+  "mistralsmall:stakes": {
+   "quotes": 304,
+   "scored": 178,
+   "accurate": 39,
+   "inaccurate": 139,
+   "quotes_per_draft": 6.33,
+   "paired_share": 0.586,
+   "acc_per_draft": 0.81,
+   "inacc_per_draft": 2.9,
+   "rate": 0.219
+  },
+  "mistralsmall:combo": {
+   "quotes": 385,
+   "scored": 248,
+   "accurate": 39,
+   "inaccurate": 209,
+   "quotes_per_draft": 8.02,
+   "paired_share": 0.644,
+   "acc_per_draft": 0.81,
+   "inacc_per_draft": 4.35,
+   "rate": 0.157
+  },
+  "qwen30b:baseline": {
+   "quotes": 476,
+   "scored": 230,
+   "accurate": 38,
+   "inaccurate": 192,
+   "quotes_per_draft": 9.92,
+   "paired_share": 0.483,
+   "acc_per_draft": 0.79,
+   "inacc_per_draft": 4.0,
+   "rate": 0.165
+  },
+  "qwen30b:quota": {
+   "quotes": 513,
+   "scored": 284,
+   "accurate": 56,
+   "inaccurate": 228,
+   "quotes_per_draft": 10.69,
+   "paired_share": 0.554,
+   "acc_per_draft": 1.17,
+   "inacc_per_draft": 4.75,
+   "rate": 0.197
+  },
+  "qwen30b:temporal": {
+   "quotes": 425,
+   "scored": 202,
+   "accurate": 18,
+   "inaccurate": 184,
+   "quotes_per_draft": 8.85,
+   "paired_share": 0.475,
+   "acc_per_draft": 0.38,
+   "inacc_per_draft": 3.83,
+   "rate": 0.089
+  },
+  "qwen30b:stakes": {
+   "quotes": 450,
+   "scored": 210,
+   "accurate": 39,
+   "inaccurate": 171,
+   "quotes_per_draft": 9.38,
+   "paired_share": 0.467,
+   "acc_per_draft": 0.81,
+   "inacc_per_draft": 3.56,
+   "rate": 0.186
+  },
+  "qwen30b:combo": {
+   "quotes": 619,
+   "scored": 325,
+   "accurate": 20,
+   "inaccurate": 305,
+   "quotes_per_draft": 12.9,
+   "paired_share": 0.525,
+   "acc_per_draft": 0.42,
+   "inacc_per_draft": 6.35,
+   "rate": 0.062
+  },
+  "sonnet:baseline": {
+   "quotes": 463,
+   "scored": 260,
+   "accurate": 136,
+   "inaccurate": 124,
+   "quotes_per_draft": 9.65,
+   "paired_share": 0.562,
+   "acc_per_draft": 2.83,
+   "inacc_per_draft": 2.58,
+   "rate": 0.523
+  },
+  "sonnet:quota": {
+   "quotes": 438,
+   "scored": 276,
+   "accurate": 143,
+   "inaccurate": 133,
+   "quotes_per_draft": 9.12,
+   "paired_share": 0.63,
+   "acc_per_draft": 2.98,
+   "inacc_per_draft": 2.77,
+   "rate": 0.518
+  },
+  "sonnet:temporal": {
+   "quotes": 347,
+   "scored": 233,
+   "accurate": 127,
+   "inaccurate": 106,
+   "quotes_per_draft": 7.23,
+   "paired_share": 0.671,
+   "acc_per_draft": 2.65,
+   "inacc_per_draft": 2.21,
+   "rate": 0.545
+  },
+  "sonnet:stakes": {
+   "quotes": 416,
+   "scored": 239,
+   "accurate": 146,
+   "inaccurate": 93,
+   "quotes_per_draft": 8.67,
+   "paired_share": 0.575,
+   "acc_per_draft": 3.04,
+   "inacc_per_draft": 1.94,
+   "rate": 0.611
+  },
+  "sonnet:combo": {
+   "quotes": 293,
+   "scored": 194,
+   "accurate": 125,
+   "inaccurate": 69,
+   "quotes_per_draft": 6.1,
+   "paired_share": 0.662,
+   "acc_per_draft": 2.6,
+   "inacc_per_draft": 1.44,
+   "rate": 0.644
+  }
+ },
+ "tests": {
+  "deepseek:quota": {
+   "base_mean": 2.0,
+   "cond_mean": 2.25,
+   "mean_diff": 0.25,
+   "p": 0.5097,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  },
+  "deepseek:temporal": {
+   "base_mean": 2.0,
+   "cond_mean": 1.042,
+   "mean_diff": -0.958,
+   "p": 0.0051,
+   "n_pairs": 48,
+   "holm_p": 0.0153
+  },
+  "deepseek:stakes": {
+   "base_mean": 2.0,
+   "cond_mean": 1.833,
+   "mean_diff": -0.167,
+   "p": 0.5625,
+   "n_pairs": 48,
+   "holm_p": 0.5625
+  },
+  "deepseek:combo": {
+   "base_mean": 2.0,
+   "cond_mean": 0.833,
+   "mean_diff": -1.167,
+   "p": 0.0001,
+   "n_pairs": 48,
+   "holm_p": 0.0004
+  },
+  "gpt54mini:quota": {
+   "base_mean": 1.542,
+   "cond_mean": 1.417,
+   "mean_diff": -0.125,
+   "p": 0.4322,
+   "n_pairs": 48,
+   "holm_p": 0.8644
+  },
+  "gpt54mini:temporal": {
+   "base_mean": 1.542,
+   "cond_mean": 0.625,
+   "mean_diff": -0.917,
+   "p": 0.0021,
+   "n_pairs": 48,
+   "holm_p": 0.0084
+  },
+  "gpt54mini:stakes": {
+   "base_mean": 1.542,
+   "cond_mean": 1.521,
+   "mean_diff": -0.021,
+   "p": 0.8962,
+   "n_pairs": 48,
+   "holm_p": 0.8962
+  },
+  "gpt54mini:combo": {
+   "base_mean": 1.542,
+   "cond_mean": 0.854,
+   "mean_diff": -0.688,
+   "p": 0.0111,
+   "n_pairs": 48,
+   "holm_p": 0.0333
+  },
+  "grok43:quota": {
+   "base_mean": 1.479,
+   "cond_mean": 1.458,
+   "mean_diff": -0.021,
+   "p": 0.8396,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  },
+  "grok43:temporal": {
+   "base_mean": 1.479,
+   "cond_mean": 0.896,
+   "mean_diff": -0.583,
+   "p": 0.0272,
+   "n_pairs": 48,
+   "holm_p": 0.0816
+  },
+  "grok43:stakes": {
+   "base_mean": 1.479,
+   "cond_mean": 1.417,
+   "mean_diff": -0.062,
+   "p": 0.9777,
+   "n_pairs": 48,
+   "holm_p": 0.9777
+  },
+  "grok43:combo": {
+   "base_mean": 1.479,
+   "cond_mean": 0.75,
+   "mean_diff": -0.729,
+   "p": 0.0037,
+   "n_pairs": 48,
+   "holm_p": 0.0148
+  },
+  "llama4mav:quota": {
+   "base_mean": 0.625,
+   "cond_mean": 0.792,
+   "mean_diff": 0.167,
+   "p": 0.5503,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  },
+  "llama4mav:temporal": {
+   "base_mean": 0.625,
+   "cond_mean": 0.188,
+   "mean_diff": -0.438,
+   "p": 0.0023,
+   "n_pairs": 48,
+   "holm_p": 0.0092
+  },
+  "llama4mav:stakes": {
+   "base_mean": 0.625,
+   "cond_mean": 0.625,
+   "mean_diff": 0.0,
+   "p": 0.9469,
+   "n_pairs": 48,
+   "holm_p": 0.9469
+  },
+  "llama4mav:combo": {
+   "base_mean": 0.625,
+   "cond_mean": 0.292,
+   "mean_diff": -0.333,
+   "p": 0.01,
+   "n_pairs": 48,
+   "holm_p": 0.03
+  },
+  "mistralsmall:quota": {
+   "base_mean": 1.021,
+   "cond_mean": 1.333,
+   "mean_diff": 0.312,
+   "p": 0.243,
+   "n_pairs": 48,
+   "holm_p": 0.729
+  },
+  "mistralsmall:temporal": {
+   "base_mean": 1.021,
+   "cond_mean": 0.625,
+   "mean_diff": -0.396,
+   "p": 0.0456,
+   "n_pairs": 48,
+   "holm_p": 0.1824
+  },
+  "mistralsmall:stakes": {
+   "base_mean": 1.021,
+   "cond_mean": 0.812,
+   "mean_diff": -0.208,
+   "p": 0.2976,
+   "n_pairs": 48,
+   "holm_p": 0.5952
+  },
+  "mistralsmall:combo": {
+   "base_mean": 1.021,
+   "cond_mean": 0.812,
+   "mean_diff": -0.208,
+   "p": 0.3155,
+   "n_pairs": 48,
+   "holm_p": 0.3155
+  },
+  "qwen30b:quota": {
+   "base_mean": 0.792,
+   "cond_mean": 1.167,
+   "mean_diff": 0.375,
+   "p": 0.1018,
+   "n_pairs": 48,
+   "holm_p": 0.2036
+  },
+  "qwen30b:temporal": {
+   "base_mean": 0.792,
+   "cond_mean": 0.375,
+   "mean_diff": -0.417,
+   "p": 0.0127,
+   "n_pairs": 48,
+   "holm_p": 0.0508
+  },
+  "qwen30b:stakes": {
+   "base_mean": 0.792,
+   "cond_mean": 0.812,
+   "mean_diff": 0.021,
+   "p": 0.7606,
+   "n_pairs": 48,
+   "holm_p": 0.7606
+  },
+  "qwen30b:combo": {
+   "base_mean": 0.792,
+   "cond_mean": 0.417,
+   "mean_diff": -0.375,
+   "p": 0.0438,
+   "n_pairs": 48,
+   "holm_p": 0.1314
+  },
+  "sonnet:quota": {
+   "base_mean": 2.833,
+   "cond_mean": 2.979,
+   "mean_diff": 0.146,
+   "p": 0.6249,
+   "n_pairs": 48,
+   "holm_p": 0.6249
+  },
+  "sonnet:temporal": {
+   "base_mean": 2.833,
+   "cond_mean": 2.646,
+   "mean_diff": -0.188,
+   "p": 0.5829,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  },
+  "sonnet:stakes": {
+   "base_mean": 2.833,
+   "cond_mean": 3.042,
+   "mean_diff": 0.208,
+   "p": 0.5782,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  },
+  "sonnet:combo": {
+   "base_mean": 2.833,
+   "cond_mean": 2.604,
+   "mean_diff": -0.229,
+   "p": 0.5317,
+   "n_pairs": 48,
+   "holm_p": 1.0
+  }
+ }
+}

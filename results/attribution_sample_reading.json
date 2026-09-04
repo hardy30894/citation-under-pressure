@@ -120,5 +120,91 @@
   "pool": 2146,
   "checker_side": 0,
   "note": "All 40 accurate verdicts hold: the quoted words are in the attributed opinion. Several are short phrases (two or three words of fifteen or more characters) that the opinion does contain; one (item 27) is record material the lower court's opinion itself quotes, so the words are present although the source is the record."
+ },
+ "grounded": {
+  "file": "results/attribution_audit_grounded_sample.md",
+  "seed": 20260906,
+  "n": 40,
+  "checker_side": 14,
+  "model_side": 24,
+  "ambiguous": 2,
+  "checker_items": [
+   8,
+   10,
+   13,
+   14,
+   15,
+   18,
+   21,
+   22,
+   24,
+   25,
+   26,
+   34,
+   35,
+   38
+  ],
+  "ambiguous_items": [
+   16,
+   39
+  ],
+  "checker_share": 0.35,
+  "wilson95": [
+   0.221,
+   0.505
+  ],
+  "checker_causes": {
+   "statutory_constitutional_or_policy_text": [
+    14,
+    15,
+    18,
+    25,
+    26,
+    35
+   ],
+   "lower_court_or_record_words": [
+    10,
+    22,
+    24,
+    38
+   ],
+   "bound_to_wrong_case": [
+    8,
+    13,
+    21,
+    34
+   ]
+  },
+  "note": "Item 21 exposed a token-boundary fault in the name rule: the token 'under' from a defendant parsed as 'Under Mooney' matched inside 'understanding', so a quotation whose sentence names Affronti v. United States was bound to Mooney v. Holohan; the words are in Affronti. Items 8 and 13 are Penry I against Penry II and Stanford, short-form citations the rule resolves by proximity. Items 16 and 39 could not be decided from the context."
+ },
+ "by_model": {
+  "llama4mav": [
+   1,
+   7
+  ],
+  "sonnet": [
+   4,
+   21
+  ],
+  "mistralsmall": [
+   7,
+   36
+  ],
+  "qwen30b": [
+   12,
+   45
+  ],
+  "deepseek": [
+   6,
+   28
+  ],
+  "grok43": [
+   2,
+   9
+  ],
+  "gpt54mini": [
+   3,
+   14
+  ]
  }
 }
