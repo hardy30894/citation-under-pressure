@@ -642,3 +642,7 @@ before or after seeing the relevant data. Nothing is deleted.
   quotations under a bare flag against the passage in the flag
   (fig3_repair.png) and Sonnet 5's quotations per draft against its rate
   (fig4_selection.png).
+- 2026-09-04 (README restructured for hierarchy): results at a glance,
+  the three findings each in subsections that state the claim and carry
+  the figure that supports it, then Method, How the instrument was
+  checked, Robustness, prior work, repository guide; every number kept.
