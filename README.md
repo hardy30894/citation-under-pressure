@@ -27,6 +27,13 @@ model can raise an observable correctness rate by changing what it
 exposes to the check, so a rate has to be read beside the count of
 correct items it is computed over.
 
+> **The point in one sentence.** Optimizing an observable correctness
+> metric can change what the model chooses to expose to that metric
+> instead of improving the underlying capability. Under pressure the
+> strongest model quotes less; under feedback it deletes what was
+> flagged; in both cases the measured rate rises and the count of
+> correct quotations does not.
+
 Courts keep sanctioning lawyers for filing briefs with citations that a
 language model invented, and nearly all research on the problem works
 after the fact: given a brief that already contains errors, how many
@@ -99,7 +106,7 @@ correction within model.
 ### Existence falls at the bottom
 
 Going from the baseline column to the combo column is what pressure
-does. Only the 30B model's citation existence moves: from 0.924 to
+does. **Only the 30B model's citation existence moves**: from 0.924 to
 0.773 under combined pressure (odds ratio 0.30, corrected p < 0.001),
 with the quota, temporal, and combined contrasts all significant after
 correction. Each of its surviving existence contrasts rests on at least
@@ -112,10 +119,10 @@ above in both columns.
 
 ### Quotation accuracy falls in the middle
 
-Strict quotation accuracy falls for every model but Sonnet 5, and the
-fall survives correction for Llama-4 under the temporal and combined
-conditions, for Qwen3-30B and DeepSeek under the combined condition,
-and for Mistral Small under the temporal clause. Llama-4 shows the
+**Strict quotation accuracy falls for every model but Sonnet 5**, and
+the fall survives correction for Llama-4 under the temporal and
+combined conditions, for Qwen3-30B and DeepSeek under the combined
+condition, and for Mistral Small under the temporal clause. Llama-4 shows the
 largest drop, from 0.588 at baseline to 0.230 under combined pressure.
 Once three generations are pooled the combined fall survives for six of
 seven models. The fall is no artifact of scanned text for old opinions:
@@ -130,8 +137,8 @@ quoting. That is the point Sonnet 5's contrast turns on. Its combo rate
 is numerically higher than its baseline rate (0.523 to 0.644,
 uncorrected p 0.031, corrected 0.250), but it wrote 9.6 quotations per
 draft at baseline and 6.1 under combined pressure, and its accurate
-quotations per draft fell from 2.83 to 2.60. The rise is selection,
-fewer and safer quotations; the temporal rule also shifts its citations
+quotations per draft fell from 2.83 to 2.60. **The rise is selection,
+fewer and safer quotations**; the temporal rule also shifts its citations
 toward older, better-memorized cases (median decision year 1943 against
 1986). On the appellate task its rate rises under the sanctions warning
 alone (0.480 to 0.620, corrected p 0.084), and that rise survives only
@@ -147,6 +154,13 @@ Across the 1,344 pressured drafts there were three refusals. An eighth
 model, GLM-4.7-flash, produced no output on 33 of 240 drafts, 28 of them
 under combined pressure; it is counted as a stall and kept out of the
 refusal count.
+
+> **Takeaway.** Reliability at a neutral prompt does not predict
+> reliability under drafting constraints, and the failure changes kind
+> with capability: nonexistent citations at 30B, misquotation in the
+> middle, and at the top a rate that holds only because the model
+> quotes less, with paraphrase, misattribution, and wrong pages left
+> behind.
 
 ## Finding 2. Verification is not repair
 
@@ -179,8 +193,8 @@ quotations and those that ended on a draft emptied of them.
 
 ### Deletion, not correction
 
-Read the strict column alone and this looks like repair rising with
-capability. Read the counts and it is deletion: Sonnet 5 ended with the
+**Read the strict column alone and this looks like repair rising with
+capability. Read the counts and it is deletion**: Sonnet 5 ended with the
 same 68 accurate quotations it started with and 36 fewer scored ones,
 and 68 of the 168 true-feedback episodes ended with nothing left to
 score, 19 of Grok 4.3's 24, so its final 1.000 rests on five drafts.
@@ -197,10 +211,10 @@ corrected in place and 2 replaced by a new accurate quotation from the
 same case, 2 lost their quotation marks, 31 were deleted, and none was
 left. Only 3 of its 68 accurate quotations went, against 21 under
 revision with no feedback, so precise flags made it more careful with
-correct material. The practical reading: use the checker as a gate on
+correct material. **The practical reading: use the checker as a gate on
 output, since bare feedback invites deletion, and measure a
 probabilistic detector's false-positive rate before wiring it into a
-loop.
+loop.**
 
 ![Figure 3: what each model did with the quotations the checker flagged, bare flag against passage in the flag](docs/figures/fig3_repair.png)
 
@@ -217,7 +231,7 @@ Mixed arms in which each feedback line is true with probability 0.25,
 removed 20 correct quotations against 3 under a precise one, and under
 the lenient verdict (near misses counted as correct) only all-false
 feedback leaves Sonnet 5 below revision alone (0.861 against 0.880).
-Verifier precision is therefore a deployment requirement.
+**Verifier precision is therefore a deployment requirement.**
 
 ![Figure 2: final strict accuracy and share of correct quotations removed against verifier precision, one line per model](docs/figures/fig2_repair.png)
 
@@ -251,8 +265,9 @@ flags, to 24 of 138 for Qwen3-30B against none, and to 12 of 136 for
 DeepSeek, which still removed 124. Almost all of it came by replacement,
 and removal exceeded repair in every model. Final strict rates under the
 passage arm were 0.993 for Sonnet 5 and 1.000 for DeepSeek over more
-surviving quotations (83 scored against 68 for Sonnet 5). A loop should
-hand the model the passage; even then it removes more than it repairs.
+surviving quotations (83 scored against 68 for Sonnet 5). **A loop
+should hand the model the passage; even then it removes more than it
+repairs.**
 
 ### Existence rises the same way
 
@@ -261,6 +276,13 @@ The existence rise under true feedback is also removal
 resolve at round 0 across the seven models, 82 were gone from the final
 draft and 31 remained, while 37 new resolving citations appeared, 17 of
 them Mistral Small's.
+
+> **Takeaway.** A verifier in the loop makes the draft pass the
+> verifier. Told a quotation is wrong, a capable model deletes it far
+> more often than it fixes it; told a correct quotation is wrong, it
+> deletes that too. Supplying the source passage raises repair in six of
+> seven models and still leaves removal in the majority. Verification is
+> not repair, and the checker belongs at the gate, in front of a person.
 
 ## Finding 3. What survives at the top of the range
 
@@ -279,6 +301,10 @@ detection agents have the lowest recall: the best published detector
 misses nearly half of wrong pincites (52.8% recall), and open-weight
 detectors reach 19 to 51%.
 
+> **Takeaway.** At the top of the range the citations exist and the
+> words are real; what fails is the binding of words to case and page.
+> An existence benchmark scores these drafts as clean.
+
 ## Finding 4. Relevance defeated every jury
 
 Whether a real quotation actually supports its proposition cannot be
@@ -294,7 +320,16 @@ expert-labeled misrepresentations with a pre-declared bar of 0.75.
 No verdict from a failed panel was interpreted; relevance is a stated
 limitation of the paper.
 
+> **Takeaway.** Everything this paper measures has a deterministic
+> answer. The one question that does not, whether a real and correctly
+> quoted case supports the proposition, is left open; no judge that
+> failed calibration answers it.
+
 ## Method
+
+Everything below is the machinery behind the findings: what the models
+were given, how every citation was adjudicated, how the statistics were
+run, and how the human reference was scored.
 
 ### Reading a legal citation
 
@@ -417,6 +452,12 @@ alteration (a corrupted character), and 67 are inaccurate without one.
 
 ## How the instrument was checked
 
+The checker is the paper's foundation, so it was tested three ways:
+planted faults with known answers, a hand reading of its verdicts on
+real drafts, and a full rerun of the experiment that depended on it
+once the reading found a flaw. **Every number in this README and the
+paper is from the corrected rule and the rerun loop.**
+
 ### Seeded validation
 
 The quotation checker was validated before the campaign on seeded
@@ -442,15 +483,15 @@ side under that rule.
 
 Under the corrected rule a reading of 160 (the same 40 plus a disjoint
 120, `results/attribution_audit_sample.md` and
-`results/attribution_audit_sample2.md`) found 35 on the checker's side,
-22 percent with a 95 percent interval of 16 to 29, 111 the model's, 4
+`results/attribution_audit_sample2.md`) found **35 on the checker's
+side, 22 percent with a 95 percent interval of 16 to 29**, 111 the model's, 4
 failing only on a bracketed alteration, and 10 open
 (`results/attribution_sample_reading.json`). The checker-side share
 varies by condition, 8 of 28 at baseline, 11 of 30 under the quota, 6
 of 33 under the temporal clause, 6 of 27 under the stakes clause, and 4
-of 42 under combined pressure, so what error remains inflates baseline
-and quota inaccuracy more than combined and works against the falls the
-paper reports. Forty accurate verdicts read the same way all held
+of 42 under combined pressure, so **what error remains inflates
+baseline and quota inaccuracy more than combined and works against the
+falls the paper reports**. Forty accurate verdicts read the same way all held
 (`results/attribution_audit_accurate_sample.md`). Every number in this
 README and the paper is from the corrected rule.
 
@@ -480,6 +521,12 @@ opinions decided before 1970 is 0.439 against 0.383 for later ones
 (`src/era_check.py`).
 
 ## Robustness
+
+Each check below asks whether the single-run table would change under a
+different reasonable choice: another generation, another phrasing,
+another quotation standard, retrieval in the prompt, or another court.
+**The same eight within-model contrasts survive every refit**, and the
+paper relies only on those.
 
 ### Three generations
 
