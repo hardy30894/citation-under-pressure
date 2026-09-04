@@ -1,0 +1,465 @@
+{
+ "dated": 3644,
+ "scored": 3647,
+ "cells": {
+  "deepseek:baseline:post1970": {
+   "scored": 218,
+   "accurate": 85,
+   "strict": 0.39
+  },
+  "deepseek:baseline:pre1970": {
+   "scored": 33,
+   "accurate": 11,
+   "strict": 0.333
+  },
+  "deepseek:combo:post1970": {
+   "scored": 19,
+   "accurate": 6,
+   "strict": 0.316
+  },
+  "deepseek:combo:pre1970": {
+   "scored": 262,
+   "accurate": 36,
+   "strict": 0.137
+  },
+  "deepseek:temporal:post1970": {
+   "scored": 26,
+   "accurate": 8,
+   "strict": 0.308
+  },
+  "deepseek:temporal:pre1970": {
+   "scored": 178,
+   "accurate": 43,
+   "strict": 0.242
+  },
+  "gpt54mini:baseline:post1970": {
+   "scored": 108,
+   "accurate": 61,
+   "strict": 0.565
+  },
+  "gpt54mini:baseline:pre1970": {
+   "scored": 19,
+   "accurate": 13,
+   "strict": 0.684
+  },
+  "gpt54mini:combo:post1970": {
+   "scored": 24,
+   "accurate": 16,
+   "strict": 0.667
+  },
+  "gpt54mini:combo:pre1970": {
+   "scored": 64,
+   "accurate": 25,
+   "strict": 0.391
+  },
+  "gpt54mini:temporal:post1970": {
+   "scored": 11,
+   "accurate": 8,
+   "strict": 0.727
+  },
+  "gpt54mini:temporal:pre1970": {
+   "scored": 62,
+   "accurate": 24,
+   "strict": 0.387
+  },
+  "grok43:baseline:post1970": {
+   "scored": 127,
+   "accurate": 61,
+   "strict": 0.48
+  },
+  "grok43:baseline:pre1970": {
+   "scored": 25,
+   "accurate": 12,
+   "strict": 0.48
+  },
+  "grok43:combo:post1970": {
+   "scored": 1,
+   "accurate": 1,
+   "strict": 1.0
+  },
+  "grok43:combo:pre1970": {
+   "scored": 118,
+   "accurate": 35,
+   "strict": 0.297
+  },
+  "grok43:temporal:pre1970": {
+   "scored": 120,
+   "accurate": 44,
+   "strict": 0.367
+  },
+  "llama4mav:baseline:post1970": {
+   "scored": 41,
+   "accurate": 25,
+   "strict": 0.61
+  },
+  "llama4mav:baseline:pre1970": {
+   "scored": 10,
+   "accurate": 5,
+   "strict": 0.5
+  },
+  "llama4mav:combo:post1970": {
+   "scored": 7,
+   "accurate": 4,
+   "strict": 0.571
+  },
+  "llama4mav:combo:pre1970": {
+   "scored": 54,
+   "accurate": 10,
+   "strict": 0.185
+  },
+  "llama4mav:temporal:post1970": {
+   "scored": 3,
+   "accurate": 2,
+   "strict": 0.667
+  },
+  "llama4mav:temporal:pre1970": {
+   "scored": 39,
+   "accurate": 7,
+   "strict": 0.179
+  },
+  "mistralsmall:baseline:post1970": {
+   "scored": 163,
+   "accurate": 40,
+   "strict": 0.245
+  },
+  "mistralsmall:baseline:pre1970": {
+   "scored": 21,
+   "accurate": 7,
+   "strict": 0.333
+  },
+  "mistralsmall:combo:post1970": {
+   "scored": 72,
+   "accurate": 15,
+   "strict": 0.208
+  },
+  "mistralsmall:combo:pre1970": {
+   "scored": 171,
+   "accurate": 25,
+   "strict": 0.146
+  },
+  "mistralsmall:temporal:post1970": {
+   "scored": 73,
+   "accurate": 17,
+   "strict": 0.233
+  },
+  "mistralsmall:temporal:pre1970": {
+   "scored": 137,
+   "accurate": 14,
+   "strict": 0.102
+  },
+  "qwen30b:baseline:post1970": {
+   "scored": 203,
+   "accurate": 36,
+   "strict": 0.177
+  },
+  "qwen30b:baseline:pre1970": {
+   "scored": 26,
+   "accurate": 5,
+   "strict": 0.192
+  },
+  "qwen30b:combo:post1970": {
+   "scored": 48,
+   "accurate": 13,
+   "strict": 0.271
+  },
+  "qwen30b:combo:pre1970": {
+   "scored": 278,
+   "accurate": 7,
+   "strict": 0.025
+  },
+  "qwen30b:temporal:post1970": {
+   "scored": 32,
+   "accurate": 6,
+   "strict": 0.188
+  },
+  "qwen30b:temporal:pre1970": {
+   "scored": 168,
+   "accurate": 12,
+   "strict": 0.071
+  },
+  "sonnet:baseline:post1970": {
+   "scored": 205,
+   "accurate": 105,
+   "strict": 0.512
+  },
+  "sonnet:baseline:pre1970": {
+   "scored": 53,
+   "accurate": 31,
+   "strict": 0.585
+  },
+  "sonnet:combo:pre1970": {
+   "scored": 193,
+   "accurate": 126,
+   "strict": 0.653
+  },
+  "sonnet:temporal:pre1970": {
+   "scored": 232,
+   "accurate": 129,
+   "strict": 0.556
+  },
+  "pooled:baseline:pre1970": {
+   "scored": 187,
+   "accurate": 84,
+   "strict": 0.449
+  },
+  "pooled:temporal:pre1970": {
+   "scored": 936,
+   "accurate": 273,
+   "strict": 0.292
+  },
+  "pooled:combo:pre1970": {
+   "scored": 1140,
+   "accurate": 264,
+   "strict": 0.232
+  },
+  "pooled:baseline:post1970": {
+   "scored": 1065,
+   "accurate": 413,
+   "strict": 0.388
+  },
+  "pooled:temporal:post1970": {
+   "scored": 145,
+   "accurate": 41,
+   "strict": 0.283
+  },
+  "pooled:combo:post1970": {
+   "scored": 171,
+   "accurate": 55,
+   "strict": 0.322
+  }
+ },
+ "fits": {
+  "deepseek:temporal:pre1970": {
+   "OR": 0.719,
+   "ci_low": 0.369,
+   "ci_high": 1.4,
+   "p": 0.3315,
+   "n": 473
+  },
+  "deepseek:combo:pre1970": {
+   "OR": 0.372,
+   "ci_low": 0.189,
+   "ci_high": 0.734,
+   "p": 0.00436,
+   "n": 473
+  },
+  "deepseek:temporal:post1970": {
+   "OR": 0.617,
+   "ci_low": 0.211,
+   "ci_high": 1.798,
+   "p": 0.37584,
+   "n": 263
+  },
+  "deepseek:combo:post1970": {
+   "OR": 0.673,
+   "ci_low": 0.327,
+   "ci_high": 1.385,
+   "p": 0.28236,
+   "n": 263
+  },
+  "gpt54mini:temporal:pre1970": {
+   "OR": 0.362,
+   "ci_low": 0.116,
+   "ci_high": 1.131,
+   "p": 0.08049,
+   "n": 145
+  },
+  "gpt54mini:combo:pre1970": {
+   "OR": 0.372,
+   "ci_low": 0.112,
+   "ci_high": 1.23,
+   "p": 0.10509,
+   "n": 145
+  },
+  "gpt54mini:temporal:post1970": {
+   "OR": 2.101,
+   "ci_low": 0.396,
+   "ci_high": 11.143,
+   "p": 0.38317,
+   "n": 143
+  },
+  "gpt54mini:combo:post1970": {
+   "OR": 1.491,
+   "ci_low": 0.564,
+   "ci_high": 3.937,
+   "p": 0.42038,
+   "n": 143
+  },
+  "grok43:temporal:pre1970": {
+   "OR": 0.706,
+   "ci_low": 0.228,
+   "ci_high": 2.183,
+   "p": 0.54563,
+   "n": 263
+  },
+  "grok43:combo:pre1970": {
+   "OR": 0.456,
+   "ci_low": 0.134,
+   "ci_high": 1.556,
+   "p": 0.20988,
+   "n": 263
+  },
+  "grok43:temporal:post1970": {
+   "OR": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "p": NaN,
+   "n": 128
+  },
+  "grok43:combo:post1970": {
+   "OR": NaN,
+   "ci_low": NaN,
+   "ci_high": NaN,
+   "p": NaN,
+   "n": 128
+  },
+  "llama4mav:temporal:pre1970": {
+   "OR": 0.337,
+   "ci_low": 0.102,
+   "ci_high": 1.107,
+   "p": 0.07312,
+   "n": 103
+  },
+  "llama4mav:combo:pre1970": {
+   "OR": 0.33,
+   "ci_low": 0.096,
+   "ci_high": 1.129,
+   "p": 0.07729,
+   "n": 103
+  },
+  "llama4mav:temporal:post1970": {
+   "OR": 1.73,
+   "ci_low": 0.43,
+   "ci_high": 6.959,
+   "p": 0.44019,
+   "n": 51
+  },
+  "llama4mav:combo:post1970": {
+   "OR": 1.003,
+   "ci_low": 0.212,
+   "ci_high": 4.753,
+   "p": 0.99702,
+   "n": 51
+  },
+  "mistralsmall:temporal:pre1970": {
+   "OR": 0.256,
+   "ci_low": 0.077,
+   "ci_high": 0.848,
+   "p": 0.02574,
+   "n": 329
+  },
+  "mistralsmall:combo:pre1970": {
+   "OR": 0.456,
+   "ci_low": 0.155,
+   "ci_high": 1.341,
+   "p": 0.15363,
+   "n": 329
+  },
+  "mistralsmall:temporal:post1970": {
+   "OR": 0.861,
+   "ci_low": 0.482,
+   "ci_high": 1.538,
+   "p": 0.61293,
+   "n": 308
+  },
+  "mistralsmall:combo:post1970": {
+   "OR": 0.792,
+   "ci_low": 0.42,
+   "ci_high": 1.495,
+   "p": 0.47219,
+   "n": 308
+  },
+  "qwen30b:temporal:pre1970": {
+   "OR": 0.343,
+   "ci_low": 0.109,
+   "ci_high": 1.073,
+   "p": 0.0658,
+   "n": 472
+  },
+  "qwen30b:combo:pre1970": {
+   "OR": 0.12,
+   "ci_low": 0.034,
+   "ci_high": 0.422,
+   "p": 0.00093,
+   "n": 472
+  },
+  "qwen30b:temporal:post1970": {
+   "OR": 1.05,
+   "ci_low": 0.5,
+   "ci_high": 2.205,
+   "p": 0.89811,
+   "n": 283
+  },
+  "qwen30b:combo:post1970": {
+   "OR": 1.207,
+   "ci_low": 0.509,
+   "ci_high": 2.859,
+   "p": 0.66946,
+   "n": 283
+  },
+  "sonnet:temporal:pre1970": {
+   "OR": 0.841,
+   "ci_low": 0.457,
+   "ci_high": 1.546,
+   "p": 0.57741,
+   "n": 478
+  },
+  "sonnet:combo:pre1970": {
+   "OR": 1.268,
+   "ci_low": 0.608,
+   "ci_high": 2.644,
+   "p": 0.52611,
+   "n": 478
+  }
+ },
+ "pooled_fits": {
+  "temporal:pre1970": {
+   "OR": 0.586,
+   "ci_low": 0.334,
+   "ci_high": 1.026,
+   "p": 0.06155,
+   "n": 2263
+  },
+  "combo:pre1970": {
+   "OR": 0.535,
+   "ci_low": 0.31,
+   "ci_high": 0.923,
+   "p": 0.02464,
+   "n": 2263
+  },
+  "temporal:post1970": {
+   "OR": 0.955,
+   "ci_low": 0.653,
+   "ci_high": 1.395,
+   "p": 0.81091,
+   "n": 1381
+  },
+  "combo:post1970": {
+   "OR": 1.028,
+   "ci_low": 0.696,
+   "ci_high": 1.518,
+   "p": 0.89083,
+   "n": 1381
+  }
+ },
+ "in_baseline": {
+  "baseline": {
+   "scored": 1252,
+   "share_in_baseline": 1.0,
+   "strict_in_baseline": 0.397,
+   "strict_new": NaN
+  },
+  "temporal": {
+   "scored": 1082,
+   "share_in_baseline": 0.244,
+   "strict_in_baseline": 0.409,
+   "strict_new": 0.252
+  },
+  "combo": {
+   "scored": 1313,
+   "share_in_baseline": 0.187,
+   "strict_in_baseline": 0.457,
+   "strict_new": 0.194
+  }
+ }
+}

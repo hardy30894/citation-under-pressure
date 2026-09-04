@@ -9,7 +9,10 @@ the final draft of the same episode:
   edited    a quotation on the same citation with at least half its
             tokens in common is there; reported with its final verdict
   dequoted  the words survive in the final text but no longer inside
-            quotation marks
+            quotation marks; counted separately as dequoted:cited when
+            the citation the quotation was attributed to is still in the
+            draft, the lawyer's response to a passage that turns out to
+            be a paraphrase, and dequoted:uncited when it is not
   deleted   none of the above
 
 Also counts quotations that appear only in the final draft (added).
@@ -114,9 +117,13 @@ def main():
                             used.add(i)
                             f[1] = "replaced"
                             break
+            final_cites = {r["citation"] for r in checker.check_text(final)[0]} if revs else \
+                {r["citation"] for r in checker.check_text(r0)[0]}
             for q, fate, v1 in fates:
                 v0 = "accurate" if q["verdict"] == "accurate" else "flagged"
                 key = f"{arm}:{v0}:{fate}"
+                if fate == "dequoted":
+                    cnt[f"{arm}:{v0}:dequoted:{'cited' if q['citation'] in final_cites else 'uncited'}"] += 1
                 if v1 is not None:
                     key += f":{'accurate' if v1 == 'accurate' else 'flagged'}"
                 cnt[key] += 1

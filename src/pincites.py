@@ -4,6 +4,9 @@
 For every full-run draft citation carrying a pinpoint page: is the pin
 inside the case's true span, and if a quote is attributed to that cite,
 does the quoted language actually sit on the cited page (+/- one page)?
+A pincite that names a range or a list of pages ("495-97", "495, 501")
+supports the citation on any page it names, so every named page counts
+as cited; the range is read from the first page for the span check.
 This is the measurement LePhantomCite says needs Westlaw/Lexis access."""
 
 import json
@@ -33,7 +36,7 @@ def tally_texts(texts, cap, checker):
     tally = {"no_pin": 0, "non_us": 0, "pin_in_span": 0,
              "pin_out_of_span": 0, "no_cap_data": 0,
              "quote_at_pin": 0, "quote_near_pin": 0,
-             "quote_not_at_pin": 0}
+             "quote_not_at_pin": 0, "pin_is_range": 0, "range_saved": 0}
     for text in texts:
         details = cite_details(text)
         recs, _ = checker.check_text(text)
@@ -63,6 +66,9 @@ def tally_texts(texts, cap, checker):
                 tally["no_cap_data"] += 1
                 continue
             pin = d["pin_page"]
+            pins = [p for p in (d.get("pin_pages") or [pin]) if span[0] <= p <= span[-1]]
+            if len(d.get("pin_pages") or []) > 1:
+                tally["pin_is_range"] += 1
             if not (span[0] <= pin <= span[-1]):
                 tally["pin_out_of_span"] += 1
                 continue
@@ -73,10 +79,12 @@ def tally_texts(texts, cap, checker):
                 if not frags:
                     continue
                 frag = normalize(max(frags, key=len))
-                at_pin = frag in normalize(pages.get(pin, ""))
+                at_pin = any(frag in normalize(pages.get(p, "")) for p in pins)
+                if at_pin and frag not in normalize(pages.get(pin, "")):
+                    tally["range_saved"] += 1  # a later page of a cited range
                 near = any(
                     frag in normalize(pages.get(pp, ""))
-                    for pp in (pin - 1, pin + 1)
+                    for p in pins for pp in (p - 1, p + 1)
                 )
                 anywhere = any(
                     frag in normalize(t) for t in pages.values()

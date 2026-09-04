@@ -141,7 +141,7 @@
 \newcommand{\ciQuoteMistralCombo}{0.36 to 0.99}
 \newcommand{\pQuoteMistralCombo}{0.0441}
 \newcommand{\sigQuoteMistralCombo}{*}
-\newcommand{\pinAtMistral}{51}
+\newcommand{\pinAtMistral}{52}
 \newcommand{\pinWrongMistral}{37}
 \newcommand{\existLlamaBase}{0.958}
 \newcommand{\strictLlamaBase}{0.588}
@@ -285,7 +285,7 @@
 \newcommand{\ciQuoteDeepseekCombo}{0.21 to 0.48}
 \newcommand{\pQuoteDeepseekCombo}{<0.0001}
 \newcommand{\sigQuoteDeepseekCombo}{*}
-\newcommand{\pinAtDeepseek}{65}
+\newcommand{\pinAtDeepseek}{69}
 \newcommand{\pinWrongDeepseek}{19}
 \newcommand{\existGptBase}{0.981}
 \newcommand{\strictGptBase}{0.583}
@@ -357,8 +357,8 @@
 \newcommand{\ciQuoteGptCombo}{0.31 to 1.20}
 \newcommand{\pQuoteGptCombo}{0.1510}
 \newcommand{\sigQuoteGptCombo}{}
-\newcommand{\pinAtGpt}{54}
-\newcommand{\pinWrongGpt}{25}
+\newcommand{\pinAtGpt}{69}
+\newcommand{\pinWrongGpt}{21}
 \newcommand{\existSonnetBase}{0.991}
 \newcommand{\strictSonnetBase}{0.527}
 \newcommand{\existSonnetQuota}{0.985}
@@ -429,8 +429,8 @@
 \newcommand{\ciQuoteSonnetCombo}{1.06 to 2.58}
 \newcommand{\pQuoteSonnetCombo}{0.0251}
 \newcommand{\sigQuoteSonnetCombo}{*}
-\newcommand{\pinAtSonnet}{83}
-\newcommand{\pinWrongSonnet}{13}
+\newcommand{\pinAtSonnet}{85}
+\newcommand{\pinWrongSonnet}{11}
 \newcommand{\existGrokBase}{0.981}
 \newcommand{\strictGrokBase}{0.480}
 \newcommand{\existGrokQuota}{0.987}
@@ -501,11 +501,11 @@
 \newcommand{\ciQuoteGrokCombo}{0.25 to 0.95}
 \newcommand{\pQuoteGrokCombo}{0.0346}
 \newcommand{\sigQuoteGrokCombo}{*}
-\newcommand{\pinAtGrok}{65}
+\newcommand{\pinAtGrok}{67}
 \newcommand{\pinWrongGrok}{21}
 \newcommand{\pinOutTotal}{26}
 \newcommand{\pinInTotal}{6,644}
-\newcommand{\pinAtHuman}{88}
+\newcommand{\pinAtHuman}{90}
 \newcommand{\pinHumanN}{41}
 \newcommand{\cleanRZeroTotal}{38}
 \newcommand{\humanStrict}{0.610}
@@ -3119,7 +3119,7 @@
 \newcommand{\pinNonUsPct}{24}
 \newcommand{\pinNoCap}{248}
 \newcommand{\pinWithQuote}{1,001}
-\newcommand{\pinNearPct}{12}
+\newcommand{\pinNearPct}{9}
 \newcommand{\pinNoCapPct}{3}
 \newcommand{\capLastVolume}{572}
 \newcommand{\lenSurv}{7}
@@ -4127,5 +4127,86 @@
 \newcommand{\nmGainMistralTemporalOr}{0.59}
 \newcommand{\nmSonnetComboOr}{1.07}
 \newcommand{\nmSonnetComboP}{0.89}
+\newcommand{\pinNQwen}{48}
+\newcommand{\pinNMistral}{126}
+\newcommand{\pinNLlama}{42}
+\newcommand{\pinNDeepseek}{205}
+\newcommand{\pinNGpt}{155}
+\newcommand{\pinNSonnet}{262}
+\newcommand{\pinNGrok}{163}
+\newcommand{\pinNHuman}{41}
+\newcommand{\pinNMin}{42}
+\newcommand{\pinNMax}{262}
+\newcommand{\pinRangeSaved}{45}
+\newcommand{\pinRangeCites}{1,371}
+\newcommand{\deqCitedTrue}{100}
+\newcommand{\deqTotalTrue}{103}
+\newcommand{\delOnlyTrue}{215}
+\newcommand{\deleteBeatsKeepTrue}{6}
+\newcommand{\trDeqQwenTrue}{10}
+\newcommand{\trDelQwenTrue}{13}
+\newcommand{\trDeqMistralTrue}{4}
+\newcommand{\trDelMistralTrue}{40}
+\newcommand{\trDeqLlamaTrue}{5}
+\newcommand{\trDelLlamaTrue}{28}
+\newcommand{\trDeqDeepseekTrue}{58}
+\newcommand{\trDelDeepseekTrue}{71}
+\newcommand{\trDeqGptTrue}{1}
+\newcommand{\trDelGptTrue}{19}
+\newcommand{\trDeqSonnetTrue}{2}
+\newcommand{\trDelSonnetTrue}{30}
+\newcommand{\trDeqGrokTrue}{23}
+\newcommand{\trDelGrokTrue}{14}
+\newcommand{\deqCitedPassage}{109}
+\newcommand{\deqTotalPassage}{111}
+\newcommand{\delOnlyPassage}{208}
+\newcommand{\deleteBeatsKeepPassage}{4}
+\newcommand{\trDeqQwenPassage}{16}
+\newcommand{\trDelQwenPassage}{17}
+\newcommand{\trDeqMistralPassage}{12}
+\newcommand{\trDelMistralPassage}{47}
+\newcommand{\trDeqLlamaPassage}{7}
+\newcommand{\trDelLlamaPassage}{23}
+\newcommand{\trDeqDeepseekPassage}{50}
+\newcommand{\trDelDeepseekPassage}{72}
+\newcommand{\trDeqGptPassage}{1}
+\newcommand{\trDelGptPassage}{15}
+\newcommand{\trDeqSonnetPassage}{5}
+\newcommand{\trDelSonnetPassage}{17}
+\newcommand{\trDeqGrokPassage}{20}
+\newcommand{\trDelGrokPassage}{17}
+\newcommand{\stratPreBase}{0.449}
+\newcommand{\stratPreBaseN}{187}
+\newcommand{\stratPreTemporal}{0.292}
+\newcommand{\stratPreTemporalN}{936}
+\newcommand{\stratPreCombo}{0.232}
+\newcommand{\stratPreComboN}{1140}
+\newcommand{\stratOrPreTemporal}{0.59}
+\newcommand{\stratCiPreTemporal}{0.33 to 1.03}
+\newcommand{\stratPPreTemporal}{0.062}
+\newcommand{\stratOrPreCombo}{0.54}
+\newcommand{\stratCiPreCombo}{0.31 to 0.92}
+\newcommand{\stratPPreCombo}{0.025}
+\newcommand{\stratPostBase}{0.388}
+\newcommand{\stratPostBaseN}{1065}
+\newcommand{\stratPostTemporal}{0.283}
+\newcommand{\stratPostTemporalN}{145}
+\newcommand{\stratPostCombo}{0.322}
+\newcommand{\stratPostComboN}{171}
+\newcommand{\stratOrPostTemporal}{0.95}
+\newcommand{\stratCiPostTemporal}{0.65 to 1.40}
+\newcommand{\stratPPostTemporal}{0.811}
+\newcommand{\stratOrPostCombo}{1.03}
+\newcommand{\stratCiPostCombo}{0.70 to 1.52}
+\newcommand{\stratPPostCombo}{0.891}
+\newcommand{\stratPreFalls}{3}
+\newcommand{\reachedAgainTemporal}{24}
+\newcommand{\reachedAgainStrictTemporal}{0.409}
+\newcommand{\reachedNewStrictTemporal}{0.252}
+\newcommand{\reachedAgainCombo}{19}
+\newcommand{\reachedAgainStrictCombo}{0.457}
+\newcommand{\reachedNewStrictCombo}{0.194}
+\newcommand{\reachedAgainBase}{0.397}
+\newcommand{\auditAccCiHigh}{9}
 \newcommand{\primQuoteFallModels}{three}
 \newcommand{\bothTemplatesQuoteFallModels}{two}

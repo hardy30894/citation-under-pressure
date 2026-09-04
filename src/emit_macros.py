@@ -1011,6 +1011,78 @@ if nmg.exists():
     if v:
         emit2("nmSonnetComboOr", f"{v['OR']:.2f}"); emit2("nmSonnetComboP", f"{v['p']:.2f}")
 
+# pincite counts behind each page-level figure, and the range rule
+pc = R / "pincites.json"
+if pc.exists():
+    t = json.loads(pc.read_text())
+    pooled = {"quote_at_pin": 0, "quote_near_pin": 0, "quote_not_at_pin": 0, "pin_is_range": 0, "range_saved": 0}
+    for m, mk in ALPHA.items():
+        v = t[m]
+        n = v["quote_at_pin"] + v["quote_near_pin"] + v["quote_not_at_pin"]
+        emit2(f"pinN{mk}", str(n))
+        for k in pooled:
+            pooled[k] += v[k]
+    hv = t["human"]
+    emit2("pinNHuman", str(hv["quote_at_pin"] + hv["quote_near_pin"] + hv["quote_not_at_pin"]))
+    ns = [t[m]["quote_at_pin"] + t[m]["quote_near_pin"] + t[m]["quote_not_at_pin"] for m in ALPHA]
+    emit2("pinNMin", str(min(ns))); emit2("pinNMax", str(max(ns)))
+    emit2("pinRangeSaved", str(pooled["range_saved"]))
+    emit2("pinRangeCites", f"{pooled['pin_is_range']:,}")
+
+# what happens to a dequoted quotation's citation (src/loop_transitions.py)
+if lt2.exists():
+    t = json.loads(lt2.read_text())
+    for arm, ak in (("true", "True"), ("passage", "Passage")):
+        cited = sum(t[m].get(f"{arm}:flagged:dequoted:cited", 0) for m in ALPHA)
+        unc = sum(t[m].get(f"{arm}:flagged:dequoted:uncited", 0) for m in ALPHA)
+        emit2(f"deqCited{ak}", str(cited)); emit2(f"deqTotal{ak}", str(cited + unc))
+        dele = sum(t[m].get(f"{arm}:flagged:deleted", 0) for m in ALPHA)
+        rep_ = sum(t[m].get(f"{arm}:flagged:{k}", 0) for m in ALPHA for k in ("kept:accurate", "edited:accurate", "replaced"))
+        emit2(f"delOnly{ak}", str(dele))
+        emit2(f"deleteBeatsKeep{ak}", str(sum(1 for m in ALPHA
+              if t[m].get(f"{arm}:flagged:deleted", 0) >
+              sum(t[m].get(f"{arm}:flagged:{k}", 0) for k in ("kept:accurate", "edited:accurate", "replaced", "dequoted")))))
+        for m, mk in ALPHA.items():
+            emit2(f"trDeq{mk}{ak}", str(t[m].get(f"{arm}:flagged:dequoted", 0)))
+            emit2(f"trDel{mk}{ak}", str(t[m].get(f"{arm}:flagged:deleted", 0)))
+
+# the date clause: damage or composition (src/era_strata.py)
+es = R / "era_strata.json"
+if es.exists():
+    t = json.loads(es.read_text())
+    for e, ek in (("pre1970", "Pre"), ("post1970", "Post")):
+        for c, ck in (("baseline", "Base"), ("temporal", "Temporal"), ("combo", "Combo")):
+            cell = t["cells"].get(f"pooled:{c}:{e}")
+            if cell:
+                emit2(f"strat{ek}{ck}", fmt3(cell["strict"]))
+                emit2(f"strat{ek}{ck}N", str(cell["scored"]))
+        for c, ck in (("temporal", "Temporal"), ("combo", "Combo")):
+            v = t["pooled_fits"].get(f"{c}:{e}")
+            if v:
+                emit2(f"stratOr{ek}{ck}", f"{v['OR']:.2f}")
+                emit2(f"stratCi{ek}{ck}", f"{v['ci_low']:.2f} to {v['ci_high']:.2f}")
+                emit2(f"stratP{ek}{ck}", f"{v['p']:.3f}" if v["p"] >= 0.001 else "$<$0.001")
+    n_pre = sum(1 for k, v in t["fits"].items() if k.endswith("pre1970") and v.get("p", 1) < 0.05 and v["OR"] < 1)
+    emit2("stratPreFalls", str(n_pre))
+    for c, ck in (("temporal", "Temporal"), ("combo", "Combo")):
+        v = t["in_baseline"][c]
+        emit2(f"reachedAgain{ck}", str(round(100 * v["share_in_baseline"])))
+        emit2(f"reachedAgainStrict{ck}", fmt3(v["strict_in_baseline"]))
+        emit2(f"reachedNewStrict{ck}", fmt3(v["strict_new"]))
+    emit2("reachedAgainBase", fmt3(t["in_baseline"]["baseline"]["strict_in_baseline"]))
+
+# the accurate-side audit's upper bound
+if asr.exists():
+    t = json.loads(asr.read_text())
+    acc = t.get("accurate_sample")
+    if acc:
+        import math
+        k, n, z = acc.get("checker_side", 0), acc["n"], 1.96
+        pp = k / n; dd = 1 + z * z / n
+        cc = (pp + z * z / (2 * n)) / dd
+        hh = z * math.sqrt(pp * (1 - pp) / n + z * z / (4 * n * n)) / dd
+        emit2("auditAccCiHigh", str(round(100 * (cc + hh))))
+
 # model counts for the abstract, as words
 WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven"]
 prim_q = {k.split(":")[1] for k, v in gee.items() if k.startswith("quote:") and v["holm_p"] < 0.05 and v["OR"] < 1}

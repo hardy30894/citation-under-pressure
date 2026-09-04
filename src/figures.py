@@ -32,6 +32,9 @@ LABEL = {
     "mistralsmall": "Mistral Small", "grok43": "Grok 4.3",
 }
 WIDTH_IN = 12.4 / 2.54  # IOS Press type-area width
+# a distinct marker per model, so the lines stay separable in greyscale
+MARKERS = {"qwen30b": "o", "mistralsmall": "s", "deepseek": "^", "grok43": "D",
+           "sonnet": "v", "llama4mav": "P", "gpt54mini": "X", "glm47flash": "*"}
 plt.rcParams.update({
     "font.size": 7, "axes.titlesize": 8, "xtick.labelsize": 7,
     "ytick.labelsize": 7, "legend.fontsize": 6.5,
@@ -45,15 +48,15 @@ def fig1():
     human = json.loads((HERE / "results/human_baseline.json").read_text())
     h = human["aggregates"]["overall"]["strict_quote_rate"]
 
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.1))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.25))
     for ax, key, title in (
         (axes[0], "strict_rate", "strict quotation accuracy"),
         (axes[1], "existence_rate", "citation existence"),
     ):
         for model, conds in data.items():
             ys = [conds.get(c, {}).get(key) for c in CONDS]
-            ax.plot(range(len(CONDS)), ys, marker="o", markersize=3,
-                    linewidth=1.4, label=LABEL.get(model, model))
+            ax.plot(range(len(CONDS)), ys, marker=MARKERS.get(model, "o"),
+                    markersize=3.4, linewidth=1.4, label=LABEL.get(model, model))
         ax.set_xticks(range(len(CONDS)))
         ax.set_xticklabels(["base", "quota", "temporal", "stakes", "combined"])
         if key == "existence_rate":
@@ -86,7 +89,7 @@ def fig2():
     trans = json.loads((HERE / "results/loop_transitions.json").read_text())
     arms = [("none", "none"), ("scrambled", "0"), ("quarter", "0.25"),
             ("half", "0.5"), ("threequarter", "0.75"), ("true", "1")]
-    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.1))
+    fig, axes = plt.subplots(1, 2, figsize=(WIDTH_IN, 1.25))
     for mi, (model, rows) in enumerate(data.items()):
         strict, removed = [], []
         for arm, _ in arms:
@@ -102,9 +105,10 @@ def fig2():
                 "kept:flagged", "edited:flagged", "dequoted", "deleted"))
             removed.append(gone / acc0 if acc0 else float("nan"))
         xs = range(len(arms))
-        axes[0].plot(xs, strict, marker="o", markersize=3, linewidth=1.4,
+        mk = MARKERS.get(model, "o")
+        axes[0].plot(xs, strict, marker=mk, markersize=3.2, linewidth=1.4,
                      color=f"C{mi}", label=LABEL.get(model, model))
-        axes[1].plot(xs, removed, marker="o", markersize=3, linewidth=1.4,
+        axes[1].plot(xs, removed, marker=mk, markersize=3.2, linewidth=1.4,
                      color=f"C{mi}")
     for ax, title in ((axes[0], "final strict quotation accuracy"),
                       (axes[1], "share of correct quotations removed")):

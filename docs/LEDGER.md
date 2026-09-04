@@ -761,3 +761,55 @@ before or after seeing the relevant data. Nothing is deleted.
   kept as read (restored from git after the rebuild), and the paper says
   the readings predate the corrections, which can only remove
   checker-side verdicts. docs/pending_instrument_fixes.patch removed.
+- 2026-09-05 (review of the 02:26 build, six majors and seven minors):
+  (1) Precision axis. The mixed arms' labels are the share of true lines
+  supplied, and Section 5 now says the checker's own flags are right 78
+  percent of the time, so realised precision is about 0.8 of the label
+  and the crossing sits nearer 0.4; the arms replace rather than add
+  lines, so recall falls with precision, restored to the text after a
+  page-fit cut had removed it; the accurate side of the checker is
+  reported too (0 of 40 wrong, upper bound near 9 percent). (2) The date
+  clause is confounded with what gets quoted, and the old era check
+  compared eras inside the baseline cell, where the old cases are the
+  model's own choices. src/era_strata.py dates every scored quotation by
+  the cited opinion's decision year and refits inside strata: within
+  pre-1970 opinions strict accuracy is 0.449 baseline (187), 0.292
+  temporal (936), 0.232 combined (1,140), the combined fall surviving
+  pooled with a model effect (OR 0.54, 0.31 to 0.92, p 0.025), the
+  temporal marginal (OR 0.59, p 0.062), three per-model falls at p<0.05;
+  within later opinions neither moves (OR 0.96, 1.03). A second
+  stratification: under the temporal clause only 24 percent of scored
+  quotations cite authority the model also uses at baseline and those
+  score 0.409 against the baseline 0.397, while new authority scores
+  0.252 (combined 19 percent, 0.457, 0.194). The clause damages
+  integrity chiefly by composition, which the paper now says. (3) The
+  Discussion had called Liu et al.'s GPT-5 agent "the best" and used its
+  40.8 percent precision to argue the precision requirement; verified
+  against the v2 PDF, Table 2 also carries a Claude Code agent at 76.1
+  percent precision and 68.8 F1, which the text calls highest precision
+  and highest F1, and the 52.8 percent pincite recall is the GPT-5 row.
+  Both rows are now reported, "best" is qualified by axis in both
+  places, and the argument is restated. (4) The hand readings are
+  declared a single unblinded pass with no second rater, over released
+  samples. (5) Both rules the reviewer named are fixed: the
+  omitted-internal-citation tolerance shipped this morning, and
+  src/pilot.py now parses a pincite range or list so any page it names
+  counts as cited (45 quotations moved from adjacent to at-page; Sonnet
+  5 83 to 85 percent, human 88 to 90, pooled adjacent 12 to 9), with the
+  n behind every page-level figure now given (42 to 262 per model).
+  (6) Dequoting is separated from deletion: the citation survives in 100
+  of 103 dequoted quotations, so for a paraphrase it is the right
+  repair; counting it as repair, deletion still exceeds repair for six
+  of seven models under bare flags and four of seven under the passage
+  arm, Grok 4.3 the exception. Minors: Llama-4's loop basis disclosed;
+  the combined condition's clause confound stated where it is called
+  pressure; "inaccurate" given one meaning (failing = near miss plus
+  inaccurate in Section 4); the two episodes that ended empty without
+  passing noted; the fourfold repair rise attributed to Sonnet 5; the
+  ortega citation moved to the claim it supports; the 482 human excerpts
+  explained; coverage gap defined and statutes excluded from the
+  existence denominator; the paired share's movement with treatment
+  given; figures enlarged to 1.25 in with a distinct marker per model so
+  the lines separate in greyscale. Page fit took about 3,000 characters
+  out of the intro, related work, method, and discussion; the release
+  link is Hardy's to fix.

@@ -2,23 +2,27 @@
  "deepseek": {
   "true:accurate:deleted": 1,
   "true:accurate:dequoted": 4,
+  "true:accurate:dequoted:cited": 4,
   "true:accurate:edited:accurate": 2,
   "true:accurate:kept:accurate": 45,
   "true:added:accurate": 2,
   "true:added:flagged": 2,
   "true:flagged:deleted": 19,
   "true:flagged:dequoted": 26,
+  "true:flagged:dequoted:cited": 26,
   "true:flagged:kept:flagged": 1,
   "true:flagged:replaced": 1
  },
  "sonnet": {
   "true:accurate:deleted": 3,
   "true:accurate:dequoted": 2,
+  "true:accurate:dequoted:cited": 2,
   "true:accurate:edited:accurate": 4,
   "true:accurate:kept:accurate": 92,
   "true:added:accurate": 5,
   "true:flagged:deleted": 14,
   "true:flagged:dequoted": 3,
+  "true:flagged:dequoted:cited": 3,
   "true:flagged:kept:accurate": 2,
   "true:flagged:replaced": 1
  }

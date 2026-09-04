@@ -292,10 +292,21 @@ def cite_details(text):
         g = cite.groups or {}
         pin = getattr(cite.metadata, "pin_cite", None)
         pin_page = None
+        pin_pages = []
         if pin:
             m = re.search(r"\d+", pin)
             if m:
                 pin_page = int(m.group())
+            # a pincite may name a range or a list ("495-97", "495, 501");
+            # every page it names supports the citation
+            for a, b in re.findall(r"(\d+)\s*(?:-|\u2013|to)\s*(\d+)", pin):
+                a, b = int(a), int(b)
+                if b < a:  # the Bluebook drops repeated leading digits: 495-97
+                    b = int(str(a)[: len(str(a)) - len(str(b))] + str(b))
+                if 0 <= b - a <= 40:
+                    pin_pages.extend(range(a, b + 1))
+            if not pin_pages:
+                pin_pages = [int(n) for n in re.findall(r"\d+", pin)]
         year = getattr(cite.metadata, "year", None)
         out.append(
             {
@@ -304,6 +315,7 @@ def cite_details(text):
                 "reporter": g.get("reporter"),
                 "page": g.get("page"),
                 "pin_page": pin_page,
+                "pin_pages": pin_pages or ([pin_page] if pin_page else []),
                 "paren_year": int(year) if year else None,
             }
         )

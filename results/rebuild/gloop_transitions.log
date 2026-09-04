@@ -1,2 +1,2 @@
-deepseek {'true:flagged:deleted': 19, 'true:flagged:dequoted': 26, 'true:flagged:kept:flagged': 1, 'true:flagged:replaced': 1}
-sonnet {'true:flagged:deleted': 14, 'true:flagged:dequoted': 3, 'true:flagged:kept:accurate': 2, 'true:flagged:replaced': 1}
+deepseek {'true:flagged:deleted': 19, 'true:flagged:dequoted': 26, 'true:flagged:dequoted:cited': 26, 'true:flagged:kept:flagged': 1, 'true:flagged:replaced': 1}
+sonnet {'true:flagged:deleted': 14, 'true:flagged:dequoted': 3, 'true:flagged:dequoted:cited': 3, 'true:flagged:kept:accurate': 2, 'true:flagged:replaced': 1}
