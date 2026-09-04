@@ -711,3 +711,17 @@ before or after seeing the relevant data. Nothing is deleted.
   plants, and applying it requires the full rebuild. Page fit: abstract
   and several paragraphs tightened, tables set in scriptsize, figures at
   1.1 in; body ends on page 10, references begin on page 11.
+- 2026-09-05 (notation): Section 3 now defines the outcomes in symbols,
+  E_d (existence over adjudicable citations A_d), R_d (strict accuracy
+  over the scored set S_d), K_d (accurate quotations in the draft), R^l_d
+  (lenient), and the verdict rule (fragments f_j of a quotation against
+  the normalized opinion text T; accurate when every f_j is a substring,
+  near miss when min_j cov(f_j, T) >= 0.85); Section 5 names the
+  feedback precision pi; the GEE indicator y_imk is named. The Discussion
+  states the paper's core point in that notation: R_d = K_d / |S_d| rises
+  when |S_d| shrinks as well as when K_d grows, and both experiments are
+  the first case (quoting less under pressure, deleting under feedback),
+  so an evaluation that scores only what a system emits should report
+  K_d beside R_d. The strict-rate formula S_d that an earlier draft
+  carried is superseded by this block. Page fit kept by small trims in
+  Sections 5 to 9; body ends on page 10.
