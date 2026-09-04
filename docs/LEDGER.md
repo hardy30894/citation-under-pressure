@@ -633,3 +633,12 @@ before or after seeing the relevant data. Nothing is deleted.
   under pressure and deleting under feedback, so a rate should be read
   beside the count of correct items; Discussion, Limitations, and
   Conclusion trimmed to keep ten pages.
+- 2026-09-04 (README): opening rewritten to the three-part answer
+  (failure mode moves with capability; verification is not repair; a
+  rate moves by what the model exposes to the check), the results
+  diagram relabelled, Finding 1 retitled, and four figures embedded: the
+  paper's two (docs/figures/fig1_pressure.png, fig2_repair.png) and two
+  README-only ones from src/figures_readme.py, the fate of flagged
+  quotations under a bare flag against the passage in the flag
+  (fig3_repair.png) and Sonnet 5's quotations per draft against its rate
+  (fig4_selection.png).

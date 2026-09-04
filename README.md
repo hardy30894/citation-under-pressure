@@ -10,10 +10,20 @@ flowchart LR
     D --> E["then put the checker inside<br/>the drafting loop and ask:<br/>does the model fix what<br/>pressure broke, or just<br/>satisfy the checker?"]
 ```
 
-The short answer: pressure breaks citation integrity in the models that
-are cheapest to deploy, it breaks them with almost no refusals, and when
-the checker's findings are fed back, capable models satisfy it mainly
-by deleting the flagged quotations rather than correcting them.
+The short answer, in three parts. Under deployment constraints the
+failure mode moves with capability: the smallest model fabricates
+citations, the middle of the range misquotes, and the strongest model's
+quotation rate holds only because it quotes less, while its residual
+errors are paraphrase in quotation marks, real language from the wrong
+case, and wrong pages. Verification is not repair: fed the checker's
+findings, a capable model reaches a perfect measured score by deleting
+what was flagged (Sonnet 5 repaired 3 of 36 flagged quotations and
+deleted 31), and an imprecise verifier makes it delete correct
+quotations too (43 of 68 under all-false flags, 20 under 50 percent
+precision, 3 under a precise one). Both experiments make one point: a
+model can raise an observable correctness rate by changing what it
+exposes to the check, so a rate has to be read beside the count of
+correct items it is computed over.
 
 ## Introduction
 
@@ -236,17 +246,17 @@ flowchart LR
     V["deterministic verifier<br/>inside the drafting loop"]
     subgraph L["capability ladder"]
         direction TB
-        F["frontier: unshaken by pressure"]
+        F["frontier: rate holds because it quotes less;<br/>residue is paraphrase, wrong case, wrong page"]
         M["mid-tier: citations stay real,<br/>quotation accuracy falls"]
         S["small: citations fabricated,<br/>quotations collapse, almost never a refusal"]
     end
     P --> L
-    V -->|"removes bad citations;<br/>deletes flagged quotes"| F
-    V -->|"same, less completely"| M
-    V -.->|"changes nothing"| S
+    V -->|"deletes flagged quotes (31 of 36);<br/>with the passage in the flag, repairs 12"| F
+    V -->|"deletes or dequotes most flags"| M
+    V -.->|"leaves most flags standing"| S
 ```
 
-### Finding 1. Pressure breaks citation integrity from the bottom up, with almost no refusals
+### Finding 1. The failure mode moves with capability, and the strongest model's rate holds because it quotes less
 
 **Table 1.** Baseline versus the combined-pressure condition. Strict
 quotation accuracy is the alteration-aware verbatim standard, over
@@ -285,6 +295,10 @@ and its accurate quotations per draft fell from 2.83 to 2.60, so the
 rise is selection, fewer and safer quotations; the temporal rule also
 shifts its citations toward older, better-memorized cases (median
 decision year 1943 against 1986).
+![Figure 1: strict quotation accuracy and citation existence by condition, one line per model, human floor dotted](docs/figures/fig1_pressure.png)
+
+![Figure: Sonnet 5's quotations per draft, accurate quotations per draft, and strict rate by condition](docs/figures/fig4_selection.png)
+
 Compliance with the pre-1970 rule is perfect for Sonnet 5 and Grok 4.3
 and worst for Mistral, whose other figures are second-lowest.
 Across the 1,344 pressured drafts there were three refusals; an eighth
@@ -351,6 +365,8 @@ quotations against 3 under a precise one, and under the lenient verdict
 5 below revision alone (0.861 against 0.880). Verifier precision is
 therefore a deployment requirement.
 
+![Figure 2: final strict accuracy and share of correct quotations removed against verifier precision, one line per model](docs/figures/fig2_repair.png)
+
 Two further accountings close the loop's books
 (`results/loop_citations.json`, `results/gloop_transitions.json`).
 The existence rise under true feedback is also removal: of the 113
@@ -376,6 +392,8 @@ removal exceeded repair in every model. Final strict rates under the
 passage arm were 0.993 for Sonnet 5 and 1.000 for DeepSeek over more
 surviving quotations (83 scored against 68 for Sonnet 5). A loop should
 hand the model the passage; even then it removes more than it repairs.
+
+![Figure: what each model did with the quotations the checker flagged, bare flag against passage in the flag](docs/figures/fig3_repair.png)
 
 Three instrument checks answer the questions a reader will ask of the
 strict standard and the index. Refitting every contrast on the lenient
@@ -512,6 +530,8 @@ withdrew itself after its own verification passes.
     docs/PAPER_DRAFT.md      earlier markdown draft
     docs/DESIGN.md           frozen design with architecture diagrams
     docs/HYPOTHESES.md       pre-registration (frozen 2026-08-31)
+    docs/figures/            the paper's two figures and the two README
+                             figures above (src/figures.py, src/figures_readme.py)
     docs/LEDGER.md           dated log of every post-freeze decision,
                              including two self-retracted findings and
                              the three jury calibration failures
