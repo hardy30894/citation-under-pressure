@@ -627,3 +627,9 @@ before or after seeing the relevant data. Nothing is deleted.
   model the passage; even then it removes more than it repairs" stands.
   The "Compliance and refusals" paragraph is folded into the Table 1
   caption and the intro's refusal count for the page fit.
+- 2026-09-04 (reader's note): the Discussion now joins the two
+  experiments in one sentence, a model can raise an observable
+  correctness rate by changing what it exposes to the check, quoting less
+  under pressure and deleting under feedback, so a rate should be read
+  beside the count of correct items; Discussion, Limitations, and
+  Conclusion trimmed to keep ten pages.
