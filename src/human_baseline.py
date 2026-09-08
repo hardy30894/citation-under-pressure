@@ -8,8 +8,16 @@ et al. 300 LLM-generated entries (non-.pdf filenames) are excluded, as are the
 appellate brief text written by human lawyers. The aggregate answers: when a
 human lawyer quotes a case, how often does the quote survive our strict check?
 
-Outputs results/human_baseline.json. No LLM calls; CourtListener fetches are
-capped by fetch_budget=120 inside OpinionTextStore.
+Note on the count: the dataset's README describes a 500/500 split of the
+1,000 brief-derived excerpts into perturbed and clean, but the released
+files hold 518 perturbed and 482 clean, and 482 is every excerpt whose
+list_hallucinations is empty. The 18 are the dataset's own discrepancy,
+not a filter of ours.
+
+Outputs results/human_baseline.json. No LLM calls and no network: the
+text comes from the same ChainTextStore the model drafts are scored
+against, with the CourtListener fetch budget set to zero, so the human
+and model numbers rest on identical text access.
 """
 
 import json

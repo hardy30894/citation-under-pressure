@@ -982,3 +982,24 @@ before or after seeing the relevant data. Nothing is deleted.
   is a deliberate and documented deviation, taken after cutting four
   further lines of prose failed to close the gap; the earlier
   four-baselineskip version was rejected as too large.
+- 2026-09-08 (provenance audit of the human reference, on Hardy's
+  question): verified end to end and nothing is invented. The 482
+  excerpts are every brief-derived row in Liu et al.'s released files
+  whose injected-hallucination list is empty (1,000 brief-derived rows,
+  518 perturbed, 482 clean); their README describes a 500/500 split, so
+  the 18 an earlier reviewer asked about are the dataset's own
+  discrepancy and not a filter of ours, which the paper now states as
+  "482 of their 1,000". The rate rebuilds exactly from the per-excerpt
+  records: 1,640 quotations extracted, 1,075 unpaired, 155 unverifiable,
+  410 scored, 250 accurate, so 250/410 = 0.6098; existence 845 of 883
+  adjudicable = 0.957; 482 excerpts scored, none crashed. The human
+  briefs and the model drafts go through the same ChainTextStore with
+  the CourtListener fetch budget at zero, so neither side gets text the
+  other could not have. Corrected a stale docstring in
+  src/human_baseline.py that claimed a fetch budget of 120 through
+  OpinionTextStore; the code has used the chain store at budget zero
+  since the vendoring. The substantive caveat stands and is already in
+  the paper: only 410 of 1,640 quotations in those briefs reach the
+  rate, and 103 of the 160 failures are unexplained after the 57 OCR
+  near misses, which is why the figure is a severity floor and not a
+  lawyer error rate.
