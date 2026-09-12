@@ -1012,6 +1012,11 @@ if ap.exists():
     emit2("accProvShort", str(t["short_probe"]))
     emit2("accProvAbsent", str(t["absent_from_corpus"]))
     emit2("accProvAbsentNonUs", str(t["absent_and_non_us_reporter"]))
+    emit2("accProvUntraced", str(t["not_traced"]))
+    rws = [json.loads(l) for l in open(R / "accurate_provenance_rows.jsonl")]
+    _miss = [x for x in rws if x["distinctive"] and x["sources"] >= 1
+             and not x["attributed_among_sources"]]
+    emit2("accProvUntracedNonUs", str(sum(1 for x in _miss if "U.S." not in x["citation"])))
 
 # audit by model and the grounded-arm reading (results/attribution_sample_reading.json)
 asr = R / "attribution_sample_reading.json"

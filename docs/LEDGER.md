@@ -1297,3 +1297,21 @@ before or after seeing the relevant data. Nothing is deleted.
   mostly deletes: 30 of Sonnet 5's 35 flagged quotations deleted against
   3 corrected, and accurate quotations per draft rising for one model of
   seven.
+  (10) A fourth review pass, rating the manuscript accept, asked for three
+  wording precisions, all applied. "The strongest model" and "the
+  smallest model" are gone: the paper establishes an ordering on baseline
+  reliability and not on capability, so those are now Sonnet 5 and the
+  30B model, named directly. The abstract's 1,680 is now "primary
+  drafts", since the study also runs a second template, a second task,
+  grounding, repeated generations, and the loop arms. And the untraced
+  remainder of the accurate-side check is characterised rather than left
+  as a bare 74 of 1,341: 30 cite reporters the archive does not carry and
+  most of the rest use language common to several opinions, and the
+  sentence now says the check bounds attribution error rather than
+  estimating it, since it cannot separate a miss from a gap in the
+  archive. Three further suggestions were declined as churn rather than
+  correction: giving the dissent-and-concurrence finding a second mention
+  in the Discussion, promoting pinpoint accuracy into the abstract, and
+  adding the passage-arm result to the Conclusion. All three are already
+  stated where they belong, none is a defect, and the last was tried and
+  reverted when it cost a robustness sentence to fit.
