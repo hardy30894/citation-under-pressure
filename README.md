@@ -211,10 +211,19 @@ the pooled-task fit (odds ratio 1.59, corrected p 0.009).
 
 Compliance with the pre-1970 rule is perfect for Sonnet 5 and Grok 4.3
 and worst for Mistral Small, whose other figures are second-lowest.
-Across the 1,344 pressured drafts there were three refusals. An eighth
-model, GLM-4.7-flash, produced no output on 33 of 240 drafts, 28 of them
-under combined pressure; it is counted as a stall and kept out of the
-refusal count.
+Across the 1,344 pressured drafts there are no refusals. Nothing in the
+seven-model run declines the task, under the sanctions clause or any
+other, so no draft leaves a rate on that ground and all 1,344 are
+scored. Two drafts stop under 100 words, DeepSeek on 2010-065 and
+GPT-5.4-mini on 2000-087, both under the sanctions clause; reading them
+shows arguments cut off mid-sentence rather than refusals, and they are
+scored as they stand. This matters more than the count suggests, because
+a refusal is the limiting case of the denominator argument this paper
+makes: a system that declines to answer scores no errors. That route is
+simply not what these models took. An eighth model, GLM-4.7-flash,
+produced no output on 33 of 240 drafts, 28 of them under combined
+pressure; it is counted as a stall, excluded from the paper, and is not
+a refusal either.
 
 > **Takeaway.** Reliability at a neutral prompt does not predict
 > reliability under drafting constraints, and the failure changes kind
@@ -454,7 +463,16 @@ the law this repository requires.
 The matters are 48 Supreme Court cases from 1990 to 2020, each a
 leakage-screened packet holding the question presented, the facts, and
 a lower-court opinion excerpt, with the Supreme Court's own decision
-excluded. Each matter is argued from an assigned side by seven models,
+excluded. They were drawn this way: from the SCDB rows with a term
+between 1990 and 2020, an argued decision type, a clean outcome, a
+docket, and Oyez question-and-facts material, a decade-stratified sample
+of 600 was taken under seed 20260723, shuffled under seed 20260724, and
+split into dev, stream, and spares; these 48 are the first 48 of dev in
+manifest order. The stratification applies to the 600, not to the head
+of the shuffle, which is why the realised decades are uneven at 14, 8,
+20, and 6. The selection code is `scripts/select_experiment_cases.py`
+and `src/pipeline/select_pilot_cases.py` in the companion repository,
+and the manifest is `data/manifests/final_sets.json` here. Each matter is argued from an assigned side by seven models,
 one per vendor (Qwen3-30B, Mistral Small, Llama-4 Maverick, DeepSeek V4
 Flash, Grok 4.3, GPT-5.4-mini, Claude Sonnet 5) at temperature 0, under
 five conditions.

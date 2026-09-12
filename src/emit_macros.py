@@ -903,6 +903,24 @@ if rv.exists():
 
 ALPHA_NAME = {"qwen30b": "Qwen3-30B", "mistralsmall": "Mistral Small", "llama4mav": "Llama-4",
               "deepseek": "DeepSeek", "grok43": "Grok~4.3", "gpt54mini": "GPT-5.4-mini", "sonnet": "Sonnet~5"}
+WORDS10_ = ["no", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
+# pressured drafts that stop early (src/full_*/drafts): no draft in the
+# seven-model run refuses the task, so nothing is dropped from any rate;
+# two stop short of 100 words, which is the nearest thing to a refusal
+_short = _pressured = 0
+for _d in sorted((R).glob("full_*/drafts")):
+    if _d.parent.name.endswith("glm47flash"):
+        continue
+    for _f in _d.glob("*.txt"):
+        if _f.stem.rsplit("_", 1)[1] == "baseline":
+            continue
+        _pressured += 1
+        if len(_f.read_text().split()) < 100:
+            _short += 1
+if _pressured:
+    emit2("nShortPressured", WORDS10_[_short] if _short < 10 else str(_short))
+    emit2("nShortPressuredN", str(_short))
+
 WORDS_ = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight"]
 
 # the count outcome (src/count_outcome.py): accurate quotations per draft

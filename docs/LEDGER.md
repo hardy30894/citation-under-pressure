@@ -1232,3 +1232,34 @@ before or after seeing the relevant data. Nothing is deleted.
   The README was carrying the reverse of the paper on whether the
   realised crossings bound above or below; the paper is right, they are
   lower bounds, and the README is corrected.
+  (7) Four changes from a third reviewer pass, which rated the manuscript
+  accept. (a) The sampling rule for the 48 Supreme Court matters is now
+  in the paper. It was traced to the companion repository and verified
+  against the released manifests: SCDB rows with a term from 1990 to
+  2020, an argued decision type, a clean outcome, a docket, and Oyez
+  question-and-facts material; a decade-stratified sample of 600 under
+  seed 20260723; a shuffle under 20260724; dev, stream and spares; and
+  these 48 are the first 48 of dev in manifest order, which this session
+  checked element by element against that manifest. The stratification
+  binds the 600 and not the head of the shuffle, which is why the
+  realised decades are 14, 8, 20 and 6 rather than balanced. An earlier
+  attempt at this sentence said "stratified by decade and issue area",
+  which is true of the draw and false of these 48; it was written, caught
+  against the realised counts, and removed before it reached a build.
+  (b) The paper said "three refusals" as a typed number, the only one in
+  it not driven by a macro. It could not be reproduced. All 1,344
+  pressured drafts exist and were scored; a scan for refusal language
+  over all of them returns nothing but ordinary legal use of "decline";
+  the two anomalously short drafts, DeepSeek on 2010-065 and GPT-5.4-mini
+  on 2000-087, both under the sanctions clause, read as arguments cut off
+  mid-sentence, not refusals. The claim is replaced by what is true and
+  macro-driven: no draft refuses, and the two that stop under 100 words
+  are scored as they stand. (c) The realised precision of a true feedback
+  line is now given as what the two readings imply rather than as a
+  measured quantity, in the body and in the abstract, since the readers'
+  kappa is negative and an interval between two unreliable readings is a
+  sensitivity range and not a confidence interval. (d) "Citation
+  integrity is one whose ground truth is public and machine-checkable"
+  overstated what Section 6 goes on to show, and now says the opinions
+  and coordinates are public and machine-checkable while binding a
+  quotation to the authority a draft means is heuristic.
