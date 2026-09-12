@@ -123,7 +123,7 @@ Two controls make the arm publishable regardless of outcome. First, RLEF's own f
 
 ## Statistics
 
-Paired throughout: every condition contrast on the identical matter-side, so matter identity cancels within pairs. Primary analysis is mixed-effects logistic regression at the citation level (fabricated vs verified) with random intercepts for matter and fixed effects for condition, model, and their interaction; the factorial paper ran bootstrap CIs only and no formal model, and reviewers will expect one. Cluster-bootstrap CIs (resampled on matters, their 1,000-draw convention) as the robustness companion, per-matter equal-weight fractions as the secondary metric, rule of three for zero cells, and the two-model rule as a claims gate: no headline direction that appears in one family and reverses in another. Interaction terms are the point, not a nuisance; their data already shows pressure is non-monotone (survey up, temporal down, combo worst).
+Paired throughout: every condition contrast on the identical matter-side, so matter identity cancels within pairs. Primary analysis is mixed-effects logistic regression at the citation level (fabricated vs verified) with random intercepts for matter and fixed effects for condition, model, and their interaction; the factorial paper ran bootstrap CIs only and no formal model, and reviewers will expect one. Cluster-bootstrap CIs (resampled on matters, 2,000 draws, the number the Inference section fixes) as the robustness companion, per-matter equal-weight fractions as the secondary metric, rule of three for zero cells, and the two-model rule as a claims gate: no headline direction that appears in one family and reverses in another. Interaction terms are the point, not a nuisance; their data already shows pressure is non-monotone (survey up, temporal down, combo worst).
 
 ## The measurement and the model, stated formally
 
@@ -162,9 +162,20 @@ ignored, and baseline is the reference level. In words: each condition's
 effect is an odds ratio against baseline, with uncertainty that respects
 the fact that forty-eight matters, not thousands of citations, are the
 independent units. A matter-level cluster bootstrap (2,000 resamples)
-over per-draft rates is the pre-registered companion; the two agreed on
-every cell in this campaign, which is the robustness display the paper
-reports.
+over per-draft rates, paired by matter, is the pre-registered companion,
+and it is the robustness display the paper reports.
+
+> **Corrected 2026-09-12.** Two errors in this section are fixed above
+> rather than left standing. First, the Statistics section said "their
+> 1,000-draw convention" while this one said 2,000 resamples; 2,000 is
+> the number, and the Statistics line now says so. Second, this section
+> claimed "the two agreed on every cell in this campaign." That sentence
+> was written before the bootstrap was implemented, and it is false. When
+> it was run, the GEE and the bootstrap agreed on seven of the eight
+> surviving contrasts and disagreed on one, Qwen3-30B's quotation fall
+> under the temporal clause, whose paired interval is -0.155 to 0.004
+> against a corrected GEE p of 0.030. The paper reports the
+> disagreement and names the contrast.
 
 ## Budget and sequencing
 

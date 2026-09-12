@@ -1157,11 +1157,12 @@ before or after seeing the relevant data. Nothing is deleted.
   names the exception. Two earlier passes of this script were discarded
   rather than reported: the first used 5,000 draws and a
   citation-weighted statistic, the second was unpaired. Neither is what
-  DESIGN.md specified. Two defects in DESIGN.md itself are noted and not
-  silently repaired: its Statistics section says "their 1,000-draw
-  convention" while its Inference section says 2,000 resamples, and its
-  claim that "the two agreed on every cell in this campaign" is a
-  retrospective sentence that is now false, since they disagree on
+  DESIGN.md specified. Two defects in DESIGN.md itself were corrected in
+  place with a dated marker naming what the text used to say, rather than
+  silently rewritten: its Statistics section said "their 1,000-draw
+  convention" while its Inference section said 2,000 resamples, and its
+  claim that "the two agreed on every cell in this campaign" was written
+  before the bootstrap existed and is false, since they disagree on
   exactly the contrast named above. The paper reports the disagreement. An
   orphan results/stats_h1_bootstrap.json, predating the coverage-gap
   correction and never wired into src/rebuild_all.sh, was not used.
