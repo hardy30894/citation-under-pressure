@@ -1053,3 +1053,39 @@ before or after seeing the relevant data. Nothing is deleted.
   human line matches human_baseline.json; both figure PDFs postdate
   their data; no undefined macros, no unresolved references, no overfull
   boxes; ten body pages with references from page 11.
+- 2026-09-12 (completion pass: missing data fetched, second rater added).
+  PINCITE SCOPE WIDENED. The page-level check had been restricted to the
+  U.S. Reports by choice, not by data: the Caselaw Access Project marks
+  page breaks the same way in the federal reporters and 551 F.3d and 420
+  F.2d volumes were already cached. pincites.py now accepts every
+  reporter the archive publishes, which is 99 percent of the pinpoints
+  the drafts contain. Coverage rises from 73 to 92 percent of the 9,129
+  pinpoints checked against a page span, and the scored set from 1,001
+  to 1,283 quotations; the appellate task now has a pincite check where
+  it had none. Rates barely move (Sonnet 5 85 percent on a cited page,
+  human 85, pooled adjacent 10), so the wider scope confirms rather than
+  changes the finding. N.L.R.B. remains outside it: the archive
+  publishes no agency reporter, and those citations are now correctly
+  unverifiable rather than not found.
+  SECOND RATER. The audit had one reader, which the last three reviews
+  called its weakest point. A second, independent reading of the same
+  160 inaccurate verdicts, blind to the first, puts 35 percent on the
+  checker's side against the first reading's 22. The two agree on 9
+  items, 54 percent of the sample, at Cohen's kappa -0.10, which is
+  worse than chance: the classification is not reproducible and no point
+  estimate of the checker's error is defensible. Rather than choose a
+  reader, the contrasts are refit against the union, counting an item as
+  the checker's whenever either reader did, 51 percent of the sample and
+  45 to 59 percent by condition. Seven of the eight pre-registered
+  survivors hold in every one of 200 draws at that rate; only Qwen3-30B's
+  temporal quotation fall does not (6 percent). The paper now reports
+  the disagreement and the pessimistic refit instead of a single share,
+  which is a stronger claim than the one it replaces: the results stand
+  even if the instrument is wrong about half the time. Written to
+  results/audit_two_raters.json with the second reader's per-item labels.
+  The second reader also named three mechanical defects worth recording:
+  a quotation can be bound to a parallel citation (41 L. Ed. 2d 935, 96
+  S. Ct. 1592) as though it were a separate case, to a cert denial with
+  no opinion text, or backwards to the citation preceding it when the
+  quotation sits before its own. These are not fixed and are candidates
+  for the next rebuild.

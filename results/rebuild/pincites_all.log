@@ -1,0 +1,9 @@
+deepseek {'no_pin': 368, 'non_cap_reporter': 23, 'pin_in_span': 1503, 'pin_out_of_span': 13, 'no_cap_data': 98, 'quote_at_pin': 183, 'quote_near_pin': 39, 'quote_not_at_pin': 58, 'pin_is_range': 126, 'range_saved': 11}
+gpt54mini {'no_pin': 908, 'non_cap_reporter': 9, 'pin_in_span': 1620, 'pin_out_of_span': 10, 'no_cap_data': 94, 'quote_at_pin': 123, 'quote_near_pin': 21, 'quote_not_at_pin': 41, 'pin_is_range': 954, 'range_saved': 29}
+grok43 {'no_pin': 256, 'non_cap_reporter': 10, 'pin_in_span': 1389, 'pin_out_of_span': 0, 'no_cap_data': 32, 'quote_at_pin': 133, 'quote_near_pin': 21, 'quote_not_at_pin': 40, 'pin_is_range': 194, 'range_saved': 4}
+llama4mav {'no_pin': 882, 'non_cap_reporter': 15, 'pin_in_span': 742, 'pin_out_of_span': 4, 'no_cap_data': 28, 'quote_at_pin': 47, 'quote_near_pin': 5, 'quote_not_at_pin': 23, 'pin_is_range': 224, 'range_saved': 1}
+mistralsmall {'no_pin': 533, 'non_cap_reporter': 24, 'pin_in_span': 1364, 'pin_out_of_span': 41, 'no_cap_data': 197, 'quote_at_pin': 86, 'quote_near_pin': 18, 'quote_not_at_pin': 53, 'pin_is_range': 113, 'range_saved': 3}
+qwen30b {'no_pin': 904, 'non_cap_reporter': 32, 'pin_in_span': 839, 'pin_out_of_span': 17, 'no_cap_data': 176, 'quote_at_pin': 59, 'quote_near_pin': 8, 'quote_not_at_pin': 20, 'pin_is_range': 2, 'range_saved': 0}
+sonnet {'no_pin': 1060, 'non_cap_reporter': 10, 'pin_in_span': 824, 'pin_out_of_span': 1, 'no_cap_data': 14, 'quote_at_pin': 260, 'quote_near_pin': 11, 'quote_not_at_pin': 34, 'pin_is_range': 75, 'range_saved': 10}
+human {'no_pin': 314, 'non_cap_reporter': 124, 'pin_in_span': 560, 'pin_out_of_span': 2, 'no_cap_data': 50, 'quote_at_pin': 145, 'quote_near_pin': 17, 'quote_not_at_pin': 9, 'pin_is_range': 82, 'range_saved': 2}
+EXIT=0

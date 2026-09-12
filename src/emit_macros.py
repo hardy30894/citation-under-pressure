@@ -609,11 +609,11 @@ if pc.exists():
             continue
         for k, n in v.items():
             tot[k] = tot.get(k, 0) + n
-    pins = sum(tot[k] for k in ("non_us", "pin_in_span", "pin_out_of_span", "no_cap_data"))
+    pins = sum(tot[k] for k in ("non_cap_reporter", "pin_in_span", "pin_out_of_span", "no_cap_data"))
     emit2("pinAllPins", f"{pins:,}")
     emit2("pinSpanChecked", f"{tot['pin_in_span'] + tot['pin_out_of_span']:,}")
     emit2("pinSpanPct", str(round(100 * (tot["pin_in_span"] + tot["pin_out_of_span"]) / pins)))
-    emit2("pinNonUsPct", str(round(100 * tot["non_us"] / pins)))
+    emit2("pinNonCapPct", str(round(100 * tot["non_cap_reporter"] / pins)))
     emit2("pinNoCap", str(tot["no_cap_data"]))
     emit2("pinWithQuote", f"{tot['quote_at_pin'] + tot['quote_near_pin'] + tot['quote_not_at_pin']:,}")
     wq = tot["quote_at_pin"] + tot["quote_near_pin"] + tot["quote_not_at_pin"]
@@ -978,6 +978,26 @@ if asf.exists():
         emit2(f"sens{key}WeakName", f"{MODEL_NAMES[wm]}'s {CONDS[wc].lower().replace('combo', 'combined')} {'existence' if weak.startswith('citation') else 'quotation'} fall")
         emit2(f"sens{key}WeakPct", str(int(100 * v[weak]["survival"])))
     emit2("sensPrimaryN", str(len([k for k, x in t["variants"]["observed"].items() if x["primary_holm_p"] < 0.05])))
+    if "union" in t["variants"]:
+        v = t["variants"]["union"]
+        prim = [k for k, x in v.items() if x["primary_holm_p"] < 0.05]
+        emit2("sensUnionAlwaysKept", str(sum(1 for k in prim if v[k]["survival"] >= 0.995)))
+        weak = min(prim, key=lambda k: v[k]["survival"])
+        _, wm, wc = weak.split(":")
+        emit2("sensUnionWeakName", f"{MODEL_NAMES[wm]}'s {CONDS[wc].lower()} quotation fall")
+        emit2("sensUnionWeakPct", str(int(100 * v[weak]["survival"])))
+
+# the two independent readings of the audit sample
+tw = R / "audit_two_raters.json"
+if tw.exists():
+    t = json.loads(tw.read_text())
+    emit2("twoRaterN", str(t["n"]))
+    emit2("twoRaterOnePct", str(round(100 * t["rater1_share"])))
+    emit2("twoRaterTwoPct", str(round(100 * t["rater2_share"])))
+    emit2("twoRaterKappa", f"{t['cohens_kappa']:.2f}")
+    emit2("twoRaterAgree", str(round(100 * t["raw_agreement"])))
+    emit2("twoRaterUnionPct", str(round(100 * t["union_share"])))
+    emit2("twoRaterBoth", str(t["both"]))
 
 # name mismatches by condition and the sensitivity fit that counts them
 # as not found (results/records_nm.jsonl, stats_gee_nm.json)

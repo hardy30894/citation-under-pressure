@@ -62,8 +62,20 @@ def main():
         for c, v in fit(df, model, "citation").items():
             cit[f"citation:{model}:{c}"] = v
     result = {"n_draws": N, "shares": shares, "wilson_high": highs, "variants": {}}
+    result["union_shares"] = None
     inacc = (df.kind == "quote") & (df.verdict == "inaccurate")
-    for name, share in (("observed", shares), ("upper", highs)):
+    # the pessimistic variant: an item counts as the checker's whenever
+    # either of the two independent readers called it so
+    two = R / "audit_two_raters.json"
+    if two.exists():
+        u = json.loads(two.read_text())["by_condition_union"]
+        union = {c: v["union_share"] for c, v in u.items()}
+    else:
+        union = None
+    variants = [("observed", shares), ("upper", highs)]
+    if union:
+        variants.append(("union", union))
+    for name, share in variants:
         surv = {}
         ors = {}
         for _ in range(N):

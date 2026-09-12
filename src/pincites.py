@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Page-level pincite verification over CAP star pagination (U.S. Reports).
+"""Page-level pincite verification over CAP star pagination.
 
 For every full-run draft citation carrying a pinpoint page: is the pin
 inside the case's true span, and if a quote is attributed to that cite,
@@ -7,6 +7,12 @@ does the quoted language actually sit on the cited page (+/- one page)?
 A pincite that names a range or a list of pages ("495-97", "495, 501")
 supports the citation on any page it names, so every named page counts
 as cited; the range is read from the first page for the span check.
+
+Every reporter the Caselaw Access Project publishes is in scope, not the
+U.S. Reports alone: the archive marks page breaks the same way in the
+federal reporters, which is where the appellate task's citations live.
+A citation to a reporter the archive does not publish, or to a volume
+past the archive's end, is counted as unchecked rather than wrong.
 This is the measurement LePhantomCite says needs Westlaw/Lexis access."""
 
 import json
@@ -33,7 +39,7 @@ MODELS = tuple(
 
 def tally_texts(texts, cap, checker):
     """Pincite tally over an iterable of draft or brief texts."""
-    tally = {"no_pin": 0, "non_us": 0, "pin_in_span": 0,
+    tally = {"no_pin": 0, "non_cap_reporter": 0, "pin_in_span": 0,
              "pin_out_of_span": 0, "no_cap_data": 0,
              "quote_at_pin": 0, "quote_near_pin": 0,
              "quote_not_at_pin": 0, "pin_is_range": 0, "range_saved": 0}
@@ -52,8 +58,8 @@ def tally_texts(texts, cap, checker):
             if d["pin_page"] is None:
                 tally["no_pin"] += 1
                 continue
-            if _norm_rep(d["reporter"]) != "US":
-                tally["non_us"] += 1
+            if not cap.slugs.get(_norm_rep(d["reporter"])):
+                tally["non_cap_reporter"] += 1
                 continue
             html = cap.get(d["volume"], d["reporter"], d["page"],
                            want_html=True)
