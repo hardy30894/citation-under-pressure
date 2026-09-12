@@ -68,7 +68,7 @@ companion and carries the same numbers.
 
 | claim | the one number | where |
 |---|---|---|
-| The failure mode moves with capability | the 30B model's citation existence falls from 0.924 to 0.773 under combined pressure; strict quotation accuracy falls significantly for three of seven models, only two of them under both prompt templates; accurate quotations per draft fall significantly for five models, two of them at the top of the range, on the single template that outcome was run on; Sonnet 5's rate rises from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
+| No one failure mode covers the seven | the 30B model's citation existence falls from 0.924 to 0.773 under combined pressure, and it is the only model whose existence moves in the primary fit; strict quotation accuracy falls significantly for three of seven models, only two of them under both prompt templates; accurate quotations per draft fall significantly for six of the seven across the two templates, two of them at the top of the range; Sonnet 5, which escapes all three, sees its rate rise from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
 | Verification is not repair | under precise flags Sonnet 5 repaired 3 of 35 flagged quotations and deleted 30, reaching a measured 1.000 over what it kept; correct quotations per draft rose for one model of seven; at 50 percent verifier precision it removed 21 of its 69 correct quotations, as many as revision with no feedback (21), and 43 under all-false flags | Finding 2, Figures 2 and 3 |
 | What survives at the top is misattribution | 68 percent of Sonnet 5's inaccurate quotations are paraphrases of the correct case in quotation marks, and 317 quotations across the models are real opinion passages bound to the wrong case | Finding 3 |
 
@@ -302,8 +302,9 @@ $\pi = 0.25$, $0.5$, or $0.75$ give the dose-response: Sonnet 5 removed
 precision $\pi$ fell from 1 to 0
 (21 with no feedback at all), and its final accuracy fell 1.000, 1.000,
 0.956, 0.830, 0.591 with it. **These labels are nominal**: they are the share of feedback lines
-drawn from the checker, whose own flags are right 78 percent of the
-time, so realised precision is about four-fifths of the label. The arms
+drawn from the checker, whose own flags are right 65 to 78 percent of
+the time depending on which of the two hand readings you take, so
+realised precision is roughly two-thirds to four-fifths of the label. The arms
 also replace true lines rather than adding false ones, so recall falls
 with precision, and because the loop stops on a clean draft they differ
 in rounds executed too (2.47 under true feedback against 3.21 under
@@ -313,11 +314,14 @@ episode-round run 0.048, 0.090, 0.145, 0.150, and 0.200 against 0.109
 with no feedback, and after exactly one round, where every arm has had
 one opportunity, 10, 15, 25, 31, and 32 percent of the 181 accurate
 quotations are gone against 23 percent. On both bases revision with no feedback sits between
-precision 0.75 and 0.5, interpolating to **0.56 to 0.66 nominal, or 0.44
+precision 0.75 and 0.5, interpolating to **0.56 to 0.66 nominal, or 0.37
 to 0.52 realised** once you allow that a "true" line is right only as
-often as the checker is (78 percent). Below that a verifier destroys
-more correct work than leaving the model alone. Because 78 percent is
-itself a lower bound, those crossings are upper bounds, and because the
+often as the checker is (65 to 78 percent). Below that a verifier
+destroys more correct work than leaving the model alone. The realised
+interval is widened by the readers' disagreement, not narrowed: 0.37
+comes from the pessimistic reading and 0.52 from the optimistic one.
+Because the audited rule is worse than the rule now shipped, the
+realised crossings are lower bounds, and because the
 arms lower recall along with precision the number bounds a loop of this
 shape rather than precision on its own. On the accurate side the checker was audited at 0 of 40
 verdicts wrong, an upper bound near 9 percent on the 69 correct

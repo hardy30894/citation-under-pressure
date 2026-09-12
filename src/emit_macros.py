@@ -1210,6 +1210,9 @@ if rc.exists():
         emit2("crossNomHigh", f"{cr['nominal_range'][1]:.2f}")
         emit2("crossRealLow", f"{cr['realised_range'][0]:.2f}")
         emit2("crossRealHigh", f"{cr['realised_range'][1]:.2f}")
+        if "realised_factor_range" in cr:
+            emit2("realisedPrecLow", str(round(100 * cr["realised_factor_range"][0])))
+            emit2("realisedPrecHigh", str(round(100 * cr["realised_factor_range"][1])))
 
 # block quotations, which carry no quotation marks
 bq = R / "block_quotes.json"

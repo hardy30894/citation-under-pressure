@@ -1206,3 +1206,29 @@ before or after seeing the relevant data. Nothing is deleted.
   fit does support; and two cross-references to Limitations for results
   that live in Experiment 1. The Discussion's point estimate for checker
   error was also replaced by the range the two readings give.
+  (6) A second pass of the same audit, on the corrected manuscript, found
+  that fix had been applied in one place and not three. The realised
+  precision of a true feedback line was still 0.78 throughout, which is
+  one minus the first reader's 22 percent, and the realised crossing was
+  derived from it. Since the paper declines to endorse either reading
+  alone, src/rounds_control.py now takes the factor as an interval over
+  both, 0.65 to 0.781, and the realised crossing widens from 0.44 to 0.52
+  to 0.37 to 0.52; the abstract carries the wider range. The same pass
+  found four further defects, now fixed: the conclusion's "citation
+  existence falls only for the 30B model" was true of the primary fit and
+  false of three exploratory ones, and now says so; "paired by matter"
+  was the wrong name for the bootstrap's resampling unit and is now "on
+  within-matter differences"; the Sonnet paragraph's appellate sentence
+  had been orphaned by an earlier trim and its connecting clause is
+  restored; and the design rationale's claim that Experiment 1 finds the
+  date clause did not reach well-memorized landmarks was cut, since the
+  evidence that separated damage to quoting from a change in what is
+  quoted is no longer in the paper and the median-year shift is if
+  anything consistent with landmarks. Four smaller ones were closed in
+  the same pass: "all seven models" now says the fall is numerical, next
+  to Sonnet 5's flat count; "numerically highest" now says highest of the
+  seven; a 35-to-22 bracket is now 22 to 35; and the true-arm rate range
+  now names all three models that reach 1.000 rather than Sonnet 5 alone.
+  The README was carrying the reverse of the paper on whether the
+  realised crossings bound above or below; the paper is right, they are
+  lower bounds, and the README is corrected.

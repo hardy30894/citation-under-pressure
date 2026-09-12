@@ -508,9 +508,12 @@
    0.66
   ],
   "realised_range": [
-   0.44,
+   0.37,
    0.52
   ],
-  "realised_factor": 0.78
+  "realised_factor_range": [
+   0.65,
+   0.781
+  ]
  }
 }

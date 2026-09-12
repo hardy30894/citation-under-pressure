@@ -122,10 +122,15 @@ def main():
     cs = [v for v in out["crossing"].values() if v is not None]
     if cs:
         out["crossing"]["nominal_range"] = [round(min(cs), 2), round(max(cs), 2)]
-        # realised precision of a true line, from the hand reading
-        rp = 0.78
-        out["crossing"]["realised_range"] = [round(min(cs) * rp, 2), round(max(cs) * rp, 2)]
-        out["crossing"]["realised_factor"] = rp
+        # Realised precision of a true line is one minus the share of the
+        # checker's inaccurate verdicts that are its own error, and the two
+        # independent readings of that sample disagree, so the realised
+        # crossing is an interval over both readings rather than a point.
+        two = json.loads((R / "audit_two_raters.json").read_text())
+        shares = [two["rater1_share"], two["rater2_share"]]
+        rp_low, rp_high = 1 - max(shares), 1 - min(shares)
+        out["crossing"]["realised_range"] = [round(min(cs) * rp_low, 2), round(max(cs) * rp_high, 2)]
+        out["crossing"]["realised_factor_range"] = [round(rp_low, 3), round(rp_high, 3)]
     (R / "rounds_control.json").write_text(json.dumps(out, indent=1))
     for arm in ARMS:
         if arm in out["pooled"]:
