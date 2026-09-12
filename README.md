@@ -1,6 +1,6 @@
 <h1 align="center">Citation Under Pressure</h1>
 
-<h3 align="center"><em>What Deployment Constraints Do to Legal Citation Integrity,<br>and What a Deterministic Checker Does Inside the Revision Loop</em></h3>
+<h3 align="center"><em>Deployment Constraints, Legal Citation Integrity,<br>and the Limits of Deterministic Verification</em></h3>
 
 ```mermaid
 flowchart LR
@@ -68,7 +68,7 @@ companion and carries the same numbers.
 
 | claim | the one number | where |
 |---|---|---|
-| No one failure mode covers the seven | the 30B model's citation existence falls from 0.924 to 0.773 under combined pressure, and it is the only model whose existence moves in the primary fit; strict quotation accuracy falls significantly for three of seven models, only two of them under both prompt templates; accurate quotations per draft fall significantly for six of the seven across the two templates, two of them at the top of the range; Sonnet 5, which escapes all three, sees its rate rise from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
+| No one failure mode covers the seven | the 30B model's reporter-coordinate existence falls from 0.924 to 0.773 under combined pressure, and it is the only model whose existence moves in the primary fit; strict quotation accuracy falls significantly for three of seven models, only two of them under both prompt templates; accurate quotations per draft fall significantly for six of the seven across the two templates, two of them at the top of the range; Sonnet 5, which escapes all three, sees its rate rise from 0.527 to 0.649 while its quotations per draft fall from 9.6 to 6.1 | Finding 1, Figures 1 and 4 |
 | Verification is not repair | under precise flags Sonnet 5 repaired 3 of 35 flagged quotations and deleted 30, reaching a measured 1.000 over what it kept; correct quotations per draft rose for one model of seven; at 50 percent verifier precision it removed 21 of its 69 correct quotations, as many as revision with no feedback (21), and 43 under all-false flags | Finding 2, Figures 2 and 3 |
 | What survives at the top is misattribution | 68 percent of Sonnet 5's inaccurate quotations are paraphrases of the correct case in quotation marks, and 317 quotations across the models are real opinion passages bound to the wrong case | Finding 3 |
 
@@ -88,7 +88,7 @@ flowchart LR
     V -.->|"leaves most flags standing"| S
 ```
 
-## Finding 1. The failure mode moves with capability
+## Finding 1. No one failure mode covers the seven
 
 Seven models, one per vendor, drafted argument sections for 48 Supreme
 Court matters under five conditions: a baseline, a citation quota, a
@@ -115,12 +115,12 @@ correction within model.
 | GPT-5.4-mini | 0.583 (0.819) [127] | 0.466 (0.693) [88] | 0.981 [8/417] | 0.962 [27/713] | 13% (68 of 519) |
 | Llama-4 Maverick | 0.588 (0.784) [51] | 0.230 (0.557) [61] * | 0.958 [9/213] | 0.939 [31/506] | 10% (22 of 213) |
 
-![Figure 1: strict quotation accuracy and citation existence by condition, one line per model, human floor dotted](docs/figures/fig1_pressure.png)
+![Figure 1: strict quotation accuracy and reporter-coordinate existence by condition, one line per model, human floor dotted](docs/figures/fig1_pressure.png)
 
 ### Existence falls at the bottom
 
 Going from the baseline column to the combo column is what pressure
-does. **Only the 30B model's citation existence moves**: from 0.924 to
+does. **Only the 30B model's reporter-coordinate existence moves**: from 0.924 to
 0.773 under combined pressure (odds ratio 0.30, corrected p < 0.001),
 with the quota, temporal, and combined contrasts all significant after
 correction. Each of its surviving existence contrasts rests on at least
@@ -522,15 +522,21 @@ $$E_d = \frac{|\{c \in A_d : \text{exists}\}|}{|A_d|}, \qquad
 R_d = \frac{|\{q \in S_d : \text{accurate}\}|}{|S_d|}, \qquad
 K_d = |\{q \in S_d : \text{accurate}\}|,$$
 
-citation existence, strict quotation accuracy, and the count of
+reporter-coordinate existence, strict quotation accuracy, and the count of
 accurate quotations in the draft; the lenient rate $R^{\ell}_d$ counts
 near misses as accurate. A quotation the draft does not attribute is
 outside $S_d$ and so outside $R_d$.
 
 Every citation gets one of three labels, never two: exists, not found,
 or unverifiable, so oracle coverage gaps are never counted as
-fabrication. Existence means the volume, reporter, and page resolve to
-an indexed opinion; the case name is compared separately
+fabrication. The outcome is called **reporter-coordinate existence**
+rather than plain existence, and the name is doing real work. It means
+the volume, reporter, and page resolve to an indexed opinion. It does
+not mean the citation is the one a lawyer would recognise: a draft that
+writes *Smith v. Jones*, 347 U.S. 483 when 347 U.S. 483 is an unrelated
+real case scores as existing under this definition, and a lawyer would
+call it fabricated. That gap is measured rather than assumed. The case
+name is compared separately
 (`src/name_mismatch.py`), and 205 of 11,769 resolving citations (1.7
 percent) carry a name the index does not match, a ceiling that includes
 abbreviated names, so the cells near 1.00 do not rest on wrong pages
@@ -638,7 +644,7 @@ anywhere.
 The same instrument scored 482 clean pre-ChatGPT human appellate briefs
 to anchor every comparison. Human lawyers reach 0.610 strict and 0.788
 lenient quotation accuracy under this standard (410 scored quotations)
-and 0.957 citation existence (0.976 on U.S. Reports and published
+and 0.957 reporter-coordinate existence (0.976 on U.S. Reports and published
 federal reporters). Crediting the 57 failures that are near misses
 carrying no alteration, the signature of a corrupted character, lifts
 the floor to 0.749; the rest are unaudited, which is why the figure
@@ -837,7 +843,7 @@ of the First through Eleventh and Federal Circuits, packets built from
 the deciding court's own statement of the case with the analysis
 withheld and outcome sentences scrubbed), run under all five conditions
 on all seven models, shows that fabrication at a neutral prompt is more
-common outside the Supreme Court. Baseline citation existence is 0.65
+common outside the Supreme Court. Baseline reporter-coordinate existence is 0.65
 for the 30B model, 0.73 for Mistral Small, 0.91 to 0.96 for the four
 models in between, and 0.99 for Sonnet 5 alone. Twenty-two percent of
 citations to the federal reporters do not resolve against four percent
