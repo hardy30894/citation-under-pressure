@@ -6,8 +6,8 @@
    "n_tests": 8
   },
   "quote:deepseek:temporal": {
-   "p": 0.02954,
-   "holm_p": 0.20678,
+   "p": 0.02931,
+   "holm_p": 0.20517,
    "n_tests": 8
   },
   "citation:deepseek:quota": {
@@ -26,7 +26,7 @@
    "n_tests": 8
   },
   "quote:deepseek:stakes": {
-   "p": 0.70121,
+   "p": 0.73995,
    "holm_p": 1.0,
    "n_tests": 8
   },
@@ -36,8 +36,8 @@
    "n_tests": 8
   },
   "quote:deepseek:quota": {
-   "p": 0.96826,
-   "holm_p": 0.96826,
+   "p": 0.94594,
+   "holm_p": 0.94594,
    "n_tests": 8
   },
   "citation:gpt54mini:temporal": {
@@ -51,22 +51,22 @@
    "n_tests": 8
   },
   "quote:gpt54mini:temporal": {
-   "p": 0.13762,
-   "holm_p": 0.82572,
+   "p": 0.13483,
+   "holm_p": 0.80898,
    "n_tests": 8
   },
   "quote:gpt54mini:combo": {
-   "p": 0.15095,
-   "holm_p": 0.75475,
-   "n_tests": 8
-  },
-  "quote:gpt54mini:quota": {
-   "p": 0.61507,
-   "holm_p": 1.0,
+   "p": 0.1629,
+   "holm_p": 0.8145,
    "n_tests": 8
   },
   "quote:gpt54mini:stakes": {
-   "p": 0.69512,
+   "p": 0.66388,
+   "holm_p": 1.0,
+   "n_tests": 8
+  },
+  "quote:gpt54mini:quota": {
+   "p": 0.804,
    "holm_p": 1.0,
    "n_tests": 8
   },
@@ -81,8 +81,8 @@
    "n_tests": 8
   },
   "quote:grok43:combo": {
-   "p": 0.03459,
-   "holm_p": 0.27672,
+   "p": 0.03461,
+   "holm_p": 0.27688,
    "n_tests": 8
   },
   "citation:grok43:stakes": {
@@ -96,8 +96,8 @@
    "n_tests": 8
   },
   "quote:grok43:temporal": {
-   "p": 0.1474,
-   "holm_p": 0.737,
+   "p": 0.14705,
+   "holm_p": 0.73525,
    "n_tests": 8
   },
   "citation:grok43:quota": {
@@ -111,13 +111,13 @@
    "n_tests": 8
   },
   "quote:grok43:quota": {
-   "p": 0.55513,
+   "p": 0.53761,
    "holm_p": 1.0,
    "n_tests": 8
   },
   "quote:grok43:stakes": {
-   "p": 0.58718,
-   "holm_p": 0.58718,
+   "p": 0.5906,
+   "holm_p": 0.5906,
    "n_tests": 8
   },
   "quote:llama4mav:combo": {
@@ -126,13 +126,13 @@
    "n_tests": 8
   },
   "quote:llama4mav:temporal": {
-   "p": 0.0001,
-   "holm_p": 0.0007,
+   "p": 7e-05,
+   "holm_p": 0.00049,
    "n_tests": 8
   },
   "quote:llama4mav:quota": {
-   "p": 0.03886,
-   "holm_p": 0.23315999999999998,
+   "p": 0.03819,
+   "holm_p": 0.22914,
    "n_tests": 8
   },
   "citation:llama4mav:quota": {
@@ -156,13 +156,13 @@
    "n_tests": 8
   },
   "quote:llama4mav:stakes": {
-   "p": 0.75983,
-   "holm_p": 0.75983,
+   "p": 0.75934,
+   "holm_p": 0.75934,
    "n_tests": 8
   },
   "quote:mistralsmall:temporal": {
-   "p": 0.00913,
-   "holm_p": 0.07304,
+   "p": 0.0094,
+   "holm_p": 0.0752,
    "n_tests": 8
   },
   "citation:mistralsmall:temporal": {
@@ -171,8 +171,8 @@
    "n_tests": 8
   },
   "quote:mistralsmall:combo": {
-   "p": 0.04413,
-   "holm_p": 0.26478,
+   "p": 0.04642,
+   "holm_p": 0.27852,
    "n_tests": 8
   },
   "citation:mistralsmall:combo": {
@@ -186,13 +186,13 @@
    "n_tests": 8
   },
   "quote:mistralsmall:stakes": {
-   "p": 0.22957,
-   "holm_p": 0.6887099999999999,
+   "p": 0.23758,
+   "holm_p": 0.71274,
    "n_tests": 8
   },
   "quote:mistralsmall:quota": {
-   "p": 0.31799,
-   "holm_p": 0.63598,
+   "p": 0.26674,
+   "holm_p": 0.53348,
    "n_tests": 8
   },
   "citation:mistralsmall:stakes": {
@@ -211,8 +211,8 @@
    "n_tests": 8
   },
   "quote:qwen30b:combo": {
-   "p": 4e-05,
-   "holm_p": 0.00024000000000000003,
+   "p": 5e-05,
+   "holm_p": 0.00030000000000000003,
    "n_tests": 8
   },
   "citation:qwen30b:temporal": {
@@ -221,8 +221,8 @@
    "n_tests": 8
   },
   "quote:qwen30b:temporal": {
-   "p": 0.0075,
-   "holm_p": 0.03,
+   "p": 0.00757,
+   "holm_p": 0.03028,
    "n_tests": 8
   },
   "citation:qwen30b:stakes": {
@@ -231,18 +231,18 @@
    "n_tests": 8
   },
   "quote:qwen30b:quota": {
-   "p": 0.78245,
+   "p": 0.77388,
    "holm_p": 1.0,
    "n_tests": 8
   },
   "quote:qwen30b:stakes": {
-   "p": 0.89295,
-   "holm_p": 0.89295,
+   "p": 0.88353,
+   "holm_p": 0.88353,
    "n_tests": 8
   },
   "quote:sonnet:combo": {
-   "p": 0.02511,
-   "holm_p": 0.20088,
+   "p": 0.02509,
+   "holm_p": 0.20072,
    "n_tests": 8
   },
   "citation:sonnet:combo": {
@@ -251,8 +251,8 @@
    "n_tests": 8
   },
   "quote:sonnet:stakes": {
-   "p": 0.04822,
-   "holm_p": 0.28932,
+   "p": 0.04503,
+   "holm_p": 0.27018,
    "n_tests": 8
   },
   "citation:sonnet:stakes": {
@@ -271,13 +271,13 @@
    "n_tests": 8
   },
   "quote:sonnet:temporal": {
-   "p": 0.56303,
+   "p": 0.56001,
    "holm_p": 1.0,
    "n_tests": 8
   },
   "quote:sonnet:quota": {
-   "p": 0.94465,
-   "holm_p": 0.94465,
+   "p": 0.99996,
+   "holm_p": 0.99996,
    "n_tests": 8
   }
  },
@@ -310,10 +310,10 @@
   },
   "deepseek:combo:quote": {
    "unpaired": 137,
-   "near_miss": 96,
-   "inaccurate": 143,
+   "near_miss": 98,
+   "inaccurate": 145,
    "accurate": 42,
-   "unverifiable": 19
+   "unverifiable": 15
   },
   "deepseek:quota:citation": {
    "exists": 479,
@@ -322,10 +322,10 @@
   },
   "deepseek:quota:quote": {
    "unpaired": 164,
-   "accurate": 110,
+   "accurate": 111,
    "near_miss": 97,
    "inaccurate": 79,
-   "unverifiable": 25
+   "unverifiable": 24
   },
   "deepseek:stakes:citation": {
    "exists": 289,
@@ -333,11 +333,11 @@
    "not_found": 8
   },
   "deepseek:stakes:quote": {
-   "accurate": 88,
+   "accurate": 89,
    "unpaired": 209,
    "near_miss": 87,
    "inaccurate": 67,
-   "unverifiable": 12
+   "unverifiable": 11
   },
   "deepseek:temporal:citation": {
    "exists": 339,
@@ -345,11 +345,11 @@
    "not_found": 16
   },
   "deepseek:temporal:quote": {
-   "unpaired": 179,
+   "unpaired": 180,
    "near_miss": 60,
    "inaccurate": 93,
    "accurate": 51,
-   "unverifiable": 6,
+   "unverifiable": 5,
    "no_fragment": 1
   },
   "gpt54mini:baseline:citation": {
@@ -360,9 +360,9 @@
   "gpt54mini:baseline:quote": {
    "unpaired": 101,
    "inaccurate": 23,
-   "accurate": 74,
+   "accurate": 75,
    "near_miss": 30,
-   "unverifiable": 8
+   "unverifiable": 7
   },
   "gpt54mini:combo:citation": {
    "exists": 686,
@@ -372,8 +372,8 @@
    "unpaired": 53,
    "inaccurate": 27,
    "near_miss": 20,
-   "accurate": 41,
-   "unverifiable": 2
+   "accurate": 42,
+   "unverifiable": 1
   },
   "gpt54mini:quota:citation": {
    "exists": 552,
@@ -382,10 +382,10 @@
   },
   "gpt54mini:quota:quote": {
    "unpaired": 82,
-   "near_miss": 29,
+   "near_miss": 31,
    "accurate": 69,
    "inaccurate": 16,
-   "unverifiable": 6
+   "unverifiable": 4
   },
   "gpt54mini:stakes:citation": {
    "exists": 418,
@@ -406,9 +406,9 @@
   "gpt54mini:temporal:quote": {
    "unpaired": 67,
    "inaccurate": 25,
-   "accurate": 32,
+   "accurate": 33,
    "near_miss": 16,
-   "unverifiable": 2
+   "unverifiable": 1
   },
   "grok43:baseline:citation": {
    "exists": 252,
@@ -440,11 +440,11 @@
    "not_found": 5
   },
   "grok43:quota:quote": {
-   "near_miss": 36,
+   "near_miss": 37,
    "unpaired": 57,
-   "accurate": 71,
+   "accurate": 72,
    "inaccurate": 31,
-   "unverifiable": 6,
+   "unverifiable": 4,
    "no_fragment": 2
   },
   "grok43:stakes:citation": {
@@ -527,8 +527,8 @@
    "unpaired": 46,
    "accurate": 9,
    "near_miss": 16,
-   "unverifiable": 4,
-   "inaccurate": 17
+   "inaccurate": 18,
+   "unverifiable": 3
   },
   "mistralsmall:baseline:citation": {
    "exists": 336,
@@ -538,9 +538,9 @@
   "mistralsmall:baseline:quote": {
    "unpaired": 106,
    "near_miss": 67,
-   "inaccurate": 70,
+   "inaccurate": 71,
    "accurate": 47,
-   "unverifiable": 16
+   "unverifiable": 15
   },
   "mistralsmall:combo:citation": {
    "exists": 452,
@@ -560,10 +560,10 @@
   },
   "mistralsmall:quota:quote": {
    "unpaired": 119,
-   "accurate": 62,
+   "accurate": 63,
    "inaccurate": 69,
    "near_miss": 66,
-   "unverifiable": 18
+   "unverifiable": 17
   },
   "mistralsmall:stakes:citation": {
    "exists": 362,
@@ -594,11 +594,11 @@
    "unresolvable": 3
   },
   "qwen30b:baseline:quote": {
-   "unpaired": 219,
+   "unpaired": 220,
    "inaccurate": 90,
-   "near_miss": 98,
+   "near_miss": 99,
    "accurate": 41,
-   "unverifiable": 28
+   "unverifiable": 26
   },
   "qwen30b:combo:citation": {
    "exists": 307,
@@ -643,10 +643,10 @@
   },
   "qwen30b:temporal:quote": {
    "unpaired": 168,
-   "inaccurate": 130,
+   "inaccurate": 131,
    "near_miss": 53,
    "accurate": 18,
-   "unverifiable": 56
+   "unverifiable": 55
   },
   "sonnet:baseline:citation": {
    "exists": 315,
@@ -679,10 +679,10 @@
   },
   "sonnet:quota:quote": {
    "unpaired": 158,
-   "accurate": 146,
+   "accurate": 148,
    "near_miss": 70,
    "inaccurate": 60,
-   "unverifiable": 4
+   "unverifiable": 2
   },
   "sonnet:stakes:citation": {
    "exists": 330,
@@ -691,10 +691,10 @@
   },
   "sonnet:stakes:quote": {
    "unpaired": 176,
-   "accurate": 147,
-   "inaccurate": 46,
-   "near_miss": 42,
-   "unverifiable": 4,
+   "accurate": 148,
+   "inaccurate": 47,
+   "near_miss": 41,
+   "unverifiable": 3,
    "no_fragment": 1
   },
   "sonnet:temporal:citation": {
@@ -720,59 +720,59 @@
   },
   "deepseek:combo": {
    "cite_unverifiable_share": 0.0,
-   "strict": 0.1495,
-   "lenient": 0.4911,
-   "near_miss_share": 0.3416,
-   "quote_unverifiable": 19,
-   "quotes_scored": 281
+   "strict": 0.1474,
+   "lenient": 0.4912,
+   "near_miss_share": 0.3439,
+   "quote_unverifiable": 15,
+   "quotes_scored": 285
   },
   "deepseek:quota": {
    "cite_unverifiable_share": 0.0099,
-   "strict": 0.3846,
-   "lenient": 0.7238,
-   "near_miss_share": 0.3392,
-   "quote_unverifiable": 25,
-   "quotes_scored": 286
+   "strict": 0.3868,
+   "lenient": 0.7247,
+   "near_miss_share": 0.338,
+   "quote_unverifiable": 24,
+   "quotes_scored": 287
   },
   "deepseek:stakes": {
    "cite_unverifiable_share": 0.0067,
-   "strict": 0.3636,
-   "lenient": 0.7231,
-   "near_miss_share": 0.3595,
-   "quote_unverifiable": 12,
-   "quotes_scored": 242
+   "strict": 0.3663,
+   "lenient": 0.7243,
+   "near_miss_share": 0.358,
+   "quote_unverifiable": 11,
+   "quotes_scored": 243
   },
   "deepseek:temporal": {
    "cite_unverifiable_share": 0.0028,
    "strict": 0.25,
    "lenient": 0.5441,
    "near_miss_share": 0.2941,
-   "quote_unverifiable": 6,
+   "quote_unverifiable": 5,
    "quotes_scored": 204
   },
   "gpt54mini:baseline": {
    "cite_unverifiable_share": 0.0072,
-   "strict": 0.5827,
-   "lenient": 0.8189,
-   "near_miss_share": 0.2362,
-   "quote_unverifiable": 8,
-   "quotes_scored": 127
+   "strict": 0.5859,
+   "lenient": 0.8203,
+   "near_miss_share": 0.2344,
+   "quote_unverifiable": 7,
+   "quotes_scored": 128
   },
   "gpt54mini:combo": {
    "cite_unverifiable_share": 0.0,
-   "strict": 0.4659,
-   "lenient": 0.6932,
-   "near_miss_share": 0.2273,
-   "quote_unverifiable": 2,
-   "quotes_scored": 88
+   "strict": 0.4719,
+   "lenient": 0.6966,
+   "near_miss_share": 0.2247,
+   "quote_unverifiable": 1,
+   "quotes_scored": 89
   },
   "gpt54mini:quota": {
    "cite_unverifiable_share": 0.0053,
-   "strict": 0.6053,
-   "lenient": 0.8596,
-   "near_miss_share": 0.2544,
-   "quote_unverifiable": 6,
-   "quotes_scored": 114
+   "strict": 0.5948,
+   "lenient": 0.8621,
+   "near_miss_share": 0.2672,
+   "quote_unverifiable": 4,
+   "quotes_scored": 116
   },
   "gpt54mini:stakes": {
    "cite_unverifiable_share": 0.0047,
@@ -784,11 +784,11 @@
   },
   "gpt54mini:temporal": {
    "cite_unverifiable_share": 0.0,
-   "strict": 0.4384,
-   "lenient": 0.6575,
-   "near_miss_share": 0.2192,
-   "quote_unverifiable": 2,
-   "quotes_scored": 73
+   "strict": 0.4459,
+   "lenient": 0.6622,
+   "near_miss_share": 0.2162,
+   "quote_unverifiable": 1,
+   "quotes_scored": 74
   },
   "grok43:baseline": {
    "cite_unverifiable_share": 0.0194,
@@ -808,11 +808,11 @@
   },
   "grok43:quota": {
    "cite_unverifiable_share": 0.0022,
-   "strict": 0.5145,
-   "lenient": 0.7754,
-   "near_miss_share": 0.2609,
-   "quote_unverifiable": 6,
-   "quotes_scored": 138
+   "strict": 0.5143,
+   "lenient": 0.7786,
+   "near_miss_share": 0.2643,
+   "quote_unverifiable": 4,
+   "quotes_scored": 140
   },
   "grok43:stakes": {
    "cite_unverifiable_share": 0.0078,
@@ -864,19 +864,19 @@
   },
   "llama4mav:temporal": {
    "cite_unverifiable_share": 0.0,
-   "strict": 0.2143,
-   "lenient": 0.5952,
-   "near_miss_share": 0.381,
-   "quote_unverifiable": 4,
-   "quotes_scored": 42
+   "strict": 0.2093,
+   "lenient": 0.5814,
+   "near_miss_share": 0.3721,
+   "quote_unverifiable": 3,
+   "quotes_scored": 43
   },
   "mistralsmall:baseline": {
    "cite_unverifiable_share": 0.0212,
-   "strict": 0.2554,
-   "lenient": 0.6196,
-   "near_miss_share": 0.3641,
-   "quote_unverifiable": 16,
-   "quotes_scored": 184
+   "strict": 0.2541,
+   "lenient": 0.6162,
+   "near_miss_share": 0.3622,
+   "quote_unverifiable": 15,
+   "quotes_scored": 185
   },
   "mistralsmall:combo": {
    "cite_unverifiable_share": 0.0,
@@ -888,11 +888,11 @@
   },
   "mistralsmall:quota": {
    "cite_unverifiable_share": 0.0065,
-   "strict": 0.3147,
-   "lenient": 0.6497,
-   "near_miss_share": 0.335,
-   "quote_unverifiable": 18,
-   "quotes_scored": 197
+   "strict": 0.3182,
+   "lenient": 0.6515,
+   "near_miss_share": 0.3333,
+   "quote_unverifiable": 17,
+   "quotes_scored": 198
   },
   "mistralsmall:stakes": {
    "cite_unverifiable_share": 0.0102,
@@ -912,11 +912,11 @@
   },
   "qwen30b:baseline": {
    "cite_unverifiable_share": 0.0081,
-   "strict": 0.179,
-   "lenient": 0.607,
-   "near_miss_share": 0.4279,
-   "quote_unverifiable": 28,
-   "quotes_scored": 229
+   "strict": 0.1783,
+   "lenient": 0.6087,
+   "near_miss_share": 0.4304,
+   "quote_unverifiable": 26,
+   "quotes_scored": 230
   },
   "qwen30b:combo": {
    "cite_unverifiable_share": 0.0025,
@@ -944,11 +944,11 @@
   },
   "qwen30b:temporal": {
    "cite_unverifiable_share": 0.0033,
-   "strict": 0.0896,
-   "lenient": 0.3532,
-   "near_miss_share": 0.2637,
-   "quote_unverifiable": 56,
-   "quotes_scored": 201
+   "strict": 0.0891,
+   "lenient": 0.3515,
+   "near_miss_share": 0.2624,
+   "quote_unverifiable": 55,
+   "quotes_scored": 202
   },
   "sonnet:baseline": {
    "cite_unverifiable_share": 0.0031,
@@ -968,19 +968,19 @@
   },
   "sonnet:quota": {
    "cite_unverifiable_share": 0.0022,
-   "strict": 0.529,
-   "lenient": 0.7826,
-   "near_miss_share": 0.2536,
-   "quote_unverifiable": 4,
-   "quotes_scored": 276
+   "strict": 0.5324,
+   "lenient": 0.7842,
+   "near_miss_share": 0.2518,
+   "quote_unverifiable": 2,
+   "quotes_scored": 278
   },
   "sonnet:stakes": {
    "cite_unverifiable_share": 0.009,
-   "strict": 0.6255,
-   "lenient": 0.8043,
-   "near_miss_share": 0.1787,
-   "quote_unverifiable": 4,
-   "quotes_scored": 235
+   "strict": 0.6271,
+   "lenient": 0.8008,
+   "near_miss_share": 0.1737,
+   "quote_unverifiable": 3,
+   "quotes_scored": 236
   },
   "sonnet:temporal": {
    "cite_unverifiable_share": 0.0028,
@@ -1224,15 +1224,15 @@
   "subset": "all_clean",
   "n_excerpts": 482,
   "quote_verdicts": {
-   "accurate": 250,
-   "near_miss": 73,
-   "inaccurate": 87,
-   "unverifiable": 155,
-   "unpaired": 1075
+   "accurate": 252,
+   "near_miss": 76,
+   "inaccurate": 88,
+   "unverifiable": 148,
+   "unpaired": 1076
   },
   "n_quotes_total": 1640,
-  "n_quotes_scored": 410,
-  "strict_quote_rate": 0.6098,
+  "n_quotes_scored": 416,
+  "strict_quote_rate": 0.6058,
   "citations": {
    "exists": 845,
    "not_found": 34,
@@ -1244,15 +1244,15 @@
   "subset": "all_citations_exist",
   "n_excerpts": 288,
   "quote_verdicts": {
-   "accurate": 199,
-   "near_miss": 60,
-   "inaccurate": 64,
-   "unverifiable": 41,
-   "unpaired": 601
+   "accurate": 201,
+   "near_miss": 63,
+   "inaccurate": 65,
+   "unverifiable": 34,
+   "unpaired": 602
   },
   "n_quotes_total": 965,
-  "n_quotes_scored": 323,
-  "strict_quote_rate": 0.6161,
+  "n_quotes_scored": 329,
+  "strict_quote_rate": 0.6109,
   "citations": {
    "exists": 656,
    "not_found": 0,
@@ -1260,8 +1260,8 @@
   },
   "existence_rate": 1.0
  },
- "human_lenient": 0.7878,
- "human_near_miss_share": 0.178,
+ "human_lenient": 0.7885,
+ "human_near_miss_share": 0.1827,
  "loop_counts": {
   "deepseek:true": {
    "cites_r0": 248,
@@ -1297,9 +1297,9 @@
    "cites_r0": 248,
    "cites_final": 220,
    "quotes_scored_r0": 165,
-   "quotes_scored_final": 46,
+   "quotes_scored_final": 47,
    "accurate_r0": 31,
-   "accurate_final": 20,
+   "accurate_final": 21,
    "exist_r0": 0.971,
    "exist_final": 0.996
   },
@@ -1771,10 +1771,10 @@
   },
   "deepseek:true_vs_half": {
    "n_pairs": 9,
-   "mean_diff": 0.252,
-   "ci_low": 0.045,
-   "ci_high": 0.485,
-   "wilcoxon_p": 0.0464
+   "mean_diff": 0.243,
+   "ci_low": 0.036,
+   "ci_high": 0.476,
+   "wilcoxon_p": 0.0458
   },
   "gpt54mini:true_vs_scrambled": {
    "n_pairs": 10,

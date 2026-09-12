@@ -9,8 +9,8 @@ sonnet done
   t = np.exp(z)
 /opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
   return t / (1 + t) ** 2
-pre1970 {'baseline': {'scored': 187, 'accurate': 84, 'strict': 0.449}, 'temporal': {'scored': 936, 'accurate': 273, 'strict': 0.292}, 'combo': {'scored': 1140, 'accurate': 264, 'strict': 0.232}}
-   pooled fit {'temporal': {'OR': 0.586, 'ci_low': 0.334, 'ci_high': 1.026, 'p': 0.06155, 'n': 2263, 'holm_p': 0.1847}, 'combo': {'OR': 0.535, 'ci_low': 0.31, 'ci_high': 0.923, 'p': 0.02464, 'n': 2263, 'holm_p': 0.0986}}
-post1970 {'baseline': {'scored': 1065, 'accurate': 413, 'strict': 0.388}, 'temporal': {'scored': 145, 'accurate': 41, 'strict': 0.283}, 'combo': {'scored': 171, 'accurate': 55, 'strict': 0.322}}
-   pooled fit {'temporal': {'OR': 0.955, 'ci_low': 0.653, 'ci_high': 1.395, 'p': 0.81091, 'n': 1381, 'holm_p': 1.0}, 'combo': {'OR': 1.028, 'ci_low': 0.696, 'ci_high': 1.518, 'p': 0.89083, 'n': 1381, 'holm_p': 0.8908}}
-in_baseline {'baseline': {'scored': 1252, 'share_in_baseline': 1.0, 'strict_in_baseline': 0.397, 'strict_new': nan}, 'temporal': {'scored': 1082, 'share_in_baseline': 0.244, 'strict_in_baseline': 0.409, 'strict_new': 0.252}, 'combo': {'scored': 1313, 'share_in_baseline': 0.187, 'strict_in_baseline': 0.457, 'strict_new': 0.194}}
+pre1970 {'baseline': {'scored': 187, 'accurate': 84, 'strict': 0.449}, 'temporal': {'scored': 939, 'accurate': 274, 'strict': 0.292}, 'combo': {'scored': 1145, 'accurate': 265, 'strict': 0.231}}
+   pooled fit {'temporal': {'OR': 0.585, 'ci_low': 0.335, 'ci_high': 1.022, 'p': 0.05962, 'n': 2271, 'holm_p': 0.1789}, 'combo': {'OR': 0.535, 'ci_low': 0.311, 'ci_high': 0.919, 'p': 0.02343, 'n': 2271, 'holm_p': 0.0937}}
+post1970 {'baseline': {'scored': 1068, 'accurate': 414, 'strict': 0.388}, 'temporal': {'scored': 145, 'accurate': 41, 'strict': 0.283}, 'combo': {'scored': 171, 'accurate': 55, 'strict': 0.322}}
+   pooled fit {'temporal': {'OR': 0.955, 'ci_low': 0.653, 'ci_high': 1.394, 'p': 0.80966, 'n': 1384, 'holm_p': 1.0}, 'combo': {'OR': 1.026, 'ci_low': 0.695, 'ci_high': 1.515, 'p': 0.89788, 'n': 1384, 'holm_p': 0.8979}}
+in_baseline {'baseline': {'scored': 1255, 'share_in_baseline': 1.0, 'strict_in_baseline': 0.397, 'strict_new': nan}, 'temporal': {'scored': 1085, 'share_in_baseline': 0.245, 'strict_in_baseline': 0.41, 'strict_new': 0.252}, 'combo': {'scored': 1318, 'share_in_baseline': 0.186, 'strict_in_baseline': 0.457, 'strict_new': 0.194}}

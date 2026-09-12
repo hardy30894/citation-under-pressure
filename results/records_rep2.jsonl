@@ -2131,7 +2131,7 @@
 {"model": "gpt54mini", "matter": "2000-087", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2000-087", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "gpt54mini", "matter": "2000-087", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "gpt54mini", "matter": "2000-087", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
+{"model": "gpt54mini", "matter": "2000-087", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "gpt54mini", "matter": "2000-087", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "223 U.S. 166", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "2000-087", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "74 U.S.(7 Wall.) 482", "reporter": "U.S. "}
 {"model": "gpt54mini", "matter": "2000-087", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "285 U.S. 22", "reporter": "U.S."}
@@ -3204,7 +3204,7 @@
 {"model": "grok43", "matter": "1990-114", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1990-114", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1990-114", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
-{"model": "grok43", "matter": "1990-114", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
+{"model": "grok43", "matter": "1990-114", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "grok43", "matter": "1990-114", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "17 U.S.(4 Wheat.) 316", "reporter": "U.S. "}
 {"model": "grok43", "matter": "1990-114", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "22 U.S.(9 Wheat.) 1", "reporter": "U.S. "}
 {"model": "grok43", "matter": "1990-114", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "304 U.S. 64", "reporter": "U.S."}
@@ -5415,7 +5415,7 @@
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
-{"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
+{"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 486", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "313 U.S. 299", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "415 U.S. 724", "reporter": "U.S."}
@@ -8640,7 +8640,7 @@
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
+{"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "2020-060", "condition": "combo", "kind": "quote", "verdict": "unverifiable"}

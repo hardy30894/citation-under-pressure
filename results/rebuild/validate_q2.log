@@ -2,6 +2,7 @@
   Id. to preceding citation        pass                 20
   artifact rejection               pass                 20
   between-span rejection           pass                 20
+  cert. denied not a source        pass                 20
   fabricated                       pass                 20
   genuine text, WRONG named cite   pass                 20
   genuine+right cite               pass                 20
@@ -9,6 +10,7 @@
   omitted internal citation        pass                 20
   omitted words, no ellipsis       pass                 20
   paragraph attribution            pass                 20
+  parallel cite attribution        pass                 20
   signal phrase vs following cite  pass                 20
   statutory quote unpaired         pass                 20
   string-cite parenthetical        pass                 20

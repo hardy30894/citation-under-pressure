@@ -1,8 +1,8 @@
-deepseek     inacc  449  packet  65  statute  33  both  6  neither  345  | scored  1264 packet-any 291
-gpt54mini    inacc  113  packet  22  statute  11  both  4  neither   76  | scored   527 packet-any 168
-grok43       inacc  173  packet  41  statute   4  both  4  neither  124  | scored   663 packet-any 184
-llama4mav    inacc   80  packet  11  statute   3  both  3  neither   63  | scored   287 packet-any 110
-mistralsmall inacc  432  packet  47  statute  35  both  5  neither  345  | scored  1010 packet-any 181
-qwen30b      inacc  620  packet  56  statute  15  both  2  neither  547  | scored  1242 packet-any 236
-sonnet       inacc  248  packet  58  statute  10  both  8  neither  172  | scored  1195 packet-any 319
-pooled {'inaccurate_total': 2115, 'packet_material': 300, 'statutory': 111, 'both': 32, 'neither': 1672, 'scored_total': 6188, 'packet_material_any_verdict': 1489, 'packet_material_accurate': 908, 'packet_material_near_miss': 249, 'packet_material_inaccurate': 332, 'artifact_leading_space': 0, 'attribution_named': 1327, 'attribution_proximity': 339, 'share_packet_or_statutory': 0.2095}
+deepseek     inacc  451  packet  66  statute  33  both  6  neither  346  | scored  1270 packet-any 294
+gpt54mini    inacc  113  packet  22  statute  11  both  4  neither   76  | scored   532 packet-any 169
+grok43       inacc  173  packet  41  statute   4  both  4  neither  124  | scored   665 packet-any 185
+llama4mav    inacc   81  packet  11  statute   3  both  3  neither   64  | scored   288 packet-any 110
+mistralsmall inacc  433  packet  47  statute  35  both  5  neither  346  | scored  1012 packet-any 182
+qwen30b      inacc  621  packet  56  statute  15  both  2  neither  548  | scored  1244 packet-any 236
+sonnet       inacc  249  packet  59  statute  10  both  8  neither  172  | scored  1198 packet-any 321
+pooled {'inaccurate_total': 2121, 'packet_material': 302, 'statutory': 111, 'both': 32, 'neither': 1676, 'scored_total': 6209, 'packet_material_any_verdict': 1497, 'packet_material_accurate': 915, 'packet_material_near_miss': 248, 'packet_material_inaccurate': 334, 'artifact_leading_space': 0, 'attribution_named': 1331, 'attribution_proximity': 338, 'share_packet_or_statutory': 0.2098}

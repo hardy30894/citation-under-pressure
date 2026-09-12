@@ -1,6 +1,6 @@
 {
- "dated": 3644,
- "scored": 3647,
+ "dated": 3655,
+ "scored": 3658,
  "cells": {
   "deepseek:baseline:post1970": {
    "scored": 218,
@@ -18,9 +18,9 @@
    "strict": 0.316
   },
   "deepseek:combo:pre1970": {
-   "scored": 262,
+   "scored": 266,
    "accurate": 36,
-   "strict": 0.137
+   "strict": 0.135
   },
   "deepseek:temporal:post1970": {
    "scored": 26,
@@ -33,9 +33,9 @@
    "strict": 0.242
   },
   "gpt54mini:baseline:post1970": {
-   "scored": 108,
-   "accurate": 61,
-   "strict": 0.565
+   "scored": 109,
+   "accurate": 62,
+   "strict": 0.569
   },
   "gpt54mini:baseline:pre1970": {
    "scored": 19,
@@ -48,9 +48,9 @@
    "strict": 0.667
   },
   "gpt54mini:combo:pre1970": {
-   "scored": 64,
-   "accurate": 25,
-   "strict": 0.391
+   "scored": 65,
+   "accurate": 26,
+   "strict": 0.4
   },
   "gpt54mini:temporal:post1970": {
    "scored": 11,
@@ -58,9 +58,9 @@
    "strict": 0.727
   },
   "gpt54mini:temporal:pre1970": {
-   "scored": 62,
-   "accurate": 24,
-   "strict": 0.387
+   "scored": 63,
+   "accurate": 25,
+   "strict": 0.397
   },
   "grok43:baseline:post1970": {
    "scored": 127,
@@ -113,14 +113,14 @@
    "strict": 0.667
   },
   "llama4mav:temporal:pre1970": {
-   "scored": 39,
+   "scored": 40,
    "accurate": 7,
-   "strict": 0.179
+   "strict": 0.175
   },
   "mistralsmall:baseline:post1970": {
-   "scored": 163,
+   "scored": 164,
    "accurate": 40,
-   "strict": 0.245
+   "strict": 0.244
   },
   "mistralsmall:baseline:pre1970": {
    "scored": 21,
@@ -148,9 +148,9 @@
    "strict": 0.102
   },
   "qwen30b:baseline:post1970": {
-   "scored": 203,
+   "scored": 204,
    "accurate": 36,
-   "strict": 0.177
+   "strict": 0.176
   },
   "qwen30b:baseline:pre1970": {
    "scored": 26,
@@ -173,7 +173,7 @@
    "strict": 0.188
   },
   "qwen30b:temporal:pre1970": {
-   "scored": 168,
+   "scored": 169,
    "accurate": 12,
    "strict": 0.071
   },
@@ -203,18 +203,18 @@
    "strict": 0.449
   },
   "pooled:temporal:pre1970": {
-   "scored": 936,
-   "accurate": 273,
+   "scored": 939,
+   "accurate": 274,
    "strict": 0.292
   },
   "pooled:combo:pre1970": {
-   "scored": 1140,
-   "accurate": 264,
-   "strict": 0.232
+   "scored": 1145,
+   "accurate": 265,
+   "strict": 0.231
   },
   "pooled:baseline:post1970": {
-   "scored": 1065,
-   "accurate": 413,
+   "scored": 1068,
+   "accurate": 414,
    "strict": 0.388
   },
   "pooled:temporal:post1970": {
@@ -230,20 +230,20 @@
  },
  "fits": {
   "deepseek:temporal:pre1970": {
-   "OR": 0.719,
-   "ci_low": 0.369,
-   "ci_high": 1.4,
-   "p": 0.3315,
-   "n": 473,
-   "holm_p": 0.663
+   "OR": 0.714,
+   "ci_low": 0.368,
+   "ci_high": 1.388,
+   "p": 0.32095,
+   "n": 477,
+   "holm_p": 0.6419
   },
   "deepseek:combo:pre1970": {
-   "OR": 0.372,
-   "ci_low": 0.189,
-   "ci_high": 0.734,
-   "p": 0.00436,
-   "n": 473,
-   "holm_p": 0.0174
+   "OR": 0.364,
+   "ci_low": 0.185,
+   "ci_high": 0.717,
+   "p": 0.00345,
+   "n": 477,
+   "holm_p": 0.0138
   },
   "deepseek:temporal:post1970": {
    "OR": 0.617,
@@ -262,36 +262,36 @@
    "holm_p": 0.8471
   },
   "gpt54mini:temporal:pre1970": {
-   "OR": 0.362,
-   "ci_low": 0.116,
-   "ci_high": 1.131,
-   "p": 0.08049,
-   "n": 145,
-   "holm_p": 0.322
+   "OR": 0.377,
+   "ci_low": 0.126,
+   "ci_high": 1.127,
+   "p": 0.08085,
+   "n": 147,
+   "holm_p": 0.3234
   },
   "gpt54mini:combo:pre1970": {
-   "OR": 0.372,
-   "ci_low": 0.112,
-   "ci_high": 1.23,
-   "p": 0.10509,
-   "n": 145,
-   "holm_p": 0.3153
+   "OR": 0.395,
+   "ci_low": 0.122,
+   "ci_high": 1.273,
+   "p": 0.11963,
+   "n": 147,
+   "holm_p": 0.3589
   },
   "gpt54mini:temporal:post1970": {
-   "OR": 2.101,
-   "ci_low": 0.396,
-   "ci_high": 11.143,
-   "p": 0.38317,
-   "n": 143,
-   "holm_p": 0.7663
+   "OR": 2.064,
+   "ci_low": 0.391,
+   "ci_high": 10.889,
+   "p": 0.39322,
+   "n": 144,
+   "holm_p": 0.7864
   },
   "gpt54mini:combo:post1970": {
-   "OR": 1.491,
-   "ci_low": 0.564,
-   "ci_high": 3.937,
-   "p": 0.42038,
-   "n": 143,
-   "holm_p": 0.4204
+   "OR": 1.471,
+   "ci_low": 0.557,
+   "ci_high": 3.881,
+   "p": 0.43608,
+   "n": 144,
+   "holm_p": 0.4361
   },
   "grok43:temporal:pre1970": {
    "OR": 0.706,
@@ -326,20 +326,20 @@
    "holm_p": 1.0
   },
   "llama4mav:temporal:pre1970": {
-   "OR": 0.337,
-   "ci_low": 0.102,
-   "ci_high": 1.107,
-   "p": 0.07312,
-   "n": 103,
-   "holm_p": 0.2925
+   "OR": 0.33,
+   "ci_low": 0.105,
+   "ci_high": 1.036,
+   "p": 0.05747,
+   "n": 104,
+   "holm_p": 0.2299
   },
   "llama4mav:combo:pre1970": {
-   "OR": 0.33,
-   "ci_low": 0.096,
-   "ci_high": 1.129,
-   "p": 0.07729,
-   "n": 103,
-   "holm_p": 0.2319
+   "OR": 0.326,
+   "ci_low": 0.097,
+   "ci_high": 1.092,
+   "p": 0.06909,
+   "n": 104,
+   "holm_p": 0.2073
   },
   "llama4mav:temporal:post1970": {
    "OR": 1.73,
@@ -374,51 +374,51 @@
    "holm_p": 0.4609
   },
   "mistralsmall:temporal:post1970": {
-   "OR": 0.861,
-   "ci_low": 0.482,
-   "ci_high": 1.538,
-   "p": 0.61293,
-   "n": 308,
-   "holm_p": 0.6129
+   "OR": 0.864,
+   "ci_low": 0.484,
+   "ci_high": 1.545,
+   "p": 0.62298,
+   "n": 309,
+   "holm_p": 0.623
   },
   "mistralsmall:combo:post1970": {
-   "OR": 0.792,
-   "ci_low": 0.42,
-   "ci_high": 1.495,
-   "p": 0.47219,
-   "n": 308,
-   "holm_p": 0.9444
+   "OR": 0.797,
+   "ci_low": 0.422,
+   "ci_high": 1.504,
+   "p": 0.48356,
+   "n": 309,
+   "holm_p": 0.9671
   },
   "qwen30b:temporal:pre1970": {
-   "OR": 0.343,
+   "OR": 0.341,
    "ci_low": 0.109,
-   "ci_high": 1.073,
-   "p": 0.0658,
-   "n": 472,
-   "holm_p": 0.1974
+   "ci_high": 1.067,
+   "p": 0.06453,
+   "n": 473,
+   "holm_p": 0.1936
   },
   "qwen30b:combo:pre1970": {
    "OR": 0.12,
    "ci_low": 0.034,
-   "ci_high": 0.422,
+   "ci_high": 0.421,
    "p": 0.00093,
-   "n": 472,
+   "n": 473,
    "holm_p": 0.0037
   },
   "qwen30b:temporal:post1970": {
-   "OR": 1.05,
-   "ci_low": 0.5,
-   "ci_high": 2.205,
-   "p": 0.89811,
-   "n": 283,
-   "holm_p": 0.8981
+   "OR": 1.055,
+   "ci_low": 0.502,
+   "ci_high": 2.215,
+   "p": 0.88774,
+   "n": 284,
+   "holm_p": 0.8877
   },
   "qwen30b:combo:post1970": {
-   "OR": 1.207,
-   "ci_low": 0.509,
-   "ci_high": 2.859,
-   "p": 0.66946,
-   "n": 283,
+   "OR": 1.214,
+   "ci_low": 0.514,
+   "ci_high": 2.868,
+   "p": 0.65789,
+   "n": 284,
    "holm_p": 1.0
   },
   "sonnet:temporal:pre1970": {
@@ -440,54 +440,54 @@
  },
  "pooled_fits": {
   "temporal:pre1970": {
-   "OR": 0.586,
-   "ci_low": 0.334,
-   "ci_high": 1.026,
-   "p": 0.06155,
-   "n": 2263,
-   "holm_p": 0.1847
+   "OR": 0.585,
+   "ci_low": 0.335,
+   "ci_high": 1.022,
+   "p": 0.05962,
+   "n": 2271,
+   "holm_p": 0.1789
   },
   "combo:pre1970": {
    "OR": 0.535,
-   "ci_low": 0.31,
-   "ci_high": 0.923,
-   "p": 0.02464,
-   "n": 2263,
-   "holm_p": 0.0986
+   "ci_low": 0.311,
+   "ci_high": 0.919,
+   "p": 0.02343,
+   "n": 2271,
+   "holm_p": 0.0937
   },
   "temporal:post1970": {
    "OR": 0.955,
    "ci_low": 0.653,
-   "ci_high": 1.395,
-   "p": 0.81091,
-   "n": 1381,
+   "ci_high": 1.394,
+   "p": 0.80966,
+   "n": 1384,
    "holm_p": 1.0
   },
   "combo:post1970": {
-   "OR": 1.028,
-   "ci_low": 0.696,
-   "ci_high": 1.518,
-   "p": 0.89083,
-   "n": 1381,
-   "holm_p": 0.8908
+   "OR": 1.026,
+   "ci_low": 0.695,
+   "ci_high": 1.515,
+   "p": 0.89788,
+   "n": 1384,
+   "holm_p": 0.8979
   }
  },
  "in_baseline": {
   "baseline": {
-   "scored": 1252,
+   "scored": 1255,
    "share_in_baseline": 1.0,
    "strict_in_baseline": 0.397,
    "strict_new": NaN
   },
   "temporal": {
-   "scored": 1082,
-   "share_in_baseline": 0.244,
-   "strict_in_baseline": 0.409,
+   "scored": 1085,
+   "share_in_baseline": 0.245,
+   "strict_in_baseline": 0.41,
    "strict_new": 0.252
   },
   "combo": {
-   "scored": 1313,
-   "share_in_baseline": 0.187,
+   "scored": 1318,
+   "share_in_baseline": 0.186,
    "strict_in_baseline": 0.457,
    "strict_new": 0.194
   }
@@ -536,32 +536,32 @@
   "temporal": {
    "OR": 0.62,
    "ci_low": 0.492,
-   "ci_high": 0.783,
-   "p": 6e-05,
-   "n": 3644
+   "ci_high": 0.782,
+   "p": 5e-05,
+   "n": 3655
   },
   "combo": {
    "OR": 0.557,
-   "ci_low": 0.445,
-   "ci_high": 0.697,
+   "ci_low": 0.446,
+   "ci_high": 0.695,
    "p": 0.0,
-   "n": 3644
+   "n": 3655
   }
  },
  "year_adjusted": {
   "temporal": {
-   "OR": 0.768,
-   "ci_low": 0.601,
-   "ci_high": 0.981,
-   "p": 0.03453,
-   "n": 3644
+   "OR": 0.767,
+   "ci_low": 0.6,
+   "ci_high": 0.979,
+   "p": 0.03338,
+   "n": 3655
   },
   "combo": {
    "OR": 0.682,
    "ci_low": 0.53,
-   "ci_high": 0.879,
-   "p": 0.00308,
-   "n": 3644
+   "ci_high": 0.878,
+   "p": 0.00295,
+   "n": 3655
   }
  }
 }

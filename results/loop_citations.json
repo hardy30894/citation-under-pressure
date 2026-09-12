@@ -31,7 +31,7 @@
   "final_strict": {
    "true": 0.958,
    "threequarter": 0.776,
-   "half": 0.481,
+   "half": 0.487,
    "quarter": 0.365,
    "scrambled": 0.228,
    "none": 0.317,

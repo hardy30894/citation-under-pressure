@@ -1,8 +1,8 @@
 loading corpus (few minutes)...
 62207 documents indexed
 {
-  "deepseek:misattributed": 72,
-  "deepseek:generic_phrase_match": 96,
+  "deepseek:misattributed": 73,
+  "deepseek:generic_phrase_match": 97,
   "deepseek:not_in_scotus_corpus": 276,
   "deepseek:found_in_attributed": 5,
   "gpt54mini:not_in_scotus_corpus": 61,
@@ -13,18 +13,18 @@ loading corpus (few minutes)...
   "grok43:not_in_scotus_corpus": 97,
   "grok43:found_in_attributed": 1,
   "llama4mav:generic_phrase_match": 11,
-  "llama4mav:not_in_scotus_corpus": 56,
+  "llama4mav:not_in_scotus_corpus": 57,
   "llama4mav:found_in_attributed": 3,
   "llama4mav:misattributed": 10,
-  "mistralsmall:not_in_scotus_corpus": 333,
+  "mistralsmall:not_in_scotus_corpus": 334,
   "mistralsmall:misattributed": 57,
   "mistralsmall:generic_phrase_match": 37,
   "mistralsmall:found_in_attributed": 5,
-  "qwen30b:not_in_scotus_corpus": 539,
+  "qwen30b:not_in_scotus_corpus": 540,
   "qwen30b:misattributed": 42,
   "qwen30b:generic_phrase_match": 38,
   "qwen30b:found_in_attributed": 1,
-  "sonnet:misattributed": 72,
+  "sonnet:misattributed": 73,
   "sonnet:not_in_scotus_corpus": 130,
   "sonnet:generic_phrase_match": 40,
   "sonnet:found_in_attributed": 6

@@ -146,11 +146,11 @@
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "near_miss", "citation": "283 U.S. 64", "year": 1931, "era": "pre1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "accurate", "citation": "355 Mont. 402", "year": 2010, "era": "post1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "accurate", "citation": "258 U.S. 574", "year": 1922, "era": "pre1970", "in_baseline": true}
-{"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "near_miss", "citation": "229 P.3d 421", "year": 2010, "era": "post1970", "in_baseline": true}
+{"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "near_miss", "citation": "355 Mont. 402", "year": 2010, "era": "post1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "inaccurate", "citation": "311 U.S. 377", "year": 1941, "era": "pre1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "inaccurate", "citation": "295 U.S. 1", "year": 1935, "era": "pre1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "inaccurate", "citation": "328 U.S. 152", "year": 1946, "era": "pre1970", "in_baseline": true}
-{"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "accurate", "citation": "229 P.3d 421", "year": 2010, "era": "post1970", "in_baseline": true}
+{"model": "deepseek", "matter": "2011-027", "condition": "baseline", "verdict": "accurate", "citation": "355 Mont. 402", "year": 2010, "era": "post1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2012-029", "condition": "baseline", "verdict": "accurate", "citation": "486 U.S. 800", "year": 1988, "era": "post1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2012-029", "condition": "baseline", "verdict": "accurate", "citation": "679 F. Supp. 2d 749", "year": 2010, "era": "post1970", "in_baseline": true}
 {"model": "deepseek", "matter": "2012-029", "condition": "baseline", "verdict": "near_miss", "citation": "545 U.S. 308", "year": 2005, "era": "post1970", "in_baseline": true}
@@ -485,10 +485,14 @@
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "110 U.S. 651", "year": 1884, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "accurate", "citation": "313 U.S. 299", "year": 1941, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "inaccurate", "citation": "395 U.S. 486", "year": 1969, "era": "pre1970", "in_baseline": true}
+{"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "inaccurate", "citation": "140 Minn. 219", "year": 1918, "era": "pre1970", "in_baseline": false}
+{"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "56 Ariz. 138", "year": 1940, "era": "pre1970", "in_baseline": false}
+{"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "146 Or. 439", "year": 1934, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "395 U.S. 486", "year": 1969, "era": "pre1970", "in_baseline": true}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "395 U.S. 486", "year": 1969, "era": "pre1970", "in_baseline": true}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "inaccurate", "citation": "110 U.S. 651", "year": 1884, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "near_miss", "citation": "313 U.S. 299", "year": 1941, "era": "pre1970", "in_baseline": false}
+{"model": "deepseek", "matter": "1994-059", "condition": "combo", "verdict": "inaccurate", "citation": "140 Minn. 219", "year": 1918, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "verdict": "near_miss", "citation": "301 U.S. 1", "year": 1937, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "verdict": "near_miss", "citation": "395 U.S. 575", "year": 1969, "era": "pre1970", "in_baseline": false}
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "verdict": "near_miss", "citation": "322 U.S. 111", "year": 1944, "era": "pre1970", "in_baseline": false}
@@ -834,6 +838,7 @@
 {"model": "gpt54mini", "matter": "2016-001", "condition": "baseline", "verdict": "accurate", "citation": "111 U.S. 120", "year": 1884, "era": "pre1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2016-001", "condition": "baseline", "verdict": "inaccurate", "citation": "533 U.S. 167", "year": 2001, "era": "post1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2016-001", "condition": "baseline", "verdict": "accurate", "citation": "137 S. Ct. 429", "year": 2016, "era": "post1970", "in_baseline": true}
+{"model": "gpt54mini", "matter": "2016-063", "condition": "baseline", "verdict": "accurate", "citation": "568 U.S. 41", "year": 2012, "era": "post1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2016-063", "condition": "baseline", "verdict": "near_miss", "citation": "713 F.3d 1111", "year": 2013, "era": "post1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2016-067", "condition": "baseline", "verdict": "accurate", "citation": "817 F.3d 131", "year": 2016, "era": "post1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2016-067", "condition": "baseline", "verdict": "accurate", "citation": "817 F.3d 131", "year": 2016, "era": "post1970", "in_baseline": true}
@@ -897,8 +902,9 @@
 {"model": "gpt54mini", "matter": "2005-087", "condition": "temporal", "verdict": "inaccurate", "citation": "160 U.S. 469", "year": 1895, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2010-046", "condition": "temporal", "verdict": "accurate", "citation": "418 U.S. 717", "year": 1974, "era": "post1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2010-046", "condition": "temporal", "verdict": "accurate", "citation": "349 U.S. 294", "year": 1955, "era": "pre1970", "in_baseline": false}
+{"model": "gpt54mini", "matter": "2010-065", "condition": "temporal", "verdict": "accurate", "citation": "306 U.S. 118", "year": 1939, "era": "pre1970", "in_baseline": true}
 {"model": "gpt54mini", "matter": "2010-065", "condition": "temporal", "verdict": "near_miss", "citation": "312 U.S. 100", "year": 1941, "era": "pre1970", "in_baseline": false}
-{"model": "gpt54mini", "matter": "2010-065", "condition": "temporal", "verdict": "accurate", "citation": "4 L. Ed. 579", "year": 1819, "era": "pre1970", "in_baseline": false}
+{"model": "gpt54mini", "matter": "2010-065", "condition": "temporal", "verdict": "accurate", "citation": "17 U.S.(4 Wheat.) 316", "year": 1819, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "verdict": "accurate", "citation": "470 U.S. 414", "year": 1985, "era": "post1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "verdict": "accurate", "citation": "270 U.S. 245", "year": 1926, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2011-010", "condition": "temporal", "verdict": "accurate", "citation": "849 F.2d 805", "year": 1988, "era": "post1970", "in_baseline": true}
@@ -1010,6 +1016,7 @@
 {"model": "gpt54mini", "matter": "2016-067", "condition": "combo", "verdict": "inaccurate", "citation": "166 U.S. 661", "year": 1897, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2019-024", "condition": "combo", "verdict": "inaccurate", "citation": "297 U.S. 124", "year": 1936, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2019-024", "condition": "combo", "verdict": "inaccurate", "citation": "28 U.S.(3 Pet.) 270", "year": 1830, "era": "pre1970", "in_baseline": false}
+{"model": "gpt54mini", "matter": "2019-024", "condition": "combo", "verdict": "accurate", "citation": "249 N.Y. 458", "year": 1928, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2020-005", "condition": "combo", "verdict": "inaccurate", "citation": "355 U.S. 220", "year": 1957, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2020-005", "condition": "combo", "verdict": "inaccurate", "citation": "357 U.S. 235", "year": 1958, "era": "pre1970", "in_baseline": false}
 {"model": "gpt54mini", "matter": "2020-005", "condition": "combo", "verdict": "accurate", "citation": "471 U.S. 462", "year": 1985, "era": "post1970", "in_baseline": true}
@@ -1416,7 +1423,7 @@
 {"model": "llama4mav", "matter": "1990-075", "condition": "baseline", "verdict": "accurate", "citation": "276 U.S. 394", "year": 1928, "era": "pre1970", "in_baseline": true}
 {"model": "llama4mav", "matter": "1992-109", "condition": "baseline", "verdict": "near_miss", "citation": "362 U.S. 402", "year": 1960, "era": "pre1970", "in_baseline": true}
 {"model": "llama4mav", "matter": "1994-059", "condition": "baseline", "verdict": "near_miss", "citation": "395 U.S. 486", "year": 1969, "era": "pre1970", "in_baseline": true}
-{"model": "llama4mav", "matter": "1994-059", "condition": "baseline", "verdict": "inaccurate", "citation": "872 S.W.2d 349", "year": 1994, "era": "post1970", "in_baseline": true}
+{"model": "llama4mav", "matter": "1994-059", "condition": "baseline", "verdict": "inaccurate", "citation": "316 Ark. 251", "year": 1994, "era": "post1970", "in_baseline": true}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "verdict": "accurate", "citation": "736 F.2d 1295", "year": 1984, "era": "post1970", "in_baseline": true}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "verdict": "inaccurate", "citation": "736 F.2d 1295", "year": 1984, "era": "post1970", "in_baseline": true}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "verdict": "accurate", "citation": "651 F.2d 1141", "year": 1981, "era": "post1970", "in_baseline": true}
@@ -1467,6 +1474,7 @@
 {"model": "llama4mav", "matter": "1990-075", "condition": "temporal", "verdict": "accurate", "citation": "321 U.S. 414", "year": 1944, "era": "pre1970", "in_baseline": false}
 {"model": "llama4mav", "matter": "1990-075", "condition": "temporal", "verdict": "near_miss", "citation": "321 U.S. 414", "year": 1944, "era": "pre1970", "in_baseline": false}
 {"model": "llama4mav", "matter": "1990-075", "condition": "temporal", "verdict": "accurate", "citation": "332 U.S. 245", "year": 1947, "era": "pre1970", "in_baseline": false}
+{"model": "llama4mav", "matter": "1994-059", "condition": "temporal", "verdict": "inaccurate", "citation": "229 Ark. 416", "year": 1958, "era": "pre1970", "in_baseline": false}
 {"model": "llama4mav", "matter": "1997-021", "condition": "temporal", "verdict": "inaccurate", "citation": "341 F.2d 1020", "year": 1965, "era": "pre1970", "in_baseline": false}
 {"model": "llama4mav", "matter": "1997-046", "condition": "temporal", "verdict": "inaccurate", "citation": "267 U.S. 87", "year": 1925, "era": "pre1970", "in_baseline": false}
 {"model": "llama4mav", "matter": "1997-046", "condition": "temporal", "verdict": "inaccurate", "citation": "80 U.S. 128", "year": 1872, "era": "pre1970", "in_baseline": false}
@@ -1581,6 +1589,7 @@
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "verdict": "near_miss", "citation": "514 U.S. 779", "year": 1995, "era": "post1970", "in_baseline": true}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "verdict": "near_miss", "citation": "460 U.S. 780", "year": 1983, "era": "post1970", "in_baseline": true}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "verdict": "near_miss", "citation": "460 U.S. 780", "year": 1983, "era": "post1970", "in_baseline": true}
+{"model": "mistralsmall", "matter": "1994-059", "condition": "baseline", "verdict": "inaccurate", "citation": "310 Ark. 654", "year": 1992, "era": "post1970", "in_baseline": true}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "verdict": "inaccurate", "citation": "523 U.S. 26", "year": 1998, "era": "post1970", "in_baseline": true}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "verdict": "inaccurate", "citation": "447 F.2d 122", "year": 1971, "era": "post1970", "in_baseline": true}
 {"model": "mistralsmall", "matter": "1997-033", "condition": "baseline", "verdict": "inaccurate", "citation": "61 F.3d 911", "year": 1995, "era": "post1970", "in_baseline": true}
@@ -2238,10 +2247,9 @@
 {"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "verdict": "inaccurate", "citation": "823 F.2d 1285", "year": 1987, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-044", "condition": "baseline", "verdict": "accurate", "citation": "502 U.S. 301", "year": 1992, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "inaccurate", "citation": "418 U.S. 539", "year": 1974, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "inaccurate", "citation": "41 L. Ed. 2d 935", "year": 1974, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "inaccurate", "citation": "418 U.S. 539", "year": 1974, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "accurate", "citation": "469 U.S. 387", "year": 1985, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "accurate", "citation": "83 L. Ed. 2d 821", "year": 1985, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "inaccurate", "citation": "47 L. Ed. 2d 18", "year": 1976, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "accurate", "citation": "469 U.S. 387", "year": 1985, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "near_miss", "citation": "425 U.S. 308", "year": 1976, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "near_miss", "citation": "425 U.S. 308", "year": 1976, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-046", "condition": "baseline", "verdict": "near_miss", "citation": "470 U.S. 532", "year": 1985, "era": "post1970", "in_baseline": true}
@@ -2280,8 +2288,8 @@
 {"model": "qwen30b", "matter": "2000-071", "condition": "baseline", "verdict": "near_miss", "citation": "533 U.S. 98", "year": 2001, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2000-071", "condition": "baseline", "verdict": "near_miss", "citation": "533 U.S. 98", "year": 2001, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2000-071", "condition": "baseline", "verdict": "inaccurate", "citation": "508 U.S. 384", "year": 1993, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2000-087", "condition": "baseline", "verdict": "inaccurate", "citation": "97 L. Ed. 956", "year": 1953, "era": "pre1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2000-087", "condition": "baseline", "verdict": "accurate", "citation": "150 L. Ed. 2d 653", "year": 2001, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2000-087", "condition": "baseline", "verdict": "inaccurate", "citation": "345 U.S. 206", "year": 1953, "era": "pre1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2000-087", "condition": "baseline", "verdict": "accurate", "citation": "533 U.S. 678", "year": 2001, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2001-013", "condition": "baseline", "verdict": "near_miss", "citation": "529 U.S. 89", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2001-013", "condition": "baseline", "verdict": "near_miss", "citation": "529 U.S. 89", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2001-013", "condition": "baseline", "verdict": "near_miss", "citation": "529 U.S. 89", "year": 2000, "era": "post1970", "in_baseline": true}
@@ -2320,9 +2328,9 @@
 {"model": "qwen30b", "matter": "2010-046", "condition": "baseline", "verdict": "near_miss", "citation": "563 U.S. 493", "year": 2011, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2010-046", "condition": "baseline", "verdict": "inaccurate", "citation": "559 F.3d 916", "year": 2009, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "near_miss", "citation": "529 U.S. 598", "year": 2000, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "near_miss", "citation": "119 L. Ed. 2d 351", "year": 1992, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "near_miss", "citation": "119 L. Ed. 2d 351", "year": 1992, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "inaccurate", "citation": "158 L. Ed. 2d 420", "year": 2004, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "near_miss", "citation": "504 U.S. 555", "year": 1992, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "near_miss", "citation": "504 U.S. 555", "year": 1992, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2010-065", "condition": "baseline", "verdict": "inaccurate", "citation": "541 U.S. 193", "year": 2004, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2011-010", "condition": "baseline", "verdict": "inaccurate", "citation": "477 U.S. 207", "year": 1986, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2011-010", "condition": "baseline", "verdict": "accurate", "citation": "477 U.S. 207", "year": 1986, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2011-010", "condition": "baseline", "verdict": "accurate", "citation": "470 U.S. 414", "year": 1985, "era": "post1970", "in_baseline": true}
@@ -2357,10 +2365,10 @@
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "147 L. Ed. 2d 597", "year": 2000, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "530 U.S. 703", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "147 L. Ed. 2d 597", "year": 2000, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "530 U.S. 703", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "120 S. Ct. 2480", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "near_miss", "citation": "491 U.S. 781", "year": 1989, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2013-068", "condition": "baseline", "verdict": "accurate", "citation": "643 F.3d 9", "year": 2011, "era": "post1970", "in_baseline": true}
@@ -2370,9 +2378,9 @@
 {"model": "qwen30b", "matter": "2014-024", "condition": "baseline", "verdict": "inaccurate", "citation": "538 U.S. 343", "year": 2003, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-007", "condition": "baseline", "verdict": "inaccurate", "citation": "356 U.S. 86", "year": 1958, "era": "pre1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-007", "condition": "baseline", "verdict": "near_miss", "citation": "501 U.S. 957", "year": 1991, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2015-038", "condition": "baseline", "verdict": "inaccurate", "citation": "146 L. Ed. 2d 69", "year": 2000, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2015-038", "condition": "baseline", "verdict": "inaccurate", "citation": "529 U.S. 89", "year": 2000, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-038", "condition": "baseline", "verdict": "inaccurate", "citation": "120 S. Ct. 1135", "year": 2000, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2015-038", "condition": "baseline", "verdict": "accurate", "citation": "162 L. Ed. 2d 820", "year": 2005, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2015-038", "condition": "baseline", "verdict": "accurate", "citation": "545 U.S. 967", "year": 2005, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-055", "condition": "baseline", "verdict": "near_miss", "citation": "576 U.S. 591", "year": 2015, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-055", "condition": "baseline", "verdict": "near_miss", "citation": "576 U.S. 591", "year": 2015, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2015-055", "condition": "baseline", "verdict": "near_miss", "citation": "576 U.S. 591", "year": 2015, "era": "post1970", "in_baseline": true}
@@ -2392,9 +2400,11 @@
 {"model": "qwen30b", "matter": "2016-001", "condition": "baseline", "verdict": "near_miss", "citation": "504 U.S. 451", "year": 1992, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2016-001", "condition": "baseline", "verdict": "inaccurate", "citation": "504 U.S. 451", "year": 1992, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2016-001", "condition": "baseline", "verdict": "accurate", "citation": "305 U.S. 197", "year": 1938, "era": "pre1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2016-063", "condition": "baseline", "verdict": "inaccurate", "citation": "568 U.S. 41", "year": 2012, "era": "post1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2016-063", "condition": "baseline", "verdict": "near_miss", "citation": "568 U.S. 41", "year": 2012, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2016-067", "condition": "baseline", "verdict": "accurate", "citation": "797 F.3d 1309", "year": 2015, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2016-067", "condition": "baseline", "verdict": "inaccurate", "citation": "755 F.3d 1253", "year": 2014, "era": "post1970", "in_baseline": true}
-{"model": "qwen30b", "matter": "2018-070", "condition": "baseline", "verdict": "near_miss", "citation": "23 L. Ed. 2d 360", "year": 1969, "era": "pre1970", "in_baseline": true}
+{"model": "qwen30b", "matter": "2018-070", "condition": "baseline", "verdict": "near_miss", "citation": "395 U.S. 352", "year": 1969, "era": "pre1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2018-070", "condition": "baseline", "verdict": "near_miss", "citation": "312 U.S. 52", "year": 1941, "era": "pre1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2018-070", "condition": "baseline", "verdict": "near_miss", "citation": "458 U.S. 141", "year": 1982, "era": "post1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "2019-024", "condition": "baseline", "verdict": "accurate", "citation": "856 F.2d 1418", "year": 1988, "era": "post1970", "in_baseline": true}
@@ -2464,6 +2474,7 @@
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "verdict": "near_miss", "citation": "313 U.S. 299", "year": 1941, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "verdict": "inaccurate", "citation": "313 U.S. 299", "year": 1941, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "verdict": "inaccurate", "citation": "144 U.S. 1", "year": 1892, "era": "pre1970", "in_baseline": false}
+{"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "verdict": "inaccurate", "citation": "229 Ark. 416", "year": 1958, "era": "pre1970", "in_baseline": true}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "verdict": "accurate", "citation": "340 U.S. 474", "year": 1951, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "1997-033", "condition": "temporal", "verdict": "near_miss", "citation": "685 F.2d 810", "year": 1982, "era": "post1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "1997-033", "condition": "temporal", "verdict": "inaccurate", "citation": "344 U.S. 33", "year": 1952, "era": "pre1970", "in_baseline": true}
@@ -2533,10 +2544,10 @@
 {"model": "qwen30b", "matter": "2010-046", "condition": "temporal", "verdict": "inaccurate", "citation": "339 U.S. 1", "year": 1950, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2010-046", "condition": "temporal", "verdict": "inaccurate", "citation": "345 U.S. 629", "year": 1953, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2010-046", "condition": "temporal", "verdict": "inaccurate", "citation": "345 U.S. 629", "year": 1953, "era": "pre1970", "in_baseline": false}
-{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "near_miss", "citation": "85 L. Ed. 609", "year": 1941, "era": "pre1970", "in_baseline": false}
+{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "near_miss", "citation": "312 U.S. 100", "year": 1941, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "near_miss", "citation": "418 U.S. 166", "year": 1974, "era": "post1970", "in_baseline": false}
-{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "inaccurate", "citation": "41 L. Ed. 2d 678", "year": 1974, "era": "post1970", "in_baseline": false}
-{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "inaccurate", "citation": "67 L. Ed. 314", "year": 1922, "era": "pre1970", "in_baseline": false}
+{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "inaccurate", "citation": "418 U.S. 166", "year": 1974, "era": "post1970", "in_baseline": false}
+{"model": "qwen30b", "matter": "2010-065", "condition": "temporal", "verdict": "inaccurate", "citation": "260 U.S. 377", "year": 1922, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2011-010", "condition": "temporal", "verdict": "near_miss", "citation": "310 U.S. 534", "year": 1940, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2011-027", "condition": "temporal", "verdict": "inaccurate", "citation": "34 U.S.(9 Pet.) 1", "year": 1835, "era": "pre1970", "in_baseline": false}
 {"model": "qwen30b", "matter": "2011-027", "condition": "temporal", "verdict": "near_miss", "citation": "312 U.S. 592", "year": 1941, "era": "pre1970", "in_baseline": false}

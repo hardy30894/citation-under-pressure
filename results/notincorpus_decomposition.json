@@ -1,6 +1,6 @@
 {
  "deepseek": {
-  "out_of_scope_non_us": 89,
+  "out_of_scope_non_us": 91,
   "paraphrase_in_quotes": 269,
   "fabricated_language": 91,
   "no_text": 0
@@ -18,25 +18,25 @@
   "no_text": 0
  },
  "llama4mav": {
-  "out_of_scope_non_us": 21,
+  "out_of_scope_non_us": 22,
   "paraphrase_in_quotes": 45,
   "fabricated_language": 14,
   "no_text": 0
  },
  "mistralsmall": {
   "out_of_scope_non_us": 75,
-  "paraphrase_in_quotes": 285,
-  "fabricated_language": 72,
+  "paraphrase_in_quotes": 287,
+  "fabricated_language": 71,
   "no_text": 0
  },
  "qwen30b": {
-  "out_of_scope_non_us": 97,
-  "paraphrase_in_quotes": 363,
-  "fabricated_language": 160,
+  "out_of_scope_non_us": 83,
+  "paraphrase_in_quotes": 376,
+  "fabricated_language": 162,
   "no_text": 0
  },
  "sonnet": {
-  "out_of_scope_non_us": 23,
+  "out_of_scope_non_us": 24,
   "paraphrase_in_quotes": 169,
   "fabricated_language": 56,
   "no_text": 0

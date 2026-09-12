@@ -10,23 +10,23 @@
   t = np.exp(z)
 /opt/anaconda3/lib/python3.12/site-packages/statsmodels/genmod/families/links.py:240: RuntimeWarning: invalid value encountered in divide
   return t / (1 + t) ** 2
-deepseek:baseline        exist 0.9773 -> 0.997   strict 0.3825 -> 0.519
-deepseek:combo           exist 0.959 -> 0.9979   strict 0.1495 -> 0.4324
-gpt54mini:baseline       exist 0.9855 -> 0.9928   strict 0.5827 -> 0.7374
-gpt54mini:combo          exist 0.9621 -> 0.9952   strict 0.4659 -> 0.6937
+deepseek:baseline        exist 0.9773 -> 0.997   strict 0.3825 -> 0.5238
+deepseek:combo           exist 0.959 -> 0.9979   strict 0.1474 -> 0.4324
+gpt54mini:baseline       exist 0.9855 -> 0.9928   strict 0.5859 -> 0.7273
+gpt54mini:combo          exist 0.9621 -> 0.9952   strict 0.4719 -> 0.6937
 grok43:baseline          exist 0.996 -> 0.9957   strict 0.4803 -> 0.5802
 grok43:combo             exist 0.9937 -> 1.0   strict 0.3025 -> 0.7339
 llama4mav:baseline       exist 0.9668 -> 0.9739   strict 0.5882 -> 0.6579
 llama4mav:combo          exist 0.9462 -> 0.9982   strict 0.2295 -> 0.3958
-mistralsmall:baseline    exist 0.9081 -> 0.9496   strict 0.2554 -> 0.3512
+mistralsmall:baseline    exist 0.9081 -> 0.9496   strict 0.2541 -> 0.3471
 mistralsmall:combo       exist 0.8676 -> 0.9825   strict 0.1639 -> 0.2341
-qwen30b:baseline         exist 0.9293 -> 0.9632   strict 0.179 -> 0.2605
+qwen30b:baseline         exist 0.9293 -> 0.9632   strict 0.1783 -> 0.2605
 qwen30b:combo            exist 0.7753 -> 0.9974   strict 0.0613 -> 0.4232
 sonnet:baseline          exist 0.9937 -> 1.0   strict 0.5271 -> 0.7258
 sonnet:combo             exist 0.9978 -> 1.0   strict 0.6495 -> 0.7532
   citation:deepseek:combo      OR 20.245 holm 0.0039
-  quote:deepseek:combo         OR 4.134 holm 0.0
-  quote:gpt54mini:combo        OR 2.918 holm 0.022
+  quote:deepseek:combo         OR 4.205 holm 0.0
+  quote:gpt54mini:combo        OR 2.841 holm 0.0226
   quote:grok43:combo           OR 6.222 holm 0.0005
   citation:llama4mav:combo     OR 31.283 holm 0.006
   citation:mistralsmall:combo  OR 8.342 holm 0.0

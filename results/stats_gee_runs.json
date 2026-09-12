@@ -8,11 +8,11 @@
   "holm_p": 0.1323
  },
  "quote:deepseek:combo": {
-  "OR": 0.39,
-  "ci_low": 0.286,
-  "ci_high": 0.533,
+  "OR": 0.386,
+  "ci_low": 0.283,
+  "ci_high": 0.525,
   "p": 0.0,
-  "n": 1525,
+  "n": 1530,
   "holm_p": 0.0
  },
  "citation:gpt54mini:combo": {
@@ -24,12 +24,12 @@
   "holm_p": 0.0831
  },
  "quote:gpt54mini:combo": {
-  "OR": 0.53,
-  "ci_low": 0.36,
-  "ci_high": 0.781,
-  "p": 0.00132,
+  "OR": 0.541,
+  "ci_low": 0.37,
+  "ci_high": 0.791,
+  "p": 0.00152,
   "n": 594,
-  "holm_p": 0.0092
+  "holm_p": 0.0106
  },
  "citation:grok43:combo": {
   "OR": 0.926,
@@ -40,11 +40,11 @@
   "holm_p": 0.9179
  },
  "quote:grok43:combo": {
-  "OR": 0.323,
+  "OR": 0.322,
   "ci_low": 0.206,
-  "ci_high": 0.507,
+  "ci_high": 0.505,
   "p": 0.0,
-  "n": 787,
+  "n": 788,
   "holm_p": 0.0
  },
  "citation:llama4mav:combo": {
@@ -72,11 +72,11 @@
   "holm_p": 0.0005
  },
  "quote:mistralsmall:combo": {
-  "OR": 0.516,
-  "ci_low": 0.375,
-  "ci_high": 0.711,
-  "p": 5e-05,
-  "n": 1250,
+  "OR": 0.52,
+  "ci_low": 0.378,
+  "ci_high": 0.717,
+  "p": 6e-05,
+  "n": 1252,
   "holm_p": 0.0005
  },
  "citation:qwen30b:combo": {
@@ -92,7 +92,7 @@
   "ci_low": 0.163,
   "ci_high": 0.356,
   "p": 0.0,
-  "n": 1650,
+  "n": 1653,
   "holm_p": 0.0
  },
  "citation:sonnet:combo": {
@@ -104,11 +104,11 @@
   "holm_p": 0.1523
  },
  "quote:sonnet:combo": {
-  "OR": 1.238,
-  "ci_low": 0.966,
-  "ci_high": 1.587,
-  "p": 0.09176,
-  "n": 1344,
-  "holm_p": 0.1835
+  "OR": 1.235,
+  "ci_low": 0.961,
+  "ci_high": 1.588,
+  "p": 0.09919,
+  "n": 1343,
+  "holm_p": 0.1984
  }
 }

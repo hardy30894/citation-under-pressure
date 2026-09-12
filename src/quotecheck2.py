@@ -217,6 +217,7 @@ def attribute(q, text, cites):
     tail = sentence_end(raw_after)  # the quotation's own sentence, after it
     after = raw_after[:min(tail, CTX_AFTER)].lower()
     best_before = best_after = None
+    cites = [c for c in cites if not c.get("procedural")]
     for c in cites:
         prox = abs(c["start"] - q["start"])  # tie-break: the nearer citation
         for t in c["tokens"]:
@@ -327,6 +328,40 @@ def verdict_for(q, cite, store):
     return ("near_miss" if cov >= 0.85 else "inaccurate"), round(cov, 3)
 
 
+PARALLEL_GAP = 60  # a parallel cite string runs on from the official one
+PROCEDURAL = re.compile(r"cert\.?\s*(?:denied|granted|dismissed)|reh'?g\s+denied|"
+                        r"aff'?d|rev'?d|vacated|remanded", re.I)
+
+
+def merge_parallel(cites, text):
+    """Collapse a parallel citation string into the citation it repeats.
+
+    A court is cited once in three reporters at a stretch ("418 U.S. 539,
+    558, 94 S.Ct. 2963, 2976, 41 L.Ed.2d 935"), and eyecite emits one
+    citation per reporter. They are the same case, so a quotation must
+    not be attributed to the last of them as though a different court had
+    spoken: the name the draft writes belongs to the first. Tokens that
+    resolve to the same opinion and sit within PARALLEL_GAP characters of
+    the previous one are folded into it, keeping its position and taking
+    the union of the name tokens.
+
+    A citation introduced by procedural history ("cert. denied, 456 U.S.
+    946") is not a source a draft quotes from; it is marked so that
+    attribution passes over it."""
+    out = []
+    for c in cites:
+        prev = out[-1] if out else None
+        if (prev is not None and c.get("cluster_id")
+                and prev.get("cluster_id") == c["cluster_id"]
+                and 0 <= c["start"] - prev["start"] <= PARALLEL_GAP + len(prev["citation"])):
+            prev["tokens"] = prev["tokens"] | c["tokens"]
+            prev["parallel"] = prev.get("parallel", 0) + 1
+            continue
+        c["procedural"] = bool(PROCEDURAL.search(text[max(0, c["start"] - 40): c["start"]]))
+        out.append(c)
+    return out
+
+
 def check_draft(text, citation_records, eyecite_pass, store):
     """Score every quote in one draft.
 
@@ -356,6 +391,7 @@ def check_draft(text, citation_records, eyecite_pass, store):
                 "page": rec.get("page") or e.get("page"),
             }
         )
+    cites = merge_parallel(cites, text)
     results = []
     for q in extract_quotes(text):
         cite, how = attribute(q, text, cites)

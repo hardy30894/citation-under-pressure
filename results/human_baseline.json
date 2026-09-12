@@ -11,15 +11,15 @@
       "subset": "all_clean",
       "n_excerpts": 482,
       "quote_verdicts": {
-        "accurate": 250,
-        "near_miss": 73,
-        "inaccurate": 87,
-        "unverifiable": 155,
-        "unpaired": 1075
+        "accurate": 252,
+        "near_miss": 76,
+        "inaccurate": 88,
+        "unverifiable": 148,
+        "unpaired": 1076
       },
       "n_quotes_total": 1640,
-      "n_quotes_scored": 410,
-      "strict_quote_rate": 0.6098,
+      "n_quotes_scored": 416,
+      "strict_quote_rate": 0.6058,
       "citations": {
         "exists": 845,
         "not_found": 34,
@@ -31,15 +31,15 @@
       "subset": "all_citations_exist",
       "n_excerpts": 288,
       "quote_verdicts": {
-        "accurate": 199,
-        "near_miss": 60,
-        "inaccurate": 64,
-        "unverifiable": 41,
-        "unpaired": 601
+        "accurate": 201,
+        "near_miss": 63,
+        "inaccurate": 65,
+        "unverifiable": 34,
+        "unpaired": 602
       },
       "n_quotes_total": 965,
-      "n_quotes_scored": 323,
-      "strict_quote_rate": 0.6161,
+      "n_quotes_scored": 329,
+      "strict_quote_rate": 0.6109,
       "citations": {
         "exists": 656,
         "not_found": 0,
@@ -51,15 +51,15 @@
       "subset": "any_citation_exists",
       "n_excerpts": 367,
       "quote_verdicts": {
-        "accurate": 250,
-        "near_miss": 73,
-        "inaccurate": 87,
-        "unverifiable": 123,
-        "unpaired": 723
+        "accurate": 252,
+        "near_miss": 76,
+        "inaccurate": 88,
+        "unverifiable": 116,
+        "unpaired": 724
       },
       "n_quotes_total": 1256,
-      "n_quotes_scored": 410,
-      "strict_quote_rate": 0.6098,
+      "n_quotes_scored": 416,
+      "strict_quote_rate": 0.6058,
       "citations": {
         "exists": 845,
         "not_found": 27,
@@ -2483,7 +2483,7 @@
       "quotes": [
         {
           "quote": "[t]he Bankruptcy Court below lack[s] the constitutional authority to enter a final judgment on a state law counterclaim ",
-          "citation": "180 L. Ed. 2d 475",
+          "citation": "131 S. Ct. 2594",
           "verdict": "accurate",
           "coverage": 1.0
         },
@@ -11092,9 +11092,9 @@
       "filename": "shelly-stevens-v-dawn-holler_352045860_part26.pdf",
       "quote_verdicts": {
         "accurate": 0,
-        "near_miss": 0,
+        "near_miss": 3,
         "inaccurate": 0,
-        "unverifiable": 3,
+        "unverifiable": 0,
         "unpaired": 3
       },
       "exists": 2,
@@ -11110,21 +11110,21 @@
         },
         {
           "quote": "are essentially Maryland\u2019s version of *Monell* claims. ",
-          "citation": "19 A.3d 859",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "419 Md. 450",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "Plaintiffs cannot maintain a claim under the Maryland Declaration of Rights",
-          "citation": "19 A.3d 859",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "419 Md. 450",
+          "verdict": "near_miss",
+          "coverage": 1.0
         },
         {
           "quote": "to the extent Plaintiffs are simply reasserting their *Monell* claims against [the Individual] Medical Defendants as *Lo",
-          "citation": "19 A.3d 859",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "419 Md. 450",
+          "verdict": "near_miss",
+          "coverage": 0.875
         },
         {
           "quote": "district court[] may decline to exercise supplemental jurisdiction over a claim . . . if . . . the district court has di",
@@ -16460,9 +16460,9 @@
       "quote_verdicts": {
         "accurate": 0,
         "near_miss": 0,
-        "inaccurate": 0,
-        "unverifiable": 2,
-        "unpaired": 3
+        "inaccurate": 1,
+        "unverifiable": 0,
+        "unpaired": 4
       },
       "exists": 2,
       "not_found": 0,
@@ -16483,14 +16483,14 @@
         },
         {
           "quote": "restricted stock units were withheld by Issuer [Dynegy] to pay the taxes applicable to the vesting of 21,645 units of re",
-          "citation": "126 S. Ct. 1033",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "413 F.3d 503",
+          "verdict": "inaccurate",
+          "coverage": 0.0
         },
         {
           "quote": "[t]hese restricted stock units were withheld by the issuer to pay the taxes applicable to the vesting of 35,093 units of",
-          "citation": "126 S. Ct. 1033",
-          "verdict": "unverifiable",
+          "citation": null,
+          "verdict": "unpaired",
           "coverage": null
         },
         {
@@ -16505,10 +16505,10 @@
       "split": "aux_train",
       "filename": "united-states-ex-rel-michaels-v-agape-senior-community-inc_623041_part8.pdf",
       "quote_verdicts": {
-        "accurate": 0,
+        "accurate": 2,
         "near_miss": 0,
         "inaccurate": 0,
-        "unverifiable": 2,
+        "unverifiable": 0,
         "unpaired": 1
       },
       "exists": 2,
@@ -16518,15 +16518,15 @@
       "quotes": [
         {
           "quote": "fail[ed] to allege *directly* that any of the identified",
-          "citation": "134 S. Ct. 1759",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "707 F.3d 451",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "instead requiring that a court draw an implausible inference linking general statistics to the",
-          "citation": "134 S. Ct. 1759",
-          "verdict": "unverifiable",
-          "coverage": null
+          "citation": "707 F.3d 451",
+          "verdict": "accurate",
+          "coverage": 1.0
         },
         {
           "quote": "false or fraudulent. ",

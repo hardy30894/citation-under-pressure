@@ -1,1 +1,1 @@
-survivors per fit: {'primary': 8, 'lenient': 7, 'distinct': 8, 'literal': 8, 'mismatch_not_found': 11, 'template_B': 13, 'templates_pooled': 16, 'generations_pooled': 8, 'tasks_pooled': 13, 'appellate': 1, 'grounded': 8}
+survivors per fit: {'primary': 8, 'lenient': 7, 'distinct': 8, 'literal': 8, 'mismatch_not_found': 11, 'template_B': 13, 'templates_pooled': 16, 'generations_pooled': 8, 'tasks_pooled': 13, 'appellate': 2, 'grounded': 8}

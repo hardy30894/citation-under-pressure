@@ -1089,3 +1089,35 @@ before or after seeing the relevant data. Nothing is deleted.
   no opinion text, or backwards to the citation preceding it when the
   quotation sits before its own. These are not fixed and are candidates
   for the next rebuild.
+- 2026-09-12 (mechanical defects closed). Of the three the second reader
+  named, two were real and are fixed, and one was not a defect.
+  PARALLEL CITATION STRINGS. A court cited once in three reporters
+  ("418 U.S. 539, 558, 94 S.Ct. 2963, 2976, 41 L.Ed.2d 935") yields one
+  eyecite citation per reporter, and a quotation could be attributed by
+  proximity to the last of them as though a different court had spoken.
+  quotecheck2.merge_parallel now folds a citation into the previous one
+  when they resolve to the same opinion and sit within 60 characters
+  plus the previous citation's length, keeping the first position and
+  the union of the name tokens. Measured on a 220-draft sample before
+  the fix, 19 of 1,152 scored quotations were bound to a parallel cite
+  of a case already cited earlier, 14 of them carrying an inaccurate
+  verdict.
+  PROCEDURAL HISTORY. A citation introduced by "cert. denied", "aff'd",
+  "rev'd" and the like is the subsequent history of the case being
+  cited, not a source a draft quotes from, and one could take a
+  quotation by proximity. Such citations are now flagged and passed over
+  in attribution. The sampled instance, a quotation belonging to Veatch,
+  674 F.2d 1217, that had been bound to the cert denial at 456 U.S. 946,
+  now attributes correctly and scores accurate rather than inaccurate.
+  NOT A DEFECT. The third case, a quotation bound to 96 S. Ct. 1592,
+  was reported as a parallel citation treated as a separate case. The
+  draft cites Rose only by its S.Ct. parallel, five times, and that
+  resolves to the right opinion, so the attribution was correct and the
+  verdict stands as the model's error. Reproducing each report before
+  fixing it is what separated the two.
+  Both rules carry seeded plants: a genuine sentence followed by a real
+  parallel citation pair drawn from the index, which must attribute to
+  the case, and a genuine sentence followed by a nearer cert-denial
+  citation, which must not take it. validate_q2 is 320 of 320 on 16
+  kinds. Everything rebuilt; the eight pre-registered survivors are
+  unchanged for the third rebuild running.

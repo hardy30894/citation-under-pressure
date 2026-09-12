@@ -2695,9 +2695,9 @@
    "final": {
     "exist": 1.0,
     "n_cites": 9,
-    "strict": 0.667,
-    "n_quotes_scored": 3,
-    "acc": 2
+    "strict": 0.75,
+    "n_quotes_scored": 4,
+    "acc": 3
    }
   },
   {

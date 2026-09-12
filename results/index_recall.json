@@ -71,23 +71,23 @@
    "citations": 11,
    "not_found": 0
   },
-  "F.R.D.": {
-   "citations": 9,
-   "not_found": 1
-  },
   "S.E.2d": {
    "citations": 9,
    "not_found": 0
+  },
+  "F.R.D.": {
+   "citations": 9,
+   "not_found": 1
   },
   "N.E.2d": {
    "citations": 9,
    "not_found": 0
   },
-  "N.Y.2d": {
+  "N.W.2d": {
    "citations": 8,
    "not_found": 0
   },
-  "N.W.2d": {
+  "N.Y.2d": {
    "citations": 8,
    "not_found": 0
   },
@@ -103,11 +103,11 @@
    "citations": 5,
    "not_found": 0
   },
-  "A.2d": {
+  "P.2d": {
    "citations": 4,
    "not_found": 0
   },
-  "P.2d": {
+  "A.2d": {
    "citations": 4,
    "not_found": 0
   },
@@ -115,13 +115,13 @@
    "citations": 4,
    "not_found": 0
   },
-  "Mich.": {
-   "citations": 2,
-   "not_found": 0
-  },
   "A.L.R.2d": {
    "citations": 2,
    "not_found": 2
+  },
+  "Va.": {
+   "citations": 2,
+   "not_found": 0
   }
  }
 }

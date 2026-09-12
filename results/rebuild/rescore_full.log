@@ -8,21 +8,21 @@ sonnet done
 
 deepseek
   baseline  exist=0.9773 strict=0.3825 (a96/n88/i67/u10) viol=0/0
-  quota     exist=0.9561 strict=0.3846 (a110/n97/i79/u25) viol=0/0
-  temporal  exist=0.9549 strict=0.25 (a51/n60/i93/u6) viol=40/356
-  stakes    exist=0.9731 strict=0.3636 (a88/n87/i67/u12) viol=0/0
-  combo     exist=0.959 strict=0.1495 (a42/n96/i143/u19) viol=34/488
+  quota     exist=0.9561 strict=0.3868 (a111/n97/i79/u24) viol=0/0
+  temporal  exist=0.9549 strict=0.25 (a51/n60/i93/u5) viol=40/356
+  stakes    exist=0.9731 strict=0.3663 (a89/n87/i67/u11) viol=0/0
+  combo     exist=0.959 strict=0.1474 (a42/n98/i145/u15) viol=34/488
 
 gpt54mini
-  baseline  exist=0.9855 strict=0.5827 (a74/n30/i23/u8) viol=0/0
-  quota     exist=0.984 strict=0.6053 (a69/n29/i16/u6) viol=0/0
-  temporal  exist=0.9576 strict=0.4384 (a32/n16/i25/u2) viol=68/519
+  baseline  exist=0.9855 strict=0.5859 (a75/n30/i23/u7) viol=0/0
+  quota     exist=0.984 strict=0.5948 (a69/n31/i16/u4) viol=0/0
+  temporal  exist=0.9576 strict=0.4459 (a33/n16/i25/u1) viol=68/519
   stakes    exist=0.9835 strict=0.552 (a69/n34/i22/u10) viol=0/0
-  combo     exist=0.9621 strict=0.4659 (a41/n20/i27/u2) viol=98/713
+  combo     exist=0.9621 strict=0.4719 (a42/n20/i27/u1) viol=98/713
 
 grok43
   baseline  exist=0.996 strict=0.4803 (a73/n42/i37/u3) viol=0/0
-  quota     exist=0.989 strict=0.5145 (a71/n36/i31/u6) viol=0/0
+  quota     exist=0.989 strict=0.5143 (a72/n37/i31/u4) viol=0/0
   temporal  exist=0.9833 strict=0.3667 (a44/n39/i37/u1) viol=0/240
   stakes    exist=0.996 strict=0.5075 (a68/n40/i26/u1) viol=0/0
   combo     exist=0.9937 strict=0.3025 (a36/n41/i42/u3) viol=2/479
@@ -30,27 +30,27 @@ grok43
 llama4mav
   baseline  exist=0.9668 strict=0.5882 (a30/n10/i11/u9) viol=0/0
   quota     exist=0.981 strict=0.4691 (a38/n28/i15/u6) viol=0/0
-  temporal  exist=0.9439 strict=0.2143 (a9/n16/i17/u4) viol=22/213
+  temporal  exist=0.9439 strict=0.2093 (a9/n16/i18/u3) viol=22/213
   stakes    exist=0.9752 strict=0.5769 (a30/n12/i10/u2) viol=0/0
   combo     exist=0.9462 strict=0.2295 (a14/n20/i27/u4) viol=48/506
 
 mistralsmall
-  baseline  exist=0.9081 strict=0.2554 (a47/n67/i70/u16) viol=0/0
-  quota     exist=0.9329 strict=0.3147 (a62/n66/i69/u18) viol=0/0
+  baseline  exist=0.9081 strict=0.2541 (a47/n67/i71/u15) viol=0/0
+  quota     exist=0.9329 strict=0.3182 (a63/n66/i69/u17) viol=0/0
   temporal  exist=0.8603 strict=0.1476 (a31/n78/i101/u47) viol=141/401
   stakes    exist=0.9282 strict=0.2114 (a37/n79/i59/u14) viol=0/0
   combo     exist=0.8676 strict=0.1639 (a40/n71/i133/u33) viol=192/521
 
 qwen30b
-  baseline  exist=0.9293 strict=0.179 (a41/n98/i90/u28) viol=0/0
+  baseline  exist=0.9293 strict=0.1783 (a41/n99/i90/u26) viol=0/0
   quota     exist=0.8691 strict=0.2014 (a56/n124/i98/u64) viol=0/0
-  temporal  exist=0.8431 strict=0.0896 (a18/n53/i130/u56) viol=60/307
+  temporal  exist=0.8431 strict=0.0891 (a18/n53/i131/u55) viol=60/307
   stakes    exist=0.8886 strict=0.1827 (a38/n89/i81/u26) viol=0/0
   combo     exist=0.7753 strict=0.0613 (a20/n85/i221/u137) viol=84/388
 
 sonnet
   baseline  exist=0.9937 strict=0.5271 (a136/n71/i51/u10) viol=0/0
-  quota     exist=0.9868 strict=0.529 (a146/n70/i60/u4) viol=0/0
+  quota     exist=0.9868 strict=0.5324 (a148/n70/i60/u2) viol=0/0
   temporal  exist=0.9972 strict=0.556 (a129/n47/i56/u0) viol=0/353
-  stakes    exist=0.997 strict=0.6255 (a147/n42/i46/u4) viol=0/0
+  stakes    exist=0.997 strict=0.6271 (a148/n41/i47/u3) viol=0/0
   combo     exist=0.9978 strict=0.6495 (a126/n33/i35/u1) viol=1/450

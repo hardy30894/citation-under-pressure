@@ -1,7 +1,7 @@
 deepseek   true      n=24 exist 0.971->1.0 strict 0.301->0.958
 deepseek   scrambled n=24 exist 0.971->0.924 strict 0.301->0.228
 deepseek   none      n=24 exist 0.971->0.975 strict 0.301->0.317
-deepseek   half      n=24 exist 0.971->0.996 strict 0.301->0.481
+deepseek   half      n=24 exist 0.971->0.996 strict 0.301->0.487
 deepseek   quarter   n=24 exist 0.971->0.972 strict 0.301->0.365
 deepseek   threequarter n=24 exist 0.971->0.991 strict 0.301->0.776
 deepseek   passage   n=24 exist 0.971->1.0 strict 0.301->1.0

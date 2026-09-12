@@ -22,7 +22,12 @@ citing its case (attributed to that case); a quotation in a paragraph
 with no citation (must be left unpaired); a quotation whose sentence
 carries "Id." after a citation (must score against that citation); and a
 parenthetical quotation inside a string cite, which belongs to the
-citation before it and not the one after.
+citation before it and not the one after. Two further plants cover
+attribution across citation strings: a genuine sentence followed by the
+case's full parallel citation, where the quotation must be attributed to
+the case and not to the last reporter in the string, and a genuine
+sentence from one case followed by a nearer citation introduced by
+"cert. denied", which is procedural history and must not take it.
 """
 
 import random
@@ -127,6 +132,12 @@ def main():
 
     index = SqliteIndex(DB)
     checker = CitationChecker(index)
+    # a real parallel citation pair, so the two tokens share an opinion
+    par = con.execute(
+        "SELECT c2.volume, c2.reporter, c2.page FROM citations c1 "
+        "JOIN citations c2 ON c1.cluster_id = c2.cluster_id "
+        "WHERE REPLACE(REPLACE(c1.reporter,' ',''),'.','') = 'US' "
+        "  AND REPLACE(REPLACE(c2.reporter,' ',''),'.','') = 'SCt' LIMIT 1").fetchone()
     store = OpinionTextStore(DB, cl_token=None, fetch_budget=0)
 
     tally = {}
@@ -146,7 +157,7 @@ def main():
         if not sent or not sent2 or sent == sent2:
             continue
         omitted, gapped = sample_cited_sentence(text)
-        if not omitted:
+        if not omitted or not par:
             continue
         n_cases += 1
         if n_cases > 20:
@@ -184,7 +195,11 @@ def main():
             f"{wname}, {wvol} U.S. {wpage}, 4 (1951) (same).\n\n"
             f"The Court explained that “{omitted}” {name}, {vol} U.S. {page}, "
             f"5 (1950) (citation omitted).\n\n"
-            f"The Court explained that “{gapped}” {name}, {vol} U.S. {page} (1950)."
+            f"The Court explained that “{gapped}” {name}, {vol} U.S. {page} (1950).\n\n"
+            f"As the Court put it, “{sent2}” {name}, {vol} U.S. {page}, 7, "
+            f"{par[0]} {par[1]} {par[2]} (1950).\n\n"
+            f"The panel below agreed. {wname}, {wvol} U.S. {wpage} (1951), "
+            f"cert. denied, {vol} U.S. {page} (1950). It held that “{sent}”"
         )
         recs, _ = checker.check_text(draft)
         res = q2.check_draft(draft, recs, eyecite_pass(draft), store)
@@ -234,6 +249,16 @@ def main():
         def at(planted):
             pos = draft.find("\u201c" + planted) + 1
             return next((r for q, r in zip(quotes, res) if q["start"] == pos), None)
+        par_hits = [x for x in res if x["quote"].startswith(sent2[:40])]
+        got = par_hits[2]["citation"] if len(par_hits) > 2 else "NOT_EXTRACTED"
+        key = ("parallel cite attribution",
+               "pass" if got == f"{vol} U.S. {page}" else f"FAIL({got})")
+        tally[key] = tally.get(key, 0) + 1
+        proc = [x for x in res if x["quote"].startswith(sent[:40])]
+        got = proc[4]["citation"] if len(proc) > 4 else "NOT_EXTRACTED"
+        key = ("cert. denied not a source",
+               "pass" if got == f"{wvol} U.S. {wpage}" else f"FAIL({got})")
+        tally[key] = tally.get(key, 0) + 1
         om = at(omitted)
         got = om["verdict"] if om else "NOT_EXTRACTED"
         key = ("omitted internal citation", "pass" if got == "accurate" else f"FAIL({got})")

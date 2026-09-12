@@ -1,13 +1,13 @@
 count contrasts surviving Holm within model: 8 ['deepseek:temporal', 'deepseek:combo', 'gpt54mini:temporal', 'gpt54mini:combo', 'grok43:combo', 'llama4mav:temporal', 'llama4mav:combo', 'qwen30b:temporal']
-deepseek:quota           2.00 -> 2.29 p=0.4167 holm=0.8334 n=48
+deepseek:quota           2.00 -> 2.31 p=0.3666 holm=0.7332 n=48
 deepseek:temporal        2.00 -> 1.06 p=0.0073 holm=0.0219 n=48
-deepseek:stakes          2.00 -> 1.83 p=0.5625 holm=0.5625 n=48
+deepseek:stakes          2.00 -> 1.85 p=0.6168 holm=0.6168 n=48
 deepseek:combo           2.00 -> 0.88 p=0.0002 holm=0.0008 n=48
-gpt54mini:quota          1.54 -> 1.44 p=0.4519 holm=0.9038 n=48
-gpt54mini:temporal       1.54 -> 0.67 p=0.0037 holm=0.0148 n=48
-gpt54mini:stakes         1.54 -> 1.44 p=0.6074 holm=0.6074 n=48
-gpt54mini:combo          1.54 -> 0.85 p=0.0111 holm=0.0333 n=48
-grok43:quota             1.52 -> 1.48 p=0.7692 holm=0.7692 n=48
+gpt54mini:quota          1.56 -> 1.44 p=0.4023 holm=0.8046 n=48
+gpt54mini:temporal       1.56 -> 0.69 p=0.0033 holm=0.0132 n=48
+gpt54mini:stakes         1.56 -> 1.44 p=0.5500 holm=0.5500 n=48
+gpt54mini:combo          1.56 -> 0.88 p=0.0120 holm=0.0360 n=48
+grok43:quota             1.52 -> 1.50 p=0.8330 holm=0.8330 n=48
 grok43:temporal          1.52 -> 0.92 p=0.0267 holm=0.0801 n=48
 grok43:stakes            1.52 -> 1.42 p=0.7636 holm=1.0000 n=48
 grok43:combo             1.52 -> 0.75 p=0.0027 holm=0.0108 n=48
@@ -15,7 +15,7 @@ llama4mav:quota          0.62 -> 0.79 p=0.5503 holm=1.0000 n=48
 llama4mav:temporal       0.62 -> 0.19 p=0.0023 holm=0.0092 n=48
 llama4mav:stakes         0.62 -> 0.62 p=1.0000 holm=1.0000 n=48
 llama4mav:combo          0.62 -> 0.29 p=0.0100 holm=0.0300 n=48
-mistralsmall:quota       0.98 -> 1.29 p=0.2319 holm=0.6957 n=48
+mistralsmall:quota       0.98 -> 1.31 p=0.2013 holm=0.6039 n=48
 mistralsmall:temporal    0.98 -> 0.65 p=0.0624 holm=0.2496 n=48
 mistralsmall:stakes      0.98 -> 0.77 p=0.2508 holm=0.5016 n=48
 mistralsmall:combo       0.98 -> 0.83 p=0.4548 holm=0.4548 n=48
@@ -23,7 +23,7 @@ qwen30b:quota            0.85 -> 1.17 p=0.2103 holm=0.4206 n=48
 qwen30b:temporal         0.85 -> 0.38 p=0.0045 holm=0.0180 n=48
 qwen30b:stakes           0.85 -> 0.79 p=0.8393 holm=0.8393 n=48
 qwen30b:combo            0.85 -> 0.42 p=0.0186 holm=0.0558 n=48
-sonnet:quota             2.83 -> 3.04 p=0.5190 holm=1.0000 n=48
+sonnet:quota             2.83 -> 3.08 p=0.4760 holm=1.0000 n=48
 sonnet:temporal          2.83 -> 2.69 p=0.6366 holm=0.6366 n=48
-sonnet:stakes            2.83 -> 3.06 p=0.5429 holm=1.0000 n=48
+sonnet:stakes            2.83 -> 3.08 p=0.4917 holm=1.0000 n=48
 sonnet:combo             2.83 -> 2.62 p=0.5790 holm=1.0000 n=48

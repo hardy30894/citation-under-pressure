@@ -2,7 +2,7 @@
  "deepseek": {
   "out_of_scope_non_us": 13,
   "paraphrase_in_quotes": 72,
-  "fabricated_language": 45,
+  "fabricated_language": 44,
   "no_text": 0
  },
  "gpt54mini": {
@@ -24,7 +24,7 @@
   "no_text": 0
  },
  "mistralsmall": {
-  "out_of_scope_non_us": 17,
+  "out_of_scope_non_us": 19,
   "paraphrase_in_quotes": 102,
   "fabricated_language": 41,
   "no_text": 0

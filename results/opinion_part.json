@@ -1,20 +1,20 @@
 {
  "pooled": {
-  "accurate": 2159,
-  "checked": 1661,
-  "majority": 1539,
-  "not_us_reports": 476,
+  "accurate": 2169,
+  "checked": 1684,
+  "majority": 1560,
+  "not_us_reports": 461,
   "concurrence": 20,
   "concurrence:unflagged": 16,
   "separate": 39,
   "separate_flagged": 6,
-  "not_located": 83,
+  "not_located": 85,
   "head-matter": 8,
   "head-matter:unflagged": 8,
   "dissent": 11,
   "dissent:flagged": 2,
   "dissent:unflagged": 9,
-  "no_archive": 22,
+  "no_archive": 24,
   "concurrence:flagged": 4
  },
  "cells": {
@@ -42,11 +42,11 @@
    "majority": 49
   },
   "gpt54mini:baseline": {
-   "majority": 53,
+   "majority": 54,
    "concurrence": 1
   },
   "gpt54mini:temporal": {
-   "majority": 29
+   "majority": 31
   },
   "gpt54mini:combo": {
    "majority": 38,
@@ -71,7 +71,7 @@
    "dissent": 1
   },
   "grok43:quota": {
-   "majority": 47,
+   "majority": 48,
    "head-matter": 1,
    "concurrence": 2
   },
@@ -113,14 +113,14 @@
    "majority": 28
   },
   "qwen30b:quota": {
-   "majority": 28
+   "majority": 33
   },
   "qwen30b:stakes": {
-   "majority": 13,
+   "majority": 22,
    "dissent": 1
   },
   "qwen30b:baseline": {
-   "majority": 18,
+   "majority": 21,
    "dissent": 1
   },
   "qwen30b:combo": {
@@ -466,8 +466,8 @@
    "quote": "a friendly, non-adversary proceeding."
   }
  ],
- "located": 1578,
- "separate_share": 0.0247,
+ "located": 1599,
+ "separate_share": 0.0244,
  "separate_unflagged": 33,
- "unflagged_share_of_located": 0.0209
+ "unflagged_share_of_located": 0.0206
 }

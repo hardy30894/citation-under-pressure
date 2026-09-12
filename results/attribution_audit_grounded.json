@@ -1,17 +1,17 @@
 {
  "deepseek": {
-  "inaccurate_total": 130,
-  "packet_material": 21,
+  "inaccurate_total": 129,
+  "packet_material": 20,
   "statutory": 15,
   "both": 5,
   "neither": 89,
   "scored_total": 432,
   "packet_material_any_verdict": 111,
-  "packet_material_accurate": 68,
+  "packet_material_accurate": 69,
   "packet_material_near_miss": 17,
-  "packet_material_inaccurate": 26,
+  "packet_material_inaccurate": 25,
   "artifact_leading_space": 0,
-  "attribution_named": 84,
+  "attribution_named": 83,
   "attribution_proximity": 27
  },
  "gpt54mini": {
@@ -22,8 +22,8 @@
   "neither": 18,
   "scored_total": 210,
   "packet_material_any_verdict": 67,
-  "packet_material_accurate": 42,
-  "packet_material_near_miss": 9,
+  "packet_material_accurate": 41,
+  "packet_material_near_miss": 10,
   "packet_material_inaccurate": 16,
   "artifact_leading_space": 0,
   "attribution_named": 20,
@@ -60,16 +60,16 @@
   "attribution_proximity": 4
  },
  "mistralsmall": {
-  "inaccurate_total": 160,
-  "packet_material": 12,
+  "inaccurate_total": 162,
+  "packet_material": 13,
   "statutory": 8,
   "both": 5,
-  "neither": 135,
-  "scored_total": 373,
-  "packet_material_any_verdict": 67,
+  "neither": 136,
+  "scored_total": 375,
+  "packet_material_any_verdict": 68,
   "packet_material_accurate": 35,
   "packet_material_near_miss": 15,
-  "packet_material_inaccurate": 17,
+  "packet_material_inaccurate": 18,
   "artifact_leading_space": 0,
   "attribution_named": 62,
   "attribution_proximity": 16
@@ -105,19 +105,19 @@
   "attribution_proximity": 13
  },
  "_pooled": {
-  "inaccurate_total": 717,
+  "inaccurate_total": 718,
   "packet_material": 137,
   "statutory": 36,
   "both": 17,
-  "neither": 527,
-  "scored_total": 2497,
-  "packet_material_any_verdict": 558,
+  "neither": 528,
+  "scored_total": 2499,
+  "packet_material_any_verdict": 559,
   "packet_material_accurate": 309,
-  "packet_material_near_miss": 95,
+  "packet_material_near_miss": 96,
   "packet_material_inaccurate": 154,
   "artifact_leading_space": 0,
-  "attribution_named": 457,
+  "attribution_named": 456,
   "attribution_proximity": 135,
-  "share_packet_or_statutory": 0.265
+  "share_packet_or_statutory": 0.2646
  }
 }

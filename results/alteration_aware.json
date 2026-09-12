@@ -7,22 +7,22 @@
    "scored_literal": 251
   },
   "deepseek:combo": {
-   "strict": 0.1495,
-   "literal": 0.1388,
-   "scored_strict": 281,
-   "scored_literal": 281
+   "strict": 0.1474,
+   "literal": 0.1368,
+   "scored_strict": 285,
+   "scored_literal": 285
   },
   "deepseek:quota": {
-   "strict": 0.3846,
-   "literal": 0.3462,
-   "scored_strict": 286,
-   "scored_literal": 286
+   "strict": 0.3868,
+   "literal": 0.3484,
+   "scored_strict": 287,
+   "scored_literal": 287
   },
   "deepseek:stakes": {
-   "strict": 0.3636,
-   "literal": 0.343,
-   "scored_strict": 242,
-   "scored_literal": 242
+   "strict": 0.3663,
+   "literal": 0.3457,
+   "scored_strict": 243,
+   "scored_literal": 243
   },
   "deepseek:temporal": {
    "strict": 0.25,
@@ -31,16 +31,16 @@
    "scored_literal": 204
   },
   "gpt54mini:baseline": {
-   "strict": 0.5827,
-   "literal": 0.5354,
-   "scored_strict": 127,
-   "scored_literal": 127
+   "strict": 0.5859,
+   "literal": 0.5312,
+   "scored_strict": 128,
+   "scored_literal": 128
   },
   "gpt54mini:combo": {
-   "strict": 0.4659,
-   "literal": 0.4205,
-   "scored_strict": 88,
-   "scored_literal": 88
+   "strict": 0.4719,
+   "literal": 0.427,
+   "scored_strict": 89,
+   "scored_literal": 89
   },
   "gpt54mini:stakes": {
    "strict": 0.552,
@@ -49,16 +49,16 @@
    "scored_literal": 125
   },
   "gpt54mini:temporal": {
-   "strict": 0.4384,
-   "literal": 0.4247,
-   "scored_strict": 73,
-   "scored_literal": 73
+   "strict": 0.4459,
+   "literal": 0.4189,
+   "scored_strict": 74,
+   "scored_literal": 74
   },
   "gpt54mini:quota": {
-   "strict": 0.6053,
-   "literal": 0.5789,
-   "scored_strict": 114,
-   "scored_literal": 114
+   "strict": 0.5948,
+   "literal": 0.569,
+   "scored_strict": 116,
+   "scored_literal": 116
   },
   "grok43:baseline": {
    "strict": 0.4803,
@@ -73,10 +73,10 @@
    "scored_literal": 119
   },
   "grok43:quota": {
-   "strict": 0.5145,
-   "literal": 0.45,
-   "scored_strict": 138,
-   "scored_literal": 140
+   "strict": 0.5143,
+   "literal": 0.4507,
+   "scored_strict": 140,
+   "scored_literal": 142
   },
   "grok43:stakes": {
    "strict": 0.5075,
@@ -115,16 +115,16 @@
    "scored_literal": 52
   },
   "llama4mav:temporal": {
-   "strict": 0.2143,
-   "literal": 0.2143,
-   "scored_strict": 42,
-   "scored_literal": 42
+   "strict": 0.2093,
+   "literal": 0.2093,
+   "scored_strict": 43,
+   "scored_literal": 43
   },
   "mistralsmall:baseline": {
-   "strict": 0.2554,
-   "literal": 0.2446,
-   "scored_strict": 184,
-   "scored_literal": 184
+   "strict": 0.2541,
+   "literal": 0.2432,
+   "scored_strict": 185,
+   "scored_literal": 185
   },
   "mistralsmall:combo": {
    "strict": 0.1639,
@@ -133,10 +133,10 @@
    "scored_literal": 244
   },
   "mistralsmall:quota": {
-   "strict": 0.3147,
-   "literal": 0.2792,
-   "scored_strict": 197,
-   "scored_literal": 197
+   "strict": 0.3182,
+   "literal": 0.2828,
+   "scored_strict": 198,
+   "scored_literal": 198
   },
   "mistralsmall:stakes": {
    "strict": 0.2114,
@@ -151,10 +151,10 @@
    "scored_literal": 210
   },
   "qwen30b:baseline": {
-   "strict": 0.179,
-   "literal": 0.1747,
-   "scored_strict": 229,
-   "scored_literal": 229
+   "strict": 0.1783,
+   "literal": 0.1739,
+   "scored_strict": 230,
+   "scored_literal": 230
   },
   "qwen30b:combo": {
    "strict": 0.0613,
@@ -175,10 +175,10 @@
    "scored_literal": 208
   },
   "qwen30b:temporal": {
-   "strict": 0.0896,
-   "literal": 0.0896,
-   "scored_strict": 201,
-   "scored_literal": 201
+   "strict": 0.0891,
+   "literal": 0.0891,
+   "scored_strict": 202,
+   "scored_literal": 202
   },
   "sonnet:baseline": {
    "strict": 0.5271,
@@ -193,16 +193,16 @@
    "scored_literal": 194
   },
   "sonnet:quota": {
-   "strict": 0.529,
-   "literal": 0.4891,
-   "scored_strict": 276,
-   "scored_literal": 276
+   "strict": 0.5324,
+   "literal": 0.4928,
+   "scored_strict": 278,
+   "scored_literal": 278
   },
   "sonnet:stakes": {
-   "strict": 0.6255,
-   "literal": 0.5805,
-   "scored_strict": 235,
-   "scored_literal": 236
+   "strict": 0.6271,
+   "literal": 0.5823,
+   "scored_strict": 236,
+   "scored_literal": 237
   },
   "sonnet:temporal": {
    "strict": 0.556,
@@ -212,5 +212,5 @@
   }
  },
  "max_cell_diff": 0.0927,
- "mean_cell_diff": 0.0284
+ "mean_cell_diff": 0.0289
 }

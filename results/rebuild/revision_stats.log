@@ -2,7 +2,7 @@
   temp = _wilcoxon_iv(x, y, zero_method, correction, alternative, method, axis)
 significant after Holm: ['citation:qwen30b:combo', 'citation:qwen30b:quota', 'citation:qwen30b:temporal', 'quote:deepseek:combo', 'quote:llama4mav:combo', 'quote:llama4mav:temporal', 'quote:qwen30b:combo', 'quote:qwen30b:temporal']
 memorization (sonnet): {'sonnet:baseline': {'n_cites': 318, 'canonical_share': 0.148, 'median_year': 1986}, 'sonnet:combo': {'n_cites': 450, 'canonical_share': 0.124, 'median_year': 1943}, 'sonnet:quota': {'n_cites': 454, 'canonical_share': 0.11, 'median_year': 1987}, 'sonnet:stakes': {'n_cites': 333, 'canonical_share': 0.162, 'median_year': 1985}, 'sonnet:temporal': {'n_cites': 353, 'canonical_share': 0.147, 'median_year': 1944}}
-human lenient: 0.7878 near-miss share: 0.178
+human lenient: 0.7885 near-miss share: 0.1827
 qwen30b:true {'cites_r0': 198, 'cites_final': 196, 'quotes_scored_r0': 151, 'quotes_scored_final': 160, 'accurate_r0': 12, 'accurate_final': 12, 'exist_r0': 0.743, 'exist_final': 0.822}
 qwen30b:scrambled {'cites_r0': 198, 'cites_final': 194, 'quotes_scored_r0': 151, 'quotes_scored_final': 129, 'accurate_r0': 12, 'accurate_final': 10, 'exist_r0': 0.743, 'exist_final': 0.662}
 qwen30b:none {'cites_r0': 198, 'cites_final': 196, 'quotes_scored_r0': 151, 'quotes_scored_final': 147, 'accurate_r0': 12, 'accurate_final': 11, 'exist_r0': 0.743, 'exist_final': 0.742}
