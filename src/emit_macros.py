@@ -901,7 +901,9 @@ if rv.exists():
                 emit2(f"pairDiff{mk}{ck}", f"{v['mean_diff']:+.2f}")
                 emit2(f"pairP{mk}{ck}", f"{v['wilcoxon_p']:.3f}" if v["wilcoxon_p"] >= 0.001 else "$<$0.001")
 
-WORDS_ = ["zero", "one", "two", "three", "four", "five", "six", "seven"]
+ALPHA_NAME = {"qwen30b": "Qwen3-30B", "mistralsmall": "Mistral Small", "llama4mav": "Llama-4",
+              "deepseek": "DeepSeek", "grok43": "Grok~4.3", "gpt54mini": "GPT-5.4-mini", "sonnet": "Sonnet~5"}
+WORDS_ = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight"]
 
 # the count outcome (src/count_outcome.py): accurate quotations per draft
 # tested against baseline, Wilcoxon paired by matter, Holm within model
@@ -930,6 +932,56 @@ if co.exists():
     # models whose accurate count falls from baseline to combined, and by how much
     drops = [(m, t["cells"][f"{m}:baseline"]["acc_per_draft"], t["cells"][f"{m}:combo"]["acc_per_draft"]) for m in ALPHA]
     emit2("countComboFallers", str(sum(1 for m, a, b in drops if b < a)))
+
+# the same count outcome on the second prompt template (count_outcome_para.json),
+# the replication check: how far the per-draft count result is template-specific
+cob = R / "count_outcome_para.json"
+if co.exists() and cob.exists():
+    a = json.loads(co.read_text())["tests"]
+    b = json.loads(cob.read_text())["tests"]
+    ks = sorted(set(a) & set(b))
+    sa = [k for k in ks if a[k]["holm_p"] < 0.05]
+    sb = [k for k in ks if b[k]["holm_p"] < 0.05]
+    emit2("countBSurvivors", str(len(sb)))
+    emit2("countBModelsWithFall", WORDS_[len({k.split(":")[0] for k in sb})])
+    emit2("countBothSurvivors", WORDS_[len(set(sa) & set(sb))])
+    emit2("countEitherModels", WORDS_[len({k.split(":")[0] for k in sa + sb})])
+    # a true sign comparison: "is it negative" would count a zero
+    # difference on one template as agreeing with a fall on the other
+    def _sgn(x):
+        return (x > 0) - (x < 0)
+    # a test has a sign to keep only where both templates move; two of
+    # the 28 are exactly zero on one, and have no sign either way
+    signed = [k for k in ks if _sgn(a[k]["mean_diff"]) and _sgn(b[k]["mean_diff"])]
+    emit2("countSignAgree", str(sum(1 for k in signed if _sgn(a[k]["mean_diff"]) == _sgn(b[k]["mean_diff"]))))
+    emit2("countSignN", str(len(signed)))
+    emit2("countSignAll", str(len(ks)))
+    emit2("countASurvFallB", WORDS_[sum(1 for k in sa if b[k]["mean_diff"] < 0)])
+    emit2("countASurvN", WORDS_[len(sa)])
+    for k, v in b.items():
+        m, c = k.split(":")
+        mk = ALPHA.get(m)
+        if mk:
+            emit2(f"countBHolm{mk}{CONDS[c]}", f"{v['holm_p']:.3f}" if v["holm_p"] >= 0.001 else "$<$0.001")
+
+# matter-level cluster bootstrap beside the GEE (src/cluster_bootstrap.py)
+cb = R / "cluster_bootstrap.json"
+if cb.exists():
+    t = json.loads(cb.read_text())
+    emit2("bootDraws", f"{t['n_draws']:,}")
+    emit2("bootSurvivors", WORDS_[t["summary"]["primary_survivors"]])
+    emit2("bootExclZero", WORDS_[t["summary"]["survivors_excluding_zero"]])
+    emit2("bootSignMin", f"{t['summary']['survivors_sign_min']:.3f}")
+    emit2("bootExtraNonSurv", str(t["summary"]["nonsurvivors_excluding_zero"]))
+    # the survivor whose bootstrap interval touches zero, named
+    weak = [(k, v) for k, v in t["contrasts"].items()
+            if v["primary_holm_p"] < 0.05 and not v["excludes_zero"]]
+    if len(weak) == 1:
+        k, v = weak[0]
+        kind, m, c = k.split(":")
+        emit2("bootWeakName", f"{ALPHA_NAME.get(m, m)}'s {c} {'quotation' if kind == 'quote' else 'existence'} fall")
+        emit2("bootWeakCi", f"CI {v['ci_low']:.3f} to {v['ci_high']:+.3f}".replace("+", ""))
+        emit2("bootWeakSign", f"{v['sign_share']:.3f}")
 
 # audit by model and the grounded-arm reading (results/attribution_sample_reading.json)
 asr = R / "attribution_sample_reading.json"

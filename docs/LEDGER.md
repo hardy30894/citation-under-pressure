@@ -1121,3 +1121,87 @@ before or after seeing the relevant data. Nothing is deleted.
   citation, which must not take it. validate_q2 is 320 of 320 on 16
   kinds. Everything rebuilt; the eight pre-registered survivors are
   unchanged for the third rebuild running.
+
+- 2026-09-12 (review pass, two additions and a set of cuts, all after the
+  pre-registered analysis): (1) the count outcome K_d, until now run on
+  the first prompt template only, was run on the second as well
+  (src/count_outcome.py grew --records/--out; results/count_outcome_para
+  .json). It replicates in direction and not in per-model attribution:
+  the contrast keeps its sign in 20 of the 26 tests
+  that have one on both templates, two of the 28 being exactly zero on
+  one template and so having no sign to keep; six of the eight
+  first-template Holm survivors fall again, template B has eight Holm
+  survivors of its own in four models, and six of the seven models lose
+  correct quotations under some clause on at least one template. Llama-4's
+  fall does not reappear and Mistral Small's appears only on template B.
+  Reported as a replication of the direction, with the per-model
+  limitation stated. (2) The matter-level cluster
+  bootstrap DESIGN.md fixed at freeze, 2,000 resamples over per-draft
+  rates, was implemented and put in the pipeline
+  (src/cluster_bootstrap.py, seed 20260913). It is pre-registered, not
+  exploratory, and it is reported because sandwich standard errors are
+  asymptotic in the number of clusters and several cells here are thin.
+  It is paired by matter, which DESIGN.md also requires ("paired
+  throughout"): the statistic is the mean over resampled matters of the
+  within-matter difference, so a matter missing from either cell leaves
+  the contrast instead of shifting one arm's mean against the other's.
+  That distinction bites for Llama-4, whose baseline and condition cells
+  otherwise rest on largely different sets of matters. Seven of the eight
+  primary survivors have a percentile interval excluding zero, the lowest
+  sign share among them 0.999. The eighth, Qwen3-30B's temporal quotation
+  fall, does not: -0.073, interval -0.155 to 0.004, sign kept in 0.966 of
+  draws, against a corrected GEE p of 0.030. Weighting by citation rather
+  than by draft over the same resamples puts it at -0.089, interval
+  -0.156 to -0.028. Both weightings are in the released JSON; the paper
+  reports the per-draft paired one, the statistic fixed at freeze, and
+  names the exception. Two earlier passes of this script were discarded
+  rather than reported: the first used 5,000 draws and a
+  citation-weighted statistic, the second was unpaired. Neither is what
+  DESIGN.md specified. Two defects in DESIGN.md itself are noted and not
+  silently repaired: its Statistics section says "their 1,000-draw
+  convention" while its Inference section says 2,000 resamples, and its
+  claim that "the two agreed on every cell in this campaign" is a
+  retrospective sentence that is now false, since they disagree on
+  exactly the contrast named above. The paper reports the disagreement. An
+  orphan results/stats_h1_bootstrap.json, predating the coverage-gap
+  correction and never wired into src/rebuild_all.sh, was not used.
+  (3) Wording: "the failure mode moves with capability" became, after an
+  intermediate version that wrongly implied a strict ordering, "no one
+  failure mode covers the seven", followed by which outcome moves for how
+  many models. Baseline existence does not order the models the way the
+  intermediate wording implied: Grok 4.3 is above Sonnet 5 on it and
+  Mistral Small below Qwen3-30B, so neither "the strongest" nor "the 30B
+  model" is an endpoint of that ordering, and the old three-way split of
+  the range also failed at both ends, since Qwen3-30B loses quotation
+  accuracy and Grok 4.3 loses correct quotations per draft. The mediation
+  result is now stated as consistent with both
+  mechanisms rather than as a decomposition; the precision crossing is
+  scoped to this loop; "citation integrity is one with deterministic
+  ground truth" became "one whose ground truth is public and
+  machine-checkable", since the checker's execution is deterministic and
+  its agreement with hand reading is measured, not assumed. (4) To hold
+  ten body pages, these were cut and survive in the repository: the
+  descriptive split of temporal-arm quotations into authority the model
+  also cites at baseline (it conditioned on a post-treatment choice, as
+  the sentence itself said, and the pre-1970 stratification asks the same
+  question without that defect); the literal-matcher sensitivity on the
+  human reference; a duplicate statement of the 0.85-coverage caveat; a
+  duplicate statement of Sonnet~5's median-year shift; and the
+  jurisdiction-limit contrast in the design rationale for the date clause.
+  (5) An adversarial internal-consistency audit of the edited manuscript
+  found, and this round fixes, three defects that predate it: the
+  provenance sentence in Section 6 attributed its four classes to the 319
+  quotations found verbatim elsewhere when they partition Sonnet 5's 249
+  inaccurate ones (a set including a class "found nowhere", which the
+  wrong antecedent made incoherent); the pinpoint range "55 to 63 for the
+  other six" named Llama-4 as the top when Grok 4.3 at 69 is; and "between
+  a fifth and a half" described two hand readings of 22 and 35 percent,
+  where the half was the union reported in the following sentence. It
+  also found four defects this round had introduced: an abstract clause
+  whose "of them" read as six of three; a Discussion paragraph left
+  saying "the first is" after its second recommendation was cut; a
+  mechanism claim in the abstract resting on evidence that had been cut,
+  now restated as a shift toward older opinions, which the year-adjusted
+  fit does support; and two cross-references to Limitations for results
+  that live in Experiment 1. The Discussion's point estimate for checker
+  error was also replaced by the range the two readings give.

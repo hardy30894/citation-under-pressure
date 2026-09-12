@@ -41,6 +41,8 @@ run gee_alt $PY src/gee.py --records records_alt.jsonl --out stats_gee_alt.json
 run gee_distinct $PY src/gee.py --distinct --out stats_gee_distinct.json
 run gee_nm $PY src/gee.py --records records_nm.jsonl --out stats_gee_nm.json
 run count_outcome $PY src/count_outcome.py
+run count_outcome_para $PY src/count_outcome.py --records records_para.jsonl --out count_outcome_para.json
+run cluster_bootstrap $PY src/cluster_bootstrap.py
 run audit_sensitivity $PY src/audit_sensitivity.py
 run gee_pooled_runs $PY src/gee_pooled_runs.py
 run loop_transitions $PY src/loop_transitions.py

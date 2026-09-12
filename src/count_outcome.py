@@ -30,7 +30,10 @@ N_MATTERS = 48
 def main():
     cell = defaultdict(Counter)
     per = defaultdict(lambda: defaultdict(Counter))
-    for l in open(R / "records.jsonl"):
+    import sys as _s
+    rec = _s.argv[_s.argv.index("--records") + 1] if "--records" in _s.argv else "records.jsonl"
+    outname = _s.argv[_s.argv.index("--out") + 1] if "--out" in _s.argv else "count_outcome.json"
+    for l in open(R / rec):
         r = json.loads(l)
         if r["kind"] != "quote":
             continue
@@ -79,7 +82,7 @@ def main():
             if r["model"] == "sonnet" and r["verdict"] in ("accurate", "near_miss", "inaccurate"):
                 ln[(r["condition"], "accurate" if r["verdict"] == "accurate" else "inaccurate")].append(len(r["quote"].split()))
         out["sonnet_length"] = {f"{c}:{v}": round(sum(x) / len(x), 1) for (c, v), x in ln.items() if x}
-    (R / "count_outcome.json").write_text(json.dumps(out, indent=1))
+    (R / outname).write_text(json.dumps(out, indent=1))
     surv = [k for k, v in out["tests"].items() if v["holm_p"] < 0.05]
     print("count contrasts surviving Holm within model:", len(surv), surv)
     for k, v in out["tests"].items():

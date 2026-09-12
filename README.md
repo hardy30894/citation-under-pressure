@@ -176,6 +176,19 @@ or combined clause: Qwen3-30B, DeepSeek (2.00 to 0.88 per draft), Llama-4 (0.62 
 p 0.011). A lawyer reading the draft gets fewer correct quotations under
 pressure even where the rate does not move.
 
+The same test on the second prompt template (`src/count_outcome.py
+--records records_para.jsonl --out count_outcome_para.json`) replicates
+the direction and not the per-model attribution. The contrast keeps its
+sign in 20 of the 26 tests that have one on both templates (two of the
+28 are exactly zero on one); six of the eight first-template survivors
+fall again; the second template has eight Holm survivors of its own, in four
+models, one of which, Mistral Small, shows nothing on the first; and
+across the two templates six of the seven models lose correct quotations
+under some clause. Llama-4, whose fall is the largest on the first
+template, does not reproduce it on the second. So the finding to carry
+away is that pressure costs a draft correct quotations, not that any
+particular model is the one it happens to.
+
 ### The strongest model's rate holds, most plausibly because it quotes less
 
 Sonnet 5's combo rate is numerically higher than its baseline rate
@@ -562,6 +575,42 @@ generations, templates, or tasks with a fixed effect for each, and the
 revision experiment adds matter-paired comparisons of final strict
 accuracy between arms over the matters scored in both.
 
+The sandwich standard errors that fit gives are consistent as the number
+of clusters grows, and 48 clusters is not many. Worse, some of the cells
+that matter here are thin: the existence outcome for the strongest
+models turns on a handful of citations not found per arm, and a test
+leaning on asymptotics there can be anticonservative. This is why
+DESIGN.md fixed a companion at freeze, before any of the data existed: a
+matter-level cluster bootstrap of 2,000 resamples over per-draft rates.
+It is implemented in `src/cluster_bootstrap.py`. Matters are resampled
+with replacement, 48 at a time, which keeps the clustering the GEE
+assumes and asks nothing about the shape of anything; each draw weights
+every resampled matter equally and, as DESIGN.md's "paired throughout"
+rule requires, takes the mean over resampled matters of the
+within-matter difference between the condition draft's rate and the
+baseline draft's. A matter whose draft has nothing adjudicable in either
+cell leaves the contrast rather than shifting one arm's mean against the
+other's, which matters for Llama-4, where the two cells otherwise rest
+on largely different sets of cases. Reported are the percentile interval
+and the share of draws keeping the observed sign.
+
+Seven of the eight surviving contrasts have an interval excluding zero,
+and the lowest sign share among them is 0.999. The eighth, Qwen3-30B's
+quotation fall under the temporal clause, does not: its interval is
+-0.155 to 0.004 and it keeps its sign in 0.966 of draws. That is the
+honest answer and it is worth saying plainly. The GEE gives that
+contrast a corrected p of 0.030, and the equal-weight-per-draft
+bootstrap puts it just on the line at -0.073. Weighting by citation
+instead, which is nearer what the GEE estimates, does clear zero over
+the same draws: -0.089, interval -0.156 to -0.028 (`pooled_risk_diff`
+and `pooled_ci_low` / `pooled_ci_high` in the JSON). So the contrast is real
+under the model and under one bootstrap weighting and marginal under the
+other, which makes it the weakest of the eight and the one a reader
+should expect to go first. Note also that the bootstrap
+interval carries no multiplicity correction, so it excludes zero for
+six further contrasts that Holm rejects; those are not claimed
+anywhere.
+
 ### The human reference
 
 The same instrument scored 482 clean pre-ChatGPT human appellate briefs
@@ -589,10 +638,10 @@ paper is from the corrected rule and the rerun loop.**
 The quotation checker was validated before the campaign on seeded
 faults, with planted genuine quotes, wrong attributions, single-word
 corruptions, fabrications, and formatting artifacts, at 100 of 100. After
-the audits described next, `src/validate_q2.py` plants fourteen kinds
-of item per draft, six of them attribution traps and two of them
+the audits described next, `src/validate_q2.py` plants sixteen kinds
+of item per draft, eight of them attribution traps and two of them
 omissions without an ellipsis (an omitted internal citation, which must
-pass, and three omitted words, which must not), and scores 280 of 280.
+pass, and three omitted words, which must not), and scores 320 of 320.
 The existence and pinpoint checks carry a seeded validation of their
 own (`src/validate_pins.py`, `results/validate_pins.json`): on twenty
 seeded U.S. Reports opinions with planted real, fabricated, and vendor
@@ -839,9 +888,11 @@ withdrew itself after its own verification passes.
       attribution_sample_reading.json  the hand readings: 160 closed-book, 40 grounded, 40 accurate
       audit_sensitivity.json      the eight-test family refit with checker-side verdicts reclassified
       count_outcome.json          accurate quotations per draft, tested by matter
+      count_outcome_para.json     the same test on the second prompt template
+      cluster_bootstrap.json      the primary contrasts under a matter-level cluster bootstrap
       contrast_matrix.md          every pre-registered contrast under every fit
       stats_gee_nm.json           existence refit with name mismatches counted as not found
-      validate_q2.log             seeded validation of the quotation checker, 280 of 280
+      validate_q2.log             seeded validation of the quotation checker, 320 of 320
       pincites.json               page-level pincite verification
       human_baseline.json         the human yardstick
       revision_stats.json         Holm correction, raw counts, loop counts
