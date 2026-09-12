@@ -1001,6 +1001,18 @@ if cb.exists():
         emit2("bootWeakCi", f"CI {v['ci_low']:.3f} to {v['ci_high']:+.3f}".replace("+", ""))
         emit2("bootWeakSign", f"{v['sign_share']:.3f}")
 
+# the accurate side checked against the archive (src/accurate_provenance.py)
+ap = R / "accurate_provenance.json"
+if ap.exists():
+    t = json.loads(ap.read_text())
+    emit2("accProvTotal", f"{t['n_accurate']:,}")
+    emit2("accProvChecked", f"{t['checkable']:,}")
+    emit2("accProvTraced", f"{t['traced_to_attributed']:,}")
+    emit2("accProvTracedPct", f"{t['traced_pct']:.0f}")
+    emit2("accProvShort", str(t["short_probe"]))
+    emit2("accProvAbsent", str(t["absent_from_corpus"]))
+    emit2("accProvAbsentNonUs", str(t["absent_and_non_us_reporter"]))
+
 # audit by model and the grounded-arm reading (results/attribution_sample_reading.json)
 asr = R / "attribution_sample_reading.json"
 if asr.exists():

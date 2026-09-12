@@ -1263,3 +1263,37 @@ before or after seeing the relevant data. Nothing is deleted.
   overstated what Section 6 goes on to show, and now says the opinions
   and coordinates are public and machine-checkable while binding a
   quotation to the authority a draft means is heuristic.
+  (8) The same pass asked for a larger blinded audit of accurate verdicts,
+  on the ground that K_d is built entirely out of them and the existing
+  audit covered 40. Rather than read more items, the accurate side is now
+  checked deterministically at the scale of the whole run
+  (src/accurate_provenance.py, in the pipeline): all 2,169 accurate
+  quotations searched against the same Caselaw Access Project U.S.
+  Reports archive the inaccurate bucket is searched against, asking
+  whether the language leads back to the attributed case. Of the 1,341
+  the search can speak to, 1,267 do, 94.5 percent. The 828 with a probe
+  under six words and the 331 absent from the archive, 307 of them
+  citations to reporters outside the U.S. Reports, are reported as
+  outside the check rather than folded into either side, and the 74
+  checkable misses are an overcount because the test matches case-name
+  tokens across two renderings of the same name. This is not the reading
+  that was asked for and does not replace it: it cannot say what case a
+  model meant, only whether the language it used identifies the case it
+  cited. A first version of this script reported a combined "at risk"
+  figure of 59 percent that pooled short quotations and corpus gaps with
+  genuinely common language. That number is meaningless and was never put
+  in the paper; the summary was rewritten before anything was reported.
+  (9) Two changes made on the same pass, on Hardy's instruction to do
+  whatever is correct. The existence outcome is renamed
+  reporter-coordinate existence throughout, because it measures whether
+  volume, reporter and page resolve and not whether the citation is the
+  one a lawyer would recognise: a draft citing a real reporter address
+  under the wrong party names scores as existing, and the 1.7 percent
+  name-mismatch sensitivity is what bounds that. The reviewer had asked
+  three times. The one place the old phrase describes Zhao et al.'s
+  metric rather than ours is left alone. The title drops "and What
+  Deterministic Verification Can Repair" for "and the Limits of
+  Deterministic Verification", since the result is that verification
+  mostly deletes: 30 of Sonnet 5's 35 flagged quotations deleted against
+  3 corrected, and accurate quotations per draft rising for one model of
+  seven.

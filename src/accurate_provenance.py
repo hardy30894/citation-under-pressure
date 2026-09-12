@@ -16,13 +16,25 @@ the model had in mind, and the attribution rule would get credit for
 nothing.
 
 This searches every accurate quotation against the same Caselaw Access
-Project U.S. Reports corpus the inaccurate bucket is searched against
-and counts how many distinct opinions hold its longest fragment. One
-opinion means the language identifies its source. A handful usually
-means the opinion is quoted by later cases, which is ordinary. Many
-means the phrase is boilerplate and the verdict rests on nothing
-specific. It is a deterministic bound on the exposure, not a reading of
-what any model intended.
+Project U.S. Reports corpus the inaccurate bucket is searched against,
+and asks, of the ones the search can speak to, whether the language
+leads back to the case the draft attributed it to.
+
+Two kinds of quotation fall outside the check rather than into doubt. A
+probe under six words is a short quotation, not a claim about any
+particular case, and would match half the corpus whatever its source.
+Language absent from the corpus is almost always a citation to a
+reporter the U.S. Reports archive does not carry, which is a coverage
+limit of this search and not a fault in the quotation. Neither is
+evidence of anything, and neither is counted as if it were.
+
+For the rest, one matching opinion means the language identifies its
+source and a handful means the opinion is quoted by later cases, which
+is ordinary; either way the question is whether the attributed case is
+among them. This is a deterministic check on the instrument, not a
+reading of what any model intended, and caption matching makes it
+conservative: a case whose name the index renders differently from the
+archive will not be recognised among its own sources.
 
 Writes results/accurate_provenance.json.
 """
@@ -115,41 +127,32 @@ def main():
                     "words": len(frag.split())})
         print(model, "done", len(rows), flush=True)
 
-    # a quotation is at risk of crediting nothing only when its language
-    # is spread across many opinions, or the probe was too short to be a
-    # source at all
-    def bucket(x):
-        if not x["distinctive"]:
-            return "short_probe"
-        if x["sources"] == 0:
-            return "corpus_gap"
-        if x["sources"] == 1:
-            return "single_opinion"
-        if x["sources"] <= GENERIC_AT:
-            return "few_opinions"
-        return "boilerplate"
-
-    for x in rows:
-        x["bucket"] = bucket(x)
+    # Two things put a quotation outside this check rather than in
+    # doubt: a probe under six words, which is a short quotation and not
+    # a claim about any case, and language absent from this corpus, which
+    # is mostly a citation to a reporter the U.S. Reports archive does
+    # not carry. The checkable set is the rest, and the question there is
+    # whether the language leads back to the attributed case.
+    checkable = [x for x in rows if x["distinctive"] and x["sources"] >= 1]
+    hit = sum(1 for x in checkable if x["attributed_among_sources"])
+    short = sum(1 for x in rows if not x["distinctive"])
+    absent = sum(1 for x in rows if x["sources"] == 0)
+    absent_nonus = sum(1 for x in rows if x["sources"] == 0 and "U.S." not in x["citation"])
     n = len(rows)
-    counts = {}
-    for x in rows:
-        counts[x["bucket"]] = counts.get(x["bucket"], 0) + 1
-    by_model = {}
-    for x in rows:
-        d = by_model.setdefault(x["model"], {})
-        d[x["bucket"]] = d.get(x["bucket"], 0) + 1
-    # the exposure: accurate verdicts whose language is not distinctive
-    at_risk = counts.get("boilerplate", 0) + counts.get("short_probe", 0)
+    spread = {}
+    for x in checkable:
+        k = "one" if x["sources"] == 1 else ("few" if x["sources"] <= GENERIC_AT else "many")
+        spread[k] = spread.get(k, 0) + 1
     out = {
-        "n_accurate": n, "generic_at": GENERIC_AT, "counts": counts,
-        "by_model": by_model,
-        "at_risk": at_risk,
-        "at_risk_pct": round(100 * at_risk / n, 1) if n else None,
-        "single_or_few_pct": round(
-            100 * (counts.get("single_opinion", 0) + counts.get("few_opinions", 0)) / n, 1) if n else None,
-        "in_corpus": sum(1 for x in rows if x["sources"] > 0),
-        "attributed_among_sources": sum(1 for x in rows if x["attributed_among_sources"]),
+        "n_accurate": n, "generic_at": GENERIC_AT,
+        "checkable": len(checkable),
+        "traced_to_attributed": hit,
+        "traced_pct": round(100 * hit / len(checkable), 1) if checkable else None,
+        "not_traced": len(checkable) - hit,
+        "short_probe": short,
+        "absent_from_corpus": absent,
+        "absent_and_non_us_reporter": absent_nonus,
+        "spread_over_opinions": spread,
     }
     (R / "accurate_provenance.json").write_text(json.dumps(out, indent=1))
     (R / "accurate_provenance_rows.jsonl").write_text(

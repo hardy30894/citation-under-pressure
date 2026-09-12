@@ -1,0 +1,16 @@
+{
+ "n_accurate": 2169,
+ "generic_at": 6,
+ "checkable": 1341,
+ "traced_to_attributed": 1267,
+ "traced_pct": 94.5,
+ "not_traced": 74,
+ "short_probe": 828,
+ "absent_from_corpus": 331,
+ "absent_and_non_us_reporter": 307,
+ "spread_over_opinions": {
+  "many": 460,
+  "one": 290,
+  "few": 591
+ }
+}

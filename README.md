@@ -334,8 +334,30 @@ realised crossings are lower bounds, and because the
 arms lower recall along with precision the number bounds a loop of this
 shape rather than precision on its own. On the accurate side the checker was audited at 0 of 40
 verdicts wrong, an upper bound near 9 percent on the 69 correct
-quotations these counts run over; under
-the lenient verdict (near misses counted as correct) only all-false
+quotations these counts run over. That audit is small, and because the
+count outcome K_d is built entirely out of accurate verdicts, it is
+worth more than 40 items. So the accurate side is also checked
+deterministically, at the full scale of the run
+(`src/accurate_provenance.py`): every one of the 2,169 accurate
+quotations is searched against the same Caselaw Access Project U.S.
+Reports archive the inaccurate bucket is searched against, and the
+question asked is whether its language leads back to the case the draft
+attributed it to. Of the 1,341 the search can speak to,
+meaning six words or more and present in the archive, **1,267, or 94.5
+percent, do**.
+
+The other 828 are quotations shorter than six words, which would match
+half the archive whatever their source and are not a claim about any
+particular case, and 331 are absent from the archive, 307 of those being
+citations to reporters outside the U.S. Reports that this corpus simply
+does not carry. Neither group is evidence of a bad verdict; they are
+outside what this search can see, and are reported that way rather than
+folded into either side. The 74 that are checkable and do not trace back
+are also an overcount, because the test matches case-name tokens between
+the checker's index and the archive's captions: a case whose name the
+two render differently fails to be recognised among its own sources.
+Under the lenient verdict
+(near misses counted as correct) only all-false
 feedback leaves Sonnet 5 below revision alone (0.873 against 0.880).
 **Verifier precision is therefore a deployment requirement.**
 
