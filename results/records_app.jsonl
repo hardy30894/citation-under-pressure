@@ -2344,7 +2344,7 @@
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "602 F.3d 1348", "reporter": "F.3d"}
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "376 F.2d 982", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "331 F.2d 876", "reporter": "F.2d"}
-{"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "1941 Dec. Comm'r Pat. 1", "reporter": "Dec. Comm\u2019r Pat."}
+{"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "unresolvable", "citation": "1941 Dec. Comm'r Pat. 1", "reporter": "Dec. Comm\u2019r Pat."}
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "284 U.S. 52", "reporter": "U.S."}
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "399 F.2d 253", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "422 F.2d 904", "reporter": "F.2d"}
@@ -8766,7 +8766,7 @@
 {"model": "grok43", "matter": "F3d-772-63", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "10 Mass. 287", "reporter": "Mass."}
 {"model": "grok43", "matter": "F3d-772-63", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "17 Mass. 400", "reporter": "Mass."}
 {"model": "grok43", "matter": "F3d-772-63", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "2 Met. 381", "reporter": "Met."}
-{"model": "grok43", "matter": "F3d-772-63", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "1 Gray 317", "reporter": "Gray"}
+{"model": "grok43", "matter": "F3d-772-63", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "1 Gray 317", "reporter": "Gray"}
 {"model": "grok43", "matter": "F3d-772-63", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "767 F.3d 103", "reporter": "F.3d"}
 {"model": "grok43", "matter": "F3d-772-63", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "987 F.2d 1", "reporter": "F.2d"}
 {"model": "grok43", "matter": "F3d-772-63", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "550 U.S. 544", "reporter": "U.S."}
@@ -10783,7 +10783,7 @@
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "289 U.S. 178", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "108 F. 845", "reporter": "F."}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "45 F.2d 661", "reporter": "F.2d"}
-{"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "61 U.S.P.Q. (BNA) 247", "reporter": "USPQ"}
+{"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "61 U.S.P.Q. (BNA) 247", "reporter": "USPQ"}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "68 U.S. 317", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "270 U.S. 390", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "252 U.S. 126", "reporter": "U.S."}
@@ -10825,7 +10825,7 @@
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
-{"model": "llama4mav", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "83 U.S.P.Q. (BNA) 256", "reporter": "USPQ"}
+{"model": "llama4mav", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "unresolvable", "citation": "83 U.S.P.Q. (BNA) 256", "reporter": "USPQ"}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "150 F.2d 554", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "304 U.S. 159", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "F3d-681-1351", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -12348,7 +12348,7 @@
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "94 T.C. 666", "reporter": "T.C."}
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "63 T.C. 314", "reporter": "T.C."}
-{"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "58 A.F.T.R.2d (RIA) 86", "reporter": "A.F.T.R.2d"}
+{"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "58 A.F.T.R.2d (RIA) 86", "reporter": "A.F.T.R.2d"}
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "89 T.C. 729", "reporter": "T.C."}
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "990 F.2d 572", "reporter": "F.2d"}
 {"model": "mistralsmall", "matter": "F3d-394-1294", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "408 U.S. 125", "reporter": "U.S."}

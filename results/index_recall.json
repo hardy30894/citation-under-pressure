@@ -12,15 +12,15 @@
    "not_found_share": 0.004
   },
   "other": {
-   "citations": 780,
-   "not_found": 36,
-   "not_found_share": 0.0462
+   "citations": 772,
+   "not_found": 17,
+   "not_found_share": 0.022
   }
  },
  "all": {
-  "citations": 1766,
-  "not_found": 40,
-  "not_found_share": 0.0227
+  "citations": 1758,
+  "not_found": 21,
+  "not_found_share": 0.0119
  },
  "by_reporter": {
   "F.3d": {
@@ -63,23 +63,23 @@
    "citations": 14,
    "not_found": 0
   },
-  "S.W.2d": {
+  "Fed.Appx.": {
    "citations": 11,
    "not_found": 0
   },
-  "Fed.Appx.": {
+  "S.W.2d": {
    "citations": 11,
-   "not_found": 11
+   "not_found": 0
   },
   "F.R.D.": {
    "citations": 9,
    "not_found": 1
   },
-  "N.E.2d": {
+  "S.E.2d": {
    "citations": 9,
    "not_found": 0
   },
-  "S.E.2d": {
+  "N.E.2d": {
    "citations": 9,
    "not_found": 0
   },
@@ -90,10 +90,6 @@
   "N.W.2d": {
    "citations": 8,
    "not_found": 0
-  },
-  "T.C.M.(CCH)": {
-   "citations": 7,
-   "not_found": 7
   },
   "S.C.": {
    "citations": 7,
@@ -119,9 +115,13 @@
    "citations": 4,
    "not_found": 0
   },
-  "Cal.App.4th": {
+  "Mich.": {
    "citations": 2,
    "not_found": 0
+  },
+  "A.L.R.2d": {
+   "citations": 2,
+   "not_found": 2
   }
  }
 }

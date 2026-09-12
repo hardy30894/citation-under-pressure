@@ -12,4 +12,3 @@ quarter {'mean_rounds': 3.02, 'acc_r0': 181, 'removed_final': 76, 'removed_r1': 
 scrambled {'mean_rounds': 3.21, 'acc_r0': 181, 'removed_final': 108, 'removed_r1': 58, 'removed_per_round': 0.2, 'removed_r1_share': 0.32}
 none {'mean_rounds': 3.11, 'acc_r0': 181, 'removed_final': 57, 'removed_r1': 41, 'removed_per_round': 0.109, 'removed_r1_share': 0.227}
 passage {'mean_rounds': 2.4, 'acc_r0': 181, 'removed_final': 33, 'removed_r1': 28, 'removed_per_round': 0.082, 'removed_r1_share': 0.155}
-EXIT=0

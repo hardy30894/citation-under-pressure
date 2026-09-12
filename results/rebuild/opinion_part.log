@@ -6,4 +6,3 @@ mistralsmall {'accurate': 1302, 'checked': 989, 'majority': 920, 'not_us_reports
 qwen30b {'accurate': 1475, 'checked': 1077, 'majority': 1001, 'not_us_reports': 388, 'concurrence': 13, 'concurrence:unflagged': 11, 'separate': 28, 'separate_flagged': 4, 'not_located': 48, 'head-matter': 5, 'head-matter:unflagged': 5, 'dissent': 10, 'dissent:flagged': 2, 'dissent:unflagged': 8, 'no_archive': 10, 'concurrence:flagged': 2}
 sonnet {'accurate': 2159, 'checked': 1661, 'majority': 1539, 'not_us_reports': 476, 'concurrence': 20, 'concurrence:unflagged': 16, 'separate': 39, 'separate_flagged': 6, 'not_located': 83, 'head-matter': 8, 'head-matter:unflagged': 8, 'dissent': 11, 'dissent:flagged': 2, 'dissent:unflagged': 9, 'no_archive': 22, 'concurrence:flagged': 4}
 located 1578 separate 39 of which unsignalled 33 share of located 0.0209
-EXIT=0

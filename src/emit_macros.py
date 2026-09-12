@@ -1169,6 +1169,24 @@ if asr.exists():
         hh = z * math.sqrt(pp * (1 - pp) / n + z * z / (4 * n * n)) / dd
         emit2("auditAccCiHigh", str(round(100 * (cc + hh))))
 
+# the five models whose existence never moves, and the seeded validation,
+# so neither is a number typed into the paper by hand
+five = [m for m in ALPHA if m not in ("qwen30b", "mistralsmall")]
+rates = [full[m][c]["existence_rate"] for m in five for c in CONDS]
+emit2("existOtherFiveMin", f"{min(rates):.2f}")
+emit2("existOtherFiveMax", f"{max(rates):.2f}")
+vq = R / "validate_q2.log"
+if vq.exists():
+    import re as _re
+    txt = vq.read_text()
+    npass = sum(int(m) for m in _re.findall(r"pass\s+(\d+)", txt))
+    nfail = sum(int(m) for m in _re.findall(r"FAIL\([^)]*\)\s+(\d+)", txt))
+    kinds = len({l.strip().rsplit("pass", 1)[0].rsplit("FAIL", 1)[0].strip()
+                 for l in txt.splitlines() if l.startswith("  ")})
+    emit2("valQtwoPass", str(npass))
+    emit2("valQtwoTotal", str(npass + nfail))
+    emit2("valQtwoKinds", str(kinds))
+
 # model counts for the abstract, as words
 WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven"]
 prim_q = {k.split(":")[1] for k, v in gee.items() if k.startswith("quote:") and v["holm_p"] < 0.05 and v["OR"] < 1}

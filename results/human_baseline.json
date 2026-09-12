@@ -22,10 +22,10 @@
       "strict_quote_rate": 0.6098,
       "citations": {
         "exists": 845,
-        "not_found": 38,
-        "unresolvable": 167
+        "not_found": 34,
+        "unresolvable": 171
       },
-      "existence_rate": 0.957
+      "existence_rate": 0.9613
     },
     "oracle_resolved_only": {
       "subset": "all_citations_exist",
@@ -62,10 +62,10 @@
       "strict_quote_rate": 0.6098,
       "citations": {
         "exists": 845,
-        "not_found": 31,
-        "unresolvable": 105
+        "not_found": 27,
+        "unresolvable": 109
       },
-      "existence_rate": 0.9646
+      "existence_rate": 0.969
     }
   },
   "per_excerpt": [
@@ -3059,8 +3059,8 @@
         "unpaired": 0
       },
       "exists": 7,
-      "not_found": 3,
-      "unresolvable": 0,
+      "not_found": 1,
+      "unresolvable": 2,
       "n_citations": 10,
       "quotes": []
     },
@@ -5503,8 +5503,8 @@
         "unpaired": 0
       },
       "exists": 2,
-      "not_found": 2,
-      "unresolvable": 0,
+      "not_found": 0,
+      "unresolvable": 2,
       "n_citations": 4,
       "quotes": []
     },

@@ -119,8 +119,8 @@
  },
  "llama4mav": {
   "existence_trace": {
-   "nf_r0": 18,
-   "nf_removed": 18,
+   "nf_r0": 14,
+   "nf_removed": 14,
    "new": 5,
    "new_exists": 5
   },
@@ -199,8 +199,8 @@
  },
  "qwen30b": {
   "existence_trace": {
-   "nf_r0": 40,
-   "nf_kept": 22,
+   "nf_r0": 39,
+   "nf_kept": 21,
    "nf_removed": 18,
    "new": 4,
    "new_exists": 2,

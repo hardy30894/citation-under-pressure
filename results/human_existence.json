@@ -14,8 +14,8 @@
    "not_found": 9
   },
   "other": {
-   "unresolvable": 166,
-   "not_found": 7,
+   "unresolvable": 170,
+   "not_found": 3,
    "exists": 6
   },
   "sct_led": {
@@ -82,9 +82,9 @@
  },
  "overall": {
   "exists": 845,
-  "not_found": 38,
-  "unresolvable": 167,
-  "existence_rate": 0.957
+  "not_found": 34,
+  "unresolvable": 171,
+  "existence_rate": 0.9613
  },
  "us_and_federal": {
   "exists": 705,
@@ -113,7 +113,6 @@
  "not_found_by_reporter": {
   "F.3d": 6,
   "U.S.": 5,
-  "O.S.": 4,
   "S.Ct.": 4,
   "F.2d": 3,
   "F. Supp. 3d": 2,

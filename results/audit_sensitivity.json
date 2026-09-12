@@ -18,171 +18,171 @@
   "observed": {
    "citation:deepseek:combo": {
     "survival": 0.0,
-    "median_OR": 0.787,
-    "primary_OR": 0.787,
+    "median_OR": 0.64,
+    "primary_OR": 0.64,
     "primary_holm_p": 1.0
    },
    "citation:deepseek:quota": {
     "survival": 0.0,
-    "median_OR": 0.635,
-    "primary_OR": 0.635,
-    "primary_holm_p": 0.8153
+    "median_OR": 0.583,
+    "primary_OR": 0.583,
+    "primary_holm_p": 0.7736
    },
    "citation:deepseek:stakes": {
     "survival": 0.0,
-    "median_OR": 0.909,
-    "primary_OR": 0.909,
+    "median_OR": 0.853,
+    "primary_OR": 0.853,
     "primary_holm_p": 1.0
    },
    "citation:deepseek:temporal": {
     "survival": 0.0,
-    "median_OR": 0.62,
-    "primary_OR": 0.62,
+    "median_OR": 0.543,
+    "primary_OR": 0.543,
     "primary_holm_p": 1.0
    },
    "citation:gpt54mini:combo": {
     "survival": 0.0,
-    "median_OR": 0.546,
-    "primary_OR": 0.546,
-    "primary_holm_p": 0.6683
+    "median_OR": 0.412,
+    "primary_OR": 0.412,
+    "primary_holm_p": 0.2723
    },
    "citation:gpt54mini:quota": {
     "survival": 0.0,
-    "median_OR": 1.067,
-    "primary_OR": 1.067,
-    "primary_holm_p": 1.0
+    "median_OR": 0.987,
+    "primary_OR": 0.987,
+    "primary_holm_p": 0.9799
    },
    "citation:gpt54mini:stakes": {
     "survival": 0.0,
-    "median_OR": 0.974,
-    "primary_OR": 0.974,
-    "primary_holm_p": 0.9414
+    "median_OR": 0.926,
+    "primary_OR": 0.926,
+    "primary_holm_p": 1.0
    },
    "citation:gpt54mini:temporal": {
     "survival": 0.0,
-    "median_OR": 0.492,
-    "primary_OR": 0.492,
-    "primary_holm_p": 0.7928
+    "median_OR": 0.369,
+    "primary_OR": 0.369,
+    "primary_holm_p": 0.2643
    },
    "citation:grok43:combo": {
     "survival": 0.0,
-    "median_OR": 2.397,
-    "primary_OR": 2.397,
+    "median_OR": 0.53,
+    "primary_OR": 0.53,
     "primary_holm_p": 1.0
    },
    "citation:grok43:quota": {
     "survival": 0.0,
-    "median_OR": 1.19,
-    "primary_OR": 1.19,
-    "primary_holm_p": 1.0
+    "median_OR": 0.3,
+    "primary_OR": 0.3,
+    "primary_holm_p": 0.8747
    },
    "citation:grok43:stakes": {
     "survival": 0.0,
-    "median_OR": 1.453,
-    "primary_OR": 1.453,
-    "primary_holm_p": 1.0
+    "median_OR": 0.792,
+    "primary_OR": 0.792,
+    "primary_holm_p": 0.2768
    },
    "citation:grok43:temporal": {
     "survival": 0.0,
-    "median_OR": 0.887,
-    "primary_OR": 0.887,
-    "primary_holm_p": 0.9021
+    "median_OR": 0.187,
+    "primary_OR": 0.187,
+    "primary_holm_p": 0.4761
    },
    "citation:llama4mav:combo": {
     "survival": 0.0,
-    "median_OR": 0.696,
-    "primary_OR": 0.696,
+    "median_OR": 0.64,
+    "primary_OR": 0.64,
     "primary_holm_p": 1.0
    },
    "citation:llama4mav:quota": {
     "survival": 0.0,
-    "median_OR": 1.539,
-    "primary_OR": 1.539,
-    "primary_holm_p": 1.0
+    "median_OR": 1.77,
+    "primary_OR": 1.77,
+    "primary_holm_p": 0.4975
    },
    "citation:llama4mav:stakes": {
     "survival": 0.0,
-    "median_OR": 0.898,
-    "primary_OR": 0.898,
-    "primary_holm_p": 0.8262
+    "median_OR": 1.303,
+    "primary_OR": 1.303,
+    "primary_holm_p": 1.0
    },
    "citation:llama4mav:temporal": {
     "survival": 0.0,
-    "median_OR": 0.726,
-    "primary_OR": 0.726,
+    "median_OR": 0.613,
+    "primary_OR": 0.613,
     "primary_holm_p": 1.0
    },
    "citation:mistralsmall:combo": {
     "survival": 0.0,
-    "median_OR": 0.746,
-    "primary_OR": 0.746,
-    "primary_holm_p": 0.6596
+    "median_OR": 0.683,
+    "primary_OR": 0.683,
+    "primary_holm_p": 0.377
    },
    "citation:mistralsmall:quota": {
     "survival": 0.0,
-    "median_OR": 1.41,
-    "primary_OR": 1.41,
-    "primary_holm_p": 0.4128
+    "median_OR": 1.356,
+    "primary_OR": 1.356,
+    "primary_holm_p": 0.6008
    },
    "citation:mistralsmall:stakes": {
     "survival": 0.0,
-    "median_OR": 1.272,
-    "primary_OR": 1.272,
-    "primary_holm_p": 0.3748
+    "median_OR": 1.327,
+    "primary_OR": 1.327,
+    "primary_holm_p": 0.3414
    },
    "citation:mistralsmall:temporal": {
     "survival": 0.0,
-    "median_OR": 0.678,
-    "primary_OR": 0.678,
-    "primary_holm_p": 0.3451
+    "median_OR": 0.622,
+    "primary_OR": 0.622,
+    "primary_holm_p": 0.1271
    },
    "citation:qwen30b:combo": {
     "survival": 1.0,
-    "median_OR": 0.304,
-    "primary_OR": 0.304,
-    "primary_holm_p": 0.0001
+    "median_OR": 0.288,
+    "primary_OR": 0.288,
+    "primary_holm_p": 0.0
    },
    "citation:qwen30b:quota": {
     "survival": 1.0,
-    "median_OR": 0.556,
-    "primary_OR": 0.556,
-    "primary_holm_p": 0.0008
+    "median_OR": 0.532,
+    "primary_OR": 0.532,
+    "primary_holm_p": 0.0002
    },
    "citation:qwen30b:stakes": {
     "survival": 0.0,
-    "median_OR": 0.647,
-    "primary_OR": 0.647,
-    "primary_holm_p": 0.0764
+    "median_OR": 0.626,
+    "primary_OR": 0.626,
+    "primary_holm_p": 0.059
    },
    "citation:qwen30b:temporal": {
     "survival": 1.0,
-    "median_OR": 0.45,
-    "primary_OR": 0.45,
-    "primary_holm_p": 0.0083
+    "median_OR": 0.427,
+    "primary_OR": 0.427,
+    "primary_holm_p": 0.0029
    },
    "citation:sonnet:combo": {
     "survival": 0.0,
-    "median_OR": 4.556,
-    "primary_OR": 4.556,
-    "primary_holm_p": 0.2351
+    "median_OR": 3.32,
+    "primary_OR": 3.32,
+    "primary_holm_p": 0.3113
    },
    "citation:sonnet:quota": {
     "survival": 0.0,
-    "median_OR": 0.639,
-    "primary_OR": 0.639,
-    "primary_holm_p": 1.0
+    "median_OR": 0.539,
+    "primary_OR": 0.539,
+    "primary_holm_p": 0.9688
    },
    "citation:sonnet:stakes": {
     "survival": 0.0,
-    "median_OR": 1.199,
-    "primary_OR": 1.199,
-    "primary_holm_p": 1.0
+    "median_OR": 2.361,
+    "primary_OR": 2.361,
+    "primary_holm_p": 0.3592
    },
    "citation:sonnet:temporal": {
     "survival": 0.0,
-    "median_OR": 1.922,
-    "primary_OR": 1.922,
-    "primary_holm_p": 0.4708
+    "median_OR": 2.735,
+    "primary_OR": 2.735,
+    "primary_holm_p": 0.4777
    },
    "quote:deepseek:combo": {
     "survival": 1.0,
@@ -248,13 +248,13 @@
     "survival": 0.0,
     "median_OR": 1.054,
     "primary_OR": 1.124,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.5872
    },
    "quote:grok43:temporal": {
     "survival": 0.0,
     "median_OR": 0.622,
     "primary_OR": 0.66,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.737
    },
    "quote:llama4mav:combo": {
     "survival": 1.0,
@@ -272,7 +272,7 @@
     "survival": 0.0,
     "median_OR": 0.857,
     "primary_OR": 0.911,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.7598
    },
    "quote:llama4mav:temporal": {
     "survival": 1.0,
@@ -284,7 +284,7 @@
     "survival": 0.015,
     "median_OR": 0.542,
     "primary_OR": 0.593,
-    "primary_holm_p": 0.3089
+    "primary_holm_p": 0.2648
    },
    "quote:mistralsmall:quota": {
     "survival": 0.0,
@@ -308,7 +308,7 @@
     "survival": 1.0,
     "median_OR": 0.272,
     "primary_OR": 0.291,
-    "primary_holm_p": 0.0003
+    "primary_holm_p": 0.0002
    },
    "quote:qwen30b:quota": {
     "survival": 0.0,
@@ -356,171 +356,171 @@
   "upper": {
    "citation:deepseek:combo": {
     "survival": 0.0,
-    "median_OR": 0.787,
-    "primary_OR": 0.787,
+    "median_OR": 0.64,
+    "primary_OR": 0.64,
     "primary_holm_p": 1.0
    },
    "citation:deepseek:quota": {
     "survival": 0.0,
-    "median_OR": 0.635,
-    "primary_OR": 0.635,
-    "primary_holm_p": 0.8153
+    "median_OR": 0.583,
+    "primary_OR": 0.583,
+    "primary_holm_p": 0.7736
    },
    "citation:deepseek:stakes": {
     "survival": 0.0,
-    "median_OR": 0.909,
-    "primary_OR": 0.909,
+    "median_OR": 0.853,
+    "primary_OR": 0.853,
     "primary_holm_p": 1.0
    },
    "citation:deepseek:temporal": {
     "survival": 0.0,
-    "median_OR": 0.62,
-    "primary_OR": 0.62,
+    "median_OR": 0.543,
+    "primary_OR": 0.543,
     "primary_holm_p": 1.0
    },
    "citation:gpt54mini:combo": {
     "survival": 0.0,
-    "median_OR": 0.546,
-    "primary_OR": 0.546,
-    "primary_holm_p": 0.6683
+    "median_OR": 0.412,
+    "primary_OR": 0.412,
+    "primary_holm_p": 0.2723
    },
    "citation:gpt54mini:quota": {
     "survival": 0.0,
-    "median_OR": 1.067,
-    "primary_OR": 1.067,
-    "primary_holm_p": 1.0
+    "median_OR": 0.987,
+    "primary_OR": 0.987,
+    "primary_holm_p": 0.9799
    },
    "citation:gpt54mini:stakes": {
     "survival": 0.0,
-    "median_OR": 0.974,
-    "primary_OR": 0.974,
-    "primary_holm_p": 0.9414
+    "median_OR": 0.926,
+    "primary_OR": 0.926,
+    "primary_holm_p": 1.0
    },
    "citation:gpt54mini:temporal": {
     "survival": 0.0,
-    "median_OR": 0.492,
-    "primary_OR": 0.492,
-    "primary_holm_p": 0.7928
+    "median_OR": 0.369,
+    "primary_OR": 0.369,
+    "primary_holm_p": 0.2643
    },
    "citation:grok43:combo": {
     "survival": 0.0,
-    "median_OR": 2.397,
-    "primary_OR": 2.397,
+    "median_OR": 0.53,
+    "primary_OR": 0.53,
     "primary_holm_p": 1.0
    },
    "citation:grok43:quota": {
     "survival": 0.0,
-    "median_OR": 1.19,
-    "primary_OR": 1.19,
-    "primary_holm_p": 1.0
+    "median_OR": 0.3,
+    "primary_OR": 0.3,
+    "primary_holm_p": 0.8747
    },
    "citation:grok43:stakes": {
     "survival": 0.0,
-    "median_OR": 1.453,
-    "primary_OR": 1.453,
-    "primary_holm_p": 1.0
+    "median_OR": 0.792,
+    "primary_OR": 0.792,
+    "primary_holm_p": 0.2768
    },
    "citation:grok43:temporal": {
     "survival": 0.0,
-    "median_OR": 0.887,
-    "primary_OR": 0.887,
-    "primary_holm_p": 0.9021
+    "median_OR": 0.187,
+    "primary_OR": 0.187,
+    "primary_holm_p": 0.4761
    },
    "citation:llama4mav:combo": {
     "survival": 0.0,
-    "median_OR": 0.696,
-    "primary_OR": 0.696,
+    "median_OR": 0.64,
+    "primary_OR": 0.64,
     "primary_holm_p": 1.0
    },
    "citation:llama4mav:quota": {
     "survival": 0.0,
-    "median_OR": 1.539,
-    "primary_OR": 1.539,
-    "primary_holm_p": 1.0
+    "median_OR": 1.77,
+    "primary_OR": 1.77,
+    "primary_holm_p": 0.4975
    },
    "citation:llama4mav:stakes": {
     "survival": 0.0,
-    "median_OR": 0.898,
-    "primary_OR": 0.898,
-    "primary_holm_p": 0.8262
+    "median_OR": 1.303,
+    "primary_OR": 1.303,
+    "primary_holm_p": 1.0
    },
    "citation:llama4mav:temporal": {
     "survival": 0.0,
-    "median_OR": 0.726,
-    "primary_OR": 0.726,
+    "median_OR": 0.613,
+    "primary_OR": 0.613,
     "primary_holm_p": 1.0
    },
    "citation:mistralsmall:combo": {
     "survival": 0.0,
-    "median_OR": 0.746,
-    "primary_OR": 0.746,
-    "primary_holm_p": 0.6596
+    "median_OR": 0.683,
+    "primary_OR": 0.683,
+    "primary_holm_p": 0.377
    },
    "citation:mistralsmall:quota": {
     "survival": 0.0,
-    "median_OR": 1.41,
-    "primary_OR": 1.41,
-    "primary_holm_p": 0.4128
+    "median_OR": 1.356,
+    "primary_OR": 1.356,
+    "primary_holm_p": 0.6008
    },
    "citation:mistralsmall:stakes": {
     "survival": 0.0,
-    "median_OR": 1.272,
-    "primary_OR": 1.272,
-    "primary_holm_p": 0.3748
+    "median_OR": 1.327,
+    "primary_OR": 1.327,
+    "primary_holm_p": 0.3414
    },
    "citation:mistralsmall:temporal": {
     "survival": 0.0,
-    "median_OR": 0.678,
-    "primary_OR": 0.678,
-    "primary_holm_p": 0.3451
+    "median_OR": 0.622,
+    "primary_OR": 0.622,
+    "primary_holm_p": 0.1271
    },
    "citation:qwen30b:combo": {
     "survival": 1.0,
-    "median_OR": 0.304,
-    "primary_OR": 0.304,
-    "primary_holm_p": 0.0001
+    "median_OR": 0.288,
+    "primary_OR": 0.288,
+    "primary_holm_p": 0.0
    },
    "citation:qwen30b:quota": {
     "survival": 1.0,
-    "median_OR": 0.556,
-    "primary_OR": 0.556,
-    "primary_holm_p": 0.0008
+    "median_OR": 0.532,
+    "primary_OR": 0.532,
+    "primary_holm_p": 0.0002
    },
    "citation:qwen30b:stakes": {
     "survival": 0.0,
-    "median_OR": 0.647,
-    "primary_OR": 0.647,
-    "primary_holm_p": 0.0764
+    "median_OR": 0.626,
+    "primary_OR": 0.626,
+    "primary_holm_p": 0.059
    },
    "citation:qwen30b:temporal": {
     "survival": 1.0,
-    "median_OR": 0.45,
-    "primary_OR": 0.45,
-    "primary_holm_p": 0.0083
+    "median_OR": 0.427,
+    "primary_OR": 0.427,
+    "primary_holm_p": 0.0029
    },
    "citation:sonnet:combo": {
     "survival": 0.0,
-    "median_OR": 4.556,
-    "primary_OR": 4.556,
-    "primary_holm_p": 0.2351
+    "median_OR": 3.32,
+    "primary_OR": 3.32,
+    "primary_holm_p": 0.3113
    },
    "citation:sonnet:quota": {
     "survival": 0.0,
-    "median_OR": 0.639,
-    "primary_OR": 0.639,
-    "primary_holm_p": 1.0
+    "median_OR": 0.539,
+    "primary_OR": 0.539,
+    "primary_holm_p": 0.9688
    },
    "citation:sonnet:stakes": {
     "survival": 0.0,
-    "median_OR": 1.199,
-    "primary_OR": 1.199,
-    "primary_holm_p": 1.0
+    "median_OR": 2.361,
+    "primary_OR": 2.361,
+    "primary_holm_p": 0.3592
    },
    "citation:sonnet:temporal": {
     "survival": 0.0,
-    "median_OR": 1.922,
-    "primary_OR": 1.922,
-    "primary_holm_p": 0.4708
+    "median_OR": 2.735,
+    "primary_OR": 2.735,
+    "primary_holm_p": 0.4777
    },
    "quote:deepseek:combo": {
     "survival": 1.0,
@@ -586,13 +586,13 @@
     "survival": 0.0,
     "median_OR": 1.034,
     "primary_OR": 1.124,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.5872
    },
    "quote:grok43:temporal": {
     "survival": 0.0,
     "median_OR": 0.603,
     "primary_OR": 0.66,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.737
    },
    "quote:llama4mav:combo": {
     "survival": 1.0,
@@ -610,7 +610,7 @@
     "survival": 0.0,
     "median_OR": 0.822,
     "primary_OR": 0.911,
-    "primary_holm_p": 1.0
+    "primary_holm_p": 0.7598
    },
    "quote:llama4mav:temporal": {
     "survival": 1.0,
@@ -622,7 +622,7 @@
     "survival": 0.095,
     "median_OR": 0.532,
     "primary_OR": 0.593,
-    "primary_holm_p": 0.3089
+    "primary_holm_p": 0.2648
    },
    "quote:mistralsmall:quota": {
     "survival": 0.0,
@@ -646,7 +646,7 @@
     "survival": 1.0,
     "median_OR": 0.271,
     "primary_OR": 0.291,
-    "primary_holm_p": 0.0003
+    "primary_holm_p": 0.0002
    },
    "quote:qwen30b:quota": {
     "survival": 0.0,

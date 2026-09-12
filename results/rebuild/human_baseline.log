@@ -1,23 +1,23 @@
 clean brief-derived excerpts: 482
 [25/482] 2s fetch_budget_left=0
 [50/482] 5s fetch_budget_left=0
-[75/482] 10s fetch_budget_left=0
-[100/482] 12s fetch_budget_left=0
-[125/482] 15s fetch_budget_left=0
-[150/482] 19s fetch_budget_left=0
-[175/482] 21s fetch_budget_left=0
-[200/482] 23s fetch_budget_left=0
-[225/482] 25s fetch_budget_left=0
-[250/482] 26s fetch_budget_left=0
-[275/482] 28s fetch_budget_left=0
-[300/482] 31s fetch_budget_left=0
-[325/482] 33s fetch_budget_left=0
-[350/482] 35s fetch_budget_left=0
-[375/482] 36s fetch_budget_left=0
-[400/482] 38s fetch_budget_left=0
-[425/482] 41s fetch_budget_left=0
-[450/482] 42s fetch_budget_left=0
-[475/482] 45s fetch_budget_left=0
+[75/482] 7s fetch_budget_left=0
+[100/482] 8s fetch_budget_left=0
+[125/482] 11s fetch_budget_left=0
+[150/482] 14s fetch_budget_left=0
+[175/482] 16s fetch_budget_left=0
+[200/482] 18s fetch_budget_left=0
+[225/482] 19s fetch_budget_left=0
+[250/482] 21s fetch_budget_left=0
+[275/482] 23s fetch_budget_left=0
+[300/482] 26s fetch_budget_left=0
+[325/482] 29s fetch_budget_left=0
+[350/482] 31s fetch_budget_left=0
+[375/482] 32s fetch_budget_left=0
+[400/482] 35s fetch_budget_left=0
+[425/482] 37s fetch_budget_left=0
+[450/482] 39s fetch_budget_left=0
+[475/482] 41s fetch_budget_left=0
 {
   "n_clean_excerpts": 482,
   "n_scored": 482,
@@ -38,10 +38,10 @@ clean brief-derived excerpts: 482
   "strict_quote_rate": 0.6098,
   "citations": {
     "exists": 845,
-    "not_found": 38,
-    "unresolvable": 167
+    "not_found": 34,
+    "unresolvable": 171
   },
-  "existence_rate": 0.957
+  "existence_rate": 0.9613
 }
 {
   "subset": "all_citations_exist",

@@ -3,8 +3,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 344,
-   "not_found": 10,
-   "unresolvable": 2,
+   "not_found": 8,
+   "unresolvable": 4,
    "acc": 96,
    "near": 88,
    "inacc": 67,
@@ -46,7 +46,7 @@
     {
      "matter": "1997-021",
      "n_cites": 7,
-     "exist": 0.7143,
+     "exist": 1.0,
      "strict": 0.0
     },
     {
@@ -302,7 +302,7 @@
      "strict": 0.2
     }
    ],
-   "existence_rate": 0.9718,
+   "existence_rate": 0.9773,
    "strict_rate": 0.3825
   },
   "combo": {
@@ -613,8 +613,8 @@
   "quota": {
    "drafts": 48,
    "exists": 479,
-   "not_found": 25,
-   "unresolvable": 2,
+   "not_found": 22,
+   "unresolvable": 5,
    "acc": 110,
    "near": 97,
    "inacc": 79,
@@ -656,7 +656,7 @@
     {
      "matter": "1997-021",
      "n_cites": 11,
-     "exist": 0.7273,
+     "exist": 1.0,
      "strict": 1.0
     },
     {
@@ -912,14 +912,14 @@
      "strict": 0.143
     }
    ],
-   "existence_rate": 0.9504,
+   "existence_rate": 0.9561,
    "strict_rate": 0.3846
   },
   "stakes": {
    "drafts": 48,
    "exists": 289,
-   "not_found": 10,
-   "unresolvable": 0,
+   "not_found": 8,
+   "unresolvable": 2,
    "acc": 88,
    "near": 87,
    "inacc": 67,
@@ -961,7 +961,7 @@
     {
      "matter": "1997-021",
      "n_cites": 11,
-     "exist": 0.8182,
+     "exist": 1.0,
      "strict": 0.6
     },
     {
@@ -1217,14 +1217,14 @@
      "strict": 0.429
     }
    ],
-   "existence_rate": 0.9666,
+   "existence_rate": 0.9731,
    "strict_rate": 0.3636
   },
   "temporal": {
    "drafts": 48,
    "exists": 339,
-   "not_found": 17,
-   "unresolvable": 0,
+   "not_found": 16,
+   "unresolvable": 1,
    "acc": 51,
    "near": 60,
    "inacc": 93,
@@ -1266,7 +1266,7 @@
     {
      "matter": "1997-021",
      "n_cites": 5,
-     "exist": 0.8,
+     "exist": 1.0,
      "strict": 0.5
     },
     {
@@ -1522,7 +1522,7 @@
      "strict": 0.667
     }
    ],
-   "existence_rate": 0.9522,
+   "existence_rate": 0.9549,
    "strict_rate": 0.25
   }
  },
@@ -1530,8 +1530,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 409,
-   "not_found": 8,
-   "unresolvable": 1,
+   "not_found": 6,
+   "unresolvable": 3,
    "acc": 74,
    "near": 30,
    "inacc": 23,
@@ -1573,7 +1573,7 @@
     {
      "matter": "1997-021",
      "n_cites": 12,
-     "exist": 0.8333,
+     "exist": 1.0,
      "strict": null
     },
     {
@@ -1829,7 +1829,7 @@
      "strict": 1.0
     }
    ],
-   "existence_rate": 0.9808,
+   "existence_rate": 0.9855,
    "strict_rate": 0.5827
   },
   "combo": {
@@ -2140,8 +2140,8 @@
   "quota": {
    "drafts": 48,
    "exists": 552,
-   "not_found": 11,
-   "unresolvable": 1,
+   "not_found": 9,
+   "unresolvable": 3,
    "acc": 69,
    "near": 29,
    "inacc": 16,
@@ -2183,7 +2183,7 @@
     {
      "matter": "1997-021",
      "n_cites": 12,
-     "exist": 0.8333,
+     "exist": 1.0,
      "strict": null
     },
     {
@@ -2439,14 +2439,14 @@
      "strict": 0.75
     }
    ],
-   "existence_rate": 0.9805,
+   "existence_rate": 0.984,
    "strict_rate": 0.6053
   },
   "stakes": {
    "drafts": 48,
    "exists": 418,
-   "not_found": 9,
-   "unresolvable": 0,
+   "not_found": 7,
+   "unresolvable": 2,
    "acc": 69,
    "near": 34,
    "inacc": 22,
@@ -2488,7 +2488,7 @@
     {
      "matter": "1997-021",
      "n_cites": 13,
-     "exist": 0.7692,
+     "exist": 0.9091,
      "strict": null
     },
     {
@@ -2744,7 +2744,7 @@
      "strict": 0.833
     }
    ],
-   "existence_rate": 0.9789,
+   "existence_rate": 0.9835,
    "strict_rate": 0.552
   },
   "temporal": {
@@ -3057,8 +3057,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 252,
-   "not_found": 5,
-   "unresolvable": 1,
+   "not_found": 1,
+   "unresolvable": 5,
    "acc": 73,
    "near": 42,
    "inacc": 37,
@@ -3100,7 +3100,7 @@
     {
      "matter": "1997-021",
      "n_cites": 10,
-     "exist": 0.6,
+     "exist": 1.0,
      "strict": 0.333
     },
     {
@@ -3356,7 +3356,7 @@
      "strict": 0.5
     }
    ],
-   "existence_rate": 0.9805,
+   "existence_rate": 0.996,
    "strict_rate": 0.4803
   },
   "combo": {
@@ -3667,8 +3667,8 @@
   "quota": {
    "drafts": 48,
    "exists": 449,
-   "not_found": 6,
-   "unresolvable": 0,
+   "not_found": 5,
+   "unresolvable": 1,
    "acc": 71,
    "near": 36,
    "inacc": 31,
@@ -3710,7 +3710,7 @@
     {
      "matter": "1997-021",
      "n_cites": 9,
-     "exist": 0.8889,
+     "exist": 1.0,
      "strict": 0.0
     },
     {
@@ -3966,14 +3966,14 @@
      "strict": 0.2
     }
    ],
-   "existence_rate": 0.9868,
+   "existence_rate": 0.989,
    "strict_rate": 0.5145
   },
   "stakes": {
    "drafts": 48,
    "exists": 252,
-   "not_found": 3,
-   "unresolvable": 0,
+   "not_found": 1,
+   "unresolvable": 2,
    "acc": 68,
    "near": 40,
    "inacc": 26,
@@ -4015,7 +4015,7 @@
     {
      "matter": "1997-021",
      "n_cites": 8,
-     "exist": 0.75,
+     "exist": 1.0,
      "strict": 0.5
     },
     {
@@ -4271,7 +4271,7 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.9882,
+   "existence_rate": 0.996,
    "strict_rate": 0.5075
   },
   "temporal": {
@@ -4584,8 +4584,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 204,
-   "not_found": 9,
-   "unresolvable": 1,
+   "not_found": 7,
+   "unresolvable": 3,
    "acc": 30,
    "near": 10,
    "inacc": 11,
@@ -4627,7 +4627,7 @@
     {
      "matter": "1997-021",
      "n_cites": 7,
-     "exist": 0.7143,
+     "exist": 1.0,
      "strict": 0.5
     },
     {
@@ -4883,14 +4883,14 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.9577,
+   "existence_rate": 0.9668,
    "strict_rate": 0.5882
   },
   "combo": {
    "drafts": 48,
    "exists": 475,
-   "not_found": 31,
-   "unresolvable": 1,
+   "not_found": 27,
+   "unresolvable": 5,
    "acc": 14,
    "near": 20,
    "inacc": 27,
@@ -4932,7 +4932,7 @@
     {
      "matter": "1997-021",
      "n_cites": 15,
-     "exist": 0.6429,
+     "exist": 0.9,
      "strict": 0.0
     },
     {
@@ -5188,14 +5188,14 @@
      "strict": null
     }
    ],
-   "existence_rate": 0.9387,
+   "existence_rate": 0.9462,
    "strict_rate": 0.2295
   },
   "quota": {
    "drafts": 48,
    "exists": 516,
-   "not_found": 13,
-   "unresolvable": 1,
+   "not_found": 10,
+   "unresolvable": 4,
    "acc": 38,
    "near": 28,
    "inacc": 15,
@@ -5237,7 +5237,7 @@
     {
      "matter": "1997-021",
      "n_cites": 8,
-     "exist": 0.5,
+     "exist": 0.8,
      "strict": 0.25
     },
     {
@@ -5493,14 +5493,14 @@
      "strict": 1.0
     }
    ],
-   "existence_rate": 0.9754,
+   "existence_rate": 0.981,
    "strict_rate": 0.4691
   },
   "stakes": {
    "drafts": 48,
    "exists": 197,
-   "not_found": 9,
-   "unresolvable": 0,
+   "not_found": 5,
+   "unresolvable": 4,
    "acc": 30,
    "near": 12,
    "inacc": 10,
@@ -5542,7 +5542,7 @@
     {
      "matter": "1997-021",
      "n_cites": 5,
-     "exist": 0.2,
+     "exist": 1.0,
      "strict": 0.0
     },
     {
@@ -5798,7 +5798,7 @@
      "strict": 0.667
     }
    ],
-   "existence_rate": 0.9563,
+   "existence_rate": 0.9752,
    "strict_rate": 0.5769
   },
   "temporal": {
@@ -6111,8 +6111,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 336,
-   "not_found": 37,
-   "unresolvable": 5,
+   "not_found": 34,
+   "unresolvable": 8,
    "acc": 47,
    "near": 67,
    "inacc": 70,
@@ -6154,7 +6154,7 @@
     {
      "matter": "1997-021",
      "n_cites": 8,
-     "exist": 0.625,
+     "exist": 1.0,
      "strict": null
     },
     {
@@ -6410,7 +6410,7 @@
      "strict": 0.167
     }
    ],
-   "existence_rate": 0.9008,
+   "existence_rate": 0.9081,
    "strict_rate": 0.2554
   },
   "combo": {
@@ -6721,8 +6721,8 @@
   "quota": {
    "drafts": 48,
    "exists": 431,
-   "not_found": 33,
-   "unresolvable": 1,
+   "not_found": 31,
+   "unresolvable": 3,
    "acc": 62,
    "near": 66,
    "inacc": 69,
@@ -6764,7 +6764,7 @@
     {
      "matter": "1997-021",
      "n_cites": 14,
-     "exist": 0.7857,
+     "exist": 0.9167,
      "strict": 0.5
     },
     {
@@ -7020,14 +7020,14 @@
      "strict": null
     }
    ],
-   "existence_rate": 0.9289,
+   "existence_rate": 0.9329,
    "strict_rate": 0.3147
   },
   "stakes": {
    "drafts": 48,
    "exists": 362,
-   "not_found": 32,
-   "unresolvable": 0,
+   "not_found": 28,
+   "unresolvable": 4,
    "acc": 37,
    "near": 79,
    "inacc": 59,
@@ -7069,7 +7069,7 @@
     {
      "matter": "1997-021",
      "n_cites": 10,
-     "exist": 0.6,
+     "exist": 1.0,
      "strict": 0.0
     },
     {
@@ -7325,7 +7325,7 @@
      "strict": 1.0
     }
    ],
-   "existence_rate": 0.9188,
+   "existence_rate": 0.9282,
    "strict_rate": 0.2114
   },
   "temporal": {
@@ -7638,8 +7638,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 342,
-   "not_found": 28,
-   "unresolvable": 1,
+   "not_found": 26,
+   "unresolvable": 3,
    "acc": 41,
    "near": 98,
    "inacc": 90,
@@ -7681,7 +7681,7 @@
     {
      "matter": "1997-021",
      "n_cites": 11,
-     "exist": 0.7273,
+     "exist": 0.8889,
      "strict": 0.5
     },
     {
@@ -7937,14 +7937,14 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.9243,
+   "existence_rate": 0.9293,
    "strict_rate": 0.179
   },
   "combo": {
    "drafts": 48,
    "exists": 307,
-   "not_found": 90,
-   "unresolvable": 0,
+   "not_found": 89,
+   "unresolvable": 1,
    "acc": 20,
    "near": 85,
    "inacc": 221,
@@ -7986,7 +7986,7 @@
     {
      "matter": "1997-021",
      "n_cites": 9,
-     "exist": 0.7778,
+     "exist": 0.875,
      "strict": 0.8
     },
     {
@@ -8242,14 +8242,14 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.7733,
+   "existence_rate": 0.7753,
    "strict_rate": 0.0613
   },
   "quota": {
    "drafts": 48,
    "exists": 425,
-   "not_found": 65,
-   "unresolvable": 4,
+   "not_found": 64,
+   "unresolvable": 5,
    "acc": 56,
    "near": 124,
    "inacc": 98,
@@ -8291,7 +8291,7 @@
     {
      "matter": "1997-021",
      "n_cites": 9,
-     "exist": 0.7778,
+     "exist": 0.875,
      "strict": 0.667
     },
     {
@@ -8547,14 +8547,14 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.8673,
+   "existence_rate": 0.8691,
    "strict_rate": 0.2014
   },
   "stakes": {
    "drafts": 48,
    "exists": 351,
-   "not_found": 45,
-   "unresolvable": 3,
+   "not_found": 44,
+   "unresolvable": 4,
    "acc": 38,
    "near": 89,
    "inacc": 81,
@@ -8596,7 +8596,7 @@
     {
      "matter": "1997-021",
      "n_cites": 5,
-     "exist": 0.6,
+     "exist": 0.75,
      "strict": null
     },
     {
@@ -8852,14 +8852,14 @@
      "strict": 0.2
     }
    ],
-   "existence_rate": 0.8864,
+   "existence_rate": 0.8886,
    "strict_rate": 0.1827
   },
   "temporal": {
    "drafts": 48,
    "exists": 258,
-   "not_found": 49,
-   "unresolvable": 0,
+   "not_found": 48,
+   "unresolvable": 1,
    "acc": 18,
    "near": 53,
    "inacc": 130,
@@ -8901,7 +8901,7 @@
     {
      "matter": "1997-021",
      "n_cites": 11,
-     "exist": 0.9091,
+     "exist": 1.0,
      "strict": 1.0
     },
     {
@@ -9157,7 +9157,7 @@
      "strict": 0.0
     }
    ],
-   "existence_rate": 0.8404,
+   "existence_rate": 0.8431,
    "strict_rate": 0.0896
   }
  },
@@ -9165,8 +9165,8 @@
   "baseline": {
    "drafts": 48,
    "exists": 315,
-   "not_found": 3,
-   "unresolvable": 0,
+   "not_found": 2,
+   "unresolvable": 1,
    "acc": 136,
    "near": 71,
    "inacc": 51,
@@ -9208,7 +9208,7 @@
     {
      "matter": "1997-021",
      "n_cites": 8,
-     "exist": 0.875,
+     "exist": 1.0,
      "strict": 0.833
     },
     {
@@ -9464,7 +9464,7 @@
      "strict": 0.667
     }
    ],
-   "existence_rate": 0.9906,
+   "existence_rate": 0.9937,
    "strict_rate": 0.5271
   },
   "combo": {
@@ -9775,8 +9775,8 @@
   "quota": {
    "drafts": 48,
    "exists": 447,
-   "not_found": 7,
-   "unresolvable": 0,
+   "not_found": 6,
+   "unresolvable": 1,
    "acc": 146,
    "near": 70,
    "inacc": 60,
@@ -9818,7 +9818,7 @@
     {
      "matter": "1997-021",
      "n_cites": 9,
-     "exist": 0.8889,
+     "exist": 1.0,
      "strict": 1.0
     },
     {
@@ -10074,14 +10074,14 @@
      "strict": 0.667
     }
    ],
-   "existence_rate": 0.9846,
+   "existence_rate": 0.9868,
    "strict_rate": 0.529
   },
   "stakes": {
    "drafts": 48,
    "exists": 330,
-   "not_found": 3,
-   "unresolvable": 1,
+   "not_found": 1,
+   "unresolvable": 3,
    "acc": 147,
    "near": 42,
    "inacc": 46,
@@ -10123,7 +10123,7 @@
     {
      "matter": "1997-021",
      "n_cites": 11,
-     "exist": 0.8182,
+     "exist": 1.0,
      "strict": 1.0
     },
     {
@@ -10379,14 +10379,14 @@
      "strict": 1.0
     }
    ],
-   "existence_rate": 0.991,
+   "existence_rate": 0.997,
    "strict_rate": 0.6255
   },
   "temporal": {
    "drafts": 48,
    "exists": 351,
-   "not_found": 2,
-   "unresolvable": 0,
+   "not_found": 1,
+   "unresolvable": 1,
    "acc": 129,
    "near": 47,
    "inacc": 56,
@@ -10428,7 +10428,7 @@
     {
      "matter": "1997-021",
      "n_cites": 9,
-     "exist": 0.8889,
+     "exist": 1.0,
      "strict": 0.5
     },
     {
@@ -10684,7 +10684,7 @@
      "strict": 1.0
     }
    ],
-   "existence_rate": 0.9943,
+   "existence_rate": 0.9972,
    "strict_rate": 0.556
   }
  }

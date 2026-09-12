@@ -1,8 +1,8 @@
 us        exists   155 not_found    5 unresolvable    1 rate 0.969
 federal   exists   550 not_found   13 unresolvable    0 rate 0.977
 state     exists    75 not_found    9 unresolvable    0 rate 0.893
-other     exists     6 not_found    7 unresolvable  166 rate 0.462
+other     exists     6 not_found    3 unresolvable  170 rate 0.667
 sct_led   exists    59 not_found    4 unresolvable    0 rate 0.937
-overall {'exists': 845, 'not_found': 38, 'unresolvable': 167, 'existence_rate': 0.957}
+overall {'exists': 845, 'not_found': 34, 'unresolvable': 171, 'existence_rate': 0.9613}
 us+federal {'exists': 705, 'not_found': 18, 'unresolvable': 1, 'existence_rate': 0.9751}
-not found by reporter {'F.3d': 6, 'U.S.': 5, 'O.S.': 4, 'S.Ct.': 4, 'F.2d': 3, 'F. Supp. 3d': 2, 'N.W.2d': 1, 'F.R.D.': 1, 'OK': 1, 'Cal.': 1, 'A.2d': 1, 'Fed. Cl.': 1, 'A.3d': 1, 'N.E.2d': 1, 'S.E.2d': 1}
+not found by reporter {'F.3d': 6, 'U.S.': 5, 'S.Ct.': 4, 'F.2d': 3, 'F. Supp. 3d': 2, 'N.W.2d': 1, 'F.R.D.': 1, 'OK': 1, 'Cal.': 1, 'A.2d': 1, 'Fed. Cl.': 1, 'A.3d': 1, 'N.E.2d': 1, 'S.E.2d': 1, 'Pa.': 1}

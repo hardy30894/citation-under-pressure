@@ -2,23 +2,23 @@
  "deepseek": {
   "baseline": {
    "full": {
-    "exist": 0.972,
+    "exist": 0.977,
     "strict": 0.382,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.969,
+    "exist": 0.981,
     "strict": 0.455,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.966,
+    "exist": 0.971,
     "strict": 0.448,
     "n_drafts": 48
    },
-   "exist_mean": 0.969,
-   "exist_sd": 0.003,
-   "exist_range": 0.006,
+   "exist_mean": 0.976,
+   "exist_sd": 0.005,
+   "exist_range": 0.01,
    "strict_mean": 0.428,
    "strict_sd": 0.04,
    "strict_range": 0.073
@@ -35,27 +35,27 @@
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.961,
+    "exist": 0.965,
     "strict": 0.264,
     "n_drafts": 48
    },
-   "exist_mean": 0.954,
-   "exist_sd": 0.01,
-   "exist_range": 0.019,
+   "exist_mean": 0.955,
+   "exist_sd": 0.012,
+   "exist_range": 0.023,
    "strict_mean": 0.209,
    "strict_sd": 0.058,
    "strict_range": 0.115
   },
   "full_contrast": {
-   "exist": -0.013,
+   "exist": -0.018,
    "strict": -0.233
   },
   "rep2_contrast": {
-   "exist": -0.027,
+   "exist": -0.039,
    "strict": -0.241
   },
   "rep3_contrast": {
-   "exist": -0.005,
+   "exist": -0.006,
    "strict": -0.184
   },
   "identical_any_pair": 0,
@@ -64,23 +64,23 @@
  "gpt54mini": {
   "baseline": {
    "full": {
-    "exist": 0.981,
+    "exist": 0.986,
     "strict": 0.583,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.971,
+    "exist": 0.978,
     "strict": 0.592,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.956,
+    "exist": 0.966,
     "strict": 0.568,
     "n_drafts": 48
    },
-   "exist_mean": 0.969,
-   "exist_sd": 0.013,
-   "exist_range": 0.025,
+   "exist_mean": 0.977,
+   "exist_sd": 0.01,
+   "exist_range": 0.02,
    "strict_mean": 0.581,
    "strict_sd": 0.012,
    "strict_range": 0.024
@@ -109,15 +109,15 @@
    "strict_range": 0.082
   },
   "full_contrast": {
-   "exist": -0.019,
+   "exist": -0.024,
    "strict": -0.117
   },
   "rep2_contrast": {
-   "exist": -0.02,
+   "exist": -0.027,
    "strict": -0.195
   },
   "rep3_contrast": {
-   "exist": 0.003,
+   "exist": -0.007,
    "strict": -0.089
   },
   "identical_any_pair": 0,
@@ -126,23 +126,23 @@
  "grok43": {
   "baseline": {
    "full": {
-    "exist": 0.981,
+    "exist": 0.996,
     "strict": 0.48,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.984,
+    "exist": 0.996,
     "strict": 0.465,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.977,
+    "exist": 0.988,
     "strict": 0.568,
     "n_drafts": 48
    },
-   "exist_mean": 0.981,
-   "exist_sd": 0.004,
-   "exist_range": 0.007,
+   "exist_mean": 0.993,
+   "exist_sd": 0.005,
+   "exist_range": 0.008,
    "strict_mean": 0.504,
    "strict_sd": 0.056,
    "strict_range": 0.103
@@ -171,15 +171,15 @@
    "strict_range": 0.097
   },
   "full_contrast": {
-   "exist": 0.013,
+   "exist": -0.002,
    "strict": -0.177
   },
   "rep2_contrast": {
-   "exist": -0.001,
+   "exist": -0.013,
    "strict": -0.255
   },
   "rep3_contrast": {
-   "exist": 0.023,
+   "exist": 0.012,
    "strict": -0.362
   },
   "identical_any_pair": 0,
@@ -188,60 +188,60 @@
  "llama4mav": {
   "baseline": {
    "full": {
-    "exist": 0.958,
+    "exist": 0.967,
     "strict": 0.588,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.966,
+    "exist": 0.976,
     "strict": 0.519,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.968,
+    "exist": 0.972,
     "strict": 0.649,
     "n_drafts": 48
    },
-   "exist_mean": 0.964,
+   "exist_mean": 0.972,
    "exist_sd": 0.005,
-   "exist_range": 0.01,
+   "exist_range": 0.009,
    "strict_mean": 0.585,
    "strict_sd": 0.065,
    "strict_range": 0.13
   },
   "combo": {
    "full": {
-    "exist": 0.939,
+    "exist": 0.946,
     "strict": 0.23,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.929,
+    "exist": 0.931,
     "strict": 0.217,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.929,
+    "exist": 0.936,
     "strict": 0.238,
     "n_drafts": 48
    },
-   "exist_mean": 0.932,
-   "exist_sd": 0.006,
-   "exist_range": 0.01,
+   "exist_mean": 0.938,
+   "exist_sd": 0.008,
+   "exist_range": 0.015,
    "strict_mean": 0.228,
    "strict_sd": 0.011,
    "strict_range": 0.021
   },
   "full_contrast": {
-   "exist": -0.019,
+   "exist": -0.021,
    "strict": -0.358
   },
   "rep2_contrast": {
-   "exist": -0.037,
+   "exist": -0.045,
    "strict": -0.302
   },
   "rep3_contrast": {
-   "exist": -0.039,
+   "exist": -0.036,
    "strict": -0.411
   },
   "identical_any_pair": 0,
@@ -250,23 +250,23 @@
  "mistralsmall": {
   "baseline": {
    "full": {
-    "exist": 0.901,
+    "exist": 0.908,
     "strict": 0.255,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.925,
+    "exist": 0.928,
     "strict": 0.301,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.911,
+    "exist": 0.916,
     "strict": 0.291,
     "n_drafts": 48
    },
-   "exist_mean": 0.912,
-   "exist_sd": 0.012,
-   "exist_range": 0.024,
+   "exist_mean": 0.917,
+   "exist_sd": 0.01,
+   "exist_range": 0.02,
    "strict_mean": 0.282,
    "strict_sd": 0.024,
    "strict_range": 0.046
@@ -278,32 +278,32 @@
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.856,
+    "exist": 0.857,
     "strict": 0.152,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.869,
+    "exist": 0.873,
     "strict": 0.205,
     "n_drafts": 48
    },
-   "exist_mean": 0.864,
-   "exist_sd": 0.007,
-   "exist_range": 0.013,
+   "exist_mean": 0.866,
+   "exist_sd": 0.008,
+   "exist_range": 0.016,
    "strict_mean": 0.174,
    "strict_sd": 0.028,
    "strict_range": 0.053
   },
   "full_contrast": {
-   "exist": -0.033,
+   "exist": -0.04,
    "strict": -0.091
   },
   "rep2_contrast": {
-   "exist": -0.069,
+   "exist": -0.071,
    "strict": -0.149
   },
   "rep3_contrast": {
-   "exist": -0.042,
+   "exist": -0.043,
    "strict": -0.086
   },
   "identical_any_pair": 22,
@@ -312,35 +312,35 @@
  "qwen30b": {
   "baseline": {
    "full": {
-    "exist": 0.924,
+    "exist": 0.929,
     "strict": 0.179,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.901,
+    "exist": 0.907,
     "strict": 0.204,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.879,
+    "exist": 0.882,
     "strict": 0.172,
     "n_drafts": 48
    },
-   "exist_mean": 0.901,
-   "exist_sd": 0.023,
-   "exist_range": 0.045,
+   "exist_mean": 0.906,
+   "exist_sd": 0.024,
+   "exist_range": 0.047,
    "strict_mean": 0.185,
    "strict_sd": 0.017,
    "strict_range": 0.032
   },
   "combo": {
    "full": {
-    "exist": 0.773,
+    "exist": 0.775,
     "strict": 0.061,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.777,
+    "exist": 0.785,
     "strict": 0.046,
     "n_drafts": 48
    },
@@ -349,23 +349,23 @@
     "strict": 0.048,
     "n_drafts": 48
    },
-   "exist_mean": 0.746,
-   "exist_sd": 0.05,
-   "exist_range": 0.088,
+   "exist_mean": 0.75,
+   "exist_sd": 0.053,
+   "exist_range": 0.096,
    "strict_mean": 0.052,
    "strict_sd": 0.008,
    "strict_range": 0.015
   },
   "full_contrast": {
-   "exist": -0.151,
+   "exist": -0.154,
    "strict": -0.118
   },
   "rep2_contrast": {
-   "exist": -0.124,
+   "exist": -0.122,
    "strict": -0.158
   },
   "rep3_contrast": {
-   "exist": -0.19,
+   "exist": -0.193,
    "strict": -0.124
   },
   "identical_any_pair": 0,
@@ -374,21 +374,21 @@
  "sonnet": {
   "baseline": {
    "full": {
-    "exist": 0.991,
+    "exist": 0.994,
     "strict": 0.527,
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.994,
+    "exist": 0.997,
     "strict": 0.618,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.994,
+    "exist": 0.997,
     "strict": 0.574,
     "n_drafts": 48
    },
-   "exist_mean": 0.993,
+   "exist_mean": 0.996,
    "exist_sd": 0.002,
    "exist_range": 0.003,
    "strict_mean": 0.573,
@@ -402,28 +402,28 @@
     "n_drafts": 48
    },
    "rep2": {
-    "exist": 0.998,
+    "exist": 1.0,
     "strict": 0.623,
     "n_drafts": 48
    },
    "rep3": {
-    "exist": 0.993,
+    "exist": 0.996,
     "strict": 0.595,
     "n_drafts": 48
    },
-   "exist_mean": 0.996,
-   "exist_sd": 0.003,
-   "exist_range": 0.005,
+   "exist_mean": 0.998,
+   "exist_sd": 0.002,
+   "exist_range": 0.004,
    "strict_mean": 0.622,
    "strict_sd": 0.027,
    "strict_range": 0.054
   },
   "full_contrast": {
-   "exist": 0.007,
+   "exist": 0.004,
    "strict": 0.122
   },
   "rep2_contrast": {
-   "exist": 0.004,
+   "exist": 0.003,
    "strict": 0.005
   },
   "rep3_contrast": {

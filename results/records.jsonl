@@ -484,11 +484,11 @@
 {"model": "deepseek", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "accurate"}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -511,16 +511,16 @@
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
-{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
-{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
-{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "47 F.3d 332", "reporter": "F.3d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "deepseek", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "accurate"}
@@ -531,10 +531,10 @@
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "83 F.3d 1483", "reporter": "F.3d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "590 F.2d 4", "reporter": "F.2d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "47 F.3d 332", "reporter": "F.3d"}
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "369 U.S. 404", "reporter": "U.S."}
@@ -551,7 +551,7 @@
 {"model": "deepseek", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
 {"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "314 U.S. 469", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
-{"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "369 U.S. 404", "reporter": "U.S."}
 {"model": "deepseek", "matter": "1997-021", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -4615,13 +4615,13 @@
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "522 U.S. 359", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "923 F.2d 398", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "882 F.2d 19", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "47 F.3d 332", "reporter": "F.3d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -4647,11 +4647,11 @@
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "437 U.S. 483", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "923 F.2d 398", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
@@ -4666,9 +4666,9 @@
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "118 F.3d 833", "reporter": "F.3d"}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "590 F.2d 4", "reporter": "F.2d"}
-{"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
+{"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "882 F.2d 19", "reporter": "F.2d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "47 F.3d 332", "reporter": "F.3d"}
 {"model": "gpt54mini", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
@@ -8141,14 +8141,14 @@
 {"model": "grok43", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
-{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "47 F.3d 332", "reporter": "F.3d"}
-{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
 {"model": "grok43", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "inaccurate"}
@@ -8167,7 +8167,7 @@
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "437 U.S. 483", "reporter": "U.S."}
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "590 F.2d 4", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "882 F.2d 19", "reporter": "F.2d"}
@@ -8179,11 +8179,11 @@
 {"model": "grok43", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "inaccurate"}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
+{"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "grok43", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
@@ -10750,12 +10750,12 @@
 {"model": "llama4mav", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "llama4mav", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
@@ -10763,16 +10763,16 @@
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "accurate"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "near_miss"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "1989 WL 224426", "reporter": "WL"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "302 F.2d 342", "reporter": "F.2d"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "95 N.L.R.B. 664", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "95 N.L.R.B. 664", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "341 F.2d 1020", "reporter": "F.2d"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "123 N.L.R.B. 1440", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "123 N.L.R.B. 1440", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "362 F.2d 588", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "337 U.S. 656", "reporter": "U.S."}
@@ -10785,9 +10785,9 @@
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1144", "reporter": "F.2d"}
-{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
@@ -10795,10 +10795,10 @@
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unverifiable"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
-{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "289 N.L.R.B. 51", "reporter": "N.L.R.B."}
+{"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
 {"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "near_miss"}
 {"model": "llama4mav", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "413 F.2d 1084", "reporter": "F.2d"}
@@ -13137,12 +13137,12 @@
 {"model": "mistralsmall", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "inaccurate"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "467 U.S. 837", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "437 U.S. 483", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -13175,14 +13175,14 @@
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "467 U.S. 837", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "416 U.S. 267", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "882 F.2d 19", "reporter": "F.2d"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "339 F.2d 203", "reporter": "F.2d"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "463 U.S. 29", "reporter": "U.S."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "420 U.S. 251", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1140", "reporter": "F.2d"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
@@ -13194,14 +13194,14 @@
 {"model": "mistralsmall", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "463 U.S. 29", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "416 U.S. 267", "reporter": "U.S."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "467 U.S. 837", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "306 U.S. 292", "reporter": "U.S."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
-{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "293 N.L.R.B. 1000", "reporter": "N.L.R.B."}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "unpaired"}
 {"model": "mistralsmall", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "inaccurate"}
@@ -17068,7 +17068,7 @@
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1994-059", "condition": "temporal", "kind": "quote", "verdict": "unverifiable"}
-{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1139", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
@@ -17078,7 +17078,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "103 S. Ct. 2856", "reporter": "S.Ct."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "110 S. Ct. 1542", "reporter": "S.Ct."}
-{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unverifiable"}
@@ -17093,7 +17093,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "301 U.S. 1", "reporter": "U.S."}
-{"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1139", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
@@ -17114,7 +17114,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "combo", "kind": "quote", "verdict": "accurate"}
-{"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1139", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
@@ -17133,7 +17133,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "near_miss"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "quota", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
-{"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "651 F.2d 1139", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
@@ -17153,7 +17153,7 @@
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "379 U.S. 1", "reporter": "U.S."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "343 U.S. 395", "reporter": "U.S."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
-{"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
+{"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "unresolvable", "citation": "234 N.L.R.B. 888", "reporter": "N.L.R.B."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "343 U.S. 395", "reporter": "U.S."}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
 {"model": "qwen30b", "matter": "1997-021", "condition": "temporal", "kind": "quote", "verdict": "unpaired"}
@@ -21468,7 +21468,7 @@
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
-{"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "463 U.S. 29", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "baseline", "kind": "quote", "verdict": "unpaired"}
@@ -21501,7 +21501,7 @@
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
-{"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "463 U.S. 29", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "quota", "kind": "citation", "verdict": "exists", "citation": "494 U.S. 775", "reporter": "U.S."}
@@ -21516,8 +21516,8 @@
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "687 F.2d 863", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "736 F.2d 1295", "reporter": "F.2d"}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "651 F.2d 1141", "reporter": "F.2d"}
-{"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
-{"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "not_found", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
+{"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "unresolvable", "citation": "296 N.L.R.B. 1057", "reporter": "N.L.R.B."}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "482 U.S. 27", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "citation", "verdict": "exists", "citation": "340 U.S. 474", "reporter": "U.S."}
@@ -21530,7 +21530,7 @@
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1997-021", "condition": "stakes", "kind": "quote", "verdict": "accurate"}
 {"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "395 U.S. 575", "reporter": "U.S."}
-{"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "not_found", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
+{"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "unresolvable", "citation": "165 N.L.R.B. 1062", "reporter": "N.L.R.B."}
 {"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "380 U.S. 438", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "332 U.S. 194", "reporter": "U.S."}
 {"model": "sonnet", "matter": "1997-021", "condition": "temporal", "kind": "citation", "verdict": "exists", "citation": "348 U.S. 96", "reporter": "U.S."}

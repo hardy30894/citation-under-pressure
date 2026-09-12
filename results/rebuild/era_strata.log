@@ -14,4 +14,3 @@ pre1970 {'baseline': {'scored': 187, 'accurate': 84, 'strict': 0.449}, 'temporal
 post1970 {'baseline': {'scored': 1065, 'accurate': 413, 'strict': 0.388}, 'temporal': {'scored': 145, 'accurate': 41, 'strict': 0.283}, 'combo': {'scored': 171, 'accurate': 55, 'strict': 0.322}}
    pooled fit {'temporal': {'OR': 0.955, 'ci_low': 0.653, 'ci_high': 1.395, 'p': 0.81091, 'n': 1381, 'holm_p': 1.0}, 'combo': {'OR': 1.028, 'ci_low': 0.696, 'ci_high': 1.518, 'p': 0.89083, 'n': 1381, 'holm_p': 0.8908}}
 in_baseline {'baseline': {'scored': 1252, 'share_in_baseline': 1.0, 'strict_in_baseline': 0.397, 'strict_new': nan}, 'temporal': {'scored': 1082, 'share_in_baseline': 0.244, 'strict_in_baseline': 0.409, 'strict_new': 0.252}, 'combo': {'scored': 1313, 'share_in_baseline': 0.187, 'strict_in_baseline': 0.457, 'strict_new': 0.194}}
-EXIT=0

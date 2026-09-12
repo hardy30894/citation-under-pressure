@@ -6,4 +6,3 @@ mistralsmall {'no_pin': 533, 'non_us': 523, 'pin_in_span': 1046, 'pin_out_of_spa
 qwen30b {'no_pin': 904, 'non_us': 288, 'pin_in_span': 672, 'pin_out_of_span': 7, 'no_cap_data': 97, 'quote_at_pin': 30, 'quote_near_pin': 3, 'quote_not_at_pin': 15, 'pin_is_range': 0, 'range_saved': 0}
 sonnet {'no_pin': 1060, 'non_us': 150, 'pin_in_span': 691, 'pin_out_of_span': 0, 'no_cap_data': 8, 'quote_at_pin': 224, 'quote_near_pin': 8, 'quote_not_at_pin': 30, 'pin_is_range': 60, 'range_saved': 6}
 human {'no_pin': 314, 'non_us': 622, 'pin_in_span': 110, 'pin_out_of_span': 0, 'no_cap_data': 4, 'quote_at_pin': 37, 'quote_near_pin': 2, 'quote_not_at_pin': 2, 'pin_is_range': 17, 'range_saved': 1}
-EXIT=0

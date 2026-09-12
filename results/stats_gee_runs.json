@@ -1,11 +1,11 @@
 {
  "citation:deepseek:combo": {
-  "OR": 0.716,
-  "ci_low": 0.412,
-  "ci_high": 1.244,
-  "p": 0.23571,
-  "n": 2534,
-  "holm_p": 0.4714
+  "OR": 0.566,
+  "ci_low": 0.326,
+  "ci_high": 0.985,
+  "p": 0.04409,
+  "n": 2524,
+  "holm_p": 0.1323
  },
  "quote:deepseek:combo": {
   "OR": 0.39,
@@ -16,12 +16,12 @@
   "holm_p": 0.0
  },
  "citation:gpt54mini:combo": {
-  "OR": 0.734,
-  "ci_low": 0.458,
-  "ci_high": 1.177,
-  "p": 0.19931,
-  "n": 3333,
-  "holm_p": 0.5979
+  "OR": 0.578,
+  "ci_low": 0.369,
+  "ci_high": 0.905,
+  "p": 0.01661,
+  "n": 3324,
+  "holm_p": 0.0831
  },
  "quote:gpt54mini:combo": {
   "OR": 0.53,
@@ -29,15 +29,15 @@
   "ci_high": 0.781,
   "p": 0.00132,
   "n": 594,
-  "holm_p": 0.0079
+  "holm_p": 0.0092
  },
  "citation:grok43:combo": {
-  "OR": 2.173,
-  "ci_low": 0.539,
-  "ci_high": 8.758,
-  "p": 0.27514,
-  "n": 2177,
-  "holm_p": 0.2751
+  "OR": 0.926,
+  "ci_low": 0.214,
+  "ci_high": 4.006,
+  "p": 0.91788,
+  "n": 2167,
+  "holm_p": 0.9179
  },
  "quote:grok43:combo": {
   "OR": 0.323,
@@ -48,12 +48,12 @@
   "holm_p": 0.0
  },
  "citation:llama4mav:combo": {
-  "OR": 0.564,
-  "ci_low": 0.331,
-  "ci_high": 0.961,
-  "p": 0.03534,
-  "n": 2315,
-  "holm_p": 0.1767
+  "OR": 0.481,
+  "ci_low": 0.266,
+  "ci_high": 0.87,
+  "p": 0.01557,
+  "n": 2301,
+  "holm_p": 0.0934
  },
  "quote:llama4mav:combo": {
   "OR": 0.212,
@@ -64,12 +64,12 @@
   "holm_p": 0.0
  },
  "citation:mistralsmall:combo": {
-  "OR": 0.618,
-  "ci_low": 0.472,
-  "ci_high": 0.809,
-  "p": 0.00046,
-  "n": 2660,
-  "holm_p": 0.0036
+  "OR": 0.59,
+  "ci_low": 0.456,
+  "ci_high": 0.763,
+  "p": 6e-05,
+  "n": 2651,
+  "holm_p": 0.0005
  },
  "quote:mistralsmall:combo": {
   "OR": 0.516,
@@ -80,11 +80,11 @@
   "holm_p": 0.0005
  },
  "citation:qwen30b:combo": {
-  "OR": 0.365,
-  "ci_low": 0.256,
-  "ci_high": 0.521,
+  "OR": 0.354,
+  "ci_low": 0.247,
+  "ci_high": 0.507,
   "p": 0.0,
-  "n": 2338,
+  "n": 2328,
   "holm_p": 0.0
  },
  "quote:qwen30b:combo": {
@@ -96,12 +96,12 @@
   "holm_p": 0.0
  },
  "citation:sonnet:combo": {
-  "OR": 2.008,
-  "ci_low": 1.331,
-  "ci_high": 3.03,
-  "p": 0.00089,
-  "n": 2299,
-  "holm_p": 0.0063
+  "OR": 2.059,
+  "ci_low": 1.041,
+  "ci_high": 4.075,
+  "p": 0.03807,
+  "n": 2294,
+  "holm_p": 0.1523
  },
  "quote:sonnet:combo": {
   "OR": 1.238,
@@ -109,6 +109,6 @@
   "ci_high": 1.587,
   "p": 0.09176,
   "n": 1344,
-  "holm_p": 0.3671
+  "holm_p": 0.1835
  }
 }

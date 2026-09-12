@@ -58,6 +58,7 @@ class SqliteIndex:
 
     def __init__(self, path):
         self._conn = sqlite3.connect(str(path), check_same_thread=False)
+        self._coverage = {}
 
     # spellings the database does not carry, mapped to the one it does
     # (compared with spaces and periods stripped); the Federal Appendix is
@@ -65,6 +66,23 @@ class SqliteIndex:
     # apostrophe in OCR text
     ALIASES = {"FedAppx": "FApp'x", "FAppx": "FApp'x", "FedApp'x": "FApp'x",
                "FApp\u2019x": "FApp'x", "FedApp\u2019x": "FApp'x"}
+
+    def covers(self, reporter):
+        """Does the index hold any citation at all in this reporter?
+
+        eyecite only emits a full case citation for a reporter in its own
+        reporters database, so a reporter that reaches this point is a real
+        one. If the index holds nothing for it, every citation to it is a
+        coverage gap and not evidence of fabrication: the agency reporters
+        (N.L.R.B., M.S.P.B.) are the case in point. Cached per reporter."""
+        norm = (reporter or "").replace(" ", "").replace(".", "")
+        norm = self.ALIASES.get(norm, self.ALIASES.get(norm.replace("\u2019", "'"), norm))
+        if norm not in self._coverage:
+            self._coverage[norm] = self._conn.execute(
+                "SELECT EXISTS(SELECT 1 FROM citations WHERE "
+                "REPLACE(REPLACE(reporter, ' ', ''), '.', '') = ?)",
+                (norm,)).fetchone()[0]
+        return bool(self._coverage[norm])
 
     def lookup(self, volume, reporter, page):
         # Reporter spellings vary ("L.Ed.2d" in opinions vs "L. Ed. 2d" in the
@@ -150,6 +168,15 @@ class CitationChecker:
         if rep_norm == "WL" or rep_norm.endswith("LEXIS"):
             rec["verdict"] = "unresolvable"
             rec["vendor_cite"] = True
+            return rec
+
+        # A reporter the index does not carry at all cannot be adjudicated,
+        # so it is unresolvable rather than not found: index coverage must
+        # never masquerade as fabrication. eyecite parses only reporters in
+        # its own database, so an invented reporter never reaches here.
+        if hasattr(self.index, "covers") and not self.index.covers(rep):
+            rec["verdict"] = "unresolvable"
+            rec["coverage_gap"] = True
             return rec
 
         hit = self.index.lookup(vol, rep, page)

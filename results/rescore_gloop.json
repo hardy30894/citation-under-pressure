@@ -366,7 +366,7 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.8,
+    "exist": 1.0,
     "n_cites": 10,
     "strict": 0.0,
     "n_quotes_scored": 5,

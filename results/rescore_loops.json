@@ -11492,7 +11492,7 @@
    "rounds": 2,
    "converged": true,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
@@ -11532,14 +11532,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
     "acc": 0
    },
    "final": {
-    "exist": 0.5455,
+    "exist": 0.8571,
     "n_cites": 12,
     "strict": 0.0,
     "n_quotes_scored": 1,
@@ -11572,14 +11572,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
     "acc": 0
    },
    "final": {
-    "exist": 0.7,
+    "exist": 1.0,
     "n_cites": 10,
     "strict": 0.333,
     "n_quotes_scored": 3,
@@ -11672,7 +11672,7 @@
    "rounds": 3,
    "converged": true,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
@@ -11772,14 +11772,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
     "acc": 0
    },
    "final": {
-    "exist": 0.4286,
+    "exist": 0.6,
     "n_cites": 7,
     "strict": null,
     "n_quotes_scored": 0,
@@ -12012,7 +12012,7 @@
    "rounds": 3,
    "converged": true,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
@@ -12092,7 +12092,7 @@
    "rounds": 2,
    "converged": true,
    "r0": {
-    "exist": 0.6429,
+    "exist": 0.9,
     "n_cites": 15,
     "strict": 0.0,
     "n_quotes_scored": 1,
@@ -15101,7 +15101,7 @@
     "acc": 0
    },
    "final": {
-    "exist": 0.6364,
+    "exist": 0.7,
     "n_cites": 11,
     "strict": 0.0,
     "n_quotes_scored": 5,
@@ -17656,14 +17656,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
@@ -17696,14 +17696,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.625,
+    "exist": 0.7143,
     "n_cites": 8,
     "strict": 1.0,
     "n_quotes_scored": 3,
@@ -17796,14 +17796,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 1.0,
     "n_quotes_scored": 4,
@@ -17856,14 +17856,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 1.0,
     "n_quotes_scored": 4,
@@ -17936,14 +17936,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.875,
+    "exist": 1.0,
     "n_cites": 8,
     "strict": 0.8,
     "n_quotes_scored": 5,
@@ -17996,14 +17996,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
@@ -18076,14 +18076,14 @@
    "rounds": 4,
    "converged": false,
    "r0": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,
     "acc": 4
    },
    "final": {
-    "exist": 0.7778,
+    "exist": 0.875,
     "n_cites": 9,
     "strict": 0.8,
     "n_quotes_scored": 5,

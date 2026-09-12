@@ -1003,3 +1003,53 @@ before or after seeing the relevant data. Nothing is deleted.
   rate, and 103 of the 160 failures are unexplained after the 57 OCR
   near misses, which is why the figure is a severity floor and not a
   lawyer error rate.
+- 2026-09-12 (full verification pass before submission). Two real
+  defects found and fixed, plus seven source-attribution corrections.
+  INSTRUMENT BUG, now fixed. The paper claimed the unverifiable label
+  covered "a reporter the index does not carry", but the code only gave
+  it to vendor database numbers and malformed cites. A reporter the
+  index holds nothing from fell through to not_found, i.e. was counted
+  as fabrication. N.L.R.B. was the case: 54 citations, all 54 labelled
+  not found, in an agency reporter the index has zero rows for. The
+  design note had flagged the agency-reporter blind spot before the
+  freeze and it was never closed. SqliteIndex.covers() now answers
+  whether the index holds anything in a reporter, cached, and the
+  checker returns unresolvable with a coverage_gap flag when it does
+  not. The fix is safe because eyecite emits a full case citation only
+  for reporters in its own database, so an invented reporter (F.5th,
+  S.W.4th) never reaches the checker and cannot hide behind the label.
+  Effect after the full rebuild: not_found 774 to 720, unresolvable 25
+  to 79, exists unchanged at 13,241; the largest cell shift is 0.019 and
+  all eight pre-registered survivors are unchanged.
+  STALE RESULT, now fixed. results/index_recall.json was dated 3
+  September and was not in rebuild_all.sh, so it predated the Federal
+  Appendix alias fix and showed Fed. Appx. failing 11 of 11 on citations
+  that are real by construction. Re-run, it is 0 of 11. The two numbers
+  the paper cites from it, 1 of 227 U.S. Reports and 3 of 759 federal
+  reporters, were unchanged. index_recall.py is now in the pipeline.
+  TWO TYPED RESULTS, now macro-driven: the seeded validation count and
+  the band the five stable models sit in were literals in the text.
+  SOURCE ATTRIBUTIONS, from a verification pass over every cited claim.
+  Four were wrong: ortega2025scotusmem classifies SCDB issue areas and
+  documents no memorisation confound, so the cite is dropped and the
+  sentence states only the design fact; LegalCiteBench's task is
+  supplying the authorities a proposition rests on, not a named case's
+  citation, and the magnitude is under 7 of 100; RLEF has a
+  random-feedback ablation, which is the analogue of our false arm, and
+  no no-feedback control, so the sentence is rewritten and our
+  no-feedback arm is claimed as ours; the Rule 11 sentence cited a bib
+  entry for Rule 1, now Rule 11(b)-(c) with Rule 1 for scope. Two were
+  overstated: Liu et al.'s misrepresentation labels are model-injected
+  with a 40-item expert review, so "expert labels" becomes
+  "content-misrepresentation labels", and the 0.75 bar was ours, set by
+  reference to reported judge agreement, not Zheng's. One was loose:
+  their taxonomy is grounded in real court filings, not only sanctioned
+  ones. Garneau et al. is CJEU material, now said, and the second
+  author's surname is Palmer Olsen, fixed in the bib.
+  VERIFIED CLEAN: numbers.tex regenerates identically from results/, so
+  no number in the paper is typed; all 35 Table 1 cells reconcile with
+  records.jsonl; all seven Table 2 rows sum to their flagged totals; 70
+  of 70 figure and table source cells match their macros; the Figure 1
+  human line matches human_baseline.json; both figure PDFs postdate
+  their data; no undefined macros, no unresolved references, no overfull
+  boxes; ten body pages with references from page 11.
