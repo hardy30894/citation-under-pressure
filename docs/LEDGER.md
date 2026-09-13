@@ -1351,3 +1351,26 @@ before or after seeing the relevant data. Nothing is deleted.
   the second task are now a table in the README, checked cell by cell
   against appellate_stats.json, so the second task can be read at the
   same grain as the first.
+  (13) A reader working from an older copy of the repository reported that
+  the coverage-gap rule is missing from the code, that records.jsonl
+  shows 774 not found and 25 unverifiable against the macros' 720 and 79,
+  and that 24 citations to U.S. Tax Cas. (CCH) are counted as not found
+  in a reporter the index lacks. Checked, and the first two are artefacts
+  of the stale copy: SqliteIndex.covers and the coverage_gap branch are in
+  the committed src/checker/citation_checker.py, and results/records.jsonl
+  in the repository reads 13,241 exists, 720 not found, 79 unresolvable,
+  which is what numbers.tex emits. The 54 N.L.R.B. citations they see as
+  not found are unresolvable here, and the index holds zero rows for that
+  reporter, which is why. The third is wrong on its facts: the index holds
+  3,020 rows for U.S. Tax Cas. (CCH), so those 24 are ordinary
+  not-founds at a volume and page the index does not have, not a coverage
+  gap. Every one of the 46 distinct reporters in the not-found bucket was
+  checked against the index and all are carried, so no not-found citation
+  anywhere in the run sits in an uncarried reporter. Their underlying
+  instinct was still right about the wording, for a narrower reason than
+  they gave: the rule guarantees reporter-level coverage and not
+  volume-level, and results/index_recall.json shows the index missing 21
+  of 1,758 citations taken from the deciding opinions themselves. "So
+  coverage is never counted as fabrication" therefore claimed more than
+  the rule delivers and now reads "so an absent reporter is never counted
+  as fabrication", which is exactly what is guaranteed.
