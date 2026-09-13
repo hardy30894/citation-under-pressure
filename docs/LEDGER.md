@@ -1315,3 +1315,15 @@ before or after seeing the relevant data. Nothing is deleted.
   adding the passage-arm result to the Conclusion. All three are already
   stated where they belong, none is a defect, and the last was tried and
   reverted when it cost a robustness sentence to fit.
+  (11) Hardy read the manuscript and asked why Section 3 introduces
+  federal appellate material when everything before it says Supreme
+  Court. Nothing in the paper is false: the primary run is 48 Supreme
+  Court matters, 1,680 drafts, and the second task is 48 published F.3d
+  decisions run under all five conditions, 1,708 more drafts, reported in
+  its own paragraph in Section 4 and pooled with the primary task there.
+  The defect is that the abstract never said so. It named only the
+  Supreme Court matters, so a reader met the second task unannounced, and
+  "Both tasks are United States federal case law" in the Limitations
+  referred to something the abstract had not introduced. The abstract now
+  ends its design sentence with the second task. Found by the author, not
+  by any of the four review passes.
