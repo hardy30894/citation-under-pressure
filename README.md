@@ -866,7 +866,7 @@ the deciding court's own statement of the case with the analysis
 withheld and outcome sentences scrubbed), run under all five conditions
 on all seven models, shows that fabrication at a neutral prompt is more
 common outside the Supreme Court. Baseline reporter-coordinate existence is 0.65
-for the 30B model, 0.73 for Mistral Small, 0.91 to 0.96 for the four
+for the 30B model, 0.72 for Mistral Small, 0.91 to 0.96 for the four
 models in between, and 0.99 for Sonnet 5 alone. Twenty-two percent of
 citations to the federal reporters do not resolve against four percent
 of citations to the U.S. Reports (the index misses 0.4 percent of the
@@ -874,12 +874,28 @@ federal-reporter citations in the deciding opinions themselves, so the
 gap is not coverage), and at baseline the models cite the U.S. Reports
 for 37 to 58 percent of their authorities in a circuit appeal.
 
-Within the task, one pressure contrast survives correction, Llama-4's
-existence fall under the date restriction (0.950 to 0.857, odds ratio
-0.32, corrected p 0.018); Sonnet 5's quotation rate rises under the
-sanctions warning alone (0.475 to 0.624, odds ratio 1.81, corrected p
-0.057), without any shift toward older cases, and that rise survives
-only the pooled-task fit (odds ratio 1.59, corrected p 0.009). Pooled
+All 35 cells of the second task, strict quotation accuracy over
+attributed quotations / reporter-coordinate existence, so the second
+task can be read at the same grain as the first (source:
+`results/appellate_stats.json`):
+
+| model | baseline | quota | temporal | stakes | combined |
+|---|---|---|---|---|---|
+| Qwen3-30B | 0.039 / 0.652 | 0.048 / 0.690 | 0.030 / 0.596 | 0.063 / 0.740 | 0.014 / 0.546 |
+| Mistral Small | 0.243 / 0.725 | 0.210 / 0.752 | 0.125 / 0.762 | 0.250 / 0.716 | 0.074 / 0.734 |
+| Llama-4 Maverick | 0.238 / 0.950 | 0.243 / 0.951 | 0.157 / 0.861 | 0.388 / 0.931 | 0.106 / 0.859 |
+| DeepSeek V4 Flash | 0.268 / 0.913 | 0.236 / 0.890 | 0.191 / 0.876 | 0.191 / 0.911 | 0.233 / 0.913 |
+| Grok 4.3 | 0.419 / 0.959 | 0.470 / 0.971 | 0.379 / 0.975 | 0.435 / 0.968 | 0.361 / 0.972 |
+| GPT-5.4-mini | 0.370 / 0.926 | 0.483 / 0.940 | 0.271 / 0.923 | 0.434 / 0.957 | 0.196 / 0.930 |
+| Sonnet 5 | 0.468 / 0.993 | 0.565 / 0.989 | 0.587 / 0.994 | 0.624 / 0.994 | 0.541 / 0.998 |
+
+Within the task two contrasts survive correction. Llama-4's
+reporter-coordinate existence falls under the date restriction (0.950 to
+0.861, odds ratio 0.33, corrected p 0.031), and Sonnet 5's quotation
+rate rises under the sanctions warning alone (0.468 to 0.624, odds ratio
+1.84, corrected p 0.049) without any shift toward older cases; that rise
+strengthens in the pooled-task fit (odds ratio 1.62, corrected p
+0.007). Pooled
 over both tasks, seven of the eight Supreme Court survivors survive
 (Qwen3-30B's quota existence fall drops out), joined by Llama-4's
 existence falls under the temporal and combined clauses, DeepSeek's

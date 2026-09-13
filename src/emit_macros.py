@@ -370,6 +370,11 @@ if gs.exists():
 ap = R / "appellate_stats.json"
 if ap.exists():
     a = json.loads(ap.read_text())
+    # contrasts surviving Holm inside the second task, counted rather
+    # than asserted: a fall and a rise, and the count has moved before
+    _asurv = [k for k, v in a["gee"].items() if v["holm_p"] < 0.05]
+    emit2("aTaskSurv", ["no", "one", "two", "three", "four", "five", "six", "seven", "eight"][len(_asurv)]
+                         if len(_asurv) < 9 else str(len(_asurv)))
     for m, mk in ALPHA.items():
         for c, ck in (("baseline", "Base"), ("combo", "Combo")):
             v = a["rates"].get(f"{m}:{c}")

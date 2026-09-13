@@ -1327,3 +1327,27 @@ before or after seeing the relevant data. Nothing is deleted.
   referred to something the abstract had not introduced. The abstract now
   ends its design sentence with the second task. Found by the author, not
   by any of the four review passes.
+  (12) The same question, asked one step further ("and no tables or
+  graphs either?"), found a real error. Every exhibit in the paper draws
+  on the primary task: Figure 1 and Table 1 from rescore_full.json, Table
+  2 and Figure 2 from the loop, which runs on the Supreme Court combined
+  drafts. The second task has no exhibit and is reported in prose alone,
+  which is a defensible choice at ten pages but leaves it the thinnest
+  part of the presentation. Chasing that turned up the error: the paper
+  said "one pressure contrast survives within the task", and two do.
+  Llama-4's existence fall under the temporal clause has a corrected p of
+  0.031, and Sonnet 5's quotation rise under the stakes clause has 0.049,
+  which the paper already reported a paragraph earlier without noticing
+  that it crosses the same threshold. The count is now a macro
+  (aTaskSurv) computed from the fit rather than asserted in prose, so it
+  cannot drift again, and both contrasts are named. The README carried
+  three stale numbers for the same paragraph, from before an earlier
+  rebuild: Llama-4's odds ratio and corrected p as 0.32 and 0.018 against
+  the current 0.33 and 0.031, Sonnet's as 1.81 and 0.057 against 1.84 and
+  0.049, and the pooled figures as 1.59 and 0.009 against 1.62 and 0.007.
+  The 0.057 mattered, because at 0.049 that contrast survives correction
+  and the README said it did not. Mistral Small's baseline existence was
+  also rounded up to 0.73 from 0.7247. All corrected, and the 35 cells of
+  the second task are now a table in the README, checked cell by cell
+  against appellate_stats.json, so the second task can be read at the
+  same grain as the first.
