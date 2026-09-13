@@ -1374,3 +1374,27 @@ before or after seeing the relevant data. Nothing is deleted.
   coverage is never counted as fabrication" therefore claimed more than
   the rule delivers and now reads "so an absent reporter is never counted
   as fabrication", which is exactly what is guaranteed.
+  (14) On Hardy's instruction, the second task was written into Sections 4
+  and 5 in full, with nothing else changed and the page limit deliberately
+  left broken for him to cut by hand. Section 4 gains Table 3, all 35
+  cells of the 48 F.3d appeals, strict quotation accuracy over attributed
+  quotations against reporter-coordinate existence for seven models under
+  five conditions, and three paragraphs: the cross-task baseline, where
+  federal existence runs 0.652 to 0.993 and every one of the seven scores
+  lower on its own federal baseline than on its Supreme Court baseline;
+  both surviving contrasts with odds ratios, Llama-4's existence fall
+  under the temporal clause and Sonnet 5's quotation rise under the stakes
+  clause, with the pooled-task refit; and the count outcome, computed for
+  this task from records_app.jsonl (count_outcome_app.json, now in the
+  pipeline). That last is a null and is reported as one: six of seven fall
+  from baseline to combined and none survives Holm, because the federal
+  task yields 0.12 to 2.00 accurate quotations per draft against 0.62 to
+  2.83 on the Supreme Court task, so the paired test has almost nothing to
+  test. Underpowered, not contradictory. Section 5 gains one sentence and
+  no results, because there is no federal revision loop: every loop
+  directory holds Supreme Court matter ids, so the section says outright
+  that it is task one only. One claim was written and then withdrawn
+  before it reached a build: that federal baseline accuracy sits below
+  every Supreme Court cell. It does not, since Qwen3-30B's combined
+  Supreme Court cell is 0.061. The paired statement is both true and
+  stronger and replaced it.

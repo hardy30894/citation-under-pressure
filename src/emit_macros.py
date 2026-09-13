@@ -426,6 +426,9 @@ if ap.exists():
     lower = sum(1 for m in ALPHA if f"{m}:baseline" in a["rates"] and
                 a["rates"][f"{m}:baseline"]["exist"] < a["baseline_vs_scotus"][m]["scotus_exist"])
     emit2("aLowerThanScotus", str(lower))
+    emit2("aLowerStrictThanScotus", str(sum(
+        1 for m in ALPHA if a["baseline_vs_scotus"][m]["app_strict"]
+        < a["baseline_vs_scotus"][m]["scotus_strict"])))
     qs = [k for k, v in a["gee_pooled_tasks"].items() if k.startswith("quote:") and v.get("holm_p") is not None and v["holm_p"] < 0.05 and v["OR"] < 1]
     emit2("aPooledQuoteFalls", str(len(qs)))
     surv = [k for k, v in a["gee"].items() if v.get("holm_p") is not None and v["holm_p"] < 0.05]
@@ -435,6 +438,20 @@ if ap.exists():
     pooled_t = {k for k, v in a["gee_pooled_tasks"].items() if v.get("holm_p") is not None and v["holm_p"] < 0.05}
     emit2("aPooledKept", str(len(prim & pooled_t)))
     emit2("aPooledExtraFalls", str(sum(1 for k in pooled_t - prim if a["gee_pooled_tasks"][k]["OR"] < 1)))
+    emit2("aSurvCite", str(sum(1 for k in surv if k.startswith("citation:"))))
+    emit2("aSurvQuote", str(sum(1 for k in surv if k.startswith("quote:"))))
+    emit2("aPooledSurvN", str(len(pooled_t)))
+    # denominators for every cell, so the second task can carry a table
+    for m, mk in ALPHA.items():
+        for c, ck in CONDS.items():
+            v = a["rates"].get(f"{m}:{c}")
+            if v:
+                emit2(f"aNf{mk}{ck}", str(v["not_found"]))
+                emit2(f"aAdjAll{mk}{ck}", str(v["adjudicable"]))
+                emit2(f"aScored{mk}{ck}", str(v["quotes_scored"]))
+    st = [a["rates"][f"{m}:baseline"]["strict"] for m in ALPHA if f"{m}:baseline" in a["rates"]]
+    emit2("aStrictBaseMin", fmt3(min(st)))
+    emit2("aStrictBaseMax", fmt3(max(st)))
 
 ea = R / "era_attribution_check.json"
 if ea.exists():
@@ -955,6 +972,26 @@ if co.exists():
     # models whose accurate count falls from baseline to combined, and by how much
     drops = [(m, t["cells"][f"{m}:baseline"]["acc_per_draft"], t["cells"][f"{m}:combo"]["acc_per_draft"]) for m in ALPHA]
     emit2("countComboFallers", str(sum(1 for m, a, b in drops if b < a)))
+
+# the count outcome on the second task (results/count_outcome_app.json)
+coa = R / "count_outcome_app.json"
+if coa.exists():
+    t = json.loads(coa.read_text())
+    surv = [k for k, v in t["tests"].items() if v["holm_p"] < 0.05]
+    emit2("aCountSurvivors", ["no", "one", "two", "three", "four", "five",
+                              "six", "seven", "eight"][len(surv)] if len(surv) < 9 else str(len(surv)))
+    fall = sum(1 for m in ALPHA if t["cells"][f"{m}:combo"]["acc_per_draft"]
+               < t["cells"][f"{m}:baseline"]["acc_per_draft"])
+    emit2("aCountFallers", ["no", "one", "two", "three", "four", "five",
+                            "six", "seven", "eight"][fall] if fall < 9 else str(fall))
+    for m, mk in ALPHA.items():
+        for c, ck in CONDS.items():
+            v = t["cells"].get(f"{m}:{c}")
+            if v:
+                emit2(f"aAccPerDraft{mk}{ck}", f"{v['acc_per_draft']:.2f}")
+    _ap = [t["cells"][f"{m}:baseline"]["acc_per_draft"] for m in ALPHA]
+    emit2("aAccPerDraftBaseMin", f"{min(_ap):.2f}")
+    emit2("aAccPerDraftBaseMax", f"{max(_ap):.2f}")
 
 # the same count outcome on the second prompt template (count_outcome_para.json),
 # the replication check: how far the per-draft count result is template-specific
